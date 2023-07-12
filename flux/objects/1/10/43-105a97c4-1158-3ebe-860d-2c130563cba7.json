@@ -1,0 +1,4921 @@
+{
+  "@id": "https://data.datatourisme.fr/43/105a97c4-1158-3ebe-860d-2c130563cba7",
+  "dc:identifier": "52717",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "HÔTEL LOGIS DES CORDELIERS"
+    ]
+  },
+  "allowedPersons": 50,
+  "availableLanguage": [
+    "Anglais",
+    "Français"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/5575f6ed-8286-3321-851c-42358aa9e7cc",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d78008a1-eee6-3081-8801-ae1aa64df521",
+          "schema:addressLocality": "Condom",
+          "schema:postalCode": "32100",
+          "schema:streetAddress": [
+            "2 bis rue de la Paix",
+            "HOTEL LOGIS DES CORDELIERS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32107",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Condom"
+              ],
+              "pt": [
+                "Condom"
+              ],
+              "en": [
+                "Condom"
+              ],
+              "it": [
+                "Condom"
+              ],
+              "fr": [
+                "Condom"
+              ],
+              "nl": [
+                "Condom"
+              ],
+              "es": [
+                "Condom"
+              ]
+            },
+            "insee": "32107",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@logisdescordeliers.com"
+      ],
+      "schema:telephone": [
+        "+33 5 62 28 03 68"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.logisdescordeliers.com/"
+      ],
+      "siret": "31959805800018"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/13639947-44eb-305c-a9aa-edc921dd62a4",
+      "dc:description": {
+        "de": [
+          "Dieses gemütliche, familiäre und einladende Hotel mit 21 Zimmern liegt im Herzen von Condom, der Handelshauptstadt des Armagnac und der Grand Site Occitanie, inmitten einer grünen Insel der Ruhe und Entspannung\nAlle klimatisierten, umweltfreundlich eingerichteten Zimmer öffnen sich zur Hälfte zum blauen Wasser des Swimmingpools und verfügen über einen eigenen Balkon.\n2 Zimmer mit 2 Doppelbetten, 13 Zimmer mit 1 Doppelbett, 3 Zimmer mit 3 Einzelbetten, 3 Zimmer mit 1 Doppelbett und 2 Einzelbetten.\n\nEs wird ein Tarif für Pilger angeboten."
+        ],
+        "en": [
+          "Located in the very heart of Condom, the commercial capital of Armagnac, Grand Site Occitanie, in the middle of an island of greenery and silence, this warm, family and welcoming hotel with 21 rooms is ideal for rest and relaxation\nAll the air-conditioned rooms, decorated with the preservation of the environment in mind, open, for half of them, onto the blue waters of the swimming pool and have a private balcony.\n2 rooms with 2 double beds, 13 rooms with 1 double bed, 3 rooms with 3 single beds, 3 rooms with 1 double bed and 2 single beds.\n\nPilgrims are offered a special rate."
+        ],
+        "it": [
+          "Situato nel cuore di Condom, capitale commerciale dell'Armagnac, Grand Site Occitanie, al centro di un'isola di verde e di silenzio, questo hotel caldo, familiare e accogliente, con 21 camere, è ideale per il riposo e il relax\nTutte le camere climatizzate, arredate nel rispetto dell'ambiente, si aprono, per metà, sulle acque blu della piscina e dispongono di un balcone privato.\n2 camere con 2 letti matrimoniali, 13 camere con 1 letto matrimoniale, 3 camere con 3 letti singoli, 3 camere con 1 letto matrimoniale e 2 letti singoli.\n\nÈ disponibile una tariffa per i pellegrinaggi."
+        ],
+        "fr": [
+          "Situé au coeur même de Condom, capitale commerciale de l'Armagnac, Grand Site Occitanie au milieu d'un îlot de verdure et de silence, cet hôtel chaleureux, familial et accueillant comprenant 21 chambres, se prête au repos et à la détente. \nToutes les chambres climatisées, décorées dans le souci de la préservation de l'environnement ouvrent, pour moitié d'entre elles, sur les eaux bleues de la piscine et possèdent un balcon privatif.\n2 chambres avec 2 grands lits, 13 chambres avec 1 grand lit, 3 chambres avec 3 lits 90, 3 chambres avec 1 grand lit et 2 lits 90.\n\nUn tarif pour les pèlerins est proposé."
+        ],
+        "es": [
+          "Situado en pleno corazón de Condom, capital comercial de Armagnac, Grand Site Occitanie, en medio de una isla de verdor y silencio, este cálido hotel familiar y acogedor de 21 habitaciones es ideal para descansar y relajarse\nTodas las habitaciones climatizadas, decoradas pensando en la preservación del medio ambiente, se abren, la mitad de ellas, a las aguas azules de la piscina y disponen de balcón privado.\n2 habitaciones con 2 camas dobles, 13 habitaciones con 1 cama doble, 3 habitaciones con 3 camas individuales, 3 habitaciones con 1 cama doble y 2 camas individuales.\n\nExiste una tarifa para peregrinos."
+        ],
+        "nl": [
+          "Gelegen in het hart van Condom, de commerciële hoofdstad van Armagnac, Grand Site Occitanie, in het midden van een eiland van groen en stilte, is dit warme, gezellige familiehotel met 21 kamers ideaal voor rust en ontspanning\nAlle kamers met airconditioning, ingericht met het oog op het behoud van het milieu, kijken voor de helft uit op het blauwe water van het zwembad en hebben een eigen balkon.\n2 kamers met 2 tweepersoonsbedden, 13 kamers met 1 tweepersoonsbed, 3 kamers met 3 eenpersoonsbedden, 3 kamers met 1 tweepersoonsbed en 2 eenpersoonsbedden.\n\nEr is een pelgrimstarief beschikbaar."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/096b7caf-1a14-3db8-b751-0096386986fd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/49ffaced-3cc7-3155-a5ef-3884eefa8c38",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/588218db-764a-3f5b-b545-53977b0d3cfc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/66715b03-4f74-37ce-8dd2-934d0ea642a4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e7828d2b-c9ad-30a4-a49f-06e6a4406866",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0adbd0d7-d75b-3a3a-a7b4-0d4b850e75a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HairDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Haartrockner"
+            ],
+            "pt": [
+              "Secador de cabelo"
+            ],
+            "en": [
+              "Hair dryer"
+            ],
+            "it": [
+              "Asciugacapelli"
+            ],
+            "fr": [
+              "Sèche cheveux"
+            ],
+            "es": [
+              "Secador de pelo"
+            ],
+            "nl": [
+              "Haardroger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/127f42eb-1808-3dc5-8508-47d357e52dd5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1b5e40e9-c00a-3299-b555-a7af2c4a5a5a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CableSatellite",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kabel – Satellit"
+            ],
+            "pt": [
+              "Cabo, satélite"
+            ],
+            "en": [
+              "Cable - satellite"
+            ],
+            "it": [
+              "Cavo - satellite"
+            ],
+            "fr": [
+              "Câble - satellite"
+            ],
+            "es": [
+              "Televisión por cable, satélite"
+            ],
+            "nl": [
+              "Kabel - satelliet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2efca5a9-ce7a-3931-9357-1a92f15a9c0d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4f13215c-f2e1-39ea-bec1-9216c9aec57b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56549fce-ea21-3f66-8b97-a309ad02f68f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fd4216b-cd81-3226-85fa-9febecf27ff5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Phone",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Telefon"
+            ],
+            "pt": [
+              "Telefone"
+            ],
+            "en": [
+              "Phone"
+            ],
+            "it": [
+              "Telefono"
+            ],
+            "fr": [
+              "Téléphone"
+            ],
+            "nl": [
+              "Telefoon"
+            ],
+            "es": [
+              "Teléfono"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8cc39041-f7d6-3165-907e-a836b7cebf87",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8a00ad4-1f5b-3178-aa00-e60ff98b99c1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TerraceBalcony",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse, Balkon"
+            ],
+            "pt": [
+              "Terraço varanda"
+            ],
+            "en": [
+              "Terrace balcony"
+            ],
+            "it": [
+              "Terrazza balcone"
+            ],
+            "fr": [
+              "Terrasse balcon"
+            ],
+            "nl": [
+              "Balkonterras"
+            ],
+            "es": [
+              "Balcón terraza"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca034818-4da7-31b0-ae8d-d5eb5407a6a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d1ee55-7168-34ec-8376-2a924957d460",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Park"
+            ],
+            "pt": [
+              "Parque"
+            ],
+            "en": [
+              "Park"
+            ],
+            "it": [
+              "Parco"
+            ],
+            "fr": [
+              "Parc"
+            ],
+            "es": [
+              "Parque"
+            ],
+            "nl": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dcdc3748-4bdb-342a-9961-26d534d9cebf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bibliothek"
+            ],
+            "pt": [
+              "Biblioteca"
+            ],
+            "en": [
+              "Library"
+            ],
+            "it": [
+              "Biblioteca"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ],
+            "nl": [
+              "Bibliotheek"
+            ],
+            "es": [
+              "Biblioteca"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2e1f52d-9c98-3611-b7d0-d4fd12e3ffa0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e98187ca-a244-3a2d-b782-d85d08bc2c84",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:AirConditioner",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Klimaanlage"
+            ],
+            "pt": [
+              "Sistema de ar condicionado"
+            ],
+            "en": [
+              "Air conditioner"
+            ],
+            "it": [
+              "Aria condizionata"
+            ],
+            "fr": [
+              "Climatisation"
+            ],
+            "es": [
+              "Sistema de aire acondicionado"
+            ],
+            "nl": [
+              "Klimaatbeheersing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f30fd3aa-a3a2-3912-9cfe-47a7c17fcff8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f35d3b93-c6db-371a-a080-7bfa45ad102a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:PrivateGarage",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Private Garage"
+            ],
+            "pt": [
+              "Garagem privativa"
+            ],
+            "en": [
+              "Private garage"
+            ],
+            "it": [
+              "Garage privato"
+            ],
+            "fr": [
+              "Garage privé"
+            ],
+            "nl": [
+              "Privégarage"
+            ],
+            "es": [
+              "Garaje privado"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/2f33a6f3-a25f-35ba-8383-8e3bbe6c3b96",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/afdc55de-3157-3b79-9ab2-45e0e998bf61",
+          "ebucore:title": {
+            "fr": [
+              "Petit déjeuner avec vue sur jardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Logis de Cordeliers"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3b893690-ddfd-3ee4-9d45-7e155eda6b80",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0013210.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/2f33a6f3-a25f-35ba-8383-8e3bbe6c3b96",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/afdc55de-3157-3b79-9ab2-45e0e998bf61",
+          "ebucore:title": {
+            "fr": [
+              "Petit déjeuner avec vue sur jardin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Logis de Cordeliers"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3b893690-ddfd-3ee4-9d45-7e155eda6b80",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0013210.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56b41584-b739-3a1f-9cf6-7cde85a68f8e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/45990df8-73c7-3566-b487-2c58d78301d1",
+          "ebucore:title": {
+            "fr": [
+              "Piscine et terrasse aménagée"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Logis de Cordeliers"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/a4ac39bf-784f-381d-83e8-58c3bf982e04",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0013213.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/60ae1630-fffc-38ba-88bb-f7ee82c88873",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f4395879-c0cc-3a95-a9f8-8bb5e428b30c",
+          "ebucore:title": {
+            "fr": [
+              "Chambre double avec grand lit"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Logis de Cordeliers"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c63fbdfd-634e-3c1e-a20f-82dbb6b6abbd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0013212.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7bf439b3-e761-3890-a99e-71a74b6206af",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f462fc39-f991-377f-a8fb-4474dd3dd5d1",
+          "ebucore:title": {
+            "fr": [
+              "Chambre double"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Logis de Cordeliers"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f67e994e-5720-3a54-a5c3-f3cd788bd942",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0013211.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/2feb6ea4-2b39-3346-981e-a96ea83f84c0",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bed51d58-afff-356c-b32b-c23d06340eb7",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2017-10-05"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/cecb47f6-fc69-31e9-a2c9-9906533da855",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d78008a1-eee6-3081-8801-ae1aa64df521",
+          "schema:addressLocality": "Condom",
+          "schema:postalCode": "32100",
+          "schema:streetAddress": [
+            "2 bis rue de la Paix",
+            "HOTEL LOGIS DES CORDELIERS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32107",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Condom"
+              ],
+              "pt": [
+                "Condom"
+              ],
+              "en": [
+                "Condom"
+              ],
+              "it": [
+                "Condom"
+              ],
+              "fr": [
+                "Condom"
+              ],
+              "nl": [
+                "Condom"
+              ],
+              "es": [
+                "Condom"
+              ]
+            },
+            "insee": "32107",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/0baf4489-d130-37fc-8528-ddc9d2b9dab6",
+        "schema:latitude": "43.9547749",
+        "schema:longitude": "0.3727905",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-11-10",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.443Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/d8b06466-36f6-33ee-bccd-f3e305ea2796",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/183f81cb-01d8-3ff3-b12a-442989408dac",
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1b34151c-f719-3509-b3aa-d1e2a6ceaa04",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "68"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "suite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3779202e-d664-373c-b708-2e1677a13524",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "57"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "double en haute saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/422e64c6-f39f-3770-862b-72e7cc90c7b2",
+          "schema:maxPrice": [
+            "68"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:LowSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nebensaison"
+                ],
+                "pt": [
+                  "Época baixa"
+                ],
+                "en": [
+                  "Low Season"
+                ],
+                "it": [
+                  "Bassa stagione"
+                ],
+                "fr": [
+                  "Basse saison"
+                ],
+                "es": [
+                  "Temporada baja"
+                ],
+                "nl": [
+                  "Laagseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "twin en basse saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4452abfe-bea1-35ba-b30d-f4ac26ca3bcd",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/47ca091c-287e-36b4-af3d-a8bb46c8be9d",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5328340f-39c1-3fe4-bee3-ec27de8e3031",
+          "schema:maxPrice": [
+            "76"
+          ],
+          "schema:minPrice": [
+            "46"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Pelerins"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5511bc8c-f53d-3466-96ce-d8471a7ed997",
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5f09bc89-fd0b-3c84-820b-a5056c14bbc3",
+          "schema:maxPrice": [
+            "60"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "double en basse saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/68b15119-55e0-3ca6-80eb-ec0207eee077",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/73335f21-480b-34ca-943e-81d1b75c7281",
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/786c4fc4-39ad-3853-a0c0-90d17f7478b0",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/81879a9f-704a-39b7-806a-816e87723fe8",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8d0b901c-7693-33b7-95e4-8e59ebd75fe7",
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a8303f12-7034-3652-9726-cd2bf2bf6f67",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "57"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Logement seul base chambre double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ad45cc70-8240-35b1-9246-b7d9b5f5d15f",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/afcb5338-70e3-3651-9d00-6f5640f0a083",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "57"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Haute saison (du 08/04 au 14/10)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b2292967-6188-3bf2-afeb-86f767edabfb",
+          "schema:maxPrice": [
+            "76"
+          ],
+          "schema:minPrice": [
+            "46"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Pelerins"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c2e9f9f7-2885-323f-a793-b7f9796b3648",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cd12f726-973a-3d82-8de4-c389f2891037",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "57"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:LowSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nebensaison"
+                ],
+                "pt": [
+                  "Época baixa"
+                ],
+                "en": [
+                  "Low Season"
+                ],
+                "it": [
+                  "Bassa stagione"
+                ],
+                "fr": [
+                  "Basse saison"
+                ],
+                "es": [
+                  "Temporada baja"
+                ],
+                "nl": [
+                  "Laagseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "twin en haute saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cf28c2be-c6f2-3cd1-8bc5-d383cefd0e82",
+          "schema:maxPrice": [
+            "68"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Basse saison (du 15/10 au 01/04)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d8d61e2e-27bb-318e-bcc2-f9058613d1b0",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e2f6a19b-abf1-37f3-ab66-2e7de632485c",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "twin"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e3174b81-d65e-3edf-a42b-79492b5a90cb",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "57"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e463137a-6263-3946-9ea1-55cdac365b69",
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f598c455-75c2-3a00-855a-5483c81b22f8",
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f9061082-296e-34e9-b14c-b03966ad2b58",
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fb6d5f82-01d3-3a33-8f34-29e8067c5e21",
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

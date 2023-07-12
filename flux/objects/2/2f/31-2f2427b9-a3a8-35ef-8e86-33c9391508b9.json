@@ -1,0 +1,1826 @@
+{
+  "@id": "https://data.datatourisme.fr/31/2f2427b9-a3a8-35ef-8e86-33c9391508b9",
+  "dc:identifier": "TFO044121668100",
+  "@type": [
+    "schema:FastFoodRestaurant",
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FastFoodRestaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Dieses Restaurant mit Blick auf den Pool und einer großen Terrasse taucht Sie in eine sommerliche Atmosphäre mit einer wunderschönen Urlaubskulisse."
+    ],
+    "en": [
+      "This restaurant overlooking the swimming pool and large terrace plunges you into a summer atmosphere with a magnificent holiday setting."
+    ],
+    "it": [
+      "Questo ristorante con vista sulla piscina e un'ampia terrazza offre un'atmosfera estiva in una splendida cornice di vacanza."
+    ],
+    "fr": [
+      "Ce restaurant avec vue sur piscine et grande terrasse vous plonge dans une ambiance estivale avec un magnifique cadre de vacances."
+    ],
+    "es": [
+      "Este restaurante con vistas a la piscina y una gran terraza ofrece un ambiente veraniego en un bonito entorno vacacional."
+    ],
+    "nl": [
+      "Dit restaurant met uitzicht op het zwembad en een groot terras biedt een zomerse sfeer in een mooie vakantieomgeving."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Restaurant le Marmotel"
+    ]
+  },
+  "availableLanguage": [
+    "EN",
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/22b2a0bf-3bb9-3390-9a0d-323b9c0d271a",
+    "schema:legalName": "OFFICE DE TOURISME INTERCANTONAL SAINT GENIEZ  / CAMPAGNAC",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d7570e8e-3481-3fe9-b1ac-4c4fb6e0d1ad",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e968f306-2114-38c5-a16b-bded407f309d",
+          "schema:addressLocality": "Saint Geniez d'Olt et d'Aubrac",
+          "schema:postalCode": "12130",
+          "schema:streetAddress": [
+            "La Salle",
+            "St-Geniez-d'Olt"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12224",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "pt": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "en": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "it": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "fr": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "nl": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "es": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ]
+            },
+            "insee": "12224",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@marmotel.com"
+      ],
+      "schema:familyName": [
+        "Bauchart"
+      ],
+      "schema:givenName": [
+        "Joel ou Magdalena"
+      ],
+      "schema:legalName": "Camping Marmotel",
+      "schema:telephone": [
+        "+33 5 65 70 46 51"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/d8dcd7d2-2cdf-37c5-99e1-a81738facecf",
+      "dc:description": {
+        "de": [
+          "Restaurant mit Grill. Täglich von 19:00 bis 22:00 Uhr geöffnet\n\nThemenabende während der Woche\nReservierung erforderlich unter 05.65.70.46.51"
+        ],
+        "en": [
+          "Grill restaurant. Open every day from 19h to 22h\n\nTheme evenings during the week\nReservation necessary on 05.65.70.46.51"
+        ],
+        "it": [
+          "Ristorante grill. Aperto tutti i giorni dalle 19:00 alle 22:00\n\nSerate a tema durante la settimana\nPrenotazione necessaria al numero 05.65.70.46.51"
+        ],
+        "fr": [
+          "Restaurant grill. Ouvert tous les jours de 19h à 22h\n\nSoirées à thème durant la semaine\nRéservation nécessaire au 05.65.70.46.51"
+        ],
+        "es": [
+          "Restaurante asador. Abierto todos los días de 19:00 a 22:00\n\nVeladas temáticas entre semana\nEs necesario reservar en el 05.65.70.46.51"
+        ],
+        "nl": [
+          "Grill restaurant. Dagelijks geopend van 19.00 tot 22.00 uur\n\nThema-avonden tijdens de week\nReservering noodzakelijk op 05.65.70.46.51"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0a55ab68-3560-339c-88fd-b05ca35ec9e3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0fb7ceae-215d-35e0-b5f4-cb6cd58a2944",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1b808431-74a3-3138-abae-7f539d7095cc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/426b9007-9bca-347d-9ce1-46edffe83be1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/66ac01ee-26d1-3f9e-93df-f726fb6d18f7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6e6a44af-582d-38db-83bb-db4a8553c00c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7b93cf5f-1020-3384-90db-15ec8f0e564d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a13b8e2c-415b-390f-8857-f9876dd5b2f0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/de3709da-6ee0-31c3-a408-61262065c4b3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fcfadaa5-6ba6-360a-ac97-b9512570e715",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Dieses Restaurant mit Blick auf den Pool und einer großen Terrasse taucht Sie in eine sommerliche Atmosphäre mit einer wunderschönen Urlaubskulisse."
+        ],
+        "en": [
+          "This restaurant overlooking the swimming pool and large terrace plunges you into a summer atmosphere with a magnificent holiday setting."
+        ],
+        "it": [
+          "Questo ristorante con vista sulla piscina e un'ampia terrazza offre un'atmosfera estiva in una splendida cornice di vacanza."
+        ],
+        "fr": [
+          "Ce restaurant avec vue sur piscine et grande terrasse vous plonge dans une ambiance estivale avec un magnifique cadre de vacances."
+        ],
+        "es": [
+          "Este restaurante con vistas a la piscina y una gran terraza ofrece un ambiente veraniego en un bonito entorno vacacional."
+        ],
+        "nl": [
+          "Dit restaurant met uitzicht op het zwembad en een groot terras biedt een zomerse sfeer in een mooie vakantieomgeving."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0e9faf0e-cbca-3a1a-a9a7-c0ee80651f45",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "petsAllowed": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1c3f77ed-ea24-3077-9ca1-d1b98ed27fff",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:FacilitiesForDisabled",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einrichtungen für Behinderte"
+            ],
+            "pt": [
+              "Instalações para pessoas com deficiência"
+            ],
+            "en": [
+              "Facilities for disabled"
+            ],
+            "it": [
+              "Strutture per i disabili"
+            ],
+            "fr": [
+              "Installations pour handicapés"
+            ],
+            "nl": [
+              "Voorzieningen voor gehandicapten"
+            ],
+            "es": [
+              "Instalaciones para personas con diversidad funcional"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2507c59e-6b2c-3e50-a2bf-cb23f4b95502",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/337daa48-7f66-3ae3-9c19-fce9fccc3340",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Beach",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Strand"
+            ],
+            "pt": [
+              "Praia"
+            ],
+            "en": [
+              "Beach"
+            ],
+            "it": [
+              "Spiaggia"
+            ],
+            "fr": [
+              "Plage"
+            ],
+            "nl": [
+              "Strand"
+            ],
+            "es": [
+              "Playa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4cba7bb6-a09a-3fb8-9fc1-38935866d515",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielplatz, Außenspielplatz"
+            ],
+            "pt": [
+              "Parque infantil, parque de jogos exterior"
+            ],
+            "en": [
+              "Playground"
+            ],
+            "it": [
+              "Parco giochi, parco giochi all'aperto"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ],
+            "nl": [
+              "Speelplaats, buitenspeelplaats"
+            ],
+            "es": [
+              "Parque infantil, zona de juegos al aire libre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5410b7c3-e0c0-344f-9ba4-65b3b92fb26e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9cc1e7e7-9cfe-372f-8d91-41e821010259",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc48b3cf-5729-3651-8c0e-4e38d87a2063",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/01b79067-d074-363f-94cb-ad984465a879",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/14e21f30-3ec1-3862-b451-8711a9fd63e8",
+          "ebucore:abstract": {
+            "fr": [
+              "Salle du Restaurant Le Marmotel"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Salle du Restaurant Le Marmotel"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME INTERCANTONAL SAINT GENIEZ  / CAMPAGNAC"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/038d97d8-c643-3f95-9659-b86fe3dd5fda",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO044121668100/TFO044121668100-17a/medias/jpg/marmotel.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/01b79067-d074-363f-94cb-ad984465a879",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/14e21f30-3ec1-3862-b451-8711a9fd63e8",
+          "ebucore:abstract": {
+            "fr": [
+              "Salle du Restaurant Le Marmotel"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Salle du Restaurant Le Marmotel"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME INTERCANTONAL SAINT GENIEZ  / CAMPAGNAC"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/038d97d8-c643-3f95-9659-b86fe3dd5fda",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO044121668100/TFO044121668100-17a/medias/jpg/marmotel.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Traditionelle französische Küche"
+        ],
+        "pt": [
+          "Cozinha tradicional francesa"
+        ],
+        "en": [
+          "French traditional cuisine"
+        ],
+        "it": [
+          "Cucina tradizionale francese"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ],
+        "nl": [
+          "Traditionele Franse keuken"
+        ],
+        "es": [
+          "Cocina francesa tradicional"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TrainingRestaurant",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Lehrrestaurant"
+        ],
+        "pt": [
+          "Restaurante-escola"
+        ],
+        "en": [
+          "Training restaurant"
+        ],
+        "it": [
+          "Ristorante pedagogico"
+        ],
+        "fr": [
+          "Restaurant d'application"
+        ],
+        "es": [
+          "Restaurante con servicio de formación"
+        ],
+        "nl": [
+          "Leerrestaurant"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/02ad55cb-720d-3d3f-9d34-221a1b9bf3b1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1c601df8-a76e-32b8-b63b-a3a4d57298ed",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/295f2082-20f6-30af-89bd-85e93d5889e8",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2cbc2f53-5e1b-3f67-9a1c-cf6a8e002362",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c000978a-2001-398e-92cb-abb420185b32",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/26b478aa-f974-3bec-93e2-79f9007d4b47",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e968f306-2114-38c5-a16b-bded407f309d",
+          "schema:addressLocality": "Saint Geniez d'Olt et d'Aubrac",
+          "schema:postalCode": "12130",
+          "schema:streetAddress": [
+            "La Salle",
+            "St-Geniez-d'Olt"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12224",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "pt": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "en": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "it": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "fr": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "nl": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "es": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ]
+            },
+            "insee": "12224",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/d3fc9d1d-1ab9-37b8-a00a-468362b0f864",
+        "schema:elevation": "426",
+        "schema:latitude": "44.46193754522512",
+        "schema:longitude": "2.963261747360213",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/5968f5d3-fe44-3a1d-a79b-451796ed3063",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-26T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-13",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.732Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/88e89363-20cf-3f1c-9d08-450e2ed31f2f",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0aa882c7-48e7-3166-be5c-864e1fa3a2b3",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AlaCarte",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "A la carte"
+                ],
+                "pt": [
+                  "À escolha"
+                ],
+                "en": [
+                  "A la carte"
+                ],
+                "it": [
+                  "Alla carta"
+                ],
+                "fr": [
+                  "A la carte"
+                ],
+                "nl": [
+                  "À la carte"
+                ],
+                "es": [
+                  "A la carta"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3b993e08-53ae-3edc-8d9a-934f99ddc1ce",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TastingMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Degustationsmenü"
+                ],
+                "pt": [
+                  "Menu de degustação"
+                ],
+                "en": [
+                  "Tasting menu"
+                ],
+                "it": [
+                  "Menù degustazione"
+                ],
+                "fr": [
+                  "Menu dégustation"
+                ],
+                "nl": [
+                  "Proefmenu"
+                ],
+                "es": [
+                  "Menú degustación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Soirée Moules Frites (jeudis)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4ee7f3f3-c763-3fb8-8222-7ea6da84c3e8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5f96a58c-4b71-33e9-9dce-8af2d23b8999",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:ChildMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindermenü"
+                ],
+                "pt": [
+                  "Menu para crianças"
+                ],
+                "en": [
+                  "Child menu"
+                ],
+                "it": [
+                  "Menù per bambini"
+                ],
+                "fr": [
+                  "Menu enfant"
+                ],
+                "es": [
+                  "Menú infantil"
+                ],
+                "nl": [
+                  "Kindermenu"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/95b49f96-505b-3d9a-a93e-7ccc3815d82b",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TastingMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Degustationsmenü"
+                ],
+                "pt": [
+                  "Menu de degustação"
+                ],
+                "en": [
+                  "Tasting menu"
+                ],
+                "it": [
+                  "Menù degustazione"
+                ],
+                "fr": [
+                  "Menu dégustation"
+                ],
+                "nl": [
+                  "Proefmenu"
+                ],
+                "es": [
+                  "Menú degustación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Soirée Aligot (mardis)"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,814 @@
+{
+  "@id": "https://data.datatourisme.fr/10/e10d291b-877d-3359-962a-add7bb0c1ff9",
+  "dc:identifier": "940002058",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Asiatisches Restaurant. In einem charmanten Dekor entdecken Sie alle Geschmäcker Asiens."
+    ],
+    "en": [
+      "Asian restaurant. In a charming decor discover all the flavors of Asia."
+    ],
+    "it": [
+      "Ristorante asiatico. In un ambiente affascinante, scoprite tutti i sapori dell'Asia."
+    ],
+    "fr": [
+      "Restaurant asiatique. Dans un décor charmant découvrez toutes les saveurs de l'Asie."
+    ],
+    "es": [
+      "Restaurante asiático. En un entorno encantador, descubra todos los sabores de Asia."
+    ],
+    "nl": [
+      "Aziatisch restaurant. Ontdek in een charmant kader alle smaken van Azië."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT ASIA"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/8d6dc35e-506f-3233-89dd-10ee68dabb64",
+    "dc:identifier": "940",
+    "schema:legalName": "OT SAINT DIE DES VOSGES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/bb4f03bd-adef-3e98-bfa2-dc0070f49a31",
+      "schema:telephone": [
+        "+33 3 29 55 26 27"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/b83ede43-512d-31bc-aaa3-edce50f712c1",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/224de507-1be8-3e7e-9d5e-573879391ac8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/54a40130-1a42-3ea4-bfb2-db2948320704",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/69ede202-0717-3370-858b-0919b36e2433",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/81be4d03-5622-35da-8b7a-e6342989c654",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/87fff76c-b27d-3e14-a298-c2e77df46e88",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Asiatisches Restaurant. In einem charmanten Dekor entdecken Sie alle Geschmäcker Asiens."
+        ],
+        "en": [
+          "Asian restaurant. In a charming decor discover all the flavors of Asia."
+        ],
+        "it": [
+          "Ristorante asiatico. In un ambiente affascinante, scoprite tutti i sapori dell'Asia."
+        ],
+        "fr": [
+          "Restaurant asiatique. Dans un décor charmant découvrez toutes les saveurs de l'Asie."
+        ],
+        "es": [
+          "Restaurante asiático. En un entorno encantador, descubra todos los sabores de Asia."
+        ],
+        "nl": [
+          "Aziatisch restaurant. Ontdek in een charmant kader alle smaken van Azië."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/8536702d-241c-35e9-82bf-e3b4cb7ee227",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/bdc46d54-ec13-3275-8402-0b965b2f9699",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4d042c90-ff20-345b-a56b-aeed0896c70b",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Asia"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/32c31cfc-d5bb-3417-9cbf-4df0a10b5fce",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/940/940002058_4_800x600.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/bdc46d54-ec13-3275-8402-0b965b2f9699",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4d042c90-ff20-345b-a56b-aeed0896c70b",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Asia"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/32c31cfc-d5bb-3417-9cbf-4df0a10b5fce",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/940/940002058_4_800x600.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/02527751-6bb8-3740-9872-53b8bf307926",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2a73ee5a-7b9a-396d-8325-aabbe9df3eb7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a61c857f-ae31-35d1-afff-b8a4f7364e27",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bca7c018-3bbc-30f5-b161-528996161782",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8db3696-0fbd-3a4d-b746-7e08c8eb81b6",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/c94e0db1-75d0-380c-889e-feb122fc774d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a1773080-3edc-3449-9d1d-2f5538215541",
+          "schema:addressLocality": "Saint-Dié-des-Vosges",
+          "schema:postalCode": "88100",
+          "schema:streetAddress": [
+            "10 rue Gambetta"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:88413",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Dié-des-Vosges"
+              ],
+              "pt": [
+                "Saint-Dié-des-Vosges"
+              ],
+              "en": [
+                "Saint-Dié-des-Vosges"
+              ],
+              "it": [
+                "Saint-Dié-des-Vosges"
+              ],
+              "fr": [
+                "Saint-Dié-des-Vosges"
+              ],
+              "nl": [
+                "Saint-Dié-des-Vosges"
+              ],
+              "es": [
+                "Saint-Dié-des-Vosges"
+              ]
+            },
+            "insee": "88413",
+            "isPartOfDepartment": {
+              "@id": "kb:France4488",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vosges"
+                ],
+                "pt": [
+                  "Vosges"
+                ],
+                "en": [
+                  "Vosges"
+                ],
+                "it": [
+                  "Vosges"
+                ],
+                "fr": [
+                  "Vosges"
+                ],
+                "nl": [
+                  "Vosges"
+                ],
+                "es": [
+                  "Vosges"
+                ]
+              },
+              "insee": "88",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/5cd0def7-4a80-3f34-8c7e-dbeb74c4da17",
+        "schema:latitude": "48.2826522",
+        "schema:longitude": "6.9483424",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/46c07526-bf0d-3279-adfb-66eca85d6de8",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eef9c572-aae5-385e-ab67-ce6938537cb0",
+          "schema:closes": "21:15:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "18:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-04-28",
+  "lastUpdateDatatourisme": "2023-04-29T04:09:26.103Z",
+  "reducedMobilityAccess": false
+}

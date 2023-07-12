@@ -1,0 +1,597 @@
+{
+  "@id": "https://data.datatourisme.fr/49/9f0d1a1e-4788-30f2-babe-f4743acd1184",
+  "dc:identifier": "RESTLEBONENDROIT",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "LE BON ENDROIT"
+    ]
+  },
+  "creationDate": "2020-04-18",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/bed14d64-14eb-3d08-a03c-4bfe5712adfa",
+      "schema:telephone": [
+        "+33 2 49 52 23 62"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lebonendroitpornichet.fr/"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/117b69ab-1bf9-3991-94dc-c09511ba6c10",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/62f62388-4fc3-3795-b180-d3bca386ffec",
+          "schema:addressLocality": "Pornichet",
+          "schema:postalCode": "44380",
+          "schema:streetAddress": [
+            "71  Avenue du Général de Gaulle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:44132",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Pornichet"
+              ],
+              "pt": [
+                "Pornichet"
+              ],
+              "en": [
+                "Pornichet"
+              ],
+              "it": [
+                "Pornichet"
+              ],
+              "fr": [
+                "Pornichet"
+              ],
+              "nl": [
+                "Pornichet"
+              ],
+              "es": [
+                "Pornichet"
+              ]
+            },
+            "insee": "44132",
+            "isPartOfDepartment": {
+              "@id": "kb:France5244",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Loire-Atlantique"
+                ],
+                "pt": [
+                  "Loire-Atlantique"
+                ],
+                "en": [
+                  "Loire-Atlantique"
+                ],
+                "it": [
+                  "Loire-Atlantique"
+                ],
+                "fr": [
+                  "Loire-Atlantique"
+                ],
+                "nl": [
+                  "Loire-Atlantique"
+                ],
+                "es": [
+                  "Loire-Atlantique"
+                ]
+              },
+              "insee": "44",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/46ed5403-8aca-32b1-b84c-021d2f6dd8d9",
+        "schema:latitude": "47.26658",
+        "schema:longitude": "-2.34097",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/3abdae96-5626-35e8-a245-a70fea256635",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4a64317e-e847-3d40-977b-b01d4ae99ec2",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9fbeecf0-4d28-35a2-9659-57212a31be3a",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e8025dde-bb8f-3f8e-b8c5-b79831df1431",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f97172fc-2824-3e72-b3dc-d19cb2631189",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f9785e68-43e1-354c-885e-2f08891bd185",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-21",
+  "lastUpdateDatatourisme": "2023-06-22T01:11:04.972Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/5f538d9e-9fbf-3fc4-9aad-dd66c38794c7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

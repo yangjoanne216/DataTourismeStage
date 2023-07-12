@@ -1,0 +1,925 @@
+{
+  "@id": "https://data.datatourisme.fr/22/769aaae7-0e7e-36f9-85f9-77a8cd9dc012",
+  "dc:identifier": "HOT1124CDT460001",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Gegenüber von Rocamadour, ein Familienhotel mit herzlichem Empfang, das 13 Zimmer mit eigenem Bad umfasst. Frühstücksbuffet und Privatparkplatz.\nHerzlicher Empfang, familiäre Hotellerie, komfortable Zimmer, sehr schöne Aussicht auf den Ort!"
+    ],
+    "en": [
+      "Warm welcome, family-run hotel, comfortable rooms, beautiful view over Rocamadour.... the hotel is an ideal place to stay."
+    ],
+    "it": [
+      "Di fronte a Rocamadour, un hotel familiare dall'accoglienza calorosa composto da 13 camere con bagno privato. Colazione a buffet e parcheggio privato.\nAccoglienza calorosa, hotel a conduzione familiare, camere confortevoli, bella vista sul sito!"
+    ],
+    "fr": [
+      "Face à Rocamadour, hôtel familial à l'accueil chaleureux comprenant 13 chambres équipées de salle de bains privatives. Petit déjeuner buffet et parking privé.\nAccueil chaleureux, hôtellerie familiale, chambres confortables, très belle vue sur le site !"
+    ],
+    "nl": [
+      "Tegenover Rocamadour, een familiehotel met een warm onthaal bestaande uit 13 kamers met eigen badkamer. Ontbijtbuffet en privé parkeerplaats.\nWarm onthaal, familiehotel, comfortabele kamers, prachtig uitzicht op de site!"
+    ],
+    "es": [
+      "Acogida cálida, hostal familiar, habitaciones confortables, ¡vista muy bella del lugar!"
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Hôtel Restaurant Hostellerie Bellevue"
+    ],
+    "fr": [
+      "Hôtel Restaurant Hostellerie Bellevue"
+    ],
+    "es": [
+      "Hôtel Restaurant Hostellerie Bellevue"
+    ]
+  },
+  "allowedPersons": 32,
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c76f881e-c5ed-3468-bf64-d22ce72c5e4e",
+    "schema:legalName": "OT Vallée de la Dordogne",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3b64f734-2a28-31c8-b14d-ca5178bfbaeb",
+      "schema:legalName": "Lot Tourisme - Agence de développement touristique du Lot",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-lot.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/bfa54955-2738-3ea7-be08-6669b4eba29f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/917c658b-8a00-3f42-a91f-aeec396c2533",
+          "schema:addressLocality": "Rocamadour",
+          "schema:postalCode": "46500",
+          "schema:streetAddress": [
+            "L'Hospitalet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46240",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Rocamadour"
+              ],
+              "pt": [
+                "Rocamadour"
+              ],
+              "en": [
+                "Rocamadour"
+              ],
+              "it": [
+                "Rocamadour"
+              ],
+              "fr": [
+                "Rocamadour"
+              ],
+              "nl": [
+                "Rocamadour"
+              ],
+              "es": [
+                "Rocamadour"
+              ]
+            },
+            "insee": "46240",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lebellevue46@orange.fr"
+      ],
+      "schema:legalName": "Hôtel Restaurant Hostellerie Bellevue",
+      "schema:telephone": [
+        "+33 5 65 33 62 10"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/0a0907b3-bbf2-380f-a51d-1944eae5e86a",
+      "dc:description": {
+        "de": [
+          "Gegenüber von Rocamadour, ein Familienhotel mit herzlichem Empfang, das 13 Zimmer mit eigenem Bad umfasst. Frühstücksbuffet und Privatparkplatz.\nHerzlicher Empfang, familiäre Hotellerie, komfortable Zimmer, sehr schöne Aussicht auf den Ort!"
+        ],
+        "en": [
+          "Warm welcome, family-run hotel, comfortable rooms, beautiful view over Rocamadour.... the hotel is an ideal place to stay."
+        ],
+        "it": [
+          "Di fronte a Rocamadour, un hotel familiare dall'accoglienza calorosa composto da 13 camere con bagno privato. Colazione a buffet e parcheggio privato.\nAccoglienza calorosa, hotel a conduzione familiare, camere confortevoli, bella vista sul sito!"
+        ],
+        "fr": [
+          "Face à Rocamadour, hôtel familial à l'accueil chaleureux comprenant 13 chambres équipées de salle de bains privatives. Petit déjeuner buffet et parking privé.\nAccueil chaleureux, hôtellerie familiale, chambres confortables, très belle vue sur le site !"
+        ],
+        "nl": [
+          "Tegenover Rocamadour, een familiehotel met een warm onthaal bestaande uit 13 kamers met eigen badkamer. Ontbijtbuffet en privé parkeerplaats.\nWarm onthaal, familiehotel, comfortabele kamers, prachtig uitzicht op de site!"
+        ],
+        "es": [
+          "Acogida cálida, hostal familiar, habitaciones confortables, ¡vista muy bella del lugar!"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/6153ba2a-6215-3d26-aa2e-179ed9171b4d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7be5580a-efb9-38cc-901b-4a7375986769",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9ce6cedd-5fb5-3d86-9bbb-55828de1d107",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/aca93ea7-b026-367d-a49b-b406930d20fc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cfcc3def-5421-3f6b-a4a3-07c7111f7a6e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e33b8629-e829-3f28-bb84-8c4a3e9fd60a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Gegenüber von Rocamadour, ein Familienhotel mit herzlichem Empfang, das 13 Zimmer mit eigenem Bad umfasst. Frühstücksbuffet und Privatparkplatz.\nHerzlicher Empfang, familiäre Hotellerie, komfortable Zimmer, sehr schöne Aussicht auf den Ort!"
+        ],
+        "en": [
+          "Warm welcome, family-run hotel, comfortable rooms, beautiful view over Rocamadour.... the hotel is an ideal place to stay."
+        ],
+        "it": [
+          "Di fronte a Rocamadour, un hotel familiare dall'accoglienza calorosa composto da 13 camere con bagno privato. Colazione a buffet e parcheggio privato.\nAccoglienza calorosa, hotel a conduzione familiare, camere confortevoli, bella vista sul sito!"
+        ],
+        "fr": [
+          "Face à Rocamadour, hôtel familial à l'accueil chaleureux comprenant 13 chambres équipées de salle de bains privatives. Petit déjeuner buffet et parking privé.\nAccueil chaleureux, hôtellerie familiale, chambres confortables, très belle vue sur le site !"
+        ],
+        "nl": [
+          "Tegenover Rocamadour, een familiehotel met een warm onthaal bestaande uit 13 kamers met eigen badkamer. Ontbijtbuffet en privé parkeerplaats.\nWarm onthaal, familiehotel, comfortabele kamers, prachtig uitzicht op de site!"
+        ],
+        "es": [
+          "Acogida cálida, hostal familiar, habitaciones confortables, ¡vista muy bella del lugar!"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/4d527f95-42ae-3589-b90d-60f125d2b225",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b26488f2-2ece-35c8-8a98-103aa3ecf296",
+          "ebucore:title": {
+            "en": [
+              "Hostellerie Bellevue_Rocamadour_terrasse"
+            ],
+            "fr": [
+              "Hostellerie Bellevue_Rocamadour_terrasse"
+            ],
+            "es": [
+              "Hostellerie Bellevue_Rocamadour_terrasse"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Hostellerie Bellevue"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/24909828-139d-3edc-869f-872a3390fd4b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/Hostellerie-Bellevue-Rocamadour-terrasse.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/4d527f95-42ae-3589-b90d-60f125d2b225",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b26488f2-2ece-35c8-8a98-103aa3ecf296",
+          "ebucore:title": {
+            "en": [
+              "Hostellerie Bellevue_Rocamadour_terrasse"
+            ],
+            "fr": [
+              "Hostellerie Bellevue_Rocamadour_terrasse"
+            ],
+            "es": [
+              "Hostellerie Bellevue_Rocamadour_terrasse"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Hostellerie Bellevue"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/24909828-139d-3edc-869f-872a3390fd4b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/Hostellerie-Bellevue-Rocamadour-terrasse.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/55b939bd-a411-3618-8f73-77921a0e60a6",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Sterne"
+          ],
+          "pt": [
+            "2 estrelas"
+          ],
+          "en": [
+            "2 Stars"
+          ],
+          "it": [
+            "2 stelle"
+          ],
+          "fr": [
+            "2 étoiles"
+          ],
+          "nl": [
+            "2 sterren"
+          ],
+          "es": [
+            "2 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/aba2862d-89d5-3684-9526-8c072f419505",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca26e1d6-138a-3a62-ab66-57602c4e8637",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dd04a0cc-3ffd-39c6-9b76-6db71acd24ca",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/b29e31d5-d48b-32d4-91d4-041d0e218112",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/917c658b-8a00-3f42-a91f-aeec396c2533",
+          "schema:addressLocality": "Rocamadour",
+          "schema:postalCode": "46500",
+          "schema:streetAddress": [
+            "L'Hospitalet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46240",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Rocamadour"
+              ],
+              "pt": [
+                "Rocamadour"
+              ],
+              "en": [
+                "Rocamadour"
+              ],
+              "it": [
+                "Rocamadour"
+              ],
+              "fr": [
+                "Rocamadour"
+              ],
+              "nl": [
+                "Rocamadour"
+              ],
+              "es": [
+                "Rocamadour"
+              ]
+            },
+            "insee": "46240",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/32cdab21-9bb9-398a-aef4-be4b67a21d65",
+        "schema:latitude": "44.8033441",
+        "schema:longitude": "1.62737131",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/5a10b103-5962-3f22-9e5b-55edabd90f37",
+          "schema:validFrom": "2023-04-01T00:00:00",
+          "schema:validThrough": "2023-11-09T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/c76f881e-c5ed-3468-bf64-d22ce72c5e4e",
+      "schema:legalName": "OT Vallée de la Dordogne",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-13",
+  "lastUpdateDatatourisme": "2023-06-22T13:01:39.994Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/ba1c4d6e-e0ef-372b-808c-c0e647ef8adf",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/25e17c3c-44ad-349a-8dd4-d74647b9b9ff",
+          "schema:maxPrice": [
+            "87"
+          ],
+          "schema:minPrice": [
+            "63"
+          ],
+          "schema:price": "63",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "en": [
+              "Half board by person (in double room)"
+            ],
+            "fr": [
+              "Demi-pension par personne (base chambre double)"
+            ],
+            "es": [
+              "Media pensión por persona (habitación doble)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2f31b5ee-291e-3470-8fc0-d66813edd92b",
+          "schema:maxPrice": [
+            "79"
+          ],
+          "schema:minPrice": [
+            "62"
+          ],
+          "schema:price": "62",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "en": [
+              "Double room"
+            ],
+            "fr": [
+              "Chambre double"
+            ],
+            "es": [
+              "Habitación doble"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/42c43791-ac61-37f4-84f9-598ee76d597e",
+          "schema:maxPrice": [
+            "9.8"
+          ],
+          "schema:minPrice": [
+            "5"
+          ],
+          "schema:price": "5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "en": [
+              "Breakfast"
+            ],
+            "fr": [
+              "Petit déjeuner"
+            ],
+            "es": [
+              "Desayuno"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/82f21db6-cf54-3015-86c2-def01887e6d9",
+          "schema:maxPrice": [
+            "87"
+          ],
+          "schema:minPrice": [
+            "87"
+          ],
+          "schema:price": "87",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "en": [
+              "Business stopover rate"
+            ],
+            "fr": [
+              "Etape affaire"
+            ],
+            "es": [
+              "Etapa negocios"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

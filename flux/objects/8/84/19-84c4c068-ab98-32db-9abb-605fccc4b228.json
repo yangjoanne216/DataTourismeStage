@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/84c4c068-ab98-32db-9abb-605fccc4b228",
+  "dc:identifier": "6c8f7ba2-6445-4cc9-f99d-501ba06f3c9b",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Relais Montmartre"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/59fd4474-bca3-3e22-868e-720ba6eca08b",
+      "schema:email": [
+        "contact@relaismontmartre.fr"
+      ],
+      "schema:telephone": [
+        "+33 1 70 64 25 25"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hotel-relais-montmartre.com/fr"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/8e561a6f-f691-3d28-9e36-c150c31b5fbb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/37cb2369-ab49-372c-9c26-faf0cf3499c3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/bb2d5b52-8eb3-3465-979a-aff4d174ffaa",
+          "schema:addressLocality": "Paris",
+          "schema:postalCode": "75018",
+          "schema:streetAddress": [
+            "6 rue Constance"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:75056",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Paris"
+              ],
+              "pt": [
+                "Paris"
+              ],
+              "en": [
+                "Paris"
+              ],
+              "it": [
+                "Paris"
+              ],
+              "fr": [
+                "Paris"
+              ],
+              "nl": [
+                "Paris"
+              ],
+              "es": [
+                "Paris"
+              ]
+            },
+            "insee": "75056",
+            "isPartOfDepartment": {
+              "@id": "kb:France1175",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Paris"
+                ],
+                "pt": [
+                  "Paris"
+                ],
+                "en": [
+                  "Paris"
+                ],
+                "it": [
+                  "Paris"
+                ],
+                "fr": [
+                  "Paris"
+                ],
+                "nl": [
+                  "Paris"
+                ],
+                "es": [
+                  "Paris"
+                ]
+              },
+              "insee": "75",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/714bd2a3-8467-34c6-b0b9-81a0e6707f53",
+        "schema:latitude": "48.885315",
+        "schema:longitude": "2.333595999999943",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-04-15",
+  "lastUpdateDatatourisme": "2022-09-06T09:59:02.33Z",
+  "reducedMobilityAccess": false
+}

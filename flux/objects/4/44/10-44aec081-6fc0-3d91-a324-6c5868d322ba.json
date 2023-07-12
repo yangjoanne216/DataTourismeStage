@@ -1,0 +1,635 @@
+{
+  "@id": "https://data.datatourisme.fr/10/44aec081-6fc0-3d91-a324-6c5868d322ba",
+  "dc:identifier": "838165950",
+  "@type": [
+    "schema:CafeOrCoffeeShop",
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "CafeOrTeahouse",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Italienische Küche. Pizzeria, Eisdiele, Teestube."
+    ],
+    "en": [
+      "Italian food. Pizzeria, ice-cream parlour, tea room."
+    ],
+    "it": [
+      "Cucina italiana. Pizzeria, gelateria, sala da tè."
+    ],
+    "fr": [
+      "Cuisine italienne. Pizzeria, glacier, salon de thé."
+    ],
+    "nl": [
+      "Italiaanse keuken. Pizzeria, ijssalon, theesalon."
+    ],
+    "es": [
+      "Cocina italiana. Pizzería, heladería, salón de té."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LA LUNA"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/f9028fae-c74b-36ec-9b85-2b0a542e2f39",
+    "dc:identifier": "838",
+    "schema:legalName": "AGENCE INSPIRE METZ",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d92ce797-6fb2-3fa0-93ed-c6ba3df3c1d3",
+      "schema:email": [
+        "lalunawaves@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 3 87 37 91 82"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "79964232700024"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/ea7752e4-3b91-3dd3-8a4e-50942f06d778",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0df4b811-f8b9-3f8e-aa11-1851662a129d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1e352c4a-7b08-36c7-a485-f630ac38694c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9848ae0a-856f-32f6-8b05-4f32c26e0a20",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d06968ca-d6f5-3f7f-8dd4-554c8ab7e753",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e666f993-7576-349c-80bc-a1bb078d6f99",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Italienische Küche. Pizzeria, Eisdiele, Teestube."
+        ],
+        "en": [
+          "Italian food. Pizzeria, ice-cream parlour, tea room."
+        ],
+        "it": [
+          "Cucina italiana. Pizzeria, gelateria, sala da tè."
+        ],
+        "fr": [
+          "Cuisine italienne. Pizzeria, glacier, salon de thé."
+        ],
+        "nl": [
+          "Italiaanse keuken. Pizzeria, ijssalon, theesalon."
+        ],
+        "es": [
+          "Cocina italiana. Pizzería, heladería, salón de té."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/8536702d-241c-35e9-82bf-e3b4cb7ee227",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/a97b0199-f618-3938-b04f-240ffbec4dd5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4e0c941a-6cec-371d-9bb7-a358dcb572fe",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© La Luna"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cb607990-9913-3f3a-b51c-4fdd76dc3653",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/838/838165950_4_800x600.png"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/a97b0199-f618-3938-b04f-240ffbec4dd5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4e0c941a-6cec-371d-9bb7-a358dcb572fe",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© La Luna"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cb607990-9913-3f3a-b51c-4fdd76dc3653",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/838/838165950_4_800x600.png"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/5379d866-74d4-3ce3-b561-c71680b3c57e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5cd8796f-f302-3064-9bc4-a4905f92e50d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/626ab291-c1f1-32e2-a146-83266bcb93da",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/83f48641-d3d0-3404-ab40-a124b2a38e17",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c8fc287-4d9a-3bd2-824f-402d1777ecc7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/229a1a50-59bd-3dd8-ac5c-7e9d9060b691",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e2f67601-a4e5-34f5-958e-ea655bdb7c88",
+          "schema:addressLocality": "Moulins-lès-Metz",
+          "schema:postalCode": "57160",
+          "schema:streetAddress": [
+            "1 chemin de la Pie Grièche",
+            "Waves Actisud"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57487",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Moulins-lès-Metz"
+              ],
+              "pt": [
+                "Moulins-lès-Metz"
+              ],
+              "en": [
+                "Moulins-lès-Metz"
+              ],
+              "it": [
+                "Moulins-lès-Metz"
+              ],
+              "fr": [
+                "Moulins-lès-Metz"
+              ],
+              "nl": [
+                "Moulins-lès-Metz"
+              ],
+              "es": [
+                "Moulins-lès-Metz"
+              ]
+            },
+            "insee": "57487",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b29fed7d-3f21-3164-bc30-fc6fc33e956f",
+        "schema:latitude": "49.0820079",
+        "schema:longitude": "6.10311960000001",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2022-08-30",
+  "lastUpdateDatatourisme": "2023-04-18T13:12:15.887Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/71509ce1-2b46-34dd-b72e-4b8d9eb6ac78",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

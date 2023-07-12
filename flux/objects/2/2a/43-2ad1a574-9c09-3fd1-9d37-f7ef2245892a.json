@@ -1,0 +1,2431 @@
+{
+  "@id": "https://data.datatourisme.fr/43/2ad1a574-9c09-3fd1-9d37-f7ef2245892a",
+  "dc:identifier": "120840",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT DU PONT D'ARCOLE"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Espagnol"
+  ],
+  "creationDate": "2007-04-17",
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4a046eac-fbf6-32b5-9006-63eaf437f6c7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/243d696c-c64c-322c-b9f2-6fb51b52fb85",
+          "schema:addressLocality": "Riscle",
+          "schema:postalCode": "32400",
+          "schema:streetAddress": [
+            "RESTAURANT LE PONT D'ARCOLE",
+            "route d'Aquitaine"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32344",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Riscle"
+              ],
+              "pt": [
+                "Riscle"
+              ],
+              "en": [
+                "Riscle"
+              ],
+              "it": [
+                "Riscle"
+              ],
+              "fr": [
+                "Riscle"
+              ],
+              "nl": [
+                "Riscle"
+              ],
+              "es": [
+                "Riscle"
+              ]
+            },
+            "insee": "32344",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "mumuetramon@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 69 71 40"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.relais-du-pont-darcole.fr/restaurant-riscle",
+        "https://www.facebook.com/pontdarcole.riscle"
+      ],
+      "siret": "4215629500003"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/6be31a84-edc0-33aa-b1ce-2a8a31770f1a",
+      "dc:description": {
+        "de": [
+          "Am Ortseingang von Riscle befindet sich das Restaurant des Hotels \"Le Relais du Pont d'Arcole\", das über einen Privatparkplatz verfügt und eine privilegierte Lage für eine Gourmetpause hat.\n\nAn schönen Tagen ist nichts angenehmer als ein Mittagessen auf der Terrasse, wo Ihnen ein herzlicher und freundlicher Empfang bereitet wird.\nEntdecken und genießen Sie eine traditionelle Küche aus regionalen und frischen Produkten, eine hausgemachte Küche mit viel Finesse und Geschmack.\nNeben regionalen Spezialitäten wie Entenleber oder Confit wird Sie der Chefkoch auch mit seinen Meeresfrüchten (je nach Saison) und insbesondere mit seinem Pavé vom Stör begeistern, der an den Ufern des Flusses Adour gezüchtet wird und eine Perle der Gastronomie darstellt.\n\nAndere Spezialitäten :\n- Spieß mit Entenherzen\n- Perlhuhnsuprême\n- Entenbrustspieß mit Aprikosen\n- Apfelcroustade mit Pflaumeneis Armagnac\n\nDie Gerichte werden von authentischen und großzügigen Weinen aus der Region wie Saint Mont und Madiran begleitet.\nDas Restaurant steht Ihnen auch für alle Arten von Veranstaltungen (Geburtstage, Geschäftsessen, Gruppen...) zur Verfügung. Es bietet Ihnen auch seine Dienste und sein kulinarisches Know-how an, wenn Sie einen Caterer für Veranstaltungen oder zu Hause benötigen."
+        ],
+        "en": [
+          "At the entrance to Riscle, the hotel restaurant \"le Relais du Pont d'Arcole\", with its private car park, is ideally situated for a gourmet break.\n\nOn sunny days, nothing is more pleasant than to have lunch on the terrace where you will be given a warm and friendly welcome.\nDiscover and savour a traditional cuisine made with local products, fresh produce, a \"home-made\" cuisine with finesse and taste.\nIn addition to the regional specialities, duck foie gras or confit, the chef will delight you with his seafood (depending on the season) and more particularly his sturgeon steak, bred on the banks of the Adour, a pearl of gastronomy.\n\nOther specialities:\n- Skewer of duck hearts\n- Supreme of guinea fowl\n- Skewer of duck breast with apricots\n- Apple crumble with prune and Armagnac ice cream\n\nThe dishes are accompanied by authentic and generous wines produced in the region such as Saint Mont and Madiran.\nThe restaurant is also at your disposal for all types of events (birthdays, business meals, groups...). It also offers you its services and its culinary know-how if you need a caterer for an event or at home."
+        ],
+        "it": [
+          "All'ingresso di Riscle, il ristorante dell'hotel \"le Relais du Pont d'Arcole\", con parcheggio privato, si trova in posizione ideale per una pausa gourmet.\n\nNella bella stagione, non c'è niente di più piacevole che pranzare sulla terrazza, dove sarete accolti in modo caloroso e amichevole.\nScoprite e assaporate una cucina tradizionale fatta di prodotti locali, prodotti freschi, una cucina \"fatta in casa\" piena di finezza e gusto.\nOltre alle specialità regionali, foie gras d'anatra o confit, lo chef vi delizierà con i suoi frutti di mare (a seconda della stagione) e soprattutto con la bistecca di storione, allevata sulle rive dell'Adour, una perla della gastronomia.\n\nAltre specialità:\n- Brochette di cuori d'anatra\n- Suprema di faraona\n- Spiedino di petto d'anatra con albicocche\n- Crumble di mele con gelato alle prugne e Armagnac\n\nI piatti sono accompagnati da autentici e generosi vini prodotti nella regione, come il Saint Mont e il Madiran.\nIl ristorante è inoltre a disposizione per ogni tipo di evento (compleanni, pranzi di lavoro, gruppi...). Vi offre anche i suoi servizi e il suo know-how culinario se avete bisogno di un catering per il vostro evento o a casa."
+        ],
+        "fr": [
+          "À l’entrée de Riscle, le restaurant de l’hôtel « le Relais du Pont d’Arcole », disposant d’un parking privé, a une situation privilégiée pour une pause gourmande.\n\nPendant les beaux jours, rien n’est plus agréable que de déjeuner sur la terrasse ou un accueil chaleureux et convivial vous sera dispensé.\nA découvrir et savourer une cuisine traditionnelle faite de produits du terroir, de produits frais, une cuisine « fait maison » toute en finesse et en goût.\nOutre les spécialités régionales, foie gras de canard ou confit, le chef vous ravira avec ses produits de la mer (selon la saison) et plus particulièrement son pavé d’esturgeon, élevé sur les bords de l’Adour, une perle de la gastronomie.\n\nAutres spécialités :\n- Brochette de cœurs de canard\n- Suprême de pintade\n- Brochette de magret aux abricots\n- Croustade aux pommes glace pruneaux armagnac\n\nLes plats sont accompagnés de vins authentiques et généreux, produits dans la région comme le Saint Mont et le Madiran.\nLe restaurant est également à votre disposition pour tous types d'évènements (anniversaires, repas d'affaires, groupe...). Il vous propose aussi ses services et son savoir-faire culinaire si vous avez besoin n d’un traiteur événementiel ou à domicile."
+        ],
+        "nl": [
+          "Bij de ingang van Riscle is het hotelrestaurant \"le Relais du Pont d'Arcole\", met zijn eigen parkeerplaats, ideaal gelegen voor een gastronomisch verblijf.\n\nBij mooi weer is er niets aangenamer dan te lunchen op het terras waar u warm en vriendelijk wordt ontvangen.\nOntdek en proef een traditionele keuken gemaakt met lokale producten, verse producten, een \"home-made\" keuken vol finesse en smaak.\nNaast de regionale specialiteiten, eend foie gras of confit, zal de chef u verrukken met zijn zeevruchten (afhankelijk van het seizoen) en meer in het bijzonder zijn steursteak, gekweekt aan de oevers van de Adour, een parel van gastronomie.\n\nAndere specialiteiten:\n- Brochette van eendenharten\n- Supreme van parelhoenders\n- Spies van eendenborst met abrikozen\n- Appelcrumble met pruimen en Armagnac-ijs\n\nDe gerechten gaan vergezeld van authentieke en royale wijnen uit de streek, zoals Saint Mont en Madiran.\nHet restaurant staat ook tot uw beschikking voor alle soorten evenementen (verjaardagen, zakendiners, groepen...). Het biedt u ook zijn diensten en culinaire knowhow aan als u een traiteur nodig hebt voor uw evenement of bij u thuis."
+        ],
+        "es": [
+          "A la entrada de Riscle, el restaurante del hotel \"le Relais du Pont d'Arcole\", con su aparcamiento privado, está idealmente situado para una escapada gastronómica.\n\nEn los días soleados, nada más agradable que almorzar en la terraza, donde le darán una cálida y amable bienvenida.\nDescubra y saboree una cocina tradicional elaborada con productos locales, productos frescos, una cocina \"casera\" llena de delicadeza y sabor.\nAdemás de las especialidades regionales, foie gras o confit de pato, el chef le deleitará con sus mariscos (según la temporada) y, más concretamente, con su filete de esturión, criado a orillas del Adour, una perla de la gastronomía.\n\nOtras especialidades:\n- Brocheta de corazones de pato\n- Suprema de pintada\n- Brocheta de magret de pato con albaricoques\n- Crumble de manzana con ciruelas pasas y helado de Armagnac\n\nLos platos se acompañan de vinos auténticos y generosos producidos en la región, como Saint Mont y Madiran.\nEl restaurante también está a su disposición para todo tipo de eventos (cumpleaños, comidas de empresa, grupos...). También le ofrece sus servicios y conocimientos culinarios si necesita un servicio de catering para su evento o a domicilio."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/3a1e81b5-80e8-3396-9a95-e949cd4e4d6a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/99072d0e-541d-37ea-9996-0310cecfd978",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c673caa5-3c42-37b6-a265-c10e932463f8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dfac8082-f5ed-3920-8179-68b843a7dbb9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e066b24c-5e09-36b7-a29f-7118da61e8c8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/32534a46-15e3-3043-b60b-30f8e184af6c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/48627576-433d-36b6-b943-502566646362",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/57a8c883-5009-3dbb-8d5e-511116decf20",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Caterer",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Partyservice"
+            ],
+            "pt": [
+              "Empresa de restauração"
+            ],
+            "en": [
+              "Caterer"
+            ],
+            "it": [
+              "Ristoratore"
+            ],
+            "fr": [
+              "Traiteur"
+            ],
+            "nl": [
+              "Traiteur"
+            ],
+            "es": [
+              "Empresa de restauración"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5c478e61-b289-3e57-a0e4-bfab906575ea",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/772737ee-b898-3d0f-962d-81946bd94336",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d293ba0-6829-3bfb-9b61-d78272d1edd3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2959300-4b0e-3016-9dee-5236c854dd4a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/60a36ed8-1358-3e0c-a980-f6618db1772b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/86575a19-b68c-3ef5-bbe3-1968b9a893c7",
+          "ebucore:title": {
+            "fr": [
+              "Pont d'Arcole"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/restaurant le pont d'arcole"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/01209108-f9c8-3487-86c1-bb4e82db60e8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124453.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/073362ea-f1fe-3026-b922-f74d63e891fe",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a966b599-0da5-3df4-9263-a98e34b9ee07",
+          "ebucore:title": {
+            "fr": [
+              "Pont d'Arcole"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Pont d'Arcole"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/fc3368c2-1de0-380f-9574-75de69d49b94",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124454.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e262a43-bfc2-3cb1-bad9-a24a666fffe5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7a45fd27-cf2d-3e2a-9f74-f20dbcdcfe3a",
+          "ebucore:title": {
+            "fr": [
+              "Pont d'Arcole"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/pont d'arcole"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1eecd659-a83b-3e26-96ff-a07caf78f1a0",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124456.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/60a36ed8-1358-3e0c-a980-f6618db1772b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/86575a19-b68c-3ef5-bbe3-1968b9a893c7",
+          "ebucore:title": {
+            "fr": [
+              "Pont d'Arcole"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/restaurant le pont d'arcole"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/01209108-f9c8-3487-86c1-bb4e82db60e8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124453.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6948f750-a39c-32e9-8443-7498e2080ab2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2489df08-f740-3af4-8fdf-4a8cdbda6829",
+          "ebucore:title": {
+            "fr": [
+              "Pont d'Arcole"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Restaurant le Pont d'Arcole"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3fde8a35-7019-3aec-9f0a-b1443cf378a9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124452.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ebe2c665-c610-3400-8bbc-719ff67280c6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7a45fd27-cf2d-3e2a-9f74-f20dbcdcfe3a",
+          "ebucore:title": {
+            "fr": [
+              "Pont d'Arcole"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/pont d'arcole"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d77d3d9c-ff51-304b-9d5e-26ff13d2351c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124455.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/2feb6ea4-2b39-3346-981e-a96ea83f84c0",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/3b59ae79-c75b-3b73-8e39-c54793a7fff1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/243d696c-c64c-322c-b9f2-6fb51b52fb85",
+          "schema:addressLocality": "Riscle",
+          "schema:postalCode": "32400",
+          "schema:streetAddress": [
+            "RESTAURANT LE PONT D'ARCOLE",
+            "route d'Aquitaine"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32344",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Riscle"
+              ],
+              "pt": [
+                "Riscle"
+              ],
+              "en": [
+                "Riscle"
+              ],
+              "it": [
+                "Riscle"
+              ],
+              "fr": [
+                "Riscle"
+              ],
+              "nl": [
+                "Riscle"
+              ],
+              "es": [
+                "Riscle"
+              ]
+            },
+            "insee": "32344",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6445a9b9-6d1c-3346-a20f-5c9f0fe925c8",
+        "schema:latitude": "43.6692996",
+        "schema:longitude": "-0.0794363",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2021-06-04",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.451Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/3f4b874d-6e3a-3fff-8777-008a88dc7544",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/2eee4760-3722-3703-95b5-d2cda182bfc1",
+          "schema:maxPrice": [
+            "33"
+          ],
+          "schema:minPrice": [
+            "13"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/371d6122-6648-3332-9fee-f32e5ec2fe13",
+          "schema:minPrice": [
+            "26"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Menu de Terroir"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9abcaac1-b71b-382d-a44d-5d6da37a7ce7",
+          "schema:minPrice": [
+            "9.5"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "plat uniquement en emporter"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a489d404-4d32-3316-9b71-3ffa908412e1",
+          "schema:minPrice": [
+            "14"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Entrée+plat+dessert en emporter"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e766bb2c-4957-347f-8672-d731edb2d012",
+          "schema:minPrice": [
+            "12.5"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Entrée+plat ou plat + dessert en emporter"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eaad81cc-fc45-3802-a3f9-cacbfa632094",
+          "schema:minPrice": [
+            "19"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Menu bistrot"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ec823eea-1282-388f-827b-6c954e7a0270",
+          "schema:maxPrice": [
+            "33"
+          ],
+          "schema:minPrice": [
+            "22"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AlaCarte",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "A la carte"
+                ],
+                "pt": [
+                  "À escolha"
+                ],
+                "en": [
+                  "A la carte"
+                ],
+                "it": [
+                  "Alla carta"
+                ],
+                "fr": [
+                  "A la carte"
+                ],
+                "nl": [
+                  "À la carte"
+                ],
+                "es": [
+                  "A la carta"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "@id": "https://data.datatourisme.fr/15/4b14cf7d-7ed4-3d4a-852a-c7ba8c3bd821",
+  "dc:identifier": "HLOCEN045V505303",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Recouvrance"
+    ]
+  },
+  "allowedPersons": 8,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2020-02-29",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/15/e0288d5a-744b-3147-9f2a-2a0d9d0dca37",
+    "dc:identifier": "2a2df09f-985d-47ad-9e27-0d133bcca72f",
+    "schema:legalName": "ADRT45",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/32e96147-99fa-34f7-a814-874ec96dd1b0",
+      "schema:email": [
+        "vitoux.antoine@neuf.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 07 35 48 63"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/f890c092-a36c-3dff-bdd5-84d8ab3c0043",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Täglicher Haushalt"
+            ],
+            "pt": [
+              "Limpeza quotidiana"
+            ],
+            "en": [
+              "Daily housekeeping"
+            ],
+            "it": [
+              "Pulizia quotidiana"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ],
+            "es": [
+              "Tareas del hogar diarias"
+            ],
+            "nl": [
+              "Dagelijkse schoonmaak"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/da1111b3-26d3-31d0-9c3c-0a2c2f637a12",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1d28d4bc-860e-3bcb-ab36-62e4a43b8dab",
+          "schema:addressLocality": "Orléans",
+          "schema:postalCode": "45000",
+          "schema:streetAddress": [
+            "16 Rue Notre Dame de Recouvrance"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:45234",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Orléans"
+              ],
+              "pt": [
+                "Orléans"
+              ],
+              "en": [
+                "Orléans"
+              ],
+              "it": [
+                "Orléans"
+              ],
+              "fr": [
+                "Orléans"
+              ],
+              "nl": [
+                "Orléans"
+              ],
+              "es": [
+                "Orléans"
+              ]
+            },
+            "insee": "45234",
+            "isPartOfDepartment": {
+              "@id": "kb:France2445",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Loiret"
+                ],
+                "pt": [
+                  "Loiret"
+                ],
+                "en": [
+                  "Loiret"
+                ],
+                "it": [
+                  "Loiret"
+                ],
+                "fr": [
+                  "Loiret"
+                ],
+                "nl": [
+                  "Loiret"
+                ],
+                "es": [
+                  "Loiret"
+                ]
+              },
+              "insee": "45",
+              "isPartOfRegion": {
+                "@id": "kb:France24",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Centre-Val de Loire"
+                  ],
+                  "pt": [
+                    "Centre-Val de Loire"
+                  ],
+                  "en": [
+                    "Centre-Val de Loire"
+                  ],
+                  "it": [
+                    "Centre-Val de Loire"
+                  ],
+                  "fr": [
+                    "Centre-Val de Loire"
+                  ],
+                  "nl": [
+                    "Centre-Val de Loire"
+                  ],
+                  "es": [
+                    "Centre-Val de Loire"
+                  ]
+                },
+                "insee": "24",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/2c2141f9-5143-3ba1-8b3c-79de73c50edd",
+        "schema:latitude": "47.899013",
+        "schema:longitude": "1.900655",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-01-02",
+  "lastUpdateDatatourisme": "2023-01-07T05:20:13.439Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/4db0f123-3439-3e87-b42d-85486a3618db",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

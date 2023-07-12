@@ -1,0 +1,417 @@
+{
+  "@id": "https://data.datatourisme.fr/10/534403ec-c8c2-32b7-a900-71160b1d98f4",
+  "dc:identifier": "854001156",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "STUDIO"
+    ]
+  },
+  "allowedPersons": 2,
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/f7e9050c-92a8-31b0-8164-42ab604b0488",
+    "dc:identifier": "854",
+    "schema:legalName": "OT DU PAYS SAULNOIS",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/5f0b0fd6-acc5-3334-9f88-93ce81933081",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ec8d1e40-f25e-3714-9a1a-b0af9574cbab",
+      "schema:email": [
+        "christian.herbuveaux@cegetel.net"
+      ],
+      "schema:telephone": [
+        "+33 6 87 70 06 32"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/cb0037e5-7718-34fa-898e-2b7011f676c9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bettwäsche und Handtücher"
+            ],
+            "pt": [
+              "Lençóis e toalhas"
+            ],
+            "en": [
+              "Sheets and towels"
+            ],
+            "it": [
+              "Lenzuola e biancheria"
+            ],
+            "fr": [
+              "Draps et linges"
+            ],
+            "es": [
+              "Sábanas y ropa de cama"
+            ],
+            "nl": [
+              "Beddengoed en handdoeken"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/babc428a-928a-358b-ac8f-cf5fc0b57ad1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0da46a5b-0c96-3fbc-813a-645841ca797c",
+          "schema:addressLocality": "Dieuze",
+          "schema:postalCode": "57260",
+          "schema:streetAddress": [
+            "177 Rue Emile Friant"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57177",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Dieuze"
+              ],
+              "pt": [
+                "Dieuze"
+              ],
+              "en": [
+                "Dieuze"
+              ],
+              "it": [
+                "Dieuze"
+              ],
+              "fr": [
+                "Dieuze"
+              ],
+              "nl": [
+                "Dieuze"
+              ],
+              "es": [
+                "Dieuze"
+              ]
+            },
+            "insee": "57177",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/62b9811e-fe0c-3e00-8d0c-0965d63a4e48",
+        "schema:latitude": "48.8102193",
+        "schema:longitude": "6.71570859999997",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-06-17",
+  "lastUpdateDatatourisme": "2022-06-29T05:02:55.965Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/ef06a3d2-146f-3cac-b044-d55ad2d6a22b",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,876 @@
+{
+  "@id": "https://data.datatourisme.fr/6/ec9a46cb-9176-3e15-9762-f70c4febf87b",
+  "dc:identifier": "ITIBFC025312013640",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Entdecken Sie das historische Zentrum von Besançon auf einem beschilderten Rundgang."
+    ],
+    "en": [
+      "Discover the historical center of Besançon through a signposted route."
+    ],
+    "it": [
+      "Scoprite il centro storico di Besançon attraverso un percorso segnalato."
+    ],
+    "fr": [
+      "Découvrez le centre historique de Besançon au travers d'un parcours fléché."
+    ],
+    "nl": [
+      "Ontdek het historische centrum van Besançon via een bewegwijzerde route."
+    ],
+    "es": [
+      "Descubra el centro histórico de Besançon a través de una ruta señalizada."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Balade urbaine, au coeur de la boucle"
+    ]
+  },
+  "creationDate": "2015-10-01",
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/5c515c4d-a9c7-3d93-bccd-ea0147749f1a",
+    "dc:identifier": "ae54d634-8fa0-414e-8014-c4867b3c4db7",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/11160b98-e38d-38f5-af05-f48eb1e6ec7b",
+        "schema:postalCode": "25000",
+        "schema:streetAddress": [
+          "2 place de la première armée française"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "info@besancon-tourisme.com"
+    ],
+    "schema:legalName": "OFFICE DE TOURISME ET DES CONGRES DU GRAND BESANCON",
+    "schema:telephone": [
+      "+33 3 81 80 92 55"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.besancon-tourisme.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/608b57fb-3aa4-3d83-bc09-60fd4fdd16d1",
+      "schema:telephone": [
+        "+33 3 81 80 92 55"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.besancon-tourisme.com/pdf/CircuitsBesancon.pdf"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/b063dc23-5c46-30f1-ba11-1b9642ae9232",
+      "dc:description": {
+        "de": [
+          "Entdecken Sie das historische Zentrum von Besançon!\nDie Stadt trägt das Label \"Ville d'Art et d'Histoire\" (Stadt der Kunst und Geschichte) und besitzt ein reiches architektonisches Erbe, das auf eine über 2000-jährige Geschichte zurückblicken kann.\nAusgehend von der Gründung eines gallischen Oppidums (befestigte Stadt) hat sich die Stadt im Laufe der Jahrhunderte zu einem militärischen, religiösen, wirtschaftlichen und kulturellen Zentrum erster Ordnung entwickelt\n4,2 km lange Strecke"
+        ],
+        "en": [
+          "Discover the historical center of Besançon!\nLabelled \"Ville d'Art et d'Histoire\" (City of Art and History), the city has a rich architectural heritage, a legacy of more than 2000 years of history.\nSince the foundation of a Gallic oppidum (fortified city), the city has developed over the centuries to become a military, religious, economic and cultural center of the first order\n4.2km route"
+        ],
+        "it": [
+          "Scoprite il centro storico di Besançon!\nEtichettata \"Ville d'Art et d'Histoire\" (Città d'Arte e di Storia), la città vanta un ricco patrimonio architettonico, eredità di oltre 2000 anni di storia.\nDalla fondazione di un oppidum gallico (città fortificata), la città si è sviluppata nei secoli fino a diventare un centro militare, religioso, economico e culturale di prim'ordine\nPercorso di 4,2 km"
+        ],
+        "fr": [
+          "Découvrez le centre historique de Besançon !\nLabellisée \"Ville d'Art et d’Histoire\" la ville possède un riche patrimoine architectural, héritage de plus de 2000 ans d'histoire.\nDepuis la fondation d'un oppidum (ville fortifiée) gaulois, la cité s'est développée au fil des siècles pour devenir tout à tour un centre militaire, religieux, économique et culturel de premier ordre\nParcours de 4,2km"
+        ],
+        "nl": [
+          "Ontdek het historische centrum van Besançon!\nMet het label \"Ville d'Art et d'Histoire\" heeft de stad een rijk architecturaal erfgoed, de erfenis van meer dan 2000 jaar geschiedenis.\nSinds de stichting van een Gallische oppidum (versterkte stad) heeft de stad zich in de loop der eeuwen ontwikkeld tot een militair, religieus, economisch en cultureel centrum van de eerste orde\nRoute van 4,2 km"
+        ],
+        "es": [
+          "Descubra el centro histórico de Besançon\nDenominada \"Ville d'Art et d'Histoire\" (Ciudad de Arte y de Historia), la ciudad posee un rico patrimonio arquitectónico, legado de más de 2000 años de historia.\nDesde su fundación como oppidum (ciudad fortificada) galo, la ciudad se ha desarrollado a lo largo de los siglos hasta convertirse en un centro militar, religioso, económico y cultural de primer orden\nRecorrido de 4,2 km"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0fc69b3a-d48e-3d61-bcd9-4844d7ee3fd0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/13ba4473-fa67-3a7e-ad63-330fff883823",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/43a55c16-2070-31e7-8a2d-61c16f9fbc87",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/576ecc2a-968a-3b91-b775-fb351a4287b1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6337496b-7b89-3e3a-ad3a-7dd2ac60c85f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6c09c51b-b5dc-38bb-9d42-c856ca2629dc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9d974077-8b3c-3b53-a979-c4d4775fe0f9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b50b3d5e-c60e-39da-a93d-3abe58d0e988",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b9150414-f86d-3034-9992-f0820680b89b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d044d1dc-9fb2-3264-a1e4-4900a8532396",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Entdecken Sie das historische Zentrum von Besançon auf einem beschilderten Rundgang."
+        ],
+        "en": [
+          "Discover the historical center of Besançon through a signposted route."
+        ],
+        "it": [
+          "Scoprite il centro storico di Besançon attraverso un percorso segnalato."
+        ],
+        "fr": [
+          "Découvrez le centre historique de Besançon au travers d'un parcours fléché."
+        ],
+        "nl": [
+          "Ontdek het historische centrum van Besançon via een bewegwijzerde route."
+        ],
+        "es": [
+          "Descubra el centro histórico de Besançon a través de una ruta señalizada."
+        ]
+      }
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/55f7feaf-d231-368c-821b-b7a1fc0e76df",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/79950f4b-5e0e-324d-b359-16009c8d0b36",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/d47cbecb-23e1-3e33-b92f-f82052c48ab9",
+          "ebucore:title": {
+            "fr": [
+              "BALADE URBAINE, AU COEUR DE LA BOUCLE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "BALADE URBAINE, AU COEUR DE LA BOUCLE"
+          ],
+          "rightsEndDate": "2050-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7d455ab0-f3ab-3777-99db-d205a871c4b2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:PDF",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "PDF-Datei"
+                ],
+                "pt": [
+                  "Ficheiro PDF"
+                ],
+                "en": [
+                  "PDF file"
+                ],
+                "it": [
+                  "File PDF"
+                ],
+                "fr": [
+                  "Adobe Portable Document Format"
+                ],
+                "nl": [
+                  "Pdf-bestand"
+                ],
+                "es": [
+                  "Archivo PDF"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/pdf"
+                ],
+                "pt": [
+                  "application/pdf"
+                ],
+                "en": [
+                  "application/pdf"
+                ],
+                "it": [
+                  "application/pdf"
+                ],
+                "fr": [
+                  "application/pdf"
+                ],
+                "nl": [
+                  "application/pdf"
+                ],
+                "es": [
+                  "application/pdf"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.media.tourinsoft.eu/upload/circuit-boucle.pdf"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:History",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Geschichte"
+        ],
+        "pt": [
+          "História"
+        ],
+        "en": [
+          "History"
+        ],
+        "it": [
+          "Storia"
+        ],
+        "fr": [
+          "Histoire"
+        ],
+        "es": [
+          "Historia"
+        ],
+        "nl": [
+          "Geschiedenis"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/047ed8ce-c8c4-353f-beca-c3f8add5b1ce",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0c0d0233-3db7-30b1-869c-0fd5a4a0fe37",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/75e55b02-a9de-3af6-aa75-13125d064172",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/94636dbf-eb8e-3674-9feb-416d3e61de3f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bf5cac48-9446-30b4-97aa-a8fd43c2260b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/8e9dd696-4b51-3e53-86bb-140544114bf9",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0ee42a3e-e9e9-387a-b51c-48d2d7084e15",
+          "schema:addressLocality": "Besançon",
+          "schema:postalCode": "25000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:25056",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Besançon"
+              ],
+              "pt": [
+                "Besançon"
+              ],
+              "en": [
+                "Besançon"
+              ],
+              "it": [
+                "Besançon"
+              ],
+              "fr": [
+                "Besançon"
+              ],
+              "nl": [
+                "Besançon"
+              ],
+              "es": [
+                "Besançon"
+              ]
+            },
+            "insee": "25056",
+            "isPartOfDepartment": {
+              "@id": "kb:France2725",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Doubs"
+                ],
+                "pt": [
+                  "Doubs"
+                ],
+                "en": [
+                  "Doubs"
+                ],
+                "it": [
+                  "Doubs"
+                ],
+                "fr": [
+                  "Doubs"
+                ],
+                "nl": [
+                  "Doubs"
+                ],
+                "es": [
+                  "Doubs"
+                ]
+              },
+              "insee": "25",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/f79a3352-c0c1-368a-8590-d465518924b5",
+        "schema:latitude": "47.2398721",
+        "schema:longitude": "6.0225877",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-23",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.232Z",
+  "reducedMobilityAccess": true,
+  "tourDistance": "4200.0"
+}

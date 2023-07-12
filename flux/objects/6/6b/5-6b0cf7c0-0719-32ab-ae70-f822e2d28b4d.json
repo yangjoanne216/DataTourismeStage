@@ -1,0 +1,287 @@
+{
+  "@id": "https://data.datatourisme.fr/5/6b0cf7c0-0719-32ab-ae70-f822e2d28b4d",
+  "dc:identifier": "213009814",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Meublé Francis GARTNER"
+    ]
+  },
+  "allowedPersons": 4,
+  "creationDate": "2019-06-08",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/2ab59d04-79d9-3369-8fe3-d2a9939fb637",
+    "schema:legalName": "Office de tourisme du pays de Barr",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/f9be77db-d6c0-3a31-9fa8-638da3098074",
+      "schema:legalName": "Système d'informations touristique Alsace",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2c09db19-556f-3c93-9598-2d92c786faac",
+      "schema:email": [
+        "francis.gartner@orange.fr"
+      ],
+      "schema:legalName": "LOCATION GARTNER FRANCIS",
+      "schema:telephone": [
+        "+33 7 89 25 66 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2c09db19-556f-3c93-9598-2d92c786faac",
+      "schema:email": [
+        "francis.gartner@orange.fr"
+      ],
+      "schema:legalName": "LOCATION GARTNER FRANCIS",
+      "schema:telephone": [
+        "+33 7 89 25 66 07"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9b97ef18-497d-3e8e-b7fc-719c86f60fc1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2b2f485a-7a04-36f1-9b75-7f9c0f9396c7",
+          "schema:addressLocality": "Barr",
+          "schema:postalCode": "67140",
+          "schema:streetAddress": [
+            "19b rue de la Vallée"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:67021",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Barr"
+              ],
+              "pt": [
+                "Barr"
+              ],
+              "en": [
+                "Barr"
+              ],
+              "it": [
+                "Barr"
+              ],
+              "fr": [
+                "Barr"
+              ],
+              "nl": [
+                "Barr"
+              ],
+              "es": [
+                "Barr"
+              ]
+            },
+            "insee": "67021",
+            "isPartOfDepartment": {
+              "@id": "kb:France4467",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bas-Rhin"
+                ],
+                "pt": [
+                  "Bas-Rhin"
+                ],
+                "en": [
+                  "Bas-Rhin"
+                ],
+                "it": [
+                  "Bas-Rhin"
+                ],
+                "fr": [
+                  "Bas-Rhin"
+                ],
+                "nl": [
+                  "Bas-Rhin"
+                ],
+                "es": [
+                  "Bas-Rhin"
+                ]
+              },
+              "insee": "67",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/313d8bb7-30c0-37a8-bc8f-110bd86758dc",
+        "schema:latitude": "48.4054067700297",
+        "schema:longitude": "7.43574976179332",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/2ab59d04-79d9-3369-8fe3-d2a9939fb637",
+      "schema:legalName": "Office de tourisme du pays de Barr",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-04-20",
+  "lastUpdateDatatourisme": "2023-04-21T07:03:41.43Z"
+}

@@ -1,0 +1,1422 @@
+{
+  "@id": "https://data.datatourisme.fr/49/c5be49ab-ba28-3ca7-bf7b-003aad58ab9a",
+  "dc:identifier": "ASCPDL044V50XX99",
+  "@type": [
+    "schema:Product",
+    "EquipmentRental",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Fahrradverleih"
+    ],
+    "en": [
+      "Bike rental"
+    ],
+    "it": [
+      "Noleggio biciclette"
+    ],
+    "fr": [
+      "Location de vélo"
+    ],
+    "nl": [
+      "Fietsverhuur"
+    ],
+    "es": [
+      "Alquiler de bicicletas"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LOCATION DE VELO"
+    ]
+  },
+  "availableLanguage": [
+    "Français"
+  ],
+  "creationDate": "2021-06-23",
+  "hasAudience": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Teenagers",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Jugendliche"
+        ],
+        "pt": [
+          "Adolescentes"
+        ],
+        "en": [
+          "Teenagers"
+        ],
+        "it": [
+          "Adolescenti"
+        ],
+        "fr": [
+          "Adolescents"
+        ],
+        "nl": [
+          "Tieners"
+        ],
+        "es": [
+          "Adolescentes"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Teenagers",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Jugendliche"
+        ],
+        "pt": [
+          "Adolescentes"
+        ],
+        "en": [
+          "Teenagers"
+        ],
+        "it": [
+          "Adolescenti"
+        ],
+        "fr": [
+          "Adolescents"
+        ],
+        "nl": [
+          "Tieners"
+        ],
+        "es": [
+          "Adolescentes"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9a3b4c53-55fa-34a1-a393-ebecd2c2d317",
+      "schema:telephone": [
+        "+33 2 51 93 03 40"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.laroutedusel.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/204930e3-bec2-338e-9446-96a0e23378e9",
+      "dc:description": {
+        "de": [
+          "verleih von Fahrrädern für Erwachsene und Kinder sowie Anhängern für einen halben oder ganzen Tag"
+        ],
+        "en": [
+          "bike rental for adults and children, and trailer for a day or half day"
+        ],
+        "it": [
+          "noleggio di biciclette e rimorchi per adulti e bambini per una giornata o mezza giornata"
+        ],
+        "fr": [
+          "location de vélo adulte et enfant, et remorque à la journée ou la demi-journée"
+        ],
+        "nl": [
+          "verhuur van fietsen en aanhangers voor volwassenen en kinderen voor een dag of een halve dag"
+        ],
+        "es": [
+          "alquiler de bicicletas y remolques para adultos y niños por un día o medio día"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/16790e3e-f6c2-3865-834d-391e1ed06302",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/352448ee-0397-3d08-aec7-6d7ce0034fdf",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3db66cf6-fff1-393e-bf3e-31d18b7142da",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4f527536-d79c-330f-abfd-f931e8ce3358",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5d70ff78-3ab3-3a47-83a7-f18d0c0f5456",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8afe8104-e8d4-3023-8e99-a96587032ca3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9f96aa64-cb52-3fb0-bccf-232269c1e086",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a4f75107-0fea-3de5-a980-2e0f935c7fdb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d6e7be39-5834-3b46-9ee8-79e17c1ea53a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e0bae6e5-1fac-3491-ba0d-2a4e5a9d7898",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Fahrradverleih"
+        ],
+        "en": [
+          "Bike rental"
+        ],
+        "it": [
+          "Noleggio biciclette"
+        ],
+        "fr": [
+          "Location de vélo"
+        ],
+        "nl": [
+          "Fietsverhuur"
+        ],
+        "es": [
+          "Alquiler de bicicletas"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Bike",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fahrrad"
+        ],
+        "pt": [
+          "Bicicleta"
+        ],
+        "en": [
+          "Bike"
+        ],
+        "it": [
+          "Bicicletta"
+        ],
+        "fr": [
+          "Vélo"
+        ],
+        "nl": [
+          "Fiets"
+        ],
+        "es": [
+          "Bicicleta"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0e5efb8d-b415-369d-ac95-79579860f1cc",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1eadf594-d6c4-3e52-9430-fdae5f8c8b13",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/54e1901d-e856-3d7a-b7ac-7a766a4bdc38",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/af4f24e6-4481-3bdd-9106-09d4769b36f0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b8c37272-aa08-3f74-9ba8-18550d27b7ac",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/826955fc-7e40-3588-a84b-feae84e22f86",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b7ab6e94-ff56-321a-943b-0df8ecc4d6fd",
+          "schema:addressLocality": "Machecoul-Saint-Même",
+          "schema:postalCode": "44270",
+          "schema:streetAddress": [
+            "Allée de La Rabine",
+            "Camping de La Rabine"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:44087",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Machecoul-Saint-Même"
+              ],
+              "pt": [
+                "Machecoul-Saint-Même"
+              ],
+              "en": [
+                "Machecoul-Saint-Même"
+              ],
+              "it": [
+                "Machecoul-Saint-Même"
+              ],
+              "fr": [
+                "Machecoul-Saint-Même"
+              ],
+              "nl": [
+                "Machecoul-Saint-Même"
+              ],
+              "es": [
+                "Machecoul-Saint-Même"
+              ]
+            },
+            "insee": "44087",
+            "isPartOfDepartment": {
+              "@id": "kb:France5244",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Loire-Atlantique"
+                ],
+                "pt": [
+                  "Loire-Atlantique"
+                ],
+                "en": [
+                  "Loire-Atlantique"
+                ],
+                "it": [
+                  "Loire-Atlantique"
+                ],
+                "fr": [
+                  "Loire-Atlantique"
+                ],
+                "nl": [
+                  "Loire-Atlantique"
+                ],
+                "es": [
+                  "Loire-Atlantique"
+                ]
+              },
+              "insee": "44",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8206273d-405f-35b4-90ff-830a17fc817e",
+        "schema:latitude": "46.9900471",
+        "schema:longitude": "-1.8172204",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-01",
+  "lastUpdateDatatourisme": "2023-02-22T01:22:04.723Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/d70e406c-1390-31a7-bf08-203f5ad510f7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/37812c16-86c4-3a67-a102-6f72fe2d90d4",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "2 Stunden"
+            ],
+            "en": [
+              "2 hours"
+            ],
+            "it": [
+              "2 ore"
+            ],
+            "fr": [
+              "2 heures"
+            ],
+            "nl": [
+              "2 uur"
+            ],
+            "es": [
+              "2 horas"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2db8a5fc-47ed-3346-898f-929beaefc9e8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4d5b850d-6a73-3bef-bded-f6c44a4e80a1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5e44f823-42cf-36d2-8a44-2c0b5d68a6f8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/61b0291c-a256-3f4a-bc78-a7d285a76192",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f03052ea-9133-31d7-844d-65d131aff75e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/90bed8f4-34dd-3918-ac3c-ed5ec292fc9b",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "der Tag"
+            ],
+            "en": [
+              "during the day"
+            ],
+            "it": [
+              "il giorno"
+            ],
+            "fr": [
+              "la journée"
+            ],
+            "es": [
+              "el día"
+            ],
+            "nl": [
+              "de dag"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/057230ab-f205-389a-9819-5ca884d3f9d8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/0a73e866-253b-3f45-951c-da48b0bb9f89",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1e237238-c400-3b61-8592-d2789baad321",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/43f09fd6-5816-343a-aca5-d505df42be4e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5bee889c-a78b-3d13-8842-25418e2b198b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c72dec2d-b91e-37d6-aa6d-5e0080f3cdb8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "den halben Tag"
+            ],
+            "en": [
+              "half-day"
+            ],
+            "it": [
+              "mezza giornata"
+            ],
+            "fr": [
+              "la demi-journée"
+            ],
+            "es": [
+              "medio día"
+            ],
+            "nl": [
+              "halve dag"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/8a868de2-e4fd-3bc9-b9aa-0f7737efb129",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/acf310b8-a151-311e-8c57-a81581b7d44f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ce52c64d-475e-3ea4-a56f-b5effea1cf25",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e1431a96-6972-37c7-b802-bd56f02c9665",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f373d73b-624c-31b6-b1f1-73ea54e522b6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

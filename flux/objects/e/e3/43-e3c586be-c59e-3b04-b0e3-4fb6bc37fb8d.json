@@ -1,0 +1,4600 @@
+{
+  "@id": "https://data.datatourisme.fr/43/e3c586be-c59e-3b04-b0e3-4fb6bc37fb8d",
+  "dc:identifier": "49144",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Product",
+    "Visit"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "VISITES GUIDÉES DE SAINT-CLAR"
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:Associations",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verbände"
+        ],
+        "pt": [
+          "Associações"
+        ],
+        "en": [
+          "Associations"
+        ],
+        "it": [
+          "Associazioni"
+        ],
+        "fr": [
+          "Associations"
+        ],
+        "nl": [
+          "Verenigingen"
+        ],
+        "es": [
+          "Asociaciones"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Journalists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Journalisten"
+        ],
+        "pt": [
+          "Jornalistas"
+        ],
+        "en": [
+          "Journalists"
+        ],
+        "it": [
+          "Giornalisti"
+        ],
+        "fr": [
+          "Journalistes"
+        ],
+        "es": [
+          "Periodistas"
+        ],
+        "nl": [
+          "Journalisten"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PrimarySchool",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Grundschule"
+        ],
+        "pt": [
+          "Ensino primário (3 a 11 anos)"
+        ],
+        "en": [
+          "Primary school (y2 to y6 for gb - 1st gr to 5th gr for us)"
+        ],
+        "it": [
+          "Elementare (dalla scuola materna alla scuola primaria)"
+        ],
+        "fr": [
+          "Élémentaire (cp à cm2)"
+        ],
+        "es": [
+          "Primaria (desde educación infantil hasta los 10/11 años)"
+        ],
+        "nl": [
+          "Basisschool (6 tot 11 jaar)"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Professionals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fachkräfte"
+        ],
+        "pt": [
+          "Profissionais"
+        ],
+        "en": [
+          "Professionals"
+        ],
+        "it": [
+          "Professionisti"
+        ],
+        "fr": [
+          "Professionnels"
+        ],
+        "nl": [
+          "Professionals"
+        ],
+        "es": [
+          "Profesionales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:School",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schule"
+        ],
+        "pt": [
+          "Estudantes"
+        ],
+        "en": [
+          "School"
+        ],
+        "it": [
+          "Scuola"
+        ],
+        "fr": [
+          "Scolaires"
+        ],
+        "nl": [
+          "School"
+        ],
+        "es": [
+          "Escolares"
+        ]
+      }
+    },
+    {
+      "@id": "kb:WorksCouncils",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Betriebsräte"
+        ],
+        "pt": [
+          "Comités de empresa"
+        ],
+        "en": [
+          "Works councils"
+        ],
+        "it": [
+          "Consigli d'impresa"
+        ],
+        "fr": [
+          "Comités d'entreprise"
+        ],
+        "nl": [
+          "Ondernemingsraden"
+        ],
+        "es": [
+          "Comités de empresa"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Associations",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verbände"
+        ],
+        "pt": [
+          "Associações"
+        ],
+        "en": [
+          "Associations"
+        ],
+        "it": [
+          "Associazioni"
+        ],
+        "fr": [
+          "Associations"
+        ],
+        "nl": [
+          "Verenigingen"
+        ],
+        "es": [
+          "Asociaciones"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Journalists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Journalisten"
+        ],
+        "pt": [
+          "Jornalistas"
+        ],
+        "en": [
+          "Journalists"
+        ],
+        "it": [
+          "Giornalisti"
+        ],
+        "fr": [
+          "Journalistes"
+        ],
+        "es": [
+          "Periodistas"
+        ],
+        "nl": [
+          "Journalisten"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PrimarySchool",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Grundschule"
+        ],
+        "pt": [
+          "Ensino primário (3 a 11 anos)"
+        ],
+        "en": [
+          "Primary school (y2 to y6 for gb - 1st gr to 5th gr for us)"
+        ],
+        "it": [
+          "Elementare (dalla scuola materna alla scuola primaria)"
+        ],
+        "fr": [
+          "Élémentaire (cp à cm2)"
+        ],
+        "es": [
+          "Primaria (desde educación infantil hasta los 10/11 años)"
+        ],
+        "nl": [
+          "Basisschool (6 tot 11 jaar)"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Professionals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fachkräfte"
+        ],
+        "pt": [
+          "Profissionais"
+        ],
+        "en": [
+          "Professionals"
+        ],
+        "it": [
+          "Professionisti"
+        ],
+        "fr": [
+          "Professionnels"
+        ],
+        "nl": [
+          "Professionals"
+        ],
+        "es": [
+          "Profesionales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:School",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schule"
+        ],
+        "pt": [
+          "Estudantes"
+        ],
+        "en": [
+          "School"
+        ],
+        "it": [
+          "Scuola"
+        ],
+        "fr": [
+          "Scolaires"
+        ],
+        "nl": [
+          "School"
+        ],
+        "es": [
+          "Escolares"
+        ]
+      }
+    },
+    {
+      "@id": "kb:WorksCouncils",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Betriebsräte"
+        ],
+        "pt": [
+          "Comités de empresa"
+        ],
+        "en": [
+          "Works councils"
+        ],
+        "it": [
+          "Consigli d'impresa"
+        ],
+        "fr": [
+          "Comités d'entreprise"
+        ],
+        "nl": [
+          "Ondernemingsraden"
+        ],
+        "es": [
+          "Comités de empresa"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/5d46c2df-c35e-330d-b01c-d0cc6c310d36",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6791cd86-4c56-3b30-94bb-84b61a66aa64",
+          "schema:addressLocality": "Saint-Clar",
+          "schema:postalCode": "32380",
+          "schema:streetAddress": [
+            "Office de Tourisme",
+            "Place de la Mairie",
+            "VISITES GUIDÉES DE LA VILLE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32370",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Clar"
+              ],
+              "pt": [
+                "Saint-Clar"
+              ],
+              "en": [
+                "Saint-Clar"
+              ],
+              "it": [
+                "Saint-Clar"
+              ],
+              "fr": [
+                "Saint-Clar"
+              ],
+              "nl": [
+                "Saint-Clar"
+              ],
+              "es": [
+                "Saint-Clar"
+              ]
+            },
+            "insee": "32370",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "saint-clar@tourisme-bastidesdelomagne.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 66 34 45"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-bastidesdelomagne.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/74d58c6b-b903-3477-8750-156253c7771e",
+      "dc:description": {
+        "de": [
+          "Das Fremdenverkehrsamt von Saint-Clar bietet Ihnen eine geführte Besichtigung der Bastide und des Castelnau aus dem 13. Auf die Erkundung der Bastide, ihrer beiden Plätze mit Ecksteinen und des Rathausplatzes zu Fuß folgen eine Videopräsentation der Region und eine Verkostung regionaler Produkte.\nZu dieser Besichtigung kann die Entdeckung des Musée de l'École Publique und des Maison de l'Ail hinzukommen."
+        ],
+        "en": [
+          "The Tourist Office of Saint-Clar, offers you a guided tour of its Bastide and its Castelnau dating from the 13th century. The pedestrian discovery of the Bastide, its two squares and its town hall square, will be followed by a video presentation of the territory and a tasting of regional products.\nIn addition to this visit, you can discover the Public School Museum and the Garlic House."
+        ],
+        "it": [
+          "L'Ufficio del Turismo di Saint-Clar vi propone una visita guidata della Bastide e del Castelnau del XIII secolo. La visita a piedi della Bastide, delle sue due piazze con ferri angolari e della piazza del municipio, sarà seguita da una presentazione video della zona e da una degustazione di prodotti regionali.\nOltre a questa visita, è possibile scoprire il Museo della Scuola Pubblica e la Casa dell'Aglio."
+        ],
+        "fr": [
+          "L'Office de Tourisme de Saint-Clar, vous propose la visite guidée de sa Bastide et de son Castelnau datant du XIIIème siècle. La découverte pédestre de la Bastide, de ses deux places à cornières et de sa place de l'Hôtel de ville, sera suivie d'une vidéo de présentation du territoire et d'une dégustation de produits régionaux.\nA cette visite, peuvent s'ajouter la découverte du Musée de l'École Publique et de la Maison de l'Ail."
+        ],
+        "es": [
+          "La Oficina de Turismo de Saint-Clar le ofrece una visita guiada por su Bastida y su Castelnau del siglo XIII. El recorrido a pie por la Bastida, sus dos plazas con angulares y su plaza del Ayuntamiento, irá seguido de una presentación en vídeo de la zona y una degustación de productos regionales.\nAdemás de esta visita, podrá descubrir el Museo de la Escuela Pública y la Casa del Ajo."
+        ],
+        "nl": [
+          "Het VVV-kantoor van Saint-Clar biedt u een rondleiding door de Bastide en het Castelnau uit de 13e eeuw. De wandeling door de Bastide, de twee pleinen met hoekijzers en het stadhuisplein, wordt gevolgd door een videopresentatie van de streek en een proeverij van streekproducten.\nNaast dit bezoek kunt u het Openbare Schoolmuseum en het Knoflookhuis ontdekken."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/70b12a68-00e9-3753-b4fb-0666d526d3cf",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ab7b582c-8fb9-3978-938d-49a602da1ba5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/aff23256-7a3f-3caf-a8ad-919001e9c91a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c9441ef0-55d6-3747-922b-75eb9699b433",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e7e91ee0-ca97-34ea-b56a-f86c611d5000",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/44e8bc32-e3d2-344d-aa19-09d3b77fd451",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56549fce-ea21-3f66-8b97-a309ad02f68f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5682ffbd-862f-351a-8d70-c00cbe8cba77",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56cc6a59-439e-3593-8221-ea9a7564b9d9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/76474153-6e36-3a68-b6ce-92231cc5801b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d7a87fe-da63-34ba-8036-524d55439400",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/906e1b24-9582-3cdf-a3bc-82bac98fec00",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b803d5f9-ea45-3360-a7e3-133ecd1bc16f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc0d150d-dc8f-36c4-8d0d-be7b05251e54",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Picknickplatz"
+            ],
+            "pt": [
+              "Área de piquenique"
+            ],
+            "en": [
+              "Picnic area"
+            ],
+            "it": [
+              "Area pic-nic"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ],
+            "es": [
+              "Zona de pícnic"
+            ],
+            "nl": [
+              "Picknickplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca034818-4da7-31b0-ae8d-d5eb5407a6a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/eaa04625-3dfd-3a30-9729-eb35e6d18ba0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TradeShows",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ausstellungen"
+            ],
+            "pt": [
+              "Exposições"
+            ],
+            "en": [
+              "Trade shows"
+            ],
+            "it": [
+              "Esposizioni"
+            ],
+            "fr": [
+              "Expositions"
+            ],
+            "nl": [
+              "Exposities"
+            ],
+            "es": [
+              "Exposiciones"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/57195a63-4818-38ac-8c94-6d0df5a76cda",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/e9e62aba-2631-3fa1-8c60-60938a2c708e",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Coeur de Lomagne/C. Laffont"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/85d99553-fca0-3e4b-aba6-f06e06a05e7a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0004763.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/56b6214c-4c80-3a2c-8753-258ab7c58731",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7b706a75-6fee-3c81-8a92-b942eedbc76a",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Coeur de Lomagne/J. C. Bourgeat"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/906426c2-2edf-3f93-ae00-08e6c0cbfb9b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0005077.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/57195a63-4818-38ac-8c94-6d0df5a76cda",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/e9e62aba-2631-3fa1-8c60-60938a2c708e",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Coeur de Lomagne/C. Laffont"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/85d99553-fca0-3e4b-aba6-f06e06a05e7a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0004763.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6bcdc278-40bd-3f49-a15e-319200c232fd",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3e9be15f-b5d9-3f8e-ba34-64db8162637b",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Coeur de Lomagne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b94798a3-8ffe-3e76-b95c-076128afc06c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0017050.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6bfd5e3e-23d5-39a5-bafc-6522e98344cf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/02fa1ae4-45fd-33d0-86a2-542141b8efe9",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Musée Ecole Publique/R. Vazquez"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1387bf4d-cb5a-35d8-80ef-1b0df8eb4827",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0010518.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d64b2fb-8cfa-32d9-9ace-b2a06ca519bf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b7b41d64-9951-39b9-ab51-6737fbd4d0eb",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/UDOTSI 32"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b891346a-a8ee-3ef0-93b5-edb924b407f9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0023604.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b027568e-a81f-3ecd-899d-8e8c3f65baa1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3e9be15f-b5d9-3f8e-ba34-64db8162637b",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Coeur de Lomagne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3f34888b-66e0-36c8-a872-2fea58e4491f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0017013.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/edd0647d-4f1c-30d6-8fa5-20250567865f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b7b41d64-9951-39b9-ab51-6737fbd4d0eb",
+          "ebucore:title": {
+            "fr": [
+              "VISITES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/UDOTSI 32"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c68c4de5-1c23-3ec9-a01e-55236227380f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0023606.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/b0a3bec5-68d5-319e-be2b-1fc635d23e22",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6791cd86-4c56-3b30-94bb-84b61a66aa64",
+          "schema:addressLocality": "Saint-Clar",
+          "schema:postalCode": "32380",
+          "schema:streetAddress": [
+            "Office de Tourisme",
+            "Place de la Mairie",
+            "VISITES GUIDÉES DE LA VILLE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32370",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Clar"
+              ],
+              "pt": [
+                "Saint-Clar"
+              ],
+              "en": [
+                "Saint-Clar"
+              ],
+              "it": [
+                "Saint-Clar"
+              ],
+              "fr": [
+                "Saint-Clar"
+              ],
+              "nl": [
+                "Saint-Clar"
+              ],
+              "es": [
+                "Saint-Clar"
+              ]
+            },
+            "insee": "32370",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/fc171b2a-d972-3aa8-9403-325095603720",
+        "schema:latitude": "43.8920011",
+        "schema:longitude": "0.7708454",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-01-30",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.452Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/01ae2f34-e26d-3b73-8a98-cdd977b67716",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/09043deb-31b8-32dc-9801-987b92049d41",
+          "schema:price": "2.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/22b347fc-8a4b-3883-9349-cc5da28eb2dc",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Erwachsener: 2? - Privilegiertes Angebot: 1,50?\nKind: 1? - Privilegiertes Angebot: kostenlos bis 13 Jahre.\nFamilientarif Petit d'Artagnan: 3,50? - Privilegiertes Angebot: 2,50?"
+            ],
+            "en": [
+              "Adult: 2€ - Special offer: 1,50\nChild: 1€ - Special offer: free until 13 years old.\nFamily price Petit d'Artagnan: 3,50€ - Special offer: 2,50"
+            ],
+            "it": [
+              "Adulto: 2? - Offerta privilegiata: 1,50?\nFigli: 1? - Offerta privilegiata: bambini gratis fino a 13 anni.\nTariffa famiglia Petit d'Artagnan: 3,50? - Offerta privilegiata: 2,50?"
+            ],
+            "fr": [
+              "Adulte: 2€ - Offre privilège: 1,50€\nEnfant: 1€ - Offre privilège: gratuit jusqu'à 13 ans.\nTarif famille Petit d'Artagnan: 3,50€ - Offre privilège: 2,50€"
+            ],
+            "nl": [
+              "Volwassene: 2? - Privilege aanbieding: 1,50?\nKinderen: 1? - Privilege aanbieding: gratis voor kinderen tot 13 jaar.\nFamilietarief Petit d'Artagnan: 3,50? - Privilege aanbieding: 2,50?"
+            ],
+            "es": [
+              "Adulto: 2? - Oferta Privilege: 1,50?\nHijos: ¿1? - Oferta privilegiada: gratis para niños de hasta 13 años.\nTarifa familiar Petit d'Artagnan: 3,50? - Oferta Privilege: 2,50?"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/18fba394-229b-33a9-9405-8d59053db34f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/284d90f0-7edd-3efa-bb53-75b026497534",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/58f91b01-f8ff-323f-862a-c392aa42ba2b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f32ec559-0de1-3b77-91c9-e0c9bef3963b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fbbf346f-c6e8-30fe-976e-a6e6c955b10e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/43451e35-4658-30e2-bdca-a64447a95681",
+          "schema:price": "2",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Mindestens 2 Personen und nach Vereinbarung"
+            ],
+            "en": [
+              "Minimum 2 people and by appointment"
+            ],
+            "it": [
+              "Minimo 2 persone e su appuntamento"
+            ],
+            "fr": [
+              "Minimum 2 personnes et sur rendez-vous"
+            ],
+            "nl": [
+              "Minimaal 2 personen en op afspraak"
+            ],
+            "es": [
+              "Mínimo 2 personas y con cita previa"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/039ceaf4-5c69-39cd-90bc-61027cf6f8cf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3a31792a-8e88-3758-bde8-46c3e03dbf2d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/57f08d30-6e9b-3b1d-aa5f-780baa4e32c5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7be4a359-5933-33e6-821c-633df2174c5e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ace67751-af45-3639-87da-f5f15a12c5c9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4bc2512a-e94c-383b-b780-e8ffe53a7b9c",
+          "schema:price": "1",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "gruppe ab 15 Personen"
+            ],
+            "en": [
+              "group from 15 people"
+            ],
+            "it": [
+              "gruppi a partire da 15 persone"
+            ],
+            "fr": [
+              "groupe à partir de 15 personnes"
+            ],
+            "es": [
+              "grupos a partir de 15 personas"
+            ],
+            "nl": [
+              "groepen vanaf 15 personen"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/01668e01-b9ca-34a8-ad8f-8f6f610acbe6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/46412303-7afd-32de-8f4b-5509cc534a19",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/612483c7-e81e-3408-9929-28b8df09d0c0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/693418fb-edce-3fc1-8e0b-ec22d06e7810",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/731130e6-d012-3bc2-8590-2a92d965a083",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Tarif enfant jusqu'à 16 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/515cc523-5c96-3027-8860-1f70c278bd15",
+          "schema:price": "1",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/60a48254-32e2-32a6-8d82-cc08592d9452",
+          "schema:price": "3.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Sur présentation Petit d'Artagnan/ par famille"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/67967511-bab1-3101-a47c-26ce38377a72",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/d10b67d1-eba0-3101-96d4-862831e3ccda",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "pour 1 personne par groupe à partir de 15 pers."
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/68de5a80-68d9-3391-8908-c71891e24ba9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "pour enfants de moins de 3 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6f8ed194-b269-3a8a-820d-131cf6ec973c",
+          "schema:price": "1",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Tarif enfant jusqu'à 16 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a314e5ea-5d62-3e1e-a5be-bb7569007d49",
+          "schema:price": "2",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "gruppe ab 15 Personen"
+            ],
+            "en": [
+              "group from 15 people"
+            ],
+            "it": [
+              "gruppi a partire da 15 persone"
+            ],
+            "fr": [
+              "groupe à partir de 15 personnes"
+            ],
+            "es": [
+              "grupos a partir de 15 personas"
+            ],
+            "nl": [
+              "groepen vanaf 15 personen"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/06b85527-b12d-313f-94ff-b8e952bf3546",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/097b61fe-9830-3a38-80e3-29068c077c20",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/79e22753-051b-3137-a6cb-a38e3868275d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a3c82345-0b91-3c67-a605-034707ffea33",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d081b112-09f4-3022-b099-1f2dde5ffdc4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b1b77e70-4dd9-3466-8f81-93f5ec453843",
+          "schema:price": "2",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Ab 15 Personen"
+            ],
+            "en": [
+              "From 15 persons"
+            ],
+            "it": [
+              "Da 15 persone"
+            ],
+            "fr": [
+              "A partir de 15 personnes"
+            ],
+            "nl": [
+              "Vanaf 15 personen"
+            ],
+            "es": [
+              "A partir de 15 personas"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/145d3c53-f9bc-3011-a247-ccece4b4b3c4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1fec637a-a8fa-3bd7-b9ae-6d0de6c8502b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/397f761f-11d7-31d3-98d3-a9f7543299b5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/74249466-ac0c-37a5-88b6-55253f6d0964",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ab794e36-ecdd-31cf-93a4-3721743ea4d8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d950b50e-f53c-3f72-805d-8b6073dd8873",
+          "schema:price": "1",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Children",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kinder"
+                ],
+                "pt": [
+                  "Crianças"
+                ],
+                "en": [
+                  "Children"
+                ],
+                "it": [
+                  "Bambini"
+                ],
+                "fr": [
+                  "Enfants"
+                ],
+                "es": [
+                  "Menores"
+                ],
+                "nl": [
+                  "Kinderen"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:GuidedTour",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Geführter Rundgang"
+                ],
+                "pt": [
+                  "Visita guiada"
+                ],
+                "en": [
+                  "Guided tour"
+                ],
+                "it": [
+                  "Visita guidata"
+                ],
+                "fr": [
+                  "Visite guidée"
+                ],
+                "es": [
+                  "Visita guiada"
+                ],
+                "nl": [
+                  "Rondleiding met gids"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "jusqu'à 13 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/faf2e6d1-459b-3c91-aba2-468f16f3935e",
+          "schema:price": "3.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Tarif Petit d'Artagnan/par famille"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fd3437bb-4b26-3ef2-aa78-0ab73f992031",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "- de 3 ans"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

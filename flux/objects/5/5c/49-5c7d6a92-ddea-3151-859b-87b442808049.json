@@ -1,0 +1,808 @@
+{
+  "@id": "https://data.datatourisme.fr/49/5c7d6a92-ddea-3151-859b-87b442808049",
+  "dc:identifier": "ASCPDL053V504CEX",
+  "@type": [
+    "schema:Product",
+    "Course",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Verkostungskurse"
+    ],
+    "en": [
+      "Tasting course"
+    ],
+    "it": [
+      "Corso di degustazione"
+    ],
+    "fr": [
+      "Cours de dégustation"
+    ],
+    "nl": [
+      "Proefcursus"
+    ],
+    "es": [
+      "Curso de degustación"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "COURS DE DÉGUSTATION DE VINS ET SPIRITUEUX"
+    ]
+  },
+  "availableLanguage": [
+    "Français"
+  ],
+  "creationDate": "2017-02-07",
+  "hasAudience": [
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/6800a7d6-b597-3509-a49e-c08e5d74f03e",
+      "schema:email": [
+        "lesommelier-evron@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 43 01 75 72"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://lesommelier-evron.com/",
+        "https://www.facebook.com/cavelesommelier.evron/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/74350636-e4a6-3a72-b63d-b685cb55b763",
+      "dc:description": {
+        "de": [
+          "Jeden ersten Donnerstag im Monat können Sie abends um 20 Uhr an Verkostungskursen teilnehmen.\nVerschiedene Themen wie Wein und Käse, Rum, Whisky, Mono-Rebsorten, Entdeckungen von Regionen... werden behandelt.\n\nAll dies in einer freundlichen und entspannten Atmosphäre!\n\nEine Anmeldung ist erforderlich. Preis: je nach konsumierten Getränken"
+        ],
+        "en": [
+          "Every first Thursday of the month, you can participate in tasting classes in the evening at 8pm.\nVarious themes such as wine and cheese pairing, rum, whisky, single varietals, regional discoveries...\n\nAll this in a friendly and relaxed atmosphere!\n\nOn registration. Price: according to drinks consumed"
+        ],
+        "it": [
+          "Ogni primo giovedì del mese è possibile partecipare a corsi di degustazione serali alle ore 20.00.\nDiversi temi come l'abbinamento vino e formaggio, il rum, il whisky, i monovitigni, le scoperte regionali...\n\nIl tutto in un'atmosfera amichevole e rilassata!\n\nAl momento della registrazione. Prezzo: in base alle bevande consumate"
+        ],
+        "fr": [
+          "Chaque premier jeudi du mois, vous pouvez participez à des cours de dégustation en soirée à 20h.\nDes thèmes variés tel que l'accord vins et fromages, Le rhum, le whisky, Les mono-cépages, Découvertes de régions..\n\nTout cela dans une ambiance conviviale et décontractée !\n\nSur inscription. Tarif: selon boissons consommées"
+        ],
+        "es": [
+          "Todos los primeros jueves del mes, podrá participar en clases de cata nocturnas a las 20:00 horas.\nVarios temas como el maridaje de vinos y quesos, el ron, el whisky, los monovarietales, los descubrimientos regionales...\n\nTodo ello en un ambiente agradable y relajado\n\nEn el registro. Precio: según las bebidas consumidas"
+        ],
+        "nl": [
+          "Elke eerste donderdag van de maand kunt u 's avonds om 20.00 uur deelnemen aan proeflessen.\nVerschillende thema's zoals wijn en kaas, rum, whisky, single varietals, regionale ontdekkingen...\n\nDit alles in een vriendelijke en ontspannen sfeer!\n\nBij inschrijving. Prijs: afhankelijk van de genuttigde drankjes"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/04b88e73-d0dc-3823-9a71-085d8eb168ab",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/238dfa4d-7bd3-3cca-9595-bd6a9b13f828",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/31c397d8-45a8-35d1-aef8-a85004c8a3a3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4c16c3c7-9861-38be-8ce3-ea50c07a3d7d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6549020d-d756-3a95-8083-88faa82107ca",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6ad78490-3298-3eca-8775-bae6e431c741",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a5cb5649-f52c-326c-98a6-394013e03a69",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bdd5b1d8-103e-3d63-be16-f4e84119160d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cec0b507-4c58-3088-852e-826ffa067c44",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/da6abadd-431b-3f7b-bc31-0579da6695c5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Verkostungskurse"
+        ],
+        "en": [
+          "Tasting course"
+        ],
+        "it": [
+          "Corso di degustazione"
+        ],
+        "fr": [
+          "Cours de dégustation"
+        ],
+        "nl": [
+          "Proefcursus"
+        ],
+        "es": [
+          "Curso de degustación"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Oenology",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Önologie, Wein"
+        ],
+        "pt": [
+          "Enologia, vinho"
+        ],
+        "en": [
+          "Oenology, wine"
+        ],
+        "it": [
+          "Enologia, vino"
+        ],
+        "fr": [
+          "Oenologie, vin"
+        ],
+        "nl": [
+          "Oenologie, wijn"
+        ],
+        "es": [
+          "Enología, vino"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0c78f8b2-0bc0-3c08-9d19-1692125ba16c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/76cf0be2-c324-331b-9017-0c49e49b6c2d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b7c7d68e-b3ef-33c8-b43b-28cb7c3a0698",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2791a3c-0dac-31ec-b262-cf0c6545171f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e9814c50-a768-3232-96fb-956a0e40a478",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9815e382-110c-320a-91c4-a4ed654abbe9",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8b5b78a-bae1-3fb8-bf3c-19d566ee5b84",
+          "schema:addressLocality": "Évron",
+          "schema:postalCode": "53600",
+          "schema:streetAddress": [
+            "26 avenue des Sports"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53097",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Évron"
+              ],
+              "pt": [
+                "Évron"
+              ],
+              "en": [
+                "Évron"
+              ],
+              "it": [
+                "Évron"
+              ],
+              "fr": [
+                "Évron"
+              ],
+              "nl": [
+                "Évron"
+              ],
+              "es": [
+                "Évron"
+              ]
+            },
+            "insee": "53097",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/5cfe93c9-33e1-35b7-859d-3ad7e0a11617",
+        "schema:latitude": "48.1510558",
+        "schema:longitude": "-0.4040364",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-01-10",
+  "lastUpdateDatatourisme": "2023-02-03T01:27:09.969Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/33d7fafa-5fb4-32af-b481-0034566712f2",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

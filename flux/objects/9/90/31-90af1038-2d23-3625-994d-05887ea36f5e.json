@@ -1,0 +1,2082 @@
+{
+  "@id": "https://data.datatourisme.fr/31/90af1038-2d23-3625-994d-05887ea36f5e",
+  "dc:identifier": "TFO173005024882",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "StopOverOrGroupLodge"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Die Hébergerie de Loulette ist ein alter, abgelegener Schafstall im Herzen der Causse du Larzac, der über einen 1 km langen befahrbaren Weg erreichbar ist und zwischen Nant und La Cavalerie liegt."
+    ],
+    "en": [
+      "Loulette is an isolated former sheep hold in the centre of the Causse du Larzac, accessible via a one kilometre car path, located between Nant and La Cavalerie."
+    ],
+    "it": [
+      "L'hébergerie de Loulette è un antico ovile isolato nel cuore della Causse du Larzac, accessibile da un vialetto di un chilometro, situato tra Nant e La Cavalerie."
+    ],
+    "fr": [
+      "L'hébergerie de Loulette est une ancienne bergerie isolée au coeur du Causse du Larzac, accessible par un chemin carrossable d'un kilomètre, située entre Nant et La Cavalerie."
+    ],
+    "es": [
+      "La Hébergerie de Loulette es una antigua majada aislada en el corazón de la meseta calcárea del Larzac, accesible por una pista de tierra de un kilómetro y situada entre Nant y La Cavalerie."
+    ],
+    "nl": [
+      "L'hébergerie de Loulette is een oude schaapskooi geïsoleerd in het hart van de Causse du Larzac, bereikbaar via een oprijlaan van een kilometer, gelegen tussen Nant en La Cavalerie."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Gîte de Loulette"
+    ]
+  },
+  "allowedPersons": 11,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/5fb40d42-80fd-3a5e-804a-1e46ef1f46bf",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/98aac56c-4da2-39df-bbaf-53111540c244",
+          "schema:addressLocality": "Nant",
+          "schema:postalCode": "12230",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12168",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Nant"
+              ],
+              "pt": [
+                "Nant"
+              ],
+              "en": [
+                "Nant"
+              ],
+              "it": [
+                "Nant"
+              ],
+              "fr": [
+                "Nant"
+              ],
+              "nl": [
+                "Nant"
+              ],
+              "es": [
+                "Nant"
+              ]
+            },
+            "insee": "12168",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "christianjulian@orange.fr"
+      ],
+      "schema:familyName": [
+        "JULIAN"
+      ],
+      "schema:givenName": [
+        "Christian"
+      ],
+      "schema:legalName": "Gîte de Loulette",
+      "schema:telephone": [
+        "+33 5 65 62 13 14",
+        "+33 6 52 28 35 81"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.gitedeloulette.fr/"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/981be597-4cbd-34bd-b4b2-e048d8574ebe",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/20fc0260-8948-3917-bc46-fbd9f0ffff28",
+          "schema:addressLocality": "Nant",
+          "schema:postalCode": "12230",
+          "schema:streetAddress": [
+            "Les Liquisses Hautes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12168",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Nant"
+              ],
+              "pt": [
+                "Nant"
+              ],
+              "en": [
+                "Nant"
+              ],
+              "it": [
+                "Nant"
+              ],
+              "fr": [
+                "Nant"
+              ],
+              "nl": [
+                "Nant"
+              ],
+              "es": [
+                "Nant"
+              ]
+            },
+            "insee": "12168",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "christianjulian@orange.fr"
+      ],
+      "schema:familyName": [
+        "JULIAN"
+      ],
+      "schema:givenName": [
+        "Christian"
+      ],
+      "schema:legalName": "Gîte de Loulette",
+      "schema:telephone": [
+        "+33 5 65 62 13 14",
+        "+33 6 52 28 35 81"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.gitedeloulette.fr/"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/e05adf64-fb80-3c6b-9074-a8ea538e3052",
+      "dc:description": {
+        "de": [
+          "Das Ferienhaus wurde vollständig ökologisch renoviert. Die Stromerzeugung erfolgt über Photovoltaikanlagen, die Zentralheizung wird durch einen Pelletofen gewährleistet, das Flusswasser wird für die Toiletten genutzt.\nDie Unterkunft für 11 Personen (3 Zimmer) umfasst im Erdgeschoss: einen Gemeinschaftsraum mit Küchenzeile (Kühlschrank mit Gefrierfach, Gasherd und -ofen), eine Sitzecke, ein barrierefreies Zimmer für 4 Personen (2 Etagenbetten, 2 Einzelbetten, Waschbecken) und ein behindertengerechtes Badezimmer (Dusche, WC, Waschbecken), die angrenzende ehemalige Schäferei (Jasse) wird als Aktivitätsraum (120m²)+ WC zur Verfügung gestellt. Im Obergeschoss befinden sich 2 Gewölbezimmer: 1 Zimmer (mit 3 Einzelbetten), 1 Zimmer (mit 4 Betten, davon 1 Ausziehbett, Waschbecken), ein Badezimmer (begehbare Dusche, Waschbecken), separates WC. Jedes Zimmer verfügt über einen direkten Zugang nach außen. Bettwäsche wird zur Verfügung gestellt. Terrasse im 1. Stock, gepflasterter Hof und Gras auf jeder Seite. Privater Parkplatz. Vermietung pro Nacht pro Person (mini 2 pers) oder Vermietung des gesamten Ferienhauses."
+        ],
+        "en": [
+          "The gîte was fully ecologically renovated. Power is produced by solar vanels, central heating with a stove, fluvial water collection for the toilets."
+        ],
+        "it": [
+          "Il gîte è stato completamente ristrutturato nel rispetto dell'ambiente. L'elettricità è prodotta da pannelli fotovoltaici, il riscaldamento centrale è fornito da una stufa a pellet e l'acqua del fiume è utilizzata per i servizi igienici.\nCon una capacità di 11 persone (3 camere da letto), il gîte d'étape et de séjour comprende al piano terra: una sala comune con angolo cottura (frigorifero con congelatore, piano cottura e forno a gas), un'area salotto, una camera da letto accessibile a 4 persone (2 letti a castello, 2 letti singoli, un lavandino) e un bagno accessibile alle persone con mobilità ridotta (doccia, wc, lavandino); l'ex ovile (jasse) adiacente è disponibile come sala per attività (120m²) + wc. Al primo piano si trovano 2 camere da letto a volta: 1 camera da letto (con 3 letti singoli), 1 camera da letto (con 4 letti, di cui 1 estraibile, un lavabo), un bagno con doccia (doccia italiana, lavabo), WC separato. Ogni camera ha accesso diretto all'esterno. Fogli forniti. Terrazza al 1° piano, cortile pavimentato e prato su ogni lato. Parcheggio privato. Affitto a notte per persona (minimo 2 persone) o affitto dell'intero gite."
+        ],
+        "fr": [
+          "Le gîte a été entièrement rénové écologiquement. La production en électricité se fait par des panneaux photovoltaïques, le chauffage central est assuré par un poêle à granulés, récupération des eaux fluviales pour les toilettes.\nD'une capacité de 11 personnes (3 chambres), le gîte d'étape et de séjour comprend en rez-de-chaussée : une salle commune avec coin cuisine (réfrigérateur avec compartiment congélateur, cuisinière et four à gaz), un coin salon, une chambre accessible pour 4 personnes (2 lits superposés, 2 lits simples, une vasque) et une salle d'eau accessible aux personnes à mobilité réduite (douche, wc, lavabo), l'ancienne bergerie (jasse) mitoyenne est mise à disposition comme salle d'activité (120m²)+ wc. A l'étage 2 chambres voutées: 1 chambre (avec 3 lits simples), 1 chambre (avec 4 lits dont 1 gigogne, une vasque), une salle d'eau (douche à l'italienne, lavabo), WC séparés. Chaque chambre bénéficie d'un accès direct sur l'extérieur. Draps fournis. Terrasse au 1er étage, cour dallée et en herbe sur chaque façade. Parking privé. Location à la nuitée par personne (mini 2 pers) ou location du gite entier."
+        ],
+        "es": [
+          "El albergue ha sido completamente renovado ecológicamente. La producción de electricidad se hace con paneles fotovoltaicos, la calefacción central está garantizada por una estufa de granulados y recogen agua pluvial para los lavabos."
+        ],
+        "nl": [
+          "De gîte is volledig milieuvriendelijk gerenoveerd. De elektriciteit wordt geproduceerd door fotovoltaïsche panelen, de centrale verwarming wordt verzorgd door een pelletkachel, en voor de toiletten wordt rivierwater gebruikt.\nMet een capaciteit van 11 personen (3 slaapkamers), omvat de gîte d'étape et de séjour op de begane grond: een gemeenschappelijke ruimte met een keukenhoek (koelkast met vriesvak, fornuis en gasoven), een zithoek, een slaapkamer toegankelijk voor 4 personen (2 stapelbedden, 2 eenpersoonsbedden, een wastafel) en een badkamer toegankelijk voor personen met beperkte mobiliteit (douche, toilet, wastafel). De oude schaapskooi (jasse) grenzend aan de gîte is beschikbaar als activiteitenruimte (120m²) + toilet. Op de eerste verdieping zijn er 2 gewelfde slaapkamers: 1 slaapkamer (met 3 eenpersoonsbedden), 1 slaapkamer (met 4 bedden, waarvan 1 een uitklapbed is, een wastafel), een doucheruimte (Italiaanse douche, wastafel), aparte WC. Elke kamer heeft directe toegang tot buiten. Vellen voorzien. Terras op de 1e verdieping, betegelde binnenplaats en gras aan weerszijden. Privé parkeerplaats. Verhuur per nacht per persoon (minimaal 2 personen) of huur van de hele gite."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/118783ca-de3b-3db6-bfcf-9ccde8485b15",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2adb3d5a-a685-3dad-90b9-854e16450d82",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/61df497e-527b-31e7-8e0b-5b02545dc3bf",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6531cd74-b4a1-3ee5-92b7-5d123b7c42a1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6bee78a9-9d5c-38e3-9098-0a1a174f9d3f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a97b9bc5-9e09-3c30-9d6f-670cd9ad213e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Die Hébergerie de Loulette ist ein alter, abgelegener Schafstall im Herzen der Causse du Larzac, der über einen 1 km langen befahrbaren Weg erreichbar ist und zwischen Nant und La Cavalerie liegt."
+        ],
+        "en": [
+          "Loulette is an isolated former sheep hold in the centre of the Causse du Larzac, accessible via a one kilometre car path, located between Nant and La Cavalerie."
+        ],
+        "it": [
+          "L'hébergerie de Loulette è un antico ovile isolato nel cuore della Causse du Larzac, accessibile da un vialetto di un chilometro, situato tra Nant e La Cavalerie."
+        ],
+        "fr": [
+          "L'hébergerie de Loulette est une ancienne bergerie isolée au coeur du Causse du Larzac, accessible par un chemin carrossable d'un kilomètre, située entre Nant et La Cavalerie."
+        ],
+        "es": [
+          "La Hébergerie de Loulette es una antigua majada aislada en el corazón de la meseta calcárea del Larzac, accesible por una pista de tierra de un kilómetro y situada entre Nant y La Cavalerie."
+        ],
+        "nl": [
+          "L'hébergerie de Loulette is een oude schaapskooi geïsoleerd in het hart van de Causse du Larzac, bereikbaar via een oprijlaan van een kilometer, gelegen tussen Nant en La Cavalerie."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/034e6cd0-13ba-3807-b45f-6a22654ffc74",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bettwäsche und Handtücher"
+            ],
+            "pt": [
+              "Lençóis e toalhas"
+            ],
+            "en": [
+              "Sheets and towels"
+            ],
+            "it": [
+              "Lenzuola e biancheria"
+            ],
+            "fr": [
+              "Draps et linges"
+            ],
+            "es": [
+              "Sábanas y ropa de cama"
+            ],
+            "nl": [
+              "Beddengoed en handdoeken"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0f34275a-9367-3455-be6d-e5742fd3ed46",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1c3f77ed-ea24-3077-9ca1-d1b98ed27fff",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:FacilitiesForDisabled",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einrichtungen für Behinderte"
+            ],
+            "pt": [
+              "Instalações para pessoas com deficiência"
+            ],
+            "en": [
+              "Facilities for disabled"
+            ],
+            "it": [
+              "Strutture per i disabili"
+            ],
+            "fr": [
+              "Installations pour handicapés"
+            ],
+            "nl": [
+              "Voorzieningen voor gehandicapten"
+            ],
+            "es": [
+              "Instalaciones para personas con diversidad funcional"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3bb1f197-86ab-348d-8c88-4fa0a5f175da",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CommunalKitchen",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftsküche"
+            ],
+            "pt": [
+              "Cozinha coletiva"
+            ],
+            "en": [
+              "Communal kitchen"
+            ],
+            "it": [
+              "Cucina collettiva"
+            ],
+            "fr": [
+              "Cuisine collective"
+            ],
+            "nl": [
+              "Gemeenschappelijke keuken"
+            ],
+            "es": [
+              "Cocina colectiva"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5410b7c3-e0c0-344f-9ba4-65b3b92fb26e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5806b3df-de51-3b50-a850-3a94fe421c27",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GardenLounge",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten-Lounge"
+            ],
+            "pt": [
+              "Mobília de jardim"
+            ],
+            "en": [
+              "Garden lounge"
+            ],
+            "it": [
+              "Mobili da giardino"
+            ],
+            "fr": [
+              "Salon de jardin"
+            ],
+            "nl": [
+              "Tuinset"
+            ],
+            "es": [
+              "Muebles de jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/73c21d3a-7bc4-3756-be1d-395ee52f192c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9cc1e7e7-9cfe-372f-8d91-41e821010259",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/afab4da9-b0f2-3d5b-bb1c-f66baefb03e8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:FinalHousekeeping",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Endreinigung"
+            ],
+            "pt": [
+              "Limpeza no fim da estadia"
+            ],
+            "en": [
+              "Final housekeeping"
+            ],
+            "it": [
+              "Pulizia alla fine del soggiorno"
+            ],
+            "fr": [
+              "Ménage en fin de séjour"
+            ],
+            "es": [
+              "Tareas de limpieza al final del día"
+            ],
+            "nl": [
+              "Eindschoonmaak"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc57fc38-12ee-37f1-a37b-e93987118326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SemiShaddedArea",
+          "@type": [
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Halbschattiger Platz"
+            ],
+            "pt": [
+              "Local a meia sombra"
+            ],
+            "en": [
+              "Semi-shadded area"
+            ],
+            "it": [
+              "Piazzola semi-ombreggiata"
+            ],
+            "fr": [
+              "Emplacement semi-ombragé"
+            ],
+            "nl": [
+              "Staanplaats gedeeltelijk in de schaduw"
+            ],
+            "es": [
+              "Parcela con sol y sombra"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cf0a5a5c-1bb4-3219-9a74-db1e68be6349",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Freibad"
+            ],
+            "pt": [
+              "Piscina ao ar livre"
+            ],
+            "en": [
+              "Outdoor pool"
+            ],
+            "it": [
+              "Piscina all'aperto"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ],
+            "es": [
+              "Piscina de exterior"
+            ],
+            "nl": [
+              "Openluchtzwembad"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dc47845c-9a17-3d29-9ad7-ef0d299d6927",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cot",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Babybett"
+            ],
+            "pt": [
+              "Berço"
+            ],
+            "en": [
+              "Cot"
+            ],
+            "it": [
+              "Lettino per bambini"
+            ],
+            "fr": [
+              "Lit bébé"
+            ],
+            "es": [
+              "Cuna"
+            ],
+            "nl": [
+              "Babybed"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/88797c66-ebf4-3445-9a3e-918c3291800d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7fbe5794-35e3-33fd-8aaa-a15bb51a31a3",
+          "ebucore:abstract": {
+            "fr": [
+              "Gîte de Loulette , vue depuis le chemin"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Gîte de Loulette , vue depuis le chemin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME LARZAC VALLEES"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/10e9d72a-4007-3fba-871a-d7e946e1c4e7",
+          "ebucore:fileSize": [
+            "2159242"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "675",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO173005024882/TFO173005024882-17a/medias/jpg/xdscn1986.jpg"
+          ],
+          "ebucore:width": "900",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/88797c66-ebf4-3445-9a3e-918c3291800d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7fbe5794-35e3-33fd-8aaa-a15bb51a31a3",
+          "ebucore:abstract": {
+            "fr": [
+              "Gîte de Loulette , vue depuis le chemin"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Gîte de Loulette , vue depuis le chemin"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME LARZAC VALLEES"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/10e9d72a-4007-3fba-871a-d7e946e1c4e7",
+          "ebucore:fileSize": [
+            "2159242"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "675",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO173005024882/TFO173005024882-17a/medias/jpg/xdscn1986.jpg"
+          ],
+          "ebucore:width": "900",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/1002bb22-ed27-365d-967e-623322c2e9ae",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2epis",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Ähren"
+          ],
+          "pt": [
+            "2 espigas"
+          ],
+          "en": [
+            "2 ears of corn"
+          ],
+          "it": [
+            "2 spighe"
+          ],
+          "fr": [
+            "2 épis"
+          ],
+          "es": [
+            "2 espigas"
+          ],
+          "nl": [
+            "2 aren"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Chalet",
+          "Guesthouse",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/71e73aa2-e4a6-3d03-af65-dfabfb18699b",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_GitesEcoGites",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Gîtes de France Ecogîtes"
+          ],
+          "pt": [
+            "Gîtes de France Ecogîtes"
+          ],
+          "en": [
+            "Gîtes de France Charmance",
+            "G��tes de France Charmance"
+          ],
+          "it": [
+            "Gîtes de France Ecogîtes"
+          ],
+          "fr": [
+            "Gîtes de France Ecogîtes"
+          ],
+          "nl": [
+            "Gîtes de France Ecogîtes"
+          ],
+          "es": [
+            "Gîtes de France Ecogîtes"
+          ]
+        },
+        "isCompliantWith": [
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/7d7638a6-3b54-376d-9452-e4ccfe9477c3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b7a1c1c3-0441-3f42-a03e-adb0a49c1f5f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cee24de5-378b-37bb-bc35-e355d3d9c552",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/e92403ee-eefd-3cd9-bf8c-6332d95cc60c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/98aac56c-4da2-39df-bbaf-53111540c244",
+          "schema:addressLocality": "Nant",
+          "schema:postalCode": "12230",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12168",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Nant"
+              ],
+              "pt": [
+                "Nant"
+              ],
+              "en": [
+                "Nant"
+              ],
+              "it": [
+                "Nant"
+              ],
+              "fr": [
+                "Nant"
+              ],
+              "nl": [
+                "Nant"
+              ],
+              "es": [
+                "Nant"
+              ]
+            },
+            "insee": "12168",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/62af2401-b7a9-3654-bffe-3c189d93646d",
+        "schema:elevation": "805",
+        "schema:latitude": "44.0505",
+        "schema:longitude": "3.261",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/19ec8004-1058-3331-a35a-924959ebcd9a",
+          "schema:validFrom": "2023-03-31T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-17",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.705Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/103675cf-c3dd-36a5-b62a-bbd041bfbef9",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/17ef36a2-e469-3d11-ad2e-0e1b11a6e585",
+          "schema:price": "30",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Nuitée adulte"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/39d5a543-d690-3bf5-bf4c-f44f3c7291fb",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Taxe de séjour en sus"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/44d37784-3697-354b-bf3b-1c66cd0588cc",
+          "schema:price": "5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Petit-déjeuner"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c9249203-8b6b-364e-aa40-3c716a33f271",
+          "schema:price": "20",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "preis ab 3 Personen"
+            ],
+            "en": [
+              "rate from 3 persons"
+            ],
+            "it": [
+              "prezzo a partire da 3 persone"
+            ],
+            "fr": [
+              "tarif à partir de 3 personnes"
+            ],
+            "es": [
+              "tarifa a partir de 3 personas"
+            ],
+            "nl": [
+              "prijs vanaf 3 personen"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/035ac795-ac22-330d-8770-087d0d9e97ae",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/0741aad2-e6c0-350c-a0c2-17d960377386",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/2ab1eba2-15c4-3def-bfd0-2a56f7936caa",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/2efd8ba0-b0eb-3f20-9066-b7d94515203f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/634ed216-d86e-30e9-aeb1-598315e1f36e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Nuitée adulte"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d3ccfa00-1627-3c3e-91ed-27ebd0644311",
+          "schema:price": "50",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Nuitée deux personnes"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

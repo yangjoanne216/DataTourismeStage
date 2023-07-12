@@ -1,0 +1,579 @@
+{
+  "@id": "https://data.datatourisme.fr/10/4db7b6a4-a816-3c22-b39b-0122cb85e498",
+  "dc:identifier": "746001712",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "GITE LE POINT DU JOUR"
+    ]
+  },
+  "allowedPersons": 4,
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/185e65bc-4058-3880-84f2-c82958de8cfe",
+    "dc:identifier": "746",
+    "schema:legalName": "OT BRUYERES VALLONS DES VOSGES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/5f0b0fd6-acc5-3334-9f88-93ce81933081",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/933d63fb-993a-3d36-b110-33fabaacc263",
+      "schema:email": [
+        "martine.beuf@laposte.net"
+      ],
+      "schema:telephone": [
+        "+33 9 66 11 01 42"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/fe1bf8b3-94c1-3e0d-b22d-899a7caa3333",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Freezer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gefriergerät"
+            ],
+            "pt": [
+              "Congelador"
+            ],
+            "en": [
+              "Freezer"
+            ],
+            "it": [
+              "Congelatore"
+            ],
+            "fr": [
+              "Congélateur"
+            ],
+            "nl": [
+              "Diepvriezer"
+            ],
+            "es": [
+              "Congelador"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Heating",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Heizen"
+            ],
+            "pt": [
+              "Aquecimento"
+            ],
+            "en": [
+              "Heating"
+            ],
+            "it": [
+              "Riscaldamento"
+            ],
+            "fr": [
+              "Chauffage"
+            ],
+            "nl": [
+              "Verwarming"
+            ],
+            "es": [
+              "Climatización"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Oven",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ofen"
+            ],
+            "pt": [
+              "Forno"
+            ],
+            "en": [
+              "Oven"
+            ],
+            "it": [
+              "Forno"
+            ],
+            "fr": [
+              "Four"
+            ],
+            "nl": [
+              "Oven"
+            ],
+            "es": [
+              "Horno"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftlich genutzte Waschmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar roupa coletiva"
+            ],
+            "en": [
+              "Shared washer"
+            ],
+            "it": [
+              "Lavatrice comune"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ],
+            "es": [
+              "Lavadoras colectivas"
+            ],
+            "nl": [
+              "Gemeenschappelijke wasmachine"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bettwäsche und Handtücher"
+            ],
+            "pt": [
+              "Lençóis e toalhas"
+            ],
+            "en": [
+              "Sheets and towels"
+            ],
+            "it": [
+              "Lenzuola e biancheria"
+            ],
+            "fr": [
+              "Draps et linges"
+            ],
+            "es": [
+              "Sábanas y ropa de cama"
+            ],
+            "nl": [
+              "Beddengoed en handdoeken"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/7be1377b-23af-35c9-ab71-b0aba3e67245",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/83dd1f81-e055-38a7-b397-28d9a5a90727",
+          "schema:addressLocality": "Docelles",
+          "schema:postalCode": "88460",
+          "schema:streetAddress": [
+            "Voitimont"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:88135",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Docelles"
+              ],
+              "pt": [
+                "Docelles"
+              ],
+              "en": [
+                "Docelles"
+              ],
+              "it": [
+                "Docelles"
+              ],
+              "fr": [
+                "Docelles"
+              ],
+              "nl": [
+                "Docelles"
+              ],
+              "es": [
+                "Docelles"
+              ]
+            },
+            "insee": "88135",
+            "isPartOfDepartment": {
+              "@id": "kb:France4488",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vosges"
+                ],
+                "pt": [
+                  "Vosges"
+                ],
+                "en": [
+                  "Vosges"
+                ],
+                "it": [
+                  "Vosges"
+                ],
+                "fr": [
+                  "Vosges"
+                ],
+                "nl": [
+                  "Vosges"
+                ],
+                "es": [
+                  "Vosges"
+                ]
+              },
+              "insee": "88",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/09275495-0c5d-3f74-a50b-a8ba8789e267",
+        "schema:latitude": "48.1472704629453",
+        "schema:longitude": "6.61459451516474",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-03-22",
+  "lastUpdateDatatourisme": "2023-03-23T06:04:44.981Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/481a4391-f3aa-3c7a-a118-a2be01c8e7b9",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Paypal"
+            ],
+            "pt": [
+              "PayPal"
+            ],
+            "en": [
+              "Paypal"
+            ],
+            "it": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ],
+            "nl": [
+              "Paypal"
+            ],
+            "es": [
+              "PayPal"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,5835 @@
+{
+  "@id": "https://data.datatourisme.fr/43/ee5d5704-4e00-3d0f-8104-161e20b42286",
+  "dc:identifier": "52739",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "HOSTELLERIE DE LA ROSERAIE"
+    ]
+  },
+  "allowedPersons": 32,
+  "availableLanguage": [
+    "Anglais"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ddaf9130-4d4f-3907-9be3-2387cdfdf8c5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/29ff8af6-727c-357b-89dd-8049eee22b96",
+          "schema:addressLocality": "Cazaubon",
+          "schema:postalCode": "32150",
+          "schema:streetAddress": [
+            "2 Rue Abbé Escarnot - Barbotan les Thermes",
+            "HOSTELLERIE DE LA ROSERAIE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Cazaubon"
+              ],
+              "pt": [
+                "Cazaubon"
+              ],
+              "en": [
+                "Cazaubon"
+              ],
+              "it": [
+                "Cazaubon"
+              ],
+              "fr": [
+                "Cazaubon"
+              ],
+              "nl": [
+                "Cazaubon"
+              ],
+              "es": [
+                "Cazaubon"
+              ]
+            },
+            "insee": "32096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@hotel-laroseraie.com"
+      ],
+      "schema:telephone": [
+        "+33 5 62 08 35 00",
+        "+33 6 61 70 95 09"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.hotel-laroseraie.com/"
+      ],
+      "siret": "53170819600013"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/4d372e4a-de42-31e8-97f9-d244690f2ceb",
+      "dc:description": {
+        "de": [
+          "Eines der schönsten Hotels in Barbotan, das Hotel-Restaurant La Roseraie ** heißt Sie herzlich willkommen.\nDie Hostellerie de la Roseraie ist ein charmantes Hotel im Herzen des Kurorts Barbotan-les-Thermes in der Region Armagnac, 120 m vom Thermalbad entfernt und am Rande des botanischen Parks gelegen, in dem das Thermalwasser entspringt und exotische Bäume und Pflanzen gedeihen.\nSeine komfortablen und sonnigen Zimmer ermöglichen Ihnen einen angenehmen Aufenthalt fernab vom Lärm, wo Sie im Park Ihre Siesta im Schatten der Katalpas verlängern können.\nIm Restaurant bietet Ihnen der Chefkoch neben dem Tagesmenü eine zeitgenössische Küche sowie zahlreiche Spezialitäten aus dem Gers.\nEine Wein- und eine Obstbar stehen Ihnen zur Verfügung, um auch den größten Durst zu stillen."
+        ],
+        "en": [
+          "La Roseraie is one of the most beautiful hotels of Barbotan. It is located in the centre of the thermal station of Barbotan-les-Thermes, 120 from the thermal baths, on the brink of the park where the thermal waters appear and where there are exotic trees and plants. You will have a pleasant stay in the comfortable rooms. The Chef offers you a contemporary cooking, but also specialities from the Gers.\n\nOpen periods:\nFrom 25, February to 30, November, 2016\nEvery day\n\nGeneral:\nActivities nearby: open swimming pool, museum, shops, casino, beach, boules pitch\nAccessibilities: reduced mobility\nFacilities & services:\nServices: night watchman, laundry, room service, pets are accepted, library, meeting, information, airport or railway station shuttle, trips’ booking, half-board, shows’ booking, car rental\nEquipment: garden, car park, assembly hall, park, lift, library, bar, common toilets, terrace\nComfort: non-smoking rooms, television, internet, hairdryer, direct phone, canal +, phone, Wi-Fi, telecopy, communicating rooms, cable/satellite, photocopier, projection screen, projection room\nPrices:\n\n21 days full board for 1 person: 1490€\nPrice per room for 3 persons: 80€\nPrice per room for 1 person: 52€\nPrice per room for 2 persons: 68€\n21 days full board for 2 persons: 2340€\n21 days half board for 1 person: 1260€\n21 days half board for 2 persons: 1890€"
+        ],
+        "it": [
+          "Uno degli hotel più belli di Barbotan, l'hotel-ristorante La Roseraie ** vi dà il benvenuto.\nSituato nel cuore delle terme di Barbotan-les-Thermes, nella regione dell'Armagnac, a 120 metri dalle terme, ai margini del parco botanico dove nascono le acque termali e dove fioriscono alberi e piante esotiche, l'Hostellerie de la Roseraie è un hotel di charme.\nLe sue camere confortevoli e soleggiate vi permetteranno di trascorrere un piacevole soggiorno lontano dal rumore, dove potrete prolungare la vostra siesta all'ombra degli alberi di catalpa.\nNel ristorante, lo chef propone, oltre al menu del giorno, una cucina contemporanea e numerose specialità del Gers.\nUn wine bar e un fruit bar sono a vostra disposizione per dissetarvi."
+        ],
+        "fr": [
+          "Un des plus beaux hôtels de Barbotan, L'hôtel-restaurant La Roseraie ** vous souhaite la bienvenue.\nSitué au coeur de la station thermale de Barbotan-les-Thermes, en pays d'Armagnac, à 120 mètres de l'Établissement Thermal, au bord du parc botanique où naissent les eaux thermales et où s'épanouissent arbres et plantes exotiques, l'Hostellerie de la Roseraie est un hôtel plein de charme.\nSes chambres confortables et ensoleillées vous permettront de passer un séjour agréable loin du bruit où vous pourrez dans le parc prolonger votre sieste à l'ombre des catalpas.\nAu restaurant le chef vous propose, en plus du menu du jour, une cuisine contemporaine ainsi que de nombreuses spécialités gersoises.\nUn bar à vin et un bar à fruit sont à votre disposition pour apaiser les plus grandes soifs."
+        ],
+        "es": [
+          "Uno de los hoteles más bellos de Barbotan, el hotel-restaurante La Roseraie ** le da la bienvenida.\nSituada en el corazón del balneario de Barbotan-les-Thermes, en la región de Armagnac, a 120 metros del balneario, al borde del parque botánico donde nacen las aguas termales y donde florecen árboles y plantas exóticas, la Hostellerie de la Roseraie es un hotel con encanto.\nSus cómodas y soleadas habitaciones le permitirán pasar una agradable estancia lejos del ruido donde podrá prolongar su siesta a la sombra de las catalpas.\nEn el restaurante, el chef le propone, además del menú del día, una cocina contemporánea así como numerosas especialidades del Gers.\nUn bar de vinos y otro de frutas están a su disposición para saciar su sed."
+        ],
+        "nl": [
+          "Een van de mooiste hotels van Barbotan, het hotel-restaurant La Roseraie ** heet u van harte welkom.\nDe Hostellerie de la Roseraie, gelegen in het hart van het kuuroord Barbotan-les-Thermes, in de Armagnac-streek, op 120 meter van het kuuroord, aan de rand van het botanische park waar het thermale water ontstaat en waar bomen en exotische planten bloeien, is een charmant hotel.\nDe comfortabele en zonnige kamers bieden u een aangenaam verblijf ver van het lawaai waar u uw siësta in de schaduw van de catalpa bomen kunt verlengen.\nIn het restaurant biedt de chef, naast het dagmenu, een hedendaagse keuken en talrijke specialiteiten uit de Gers.\nEen wijnbar en een fruitbar staan tot uw beschikking om uw dorst te lessen."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/021b4b89-38a8-3588-9b86-248fc5eacb37",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5742f814-d7cf-320e-9440-35eadb8ed175",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/82dc2e83-ee23-323c-bcaa-fb245b9a93dd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c308d302-8fdc-35f9-9fef-a2835a02542a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0adbd0d7-d75b-3a3a-a7b4-0d4b850e75a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HairDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Haartrockner"
+            ],
+            "pt": [
+              "Secador de cabelo"
+            ],
+            "en": [
+              "Hair dryer"
+            ],
+            "it": [
+              "Asciugacapelli"
+            ],
+            "fr": [
+              "Sèche cheveux"
+            ],
+            "es": [
+              "Secador de pelo"
+            ],
+            "nl": [
+              "Haardroger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1a03820f-a693-3c17-bf9b-4ac29d6a65e3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Elevator",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Personenaufzug"
+            ],
+            "pt": [
+              "Elevador"
+            ],
+            "en": [
+              "Elevator"
+            ],
+            "it": [
+              "Ascensore"
+            ],
+            "fr": [
+              "Ascenseur"
+            ],
+            "nl": [
+              "Lift"
+            ],
+            "es": [
+              "Ascensor"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1b5e40e9-c00a-3299-b555-a7af2c4a5a5a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CableSatellite",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kabel – Satellit"
+            ],
+            "pt": [
+              "Cabo, satélite"
+            ],
+            "en": [
+              "Cable - satellite"
+            ],
+            "it": [
+              "Cavo - satellite"
+            ],
+            "fr": [
+              "Câble - satellite"
+            ],
+            "es": [
+              "Televisión por cable, satélite"
+            ],
+            "nl": [
+              "Kabel - satelliet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20968119-b25a-3f97-ba6f-72e596cc70a8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/28faaa00-cd65-3f1c-ae95-a2f90a8c8e3d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2efca5a9-ce7a-3931-9357-1a92f15a9c0d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/343748aa-cfe3-3752-b5b6-75e687c30daf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CanalPlus",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Canal plus (Fernsehkanal)"
+            ],
+            "pt": [
+              "Canal Plus"
+            ],
+            "en": [
+              "Canal plus tv channel"
+            ],
+            "it": [
+              "Canal plus"
+            ],
+            "fr": [
+              "Canal plus"
+            ],
+            "nl": [
+              "Canal Plus"
+            ],
+            "es": [
+              "Canal Plus"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/44e2bd93-1020-3942-af2b-41c695fcc41a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SportRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sporthalle oder -platz"
+            ],
+            "pt": [
+              "Pavilhão ou terreno desportivo"
+            ],
+            "en": [
+              "Sport room"
+            ],
+            "it": [
+              "Sala o campo sportivo"
+            ],
+            "fr": [
+              "Salle ou terrain de sport"
+            ],
+            "nl": [
+              "Sportzaal of -terrein"
+            ],
+            "es": [
+              "Pabellón o campo deportivo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/46fb455c-27a1-323a-9d97-f88f29a6aa97",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/54f133e2-85d0-3080-951a-9dbedb3afec3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/55fd4194-1e01-35c0-a33c-7718d1d567f6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56549fce-ea21-3f66-8b97-a309ad02f68f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/57f34507-0b68-34e9-ba40-bae21de0dc63",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/58f2e97d-e43c-3293-80aa-ff2e6f3b8118",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Booking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung"
+            ],
+            "pt": [
+              "Reserva"
+            ],
+            "en": [
+              "Booking"
+            ],
+            "it": [
+              "Prenotazione"
+            ],
+            "fr": [
+              "Réservation"
+            ],
+            "nl": [
+              "Reservering"
+            ],
+            "es": [
+              "Reserva"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ShowBooking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung von Aufführungen"
+            ],
+            "pt": [
+              "Reserva de espetáculos"
+            ],
+            "en": [
+              "Show booking"
+            ],
+            "it": [
+              "Prenotazione spettacoli"
+            ],
+            "fr": [
+              "Réservation spectacles"
+            ],
+            "nl": [
+              "Voorstellingen reserveren"
+            ],
+            "es": [
+              "Reserva de espectáculos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fd4216b-cd81-3226-85fa-9febecf27ff5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Phone",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Telefon"
+            ],
+            "pt": [
+              "Telefone"
+            ],
+            "en": [
+              "Phone"
+            ],
+            "it": [
+              "Telefono"
+            ],
+            "fr": [
+              "Téléphone"
+            ],
+            "nl": [
+              "Telefoon"
+            ],
+            "es": [
+              "Teléfono"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7eaeab05-8fda-32ed-8222-9a3a10062592",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 20
+    },
+    {
+      "@id": "https://data.datatourisme.fr/81895db1-5d00-3d71-b67b-aedea916ad77",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Seminar",
+          "@type": [
+            "AccommodationAmenity",
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Seminar"
+            ],
+            "pt": [
+              "Seminário"
+            ],
+            "en": [
+              "Seminar"
+            ],
+            "it": [
+              "Seminario"
+            ],
+            "fr": [
+              "Séminaire"
+            ],
+            "es": [
+              "Seminario"
+            ],
+            "nl": [
+              "Seminar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/86cc8eee-9b4f-3249-8952-55bdd2011981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Booking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung"
+            ],
+            "pt": [
+              "Reserva"
+            ],
+            "en": [
+              "Booking"
+            ],
+            "it": [
+              "Prenotazione"
+            ],
+            "fr": [
+              "Réservation"
+            ],
+            "nl": [
+              "Reservering"
+            ],
+            "es": [
+              "Reserva"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ExcursionBooking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung von Ausflügen"
+            ],
+            "pt": [
+              "Reserva de excursões"
+            ],
+            "en": [
+              "Excursion booking"
+            ],
+            "it": [
+              "Prenotazione di escursioni"
+            ],
+            "fr": [
+              "Réservation excursions"
+            ],
+            "nl": [
+              "Reservering van excursies"
+            ],
+            "es": [
+              "Reserva de excursiones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/89c8069a-91e7-3b09-8a0a-67956fb755e6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShuttleAirportOrRailwayStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Flughafen- oder Bahnhof-Shuttle"
+            ],
+            "pt": [
+              "Transporte para o aeroporto ou a estação ferroviária"
+            ],
+            "en": [
+              "Shuttle airport or railway station"
+            ],
+            "it": [
+              "Navetta per l'aeroporto o la stazione ferroviaria"
+            ],
+            "fr": [
+              "Navette aéroport ou gare"
+            ],
+            "es": [
+              "Transporte al aeropuerto o a la estación de tren"
+            ],
+            "nl": [
+              "Shuttledienst naar luchthaven of treinstation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/90a3b185-d760-3cd2-8dc5-a82b3ed8d657",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:AirlineBooking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Flugbuchungen"
+            ],
+            "pt": [
+              "Reserva de bilhetes de avião"
+            ],
+            "en": [
+              "Airline booking"
+            ],
+            "it": [
+              "Prenotazioni di compagnie aeree"
+            ],
+            "fr": [
+              "Réservation aériennes"
+            ],
+            "nl": [
+              "Vluchtreserveringen"
+            ],
+            "es": [
+              "Reserva de billetes de avión"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Booking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung"
+            ],
+            "pt": [
+              "Reserva"
+            ],
+            "en": [
+              "Booking"
+            ],
+            "it": [
+              "Prenotazione"
+            ],
+            "fr": [
+              "Réservation"
+            ],
+            "nl": [
+              "Reservering"
+            ],
+            "es": [
+              "Reserva"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/956f01d9-00f8-3085-9ee2-36deaf309e70",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ProjectionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Vorführraum"
+            ],
+            "pt": [
+              "Sala de projeção"
+            ],
+            "en": [
+              "Projection room"
+            ],
+            "it": [
+              "Sala di proiezione"
+            ],
+            "fr": [
+              "Salle de projection"
+            ],
+            "es": [
+              "Sala de proyección"
+            ],
+            "nl": [
+              "Projectiezaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a003eaa0-e600-3a58-afc3-9e5f2bf3e129",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a29ac6fd-ba47-352e-a760-49b79c73dacb",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a2be3652-96fb-318b-832d-6b9727518faa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bee10955-7d75-3a4a-8391-1db4c67ccef3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Washrooms",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletteneinrichtungen"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Washrooms"
+            ],
+            "it": [
+              "Sanitari"
+            ],
+            "fr": [
+              "Sanitaires"
+            ],
+            "es": [
+              "Sanitarios"
+            ],
+            "nl": [
+              "Sanitair"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c0336aa1-edbf-3cec-98d3-0397ffe71e0b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Laundry",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Waschsalon, Wäscherei"
+            ],
+            "pt": [
+              "Lavandaria"
+            ],
+            "en": [
+              "Laundry"
+            ],
+            "it": [
+              "Lavanderia, anche a gettoni"
+            ],
+            "fr": [
+              "laverie, blanchisserie"
+            ],
+            "es": [
+              "lavandería"
+            ],
+            "nl": [
+              "Wasserij"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c34103f1-4a46-35ff-872a-6dc395037b6c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8a00ad4-1f5b-3178-aa00-e60ff98b99c1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TerraceBalcony",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse, Balkon"
+            ],
+            "pt": [
+              "Terraço varanda"
+            ],
+            "en": [
+              "Terrace balcony"
+            ],
+            "it": [
+              "Terrazza balcone"
+            ],
+            "fr": [
+              "Terrasse balcon"
+            ],
+            "nl": [
+              "Balkonterras"
+            ],
+            "es": [
+              "Balcón terraza"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca034818-4da7-31b0-ae8d-d5eb5407a6a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d0420d33-493c-3900-9bdb-df07474c14fa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Massages",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Massagen"
+            ],
+            "pt": [
+              "Massagens"
+            ],
+            "en": [
+              "Massages"
+            ],
+            "it": [
+              "Massaggi"
+            ],
+            "fr": [
+              "Massages"
+            ],
+            "nl": [
+              "Massages"
+            ],
+            "es": [
+              "Masajes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d1ee55-7168-34ec-8376-2a924957d460",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Park"
+            ],
+            "pt": [
+              "Parque"
+            ],
+            "en": [
+              "Park"
+            ],
+            "it": [
+              "Parco"
+            ],
+            "fr": [
+              "Parc"
+            ],
+            "es": [
+              "Parque"
+            ],
+            "nl": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/daeb711f-8da8-34ed-9272-f715e8082cbc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/db98cc1f-8a33-3468-b365-e5fcfd6622ee",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dcdc3748-4bdb-342a-9961-26d534d9cebf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bibliothek"
+            ],
+            "pt": [
+              "Biblioteca"
+            ],
+            "en": [
+              "Library"
+            ],
+            "it": [
+              "Biblioteca"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ],
+            "nl": [
+              "Bibliotheek"
+            ],
+            "es": [
+              "Biblioteca"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e1a26614-7e27-3eb3-af11-3dff12e7ebf7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e3936d90-c25e-3f19-b66f-572ed365d9a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:RoomService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmerservice"
+            ],
+            "pt": [
+              "Serviço de quartos"
+            ],
+            "en": [
+              "Room service"
+            ],
+            "it": [
+              "Servizio in camera"
+            ],
+            "fr": [
+              "Room service"
+            ],
+            "es": [
+              "Servicio de habitaciones"
+            ],
+            "nl": [
+              "Roomservice"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e4d3eed3-ba75-334b-92f3-17fe8ccd13b6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e53f4b2b-1053-37b3-b136-bac4ce13ba02",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TakeAwayLunchBox",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Picknickkorb"
+            ],
+            "pt": [
+              "Cesto de piquenique"
+            ],
+            "en": [
+              "Take away lunch box"
+            ],
+            "it": [
+              "Cestino da pic-nic"
+            ],
+            "fr": [
+              "Panier pique nique"
+            ],
+            "nl": [
+              "Picknickmand"
+            ],
+            "es": [
+              "Cesta de pícnic"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e9c8ac41-56ad-3982-b979-359f71bd2bd6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f80a6464-b818-34a2-a1eb-d29155ab044b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fbe67cc0-1584-3c47-a29b-941eaf983829",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fcc202c7-9a6a-3dc4-ad98-8dbbdf3ed9a1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fe6546e0-c2fb-3c38-978a-2a95285cce1e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/368ffc0f-0be6-39f8-aa90-572561dd91c5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c93483f7-4ef9-3470-ad0e-3f9908c8ec3a",
+          "ebucore:title": {
+            "fr": [
+              "LA ROSERAIE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Izadifar"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7b15882b-0e35-3ea9-92d8-481dd084f859",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124855.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/368ffc0f-0be6-39f8-aa90-572561dd91c5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c93483f7-4ef9-3470-ad0e-3f9908c8ec3a",
+          "ebucore:title": {
+            "fr": [
+              "LA ROSERAIE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Izadifar"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7b15882b-0e35-3ea9-92d8-481dd084f859",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124855.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c7186e40-19b7-3e20-b8a3-d9f818ee65f7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c93483f7-4ef9-3470-ad0e-3f9908c8ec3a",
+          "ebucore:title": {
+            "fr": [
+              "LA ROSERAIE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Izadifar"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/af4f2843-37ed-3045-bfe3-2c1bad4b168f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124856.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f5401d79-bb90-3d40-a43f-50b2a684362b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c93483f7-4ef9-3470-ad0e-3f9908c8ec3a",
+          "ebucore:title": {
+            "fr": [
+              "LA ROSERAIE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Izadifar"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/da1c0ab9-6685-3c83-9414-7b897fe734cd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0124857.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/ea9980bf-3c0f-38f2-869e-1e68d772a658",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2017-10-18"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/2ac0975a-cc30-3012-a14d-2554cf978efa",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/29ff8af6-727c-357b-89dd-8049eee22b96",
+          "schema:addressLocality": "Cazaubon",
+          "schema:postalCode": "32150",
+          "schema:streetAddress": [
+            "2 Rue Abbé Escarnot - Barbotan les Thermes",
+            "HOSTELLERIE DE LA ROSERAIE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Cazaubon"
+              ],
+              "pt": [
+                "Cazaubon"
+              ],
+              "en": [
+                "Cazaubon"
+              ],
+              "it": [
+                "Cazaubon"
+              ],
+              "fr": [
+                "Cazaubon"
+              ],
+              "nl": [
+                "Cazaubon"
+              ],
+              "es": [
+                "Cazaubon"
+              ]
+            },
+            "insee": "32096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e21f10fa-562c-3251-ac2e-978e7ed82595",
+        "schema:latitude": "43.9520539",
+        "schema:longitude": "-0.0409841",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2021-04-01",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.449Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/a4193b14-d411-31de-81a3-dee65ec7a29f",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0e64ecdc-6486-3409-a244-dc4c8263a37a",
+          "schema:maxPrice": [
+            "2550"
+          ],
+          "schema:minPrice": [
+            "2440"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "für eine Kur von 21 Nächten"
+            ],
+            "en": [
+              "for a 21 nights cure"
+            ],
+            "it": [
+              "per una cura di 21 notti"
+            ],
+            "fr": [
+              "pour une cure de 21 nuits"
+            ],
+            "nl": [
+              "voor een kuur van 21 nachten"
+            ],
+            "es": [
+              "para una cura de 21 noches"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0979be98-b587-3b1d-8d75-b4c4fc10fb4b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1bc3cbbd-6220-3268-aff9-1a1d11549358",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8b91b354-e203-3516-bd25-bb82ce8756e1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c5631ec7-8746-3b7f-8f6e-0d837f09ef9c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c9ec7dd8-6c2c-3851-a3eb-d3cce4911a49",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "deux personnes en Pension complète"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/207e9379-eac9-3993-aa1d-eb55fde7718b",
+          "schema:minPrice": [
+            "2340"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "cure/2 personnes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2096dd1f-ef85-3384-9b94-5da0e39de1f9",
+          "schema:maxPrice": [
+            "1640"
+          ],
+          "schema:minPrice": [
+            "1490"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "für eine Kur von 21 Nächten"
+            ],
+            "en": [
+              "for a 21 nights cure"
+            ],
+            "it": [
+              "per una cura di 21 notti"
+            ],
+            "fr": [
+              "pour une cure de 21 nuits"
+            ],
+            "nl": [
+              "voor een kuur van 21 nachten"
+            ],
+            "es": [
+              "para una cura de 21 noches"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/41af3d48-2e92-3720-8279-dd6b12e961d2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b9e08ccc-1bb8-305b-8c80-26eb1f445a8a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e409b634-435e-31b4-b9f0-4ce5da8dd09d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e94c3901-74d9-3aef-936c-34bea9baeb8d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fc219970-9c47-309e-aa70-8908f4250261",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "une personne en Pension complète"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2374c84e-358e-30ea-b8fd-14d5c479923f",
+          "schema:maxPrice": [
+            "2080"
+          ],
+          "schema:minPrice": [
+            "1990"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "21 jours pour 2 pers"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2a40609a-56bd-30b2-a7f2-9dfc854dd8d4",
+          "schema:maxPrice": [
+            "1590"
+          ],
+          "schema:minPrice": [
+            "1490"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "cure/1 personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2ad61520-dbc3-3660-8383-587289e60da8",
+          "schema:maxPrice": [
+            "85"
+          ],
+          "schema:minPrice": [
+            "70"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "pour 2 pers"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/31eb8661-364b-37a7-a5ea-01f9f22c908e",
+          "schema:price": "55",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "pour 1 personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/43ae26fb-5ac8-3e16-bc13-9634a212a6b4",
+          "schema:price": "85",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "pour 3 personnes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/449def07-6ec6-33f3-8352-97d89042da7e",
+          "schema:price": "2550",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "21 jours pour 2 pers"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4580f99a-f59a-3cb8-ae6d-28612e646290",
+          "schema:maxPrice": [
+            "2340"
+          ],
+          "schema:minPrice": [
+            "1490"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "séjour 21j pour 1 personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/574b7da3-1a9c-31c7-aa60-a80232957fb8",
+          "schema:maxPrice": [
+            "65"
+          ],
+          "schema:minPrice": [
+            "50"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5ba3153b-a32d-3bf3-a817-b04039e1ab52",
+          "schema:maxPrice": [
+            "2080"
+          ],
+          "schema:minPrice": [
+            "1990"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "für eine Kur von 21 Nächten"
+            ],
+            "en": [
+              "for a 21 nights cure"
+            ],
+            "it": [
+              "per una cura di 21 notti"
+            ],
+            "fr": [
+              "pour une cure de 21 nuits"
+            ],
+            "nl": [
+              "voor een kuur van 21 nachten"
+            ],
+            "es": [
+              "para una cura de 21 noches"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/721426bb-ace5-3f91-af5b-66a1a9ec6db7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7b95e561-1dc6-3c52-b8d6-4172ccbef697",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b80566ee-3596-3bc4-bd7b-fb50cf09926a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/eed0318c-766f-3fe6-8182-71e0696b18a8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f4be0089-a28f-338c-a574-b0e2f6c963ee",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "deux personnes en Demi pension"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5f2180be-ffc7-3f2e-a724-77a16216a49e",
+          "schema:minPrice": [
+            "9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "buffet"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/628a77d5-9292-308e-a974-d4cb82c6b786",
+          "schema:maxPrice": [
+            "2080"
+          ],
+          "schema:minPrice": [
+            "1890"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "séjour 21j pour 2 personnes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6602cf99-64a0-352e-a920-001b21a09208",
+          "schema:maxPrice": [
+            "9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "pro Person"
+            ],
+            "en": [
+              "per capita"
+            ],
+            "it": [
+              "per persona"
+            ],
+            "fr": [
+              "par personne"
+            ],
+            "es": [
+              "por persona"
+            ],
+            "nl": [
+              "per persoon"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/66772e71-29e2-327c-aacb-83f47ad4aefb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/83f19148-a2e7-3f02-8197-d7fd64a2fa22",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9dde9d52-de2e-34cf-82f5-f215d0002e88",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b5f447b0-ea58-3f9a-b093-623d77e5eb67",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c7ef4d72-987a-38cd-b8f3-1c9a4e20ace8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Buffet"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/77f67c29-4deb-3cf5-ae40-003416c37c34",
+          "schema:minPrice": [
+            "68"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "chambre double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/795dc15b-3e6a-3b0d-936b-8ce0f1f68bfb",
+          "schema:price": "9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "HOTEL LA ROSERAIE"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7eeb1d60-7cf7-379c-a598-787609036842",
+          "schema:maxPrice": [
+            "2550"
+          ],
+          "schema:minPrice": [
+            "2340"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "séjour 21j pour 2 personnes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8e723418-7b3e-3445-8f31-1625657dd481",
+          "schema:maxPrice": [
+            "1430"
+          ],
+          "schema:minPrice": [
+            "1280"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "für eine Kur von 21 Nächten"
+            ],
+            "en": [
+              "for a 21 nights cure"
+            ],
+            "it": [
+              "per una cura di 21 notti"
+            ],
+            "fr": [
+              "pour une cure de 21 nuits"
+            ],
+            "nl": [
+              "voor een kuur van 21 nachten"
+            ],
+            "es": [
+              "para una cura de 21 noches"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0b761b44-bdad-3c0a-bf5b-e941c1b8193b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/548a6157-ac48-3611-847c-6be2fccfb142",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/983f24b5-2171-3d92-8c8b-dbeda5868b55",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bf6e77b5-e3c1-3e4e-8c6c-55a533057a00",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cf185710-f62b-38a6-a4f6-d311bb32b35d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "une personne en Demi pension"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a2454589-5f01-33a4-a973-94dccd39ad93",
+          "schema:maxPrice": [
+            "1365"
+          ],
+          "schema:minPrice": [
+            "1260"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "séjour 21j pour 1 personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a73daf04-959d-3889-a1c0-9f254a7f0b98",
+          "schema:maxPrice": [
+            "1430"
+          ],
+          "schema:minPrice": [
+            "1280"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "21 jours pour 1 pers"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/aba836f4-0ab0-3085-9bfa-489c49d45538",
+          "schema:price": "70",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "pour 2 personnes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c92c5747-268d-3920-a0be-04f98a1c8d03",
+          "schema:maxPrice": [
+            "1640"
+          ],
+          "schema:minPrice": [
+            "1490"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "21 jours 1 pers"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cd683fb5-bc0c-3a0b-901d-b73ed5ff2247",
+          "schema:maxPrice": [
+            "85"
+          ],
+          "schema:minPrice": [
+            "70"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "2 personnes"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dc55e933-9012-39ae-814f-932fb104468a",
+          "schema:maxPrice": [
+            "85"
+          ],
+          "schema:minPrice": [
+            "55"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Pour 1 personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fd9d3068-85b3-35c3-b729-c26533f4ba19",
+          "schema:maxPrice": [
+            "60"
+          ],
+          "schema:minPrice": [
+            "55"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "1 personne"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

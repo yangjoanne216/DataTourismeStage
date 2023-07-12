@@ -1,0 +1,866 @@
+{
+  "@id": "https://data.datatourisme.fr/10/cf70b8b9-402f-3051-828e-2c2185056ce6",
+  "dc:identifier": "853142846",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Charakteristisches Restaurant im Herzen eines Reitkomplexes, inmitten der Natur.\nüberdachte Terrasse"
+    ],
+    "en": [
+      "Characterful restaurant in the heart of an equestrian complex, in the middle of nature.\ncovered terrace"
+    ],
+    "it": [
+      "Ristorante di carattere nel cuore di un complesso equestre, in mezzo alla natura.\nterrazza coperta"
+    ],
+    "fr": [
+      "Restaurant de caractère au coeur d'un complexe équestre, en pleine nature.\nterrasse couverte"
+    ],
+    "es": [
+      "Restaurante con carácter en el corazón de un complejo ecuestre, en plena naturaleza.\nterraza cubierta"
+    ],
+    "nl": [
+      "Restaurant met karakter in het hart van een hippisch complex, midden in de natuur.\noverdekt terras"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LES LAURENTIDES"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "Wiedereröffnung der Terrasse am 19. Mai (bei Regen geschützt).Reduzierte Karte. Pizzas und Flammkuchen zum Mitnehmen."
+    ],
+    "en": [
+      "Reopening of the terrace on May 19th (protected in case of rain). Pizzas and tarts to take away."
+    ],
+    "it": [
+      "Riapertura della terrazza il 19 maggio (protetta in caso di pioggia). Pizze e crostate da asporto."
+    ],
+    "fr": [
+      "Réouverture de la terrasse le 19 mai (protégée en cas de pluie).Carte réduite. Pizzas et tartes flambées à emporter."
+    ],
+    "es": [
+      "Reapertura de la terraza el 19 de mayo (protegida en caso de lluvia). Pizzas y tartas para llevar."
+    ],
+    "nl": [
+      "Heropening van het terras op 19 mei (beschermd bij regen). Pizza's en taarten om mee te nemen."
+    ]
+  },
+  "availableLanguage": [
+    "de",
+    "en"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/aff16212-54f7-31be-92f6-4550478c56e6",
+    "dc:identifier": "853",
+    "schema:legalName": "OT DU PAYS DE BITCHE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1cc007e6-c1ff-3459-9741-a1fc7e2373ee",
+      "schema:email": [
+        "restaurant@leslaurentides.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 72 29 30 55"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.leslaurentides.fr/"
+      ],
+      "siret": "753 308 113 00012"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/7610d978-325f-3cbd-86ff-a6d87a880d04",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1603eae5-b8aa-3200-a61b-f6b62018663e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2e23dd92-2938-3cba-afef-03b29e187080",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6de51a7d-5461-3d5f-83f1-d2696da17885",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/89214749-a329-34b3-b76e-fc8af6870765",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cccb58f6-2c63-30b1-be02-4873d33cf7ee",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Charakteristisches Restaurant im Herzen eines Reitkomplexes, inmitten der Natur.\nüberdachte Terrasse"
+        ],
+        "en": [
+          "Characterful restaurant in the heart of an equestrian complex, in the middle of nature.\ncovered terrace"
+        ],
+        "it": [
+          "Ristorante di carattere nel cuore di un complesso equestre, in mezzo alla natura.\nterrazza coperta"
+        ],
+        "fr": [
+          "Restaurant de caractère au coeur d'un complexe équestre, en pleine nature.\nterrasse couverte"
+        ],
+        "es": [
+          "Restaurante con carácter en el corazón de un complejo ecuestre, en plena naturaleza.\nterraza cubierta"
+        ],
+        "nl": [
+          "Restaurant met karakter in het hart van een hippisch complex, midden in de natuur.\noverdekt terras"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/bf7c8ce0-cfa4-3633-82c3-825a7542f1bc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Caterer",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Partyservice"
+            ],
+            "pt": [
+              "Empresa de restauração"
+            ],
+            "en": [
+              "Caterer"
+            ],
+            "it": [
+              "Ristoratore"
+            ],
+            "fr": [
+              "Traiteur"
+            ],
+            "nl": [
+              "Traiteur"
+            ],
+            "es": [
+              "Empresa de restauración"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1d4cc01c-aaee-3df3-8bdc-8b77d7b06daa",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/36877183-218f-391e-93c2-61a4a22635a4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/432d633d-f420-30f2-a9ea-128f94b90942",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4c2c6f2d-5cb9-3e08-993e-8ba080d2b08f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/58744496-1ee8-371a-a84f-54e78a470f56",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/596bef2b-d910-31d1-adaa-827d9132151a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/718cdae6-17e8-39d0-8c7d-890740f6ccb9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/73a8698e-800d-3d8c-a69e-80ba6669ef80",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7457b98c-1c39-3a42-81f7-b07690bc35c3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bb1353df-f835-3c58-8168-62163f300bbd",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/423c4199-833d-3d47-976c-34f4e78e5343",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/503989c7-9ee7-3bc5-a562-10dcfd5924e1",
+          "schema:addressLocality": "Lemberg",
+          "schema:postalCode": "57620",
+          "schema:streetAddress": [
+            "lieu-dit La Finsterbach"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57390",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Lemberg"
+              ],
+              "pt": [
+                "Lemberg"
+              ],
+              "en": [
+                "Lemberg"
+              ],
+              "it": [
+                "Lemberg"
+              ],
+              "fr": [
+                "Lemberg"
+              ],
+              "nl": [
+                "Lemberg"
+              ],
+              "es": [
+                "Lemberg"
+              ]
+            },
+            "insee": "57390",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/1497fff8-712d-3b71-b9ff-d17a7ac0d0dd",
+        "schema:latitude": "49.006959",
+        "schema:longitude": "7.35278700000003",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-03-16",
+  "lastUpdateDatatourisme": "2023-04-21T08:37:16.868Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/f4bae766-011a-3420-a8f1-68925461e92b",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

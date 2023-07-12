@@ -1,0 +1,902 @@
+{
+  "@id": "https://data.datatourisme.fr/10/3e814773-b0f7-3822-8200-fe29b0338c54",
+  "dc:identifier": "1368000056",
+  "@type": [
+    "schema:FastFoodRestaurant",
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FastFoodRestaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Unser Restaurant bietet die folgenden Dienstleistungen an: Mc Drive, Geburtstagsempfang, WIFI. 7 Tage die Woche geöffnet."
+    ],
+    "en": [
+      "Our restaurant offers the following services: Mc Drive, birthday reception, WIFI. Open 7 days a week."
+    ],
+    "it": [
+      "Il nostro ristorante offre i seguenti servizi: Mc Drive, ricevimento di compleanno, WIFI. Aperto 7 giorni su 7."
+    ],
+    "fr": [
+      "Notre restaurant propose les services suivants: Mc Drive, accueil anniversaire, WIFI. Ouvert 7j/7."
+    ],
+    "nl": [
+      "Ons restaurant biedt de volgende diensten aan: Mc Drive, verjaardagsreceptie, WIFI. 7 dagen per week geopend."
+    ],
+    "es": [
+      "Nuestro restaurante ofrece los siguientes servicios: Mc Drive, recepción de cumpleaños, WIFI. Abierto los 7 días de la semana."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT MC DONALD'S"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "maskentragen ist Pflicht, Einkaufsmöglichkeiten vor Ort"
+    ],
+    "en": [
+      "wearing a mask is compulsory, possibility to buy on the spot"
+    ],
+    "it": [
+      "è necessario indossare le maschere, gli acquisti sono disponibili in loco"
+    ],
+    "fr": [
+      "port du masque obligatoire, possibilité d'achats sur place"
+    ],
+    "nl": [
+      "maskers moeten worden gedragen, boodschappen ter plaatse verkrijgbaar"
+    ],
+    "es": [
+      "es obligatorio el uso de mascarillas, las compras están disponibles en el sitio"
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/6c1da886-822c-3782-abcf-3679d04369fa",
+    "dc:identifier": "1368",
+    "schema:legalName": "DESTINATION AMNEVILLE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/582381de-3707-3a93-a66f-0a326479ec05",
+      "schema:telephone": [
+        "+33 3 87 72 18 39"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://www.restaurants.mcdonalds.fr/mcdonalds-amneville"
+      ],
+      "siret": "72200393607881"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/3d9211e3-b5e4-3f5d-976d-71274ee4eb8e",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2591c39a-51bd-3f62-896c-d45d12d4fd33",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/45c19a54-cdad-3efb-b2c6-241372cb6bdd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a264e89b-5668-3081-8de9-f3b12d071735",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c48ed08f-f5ca-3549-bfec-99d1116c852b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c49605fe-0952-33fd-9638-70d3f4e6ed36",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Unser Restaurant bietet die folgenden Dienstleistungen an: Mc Drive, Geburtstagsempfang, WIFI. 7 Tage die Woche geöffnet."
+        ],
+        "en": [
+          "Our restaurant offers the following services: Mc Drive, birthday reception, WIFI. Open 7 days a week."
+        ],
+        "it": [
+          "Il nostro ristorante offre i seguenti servizi: Mc Drive, ricevimento di compleanno, WIFI. Aperto 7 giorni su 7."
+        ],
+        "fr": [
+          "Notre restaurant propose les services suivants: Mc Drive, accueil anniversaire, WIFI. Ouvert 7j/7."
+        ],
+        "nl": [
+          "Ons restaurant biedt de volgende diensten aan: Mc Drive, verjaardagsreceptie, WIFI. 7 dagen per week geopend."
+        ],
+        "es": [
+          "Nuestro restaurante ofrece los siguientes servicios: Mc Drive, recepción de cumpleaños, WIFI. Abierto los 7 días de la semana."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/1dae05c5-88c6-38fa-9c4b-d9fddd5236ed",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DriveIn",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Drive-in"
+            ],
+            "pt": [
+              "Venda ao postigo (drive-in)"
+            ],
+            "en": [
+              "Drive in"
+            ],
+            "it": [
+              "Drive"
+            ],
+            "fr": [
+              "Drive"
+            ],
+            "es": [
+              "Drive-in"
+            ],
+            "nl": [
+              "Drive"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/901d83af-63ed-324d-8bd3-2eccb7c4f74a",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_FamillePlus",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Famille plus"
+          ],
+          "pt": [
+            "Famille plus"
+          ],
+          "en": [
+            "Famille plus"
+          ],
+          "it": [
+            "Famille plus"
+          ],
+          "fr": [
+            "Famille plus"
+          ],
+          "nl": [
+            "Famille plus"
+          ],
+          "es": [
+            "Famille plus"
+          ]
+        },
+        "isCompliantWith": [
+          "City"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1492b7ff-0aee-3360-8722-0bd414f42f6f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2bc18c13-fcea-3d58-ab38-1b0f3cd29c66",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2eb2552c-1271-338d-932d-f2e3710a5030",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/34b49429-8e66-3ff6-b9ec-e997e3169de4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/425df2f2-10de-39fe-8382-87578d13b401",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/44a367ad-acb5-3c7f-876c-120042508dd3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4f743789-2a07-3979-b8e7-dfee83cbf382",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7444104b-c63b-3565-a002-8cff33c70b5f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/aec80fad-9077-3388-b9e0-fa8ef4d3d382",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e8888204-b7fb-39ed-b900-d7fb520cdfce",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/d950ce6d-57b7-344a-852a-7675bb8ea328",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2ca0c3ee-0a72-3876-9d93-ac703942e24d",
+          "schema:addressLocality": "Amnéville",
+          "schema:postalCode": "57360",
+          "schema:streetAddress": [
+            "LA CITÉ DES LOISIRS",
+            "RUE DE L'EUROPE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57019",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Amnéville"
+              ],
+              "pt": [
+                "Amnéville"
+              ],
+              "en": [
+                "Amnéville"
+              ],
+              "it": [
+                "Amnéville"
+              ],
+              "fr": [
+                "Amnéville"
+              ],
+              "nl": [
+                "Amnéville"
+              ],
+              "es": [
+                "Amnéville"
+              ]
+            },
+            "insee": "57019",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6a715647-fe60-378b-8494-5765a6efd3f9",
+        "schema:latitude": "49.246069",
+        "schema:longitude": "6.135821",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2021-09-10",
+  "lastUpdateDatatourisme": "2023-04-18T13:12:15.894Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/038127bb-028b-33ff-84f4-d117971b6391",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,4372 @@
+{
+  "@id": "https://data.datatourisme.fr/43/b3b8a37f-eeb5-38ab-8092-4c4aab1bb404",
+  "dc:identifier": "49585",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE DE MAGNAUT"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Espagnol"
+  ],
+  "creationDate": "2010-11-09",
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/c8d48d1a-94d9-39df-8b38-fb5c23a01b32",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/fde61e66-e365-3ed3-b9b5-e5be053d359d",
+          "schema:addressLocality": "Fourcès",
+          "schema:postalCode": "32250",
+          "schema:streetAddress": [
+            "DOMAINE DE MAGNAUT",
+            "Lieu Dit Magnaut"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32133",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Fourcès"
+              ],
+              "pt": [
+                "Fourcès"
+              ],
+              "en": [
+                "Fourcès"
+              ],
+              "it": [
+                "Fourcès"
+              ],
+              "fr": [
+                "Fourcès"
+              ],
+              "nl": [
+                "Fourcès"
+              ],
+              "es": [
+                "Fourcès"
+              ]
+            },
+            "insee": "32133",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "domainedemagnaut@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 29 45 40"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.domainedemagnaut.com/",
+        "https://www.facebook.com/domainedemagnaut/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/dde212c5-3eb0-3665-89f4-80ea30f78852",
+      "dc:description": {
+        "de": [
+          "Ein Familienbetrieb, der sich dem Tourismus verschrieben hat!\n\nJean-Marie und Cécile Terraube begrüßen Sie auf der Domaine de Magnaut, die 2 km von Fourcès entfernt liegt, einem der \"Schönsten Dörfer Frankreichs\" mit seiner runden Bastide.\n\nIm Jahr 2000 übernahm Jean-Marie das Weingut und setzte damit die Familientradition fort, die vier Generationen zuvor begonnen hatte. Dieser Gascogner, der sich den Traditionen und Werten seiner Heimat verbunden fühlt, ist dennoch ein moderner Winzer, der entschlossen auf die Zukunft und den Respekt für die Umwelt ausgerichtet ist\nDie Domaine ist seit 2016 als Haute Valeur Environnementale zertifiziert. Jean-Marie ist sich der neuen Erwartungen der Verbraucher bewusst und hat das Gleichgewicht zwischen Kontinuität und modernem Know-how gefunden.\n\nHeute vertritt er mit seinen Weinen, Flocs und Armagnacs sein \"Pays avec sincérité\" (Land mit Aufrichtigkeit). Diese Leidenschaft wird häufig bei nationalen und internationalen Wettbewerben sowie in Führern (Hachette...) belohnt.\n\nDas ganze Jahr über werden verschiedene Veranstaltungen organisiert, um Sie an ihrer Leidenschaft teilhaben zu lassen (in unserem Veranstaltungskalender zu finden)\nIm Mai können Sie an einem Weinspaziergang für Groß und Klein teilnehmen.\nIm Juli und August können Sie an den \"Mardis ?nologiques\" teilnehmen, einer Einführung in die Nologie, bei der Sie die Aromen und die Farbe des Weins entdecken. Anschließend bieten Ihnen die \"Jeudis Gourmands\" ein Treffen mit den Chefs Tables du Gers an, um einen geselligen Moment rund um drei Weine der Domaine zu verbringen, die mit zwei von vier Chefs zubereiteten Häppchen pro Wein verkostet werden! Auf diese Entdeckungs- und Gourmetmomente folgt ein Besuch des Weinguts. (Auf Reservierung).\nDieses Jahr organisiert die Domaine de Magnaut Gascons-Frühstücke: Teilen Sie ein Frühstück inmitten der Weinberge mit dem Winzer! Spielerische Parcours für Kinder und Entdeckung des Weinguts.\nAber auch ein \"Terre et Mers\"-Tag im September mit Produzenten und die traditionelle Alambic Party im Dezember, eine Gelegenheit, den Brandwein zu probieren.\n\nVon Juni bis August findet in den Weinbergen ein \"Sentier Art et Vin\" (Kunst- und Weinpfad) mit verschiedenen Malern und Bildhauern statt!\n\nWarten Sie also nicht, das gesamte Team freut sich, Sie auf der Domaine begrüßen zu dürfen!"
+        ],
+        "en": [
+          "Located 2 km from Fourcès, Jean-Marie and Cécile Terraube welcome you to the Domaine de Magnaut. Since 4 generations, the tradition is perpetuated and the Domaine de Magnaut produces wines, Flocs and Armagnacs. Since 2016, the Domaine is certified ‘High Environmental Value’.\nThroughout the year, various activities are offered: walks in the vineyard, Oenological Tuesdays, Gourmet Thursdays and Land and Sea Day during summer, Alambic Festival...\n(all information available on the Domaine de Magnaut website)"
+        ],
+        "it": [
+          "Una tenuta familiare incentrata sul turismo!\n\nA 2 km da Fourcès, uno dei \"Villaggi più belli di Francia\" con la sua bastide rotonda, Jean-Marie e Cécile Terraube vi danno il benvenuto al Domaine de Magnaut.\n\nNel 2000, Jean-Marie ha rilevato la tenuta, perpetuando così la tradizione familiare iniziata quattro generazioni prima. Attaccato alle tradizioni e ai valori del suo territorio, questo guascone è tuttavia un viticoltore moderno e decisamente rivolto al futuro e al rispetto dell'ambiente\nDal 2016 la tenuta è certificata di alto valore ambientale. Consapevole delle nuove aspettative dei consumatori, Jean-Marie ha trovato un equilibrio tra continuità e modernità del know-how.\n\nOggi, con i suoi vini, i suoi floc e i suoi Armagnac, rappresenta il suo \"Paese con sincerità\". Questa passione viene spesso premiata in concorsi nazionali e internazionali e in guide (Hachette...).\n\nNel corso dell'anno vengono organizzati diversi eventi per condividere con voi la loro passione (vedi la nostra agenda)\nA maggio si svolge una passeggiata enologica per grandi e piccini.\nNei mesi di luglio e agosto, potrete unirvi a noi per i \"Mardis ?nologiques\", un'introduzione alla ?nologia per scoprire gli aromi e il colore del vino. Poi, i \"Jeudis Gourmands\" vi propongono un incontro con le tavole degli chef del Gers per condividere un momento conviviale intorno a 3 vini del Domaine degustati con 2 antipasti per vino preparati da 4 chef! Questi momenti di scoperta e divertimento sono seguiti da una visita alla tenuta. (Prenotazione obbligatoria).\nQuest'anno il Domaine de Magnaut organizza colazioni in Guascogna: condividete una colazione in mezzo ai vigneti con il viticoltore! Visite divertenti per i bambini e scoperta della tenuta.\nMa anche, a settembre, una giornata \"Terra e Mare\" con i produttori e la tradizionale Festa Alambicco a dicembre, occasione per degustare il \"brûlot\".\n\nDa giugno ad agosto, i vigneti ospitano una \"Strada dell'arte e del vino\" con vari pittori e scultori!\n\nQuindi non aspettate, tutto il team sarà lieto di darvi il benvenuto al Domaine!"
+        ],
+        "fr": [
+          "Un Domaine familial tourné vers l'œnotourisme !\n\nSitué à 2km de Fourcès, un des \"Plus Beaux Villages de France\" avec sa bastide ronde, Jean-Marie et Cécile Terraube vous accueillent sur le Domaine de Magnaut.\n\nC'est en 2000 que Jean-Marie reprend le domaine et perpétue ainsi la tradition familiale débutée quatre générations plus tôt. Attaché aux traditions et aux valeurs de son territoire, ce gascon n'en est pas moins un vigneron moderne résolument tourné vers l'avenir et le respect de l'environnement. \nLe Domaine est certifié Haute Valeur Environnementale depuis 2016. Conscient des nouvelles attentes des consommateurs, Jean-Marie a trouvé l'équilibre entre la continuité et la modernité du savoir-faire.\n\nAujourd'hui avec ses Vins, ses Flocs et ses Armagnacs, il représente son \"Pays avec sincérité\". Cette passion est souvent récompensée dans les concours nationaux et internationaux ainsi que dans les guides (Hachette...).\n\nDifférentes animations sont organisées tout au long de l'année afin de vous faire partager leur passion (à retrouver dans notre agenda). \nEn mai, retrouvez une balade vigneronne pour petits et grands.\nEn juillet et août, rendez-vous pour les \"Mardis Œnologiques\", une initiation à l'œnologie à la découverte des arômes et de la robe du vin. Puis, les \"Jeudis Gourmands\" vous proposent une rencontre avec des Chefs Tables du Gers pour partager un moment convivial autour de 3 vins du Domaine dégustés avec 2 bouchées par vin préparées par 4 chefs ! Ces instants découvertes et gourmands sont suivis d'une visite du domaine. (Sur réservation).\nCette année, le Domaine de Magnaut organise des petits déjeuners Gascons : partagez un petit déjeuner au milieu des vignes avec le vigneron ! Parcours ludiques pour les enfants et découverte du domaine.\nMais aussi, en septembre, une journée \"Terre et Mers\" avec des producteurs et la traditionnelle journée Alambic Party en décembre, l'occasion de goûter au brûlot.\n\nDe juin à août, les vignes accueillent un \"Sentier Art et Vin\" avec différents artistes peintres et sculpteurs !\n\nAlors n'attendez pas, toute l'équipe sera heureuse de vous accueillir au Domaine !"
+        ],
+        "es": [
+          "Situado a 2 km de Fourcès, Jean Marie y Cécile Terraube os reciben en el Domaine de Magnaut.\nDesde hace 4 generaciones, la tradición se perpetúa y el Domaine de Magnaut produce vinos, Flocs y Armagnac. Desde 2016, el Dominio está certificado como Alta Valor Ambiental.\nA lo largo del año se ofrecen diversas actividades: paseos por el viñedo, martes enológicos, jueves gastronómicos, día de la tierra y el mar,\n(toda la información en el sitio web del Domaine de Magnaut)"
+        ],
+        "nl": [
+          "Een familiedomein gericht op toerisme!\n\nOp 2 km van Fourcès, een van de \"Mooiste dorpen van Frankrijk\" met zijn ronde bastide, heten Jean-Marie en Cécile Terraube u welkom op het Domaine de Magnaut.\n\nIn 2000 nam Jean-Marie het landgoed over en zette daarmee de familietraditie voort die vier generaties eerder was begonnen. Deze Gascon is gehecht aan de tradities en waarden van zijn grondgebied, maar is niettemin een moderne wijnbouwer die zich resoluut richt op de toekomst en het respect voor het milieu\nHet landgoed is sinds 2016 gecertificeerd als High Environmental Value. Zich bewust van de nieuwe verwachtingen van de consument, heeft Jean-Marie een evenwicht gevonden tussen continuïteit en moderniteit van de knowhow.\n\nVandaag vertegenwoordigt hij met zijn wijnen, zijn flocs en zijn Armagnacs zijn \"Land met oprechtheid\". Deze passie wordt vaak beloond in nationale en internationale wedstrijden en in gidsen (Hachette...).\n\nHet hele jaar door worden verschillende evenementen georganiseerd om hun passie met u te delen (zie onze agenda)\nIn mei is er een wijnwandeling voor jong en oud.\nIn juli en augustus kunt u deelnemen aan de \"Mardis ?nologiques\", een kennismaking met de ?nologie om de aroma's en de kleur van de wijn te ontdekken. Vervolgens bieden de \"Jeudis Gourmands\" u een ontmoeting met de Chefs Tables van de Gers voor een gezellig moment rond 3 wijnen van het Domaine geproefd met 2 hapjes per wijn bereid door 4 chefs! Deze ontdekkings- en fijnproeversmomenten worden gevolgd door een bezoek aan het landgoed. (Reserveren verplicht).\nDit jaar organiseert het Domaine de Magnaut Gascogne-ontbijten: deel een ontbijt midden in de wijngaarden met de wijnmaker! Leuke rondleidingen voor kinderen en ontdekking van het landgoed.\nMaar ook, in september, een \"Land en Zee\" dag met producenten en de traditionele Alambic Party in december, de gelegenheid om de \"brûlot\" te proeven.\n\nVan juni tot augustus organiseren de wijngaarden een \"Kunst- en Wijnroute\" met verschillende schilders en beeldhouwers!\n\nWacht dus niet, het hele team heet u graag welkom op het Domaine!"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/a6482eaf-d1a8-3e22-bde8-449390e01d2f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c95b6c3b-27e6-3402-9271-d7513a4cc2e0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ddd7cc40-e4b5-3954-83a0-984cd07cdc22",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/027235d5-7058-363c-b642-e82b7b9580dd",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/18e4af7f-2eca-3cfd-8cea-20846bda7e4e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/36793f90-c335-3738-a6ca-2dc831ba4c7e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:HomeDeliveries",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Lieferung nach Hause"
+            ],
+            "pt": [
+              "Entregas ao domicílio"
+            ],
+            "en": [
+              "Home deliveries"
+            ],
+            "it": [
+              "Consegne a domicilio"
+            ],
+            "fr": [
+              "Livraisons à domicile"
+            ],
+            "nl": [
+              "Thuisbezorging"
+            ],
+            "es": [
+              "Entregas a domicilio"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3b59ac4b-6dce-3d2a-8aea-019001764954",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/50d31251-e675-3224-bb37-a23cc2538731",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d7a87fe-da63-34ba-8036-524d55439400",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7e406203-42a6-3f64-bbd1-b1e2c8973272",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bee16d49-0e4f-3bb7-a9d8-5bee09953e2b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ClickAndCollect",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Click and Collect "
+            ],
+            "pt": [
+              "Levantamento em loja (click and collect) "
+            ],
+            "en": [
+              "Click and Collect "
+            ],
+            "it": [
+              "Click and Collect "
+            ],
+            "fr": [
+              "Click and Collect "
+            ],
+            "nl": [
+              "Click and Collect "
+            ],
+            "es": [
+              "Click and Collect "
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8532e15-58da-3a58-9b99-481fad24f794",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Entertainment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unterhaltung"
+            ],
+            "pt": [
+              "Animações"
+            ],
+            "en": [
+              "Entertainment"
+            ],
+            "it": [
+              "Animazioni"
+            ],
+            "fr": [
+              "Animations"
+            ],
+            "nl": [
+              "Animatie"
+            ],
+            "es": [
+              "Animaciones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e4f2d7be-d90a-3b6f-9833-66eb5ff56988",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 55
+    },
+    {
+      "@id": "https://data.datatourisme.fr/eaa04625-3dfd-3a30-9729-eb35e6d18ba0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TradeShows",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ausstellungen"
+            ],
+            "pt": [
+              "Exposições"
+            ],
+            "en": [
+              "Trade shows"
+            ],
+            "it": [
+              "Esposizioni"
+            ],
+            "fr": [
+              "Expositions"
+            ],
+            "nl": [
+              "Exposities"
+            ],
+            "es": [
+              "Exposiciones"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/68a453f1-234a-349b-8bd2-832b8b17f5fc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/84f9d0a2-d382-3fb0-99d3-95f906e76bb7",
+          "ebucore:title": {
+            "fr": [
+              "SALLE DE DÉGUSTATION"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Magnaut"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7d00a970-5d85-3453-86dd-cb2e356aac82",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0120981.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/131bc05d-a2a1-3774-8c5c-193b03140767",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/8d2c03a7-b8b0-3023-a5c3-7070fcb08216",
+          "ebucore:title": {
+            "fr": [
+              "Qualité Tourisme Occitanie - Sud de France"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Ténarèze"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/926621a0-d422-39ae-ba4f-95126dbbbd70",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0149325.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/15ea105d-92bf-33cb-a9e1-3ed8243462a7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4cdcec68-d4ac-3838-9fb1-e4cd5ae92753",
+          "ebucore:title": {
+            "fr": [
+              "ESPACE D'ACCUEIL AU DOMAINE DE MAGNAUT"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Magnaut"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/581e3ed3-2f71-3b92-a573-c7df5bf93472",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0120979.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/68a453f1-234a-349b-8bd2-832b8b17f5fc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/84f9d0a2-d382-3fb0-99d3-95f906e76bb7",
+          "ebucore:title": {
+            "fr": [
+              "SALLE DE DÉGUSTATION"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Magnaut"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7d00a970-5d85-3453-86dd-cb2e356aac82",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0120981.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/94005117-1bb0-35ff-bfc6-c83ecdade7c0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b3d6df2b-819e-3111-982a-491f40a0db97",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Magnaut"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/bdcc04fc-3d62-3a3b-8116-245fb6e94eb7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0065810.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/996e603d-f190-3b5c-87df-95010fb6cdf2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1696b6ad-06ba-347e-8cb3-e06ad504a5c1",
+          "ebucore:title": {
+            "fr": [
+              "VIGNES"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Magnaut/Camou"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d45c2885-3f51-3c3b-8d7e-efddccfff39a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0120982.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a489f389-46b1-3037-9649-04ecfc317da3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f3d76668-5fb4-3cdb-87c5-4248b79a9451",
+          "ebucore:title": {
+            "fr": [
+              "VIGNES DU DOMAINE DE MAGNAUT"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Magnaut/J. Chaplard"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/58c181ca-9f0d-3d1c-8ffc-1a547e2cbf23",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0120980.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/66ecb2a8-23e2-326c-b78b-b017834c9b51",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_VignoblesDecouvertes",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Vignobles & Découvertes"
+          ],
+          "pt": [
+            "Vignobles & Découvertes"
+          ],
+          "en": [
+            "Vignobles & Découvertes"
+          ],
+          "it": [
+            "Vignobles & Découvertes"
+          ],
+          "fr": [
+            "Vignobles & Découvertes"
+          ],
+          "nl": [
+            "Vignobles & Découvertes"
+          ],
+          "es": [
+            "Vignobles & Découvertes"
+          ]
+        },
+        "isCompliantWith": [
+          "Accommodation",
+          "BistroOrWineBar",
+          "Cellar",
+          "CulturalSite",
+          "EntertainmentAndEvent",
+          "LocalTouristOffice",
+          "NaturalHeritage",
+          "Practice",
+          "Restaurant",
+          "Visit"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/961ca169-8893-3a5a-be0b-6c827b944364",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_QualiteTourisme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Qualité Tourisme"
+          ],
+          "pt": [
+            "Qualité Tourisme"
+          ],
+          "en": [
+            "Qualité Tourisme"
+          ],
+          "it": [
+            "Qualité Tourisme"
+          ],
+          "fr": [
+            "Qualité Tourisme"
+          ],
+          "nl": [
+            "Qualité Tourisme"
+          ],
+          "es": [
+            "Qualité Tourisme"
+          ]
+        },
+        "isCompliantWith": [
+          "Arena",
+          "BarOrPub",
+          "CafeOrTearoom",
+          "CampingAndCaravanning",
+          "CollectiveAccommodation",
+          "CulturalSite",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "LeisurePlace",
+          "LocalTouristOffice",
+          "Marina",
+          "Practice",
+          "RealEstateAgent",
+          "Restaurant",
+          "Store",
+          "Visit"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cbf44870-55a1-3f7d-aeaf-930b548c3b55",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f8764b8b-e3ac-33ed-8fc7-d88453a16ea8",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2017-08-03"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/185a6905-cf9b-3ebf-a6f5-851a17f776b8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/fde61e66-e365-3ed3-b9b5-e5be053d359d",
+          "schema:addressLocality": "Fourcès",
+          "schema:postalCode": "32250",
+          "schema:streetAddress": [
+            "DOMAINE DE MAGNAUT",
+            "Lieu Dit Magnaut"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32133",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Fourcès"
+              ],
+              "pt": [
+                "Fourcès"
+              ],
+              "en": [
+                "Fourcès"
+              ],
+              "it": [
+                "Fourcès"
+              ],
+              "fr": [
+                "Fourcès"
+              ],
+              "nl": [
+                "Fourcès"
+              ],
+              "es": [
+                "Fourcès"
+              ]
+            },
+            "insee": "32133",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/d443f278-8cab-3911-b3ca-bac339d6a7ab",
+        "schema:latitude": "44.0124319",
+        "schema:longitude": "0.2243828",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/108b75be-d7af-381d-8d25-8a71533211e9",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T09:00:00",
+          "schema:validThrough": "2022-12-31T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/176f1986-27b2-3e34-92e4-f349ff030c9d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4f066ed5-c573-39cc-8487-0923755fd965",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/80520db0-8be6-376b-8742-8608d3d3d3f4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ac1eb6b3-890b-3251-9417-9d18f8844689",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d58266f6-9e89-33a0-8f5a-17cf6c0642dc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1a36e914-6efc-378f-8dd7-a8ee731d99dc",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T09:00:00",
+          "schema:validThrough": "2022-12-31T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4a47f4c2-a89b-3f0c-8c7e-0b990b524227",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/785b9649-2c07-3270-b1bb-d93bcddf2318",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b32a3535-5535-3665-93a9-fe4ef010f408",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c6b72383-4e66-3d9f-bc46-1a9c2ca10ef9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e685f821-a9e5-34ba-8d57-79ff66f3a150",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/20184a5a-64c8-34e0-b302-44626ba1f8b5",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2022-01-01T14:00:00",
+          "schema:validThrough": "2022-12-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3c46e84c-6baa-32b1-a233-1aaacbc9cb9d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4d25f73b-d2d1-36c4-b24f-0bb5d495ad25",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4e460d8e-30d3-370f-841d-0a452122d7b0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/52ccb522-72ff-36fe-a028-6e359a04781d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/81abe3c2-443c-383a-9321-e0885d3c6d02",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/211b89a9-88f9-310b-b449-9afb564a932c",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2022-01-01T14:00:00",
+          "schema:validThrough": "2022-12-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0a81a986-6db1-3f94-867e-1ecb3731441f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/14eef298-a821-3666-8af3-8b29d1404157",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/97a0d2e7-3944-35b7-88f7-755cc4876b90",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a97dfc91-fc0a-311e-a43d-2443d263b0bc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cf96c0e3-c389-3e15-9008-ee877a99274a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2c859ba1-eee1-3d53-a66f-c31d122508bf",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T09:00:00",
+          "schema:validThrough": "2022-12-31T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/428924b0-8aaf-3683-8795-366da7890c52",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5ecffb57-d4da-379d-bd5d-d0daf97a8465",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5fa86e20-78f8-3efc-9b2c-5190903c3d69",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8712597a-e690-37d2-8d45-de780e1cb341",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bb4d9613-5bb3-3f1f-b8eb-46b7ef5df8c4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/43b429ff-f550-3b4a-893b-dd88e7559a78",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T09:00:00",
+          "schema:validThrough": "2022-12-31T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0e42c9ef-ac70-3a97-9077-3c35babc514d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/15444c7c-d62a-3cf6-a4f2-1443e25abd4c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/50ddfe87-b518-3283-9f48-75ceeee46967",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b2c0a01a-fb15-3c15-a686-4821b4a63f02",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cef199e2-53e2-377b-9fe3-6e691f0ab7ba",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/445a296e-2de4-3bfa-bab8-a791c1fad9c2",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2022-01-01T14:00:00",
+          "schema:validThrough": "2022-12-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/45cf6d31-6208-3e4d-9c21-0b8ea141b521",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5e530fcb-d611-34a3-9aed-cf185bf82132",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9fd29e11-5762-30af-b015-c1ce15d071ff",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b7b3c50c-e737-386e-9b65-dec805f3dffa",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e26b02a2-718c-3c15-b20f-11b09e734a51",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d7e791eb-eac0-3010-9f5c-24b95405ea53",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T09:00:00",
+          "schema:validThrough": "2022-12-31T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/31a881e5-419b-3222-bad3-963123ee6263",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8dfbf251-7bbc-3525-b1c1-43525c078c92",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aa1b5d29-042f-3952-81c6-c34d1e72dc26",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/df13c519-fbf6-39e6-bfb2-79fd22ea40d5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f1c0abc8-1f71-3528-8f5a-7c130eb5de23",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ea3738cb-d363-300a-aec7-4c754cb9e396",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2022-01-01T14:00:00",
+          "schema:validThrough": "2022-12-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/34326edb-a2c5-3b91-ac23-ee7af576381d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/39ccb738-763f-3dbe-980c-94bfb82a4e7f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4b9c16b7-3ab6-3fc2-b566-51ce95a82a34",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ad28f981-adab-3ae9-962f-6233fa65ab36",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c031e5c6-f7cd-3b3e-9750-b462218db082",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ecba6297-f700-3587-8543-726a3981743f",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2022-01-01T14:00:00",
+          "schema:validThrough": "2022-12-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/04221fb0-5e9f-368c-b234-54940c0f6709",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/0c660ff8-c0f7-3b0a-94be-0b895097bc8c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1252b0a2-f26b-3d3f-a9f8-7e879a19f449",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/adef1790-8b27-334e-823b-84aba9553b37",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f60ea8e2-5808-3b91-a9eb-a9aa8a689a7d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f7445a59-8c22-3a0f-9054-eb2d0ca9b255",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2022-01-01T14:00:00",
+          "schema:validThrough": "2022-12-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/41e53e28-59f2-33b2-836f-29b7ccfc72b8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/560773cc-0f83-3130-a4c1-3a0f3b9d3881",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5fd115d9-f7d9-36b5-b837-bc1d41fed6a6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ac45a68f-cdb8-3cbc-bc4f-cdae189f1875",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c23b147f-674c-3ee6-a2fc-634180369c26",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ff85b151-6919-3dde-9418-1e7315084cbf",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2022-01-01T09:00:00",
+          "schema:validThrough": "2022-12-31T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "An Feiertagen geschlossen."
+            ],
+            "en": [
+              "Closed on holidays."
+            ],
+            "it": [
+              "Chiuso nei giorni festivi."
+            ],
+            "fr": [
+              "Fermé les jours fériés."
+            ],
+            "nl": [
+              "Gesloten op feestdagen."
+            ],
+            "es": [
+              "Cerrado los días festivos."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1902c9ca-142b-395b-b62e-f83027a547e2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1dd37bb5-eeb1-303d-a93f-392f14d33d02",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/36c444b6-99a5-3789-82cf-e7cb3d1a0d33",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3e3e0266-313b-3d6b-a29b-51e3761f9d1a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b9d2c832-9560-388b-bc61-9801fb7006cf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2021-10-29",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.472Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/46ee1080-8dd7-397a-98fd-bbc39f890308",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/1a8fcec1-3372-3245-910f-722ab226d608",
+          "schema:price": "2.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Plus de 10 pers. Visite et dégustation"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/70881e6b-4007-39c4-a42c-68df9e221855",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "visite libre et dégustation"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/905fc19c-4682-3b6d-9606-fe30dbea4f8c",
+          "schema:minPrice": [
+            "3"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/0663ca4b-3470-3171-9053-39aa704e8f56",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2022-12-31",
+              "startDate": "2022-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visite - à partir de 8 pers."
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9d983abe-0184-3878-bd01-943073f52e52",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/be7a6cdd-be06-3bb7-8955-c70cb418b801",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/0663ca4b-3470-3171-9053-39aa704e8f56",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2022-12-31",
+              "startDate": "2022-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visite libre - individuel"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bf43bcfe-8dcf-3046-8cd7-5dc35508e7aa",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visites"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cab4e5db-a429-3fee-960d-73ca03738704",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Dégustation"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f02ce491-5604-3451-b19d-5cc37d0b173f",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "3€/personne"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Groups",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppen"
+                ],
+                "pt": [
+                  "Grupos"
+                ],
+                "en": [
+                  "Groups"
+                ],
+                "it": [
+                  "Gruppi"
+                ],
+                "fr": [
+                  "Groupes"
+                ],
+                "es": [
+                  "Grupos"
+                ],
+                "nl": [
+                  "Groepen"
+                ]
+              }
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "au delà de 8 personnes"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

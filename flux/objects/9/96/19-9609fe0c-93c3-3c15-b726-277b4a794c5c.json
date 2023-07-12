@@ -1,0 +1,310 @@
+{
+  "@id": "https://data.datatourisme.fr/19/9609fe0c-93c3-3c15-b726-277b4a794c5c",
+  "dc:identifier": "6cce5905-7cf9-fa4f-8e94-53ce5b9a1dac",
+  "@type": [
+    "schema:MovieTheater",
+    "Cinema",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "CGR Paris - Lilas"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e703385c-37ba-39e5-bd58-1f377d5f1d31",
+      "schema:email": [
+        "lilas@etoile-cinemas.com"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.cgrcinemas.fr/paris-lilas/"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/8b21fd04-d589-3a35-8f0b-301de8c6dbee",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/013af861-eb20-323a-b55e-ee41eccfe535",
+          "schema:addressLocality": "Paris",
+          "schema:postalCode": "75020",
+          "schema:streetAddress": [
+            "Place du Marquis du Vercors"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:75056",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Paris"
+              ],
+              "pt": [
+                "Paris"
+              ],
+              "en": [
+                "Paris"
+              ],
+              "it": [
+                "Paris"
+              ],
+              "fr": [
+                "Paris"
+              ],
+              "nl": [
+                "Paris"
+              ],
+              "es": [
+                "Paris"
+              ]
+            },
+            "insee": "75056",
+            "isPartOfDepartment": {
+              "@id": "kb:France1175",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Paris"
+                ],
+                "pt": [
+                  "Paris"
+                ],
+                "en": [
+                  "Paris"
+                ],
+                "it": [
+                  "Paris"
+                ],
+                "fr": [
+                  "Paris"
+                ],
+                "nl": [
+                  "Paris"
+                ],
+                "es": [
+                  "Paris"
+                ]
+              },
+              "insee": "75",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/fc3a46e8-9bbc-3d6d-94bd-8126d536872c",
+        "schema:latitude": "48.87783049999999",
+        "schema:longitude": "2.409324100000049",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/72101359-a87b-35f9-bfca-b2b5d67abc5f",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Abhängig von den Uhrzeiten der Sitzungen."
+            ],
+            "en": [
+              "Depending on the time of the sessions."
+            ],
+            "it": [
+              "A seconda dell'orario delle sessioni."
+            ],
+            "fr": [
+              "En fonction des horaires des séances."
+            ],
+            "es": [
+              "Dependiendo de la hora de las sesiones."
+            ],
+            "nl": [
+              "Afhankelijk van het tijdstip van de sessies."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2519669d-a15b-332f-b5d2-f299a7ee7000",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/727f8cb2-d672-3e73-8e26-f631277b52c0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a9520065-f372-3399-a30c-6ae127595773",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/dddcb8d9-a4b7-3f3d-bc4e-d5823270dbcd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f5cc7ee4-6365-3a8b-97a9-3fc35d9a4ded",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-10-27",
+  "lastUpdateDatatourisme": "2022-10-28T15:13:18.34Z"
+}

@@ -1,0 +1,396 @@
+{
+  "@id": "https://data.datatourisme.fr/6/c36ba476-5a50-3438-bfea-74339279bb82",
+  "dc:identifier": "HLOBFC000V501BSO",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "de": [
+      "Meublé Patrick ABADIE"
+    ],
+    "en": [
+      "Meublé Patrick ABADIE"
+    ],
+    "fr": [
+      "Meublé Patrick ABADIE"
+    ]
+  },
+  "allowedPersons": 6,
+  "creationDate": "2019-05-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/a44c0ea6-9655-3f47-b275-5658b944521c",
+    "dc:identifier": "4f6152ee-9c63-43a8-9428-3c7fd9e695d3",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/8aa72549-b0dc-3924-a130-b874bb14cc6a",
+        "schema:postalCode": "71160",
+        "schema:streetAddress": [
+          "7, rue Nationale"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "tourisme@legrandcharolais.fr"
+    ],
+    "schema:legalName": "DIGOIN │ Office de Tourisme Le Grand Charolais │ Cat.III",
+    "schema:telephone": [
+      "+33 3 85 53 00 81"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.legrandcharolais.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ed8f54f8-9a7d-3090-b1d2-e7ab87891e64",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/718c31ec-6390-3888-bf30-d5c325c7c932",
+      "schema:email": [
+        "abadie.patrick@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 85 88 52 98",
+        "+33 6 83 53 13 40"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/718c31ec-6390-3888-bf30-d5c325c7c932",
+      "schema:email": [
+        "abadie.patrick@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 85 88 52 98",
+        "+33 6 83 53 13 40"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/3d50d907-a08a-30ed-ad2e-77f2fad4932d",
+      "dc:description": {
+        "de": [
+          "Unabhängige Tourismusmöblierung auf dem Land, in der Nähe der Loire."
+        ],
+        "en": [
+          "Furnished for independent tourism in the countryside, close to the Loire River."
+        ],
+        "it": [
+          "Casa vacanze indipendente in campagna, vicino alla Loira."
+        ],
+        "fr": [
+          "Meublé de tourisme indépendant à la campagne, proche de la Loire."
+        ],
+        "nl": [
+          "Vakantiehuis op het platteland, vlakbij de Loire."
+        ],
+        "es": [
+          "Casa de vacaciones en el campo, cerca del Loira."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/16e58c38-8eb5-3048-afaf-0178871ca4d4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4daf7a88-8e41-384d-8fec-f29fbe1f462b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e8fd6804-e593-3013-85b1-1fb40e1306d7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/68a14e24-77ce-388e-a9a6-88a6cb4f5a1e",
+      "schema:value": "1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/8a1fa564-d6ba-303b-b3c9-b65550741893",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c1722c59-4cea-3149-ab79-d6df2b57f2dc",
+          "schema:addressLocality": "La Motte-Saint-Jean",
+          "schema:postalCode": "71160",
+          "schema:streetAddress": [
+            "173 Rue des Pys"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:71325",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Motte-Saint-Jean"
+              ],
+              "pt": [
+                "La Motte-Saint-Jean"
+              ],
+              "en": [
+                "La Motte-Saint-Jean"
+              ],
+              "it": [
+                "La Motte-Saint-Jean"
+              ],
+              "fr": [
+                "La Motte-Saint-Jean"
+              ],
+              "nl": [
+                "La Motte-Saint-Jean"
+              ],
+              "es": [
+                "La Motte-Saint-Jean"
+              ]
+            },
+            "insee": "71325",
+            "isPartOfDepartment": {
+              "@id": "kb:France2771",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Saône-et-Loire"
+                ],
+                "pt": [
+                  "Saône-et-Loire"
+                ],
+                "en": [
+                  "Saône-et-Loire"
+                ],
+                "it": [
+                  "Saône-et-Loire"
+                ],
+                "fr": [
+                  "Saône-et-Loire"
+                ],
+                "nl": [
+                  "Saône-et-Loire"
+                ],
+                "es": [
+                  "Saône-et-Loire"
+                ]
+              },
+              "insee": "71",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/40815416-a4be-3618-877b-14f3f3f476bf",
+        "schema:latitude": "46.494816",
+        "schema:longitude": "3.930429",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ff06c202-5387-34f3-8d21-aa2d143149ab",
+      "schema:legalName": "SIT Bourgogne-Franche-Comté",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-11-24",
+  "lastUpdateDatatourisme": "2023-04-19T07:35:06.921Z"
+}

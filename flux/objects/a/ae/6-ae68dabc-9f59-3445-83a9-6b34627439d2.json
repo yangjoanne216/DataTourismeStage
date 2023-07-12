@@ -1,0 +1,793 @@
+{
+  "@id": "https://data.datatourisme.fr/6/ae68dabc-9f59-3445-83a9-6b34627439d2",
+  "dc:identifier": "RESBOU071V507LQB",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "GourmetRestaurant",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "de": [
+      "La Roseraie"
+    ],
+    "en": [
+      "La Roseraie"
+    ],
+    "fr": [
+      "La Roseraie"
+    ]
+  },
+  "availableLanguage": [
+    "Allemand",
+    "Anglais",
+    "Néerlandais"
+  ],
+  "creationDate": "2018-10-17",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/1367cffe-00cf-3650-8f47-07807cd4a374",
+    "dc:identifier": "418a0829-9fd0-4fc2-a1f4-e1a43764c063",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/37eb0430-dfd1-38ec-866e-f33266c5b2fa",
+        "schema:postalCode": "71400",
+        "schema:streetAddress": [
+          "13, rue du Général Demetz"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "welcome@autun-tourisme.com"
+    ],
+    "schema:legalName": "AUTUN │ OT du Grand Autunois Morvan | Cat.II",
+    "schema:telephone": [
+      "+33 3 85 86 80 38"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.autun-tourisme.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ed8f54f8-9a7d-3090-b1d2-e7ab87891e64",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ba44b510-ae49-3c3a-a06f-2dbb7089924e",
+      "schema:email": [
+        "info@laroseraie.nl"
+      ],
+      "schema:telephone": [
+        "+33 3 85 82 68 95"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ba44b510-ae49-3c3a-a06f-2dbb7089924e",
+      "schema:email": [
+        "info@laroseraie.nl"
+      ],
+      "schema:telephone": [
+        "+33 3 85 82 68 95"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/b7b8fabe-f8f3-377a-b4c9-762d1ffd866b",
+      "dc:description": {
+        "de": [
+          "Abwechslungsreiche internationale Küche, sehr angenehmer Raum und Terrasse im Garten."
+        ],
+        "en": [
+          "Varied international cuisine, very pleasant room and terrace in the garden."
+        ],
+        "it": [
+          "Cucina internazionale varia, sala molto piacevole e terrazza in giardino."
+        ],
+        "fr": [
+          "Cuisine internationale variée, salle très agréable et terrasse dans le jardin."
+        ],
+        "nl": [
+          "Gevarieerde internationale keuken, zeer aangename zaal en terras in de tuin."
+        ],
+        "es": [
+          "Cocina internacional variada, sala muy agradable y terraza en el jardín."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/3cf1f4d4-1a23-3de4-b8b0-90df36ecd0d5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cebd28ef-2a1f-3d56-834b-6447a9f94d2d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cf4de990-4f10-3f4a-9aec-34e67f08f10b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/66cc15b7-4c5f-3a38-a449-a5905c9bd14f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b3d6c5b7-2abc-3e76-83e7-5585ae538e94",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f1188f91-b8f9-3820-a984-a62e51f29838",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:GourmetCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gourmet-Küche"
+        ],
+        "pt": [
+          "Cozinha gastronómica"
+        ],
+        "en": [
+          "Gourmet cuisine"
+        ],
+        "it": [
+          "Cucina gastronomica"
+        ],
+        "fr": [
+          "Cuisine gastronomique"
+        ],
+        "nl": [
+          "Gastronomische keuken"
+        ],
+        "es": [
+          "Cocina gastronómica"
+        ]
+      }
+    },
+    {
+      "@id": "kb:VegetarianCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Vegetarische Küche"
+        ],
+        "pt": [
+          "Cozinha vegetariana"
+        ],
+        "en": [
+          "Vegetarian cuisine"
+        ],
+        "it": [
+          "Cucina vegetariana"
+        ],
+        "fr": [
+          "Cuisine végétarienne"
+        ],
+        "nl": [
+          "Vegetarische keuken"
+        ],
+        "es": [
+          "Cocina vegetariana"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/35e822a7-444d-34c3-a119-76d5f27337d3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2b018fb8-8754-33d8-86b4-89e65e832ffc",
+          "schema:addressLocality": "Lucenay-l'Évêque",
+          "schema:postalCode": "71540",
+          "schema:streetAddress": [
+            "18 Route d'Autun"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:71266",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Lucenay-l'Évêque"
+              ],
+              "pt": [
+                "Lucenay-l'Évêque"
+              ],
+              "en": [
+                "Lucenay-l'Évêque"
+              ],
+              "it": [
+                "Lucenay-l'Évêque"
+              ],
+              "fr": [
+                "Lucenay-l'Évêque"
+              ],
+              "nl": [
+                "Lucenay-l'Évêque"
+              ],
+              "es": [
+                "Lucenay-l'Évêque"
+              ]
+            },
+            "insee": "71266",
+            "isPartOfDepartment": {
+              "@id": "kb:France2771",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Saône-et-Loire"
+                ],
+                "pt": [
+                  "Saône-et-Loire"
+                ],
+                "en": [
+                  "Saône-et-Loire"
+                ],
+                "it": [
+                  "Saône-et-Loire"
+                ],
+                "fr": [
+                  "Saône-et-Loire"
+                ],
+                "nl": [
+                  "Saône-et-Loire"
+                ],
+                "es": [
+                  "Saône-et-Loire"
+                ]
+              },
+              "insee": "71",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/f5542247-049a-37b8-a114-7057c477a544",
+        "schema:latitude": "47.0796833",
+        "schema:longitude": "4.24547699",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ff06c202-5387-34f3-8d21-aa2d143149ab",
+      "schema:legalName": "SIT Bourgogne-Franche-Comté",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-01",
+  "lastUpdateDatatourisme": "2023-06-22T01:27:17.627Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/c2b79b44-05e0-3bad-bb55-8615acaa7d98",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/ffb59c98-d4ba-399e-b673-7ed970837bb3",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "de": [
+              "Menü"
+            ],
+            "en": [
+              "Adult set menu"
+            ],
+            "fr": [
+              "Menu adulte"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:GourmetCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gourmet-Küche"
+        ],
+        "pt": [
+          "Cozinha gastronómica"
+        ],
+        "en": [
+          "Gourmet cuisine"
+        ],
+        "it": [
+          "Cucina gastronomica"
+        ],
+        "fr": [
+          "Cuisine gastronomique"
+        ],
+        "nl": [
+          "Gastronomische keuken"
+        ],
+        "es": [
+          "Cocina gastronómica"
+        ]
+      }
+    },
+    {
+      "@id": "kb:VegetarianCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Vegetarische Küche"
+        ],
+        "pt": [
+          "Cozinha vegetariana"
+        ],
+        "en": [
+          "Vegetarian cuisine"
+        ],
+        "it": [
+          "Cucina vegetariana"
+        ],
+        "fr": [
+          "Cuisine végétarienne"
+        ],
+        "nl": [
+          "Vegetarische keuken"
+        ],
+        "es": [
+          "Cocina vegetariana"
+        ]
+      }
+    }
+  ]
+}

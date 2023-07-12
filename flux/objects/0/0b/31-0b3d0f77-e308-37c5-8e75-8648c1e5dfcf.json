@@ -1,0 +1,2408 @@
+{
+  "@id": "https://data.datatourisme.fr/31/0b3d0f77-e308-37c5-8e75-8648c1e5dfcf",
+  "dc:identifier": "TFO16017206232",
+  "@type": [
+    "schema:Accommodation",
+    "schema:House",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "House",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ruhige Lage in ESPALION, am Rande des Aubrac, auf dem GR65 und der Fahrradroute VR86 des Lot-Tals. Unabhängiges Haus mit Charakter in einem alten Bauernhaus und in der Nähe des Hauses des Eigentümers."
+    ],
+    "en": [
+      "Independent character house on an old farm close to the owner's house."
+    ],
+    "it": [
+      "Nella pace e nella tranquillità di ESPALION, alle porte dell'Aubrac, sul GR65 e sulla pista ciclabile VR86 della Valle del Lot, una casa indipendente di carattere in un antico casale vicino alla casa del proprietario."
+    ],
+    "fr": [
+      "Au calme, à ESPALION, aux portes de l'Aubrac, sur le GR65 et la vélo route VR86 de la Vallée du Lot, maison de caractère indépendante aménagée dans un ancien corps de ferme et à proximité de la maison du propriétaire."
+    ],
+    "nl": [
+      "In de rust van ESPALION, aan de poort van de Aubrac, aan de GR65 en de VR86 fietsroute van de vallei van de Lot, een onafhankelijk huis met karakter in een oude boerderij bij het huis van de eigenaar."
+    ],
+    "es": [
+      "En la tranquilidad de ESPALION, a las puertas del Aubrac, en el GR65 y la ruta ciclista VR86 del Valle del Lot, una casa independiente con carácter, habilitada en una antigua granja y cerca de la casa del propietario."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Alain et Francine Druon"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "EN",
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2a5cae8d-8c9b-3d97-867a-f74954e4cb3b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b9f2ad30-9333-34c9-a422-2d42c3764842",
+          "schema:addressLocality": "Espalion",
+          "schema:postalCode": "12500",
+          "schema:streetAddress": [
+            "Les Combes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Espalion"
+              ],
+              "pt": [
+                "Espalion"
+              ],
+              "en": [
+                "Espalion"
+              ],
+              "it": [
+                "Espalion"
+              ],
+              "fr": [
+                "Espalion"
+              ],
+              "nl": [
+                "Espalion"
+              ],
+              "es": [
+                "Espalion"
+              ]
+            },
+            "insee": "12096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "francine.druon@cegetel.net"
+      ],
+      "schema:legalName": "Alain et Francine Druon",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hebergementaveyron.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c1207a89-7d30-3d29-bbf1-ad8283828f8c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b9f2ad30-9333-34c9-a422-2d42c3764842",
+          "schema:addressLocality": "Espalion",
+          "schema:postalCode": "12500",
+          "schema:streetAddress": [
+            "Les Combes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Espalion"
+              ],
+              "pt": [
+                "Espalion"
+              ],
+              "en": [
+                "Espalion"
+              ],
+              "it": [
+                "Espalion"
+              ],
+              "fr": [
+                "Espalion"
+              ],
+              "nl": [
+                "Espalion"
+              ],
+              "es": [
+                "Espalion"
+              ]
+            },
+            "insee": "12096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@hebergementaveyron.fr"
+      ],
+      "schema:legalName": "Alain et Francine Druon",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.hebergementaveyron.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/7b1bf033-4f3c-38a6-840f-4f453fb6fed3",
+      "dc:description": {
+        "de": [
+          "Erdgeschoss: Wohnzimmer / Küche - Schlafcouch (2 Personen) - Fernseher - WIFI/Internet - Duschraum - WC - Waschküche (Waschmaschine).\n1. Stock: 1 Schlafzimmer (Bett 160) - 1 Schlafzimmer (Bett 90),\n2. Stock: 1 großes Schlafzimmer mit Dachschräge (Bett 140)\nFahrradraum - Große Grünfläche - Gartenmöbel - Grill - Parkplatz - Sehr ruhig - Auf dem GR 65 und der Fahrradroute VR86 des Lot-Tals - Vermietung für alle Jahreszeiten."
+        ],
+        "en": [
+          "Ground floor: living room/kitchen, double sofa-bed, Wi-Fi, TV, shower room, WC. Laundry with washing machine. First floor: 2 bedrooms with 1 double bed and 1 single bed. Second floor: large bedroom with sloping ceilings and double bed. Large garden, garden furniture, barbecue, parking, very calm, on the GR65 footpath. Year round rental."
+        ],
+        "it": [
+          "Piano terra: soggiorno/cucina - Convertibile (2 persone) - Televisione - WIFI/Internet - Bagno con doccia - WC - Lavanderia (lavatrice).\n1° piano: 1 camera da letto (letto 160) - 1 camera da letto (letto 90),\n2° piano: 1 grande camera da letto in mansarda (letto 140)\nRimessa per biciclette - Ampio spazio verde - Mobili da giardino - Barbecue - Parcheggio - Molto tranquillo - Sul GR 65 e sulla pista ciclabile VR86 della Valle del Lot - Affitto per tutte le stagioni."
+        ],
+        "fr": [
+          "Rez-de-chaussée : salle de séjour / cuisine - Convertible (2 personnes) - Télévision - WIFI/Internet - Salle d'eau - WC - Buanderie (lave-linge).\n1er étage : 1 chambre (lit 160) - 1 chambre (lit 90), \n2ème étage : 1 grande chambre mansardée (lit 140)\nLocal à vélos - Grand espace vert - Salon de jardin - Barbecue - Parking - Très calme - Sur le GR 65 et la vélo route VR86 de la Vallée du Lot - Location toutes saisons."
+        ],
+        "es": [
+          "Planta baja: salón / cocina - Convertible (2 personas) - Televisión - WIFI/Internet - Cuarto de ducha - WC - Lavadero (lavadora).\n1er piso: 1 dormitorio (cama 160) - 1 dormitorio (cama 90),\n2ª planta: 1 gran habitación abuhardillada (cama 140)\nCobertizo para bicicletas - Gran zona verde - Muebles de jardín - Barbacoa - Aparcamiento - Muy tranquilo - En el GR 65 y la ruta ciclista VR86 del Valle del Lot - Alquiler para toda la temporada."
+        ],
+        "nl": [
+          "Begane grond: woonkamer/keuken - Cabrio (2 personen) - Televisie - WIFI/internet - Doucheruimte - WC - Wasruimte (wasmachine).\n1e verdieping : 1 slaapkamer (bed 160) - 1 slaapkamer (bed 90),\n2e verdieping: 1 grote zolderkamer (bed 140)\nFietsenstalling - Grote groene ruimte - Tuinmeubilair - Barbecue - Parkeerplaats - Zeer rustig - Aan de GR 65 en de VR86 fietsroute van de Lot-vallei - Verhuur voor het hele seizoen."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1c27a1ee-7299-3b2a-bf51-0507f230ffe0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/458658fe-61ed-3f38-89e3-6b697db48d0a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/668bf367-ac9a-3caa-8a83-44840b0781c6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/92e187bb-40c1-39cf-a7b5-a4fcad092b22",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/978b2483-ec38-3358-8f5b-6c833aebf76a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9f21f365-6cd4-349c-ae38-e2bdeeb64312",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d2f191ff-370e-32d3-9b66-1fb9b8fba874",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eaf2efde-462a-359e-8273-ee572d679f3a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ruhige Lage in ESPALION, am Rande des Aubrac, auf dem GR65 und der Fahrradroute VR86 des Lot-Tals. Unabhängiges Haus mit Charakter in einem alten Bauernhaus und in der Nähe des Hauses des Eigentümers."
+        ],
+        "en": [
+          "Independent character house on an old farm close to the owner's house."
+        ],
+        "it": [
+          "Nella pace e nella tranquillità di ESPALION, alle porte dell'Aubrac, sul GR65 e sulla pista ciclabile VR86 della Valle del Lot, una casa indipendente di carattere in un antico casale vicino alla casa del proprietario."
+        ],
+        "fr": [
+          "Au calme, à ESPALION, aux portes de l'Aubrac, sur le GR65 et la vélo route VR86 de la Vallée du Lot, maison de caractère indépendante aménagée dans un ancien corps de ferme et à proximité de la maison du propriétaire."
+        ],
+        "nl": [
+          "In de rust van ESPALION, aan de poort van de Aubrac, aan de GR65 en de VR86 fietsroute van de vallei van de Lot, een onafhankelijk huis met karakter in een oude boerderij bij het huis van de eigenaar."
+        ],
+        "es": [
+          "En la tranquilidad de ESPALION, a las puertas del Aubrac, en el GR65 y la ruta ciclista VR86 del Valle del Lot, una casa independiente con carácter, habilitada en una antigua granja y cerca de la casa del propietario."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47b6c5ae-cf8c-34ec-b5b5-1bfcf66dd71a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/575f39cf-a7f6-398c-98bd-324c84c67e90",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5806b3df-de51-3b50-a850-3a94fe421c27",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GardenLounge",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten-Lounge"
+            ],
+            "pt": [
+              "Mobília de jardim"
+            ],
+            "en": [
+              "Garden lounge"
+            ],
+            "it": [
+              "Mobili da giardino"
+            ],
+            "fr": [
+              "Salon de jardin"
+            ],
+            "nl": [
+              "Tuinset"
+            ],
+            "es": [
+              "Muebles de jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/586b2477-7f93-3ffb-a4ed-85eec6d234ec",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:LockedStorageRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschlossener Lagerraum"
+            ],
+            "pt": [
+              "Local fechado para equipamentos"
+            ],
+            "en": [
+              "Locked storage room"
+            ],
+            "it": [
+              "Locale attrezzature chiuso"
+            ],
+            "fr": [
+              "Local matériel fermé"
+            ],
+            "es": [
+              "Sala de equipos cerrada"
+            ],
+            "nl": [
+              "Afgesloten materiaalberging"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/72570822-fabf-3eee-b00b-3b540f530abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c419e26-aeb9-3669-824b-6b4f11bdd62d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Barbecue",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Grill"
+            ],
+            "pt": [
+              "Churrasco"
+            ],
+            "en": [
+              "Barbecue"
+            ],
+            "it": [
+              "Barbecue"
+            ],
+            "fr": [
+              "Barbecue"
+            ],
+            "nl": [
+              "Barbecue"
+            ],
+            "es": [
+              "Barbacoa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9cc1e7e7-9cfe-372f-8d91-41e821010259",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a54e2ad3-756a-3661-a3a3-aa020bde912f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Heating",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Heizen"
+            ],
+            "pt": [
+              "Aquecimento"
+            ],
+            "en": [
+              "Heating"
+            ],
+            "it": [
+              "Riscaldamento"
+            ],
+            "fr": [
+              "Chauffage"
+            ],
+            "nl": [
+              "Verwarming"
+            ],
+            "es": [
+              "Climatización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cf0a5a5c-1bb4-3219-9a74-db1e68be6349",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Freibad"
+            ],
+            "pt": [
+              "Piscina ao ar livre"
+            ],
+            "en": [
+              "Outdoor pool"
+            ],
+            "it": [
+              "Piscina all'aperto"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ],
+            "es": [
+              "Piscina de exterior"
+            ],
+            "nl": [
+              "Openluchtzwembad"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dc47845c-9a17-3d29-9ad7-ef0d299d6927",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cot",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Babybett"
+            ],
+            "pt": [
+              "Berço"
+            ],
+            "en": [
+              "Cot"
+            ],
+            "it": [
+              "Lettino per bambini"
+            ],
+            "fr": [
+              "Lit bébé"
+            ],
+            "es": [
+              "Cuna"
+            ],
+            "nl": [
+              "Babybed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ebc11be3-3445-36e8-8cd9-d3ce53a30fd6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BikeRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fahrradraum"
+            ],
+            "pt": [
+              "Local para bicicletas"
+            ],
+            "en": [
+              "Bike room"
+            ],
+            "it": [
+              "Locale biciclette"
+            ],
+            "fr": [
+              "Local vélo"
+            ],
+            "es": [
+              "Local de bicicletas"
+            ],
+            "nl": [
+              "Fietsenruimte"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/eef17b76-2ce7-3e6d-ab42-8ab218bfbe5d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fc0bc025-becb-3e99-bc11-03d3f175876b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Máquina de lavar roupa privativa"
+            ],
+            "en": [
+              "Private washer"
+            ],
+            "it": [
+              "Lavatrice privata"
+            ],
+            "fr": [
+              "Lave linge privatif"
+            ],
+            "nl": [
+              "Wasmachine voor privégebruik"
+            ],
+            "es": [
+              "Lavadora privada"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftlich genutzte Waschmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar roupa coletiva"
+            ],
+            "en": [
+              "Shared washer"
+            ],
+            "it": [
+              "Lavatrice comune"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ],
+            "es": [
+              "Lavadoras colectivas"
+            ],
+            "nl": [
+              "Gemeenschappelijke wasmachine"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ed32dc4a-cbec-37fa-a7ce-da35c2b11e96",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4140970f-f455-3e8d-9437-5b5366405a81",
+          "ebucore:abstract": {
+            "fr": [
+              "Alain et Francine Druon"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Alain et Francine Druon"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DU CANTON D'ESPALION"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/802581d3-dbf9-33d3-8b00-b1a9c4e05452",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO16017206232/TFO16017206232-17a/medias/jpg/2009-meubledruon3.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Peripherie der Stadt"
+        ],
+        "pt": [
+          "Periferia da cidade"
+        ],
+        "en": [
+          "City outskirts"
+        ],
+        "it": [
+          "Periferia della città"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ],
+        "es": [
+          "Periferia de la ciudad"
+        ],
+        "nl": [
+          "Buitenwijken"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ed32dc4a-cbec-37fa-a7ce-da35c2b11e96",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4140970f-f455-3e8d-9437-5b5366405a81",
+          "ebucore:abstract": {
+            "fr": [
+              "Alain et Francine Druon"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Alain et Francine Druon"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DU CANTON D'ESPALION"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/802581d3-dbf9-33d3-8b00-b1a9c4e05452",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO16017206232/TFO16017206232-17a/medias/jpg/2009-meubledruon3.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/81c42c17-aebc-320d-b8c0-651c50a4ebd2",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2015-04-30"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Peripherie der Stadt"
+        ],
+        "pt": [
+          "Periferia da cidade"
+        ],
+        "en": [
+          "City outskirts"
+        ],
+        "it": [
+          "Periferia della città"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ],
+        "es": [
+          "Periferia de la ciudad"
+        ],
+        "nl": [
+          "Buitenwijken"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0792c349-5cad-3fd3-878e-0c3ff5a01dd6",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5ad638b9-6f0e-3391-84d6-e8050f2a554b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/705fcad7-405a-34db-9a83-ab656bbd8c3e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7bfce377-6c7d-3d85-b3a9-8899ee3bf16a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/bee9ab15-de4f-3474-a67f-8bb6bc76970d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b9f2ad30-9333-34c9-a422-2d42c3764842",
+          "schema:addressLocality": "Espalion",
+          "schema:postalCode": "12500",
+          "schema:streetAddress": [
+            "Les Combes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Espalion"
+              ],
+              "pt": [
+                "Espalion"
+              ],
+              "en": [
+                "Espalion"
+              ],
+              "it": [
+                "Espalion"
+              ],
+              "fr": [
+                "Espalion"
+              ],
+              "nl": [
+                "Espalion"
+              ],
+              "es": [
+                "Espalion"
+              ]
+            },
+            "insee": "12096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6a6cee85-cfc4-3853-81f8-4cb86d54a075",
+        "schema:elevation": "340",
+        "schema:latitude": "44.513697674810466",
+        "schema:longitude": "2.7868777263640823",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-04-18",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.701Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/e1636397-5a9d-39a9-82b2-c3c5424c84a2",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/056d746b-b03c-33a9-b242-b58c381133ee",
+          "schema:price": "540",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "+ Kurtaxe"
+            ],
+            "en": [
+              "+ tourist tax"
+            ],
+            "it": [
+              "+ tassa di soggiorno"
+            ],
+            "fr": [
+              "+ taxe de séjour"
+            ],
+            "nl": [
+              "+ toeristenbelasting"
+            ],
+            "es": [
+              "+ tasa turística"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/29f5bb4a-4d9c-3f7a-a0fe-259b94e6df3e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/56d0b456-b574-33c0-a601-57d8dbe8206b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7a5c63ef-719f-37b9-8bc0-1532dfe53ad6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a6f903e3-b12a-3845-bb30-b44885f7e35b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ebdb979a-e64b-3d40-8615-725631ae745b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4abbb3a2-2d22-335d-9ca4-1ca5a0c8ea27",
+          "schema:price": "430",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "+ Heizung + Kurtaxe"
+            ],
+            "en": [
+              "+ heating + tourist tax"
+            ],
+            "it": [
+              "+ riscaldamento + tassa di soggiorno"
+            ],
+            "fr": [
+              "+ chauffage + taxe de séjour"
+            ],
+            "nl": [
+              "+ verwarming + toeristenbelasting"
+            ],
+            "es": [
+              "+ calefacción + tasa turística"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/056166b3-02f1-3dd4-8875-1495b5fe4152",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/2fe608c2-680e-323b-8875-258f3afb4641",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3235dbd1-8dfe-38cd-94ed-60c5dac34dbc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9b7b3c9e-61b7-3ea3-8950-b251a26d5115",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c95a9bf0-e275-3a79-b15d-f32710683e42",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8355281a-9eca-388f-bb46-81d24a7a25a9",
+          "schema:price": "640",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "+ Kurtaxe"
+            ],
+            "en": [
+              "+ tourist tax"
+            ],
+            "it": [
+              "+ tassa di soggiorno"
+            ],
+            "fr": [
+              "+ taxe de séjour"
+            ],
+            "nl": [
+              "+ toeristenbelasting"
+            ],
+            "es": [
+              "+ tasa turística"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/014b0ecb-43c3-389b-a41f-9ff44c4ff050",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5f77140d-9556-3034-b7fc-c760b3302ced",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7c0f9739-9de5-3d0c-afab-f076fc8331a9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9d1f7d4c-84e8-3f7c-9484-336009ae3e42",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e33705a8-cfca-3350-b31b-346f619f6774",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d9238224-23fa-3fb4-9878-3baa43359d24",
+          "schema:price": "430",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "+ Heizung + Kurtaxe"
+            ],
+            "en": [
+              "+ heating + tourist tax"
+            ],
+            "it": [
+              "+ riscaldamento + tassa di soggiorno"
+            ],
+            "fr": [
+              "+ chauffage + taxe de séjour"
+            ],
+            "nl": [
+              "+ verwarming + toeristenbelasting"
+            ],
+            "es": [
+              "+ calefacción + tasa turística"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/00874d32-901c-3899-b012-9bd0fb4bc5cd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/797ef30b-db91-3136-85b5-8a46afd52e34",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b19db9f9-9213-3317-9013-13466ec8ea55",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c836f2c1-cc82-31c8-ba14-13312442a46d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c9550d96-923a-3e16-91e0-51905b4fd63a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "@id": "https://data.datatourisme.fr/6/2dbef07c-7e7c-34fc-a10c-cf34f3449a20",
+  "dc:identifier": "HLOBFC000V50LGBR",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "de": [
+      "Les Grands Crus"
+    ],
+    "en": [
+      "Les Grands Crus"
+    ],
+    "fr": [
+      "Les Grands Crus"
+    ]
+  },
+  "allowedPersons": 4,
+  "creationDate": "2021-06-24",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/ccd6cf45-1094-3ed6-9510-a7b0d6b3d374",
+    "dc:identifier": "51b530b1-4a7e-4050-b1d7-c67b31e7867c",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/3d1f9682-edf0-3cfe-9c09-c35cac69ef14",
+        "schema:postalCode": "21000",
+        "schema:streetAddress": [
+          "5 avenue Garibaldi"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "info@bfctourisme.com"
+    ],
+    "schema:legalName": "Bourgogne-Franche-Comté Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ed8f54f8-9a7d-3090-b1d2-e7ab87891e64",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b353272c-5639-3f38-9cda-f80991205b6d",
+      "schema:email": [
+        "lesgrandscrus21190@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 3 80 21 92 59"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b353272c-5639-3f38-9cda-f80991205b6d",
+      "schema:email": [
+        "lesgrandscrus21190@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 3 80 21 92 59"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0c011119-4fa2-3157-b4f2-ebaf0ff86539",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Accommodation",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unterbringung"
+            ],
+            "pt": [
+              "Alojamento"
+            ],
+            "en": [
+              "Accommodation"
+            ],
+            "it": [
+              "Alloggio"
+            ],
+            "fr": [
+              "Logement"
+            ],
+            "nl": [
+              "Logies"
+            ],
+            "es": [
+              "Alojamiento"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/7535b6cf-29d0-3ae1-a63a-0dc4577f6d7f",
+        "schema:unitText": [
+          "m²"
+        ],
+        "schema:value": "33",
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/39622c81-d525-36fd-b9d2-75d9a2412ac8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/68a14e24-77ce-388e-a9a6-88a6cb4f5a1e",
+      "schema:value": "1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2e2f092-1c43-395f-b5a7-1f4f111f5871",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/eae74888-e82a-3360-a72d-6272277b8f06",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/9b9ffc56-1da0-384b-86de-f5f0c633756a",
+          "schema:addressLocality": "Corpeau",
+          "schema:postalCode": "21190",
+          "schema:streetAddress": [
+            "14 RUE DE LA MONTAGNE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:21196",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Corpeau"
+              ],
+              "pt": [
+                "Corpeau"
+              ],
+              "en": [
+                "Corpeau"
+              ],
+              "it": [
+                "Corpeau"
+              ],
+              "fr": [
+                "Corpeau"
+              ],
+              "nl": [
+                "Corpeau"
+              ],
+              "es": [
+                "Corpeau"
+              ]
+            },
+            "insee": "21196",
+            "isPartOfDepartment": {
+              "@id": "kb:France2721",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Côte-d'Or"
+                ],
+                "pt": [
+                  "Côte-d'Or"
+                ],
+                "en": [
+                  "Côte-d'Or"
+                ],
+                "it": [
+                  "Côte-d'Or"
+                ],
+                "fr": [
+                  "Côte-d'Or"
+                ],
+                "nl": [
+                  "Côte-d'Or"
+                ],
+                "es": [
+                  "Côte-d'Or"
+                ]
+              },
+              "insee": "21",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/06159aa1-3f77-3324-a33f-153befe0dd26",
+        "schema:latitude": "46.9271047",
+        "schema:longitude": "4.7499415",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ff06c202-5387-34f3-8d21-aa2d143149ab",
+      "schema:legalName": "SIT Bourgogne-Franche-Comté",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-19",
+  "lastUpdateDatatourisme": "2023-06-21T23:53:27.422Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/add720a3-b94f-3bad-8c67-f7e0be6ac0c9",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

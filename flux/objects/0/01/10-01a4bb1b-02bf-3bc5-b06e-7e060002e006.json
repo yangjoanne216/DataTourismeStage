@@ -1,0 +1,349 @@
+{
+  "@id": "https://data.datatourisme.fr/10/01a4bb1b-02bf-3bc5-b06e-7e060002e006",
+  "dc:identifier": "837004348",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "PIZZERIA L'ESSAIM MAURIOT"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/b0b183c2-07f4-3f0c-8a7d-c63b2604f5cc",
+    "dc:identifier": "837",
+    "schema:legalName": "OT COEUR DE LORRAINE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/611e77c4-a43d-3aca-8458-c6e7cf5f15b9",
+      "schema:email": [
+        "lessaimmauriot@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 6 52 10 32 96"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/6d4bd6f6-9df6-3686-b8c9-c8bb1edc33e1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/547d31d9-9598-3f88-a46b-a9e1f666eda4",
+          "schema:addressLocality": "Saint-Maurice-sous-les-Côtes",
+          "schema:postalCode": "55210",
+          "schema:streetAddress": [
+            "4 Place du Poilu"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:55462",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Maurice-sous-les-Côtes"
+              ],
+              "pt": [
+                "Saint-Maurice-sous-les-Côtes"
+              ],
+              "en": [
+                "Saint-Maurice-sous-les-Côtes"
+              ],
+              "it": [
+                "Saint-Maurice-sous-les-Côtes"
+              ],
+              "fr": [
+                "Saint-Maurice-sous-les-Côtes"
+              ],
+              "nl": [
+                "Saint-Maurice-sous-les-Côtes"
+              ],
+              "es": [
+                "Saint-Maurice-sous-les-Côtes"
+              ]
+            },
+            "insee": "55462",
+            "isPartOfDepartment": {
+              "@id": "kb:France4455",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Meuse"
+                ],
+                "pt": [
+                  "Meuse"
+                ],
+                "en": [
+                  "Meuse"
+                ],
+                "it": [
+                  "Meuse"
+                ],
+                "fr": [
+                  "Meuse"
+                ],
+                "nl": [
+                  "Meuse"
+                ],
+                "es": [
+                  "Meuse"
+                ]
+              },
+              "insee": "55",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/4ce957c3-1f6f-3d0d-9ef1-eb198cff5fb1",
+        "schema:latitude": "49.0173555",
+        "schema:longitude": "5.679397",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/1628c31c-0f23-300a-bc44-64f26e77a80a",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-02-14",
+  "lastUpdateDatatourisme": "2023-04-18T13:12:15.89Z",
+  "reducedMobilityAccess": false
+}

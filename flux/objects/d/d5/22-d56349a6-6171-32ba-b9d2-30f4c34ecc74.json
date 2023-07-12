@@ -1,0 +1,793 @@
+{
+  "@id": "https://data.datatourisme.fr/22/d56349a6-6171-32ba-b9d2-30f4c34ecc74",
+  "dc:identifier": "AIRMIP046V50SPGL",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "ConvenientService",
+    "PicnicArea",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Erholungsgebiet in der Nähe des Lot und des Stadtzentrums von Cahors. Schattig und mit Bänken ausgestattet, ist diese grüne Oase der ideale Ort, um sich auszuruhen, zu entspannen oder ein Sandwich zu essen.  Der Garten ist in mehrere Inseln mit Interpretationstafeln organisiert, um die Anpflanzungen zu entdecken."
+    ],
+    "en": [
+      "A relaxing area near the Lot river and the city center of Cahors. Shaded and equipped with benches, this green haven is the ideal place to rest or have a sandwich.  The garden is organized in several islands with interpretation panels to discover the plantations."
+    ],
+    "it": [
+      "Quest'area ombreggiata con panchine è il luogo ideale per rilassarsi, riposare o mangiare un panino.  Il giardino è organizzato in diverse isole con pannelli interpretativi per scoprire le piantagioni."
+    ],
+    "fr": [
+      "Aire de détente à proximité du Lot et du centre ville de Cahors. ombragée et équipée de bancs, ce havre de verdure est le lieu est idéal pour se poser, se reposer ou manger un sandwich.  Le jardin est organisé en plusieurs ilots avec des panneaux d'interprétation pour découvrir les plantations."
+    ],
+    "es": [
+      "Esta zona de sombra con bancos es un lugar ideal para relajarse, descansar o tomar un bocadillo.  El jardín está organizado en varias islas con paneles de interpretación para descubrir las plantaciones."
+    ],
+    "nl": [
+      "Deze schaduwrijke plek met banken is de ideale plek om te ontspannen, uit te rusten of een broodje te eten.  De tuin is georganiseerd in verschillende eilanden met interpretatiepanelen om de plantages te ontdekken."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Aire de détente de L'hortus des Dames"
+    ],
+    "es": [
+      "Aire de détente de L'hortus des Dames"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/172d024f-2e82-3c5b-80c4-69c5c5bd9794",
+    "schema:legalName": "OT Cahors - Vallée du Lot",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3b64f734-2a28-31c8-b14d-ca5178bfbaeb",
+      "schema:legalName": "Lot Tourisme - Agence de développement touristique du Lot",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-lot.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d7c8d90a-5937-3e74-b744-1587dd3d80ba",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/8afff9f8-e590-33c3-afda-c61ae6a85421",
+          "schema:addressLocality": "Cahors",
+          "schema:postalCode": "46000",
+          "schema:streetAddress": [
+            "Square Olivier de Magny"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46042",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Cahors"
+              ],
+              "pt": [
+                "Cahors"
+              ],
+              "en": [
+                "Cahors"
+              ],
+              "it": [
+                "Cahors"
+              ],
+              "fr": [
+                "Cahors"
+              ],
+              "nl": [
+                "Cahors"
+              ],
+              "es": [
+                "Cahors"
+              ]
+            },
+            "insee": "46042",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Aire de détente de L'hortus des Dames",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/4acaee36-4fa4-3be1-b94b-fba4edcef190",
+      "dc:description": {
+        "de": [
+          "Erholungsgebiet in der Nähe des Lot und des Stadtzentrums von Cahors. Schattig und mit Bänken ausgestattet, ist diese grüne Oase der ideale Ort, um sich auszuruhen, zu entspannen oder ein Sandwich zu essen.  Der Garten ist in mehrere Inseln mit Interpretationstafeln organisiert, um die Anpflanzungen zu entdecken."
+        ],
+        "en": [
+          "A relaxing area near the Lot river and the city center of Cahors. Shaded and equipped with benches, this green haven is the ideal place to rest or have a sandwich.  The garden is organized in several islands with interpretation panels to discover the plantations."
+        ],
+        "it": [
+          "Quest'area ombreggiata con panchine è il luogo ideale per rilassarsi, riposare o mangiare un panino.  Il giardino è organizzato in diverse isole con pannelli interpretativi per scoprire le piantagioni."
+        ],
+        "fr": [
+          "Aire de détente à proximité du Lot et du centre ville de Cahors. ombragée et équipée de bancs, ce havre de verdure est le lieu est idéal pour se poser, se reposer ou manger un sandwich.  Le jardin est organisé en plusieurs ilots avec des panneaux d'interprétation pour découvrir les plantations."
+        ],
+        "es": [
+          "Esta zona de sombra con bancos es un lugar ideal para relajarse, descansar o tomar un bocadillo.  El jardín está organizado en varias islas con paneles de interpretación para descubrir las plantaciones."
+        ],
+        "nl": [
+          "Deze schaduwrijke plek met banken is de ideale plek om te ontspannen, uit te rusten of een broodje te eten.  De tuin is georganiseerd in verschillende eilanden met interpretatiepanelen om de plantages te ontdekken."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/058dfeef-9260-3a1b-b321-d2d921f938c5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0b900e5c-46c4-3147-a246-31e2f4709a06",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1411c133-16fc-3b2f-9978-a1299dc90dba",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4e10f378-a937-336f-8b88-ec9e32057ab0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/54504abd-7ef1-3ce0-b10e-7188828ef8a4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6d4935a5-3c89-3622-a4c7-56dd2135687c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a3e0dc5f-76dc-3dee-8c5a-1c84f83a6f64",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b10357cf-c32d-38c3-be03-9b234fd05ecd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Erholungsgebiet in der Nähe des Lot und des Stadtzentrums von Cahors. Schattig und mit Bänken ausgestattet, ist diese grüne Oase der ideale Ort, um sich auszuruhen, zu entspannen oder ein Sandwich zu essen.  Der Garten ist in mehrere Inseln mit Interpretationstafeln organisiert, um die Anpflanzungen zu entdecken."
+        ],
+        "en": [
+          "A relaxing area near the Lot river and the city center of Cahors. Shaded and equipped with benches, this green haven is the ideal place to rest or have a sandwich.  The garden is organized in several islands with interpretation panels to discover the plantations."
+        ],
+        "it": [
+          "Quest'area ombreggiata con panchine è il luogo ideale per rilassarsi, riposare o mangiare un panino.  Il giardino è organizzato in diverse isole con pannelli interpretativi per scoprire le piantagioni."
+        ],
+        "fr": [
+          "Aire de détente à proximité du Lot et du centre ville de Cahors. ombragée et équipée de bancs, ce havre de verdure est le lieu est idéal pour se poser, se reposer ou manger un sandwich.  Le jardin est organisé en plusieurs ilots avec des panneaux d'interprétation pour découvrir les plantations."
+        ],
+        "es": [
+          "Esta zona de sombra con bancos es un lugar ideal para relajarse, descansar o tomar un bocadillo.  El jardín está organizado en varias islas con paneles de interpretación para descubrir las plantaciones."
+        ],
+        "nl": [
+          "Deze schaduwrijke plek met banken is de ideale plek om te ontspannen, uit te rusten of een broodje te eten.  De tuin is georganiseerd in verschillende eilanden met interpretatiepanelen om de plantages te ontdekken."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/06b40809-a439-3f98-8be5-264ca37e49dd",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/75cf191e-e749-3e78-9945-07e0eb4700a3",
+          "ebucore:title": {
+            "fr": [
+              "Cahors - Espace detente Square O. de Magny 1"
+            ],
+            "es": [
+              "Cahors - Espace detente Square O. de Magny 1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Lot Tourisme"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1014e59a-ff30-3c94-92f9-e82fb6bd5399",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/Cahors---Espace-detente-Square-O.-de-Magny-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/06b40809-a439-3f98-8be5-264ca37e49dd",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/75cf191e-e749-3e78-9945-07e0eb4700a3",
+          "ebucore:title": {
+            "fr": [
+              "Cahors - Espace detente Square O. de Magny 1"
+            ],
+            "es": [
+              "Cahors - Espace detente Square O. de Magny 1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Lot Tourisme"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1014e59a-ff30-3c94-92f9-e82fb6bd5399",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/Cahors---Espace-detente-Square-O.-de-Magny-1.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/63f0a6c8-c54e-3b57-b971-589bbacd8f61",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7f350fae-61e4-3765-a3d0-f6a08917170b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/abb73c9b-d4b9-3c0b-9984-86947ae80a80",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b7a60e75-853e-3c8a-8d98-d9ba714c66a9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f9dc932a-e26e-3564-ba8b-1e20be707991",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4d5e3e4e-b4f5-3dc9-84a3-2010a709e018",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/8afff9f8-e590-33c3-afda-c61ae6a85421",
+          "schema:addressLocality": "Cahors",
+          "schema:postalCode": "46000",
+          "schema:streetAddress": [
+            "Square Olivier de Magny"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46042",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Cahors"
+              ],
+              "pt": [
+                "Cahors"
+              ],
+              "en": [
+                "Cahors"
+              ],
+              "it": [
+                "Cahors"
+              ],
+              "fr": [
+                "Cahors"
+              ],
+              "nl": [
+                "Cahors"
+              ],
+              "es": [
+                "Cahors"
+              ]
+            },
+            "insee": "46042",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e1479032-8ad7-3907-8465-5af1401558ff",
+        "schema:latitude": "44.4480781",
+        "schema:longitude": "1.44343202",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/172d024f-2e82-3c5b-80c4-69c5c5bd9794",
+      "schema:legalName": "OT Cahors - Vallée du Lot",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-03-24",
+  "lastUpdateDatatourisme": "2023-03-24T14:02:24.427Z"
+}

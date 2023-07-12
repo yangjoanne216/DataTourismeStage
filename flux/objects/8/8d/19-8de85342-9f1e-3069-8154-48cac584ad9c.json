@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/8de85342-9f1e-3069-8154-48cac584ad9c",
+  "dc:identifier": "157ad7e3-d9e6-70b1-a6ce-501b9fe7cfa7",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Première Classe Le Blanc-Mesnil"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d201d42a-3b2f-37a3-8419-3731bcc1b37c",
+      "schema:email": [
+        "leblancmesnil@premiereclasse.fr"
+      ],
+      "schema:telephone": [
+        "+33 892 70 71 99"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://premiere-classe-le-blanc-mesnil.fr/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/594fb33f-5b53-3e97-9f17-ef5f023a9de0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "1 Stern"
+          ],
+          "pt": [
+            "1 estrela"
+          ],
+          "en": [
+            "1 Star"
+          ],
+          "it": [
+            "1 stella"
+          ],
+          "fr": [
+            "1 étoile"
+          ],
+          "nl": [
+            "1 ster"
+          ],
+          "es": [
+            "1 estrella"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/c2a3b102-3123-3a2a-a74c-51c971cbc61e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/67e7eece-2ad1-3180-a414-e8af6c20074d",
+          "schema:addressLocality": "Le Blanc-Mesnil",
+          "schema:postalCode": "93150",
+          "schema:streetAddress": [
+            "219 avenue Descartes"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:93007",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Le Blanc-Mesnil"
+              ],
+              "pt": [
+                "Le Blanc-Mesnil"
+              ],
+              "en": [
+                "Le Blanc-Mesnil"
+              ],
+              "it": [
+                "Le Blanc-Mesnil"
+              ],
+              "fr": [
+                "Le Blanc-Mesnil"
+              ],
+              "nl": [
+                "Le Blanc-Mesnil"
+              ],
+              "es": [
+                "Le Blanc-Mesnil"
+              ]
+            },
+            "insee": "93007",
+            "isPartOfDepartment": {
+              "@id": "kb:France1193",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Seine-Saint-Denis"
+                ],
+                "pt": [
+                  "Seine-Saint-Denis"
+                ],
+                "en": [
+                  "Seine-Saint-Denis"
+                ],
+                "it": [
+                  "Seine-Saint-Denis"
+                ],
+                "fr": [
+                  "Seine-Saint-Denis"
+                ],
+                "nl": [
+                  "Seine-Saint-Denis"
+                ],
+                "es": [
+                  "Seine-Saint-Denis"
+                ]
+              },
+              "insee": "93",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/3462bf21-8e0e-3308-a01c-37cc37fd35ec",
+        "schema:latitude": "48.9500149",
+        "schema:longitude": "2.4636083000000326",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-03",
+  "lastUpdateDatatourisme": "2022-09-06T09:59:02.332Z",
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,729 @@
+{
+  "@id": "https://data.datatourisme.fr/10/cdcf6a5a-1c1f-3463-aba4-4914a445f419",
+  "dc:identifier": "777008460",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "LE SENTIER DE LA MÉMOIRE"
+    ]
+  },
+  "duration": "120",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/f1c15925-8841-3002-af34-0cbaedd6fc33",
+    "dc:identifier": "777",
+    "schema:legalName": "OT COMMUNAUTAIRE GERARDMER HAUTES VOSGES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d1daf4dc-d3e4-3a83-b64f-160ee5358666",
+      "schema:email": [
+        "info@gerardmer.net"
+      ],
+      "schema:telephone": [
+        "+33 3 29 27 27 27"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/da20cb35-a23b-343b-b2fa-f6d46c169b7c",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "duration": "120",
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:MediumDifficultyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mittlere Schwierigkeit"
+            ],
+            "pt": [
+              "Dificuldade média"
+            ],
+            "en": [
+              "Medium difficulty"
+            ],
+            "it": [
+              "Difficoltà media"
+            ],
+            "fr": [
+              "Difficulté moyenne"
+            ],
+            "nl": [
+              "Gemiddelde moeilijkheidsgraad"
+            ],
+            "es": [
+              "Dificultad media"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/4deaf6cc-e76e-3faa-99d2-bedf6de2267c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3989d5c9-a9ea-39d0-8476-d7c045d04f74",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OT COMMUNAUTAIRE GERARDMER HAUTES VOSGES"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/4ffa5d6c-aaff-36b4-a147-4890910e66f4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:KML",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "KML-Datei"
+                ],
+                "pt": [
+                  "Ficheiro XML"
+                ],
+                "en": [
+                  "KML file"
+                ],
+                "it": [
+                  "File KML"
+                ],
+                "fr": [
+                  "Fichier KML"
+                ],
+                "nl": [
+                  "KML-bestand"
+                ],
+                "es": [
+                  "Archivo KML"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "pt": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "en": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "it": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "fr": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "nl": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "es": [
+                  "application/vnd.google-earth.kml+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://www.sitlor.fr/traces/777008460.kml"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:History",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Geschichte"
+        ],
+        "pt": [
+          "História"
+        ],
+        "en": [
+          "History"
+        ],
+        "it": [
+          "Storia"
+        ],
+        "fr": [
+          "Histoire"
+        ],
+        "es": [
+          "Historia"
+        ],
+        "nl": [
+          "Geschiedenis"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schleifenroute"
+        ],
+        "pt": [
+          "Circular"
+        ],
+        "en": [
+          "Loop itinerary"
+        ],
+        "it": [
+          "Ad anello"
+        ],
+        "fr": [
+          "En boucle"
+        ],
+        "nl": [
+          "In een lus"
+        ],
+        "es": [
+          "Circuito"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/b892bd56-e07c-3897-b20f-92fb7b574819",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/bc251f8a-fced-36d8-9505-ac56a7ebd451",
+          "schema:addressLocality": "Gérardmer",
+          "schema:postalCode": "88400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:88196",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Gérardmer"
+              ],
+              "pt": [
+                "Gérardmer"
+              ],
+              "en": [
+                "Gérardmer"
+              ],
+              "it": [
+                "Gérardmer"
+              ],
+              "fr": [
+                "Gérardmer"
+              ],
+              "nl": [
+                "Gérardmer"
+              ],
+              "es": [
+                "Gérardmer"
+              ]
+            },
+            "insee": "88196",
+            "isPartOfDepartment": {
+              "@id": "kb:France4488",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vosges"
+                ],
+                "pt": [
+                  "Vosges"
+                ],
+                "en": [
+                  "Vosges"
+                ],
+                "it": [
+                  "Vosges"
+                ],
+                "fr": [
+                  "Vosges"
+                ],
+                "nl": [
+                  "Vosges"
+                ],
+                "es": [
+                  "Vosges"
+                ]
+              },
+              "insee": "88",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b5dcdbb4-2709-3232-b27e-1bd0a95a6793",
+        "schema:latitude": "48.0720883466452",
+        "schema:longitude": "6.87246938819121",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/576fe819-eba5-333a-99c6-8bc85a0b2909",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-02-16",
+  "lastUpdateDatatourisme": "2023-02-21T09:48:19.452Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/228804b3-02aa-3c40-9410-82328eedd462",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/32e2262b-564d-3c01-b386-7705cf18dc5d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false,
+  "tourDistance": "5500.0"
+}

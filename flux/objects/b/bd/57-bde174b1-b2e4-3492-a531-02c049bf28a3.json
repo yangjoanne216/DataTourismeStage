@@ -1,0 +1,414 @@
+{
+  "@id": "https://data.datatourisme.fr/57/bde174b1-b2e4-3492-a531-02c049bf28a3",
+  "dc:identifier": "RESPDL085V51IIF9",
+  "@type": [
+    "schema:FastFoodRestaurant",
+    "schema:FoodEstablishment",
+    "FastFoodRestaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LE PANORAMIQUE"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/29a782b3-9ba7-3306-8c96-b3ae9b78806f",
+    "schema:legalName": "Vendée Expansion",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/29a782b3-9ba7-3306-8c96-b3ae9b78806f",
+      "schema:legalName": "Vendée Expansion",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/fff64fee-aba9-3071-a64f-0dc5da07dad2",
+      "schema:email": [
+        "contact@pierre-brune.com"
+      ],
+      "schema:telephone": [
+        "+33 2 51 00 20 18"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://pierre-brune.com/fr/la-restauration.html"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0127acba-5a69-367a-a0b8-5765e6d19e8b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/173cc64c-b525-3f3d-867f-d03a0589954d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5f029f96-628d-3d10-8662-4eb2c4ab29c8",
+          "schema:addressLocality": "Mervent",
+          "schema:postalCode": "85200",
+          "schema:streetAddress": [
+            "Lieu-dit Pierre Brune"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:85143",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mervent"
+              ],
+              "pt": [
+                "Mervent"
+              ],
+              "en": [
+                "Mervent"
+              ],
+              "it": [
+                "Mervent"
+              ],
+              "fr": [
+                "Mervent"
+              ],
+              "nl": [
+                "Mervent"
+              ],
+              "es": [
+                "Mervent"
+              ]
+            },
+            "insee": "85143",
+            "isPartOfDepartment": {
+              "@id": "kb:France5285",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vendée"
+                ],
+                "pt": [
+                  "Vendée"
+                ],
+                "en": [
+                  "Vendée"
+                ],
+                "it": [
+                  "Vendée"
+                ],
+                "fr": [
+                  "Vendée"
+                ],
+                "nl": [
+                  "Vendée"
+                ],
+                "es": [
+                  "Vendée"
+                ]
+              },
+              "insee": "85",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/1454962d-aaee-3ecd-8d16-154e05340612",
+        "schema:latitude": "46.5416577",
+        "schema:longitude": "-0.7766984",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-22",
+  "lastUpdateDatatourisme": "2023-03-23T00:58:15.423Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/41ade805-1b92-3ff6-af77-fada6dc9e4da",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "@id": "https://data.datatourisme.fr/49/20dac823-ec0a-3bde-be72-26d421e7fe45",
+  "dc:identifier": "ASC875000138",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Die Base de Loisirs bietet Ihnen die Möglichkeit, an ihren Wassersportaktivitäten teilzunehmen: Mieten Sie ein Kajak, ein Windsurfbrett, einen Katamaran oder eine Jolle und lernen Sie diese kennen."
+    ],
+    "en": [
+      "The Base de Loisirs offers you the opportunity to take part in its nautical activities: for hire, come and try your hand at kayaking, windsurfing, catamaran and dinghy sailing."
+    ],
+    "it": [
+      "Il Centro ricreativo offre la possibilità di partecipare alle attività sportive acquatiche: venite a cimentarvi in kayak, windsurf, catamarano e gommone."
+    ],
+    "fr": [
+      "La Base de Loisirs vous propose de participer à ses activités nautiques : en location, venez vous initier au kayak, à la planche à voile, au catamaran, au dériveur."
+    ],
+    "nl": [
+      "Het recreatiecentrum biedt u de mogelijkheid deel te nemen aan de watersportactiviteiten: kom kajakken, windsurfen, catamaranzeilen en dinghyzeilen."
+    ],
+    "es": [
+      "El Centro de Ocio le ofrece la posibilidad de participar en sus actividades náuticas: venga a probar el kayak, el windsurf, la vela catamarán y la vela ligera."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "BASE DE LA RINCERIE - ACTIVITES NAUTIQUES"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Français"
+  ],
+  "creationDate": "2012-02-20",
+  "hasAudience": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/963f2f2b-eac5-39f3-ba8a-742b23317096",
+      "schema:email": [
+        "contact@la-rincerie.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 06 17 52"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.la-rincerie.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/020a41ed-7a8c-305c-9f2e-d97abda48efa",
+      "dc:description": {
+        "de": [
+          "Diplomierte Sportpädagogen empfangen Sie das ganze Jahr über auf der 50 Hektar großen Wasserfläche, um Ihnen betreute Aufenthalte, Verleih und Privatunterricht anzubieten. Sie können sich auch für die jährliche Formel \"Beitrag - Lizenz\" entscheiden und so von März bis November von leistungsfähigem Material und der Kompetenz der Sportpädagogen von La rincerie profitieren."
+        ],
+        "en": [
+          "Qualified sports instructors welcome you all year round on the 50 hectare lake to offer you supervised stays, rentals, private lessons. You can also opt for the annual \"membership - licence\" formula and thus take advantage from March to November of high-performance equipment and the competence of the La Rincerie sports instructors."
+        ],
+        "it": [
+          "Istruttori sportivi qualificati vi accolgono tutto l'anno sul lago di 50 ettari per offrirvi soggiorni supervisionati, noleggi e lezioni private. Potete anche optare per il pacchetto annuale \"abbonamento - licenza\" e approfittare così, da marzo a novembre, di attrezzature performanti e della competenza degli istruttori sportivi de La Rincerie."
+        ],
+        "fr": [
+          "Des éducateurs sportifs diplômés vous accueillent toute l'année sur le plan d'eau de 50 hectares pour vous proposer des séjours encadrés, des locations, des cours particuliers. vous pouvez également opter pour la formule \"cotisation - licence\" annuelle et ainsi profiter de mars à novembre d'un matériel performant et de la compétence des éducateurs sportifs de La rincerie."
+        ],
+        "es": [
+          "Monitores deportivos cualificados le acogen durante todo el año en el lago de 50 hectáreas para ofrecerle estancias supervisadas, alquileres y clases particulares. También puede optar por el paquete anual \"abono - licencia\" y así aprovechar de marzo a noviembre el material de alto rendimiento y la competencia de los monitores deportivos de La Rincerie."
+        ],
+        "nl": [
+          "Gediplomeerde sportinstructeurs verwelkomen u het hele jaar door op het meer van 50 hectare voor verblijven onder toezicht, verhuur en privélessen. U kunt ook kiezen voor de jaarlijkse formule \"abonnement - licentie\" en zo van maart tot november profiteren van hoogwaardig materiaal en de bekwaamheid van de sportinstructeurs van La Rincerie."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0e538847-f8db-3033-9572-ece2ecb9ccba",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4a1e436a-1f81-34a7-8dfc-628ef9600880",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6201d6d9-1908-3b89-8c01-3e800f642731",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a2152a1a-2896-329b-8c5a-9822ce305011",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a6301b69-701b-3e55-8f4c-dfea5cbff15e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b792d864-086f-329b-8b4f-405e8d686ecc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b95d00e0-8e39-3f5b-a399-075079960d9f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bb175526-09dd-3de4-be28-2a63054dd574",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d2540367-87fc-36c6-8b1a-169190424e75",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ffbd18f9-d1a1-3a4b-9724-e80eb298e6d2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Die Base de Loisirs bietet Ihnen die Möglichkeit, an ihren Wassersportaktivitäten teilzunehmen: Mieten Sie ein Kajak, ein Windsurfbrett, einen Katamaran oder eine Jolle und lernen Sie diese kennen."
+        ],
+        "en": [
+          "The Base de Loisirs offers you the opportunity to take part in its nautical activities: for hire, come and try your hand at kayaking, windsurfing, catamaran and dinghy sailing."
+        ],
+        "it": [
+          "Il Centro ricreativo offre la possibilità di partecipare alle attività sportive acquatiche: venite a cimentarvi in kayak, windsurf, catamarano e gommone."
+        ],
+        "fr": [
+          "La Base de Loisirs vous propose de participer à ses activités nautiques : en location, venez vous initier au kayak, à la planche à voile, au catamaran, au dériveur."
+        ],
+        "nl": [
+          "Het recreatiecentrum biedt u de mogelijkheid deel te nemen aan de watersportactiviteiten: kom kajakken, windsurfen, catamaranzeilen en dinghyzeilen."
+        ],
+        "es": [
+          "El Centro de Ocio le ofrece la posibilidad de participar en sus actividades náuticas: venga a probar el kayak, el windsurf, la vela catamarán y la vela ligera."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Catamaran",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Katamaran"
+        ],
+        "pt": [
+          "Catamarã"
+        ],
+        "en": [
+          "Catamaran"
+        ],
+        "it": [
+          "Catamarano"
+        ],
+        "fr": [
+          "Catamaran"
+        ],
+        "nl": [
+          "Catamaran"
+        ],
+        "es": [
+          "Catamarán"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/24b246ce-c1cb-3896-9a40-568130c587c5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/371814a2-4b40-33c7-be50-0ef2aab62daf",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c078e04a-ad3d-3862-b4f0-6861d65c697c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c097ada8-52b3-3d60-8ebb-f6c12682b0d2",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f5501abd-48e7-39a7-8f0f-1bb55a99858a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/25fa93c8-bbd7-368c-823f-6b30353e63b4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/40c36672-1d7c-3bcc-b14a-75b229e457e1",
+          "schema:addressLocality": "La Selle-Craonnaise",
+          "schema:postalCode": "53800",
+          "schema:streetAddress": [
+            "Base de loisirs de la Rincerie"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53258",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Selle-Craonnaise"
+              ],
+              "pt": [
+                "La Selle-Craonnaise"
+              ],
+              "en": [
+                "La Selle-Craonnaise"
+              ],
+              "it": [
+                "La Selle-Craonnaise"
+              ],
+              "fr": [
+                "La Selle-Craonnaise"
+              ],
+              "nl": [
+                "La Selle-Craonnaise"
+              ],
+              "es": [
+                "La Selle-Craonnaise"
+              ]
+            },
+            "insee": "53258",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/d7f1a2a6-f44a-3fdb-940f-be416b0d62ee",
+        "schema:latitude": "47.864106",
+        "schema:longitude": "-1.068523",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-01-01",
+  "lastUpdateDatatourisme": "2023-02-07T01:29:48.421Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/2edc5e6e-a402-3b4e-9828-6c969b7e7093",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/9bd0e1d7-2963-33d4-a26b-0ee2609473d6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Ab 10 €, alle Preise auf www.la-rincerie.com"
+            ],
+            "en": [
+              "From 10 €, all rates on www.la-rincerie.com"
+            ],
+            "it": [
+              "Da 10 ?, tutti i prezzi su www.la-rincerie.com"
+            ],
+            "fr": [
+              "A partir de 10 €, tous les tarifs sur www.la-rincerie.com"
+            ],
+            "nl": [
+              "Vanaf €10, alle prijzen op www.la-rincerie.com"
+            ],
+            "es": [
+              "A partir de 10€, todos los precios en www.la-rincerie.com"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/216119cd-24a9-3b1f-baaf-5d7c63e190d5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/34922494-23f4-3e75-afb1-006250d378a1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5e18b0ec-a6f8-3069-affc-7f915f18169e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/63e3ec4e-4774-3502-a121-ee9f7677eb08",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/74548178-ada5-3794-9f34-f92cb8e57ada",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

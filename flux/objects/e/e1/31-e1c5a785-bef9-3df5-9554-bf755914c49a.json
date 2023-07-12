@@ -1,0 +1,3278 @@
+{
+  "@id": "https://data.datatourisme.fr/31/e1c5a785-bef9-3df5-9554-bf755914c49a",
+  "dc:identifier": "TFO021390626142",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein freundlicher Empfang in einem charaktervollen Gebäude, das auf Traditionen und Familiengeschichte zurückgeht. Reiter sind willkommen, ein Feld hinter dem Hotel steht kostenlos zur Verfügung."
+    ],
+    "en": [
+      "A convivial welcome in a character building full of tradition and family history."
+    ],
+    "it": [
+      "Un'accoglienza cordiale in un edificio ricco di carattere, tradizione e storia familiare. I cavalieri sono i benvenuti, un campo è disponibile gratuitamente dietro l'hotel."
+    ],
+    "fr": [
+      "Un accueil convivial dans une bâtisse de caractère faîte de traditions et d'histoire familiale. Les cavaliers sont les bienvenus, un champ est gratuitement mis à disposition derrière l'hôtel."
+    ],
+    "es": [
+      "Un trato acogedor en un edificio con carácter que combina la tradición y la historia familiar.  "
+    ],
+    "nl": [
+      "Een vriendelijk onthaal in een gebouw vol karakter, traditie en familiegeschiedenis. Ruiters zijn welkom, een veld is gratis beschikbaar achter het hotel."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Hôtel-restaurant le Relais du Bois du Four"
+    ]
+  },
+  "allowedPersons": 62,
+  "availableLanguage": [
+    "EN",
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Horserider",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Reiter"
+        ],
+        "pt": [
+          "Cavaleiros"
+        ],
+        "en": [
+          "Horserider"
+        ],
+        "it": [
+          "Cavallerizzi"
+        ],
+        "fr": [
+          "Cavaliers"
+        ],
+        "nl": [
+          "Ruiters"
+        ],
+        "es": [
+          "Jinetes"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Horserider",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Reiter"
+        ],
+        "pt": [
+          "Cavaleiros"
+        ],
+        "en": [
+          "Horserider"
+        ],
+        "it": [
+          "Cavallerizzi"
+        ],
+        "fr": [
+          "Cavaliers"
+        ],
+        "nl": [
+          "Ruiters"
+        ],
+        "es": [
+          "Jinetes"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2b98bf9a-aafd-35e0-b04b-a2d64403d55a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c923be8b-5035-349a-a4a6-b8c2cfb0dce2",
+          "schema:addressLocality": "Saint-Léons",
+          "schema:postalCode": "12780",
+          "schema:streetAddress": [
+            "Le Bois du Four"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12238",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Léons"
+              ],
+              "pt": [
+                "Saint-Léons"
+              ],
+              "en": [
+                "Saint-Léons"
+              ],
+              "it": [
+                "Saint-Léons"
+              ],
+              "fr": [
+                "Saint-Léons"
+              ],
+              "nl": [
+                "Saint-Léons"
+              ],
+              "es": [
+                "Saint-Léons"
+              ]
+            },
+            "insee": "12238",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@boisdufour.com"
+      ],
+      "schema:familyName": [
+        "RODIER - GRANDCHAMP"
+      ],
+      "schema:legalName": "RELAIS DU BOIS DU FOUR",
+      "schema:telephone": [
+        "+33 5 65 61 86 17"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.boisdufour.com/"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/6d379265-0220-3858-8380-7fb7e650853c",
+      "dc:description": {
+        "de": [
+          "Charme und Modernität einer alten Poststation, gegenüber einem kleinen Teich mit Gartentischen und Bänken.\nDie Kinder werden sich in diesem Park mit einem Spielplatz mit Schaukel und Rutsche vergnügen.\nDie Zimmer sind geräumig und ruhig und bieten einen Blick auf die Landschaft. Sie sind alle mit einem Badezimmer, einem Fernseher und kostenlosem WLAN ausgestattet.\nFamilien mit Babys sind herzlich willkommen, wir können Hochstühle, Babybetten und Badewannen bereitstellen.\nFür die älteren Kinder gibt es Gesellschaftsspiele und eine Bibliothek.\nWenn Sie angeln möchten, wenden Sie sich an Denis und Véronique, die Eigentümer. Sie werden Ihnen das nötige Material zum Angeln im Teich zur Verfügung stellen (kostenpflichtig).  \nAuf Anfrage können Sie Ihr Auto oder Motorrad in einer Garage mit sehr großer Kapazität unterbringen (kostenlos)."
+        ],
+        "en": [
+          "Charm and modernity of a former postal coaching inn on the banks of a small pond. Spacious and quiet rooms with views over the countryside. They are all equipped (bathroom, television and Wi-Fi)."
+        ],
+        "it": [
+          "Il fascino e la modernità di un'antica casa postale, affacciata su un piccolo stagno con tavoli e panchine da giardino.\nI bambini si divertiranno in questo parco giochi con altalena e scivolo.\nLe camere sono spaziose e tranquille e offrono una vista sulla campagna. Sono tutte dotate di bagno, TV e connessione Wi-Fi gratuita.\nLe famiglie con bambini sono le benvenute, possiamo fornire seggioloni, culle e vaschette per il bagno.\nPer i bambini più grandi ci sono giochi da tavolo e una biblioteca.\nSe desiderate pescare, contattate Denis e Véronique, i proprietari. Vi forniranno l'attrezzatura necessaria per pescare nel laghetto (a pagamento).  \nSu richiesta, è possibile mettere la propria auto o moto in un garage molto grande, gratuitamente."
+        ],
+        "fr": [
+          "Charme et modernité d'un ancien relais de poste, face à un petit étang avec tables de jardins et bancs. \nLes enfants s'amuseront dans ce parc doté d'une aire de jeux avec balançoire et toboggan. \nLes chambres sont spacieuses et calmes et offrent une vue sur la campagne. Elles sont toutes équipées d'une salle de bain, d'une télévision et du Wifi gratuit. \nLes familles avec bébés sont les bienvenues, nous pouvons fournir chaise haute, lits bébés et baignoires. \nPour les plus grands des jeux de société et une bibliothèque. \nSi vous souhaitez pêcher, adressez-vous à Denis et Véronique, les propriétaires. Ils vous fourniront le matériel nécessaire pour pêcher dans l'étang (payant).  \nSur demande, possibilité de mettre votre voiture, votre moto dans un garage d'une très grande capacité, gratuit."
+        ],
+        "es": [
+          " El encanto de una antigua casa de postas (modernizada), a orillas de un pequeño estanque. Habitaciones espaciosas con vista a la campiña. Todas están equipadas con cuartos de baño, televisores y WIFI."
+        ],
+        "nl": [
+          "De charme en moderniteit van een oud posthuis, tegenover een kleine vijver met tuintafels en banken.\nKinderen zullen zich vermaken in dit park met een speeltuin met schommel en glijbaan.\nDe kamers zijn ruim en rustig en bieden uitzicht op het platteland. Ze zijn allemaal uitgerust met een badkamer, TV en gratis Wi-Fi.\nGezinnen met baby's zijn welkom, we kunnen zorgen voor kinderstoelen, kinderbedjes en badjes.\nVoor oudere kinderen zijn er bordspellen en een bibliotheek.\nAls u wilt vissen, neem dan contact op met Denis en Veronique, de eigenaren. Zij zullen u het nodige materiaal bezorgen om in de vijver te vissen (tegen betaling).  \nOp verzoek is het mogelijk om uw auto of motor gratis in een zeer grote garage te plaatsen."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/06b48345-5994-3723-9551-4ddbfb6f31b0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/32680c7d-e9f0-3bf8-8f87-7317716d9382",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/33525934-a305-3a65-a176-72f955f3b73c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6cd69e6b-5e4c-3433-9ae5-da4b246ba63e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f6da33d1-f9c6-31ff-bb87-36484839a2d8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f887fd0f-25ce-345b-88c0-58682958b8cb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein freundlicher Empfang in einem charaktervollen Gebäude, das auf Traditionen und Familiengeschichte zurückgeht. Reiter sind willkommen, ein Feld hinter dem Hotel steht kostenlos zur Verfügung."
+        ],
+        "en": [
+          "A convivial welcome in a character building full of tradition and family history."
+        ],
+        "it": [
+          "Un'accoglienza cordiale in un edificio ricco di carattere, tradizione e storia familiare. I cavalieri sono i benvenuti, un campo è disponibile gratuitamente dietro l'hotel."
+        ],
+        "fr": [
+          "Un accueil convivial dans une bâtisse de caractère faîte de traditions et d'histoire familiale. Les cavaliers sont les bienvenus, un champ est gratuitement mis à disposition derrière l'hôtel."
+        ],
+        "es": [
+          "Un trato acogedor en un edificio con carácter que combina la tradición y la historia familiar.  "
+        ],
+        "nl": [
+          "Een vriendelijk onthaal in een gebouw vol karakter, traditie en familiegeschiedenis. Ruiters zijn welkom, een veld is gratis beschikbaar achter het hotel."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0adbd0d7-d75b-3a3a-a7b4-0d4b850e75a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HairDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Haartrockner"
+            ],
+            "pt": [
+              "Secador de cabelo"
+            ],
+            "en": [
+              "Hair dryer"
+            ],
+            "it": [
+              "Asciugacapelli"
+            ],
+            "fr": [
+              "Sèche cheveux"
+            ],
+            "es": [
+              "Secador de pelo"
+            ],
+            "nl": [
+              "Haardroger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/19238287-96e2-30fc-81ab-1cf9d08c8f8c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SingleBed",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einzelbett"
+            ],
+            "pt": [
+              "Cama individual"
+            ],
+            "en": [
+              "Single bed"
+            ],
+            "it": [
+              "Letto singolo"
+            ],
+            "fr": [
+              "Lit simple"
+            ],
+            "nl": [
+              "Eenpersoonsbed"
+            ],
+            "es": [
+              "Cama individual"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1b5e40e9-c00a-3299-b555-a7af2c4a5a5a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CableSatellite",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kabel – Satellit"
+            ],
+            "pt": [
+              "Cabo, satélite"
+            ],
+            "en": [
+              "Cable - satellite"
+            ],
+            "it": [
+              "Cavo - satellite"
+            ],
+            "fr": [
+              "Câble - satellite"
+            ],
+            "es": [
+              "Televisión por cable, satélite"
+            ],
+            "nl": [
+              "Kabel - satelliet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/337daa48-7f66-3ae3-9c19-fce9fccc3340",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Beach",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Strand"
+            ],
+            "pt": [
+              "Praia"
+            ],
+            "en": [
+              "Beach"
+            ],
+            "it": [
+              "Spiaggia"
+            ],
+            "fr": [
+              "Plage"
+            ],
+            "nl": [
+              "Strand"
+            ],
+            "es": [
+              "Playa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/358e108a-a377-3222-9a5d-2a47e3b23cb0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47b6c5ae-cf8c-34ec-b5b5-1bfcf66dd71a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4f13215c-f2e1-39ea-bec1-9216c9aec57b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/54f133e2-85d0-3080-951a-9dbedb3afec3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5b5e02b5-eafe-324b-8755-e47b70ed8f16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fa56eb3-b2c0-325e-bd2d-a218d82aface",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garage",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garage"
+            ],
+            "pt": [
+              "Garagem"
+            ],
+            "en": [
+              "Garage"
+            ],
+            "it": [
+              "Garage"
+            ],
+            "fr": [
+              "Garage"
+            ],
+            "es": [
+              "Garaje"
+            ],
+            "nl": [
+              "Garage"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/772737ee-b898-3d0f-962d-81946bd94336",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/886b8dc4-ccd8-3f48-bcfe-c95830abc789",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9cc1e7e7-9cfe-372f-8d91-41e821010259",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c49b636a-718b-3e07-9791-640c79308deb",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d1ee55-7168-34ec-8376-2a924957d460",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Park"
+            ],
+            "pt": [
+              "Parque"
+            ],
+            "en": [
+              "Park"
+            ],
+            "it": [
+              "Parco"
+            ],
+            "fr": [
+              "Parc"
+            ],
+            "es": [
+              "Parque"
+            ],
+            "nl": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dc47845c-9a17-3d29-9ad7-ef0d299d6927",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cot",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Babybett"
+            ],
+            "pt": [
+              "Berço"
+            ],
+            "en": [
+              "Cot"
+            ],
+            "it": [
+              "Lettino per bambini"
+            ],
+            "fr": [
+              "Lit bébé"
+            ],
+            "es": [
+              "Cuna"
+            ],
+            "nl": [
+              "Babybed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2eadb38-bd27-357e-8f87-821c2ea263f1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Freibad"
+            ],
+            "pt": [
+              "Piscina ao ar livre"
+            ],
+            "en": [
+              "Outdoor pool"
+            ],
+            "it": [
+              "Piscina all'aperto"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ],
+            "es": [
+              "Piscina de exterior"
+            ],
+            "nl": [
+              "Openluchtzwembad"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/06532f73-afac-317c-aff8-912a925dacd7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1cfb9fc9-5c73-3410-a27d-9177baa3c367",
+          "ebucore:abstract": {
+            "fr": [
+              "RELAIS DU BOIS DU FOUR"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "RELAIS DU BOIS DU FOUR"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DE PARELOUP LEVEZOU"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/97dcfb09-bba9-3207-bbb5-af16f3cced06",
+          "ebucore:fileSize": [
+            "285390"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "450",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO021390626142/TFO021390626142-17a/medias/jpg/relais.jpg"
+          ],
+          "ebucore:width": "600",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/06532f73-afac-317c-aff8-912a925dacd7",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1cfb9fc9-5c73-3410-a27d-9177baa3c367",
+          "ebucore:abstract": {
+            "fr": [
+              "RELAIS DU BOIS DU FOUR"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "RELAIS DU BOIS DU FOUR"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DE PARELOUP LEVEZOU"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/97dcfb09-bba9-3207-bbb5-af16f3cced06",
+          "ebucore:fileSize": [
+            "285390"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "450",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO021390626142/TFO021390626142-17a/medias/jpg/relais.jpg"
+          ],
+          "ebucore:width": "600",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/45de4761-9ec0-3c3c-90c8-41d769f708ef",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Sterne"
+          ],
+          "pt": [
+            "2 estrelas"
+          ],
+          "en": [
+            "2 Stars"
+          ],
+          "it": [
+            "2 stelle"
+          ],
+          "fr": [
+            "2 étoiles"
+          ],
+          "nl": [
+            "2 sterren"
+          ],
+          "es": [
+            "2 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      },
+      "reviewDeliveryDate": "2022-07-18"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4c173f20-2aa9-3a90-8a3f-43bac5ec9427",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_TableDeTerroir",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Table de terroir"
+          ],
+          "pt": [
+            "Table de terroir"
+          ],
+          "en": [
+            "Table de terroir"
+          ],
+          "it": [
+            "Table de terroir"
+          ],
+          "fr": [
+            "Table de terroir"
+          ],
+          "nl": [
+            "Table de terroir"
+          ],
+          "es": [
+            "Table de terroir"
+          ]
+        },
+        "isCompliantWith": [
+          "Restaurant"
+        ]
+      },
+      "reviewDeliveryDate": "2016-04-01"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Traditionelle französische Küche"
+        ],
+        "pt": [
+          "Cozinha tradicional francesa"
+        ],
+        "en": [
+          "French traditional cuisine"
+        ],
+        "it": [
+          "Cucina tradizionale francese"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ],
+        "nl": [
+          "Traditionele Franse keuken"
+        ],
+        "es": [
+          "Cocina francesa tradicional"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/5ea46614-3d65-30b6-93f7-3a2c9092ce9d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/904de8db-5d65-3167-99f6-3b709edb3e99",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c7193549-76d6-3953-8022-3e5fa5208b56",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/450fe319-e385-3f7c-aa03-e987074d9db3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e623a6d2-8a58-3c3c-88dc-01b5a2a32422",
+          "schema:addressLocality": "Saint-Léons",
+          "schema:postalCode": "12780",
+          "schema:streetAddress": [
+            "Le Bois du Four"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12238",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Léons"
+              ],
+              "pt": [
+                "Saint-Léons"
+              ],
+              "en": [
+                "Saint-Léons"
+              ],
+              "it": [
+                "Saint-Léons"
+              ],
+              "fr": [
+                "Saint-Léons"
+              ],
+              "nl": [
+                "Saint-Léons"
+              ],
+              "es": [
+                "Saint-Léons"
+              ]
+            },
+            "insee": "12238",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/04494187-93a5-341a-bf0f-98109a911c18",
+        "schema:elevation": "737",
+        "schema:latitude": "44.239063779769474",
+        "schema:longitude": "2.9846945224762145",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/345b11fd-732d-35cd-a3dd-7140f4cf467b",
+          "schema:validFrom": "2023-04-28T00:00:00",
+          "schema:validThrough": "2023-11-05T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-04-07",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.696Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/ce189153-e234-3f1e-8547-95a9beb61512",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/106d11fa-a9eb-3fd5-82e2-9a098e760817",
+          "schema:price": "9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Petit-déjeuner"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/13a311cd-bc74-3cd1-99ba-0ec3ff7ecc7e",
+          "schema:maxPrice": [
+            "40"
+          ],
+          "schema:minPrice": [
+            "17"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Menu adulte"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/24fb5c15-32aa-372c-ab80-f3d165e1e54a",
+          "schema:maxPrice": [
+            "70"
+          ],
+          "schema:minPrice": [
+            "60"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "pro Tag und Person"
+            ],
+            "en": [
+              "per day and per person"
+            ],
+            "it": [
+              "al giorno e per persona"
+            ],
+            "fr": [
+              "par jour et par personne"
+            ],
+            "es": [
+              "por día y por persona"
+            ],
+            "nl": [
+              "per dag en per persoon"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/11f8eda9-f8ec-3637-907a-74a5abd60408",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/15c7f032-4625-35f6-8603-9a538ca12fb1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/26f74a38-a2c2-3325-911b-577aaf8d2281",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/633eb245-8745-3f95-ab38-ea59d8523d10",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f0dca5d3-5b56-3728-ae9b-1912ea083cbd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Demi-pension"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/25389f77-24fa-3dc0-810d-2a1317b16e4f",
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ChildRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindertarif"
+                ],
+                "pt": [
+                  "Preço por criança"
+                ],
+                "en": [
+                  "Child rate"
+                ],
+                "it": [
+                  "Tariffa per bambini"
+                ],
+                "fr": [
+                  "Tarif enfant"
+                ],
+                "es": [
+                  "Tarifa infantil"
+                ],
+                "nl": [
+                  "Kindertarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:ChildMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kindermenü"
+                ],
+                "pt": [
+                  "Menu para crianças"
+                ],
+                "en": [
+                  "Child menu"
+                ],
+                "it": [
+                  "Menù per bambini"
+                ],
+                "fr": [
+                  "Menu enfant"
+                ],
+                "es": [
+                  "Menú infantil"
+                ],
+                "nl": [
+                  "Kindermenu"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Meals",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mahlzeit"
+                ],
+                "pt": [
+                  "Refeições"
+                ],
+                "en": [
+                  "Meals"
+                ],
+                "it": [
+                  "Pasto"
+                ],
+                "fr": [
+                  "Repas"
+                ],
+                "nl": [
+                  "Maaltijd"
+                ],
+                "es": [
+                  "Comidas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Repas enfant"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2a4363f1-2657-3af8-856b-b3fc8e3702bb",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Pro Tag und Person über 18 Jahre"
+            ],
+            "en": [
+              "Per day and per person over 18 years old"
+            ],
+            "it": [
+              "Al giorno e per persona di età superiore ai 18 anni"
+            ],
+            "fr": [
+              "Par jour et par personne de plus de 18 ans"
+            ],
+            "es": [
+              "Por día y por persona mayor de 18 años"
+            ],
+            "nl": [
+              "Per dag en per persoon ouder dan 18 jaar"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/24e24c57-1b9b-3f55-900d-f2d6fa9f0a55",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/67f14e19-28ca-33ab-8cd8-057e34f3ec8c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/715be179-395d-3477-b04f-d8d68bbbcf3c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/83a147b9-8053-3f68-9ff1-562701c64424",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c024ede8-bc5d-3936-8ea5-9f4a9f0740c2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Taxe de séjour en sus"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4f769148-6a58-3891-aff0-7f0d03ea837a",
+          "schema:maxPrice": [
+            "80"
+          ],
+          "schema:minPrice": [
+            "55"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre double sans petit déjeuner"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5b735f9e-bd5b-360b-a01f-529dd5d4d39b",
+          "schema:price": "72",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/91730680-e7ca-36df-ab13-fc64f54850a7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "auf Anfrage"
+            ],
+            "en": [
+              "on demand"
+            ],
+            "it": [
+              "su richiesta"
+            ],
+            "fr": [
+              "sur demande"
+            ],
+            "nl": [
+              "op verzoek"
+            ],
+            "es": [
+              "a petición"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/5d77a30c-10b1-33fb-9028-447c52da8a0a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/669797d4-dc16-3c11-9dc9-d5b867c175de",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9e3a970b-08bc-3477-ba6b-0b847786d33a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a9dff539-8f7f-316f-8f02-ae7ae054ba23",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e32d8b98-5c24-343a-84bc-85bf1b1c1ef6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c288796f-10b2-3c06-9254-d9fc516142db",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "auf Anfrage"
+            ],
+            "en": [
+              "on demand"
+            ],
+            "it": [
+              "su richiesta"
+            ],
+            "fr": [
+              "sur demande"
+            ],
+            "nl": [
+              "op verzoek"
+            ],
+            "es": [
+              "a petición"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4811a5e2-2498-3c55-98eb-f229b49e26c8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5ea8b594-7abd-3a26-b207-904ef0ef2de3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8f292b6e-c50c-37f6-b281-f5120edb1af4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cf23ca9e-7034-3879-9ccf-46cc14e54753",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f28df9da-25e4-3895-abad-ac06af70eb4d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c73c4842-e0aa-38e7-b484-38ed202db9cd",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "auf Anfrage"
+            ],
+            "en": [
+              "on demand"
+            ],
+            "it": [
+              "su richiesta"
+            ],
+            "fr": [
+              "sur demande"
+            ],
+            "nl": [
+              "op verzoek"
+            ],
+            "es": [
+              "a petición"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/09a5c21c-3e3f-3b1c-b60c-c8dbaf2ab862",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1813ccfb-806f-31a4-931a-3288bcbdb752",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6580fc82-2e71-3301-a2fc-aa8b5492f3f3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c33c2499-94b1-372a-a449-0ce6129e1e46",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/da54e841-c8a5-37e6-a31b-83b75ba88bd3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f85652d6-d0a7-3c66-bccf-0e45776e8903",
+          "schema:price": "15.5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "formel Hauptgericht - Dessert mittags von Montag bis Freitag"
+            ],
+            "en": [
+              "main course and dessert menu for lunch from Monday to Friday"
+            ],
+            "it": [
+              "piatto principale e dessert a pranzo dal lunedì al venerdì"
+            ],
+            "fr": [
+              "formule plat - dessert le midi du lundi au vendredi"
+            ],
+            "es": [
+              "plato principal y postre para el almuerzo de lunes a viernes"
+            ],
+            "nl": [
+              "hoofdgerecht en dessert voor de lunch van maandag tot vrijdag"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1acf43d0-a68f-3afb-9101-65d17acd3146",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/38b77936-0444-3929-bb2b-7eb9c2c3ec7d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d0fea4f6-2bde-3995-9acb-57b55d8f1d99",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d40758a4-4d00-3a16-969c-77520206ae73",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f26c5d65-3821-3da7-ad77-8a066805cbe0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Formule du lundi au vendredi"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

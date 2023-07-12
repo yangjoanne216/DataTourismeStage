@@ -1,0 +1,7521 @@
+{
+  "@id": "https://data.datatourisme.fr/43/099af651-55f5-392e-96af-3b7b6ea5d684",
+  "dc:identifier": "69911",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "FoodEstablishment",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "LA FERME DE FLARAN"
+    ]
+  },
+  "allowedPersons": 30,
+  "availableLanguage": [
+    "Anglais",
+    "Espagnol"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/48de5252-3b48-33cf-a221-8fc3f7356cea",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2d604a4f-98c7-3786-9a7f-5ae32f0b626b",
+          "schema:addressLocality": "Valence-sur-Baïse",
+          "schema:postalCode": "32310",
+          "schema:streetAddress": [
+            "HOTEL LA FERME DE FLARAN",
+            "Lieu dit Bagatelle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32459",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Valence-sur-Baïse"
+              ],
+              "pt": [
+                "Valence-sur-Baïse"
+              ],
+              "en": [
+                "Valence-sur-Baïse"
+              ],
+              "it": [
+                "Valence-sur-Baïse"
+              ],
+              "fr": [
+                "Valence-sur-Baïse"
+              ],
+              "nl": [
+                "Valence-sur-Baïse"
+              ],
+              "es": [
+                "Valence-sur-Baïse"
+              ]
+            },
+            "insee": "32459",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "reception@fermedeflaran.com"
+      ],
+      "schema:telephone": [
+        "+33 5 62 29 39 83",
+        "+33 6 08 43 55 89"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.fermedeflaran.com/",
+        "https://www.facebook.com/fermedeflaran/?ref=br_rs"
+      ],
+      "siret": "51515034000013"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/eeb32403-cea7-36b2-bb3f-5c0468af439f",
+      "dc:description": {
+        "de": [
+          "In der Gemeinde Valence sur Baïse, im Herzen der Ténarèze, in der Nähe von CONDOM, liegt dieses ehemalige Nebengebäude der Zisterzienserabtei Flaran, das in ein Hotel umgewandelt wurde und den Charme und die Authentizität eines Gebäudes aus dem 17.\n\nIm vollständig renovierten Restaurant können Sie in einem modernen und freundlichen Rahmen eine raffinierte Küche aus dem Gers mit originellen Aromen genießen. Frühstück im Saal und im Sommer können Sie auf der schattigen Terrasse frühstücken und den Swimmingpool und den Garten mit Bäumen genießen, die den Hotelgästen vorbehalten sind.\n6 \"Komfort\"-Zimmer mit Bett 160 oder 180 oder Twin.\n4 \"Standart\"-Zimmer mit Bett 160.\n2 Suiten mit Bett 180 + Schlafsofa für 4 Personen.\n1 Zimmer mit eingeschränkter Mobilität."
+        ],
+        "en": [
+          "Located in the commune of Valence sur Baïse, in the heart of the Ténarèze, near CONDOM, this former dependency of the Cistercian Abbey of Flaran, transformed into a hotel, has retained the charm and authenticity of a 17th century building.\n\nThe fully renovated restaurant will allow you to savour refined Gers cuisine and original flavours in a modern and friendly setting. Breakfast is served in the dining room and in the summer you can have lunch on the shaded terrace and enjoy the swimming pool and the garden reserved for the hotel's guests.\n6 \"comfort\" rooms with 160 or 180 or twin beds.\n4 \"standart\" rooms with bed 160.\n2 suites with 180cm bed + a sofa bed for 4 people.\n1 room with reduced mobility."
+        ],
+        "it": [
+          "Situata nel comune di Valence sur Baïse, nel cuore della Ténarèze, vicino a CONDOM, questa ex dépendance dell'abbazia cistercense di Flaran, trasformata in hotel, ha conservato il fascino e l'autenticità di un edificio del XVII secolo.\n\nIl ristorante, completamente rinnovato, offre una raffinata cucina del Gers e sapori originali in un ambiente moderno e accogliente. La colazione viene servita nella sala da pranzo e in estate è possibile pranzare sulla terrazza ombreggiata e godere della piscina e del giardino riservati agli ospiti dell'hotel.\n6 camere \"comfort\" con 160 o 180 o due letti singoli.\n4 camere \"standart\" con 160 letti.\n2 suite con letto da 180 cm + divano letto per 4 persone.\n1 camera a mobilità ridotta."
+        ],
+        "fr": [
+          "Située sur la commune de Valence sur Baïse, au Coeur de la Ténarèze, à proximité de CONDOM, cette ancienne dépendance de l'Abbaye cistercienne de Flaran, transformée en Hôtel a su conserver le charme et l'authenticité d'une bâtisse du XVIIe.\n\nLe restaurant entièrement rénové vous permettra de savourer une cuisine gersoise raffinée et des saveurs originales, dans un cadre moderne et convivial. Petit déjeuner en salle et l'été vous déjeunerez sur la terrasse ombragée et apprécierez la piscine et le jardin arboré réservé à la clientèle de l'hôtel.\n6 chambres \"confort\" avec lit 160 ou 180 ou twin.\n4 chambres \"standart\" avec lit 160.\n2 suites avec lit 180 + un canapé lit pour 4 personnes.\n1 chambre mobilité réduite."
+        ],
+        "es": [
+          "Situada en la comuna de Valence sur Baïse, en el corazón del Ténarèze, cerca de CONDOM, esta antigua dependencia de la abadía cisterciense de Flaran, transformada en hotel, ha conservado el encanto y la autenticidad de un edificio del siglo XVII.\n\nEl restaurante, totalmente renovado, ofrece una cocina refinada de Gers y sabores originales en un ambiente moderno y acogedor. El desayuno se sirve en el comedor y en verano se puede comer en la terraza a la sombra y disfrutar de la piscina y el jardín reservados a los huéspedes del hotel.\n6 habitaciones \"confort\" con 160 o 180 o dos camas individuales.\n4 habitaciones \"standart\" con 160 camas.\n2 suites con cama de 180 cm + un sofá cama para 4 personas.\n1 habitación con movilidad reducida."
+        ],
+        "nl": [
+          "Gelegen in de gemeente Valence sur Baïse, in het hart van de Ténarèze, vlakbij CONDOM, heeft dit voormalige bijgebouw van de cisterciënzerabdij van Flaran, omgebouwd tot hotel, de charme en authenticiteit van een 17e eeuws gebouw behouden.\n\nHet volledig gerenoveerde restaurant biedt verfijnde Gers-keuken en originele smaken in een modern en vriendelijk kader. Het ontbijt wordt geserveerd in de eetzaal en in de zomer kunt u lunchen op het schaduwrijke terras en genieten van het zwembad en de tuin die gereserveerd zijn voor de gasten van het hotel.\n6 \"comfort\" kamers met 160 of 180 of twin bedden.\n4 \"standart\" kamers met 160 bedden.\n2 suites met 180 cm bed + een slaapbank voor 4 personen.\n1 kamer met beperkte mobiliteit."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/080984d7-8183-3952-80d6-db2c9ecc0f12",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2de1c2e6-d291-39ba-9b3b-8bca0b250028",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3d22575e-e9ce-3ba9-ac6c-2ecd0f383765",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d139f78f-a84a-3024-bf2b-ba2d2094a83e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/deeca227-12b4-3591-abd6-a531316c6180",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0adbd0d7-d75b-3a3a-a7b4-0d4b850e75a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HairDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Haartrockner"
+            ],
+            "pt": [
+              "Secador de cabelo"
+            ],
+            "en": [
+              "Hair dryer"
+            ],
+            "it": [
+              "Asciugacapelli"
+            ],
+            "fr": [
+              "Sèche cheveux"
+            ],
+            "es": [
+              "Secador de pelo"
+            ],
+            "nl": [
+              "Haardroger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1b5e40e9-c00a-3299-b555-a7af2c4a5a5a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CableSatellite",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kabel – Satellit"
+            ],
+            "pt": [
+              "Cabo, satélite"
+            ],
+            "en": [
+              "Cable - satellite"
+            ],
+            "it": [
+              "Cavo - satellite"
+            ],
+            "fr": [
+              "Câble - satellite"
+            ],
+            "es": [
+              "Televisión por cable, satélite"
+            ],
+            "nl": [
+              "Kabel - satelliet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/31a423bb-ac1c-3593-8f4f-af81bea76b3b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/343748aa-cfe3-3752-b5b6-75e687c30daf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CanalPlus",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Canal plus (Fernsehkanal)"
+            ],
+            "pt": [
+              "Canal Plus"
+            ],
+            "en": [
+              "Canal plus tv channel"
+            ],
+            "it": [
+              "Canal plus"
+            ],
+            "fr": [
+              "Canal plus"
+            ],
+            "nl": [
+              "Canal Plus"
+            ],
+            "es": [
+              "Canal Plus"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3b44f1ca-9aee-3d94-b431-59cc87ce6aaa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toboggan",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Rutschbahn"
+            ],
+            "pt": [
+              "Tobogã"
+            ],
+            "en": [
+              "Toboggan"
+            ],
+            "it": [
+              "Scivolo"
+            ],
+            "fr": [
+              "Toboggan"
+            ],
+            "es": [
+              "Tobogán"
+            ],
+            "nl": [
+              "Glijbaan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47c55af4-7e81-32c0-87c3-075a2c0202be",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4f13215c-f2e1-39ea-bec1-9216c9aec57b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56549fce-ea21-3f66-8b97-a309ad02f68f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fd4216b-cd81-3226-85fa-9febecf27ff5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Phone",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Telefon"
+            ],
+            "pt": [
+              "Telefone"
+            ],
+            "en": [
+              "Phone"
+            ],
+            "it": [
+              "Telefono"
+            ],
+            "fr": [
+              "Téléphone"
+            ],
+            "nl": [
+              "Telefoon"
+            ],
+            "es": [
+              "Teléfono"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8cc39041-f7d6-3165-907e-a836b7cebf87",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/94671009-4413-3870-a214-90a5e960b805",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 14
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9727fa1f-755d-3863-970a-3d5da984e949",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ba73be32-4cda-397b-9f91-7e9d9e9e5562",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca034818-4da7-31b0-ae8d-d5eb5407a6a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cdc71f72-6de8-3cee-83d4-94b59c99d456",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d1ee55-7168-34ec-8376-2a924957d460",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Park"
+            ],
+            "pt": [
+              "Parque"
+            ],
+            "en": [
+              "Park"
+            ],
+            "it": [
+              "Parco"
+            ],
+            "fr": [
+              "Parc"
+            ],
+            "es": [
+              "Parque"
+            ],
+            "nl": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dcdc3748-4bdb-342a-9961-26d534d9cebf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bibliothek"
+            ],
+            "pt": [
+              "Biblioteca"
+            ],
+            "en": [
+              "Library"
+            ],
+            "it": [
+              "Biblioteca"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ],
+            "nl": [
+              "Bibliotheek"
+            ],
+            "es": [
+              "Biblioteca"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e98187ca-a244-3a2d-b782-d85d08bc2c84",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:AirConditioner",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Klimaanlage"
+            ],
+            "pt": [
+              "Sistema de ar condicionado"
+            ],
+            "en": [
+              "Air conditioner"
+            ],
+            "it": [
+              "Aria condizionata"
+            ],
+            "fr": [
+              "Climatisation"
+            ],
+            "es": [
+              "Sistema de aire acondicionado"
+            ],
+            "nl": [
+              "Klimaatbeheersing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f08a3830-0e6f-349e-b12e-4191b22f1ee9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f8dc5b3c-074c-3ebc-8eb2-b23f5c28a1c9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fd09ceea-eb9e-3bde-982a-8f753cdf0ab8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/5424c7f2-9d5b-35cf-91d1-027eeed0836a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/21c66a86-3313-3f39-b33d-7f49e2bb3f73",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel La Ferme de Flaran/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/587786e0-a5bf-34ff-833f-b711d7d68c13",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076259.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0063a5ae-f51c-30a0-95ef-040284055914",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/e3826633-9801-33fe-834c-28cd91ed9163",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058938.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1a1b6560-85a9-32e4-86b8-3f661df53a8c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/39273019-55a7-35a9-a9d5-a5c46b6cdd6e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053280.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1ab7803f-440d-3b18-bc35-662842b77a0d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/59a57307-9ce0-3896-81c6-c09b0f84b422",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/La Ferme Flaran/A.F. Kerkhove"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5edc9218-e97d-3825-b0c8-450fad137933",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053271.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/231d750c-0c44-3151-a53a-c073c3c21225",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/68238bd7-27f2-35c4-8bbf-84873e67cfdd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053282.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/35662ded-8cb7-350b-b529-0f579eb05da5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7def5137-3fd3-3698-82dd-fcff7de47239",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058936.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3848abe2-c959-317a-bb4d-4fc647748f5a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/46822d74-c121-3c9a-9fcd-f712990d05a4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058943.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4b66bbe6-573f-374a-a2b4-064c52e9d0c6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/8221968a-6f96-3f36-ae3d-7dbf7c9e6038",
+          "ebucore:title": {
+            "fr": [
+              "Ferme de Flaran"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/05664988-81a1-3d98-9806-e4eddd3ee106",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:OctetStream",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "Archiviertes Dokument (mehrere eingebettete Dateien)"
+                ],
+                "pt": [
+                  "Documento arquivado (vários ficheiros integrados)"
+                ],
+                "en": [
+                  "Archived document (several integrated files)"
+                ],
+                "it": [
+                  "Documento archiviato (diversi file integrati)"
+                ],
+                "fr": [
+                  "Document archivé (plusieurs fichiers intégrés)"
+                ],
+                "nl": [
+                  "Gearchiveerd document (meerdere geïntegreerde bestanden)"
+                ],
+                "es": [
+                  "Documento archivado (varios archivos integrados)"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/octet-stream"
+                ],
+                "pt": [
+                  "application/octet-stream"
+                ],
+                "en": [
+                  "application/octet-stream"
+                ],
+                "it": [
+                  "application/octet-stream"
+                ],
+                "fr": [
+                  "application/octet-stream"
+                ],
+                "nl": [
+                  "application/octet-stream"
+                ],
+                "es": [
+                  "application/octet-stream"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://www.youtube.com/watch?v=XxpwUCP0LaA"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4f96a6a1-26a0-38fb-9d53-56235496388a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/40519ef4-862c-3996-b7cc-132e02076365",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058942.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4fb50252-d083-3856-8547-2248f17939cf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/075d0f24-38d7-368a-b99f-8a57bcc5c449",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058937.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5424c7f2-9d5b-35cf-91d1-027eeed0836a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/21c66a86-3313-3f39-b33d-7f49e2bb3f73",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel La Ferme de Flaran/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/587786e0-a5bf-34ff-833f-b711d7d68c13",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076259.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/65293d44-2624-385a-9e2a-2c457864c5e8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/21c66a86-3313-3f39-b33d-7f49e2bb3f73",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel La Ferme de Flaran/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ff9d0698-dd55-355e-be57-caa85d80eae5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076256.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/76e59fe2-4f75-3c4a-8c94-53fc38bf9ff3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ed3ccdb7-0ff6-32e4-be5e-13ebf8a3ff56",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058940.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/77fe5eb8-94c0-38ff-939c-ca4f95023151",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/21c66a86-3313-3f39-b33d-7f49e2bb3f73",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel La Ferme de Flaran/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/382bd589-0c71-377c-a4b0-c94d947f3d61",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076260.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/83e91602-49ed-3c00-9c7a-358750581322",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/563a198d-2429-392a-8ca8-3b752bd352dc",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053281.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/84afd8fd-a722-3029-8fed-cebecb65ece1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/98a90810-41a8-3dd6-8caf-921bcd40d5ef",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053270.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8c8e6493-5654-37db-9cf2-78c056240ac1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/4080d3bb-3053-3a23-8953-ff52675ea54e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053274.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a6155465-8c9c-3900-be7c-599fd5781f4e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3c0f8d8e-e6a5-32f3-bc95-2b9ef1836e44",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053279.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ada0870e-f9e0-3604-bc41-84281c68049f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2c051e44-72a6-3ccd-bab4-ed77b1869d50",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel-restaurant La Ferme Flaran"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7e3b51a7-8ac0-3ba7-9f5b-1b9bf2e864c3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0053273.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/aeed51d2-8200-34f0-b009-ad247859ab0e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/21c66a86-3313-3f39-b33d-7f49e2bb3f73",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel La Ferme de Flaran/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5445b80a-9533-3c80-af03-29c6230d1095",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076257.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f3386f7f-9cbf-3d0d-b589-cef083e99f2b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/91f81a8b-8d6a-3ae8-b907-480d5696fc59",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Ferme de Flaran/Alain Boüault"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/065ec632-b81b-3439-9028-47d21be277fe",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0058939.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fba864ea-6eee-386f-a20f-69a6ed0bec61",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/21c66a86-3313-3f39-b33d-7f49e2bb3f73",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL LA FERME DE FLARAN"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel La Ferme de Flaran/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/17da37f7-7fe4-3189-b55b-877b5ead1da3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076258.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7a9a2a34-bd63-33f8-9e82-84e35ce65ab0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_HotelCosy",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Hôtel Cosy"
+          ],
+          "pt": [
+            "Hôtel Cosy"
+          ],
+          "en": [
+            "Hotel Cosy"
+          ],
+          "it": [
+            "Hôtel Cosy"
+          ],
+          "fr": [
+            "Hôtel Cosy"
+          ],
+          "nl": [
+            "Hôtel Cosy"
+          ],
+          "es": [
+            "Hôtel Cosy"
+          ]
+        },
+        "isCompliantWith": [
+          "Hotel"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c34ca5ba-bbff-3b90-b2e7-3b44587ccb33",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2020-09-02"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/95b514bd-c975-36a4-a595-8ab0447f4a82",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2d604a4f-98c7-3786-9a7f-5ae32f0b626b",
+          "schema:addressLocality": "Valence-sur-Baïse",
+          "schema:postalCode": "32310",
+          "schema:streetAddress": [
+            "HOTEL LA FERME DE FLARAN",
+            "Lieu dit Bagatelle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32459",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Valence-sur-Baïse"
+              ],
+              "pt": [
+                "Valence-sur-Baïse"
+              ],
+              "en": [
+                "Valence-sur-Baïse"
+              ],
+              "it": [
+                "Valence-sur-Baïse"
+              ],
+              "fr": [
+                "Valence-sur-Baïse"
+              ],
+              "nl": [
+                "Valence-sur-Baïse"
+              ],
+              "es": [
+                "Valence-sur-Baïse"
+              ]
+            },
+            "insee": "32459",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/1e953db7-276a-3bdc-9978-0291396fb66f",
+        "schema:latitude": "43.8872111",
+        "schema:longitude": "0.3777247",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true
+    }
+  ],
+  "lastUpdate": "2021-04-02",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.476Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/3d3a6088-c11c-3082-8140-015507856473",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0e720689-cc8b-3e8f-abe5-3de7f2e13f23",
+          "schema:maxPrice": [
+            "85"
+          ],
+          "schema:minPrice": [
+            "62"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Single"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0f3df2ed-b97b-387c-966d-dd33705f0543",
+          "schema:maxPrice": [
+            "72"
+          ],
+          "schema:minPrice": [
+            "65"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Tarife Hochsaison: vom 01/04/2013 bis zum 17/11/2013.\nNebensaison: vom 18/11/2013 bis 31/03/2014"
+            ],
+            "en": [
+              "High season rates : from 01/04/2013 to 17/11/2013.\nLow season : from 18/11/2013 to 31/03/2014"
+            ],
+            "it": [
+              "Tariffe di alta stagione: dal 01/04/2013 al 17/11/2013.\nBassa stagione: dal 18/11/2013 al 31/03/2014"
+            ],
+            "fr": [
+              "Tarifs haute saison : du 01/04/2013 au 17/11/2013.\nBasse saison : du 18/11/2013 au 31/03/2014"
+            ],
+            "es": [
+              "Tarifas de temporada alta: del 01/04/2013 al 17/11/2013.\nTemporada baja: del 18/11/2013 al 31/03/2014"
+            ],
+            "nl": [
+              "Hoogseizoenstarieven: van 01/04/2013 tot 17/11/2013.\nLaagseizoen: van 18/11/2013 tot 31/03/2014"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2f4990e8-0728-350d-8fb7-4dbad4ea222c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/306e0fc3-8ef1-3a8c-8535-b735c22fc605",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4c1f0939-f218-3651-a298-d9843231d986",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6d93911a-61cb-3e4a-907e-d68d3497967b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c95a30df-8954-32e3-be3f-4bd89fe8224f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1095c259-7dc4-3625-bf35-74f303e3b8bf",
+          "schema:maxPrice": [
+            "95"
+          ],
+          "schema:minPrice": [
+            "55"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Basse saison du 1er au 31 mars, du 17/11 au 31/12"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1a46fb85-f416-3217-bab4-57cc02a07d4b",
+          "schema:maxPrice": [
+            "160"
+          ],
+          "schema:minPrice": [
+            "105"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Suite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/20d748ea-a005-39a1-8512-425c316e4917",
+          "schema:maxPrice": [
+            "126"
+          ],
+          "schema:minPrice": [
+            "106"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "double /Basse saison du 1er au 31/04, du 17/11 au 31/12"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3f7fc34d-ee3e-301d-a787-c1fca59055b3",
+          "schema:maxPrice": [
+            "95"
+          ],
+          "schema:minPrice": [
+            "75"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:HighSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hochsaison"
+                ],
+                "pt": [
+                  "Época alta"
+                ],
+                "en": [
+                  "High Season"
+                ],
+                "it": [
+                  "Alta stagione"
+                ],
+                "fr": [
+                  "Haute saison"
+                ],
+                "es": [
+                  "Temporada alta"
+                ],
+                "nl": [
+                  "Hoogseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Haute saison du 18 au 20/04, du 1er/05 au 14/09"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/400542f8-4267-3d11-86e1-db15c57b467f",
+          "schema:price": "15",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "lit d'appoint à partir de 4 ans"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4d958895-828f-3269-965f-7ac8126b93c7",
+          "schema:maxPrice": [
+            "105"
+          ],
+          "schema:minPrice": [
+            "80"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4ec35a66-cab1-3357-959d-bf6f3064d7d9",
+          "schema:maxPrice": [
+            "90"
+          ],
+          "schema:minPrice": [
+            "70"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:MidSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittlere Saison"
+                ],
+                "pt": [
+                  "Época média"
+                ],
+                "en": [
+                  "Mid Season"
+                ],
+                "it": [
+                  "Media stagione"
+                ],
+                "fr": [
+                  "Moyenne saison"
+                ],
+                "es": [
+                  "Temporada media"
+                ],
+                "nl": [
+                  "Middenseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Moyenne saison du 1er au 17 avril, du 21 au 30 avril, du 15/09 au 16/11"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/518919fa-bbc4-3c0e-8340-fae1baae4dac",
+          "schema:price": "85",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Hochsaison"
+            ],
+            "en": [
+              "High season"
+            ],
+            "it": [
+              "Alta stagione"
+            ],
+            "fr": [
+              "Haute saison"
+            ],
+            "es": [
+              "Temporada alta"
+            ],
+            "nl": [
+              "Hoogseizoen"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/7cc45af1-cb6e-325e-aff0-462c73b1ee4d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/894a5112-152e-348c-a6ed-224254002e74",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/abcb7769-12ea-3006-bfd6-e8de83faa130",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/da184a82-c0aa-367d-9874-6d8331c4dd30",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f298b5c0-2c15-300d-9349-db2d61c171f8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Ferme de Flaran"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5e0a3c96-c4ce-30fa-983f-869df6cdc266",
+          "schema:maxPrice": [
+            "141"
+          ],
+          "schema:minPrice": [
+            "121"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Double/Haute saison du 18 au 20/04, du 1er/05 au 14/09"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/63bd2106-7f57-303c-951e-1c766c7a9dfc",
+          "schema:maxPrice": [
+            "95"
+          ],
+          "schema:minPrice": [
+            "72"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "chambre confort"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6b1c10d6-d5e6-37b8-a5d0-db4b40636950",
+          "schema:maxPrice": [
+            "145"
+          ],
+          "schema:minPrice": [
+            "115"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Suite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/75593a47-15ea-3a8f-b488-fd2c601875b0",
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/76cf83c7-b70f-374b-b7ef-6e0921587ea2",
+          "schema:maxPrice": [
+            "160"
+          ],
+          "schema:minPrice": [
+            "80"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Twin"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7767b099-c773-3329-bc9f-2fee245b47cf",
+          "schema:minPrice": [
+            "9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/78cdf801-3311-38d5-a0b6-2b01dffce9f1",
+          "schema:maxPrice": [
+            "90"
+          ],
+          "schema:minPrice": [
+            "65"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7fc390b9-1310-3188-b4bc-c2a8e8e69e19",
+          "schema:maxPrice": [
+            "108"
+          ],
+          "schema:minPrice": [
+            "88"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:MidSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittlere Saison"
+                ],
+                "pt": [
+                  "Época média"
+                ],
+                "en": [
+                  "Mid Season"
+                ],
+                "it": [
+                  "Media stagione"
+                ],
+                "fr": [
+                  "Moyenne saison"
+                ],
+                "es": [
+                  "Temporada media"
+                ],
+                "nl": [
+                  "Middenseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Individuelle/Moyenne saison du 1er au 17/04, du 21 au 30/04, du 15/09 au 16/11"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/93cae82a-c0bc-372a-968f-d67b060f584c",
+          "schema:price": "75",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Nebensaison"
+            ],
+            "en": [
+              "Low season"
+            ],
+            "it": [
+              "Bassa stagione"
+            ],
+            "fr": [
+              "Basse saison"
+            ],
+            "es": [
+              "Temporada baja"
+            ],
+            "nl": [
+              "Laagseizoen"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/28f0c14f-c3b6-3bd1-8e93-35ca7f1fd2b1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b2be2607-e1f0-3c86-b503-b75b06685b25",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/be1283a8-1a8d-360c-98ec-d2bcb422c49a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cbbab0f9-fb81-348e-9e2c-f8a1177e508f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/dc257c34-3015-3e60-b2c0-42f7e1621a56",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Ferme de Flaran"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/962cbcf1-8b6f-378c-9d4c-176da807fc25",
+          "schema:maxPrice": [
+            "78"
+          ],
+          "schema:minPrice": [
+            "58"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre standart"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/98b44d49-b06c-3bca-acbd-8049f760579b",
+          "schema:maxPrice": [
+            "105"
+          ],
+          "schema:minPrice": [
+            "80"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9a0dc9bc-abb1-30b4-8ca0-c2163d59a8d8",
+          "schema:maxPrice": [
+            "160"
+          ],
+          "schema:minPrice": [
+            "117"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "suite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a35dfd81-8867-3ab4-81d9-ad6e506914c8",
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ad973022-737b-3a18-89a9-fd52aecd3733",
+          "schema:maxPrice": [
+            "80"
+          ],
+          "schema:minPrice": [
+            "62"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "twin"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b460f97f-4eea-3793-b338-65e279890a57",
+          "schema:price": "25",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cd73579e-0c52-3df1-8d48-1aaaf09a1f37",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "lit bébé (offert)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ce36175f-40d0-36ff-9f4b-94fce889183a",
+          "schema:maxPrice": [
+            "113"
+          ],
+          "schema:minPrice": [
+            "93"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:HighSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hochsaison"
+                ],
+                "pt": [
+                  "Época alta"
+                ],
+                "en": [
+                  "High Season"
+                ],
+                "it": [
+                  "Alta stagione"
+                ],
+                "fr": [
+                  "Haute saison"
+                ],
+                "es": [
+                  "Temporada alta"
+                ],
+                "nl": [
+                  "Hoogseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Individuelle/Haute saison du 18 au 20/04, du 1er/05 au 14/09"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ce5a941c-68d2-30fa-8da7-0196cac2a270",
+          "schema:price": "76",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Soirée étape"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d6a3faee-4439-37e0-9c69-b667c66e4374",
+          "schema:maxPrice": [
+            "98"
+          ],
+          "schema:minPrice": [
+            "78"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:LowSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nebensaison"
+                ],
+                "pt": [
+                  "Época baixa"
+                ],
+                "en": [
+                  "Low Season"
+                ],
+                "it": [
+                  "Bassa stagione"
+                ],
+                "fr": [
+                  "Basse saison"
+                ],
+                "es": [
+                  "Temporada baja"
+                ],
+                "nl": [
+                  "Laagseizoen"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "individuelle /Basse saison du 1er au 31/04, du 17/11 au 31/12"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d7838ef7-ad9a-3852-871b-09ff6825862a",
+          "schema:maxPrice": [
+            "145"
+          ],
+          "schema:minPrice": [
+            "58"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e0d90259-0cff-30ba-8397-d4a0ffa925d3",
+          "schema:minPrice": [
+            "9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "fr": [
+              "buffet"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f055d10a-ac04-3fdf-b596-b0e712fbecd4",
+          "schema:price": "9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f0b649bb-d0cb-33a3-a004-0500336ca7bc",
+          "schema:maxPrice": [
+            "136"
+          ],
+          "schema:minPrice": [
+            "116"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Double/Moyenne saison du 1er au 17/04, du 21 au 30/04, du 15/09 au 16/11"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

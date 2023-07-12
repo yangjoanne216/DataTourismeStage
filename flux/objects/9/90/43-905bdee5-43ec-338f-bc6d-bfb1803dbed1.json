@@ -1,0 +1,4828 @@
+{
+  "@id": "https://data.datatourisme.fr/43/905bdee5-43ec-338f-bc6d-bfb1803dbed1",
+  "dc:identifier": "59565",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "HÔTEL RESTAURANT LE D'ARTAGNAN"
+    ]
+  },
+  "allowedPersons": 19,
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/53513940-c8e8-30b0-b260-d3ad89cffbe6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0e8ccdae-fd66-392b-ae76-f9ffa298f8bd",
+          "schema:addressLocality": "Vic-Fezensac",
+          "schema:postalCode": "32190",
+          "schema:streetAddress": [
+            "3 Cours Delom",
+            "HOTEL RESTAURANT LE D'ARTAGNAN"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32462",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Vic-Fezensac"
+              ],
+              "pt": [
+                "Vic-Fezensac"
+              ],
+              "en": [
+                "Vic-Fezensac"
+              ],
+              "it": [
+                "Vic-Fezensac"
+              ],
+              "fr": [
+                "Vic-Fezensac"
+              ],
+              "nl": [
+                "Vic-Fezensac"
+              ],
+              "es": [
+                "Vic-Fezensac"
+              ]
+            },
+            "insee": "32462",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "ledartagnan32@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 06 31 37"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://www.ledartagnanhotel.com/"
+      ],
+      "siret": "45124960100019"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/fe2a6003-4bfb-3bc8-a63e-82450f414e20",
+      "dc:description": {
+        "de": [
+          "Das d'Artagnan Hotel & Restaurant ist seit vielen Jahren im Herzen von Vic-Fezensac ansässig.  Es liegt weniger als 30 Kilometer von Auch, der Hauptstadt des Gers im Südwesten, entfernt.\n\nDas Restaurant wird Sie mit seiner familiären und traditionellen Küche verwöhnen. Hier können Sie lokale Spezialitäten mit frischen Produkten aus der Region probieren, aber auch Rippe mit Knochen, Schokoladenfondant?\n\nDas Hotel wurde vollständig renoviert. Wir schlagen Ihnen vor, einen Aufenthalt in einem unserer neun Zimmer zu verbringen, die jeweils mit Dusche, WC und TV ausgestattet sind.\n\nDAS HOTEL IST FÜR DIE FÉRIA DE PENTECOST UND DAS FESTIVAL TEMPO LATINO AUSGEBUCHT"
+        ],
+        "en": [
+          "The d'Artagnan Hotel & Restaurant has been located in the heart of Vic-Fezensac for many years.  The establishment is located less than 30 kilometres from Auch, the capital of the Gers in the south-west.\n\nThe restaurant will delight you with its family and traditional cuisine. You will taste local specialities based on fresh local products, but also the rib on the bone, the chocolate fondant..\n\nThe hotel has been completely renovated. We propose you to come and spend a stay in one of our nine rooms, each equipped with shower, WC and TV.\n\nTHE HOTEL IS FULLY BOOKED FOR THE PENTECOST FAIR AND THE TEMPO LATINO FESTIVAL"
+        ],
+        "it": [
+          "L'Hotel & Restaurant d'Artagnan si trova da molti anni nel cuore di Vic-Fezensac.  La struttura si trova a meno di 30 chilometri da Auch, capoluogo del Gers, nel sud-ovest.\n\nIl ristorante vi delizierà con la sua tradizionale cucina familiare. Potrete gustare le specialità locali a base di prodotti freschi del territorio, ma anche la costata con l'osso, il fondente al cioccolato?\n\nL'hotel è stato completamente rinnovato. Vi proponiamo di venire a soggiornare in una delle nostre nove camere, tutte dotate di doccia, WC e TV.\n\nL'HOTEL È AL COMPLETO PER LA FIERA DI PENTECOSTE E IL FESTIVAL TEMPO LATINO"
+        ],
+        "fr": [
+          "Le d'Artagnan Hôtel & Restaurant est installé au coeur de Vic-Fezensac depuis de nombreuses années.  L'établissement se situe à moins de 30 kilomètres d'Auch, la capitale du Gers dans le sud-ouest.\n\nLe restaurant vous comblera grâce à sa cuisine familiale et traditionnelle. Vous y dégusterez des spécialités locales à base de produits frais du terroir, mais aussi la côte à l’os, le fondant au chocolat…\n\nL'hôtel est entièrement rénové. Nous vous proposons de venir passer un séjour dans l’une de nos neuf chambres, chacune équipée avec chacune douche, WC et TV.\n\nL'HOTEL EST COMPLET POUR LA FÉRIA DE PENTECÔTE ET LE FESTIVAL TEMPO LATINO"
+        ],
+        "nl": [
+          "Het d'Artagnan Hotel & Restaurant ligt al vele jaren in het hart van Vic-Fezensac.  Het etablissement ligt op minder dan 30 kilometer van Auch, de hoofdstad van de Gers in het zuidwesten.\n\nHet restaurant zal u verrukken met zijn traditionele familiekeuken. U geniet van lokale specialiteiten gemaakt met verse streekproducten, maar ook van de rib op het bot, de chocolade fondant?\n\nHet hotel is volledig gerenoveerd. Wij stellen u voor te komen logeren in een van onze negen kamers, elk voorzien van een douche, WC en TV.\n\nHET HOTEL IS VOLGEBOEKT VOOR DE PINKSTERBEURS EN HET TEMPO LATINO FESTIVAL.."
+        ],
+        "es": [
+          "El Hotel & Restaurant d'Artagnan está situado en el corazón de Vic-Fezensac desde hace muchos años.  El establecimiento está situado a menos de 30 kilómetros de Auch, la capital del Gers, en el suroeste.\n\nEl restaurante le deleitará con su cocina familiar tradicional. Disfrutará de especialidades locales elaboradas con productos frescos de la tierra, pero también de la costilla con hueso, el fondant de chocolate?\n\nEl hotel ha sido completamente renovado. Le proponemos que venga a alojarse en una de nuestras nueve habitaciones, todas ellas equipadas con ducha, WC y TV.\n\nEL HOTEL ESTÁ COMPLETO PARA LA FERIA DE PENTECOSTÉS Y EL FESTIVAL TEMPO LATINO"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/13846f2b-d5ac-3c56-b5dd-f78db56905c5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7070ff4b-9af1-3daf-815d-7cf1ddc5dd95",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/90854ad8-c45f-3387-948a-e880e4415c21",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c8b2947c-7f24-33e3-82f5-f24066118ad1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f570bb42-aa96-3bfb-b969-33e241bbaecd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/38d61774-e4dd-328d-99ef-96193017544f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56549fce-ea21-3f66-8b97-a309ad02f68f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/89c8069a-91e7-3b09-8a0a-67956fb755e6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShuttleAirportOrRailwayStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Flughafen- oder Bahnhof-Shuttle"
+            ],
+            "pt": [
+              "Transporte para o aeroporto ou a estação ferroviária"
+            ],
+            "en": [
+              "Shuttle airport or railway station"
+            ],
+            "it": [
+              "Navetta per l'aeroporto o la stazione ferroviaria"
+            ],
+            "fr": [
+              "Navette aéroport ou gare"
+            ],
+            "es": [
+              "Transporte al aeropuerto o a la estación de tren"
+            ],
+            "nl": [
+              "Shuttledienst naar luchthaven of treinstation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9727fa1f-755d-3863-970a-3d5da984e949",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9a5a3bf3-c04b-3059-adb7-202e10778ffc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Seminar",
+          "@type": [
+            "AccommodationAmenity",
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Seminar"
+            ],
+            "pt": [
+              "Seminário"
+            ],
+            "en": [
+              "Seminar"
+            ],
+            "it": [
+              "Seminario"
+            ],
+            "fr": [
+              "Séminaire"
+            ],
+            "es": [
+              "Seminario"
+            ],
+            "nl": [
+              "Seminar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b7c14ee0-37c3-30b5-86f0-a7ea222dd012",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 9
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b832802a-5252-3ff9-992d-82e0277fcb48",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bb3c5c6c-3098-3ec7-8ee4-370017440e0c",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ],
+      "occupancy": 50
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bee10955-7d75-3a4a-8391-1db4c67ccef3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Washrooms",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletteneinrichtungen"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Washrooms"
+            ],
+            "it": [
+              "Sanitari"
+            ],
+            "fr": [
+              "Sanitaires"
+            ],
+            "es": [
+              "Sanitarios"
+            ],
+            "nl": [
+              "Sanitair"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c1e28ac5-1ee5-3701-811d-14618c1129b3",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ReceptionRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Empfangsraum"
+            ],
+            "pt": [
+              "Sala de receção"
+            ],
+            "en": [
+              "Reception room"
+            ],
+            "it": [
+              "Sala di ricevimento"
+            ],
+            "fr": [
+              "Salle de réception"
+            ],
+            "es": [
+              "Sala de recepción"
+            ],
+            "nl": [
+              "Ontvangstruimte"
+            ]
+          }
+        }
+      ],
+      "occupancy": 50
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca034818-4da7-31b0-ae8d-d5eb5407a6a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cdc71f72-6de8-3cee-83d4-94b59c99d456",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb9db300-66ad-345d-98ab-2b43c3315d04",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fc6204e5-1899-385c-8915-e1be44a9c8f0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Cloakroom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garderoberaum"
+            ],
+            "pt": [
+              "Vestiário"
+            ],
+            "en": [
+              "Cloakroom"
+            ],
+            "it": [
+              "Guardaroba"
+            ],
+            "fr": [
+              "Vestiaire"
+            ],
+            "es": [
+              "Ropero"
+            ],
+            "nl": [
+              "Garderobe"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/9680b2a7-4ea7-33ee-89a3-716c45d03e65",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/083dfa6e-28e0-3a92-8fee-503471f6b0bd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection tourisme gers/ot vic/le d'artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d65f6006-3342-3703-afa5-96be72abc988",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0060992.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/14295f24-8070-387b-aaee-5964dbc1c9a1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/083dfa6e-28e0-3a92-8fee-503471f6b0bd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection tourisme gers/ot vic/le d'artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/40734470-d76d-37e5-901b-987af521cf48",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0060989.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1fa7b5b6-a70d-388c-a321-d319a12467df",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/07eb2f2b-1932-3cc4-acef-ea956e9549fd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Le D'Artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/befd1626-8c41-3a93-99d5-db3f07deff40",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0030362.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2ddc2a55-6f3e-34c2-8e8d-ff8e57c21fce",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/07eb2f2b-1932-3cc4-acef-ea956e9549fd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Le D'Artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/bc514d41-d863-3436-9bda-e2065f521d70",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0030360.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/32495298-a1ae-33d0-96b1-66474e0d9a2f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/083dfa6e-28e0-3a92-8fee-503471f6b0bd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection tourisme gers/ot vic/le d'artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/49abafca-90c2-3abe-b497-5cc57eb25f1a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0060990.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/486c59a5-ba21-31bc-824c-f8c602d7dcde",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/07eb2f2b-1932-3cc4-acef-ea956e9549fd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Le D'Artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/a7c0b78f-764e-37ef-8765-8778d74f8af9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0030338.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5ebfa556-9ae9-3cf0-8a60-bc932aca4923",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/07eb2f2b-1932-3cc4-acef-ea956e9549fd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Le D'Artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/99de9d09-f522-3a44-b94e-4feda8fc7df4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0030310.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/774767f5-f38b-3180-b131-c7c48432108c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/083dfa6e-28e0-3a92-8fee-503471f6b0bd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection tourisme gers/ot vic/le d'artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/bf2845b0-bbdf-3ff7-af5a-9835987e2bf6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0060991.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/89271b11-8ac0-35f0-836c-076ddc8a6580",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/07eb2f2b-1932-3cc4-acef-ea956e9549fd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Le D'Artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/405c7d0e-fb07-314e-9c69-6df749f6bae3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0030359.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9680b2a7-4ea7-33ee-89a3-716c45d03e65",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/083dfa6e-28e0-3a92-8fee-503471f6b0bd",
+          "ebucore:title": {
+            "fr": [
+              "HOTEL"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection tourisme gers/ot vic/le d'artagnan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d65f6006-3342-3703-afa5-96be72abc988",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0060992.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/78d35f97-f83d-37b3-ab40-acafa574829d",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4045b84b-9865-38c8-b93d-62a5b132458f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0e8ccdae-fd66-392b-ae76-f9ffa298f8bd",
+          "schema:addressLocality": "Vic-Fezensac",
+          "schema:postalCode": "32190",
+          "schema:streetAddress": [
+            "3 Cours Delom",
+            "HOTEL RESTAURANT LE D'ARTAGNAN"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32462",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Vic-Fezensac"
+              ],
+              "pt": [
+                "Vic-Fezensac"
+              ],
+              "en": [
+                "Vic-Fezensac"
+              ],
+              "it": [
+                "Vic-Fezensac"
+              ],
+              "fr": [
+                "Vic-Fezensac"
+              ],
+              "nl": [
+                "Vic-Fezensac"
+              ],
+              "es": [
+                "Vic-Fezensac"
+              ]
+            },
+            "insee": "32462",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/693f5a2d-9b89-316a-a4a4-602c951fd539",
+        "schema:latitude": "43.7582608",
+        "schema:longitude": "0.303516",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-12-15",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.463Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/b3300380-b121-3ad0-b283-65df8e040de1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/091714df-9e81-3103-8c7a-0fdefd8203e5",
+          "schema:maxPrice": [
+            "55"
+          ],
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/142f31b4-aec1-33a7-b090-59f0590debb1",
+          "schema:maxPrice": [
+            "52"
+          ],
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/147fb525-a174-3498-89df-03dd122c7920",
+          "schema:price": "64",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "par personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2ea06be4-b2a9-308f-a098-45013349744e",
+          "schema:maxPrice": [
+            "50"
+          ],
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "ohne Frühstück"
+            ],
+            "en": [
+              "without breakfast"
+            ],
+            "it": [
+              "senza colazione"
+            ],
+            "fr": [
+              "sans le petit déjeuner"
+            ],
+            "nl": [
+              "zonder ontbijt"
+            ],
+            "es": [
+              "sin desayuno"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/21a968fa-c9b7-3da7-9418-a863bb1970a1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4c31d8e6-5168-33ea-bd99-6f82e66c00d8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8d537fbb-f2fd-32dc-b4c4-25ffc41f5d19",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9a1ba0ea-3e06-3f78-b42a-c4e19055f420",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e489307d-b6d9-31a5-bfe6-902a7bb204d0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/356d2e82-e2fd-35cc-828f-c0c7b58f64d7",
+          "schema:price": "15",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Lit supplémentaire"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3dd46e9f-437e-39b0-b632-0edb511961f5",
+          "schema:price": "28",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5140a46c-3398-386b-a497-b8678cfe1133",
+          "schema:maxPrice": [
+            "30"
+          ],
+          "schema:minPrice": [
+            "15"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Lit supplémentaire"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7a464991-1a12-3030-9812-af9fa7ad6d32",
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8165ff96-c48d-31f4-ae34-1bad1bc3783a",
+          "schema:minPrice": [
+            "0.75"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristTax",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kurtaxe"
+                ],
+                "pt": [
+                  "Taxa de estadia"
+                ],
+                "en": [
+                  "Tourist Tax"
+                ],
+                "it": [
+                  "Tassa di soggiorno"
+                ],
+                "fr": [
+                  "Taxe de séjour"
+                ],
+                "nl": [
+                  "Toeristenbelasting"
+                ],
+                "es": [
+                  "Impuesto turístico"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "1 PERSONNE"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/81ddacc9-de00-3fe9-a256-cc460386ccff",
+          "schema:price": "45",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/83f9a8db-e583-3914-8160-e8a922643ca3",
+          "schema:price": "64",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "par personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8a081fa3-5e3e-3b97-9f0f-d63d5384a25c",
+          "schema:price": "6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/957d29f7-f0ee-3f6f-bb94-867725cc2d79",
+          "schema:price": "5",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a210755b-7441-3cc1-83bd-be5557740162",
+          "schema:price": "15",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Single"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b731b697-93bc-327d-a9bc-35b492198681",
+          "schema:price": "52",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "par personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bc324d67-2ec7-3f3b-bd60-b70dfe4c215c",
+          "schema:price": "42",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "1 personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bda7cc05-a3f1-3851-bce3-ae8341ffddf1",
+          "schema:price": "35",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Konferenzraum, 2 Mahlzeiten, 1 Mittagessen, 2 Pausen"
+            ],
+            "en": [
+              "Meeting room, 2 meals, 1 lunch, 2 breaks"
+            ],
+            "it": [
+              "Sala riunioni, 2 pasti, 1 pranzo, 2 pause"
+            ],
+            "fr": [
+              "Salle de réunion, 2 repas, 1 déjeuner, 2 pauses"
+            ],
+            "nl": [
+              "Vergaderzaal, 2 maaltijden, 1 lunch, 2 pauzes"
+            ],
+            "es": [
+              "Sala de reuniones, 2 comidas, 1 almuerzo, 2 pausas"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/38488429-4136-3f21-ad58-97d97589194d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8f7be5b0-760b-3741-a718-e888feb158e8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ac1a521d-31e4-38c0-b742-04078d1f4117",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aede14b8-3e84-343e-bffe-1c2381f94734",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e41a83f9-68a1-3697-9084-c862972f5a96",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "séminaire avec hébergement"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c4a2fb6b-422b-3662-879a-93715da0d485",
+          "schema:minPrice": [
+            "42"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "(1 personne)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d3e5c462-b215-3718-94ab-ae0203e7f8b3",
+          "schema:maxPrice": [
+            "6"
+          ],
+          "schema:minPrice": [
+            "6"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/df3ef560-1f5c-3f9c-adf1-ce68a1d395ca",
+          "schema:maxPrice": [
+            "65"
+          ],
+          "schema:minPrice": [
+            "55"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ec15a5fe-1f8b-3242-ae52-5e7817251e2b",
+          "schema:price": "52",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "par personne"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ee4fd7a3-743c-3918-a61c-c122df3c9e31",
+          "schema:maxPrice": [
+            "55"
+          ],
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fd64a35d-9a10-3035-afde-48a310ee2586",
+          "schema:maxPrice": [
+            "58"
+          ],
+          "schema:minPrice": [
+            "48"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

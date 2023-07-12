@@ -1,0 +1,686 @@
+{
+  "@id": "https://data.datatourisme.fr/58/28f45da4-a6cd-37f8-9604-cdf15c0fc9de",
+  "dc:identifier": "5521622",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Pizza \"Au bon coin\""
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/b440509a-0106-386a-a7bc-2ea9df0a1dab",
+    "dc:identifier": "2188",
+    "schema:email": [
+      "p.diana@venelles.fr"
+    ],
+    "schema:legalName": "Mairie de Venelles",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.venelles.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/abac5636-e9ea-3b0a-ac3d-5070d0a7e9e5",
+      "schema:legalName": "Provence Tourisme / Mairie de Venelles",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1b4dff36-b1a9-308e-afb3-b4aa10451340",
+      "schema:email": [
+        "auboncoin13770@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 4 42 54 06 48"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/e9e359cc-2c34-3d5a-9b45-8b4f5464171a",
+      "dc:description": {
+        "de": [
+          "Pizzas zum Mitnehmen."
+        ],
+        "en": [
+          "Pizza to go."
+        ],
+        "it": [
+          "Pizze da asporto."
+        ],
+        "fr": [
+          "Pizzas à emporter."
+        ],
+        "es": [
+          "Pizzas para llevar."
+        ],
+        "nl": [
+          "Pizza's om mee te nemen."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2442766b-896a-3561-bbd9-161eed247a83",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/790fa5e0-47b0-37ab-8600-0e861d33db77",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a3d790f8-3901-33e7-aac3-e6ce24ee3d00",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a5f06fd0-8e8e-3698-878b-40d0213c8e81",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ac6e01b5-e6a2-375e-82cb-9848422d8388",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/76042e14-a801-3583-970d-2a263b780591",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CateringOnSite",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verpflegung vor Ort"
+            ],
+            "pt": [
+              "Restauração no local"
+            ],
+            "en": [
+              "Catering on site"
+            ],
+            "it": [
+              "Ristorazione in loco"
+            ],
+            "fr": [
+              "Restauration sur place"
+            ],
+            "es": [
+              "Restauración in situ"
+            ],
+            "nl": [
+              "Eetgelegenheid ter plaatse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/be130c02-7eee-384e-91b8-9f3e87fd4da1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "in der Stadt"
+        ],
+        "pt": [
+          "Na cidade"
+        ],
+        "en": [
+          "In town"
+        ],
+        "it": [
+          "In città"
+        ],
+        "fr": [
+          "En ville"
+        ],
+        "nl": [
+          "In de stad"
+        ],
+        "es": [
+          "En la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/124af453-d62f-3d78-9d60-28148e4f5556",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a186336b-f422-37bb-a655-9f6f5dd5484d",
+          "ebucore:title": {
+            "fr": [
+              "13REST000480_1_WEB.jpg"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/bb360423-41f3-3e7c-9f9d-269ee14e317d",
+          "ebucore:fileSize": [
+            "23158"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "186",
+          "ebucore:locator": [
+            "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/178/92/8281266.jpg"
+          ],
+          "ebucore:width": "300",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "in der Stadt"
+        ],
+        "pt": [
+          "Na cidade"
+        ],
+        "en": [
+          "In town"
+        ],
+        "it": [
+          "In città"
+        ],
+        "fr": [
+          "En ville"
+        ],
+        "nl": [
+          "In de stad"
+        ],
+        "es": [
+          "En la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:MediterraneanCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Mediterrane Küche"
+        ],
+        "pt": [
+          "Cozinha mediterrânica"
+        ],
+        "en": [
+          "Mediterranean cuisine"
+        ],
+        "it": [
+          "Cucina mediterranea"
+        ],
+        "fr": [
+          "Cuisine méditerranéenne"
+        ],
+        "nl": [
+          "Mediterrane keuken"
+        ],
+        "es": [
+          "Cocina mediterránea"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/24d4f3bc-45d2-347f-9cf9-bb941504cf2c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/940f578c-d691-3d2d-abbf-9acfb1e6f911",
+          "schema:addressLocality": "Venelles",
+          "schema:postalCode": "13770",
+          "schema:streetAddress": [
+            "48ter Avenue Maurice Plantier"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13113",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Venelles"
+              ],
+              "pt": [
+                "Venelles"
+              ],
+              "en": [
+                "Venelles"
+              ],
+              "it": [
+                "Venelles"
+              ],
+              "fr": [
+                "Venelles"
+              ],
+              "nl": [
+                "Venelles"
+              ],
+              "es": [
+                "Venelles"
+              ]
+            },
+            "insee": "13113",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9db76a01-33ab-3756-b775-0c87ee361afd",
+        "schema:latitude": "43.598929",
+        "schema:longitude": "5.485118",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/77a9b797-c0b0-3bf1-b479-128a47c61a68",
+      "schema:email": [
+        "p.diana@venelles.fr"
+      ],
+      "schema:legalName": "Mairie de Venelles",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.venelles.fr/"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-05-03",
+  "lastUpdateDatatourisme": "2023-01-31T19:41:29.222Z",
+  "providesCuisineOfType": [
+    {
+      "@id": "kb:MediterraneanCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Mediterrane Küche"
+        ],
+        "pt": [
+          "Cozinha mediterrânica"
+        ],
+        "en": [
+          "Mediterranean cuisine"
+        ],
+        "it": [
+          "Cucina mediterranea"
+        ],
+        "fr": [
+          "Cuisine méditerranéenne"
+        ],
+        "nl": [
+          "Mediterrane keuken"
+        ],
+        "es": [
+          "Cocina mediterránea"
+        ]
+      }
+    }
+  ],
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,938 @@
+{
+  "@id": "https://data.datatourisme.fr/23/2b7e3c2f-2bfd-36c1-a52d-05b0d3f3b2ed",
+  "dc:identifier": "ITIAQU023V5003V8",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "HorseTour",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Circuit de randonnée : Jean Petit"
+    ]
+  },
+  "creationDate": "2023-01-12",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/23/1bd9e3a9-901d-3990-a138-6d342b870016",
+    "dc:identifier": "5bca789e-c2dd-4356-b51e-7c8fa776abce",
+    "schema:legalName": "Creuse Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/b88feb30-5945-33ea-a9e4-15ce05d62dfd",
+      "schema:email": [
+        "sirtaqui@na-tourisme.com"
+      ],
+      "schema:legalName": "SIRTAQUI Nouvelle-Aquitaine",
+      "schema:logo": "http://aquitaine.media.tourinsoft.eu/upload/Logo-Sirtaqui-1280x405.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "rdfs:comment": {
+        "fr": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ]
+      },
+      "foaf:homepage": [
+        "http://www.sirtaqui-aquitaine.com/"
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/73d2572c-be8e-33c7-8bd2-afd8917b6810",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5a7d140e-a8a7-3973-a9b2-16b518e03067",
+          "ebucore:title": {
+            "fr": [
+              "Libre de droit"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Pixabay"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d642fbdb-b421-32d9-8075-29a8b797b1d6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/629934-tree-779827-1280.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/037e5a8d-f979-3eb4-a261-2a1e87d00161",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:MediumDifficultyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mittlere Schwierigkeit"
+            ],
+            "pt": [
+              "Dificuldade média"
+            ],
+            "en": [
+              "Medium difficulty"
+            ],
+            "it": [
+              "Difficoltà media"
+            ],
+            "fr": [
+              "Difficulté moyenne"
+            ],
+            "nl": [
+              "Gemiddelde moeilijkheidsgraad"
+            ],
+            "es": [
+              "Dificultad media"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ],
+      "practicalTips": {
+        "fr": [
+          "Durée: 3h30"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c579224f-182f-3617-917f-f7dd46874d83",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:HorsebackMode",
+          "@type": [
+            "EquestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Reiten"
+            ],
+            "pt": [
+              "Passeios a cavalo"
+            ],
+            "en": [
+              "Horseback riding"
+            ],
+            "it": [
+              "Equitazione"
+            ],
+            "fr": [
+              "A cheval"
+            ],
+            "nl": [
+              "Paardrijden"
+            ],
+            "es": [
+              "A caballo"
+            ]
+          }
+        }
+      ],
+      "practicalTips": {
+        "fr": [
+          "Durée: 1h30"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d3ef849a-5099-3a9c-8554-2245f2b8a2d0",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:MBMode",
+          "@type": [
+            "BicycleLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mit Mountainbikes"
+            ],
+            "pt": [
+              "Com bicicletas de montanha"
+            ],
+            "en": [
+              "With mountain bikes"
+            ],
+            "it": [
+              "Con le mountain bike"
+            ],
+            "fr": [
+              "En VTT"
+            ],
+            "nl": [
+              "Met mountainbikes"
+            ],
+            "es": [
+              "Con bicicletas de montaña"
+            ]
+          }
+        }
+      ],
+      "practicalTips": {
+        "fr": [
+          "Durée: 1h"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/289fd253-0085-3955-801d-c04b48d548f8",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d8e1f411-8bea-3997-8055-7766d3e69661",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:KML",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "KML-Datei"
+                ],
+                "pt": [
+                  "Ficheiro XML"
+                ],
+                "en": [
+                  "KML file"
+                ],
+                "it": [
+                  "File KML"
+                ],
+                "fr": [
+                  "Fichier KML"
+                ],
+                "nl": [
+                  "KML-bestand"
+                ],
+                "es": [
+                  "Archivo KML"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "pt": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "en": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "it": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "fr": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "nl": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "es": [
+                  "application/vnd.google-earth.kml+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/circuit-de-randonnee--jean-petit-1.kml"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2d0539d2-1ff2-3cd2-b7e8-b7112b55daee",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5b7eb918-f43f-3d07-ba03-b17a3c46d256",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/circuit-de-randonnee--jean-petit-1.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/73d2572c-be8e-33c7-8bd2-afd8917b6810",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5a7d140e-a8a7-3973-a9b2-16b518e03067",
+          "ebucore:title": {
+            "fr": [
+              "Libre de droit"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Pixabay"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d642fbdb-b421-32d9-8075-29a8b797b1d6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/629934-tree-779827-1280.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c754f72f-94c6-3214-a4fd-adbef5780c97",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ba0c9426-5727-3d8c-acef-aa8f0752b274",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:PDF",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "PDF-Datei"
+                ],
+                "pt": [
+                  "Ficheiro PDF"
+                ],
+                "en": [
+                  "PDF file"
+                ],
+                "it": [
+                  "File PDF"
+                ],
+                "fr": [
+                  "Adobe Portable Document Format"
+                ],
+                "nl": [
+                  "Pdf-bestand"
+                ],
+                "es": [
+                  "Archivo PDF"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/pdf"
+                ],
+                "pt": [
+                  "application/pdf"
+                ],
+                "en": [
+                  "application/pdf"
+                ],
+                "it": [
+                  "application/pdf"
+                ],
+                "fr": [
+                  "application/pdf"
+                ],
+                "nl": [
+                  "application/pdf"
+                ],
+                "es": [
+                  "application/pdf"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/upload/692178-puy-malsignat---circuit-jean-petit.pdf"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:FaunaFlora",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fauna – Flora"
+        ],
+        "pt": [
+          "Fauna — flora"
+        ],
+        "en": [
+          "Fauna - flora"
+        ],
+        "it": [
+          "Fauna - Flora"
+        ],
+        "fr": [
+          "Faune - flore"
+        ],
+        "nl": [
+          "Fauna - flora"
+        ],
+        "es": [
+          "Fauna - flora"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PlantsAndFlower",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Pflanze und Blume"
+        ],
+        "pt": [
+          "Plantas e flores"
+        ],
+        "en": [
+          "Plants and flower"
+        ],
+        "it": [
+          "Pianta e fiore"
+        ],
+        "fr": [
+          "Plante et fleur"
+        ],
+        "es": [
+          "Plantas y flores"
+        ],
+        "nl": [
+          "Bloemen en planten"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schleifenroute"
+        ],
+        "pt": [
+          "Circular"
+        ],
+        "en": [
+          "Loop itinerary"
+        ],
+        "it": [
+          "Ad anello"
+        ],
+        "fr": [
+          "En boucle"
+        ],
+        "nl": [
+          "In een lus"
+        ],
+        "es": [
+          "Circuito"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/e6e23166-1a50-31ad-a165-2981e0da1628",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4a0a4ded-0a0b-3950-9a7f-3a2b85d083e0",
+          "schema:addressLocality": "Puy-Malsignat",
+          "schema:postalCode": "23130",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:23159",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Puy-Malsignat"
+              ],
+              "pt": [
+                "Puy-Malsignat"
+              ],
+              "en": [
+                "Puy-Malsignat"
+              ],
+              "it": [
+                "Puy-Malsignat"
+              ],
+              "fr": [
+                "Puy-Malsignat"
+              ],
+              "nl": [
+                "Puy-Malsignat"
+              ],
+              "es": [
+                "Puy-Malsignat"
+              ]
+            },
+            "insee": "23159",
+            "isPartOfDepartment": {
+              "@id": "kb:France7523",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Creuse"
+                ],
+                "pt": [
+                  "Creuse"
+                ],
+                "en": [
+                  "Creuse"
+                ],
+                "it": [
+                  "Creuse"
+                ],
+                "fr": [
+                  "Creuse"
+                ],
+                "nl": [
+                  "Creuse"
+                ],
+                "es": [
+                  "Creuse"
+                ]
+              },
+              "insee": "23",
+              "isPartOfRegion": {
+                "@id": "kb:France75",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "pt": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "en": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "it": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "fr": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "nl": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "es": [
+                    "Nouvelle-Aquitaine"
+                  ]
+                },
+                "insee": "75",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/05eaa17b-a1eb-3b91-ac23-388de6b92dd5",
+        "schema:latitude": "46.03731",
+        "schema:longitude": "2.21756",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-01",
+  "lastUpdateDatatourisme": "2023-06-20T16:34:08.421Z",
+  "tourDistance": "12287.0"
+}

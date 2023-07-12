@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/5cb6f167-501f-304a-bcd3-7f2c6d115fdf",
+  "dc:identifier": "9059eb6c-c9f2-11eb-afad-0050569afc27",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "AIDEN Paris Roissy"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/035061f1-29c7-3b32-b95a-0d873f9650c5",
+      "schema:email": [
+        "reception@bwcdg.com"
+      ],
+      "schema:telephone": [
+        "+33 1 77 80 22 01"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.hotelespritlibre.com/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/8e561a6f-f691-3d28-9e36-c150c31b5fbb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/2556991f-4cc7-3853-9615-6c79a3d9bf88",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/43360b04-6559-3398-99ce-3094224dca6c",
+          "schema:addressLocality": "Roissy-en-France",
+          "schema:postalCode": "95700",
+          "schema:streetAddress": [
+            "4 allée des Vergers"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:95527",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Roissy-en-France"
+              ],
+              "pt": [
+                "Roissy-en-France"
+              ],
+              "en": [
+                "Roissy-en-France"
+              ],
+              "it": [
+                "Roissy-en-France"
+              ],
+              "fr": [
+                "Roissy-en-France"
+              ],
+              "nl": [
+                "Roissy-en-France"
+              ],
+              "es": [
+                "Roissy-en-France"
+              ]
+            },
+            "insee": "95527",
+            "isPartOfDepartment": {
+              "@id": "kb:France1195",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Val-d'Oise"
+                ],
+                "pt": [
+                  "Val-d'Oise"
+                ],
+                "en": [
+                  "Val-d'Oise"
+                ],
+                "it": [
+                  "Val-d'Oise"
+                ],
+                "fr": [
+                  "Val-d'Oise"
+                ],
+                "nl": [
+                  "Val-d'Oise"
+                ],
+                "es": [
+                  "Val-d'Oise"
+                ]
+              },
+              "insee": "95",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/f3141ed6-08fc-3d39-96f1-9c9bf6753553",
+        "schema:latitude": "49.00443",
+        "schema:longitude": "2.51703",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-04-05",
+  "lastUpdateDatatourisme": "2023-06-11T21:13:26.154Z",
+  "reducedMobilityAccess": false
+}

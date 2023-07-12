@@ -1,0 +1,991 @@
+{
+  "@id": "https://data.datatourisme.fr/49/2756f8de-b010-3799-a76b-e55774f9dbe9",
+  "dc:identifier": "ASCPDL049V50F9Q4",
+  "@type": [
+    "schema:Product",
+    "EquipmentRental",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "LOCATION DU BATEAU HABITABLE ANGUILLE SOUS ROCHE"
+    ]
+  },
+  "creationDate": "2021-11-19",
+  "hasAudience": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/8ede64d3-59d7-3f50-ab61-ca6f0e5af9ff",
+      "schema:email": [
+        "fabien@anguille-sous-roche.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 75 61 60 63"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://anguille-sous-roche.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/37132cdf-0c32-38d2-9d10-9fe38b12fab6",
+      "dc:description": {
+        "de": [
+          "Stellen Sie sich vor, Sie verbringen einen zeitlosen Moment auf einer auf der Loire schwimmenden Kabanentrommel.... für eine Stunde oder einen Tag, einen schwebenden Moment mit der Familie oder mit Freunden\n\nSie privatisieren und mieten das Boot für vier Personen (Kapazität: 2 Erwachsene und 2 Kinder) und durchstreifen den Fluss im Rhythmus der Strömung... Das ist die Gelegenheit, eine originelle Pause von Ihrer üblichen Routine zu machen!\n\nFabien , der Bootsführer, begleitet Sie während der gesamten Mietdauer, damit Sie den Moment genießen können. Bei einer Tagesmiete kann er Ihnen verschiedene Etappen und Haltestellen vorschlagen, um die hübschen Dörfer am Ufer der Loire zu entdecken. Diese Mietformel umfasst: den Fahrer, den Treibstoff, die Versicherungen, die VNF-Gebühren und die Kosten für die Anlegestelle\n\nDie Navigation ist von Montag bis Freitag möglich (und am Samstag für die 6-Tage-Strecke)."
+        ],
+        "en": [
+          "Imagine spending a moment out of time on a \"toue cabanée\" floating on the Loire River.... for 1 hour, or a day, a suspended moment with family or friends\n\nYou can rent the boat for four people (capacity: 2 adults and 2 children) and paddle the river to the rhythm of the current... It's an opportunity to take an original break from your usual routine!\n\nFabien, the pilot, will accompany you throughout the rental period to let you enjoy the moment. For the day rental, he can propose you different stages and stops to discover the beautiful villages of the Loire Valley. This rental formula includes: the pilot, fuel, insurance, VNF taxes and mooring fees\n\nSailing is possible from Monday to Friday (and on Saturday for the 6 day trip)."
+        ],
+        "it": [
+          "Immaginate di trascorrere un momento fuori dal tempo su una \"toue cabanée\" che galleggia sulla Loira.... per 1 ora, o un giorno, un momento sospeso con la famiglia o gli amici\n\nPotete noleggiare la barca per quattro persone (capacità: 2 adulti e 2 bambini) e pagaiare sul fiume al ritmo della corrente... È un'occasione per fare una pausa originale dalla solita routine!\n\nFabien, il pilota, vi accompagnerà per tutta la durata del noleggio per farvi godere il momento. Per una giornata di noleggio, può offrirvi diverse tappe e fermate per scoprire i graziosi villaggi sulle rive della Loira. Questa formula di noleggio comprende: il pilota, il carburante, l'assicurazione, le tasse VNF e le spese di ormeggio\n\nÈ possibile navigare dal lunedì al venerdì (e il sabato per il viaggio di 6 giorni)."
+        ],
+        "fr": [
+          "Imaginez-vous passer un moment hors du temps sur une toue cabanée flottant sur la Loire.... pour 1h, ou une journée, un moment suspendu en famille ou entre amis. \n\nVous privatisez et louez le bateau pour quatre personnes (capacité : 2 adultes et 2 enfants) et arpentez le fleuve au rythme du courant… C'est l'occasion de faire une pause originale loin de votre routine habituelle !\n\nFabien , le pilote vous accompagne pour toute cette location afin de vous laisser profiter du moment. Pour la location à la journée, il peut vous proposer différentes étapes et arrêts pour découvrir les jolis villages de bords de Loire. Cette formule de location comprend : le pilote, le carburant,  les assurances, les taxes VNF et frais d'amarrage. \n\nLa navigation est possible du lundi au vendredi (et le samedi pour le parcours 6 jours)."
+        ],
+        "nl": [
+          "Stel u voor dat u een moment buiten de tijd doorbrengt op een \"toue cabanée\" die 1 uur of een dag op de Loire.... drijft, een zwevend moment met familie of vrienden\n\nU kunt de boot huren voor vier personen (capaciteit: 2 volwassenen en 2 kinderen) en op het ritme van de stroming over de rivier varen... Dit is een gelegenheid om een originele pauze in te lassen van uw gebruikelijke routine!\n\nFabien, de piloot, zal u gedurende de hele huurperiode begeleiden om u van het moment te laten genieten. Voor de dagverhuur kan hij u verschillende etappes en haltes voorstellen om de prachtige dorpen van de Loirevallei te ontdekken. Deze huurformule omvat: de loods, brandstof, verzekering, VNF-belastingen en liggeld\n\nVaren is mogelijk van maandag tot en met vrijdag (en op zaterdag voor de 6-daagse tocht)."
+        ],
+        "es": [
+          "Imagínese pasar un momento fuera del tiempo en una \"toue cabanée\" flotando en el Loira.... durante 1 hora, o un día, un momento suspendido con la familia o los amigos\n\nPuede alquilar el barco para cuatro personas (capacidad: 2 adultos y 2 niños) y navegar por el río al ritmo de la corriente... ¡Es una oportunidad para hacer una pausa original en su rutina habitual!\n\nFabien, el piloto, le acompañará durante todo el periodo de alquiler para que pueda disfrutar del momento. Por un día de alquiler, puede ofrecerle diferentes etapas y paradas para descubrir los bonitos pueblos de las orillas del Loira. Esta fórmula de alquiler incluye: el piloto, el combustible, el seguro, los impuestos VNF y las tasas de amarre\n\nSe puede navegar de lunes a viernes (y el sábado para el viaje de 6 días)."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/17a57bf7-1c53-3527-bf87-59ed7c646433",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/870d75aa-7c1e-3a3f-8b03-62cc1ba97ad9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/96e0c293-64e7-3796-ad91-c1d02756ba91",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b9d47d13-e3fa-386d-9459-56ecae878545",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e89278e7-29ae-3667-98f6-ebd983d53d77",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/6e866798-cae5-351c-9e8d-963661217e60",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_AccueilVelo",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Accueil Vélo"
+          ],
+          "pt": [
+            "Accueil Vélo"
+          ],
+          "en": [
+            "Accueil Vélo"
+          ],
+          "it": [
+            "Accueil Vélo"
+          ],
+          "fr": [
+            "Accueil Vélo"
+          ],
+          "nl": [
+            "Accueil Vélo"
+          ],
+          "es": [
+            "Accueil Vélo"
+          ]
+        },
+        "isCompliantWith": [
+          "PlaceOfInterest"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bfc0a916-b8e5-308b-89c6-48d14ba204ba",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_VignoblesDecouvertes",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Vignobles & Découvertes"
+          ],
+          "pt": [
+            "Vignobles & Découvertes"
+          ],
+          "en": [
+            "Vignobles & Découvertes"
+          ],
+          "it": [
+            "Vignobles & Découvertes"
+          ],
+          "fr": [
+            "Vignobles & Découvertes"
+          ],
+          "nl": [
+            "Vignobles & Découvertes"
+          ],
+          "es": [
+            "Vignobles & Découvertes"
+          ]
+        },
+        "isCompliantWith": [
+          "Accommodation",
+          "BistroOrWineBar",
+          "Cellar",
+          "CulturalSite",
+          "EntertainmentAndEvent",
+          "LocalTouristOffice",
+          "NaturalHeritage",
+          "Practice",
+          "Restaurant",
+          "Visit"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:MotorizedHouseboat",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Hausboot mit Motor"
+        ],
+        "pt": [
+          "Embarcação residencial motorizada"
+        ],
+        "en": [
+          "Motorized houseboat"
+        ],
+        "it": [
+          "Casa galleggiante a motore"
+        ],
+        "fr": [
+          "Bateau habitable à moteur"
+        ],
+        "nl": [
+          "Gemotoriseerde woonboot"
+        ],
+        "es": [
+          "Barco habitable a motor"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/e14b4e2f-561f-368e-af7c-723819c11e69",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/fb65a065-f24f-3684-8bc9-5601e9b98858",
+          "schema:addressLocality": "Mauges-sur-Loire",
+          "schema:postalCode": "49410",
+          "schema:streetAddress": [
+            "Quai de la Loire",
+            "SAINT-FLORENT-LE-VIEIL"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:49244",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mauges-sur-Loire"
+              ],
+              "pt": [
+                "Mauges-sur-Loire"
+              ],
+              "en": [
+                "Mauges-sur-Loire"
+              ],
+              "it": [
+                "Mauges-sur-Loire"
+              ],
+              "fr": [
+                "Mauges-sur-Loire"
+              ],
+              "nl": [
+                "Mauges-sur-Loire"
+              ],
+              "es": [
+                "Mauges-sur-Loire"
+              ]
+            },
+            "insee": "49244",
+            "isPartOfDepartment": {
+              "@id": "kb:France5249",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Maine-et-Loire"
+                ],
+                "pt": [
+                  "Maine-et-Loire"
+                ],
+                "en": [
+                  "Maine-et-Loire"
+                ],
+                "it": [
+                  "Maine-et-Loire"
+                ],
+                "fr": [
+                  "Maine-et-Loire"
+                ],
+                "nl": [
+                  "Maine-et-Loire"
+                ],
+                "es": [
+                  "Maine-et-Loire"
+                ]
+              },
+              "insee": "49",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/87a95b53-b169-3e62-8352-b8807c12f62a",
+        "schema:latitude": "47.364",
+        "schema:longitude": "-1.01363",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-01",
+  "lastUpdateDatatourisme": "2023-01-02T01:28:30.637Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/315dc46b-1eb9-3b6b-bbb8-a77b494dedce",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/92475d77-b7e5-34e1-b4bb-29756367d84b",
+          "schema:maxPrice": [
+            "180"
+          ],
+          "schema:minPrice": [
+            "60"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Bootsmiete für 1 Stunde oder einen Tag"
+            ],
+            "en": [
+              "Boat rental for 1 hour or a day"
+            ],
+            "it": [
+              "Noleggio di una barca per 1 ora o 1 giorno"
+            ],
+            "fr": [
+              "Location du bateau d'1h ou une journée"
+            ],
+            "nl": [
+              "Bootverhuur voor 1 uur of 1 dag"
+            ],
+            "es": [
+              "Alquiler de barcos por 1 hora o 1 día"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2eb36433-3a34-39e7-9ccf-694cf2606f9a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9b706793-38d8-3e33-9d3a-3f7eba6d40d4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/be736a8d-5904-3a0f-a3b1-3a70df938847",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d0da12ae-1f61-3375-8fc9-c1b52671ecb7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/edc547de-0e91-3782-a8c6-5c8f89d95d91",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

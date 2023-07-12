@@ -1,0 +1,957 @@
+{
+  "@id": "https://data.datatourisme.fr/31/eba919e7-23ce-3047-a661-649b4386a871",
+  "dc:identifier": "TFO443271130166",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Apartment",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Apartment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Im Herzen des Waldes von Laguiole auf 1240 m Höhe, auf dem Plateau von Aubrac. Schöne Wohnung am Fuße der Pisten des Skigebiets."
+    ],
+    "en": [
+      "In the heart of the forest of Laguiole at 1 240 m of altitude, on the plateau of Aubrac. Beautiful apartment at the foot of the ski resort."
+    ],
+    "it": [
+      "Nel cuore della foresta di Laguiole, a 1.240 m di altitudine, sull'altopiano di Aubrac. Bellissimo appartamento ai piedi della stazione sciistica."
+    ],
+    "fr": [
+      "Au coeur de la forêt de Laguiole à 1 240 m d'altitude, sur le plateau de l'Aubrac. Bel appartement aux pieds des pistes de la station de ski."
+    ],
+    "nl": [
+      "In het hart van het bos van Laguiole op een hoogte van 1.240 m, op het plateau van Aubrac. Mooie flat aan de voet van het skigebied."
+    ],
+    "es": [
+      "En el corazón del bosque de Laguiole, a 1.240 m de altitud, en la meseta de Aubrac. Precioso piso al pie de la estación de esquí."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Passion d'Aubrac"
+    ]
+  },
+  "allowedPersons": 2,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/8979a799-1011-3729-a17e-8e7c7cbe302d",
+    "schema:legalName": "CléVacances Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/19a42255-05b8-3dc5-9eb9-a51cc6959522",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8cd702f-92d2-311a-9b0b-6967720f9c2b",
+          "schema:addressLocality": "Laguiole",
+          "schema:postalCode": "12210",
+          "schema:streetAddress": [
+            "résidence la source"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12119",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laguiole"
+              ],
+              "pt": [
+                "Laguiole"
+              ],
+              "en": [
+                "Laguiole"
+              ],
+              "it": [
+                "Laguiole"
+              ],
+              "fr": [
+                "Laguiole"
+              ],
+              "nl": [
+                "Laguiole"
+              ],
+              "es": [
+                "Laguiole"
+              ]
+            },
+            "insee": "12119",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "gitaubrac@orange.fr"
+      ],
+      "schema:familyName": [
+        "Debuire"
+      ],
+      "schema:givenName": [
+        "Dominique"
+      ],
+      "schema:legalName": "Debuire Dominique - \"Passion d'Aubrac\"",
+      "schema:telephone": [
+        "+33 6 77 99 27 39"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Monsieur"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/2ca14844-36a0-354b-b4fb-cd4f98223c12",
+      "dc:description": {
+        "de": [
+          "Sehr schöne Wohnung am Fuße der Pisten im Skiort La Source\n\nBewusst auf ein Paar beschränkt, um den Raum und die \"cozy\" Seite zu bevorzugen. Am Fuße der Pisten des 4-Jahreszeiten-Resorts Laguiole auf dem Plateau de l'Aubrac, im Herzen des Regionalparks gegenüber dem Wald - WIFI - Flachbildfernseher - DVD-Player - persönlicher Assistent GOOGLE - komplett ausgestattet mit echtem Backofen und großem Kühlschrank - separates WC und Badezimmer"
+        ],
+        "en": [
+          "Very nice apartment at the foot of the slopes of the resort of the source\n\nVoluntarily limited to a couple to privilege the space and the \"cozy\" side. At the foot of the slopes of the 4 seasons resort of Laguiole on the Aubrac plateau, in the heart of the regional park facing the forest - WIFI - flat screen TV - DVD player - GOOGLE personal assistant - fully equipped with real oven and large fridge - separate toilet and bathroom"
+        ],
+        "it": [
+          "Appartamento molto bello ai piedi delle piste della stazione di La Source\n\nVolontariamente limitato a una coppia per privilegiare lo spazio e il lato \"accogliente\". Ai piedi delle piste della stazione 4 stagioni di Laguiole, sull'altopiano di Aubrac, nel cuore del parco regionale di fronte alla foresta - WIFI - TV a schermo piatto - lettore DVD - assistente personale GOOGLE - completamente attrezzato con forno vero e proprio e grande frigorifero - WC e bagno separato"
+        ],
+        "fr": [
+          "Très bel appartement au pied des pistes de la station de la source. \n\nVolontairement limité à un couple pour privilégier l'espace et le côté \"cozy\". Au pied des pistes de la station 4 saisons de Laguiole sur le plateau de l'Aubrac, au coeur du parc régional face à la forêt - WIFI - TV écran plat - lecteur DVD - Assistant personnel GOOGLE - entièrement équipé avec vrai four et grand frigo - WC et salle de bains séparés"
+        ],
+        "nl": [
+          "Zeer mooie flat aan de voet van de pistes van het resort La Source\n\nVrijwillig beperkt tot een koppel om de ruimte en de \"gezellige\" kant te bevoorrechten. Aan de voet van de pistes van het 4 seizoenen resort van Laguiole op het Aubrac plateau, in het hart van het regionale park met uitzicht op het bos - WIFI - flat screen TV - DVD speler - GOOGLE personal assistant - volledig uitgerust met echte oven en grote koelkast - apart toilet en badkamer"
+        ],
+        "es": [
+          "Muy bonito piso al pie de las pistas de la estación de La Source\n\nLimitado voluntariamente a una pareja para privilegiar el espacio y el lado \"acogedor\". Al pie de las pistas de la estación de 4 estaciones de Laguiole, en la meseta de Aubrac, en el corazón del parque regional frente al bosque - WIFI - TV de pantalla plana - reproductor de DVD - asistente personal GOOGLE - totalmente equipado con horno real y gran nevera - aseo y baño separados"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1b5590af-14b7-3f06-8d4b-b26d347d99d4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/463bea19-ee91-3c63-9fbd-b8fa065e33e6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/764de6de-9ba0-3e4f-b3cb-23d6edb2d952",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/804d2bab-9aac-39d7-a211-536d59d7d05b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c546ab76-1e54-3d13-b250-ede37b20c687",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d3ad5a4b-dcf4-3e97-a86d-3d95b5a53be9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dd4319a1-1bee-3fee-b918-67a3e174fe3b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ea63086e-47b3-35fd-94fa-aeb95b4b5fa9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ea64ced3-9237-319e-83b8-9830f37d9487",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f48ce5b1-10d1-34fd-af34-90a96840da72",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Im Herzen des Waldes von Laguiole auf 1240 m Höhe, auf dem Plateau von Aubrac. Schöne Wohnung am Fuße der Pisten des Skigebiets."
+        ],
+        "en": [
+          "In the heart of the forest of Laguiole at 1 240 m of altitude, on the plateau of Aubrac. Beautiful apartment at the foot of the ski resort."
+        ],
+        "it": [
+          "Nel cuore della foresta di Laguiole, a 1.240 m di altitudine, sull'altopiano di Aubrac. Bellissimo appartamento ai piedi della stazione sciistica."
+        ],
+        "fr": [
+          "Au coeur de la forêt de Laguiole à 1 240 m d'altitude, sur le plateau de l'Aubrac. Bel appartement aux pieds des pistes de la station de ski."
+        ],
+        "nl": [
+          "In het hart van het bos van Laguiole op een hoogte van 1.240 m, op het plateau van Aubrac. Mooie flat aan de voet van het skigebied."
+        ],
+        "es": [
+          "En el corazón del bosque de Laguiole, a 1.240 m de altitud, en la meseta de Aubrac. Precioso piso al pie de la estación de esquí."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/6695dc1e-2b8c-38f6-b3bf-cc5a465dea09",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5a1bcea5-1ca1-3294-b8f0-fa553f327680",
+          "ebucore:abstract": {
+            "fr": [
+              "Passion d'Aubrac"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Passion d'Aubrac"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Office de Tourisme en Aubrac"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c3ff9b32-5358-3e75-b270-70d3c6afc5e3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO443271130166/TFO443271130166-17a/medias/jpg/debuire-2022.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/6695dc1e-2b8c-38f6-b3bf-cc5a465dea09",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5a1bcea5-1ca1-3294-b8f0-fa553f327680",
+          "ebucore:abstract": {
+            "fr": [
+              "Passion d'Aubrac"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Passion d'Aubrac"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Office de Tourisme en Aubrac"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c3ff9b32-5358-3e75-b270-70d3c6afc5e3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO443271130166/TFO443271130166-17a/medias/jpg/debuire-2022.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/d21c0ca0-be79-393b-a2ed-5af8a26722cb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2Cles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Schlüssel"
+          ],
+          "pt": [
+            "2 chaves"
+          ],
+          "en": [
+            "2 Keys"
+          ],
+          "it": [
+            "2 chiavi"
+          ],
+          "fr": [
+            "2 Clés"
+          ],
+          "nl": [
+            "2 sleutels"
+          ],
+          "es": [
+            "2 llaves"
+          ]
+        },
+        "isCompliantWith": [
+          "Guesthouse",
+          "SelfCateringAccommodation"
+        ]
+      },
+      "reviewDeliveryDate": "2023-01-01"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/582bc625-2252-30bd-8308-eb42bb7e7159",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/69314351-797f-3e51-8c24-dd5939c20947",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c14d55d4-b14f-3710-bacf-e1d49aadbc4f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d8bd8ad0-a26f-3b34-a348-06655bd355e3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d93c0619-810c-3728-a1ca-aad97f3c38a9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9b3c6a44-f3f9-35c9-b61f-c7833cdcbfa1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b8cd702f-92d2-311a-9b0b-6967720f9c2b",
+          "schema:addressLocality": "Laguiole",
+          "schema:postalCode": "12210",
+          "schema:streetAddress": [
+            "résidence la source"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12119",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laguiole"
+              ],
+              "pt": [
+                "Laguiole"
+              ],
+              "en": [
+                "Laguiole"
+              ],
+              "it": [
+                "Laguiole"
+              ],
+              "fr": [
+                "Laguiole"
+              ],
+              "nl": [
+                "Laguiole"
+              ],
+              "es": [
+                "Laguiole"
+              ]
+            },
+            "insee": "12119",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/89852e3a-92b0-3c02-aad6-ee256b363a17",
+        "schema:elevation": "1006",
+        "schema:latitude": "44.675",
+        "schema:longitude": "2.9136",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-27",
+  "lastUpdateDatatourisme": "2023-02-28T07:02:52.908Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

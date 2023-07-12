@@ -1,0 +1,992 @@
+{
+  "@id": "https://data.datatourisme.fr/49/4a4016eb-2f00-323e-91cb-4e9598856492",
+  "dc:identifier": "ASC875000225",
+  "@type": [
+    "schema:Product",
+    "EquipmentRental",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Rental"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Verleih von Kanus, Tretbooten, Fahrrädern und Empfang Picknickplatz Buvette in einem angenehmen Rahmen, der für Entspannung in guter Laune geeignet ist."
+    ],
+    "en": [
+      "Canoe-kayak rental, pedal boats, bicycles and reception picnic area in a pleasant setting adapted to relaxation in a good mood."
+    ],
+    "it": [
+      "Noleggio di canoe e kayak, pedalò, biciclette e un'area picnic con bar in un ambiente piacevole e adatto a rilassarsi di buon umore."
+    ],
+    "fr": [
+      "Location canoë-kayak, bateaux à pédaliers, vélos  et accueil aire de pique-nique buvette dans un cadre agréable adapté à la détente dans la bonne humeur."
+    ],
+    "nl": [
+      "Kano- en kajakverhuur, waterfietsen, fietsen en een picknickplaats met een verfrissingsbar in een aangename omgeving die geschikt is om zich in een goed humeur te ontspannen."
+    ],
+    "es": [
+      "Alquiler de canoas y kayaks, hidropedales, bicicletas y una zona de picnic con un bar de refrescos en un entorno agradable para relajarse de buen humor."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "CANOTIKA"
+    ]
+  },
+  "availableLanguage": [
+    "Allemand",
+    "Anglais",
+    "Espagnol",
+    "Français"
+  ],
+  "creationDate": "2012-02-20",
+  "hasAudience": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e72bc266-5f16-3c46-8f67-097b3529ee40",
+      "schema:email": [
+        "info@canotika.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 53 68 50 11",
+        "+33 6 15 49 28 73"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.canotika.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/0d6ba962-cf3b-33a8-93b9-a77f750d6842",
+      "dc:description": {
+        "de": [
+          "Wir begrüßen Gruppen und Einzelpersonen für den Verleih, Wanderungen, Tagesausflüge sowie Einführungen. Von April bis September organisieren wir Wanderungen auf dem gesamten Fluss Mayenne für einen Tag, ein Wochenende oder eine Woche für Entdeckungen mit der ganzen Familie.\n\nVermietung von Tretbooten mit Liegeplätzen.\n\nVerleih von Mountainbikes und Fahrrädern mit Elektrounterstützung, Kinderfahrrädern und Anhängern.\n\nPicknickbereich mit Getränkestand und Sanitäranlagen, kleiner Lebensmittelladen.\nVerpflegung vor Ort Empfang von Gruppen mit Bereitstellung von Stühlen, Tischen, Zelten und Plancha.\nSanitäranlagen mit Toiletten und Duschen, Waschmaschine und Trockner.\nÜbernachtungen in kleinen Booten für bis zu 4 Personen."
+        ],
+        "en": [
+          "We welcome groups and individuals for rental, hiking, day trips and initiation. From April to September, we organize day, weekend or weekly excursions along the Mayenne River for family discoveries.\n\nRenting of pedal boats with berths.\n\nRental of mountain bikes and electric bikes, children's bikes and trailers.\n\nPicnic area with refreshments and sanitary facilities, small grocery store.\nCatering on site Groups can be accommodated with chairs, tables, tents and plancha.\nSanitary facilities with toilets and showers, washing machine and dryer.\nOvernight stays in small boats up to 4 people."
+        ],
+        "it": [
+          "Accogliamo gruppi e singoli per noleggio, escursioni, gite di un giorno e iniziazioni. Da aprile a settembre, organizziamo gite di un giorno, di un fine settimana e settimanali lungo il fiume Mayenne da scoprire in famiglia.\n\nNoleggio di pedalò con cuccette.\n\nNoleggio di mountain bike e biciclette a pedalata assistita, biciclette per bambini e rimorchi.\n\nArea picnic con punti di ristoro e servizi igienici, piccolo negozio di alimentari.\nRistorazione in loco Possibilità di organizzare gruppi con sedie, tavoli, tende e plancha.\nServizi igienici con bagni e docce, lavatrice e asciugatrice.\nPernottamenti in piccole imbarcazioni per un massimo di 4 persone."
+        ],
+        "fr": [
+          "Nous accueillons les groupes et les individuels pour la location, la randonnée, les sorties à la journée ainsi que l'initiation. D'avril à septembre, organisation de randonnées sur l'ensemble de la rivière la Mayenne à la journée, au week-end ou à la semaine pour des découvertes en famille.\n\nLocation de bateaux à pédaliers avec couchettes.\n\nLocation de vélos tout chemin et de vélos à assistance électrique, vélos enfants et remorques.\n\nAire de pique-nique avec buvette et sanitaires, petite épicerie.\nRestauration sur place Accueil de groupes avec mise à disposition de chaises, tables, tentes et plancha.\nSanitaires avec cabinet de toilette et douches, lave-linge et sèche-linge.\nNuitées en petits bateaux jusqu'à 4 personnes."
+        ],
+        "nl": [
+          "Wij ontvangen groepen en individuen voor verhuur, wandelingen, dagtochten en initiaties. Van april tot september organiseren wij dag-, weekend- en weektochten langs de Mayenne om gezinnen te laten ontdekken.\n\nVerhuur van waterfietsen met ligplaatsen.\n\nVerhuur van mountainbikes en elektrisch ondersteunde fietsen, kinderfietsen en aanhangwagens.\n\nPicknickplaats met sanitaire voorzieningen en toiletten, kleine kruidenierswinkel.\nCatering ter plaatse Groepen kunnen worden voorzien van stoelen, tafels, tenten en plancha.\nSanitaire voorzieningen met toiletten en douches, wasmachine en droger.\nOvernachting in kleine boten tot 4 personen."
+        ],
+        "es": [
+          "Acogemos a grupos e individuales para alquiler, senderismo, excursiones de un día e iniciación. De abril a septiembre, organizamos excursiones de un día, de fin de semana y semanales por el río Mayenne para descubrir en familia.\n\nAlquiler de barcas a pedales con amarres.\n\nAlquiler de bicicletas de montaña y bicicletas con asistencia eléctrica, bicicletas para niños y remolques.\n\nÁrea de picnic con servicios y aseos, pequeña tienda de comestibles.\nRestauración in situ Posibilidad de atender a grupos con sillas, mesas, tiendas de campaña y plancha.\nInstalaciones sanitarias con aseos y duchas, lavadora y secadora.\nPernoctaciones en pequeñas embarcaciones para un máximo de 4 personas."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1ac66ba4-6a47-3f5e-9cfb-2c769fbf3e82",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/363d3afc-ec7c-34b0-a6d6-9a633a19b9f7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4d8f79a4-02c4-3bc8-9726-ce25904b9f3a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4f00a233-9804-39dc-909e-2ce1282d7deb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8ec32695-f544-3623-ab13-33ebca6bbff5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a3873bdd-66a0-320b-8dc6-391b89cae4b4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b898f1b5-75dd-3452-ad96-24bf1635600b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/efac2af2-ca25-31c0-95fc-c4c734033410",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f9443b21-1af2-3b92-9eab-b4856b03f10b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fe622018-d975-3eb0-8509-4a468c5e10dd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Verleih von Kanus, Tretbooten, Fahrrädern und Empfang Picknickplatz Buvette in einem angenehmen Rahmen, der für Entspannung in guter Laune geeignet ist."
+        ],
+        "en": [
+          "Canoe-kayak rental, pedal boats, bicycles and reception picnic area in a pleasant setting adapted to relaxation in a good mood."
+        ],
+        "it": [
+          "Noleggio di canoe e kayak, pedalò, biciclette e un'area picnic con bar in un ambiente piacevole e adatto a rilassarsi di buon umore."
+        ],
+        "fr": [
+          "Location canoë-kayak, bateaux à pédaliers, vélos  et accueil aire de pique-nique buvette dans un cadre agréable adapté à la détente dans la bonne humeur."
+        ],
+        "nl": [
+          "Kano- en kajakverhuur, waterfietsen, fietsen en een picknickplaats met een verfrissingsbar in een aangename omgeving die geschikt is om zich in een goed humeur te ontspannen."
+        ],
+        "es": [
+          "Alquiler de canoas y kayaks, hidropedales, bicicletas y una zona de picnic con un bar de refrescos en un entorno agradable para relajarse de buen humor."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CanoeingKayaking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kanu-Kajakfahren"
+        ],
+        "pt": [
+          "Canoa caiaque"
+        ],
+        "en": [
+          "Canoeing-kayaking"
+        ],
+        "it": [
+          "Canoismo"
+        ],
+        "fr": [
+          "Canoé kayak"
+        ],
+        "es": [
+          "Piraguas y kayak"
+        ],
+        "nl": [
+          "Kano/kajak"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/2119f0ba-69d6-367d-ab80-8f359171e866",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/52bff139-3c1a-3543-b54e-51ab2094f14d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c122850-4f37-31de-a1f4-56bcaed3a3bc",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c20b449e-8197-3e32-9149-1e311cc0851c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f7df3e1a-59e8-3ce8-abde-e595fda190f7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9d27864e-1740-3015-b7d1-222bcedb29ce",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6e93d123-1a72-3dd2-8a10-de195ffb564d",
+          "schema:addressLocality": "Château-Gontier-sur-Mayenne",
+          "schema:postalCode": "53200",
+          "schema:streetAddress": [
+            "6 quai de Coubertin",
+            "Capitainerie",
+            "Port de plaisance"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53062",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "pt": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "en": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "it": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "fr": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "nl": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "es": [
+                "Château-Gontier-sur-Mayenne"
+              ]
+            },
+            "insee": "53062",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/5efc2525-10d7-3d81-bfb2-53b515b34045",
+        "schema:latitude": "47.830665",
+        "schema:longitude": "-0.7034134",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-05-17",
+  "lastUpdateDatatourisme": "2023-05-18T00:40:40.68Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/087fcb11-fa53-34a9-8693-37f9fa09f637",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/7e1c9d49-81de-314f-a650-52be311ca0cc",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Detaillierte Angaben zu den Gebühren auf http://canotika-tourisme.fr/"
+            ],
+            "en": [
+              "Details of the rates on http://canotika-tourisme.fr/"
+            ],
+            "it": [
+              "Dettagli delle tariffe su http://canotika-tourisme.fr/"
+            ],
+            "fr": [
+              "Détail des tarifs sur http://canotika-tourisme.fr/"
+            ],
+            "es": [
+              "Detalles de las tarifas en http://canotika-tourisme.fr/"
+            ],
+            "nl": [
+              "Details van de tarieven op http://canotika-tourisme.fr/"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/199a9eae-9904-3db2-9c9e-aa665fafed21",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/93c1bcad-802a-3b68-a27d-b423d0195ab7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bfb27e5b-9144-308a-bc8e-989238402403",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c8b8fbbb-1afe-3c21-a423-6fb82d0f7d60",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e04e04f0-b35a-3e6b-a090-5cde34ad3f4f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

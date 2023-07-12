@@ -1,0 +1,940 @@
+{
+  "@id": "https://data.datatourisme.fr/28/0c7e40a7-035f-3fa2-be30-16fb37e8a594",
+  "dc:identifier": "HOTNPDC0001006ME",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Das Hotel Campanile Lille Est - Villeneuve d'Ascq ist die ideale Unterkunft für einen Wochenendtrip in den Nor..."
+    ],
+    "en": [
+      "The hotel Campanile Lille Est - Villeneuve d'Ascq is the ideal accommodation for a weekend in the north of France."
+    ],
+    "it": [
+      "L'hotel Campanile Lille Est - Villeneuve d'Ascq è la sistemazione ideale per un weekend nel nord della Francia."
+    ],
+    "fr": [
+      "L'hôtel Campanile Lille Est - Villeneuve d'Ascq est l'hébergement idéal pour un week-end dans le nor..."
+    ],
+    "nl": [
+      "Hotel Campanile Lille Est - Villeneuve d'Ascq is de ideale accommodatie voor een weekend in Noord-Frankrijk."
+    ],
+    "es": [
+      "El hotel Campanile Lille Est - Villeneuve d'Ascq es el alojamiento ideal para un fin de semana en el norte de Francia."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Hôtel Campanile Lille Est - Villeneuve d'Ascq"
+    ]
+  },
+  "allowedPersons": 100,
+  "availableLanguage": [
+    "en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/28/9fddd220-aebe-35e7-941e-f5fd994c9f44",
+    "dc:identifier": "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme",
+    "schema:familyName": [
+      "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme"
+    ],
+    "schema:legalName": "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/92f31106-f566-3eba-9601-ef062e161fbc",
+      "schema:legalName": "SIM Picardie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/6e4fe5aa-0fb7-3a24-bdc5-d4474a45f284",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/995c7b9f-b4a5-3696-88ed-cff484131a10",
+          "schema:addressLocality": "Villeneuve-d'Ascq",
+          "schema:postalCode": "59650",
+          "schema:streetAddress": [
+            "48 avenue de Canteleu"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Villeneuve-d'Ascq"
+              ],
+              "pt": [
+                "Villeneuve-d'Ascq"
+              ],
+              "en": [
+                "Villeneuve-d'Ascq"
+              ],
+              "it": [
+                "Villeneuve-d'Ascq"
+              ],
+              "fr": [
+                "Villeneuve-d'Ascq"
+              ],
+              "nl": [
+                "Villeneuve-d'Ascq"
+              ],
+              "es": [
+                "Villeneuve-d'Ascq"
+              ]
+            },
+            "insee": "59009",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Hôtellerie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/5f6c82f6-cc06-3a8c-ba66-25811b902122",
+      "schema:email": [
+        "lille.villeneuvedascq@campanile.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 20 91 83 10"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://lille-est-villeneuve-dascq.campanile.com/fr-fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6e4fe5aa-0fb7-3a24-bdc5-d4474a45f284",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/995c7b9f-b4a5-3696-88ed-cff484131a10",
+          "schema:addressLocality": "Villeneuve-d'Ascq",
+          "schema:postalCode": "59650",
+          "schema:streetAddress": [
+            "48 avenue de Canteleu"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Villeneuve-d'Ascq"
+              ],
+              "pt": [
+                "Villeneuve-d'Ascq"
+              ],
+              "en": [
+                "Villeneuve-d'Ascq"
+              ],
+              "it": [
+                "Villeneuve-d'Ascq"
+              ],
+              "fr": [
+                "Villeneuve-d'Ascq"
+              ],
+              "nl": [
+                "Villeneuve-d'Ascq"
+              ],
+              "es": [
+                "Villeneuve-d'Ascq"
+              ]
+            },
+            "insee": "59009",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Hôtellerie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/6b4d38a0-ecfa-39ff-bd51-331145baf57a",
+      "dc:description": {
+        "de": [
+          "Das Hotel Campanile Lille Est - Villeneuve d'Ascq ist die ideale Unterkunft für einen Wochenendtrip in den Norden. Es liegt 15 km vom Flughafen Lille-Lesquin, 8 km von der Altstadt von Lille und 2 Gehminuten vom LaM entfernt und bietet schnellen Zugang zu den Hotspots der Stadt. Reisen Sie in aller Ruhe, ein Restaurantangebot ist immer verfügbar."
+        ],
+        "en": [
+          "The Campanile Lille Est - Villeneuve d'Ascq hotel is the ideal accommodation for a weekend in the north. Just 15 km from Lille-Lesquin airport, 8 km from Vieux-Lille and a 2-minute walk from LaM, it offers quick access to the city's hotspots. Travel in peace, a catering offer is always available."
+        ],
+        "it": [
+          "L'hotel Campanile Lille Est - Villeneuve d'Ascq è la sistemazione ideale per un weekend nel nord. Situato a 15 km dall'aeroporto di Lille-Lesquin, a 8 km da Vieux-Lille e a 2 minuti a piedi dal LaM, offre un rapido accesso ai punti nevralgici della città. Viaggiate in tutta tranquillità, con un servizio di ristorazione sempre disponibile."
+        ],
+        "fr": [
+          "L'hôtel Campanile Lille Est - Villeneuve d'Ascq est l'hébergement idéal pour un week-end dans le nord. A 15 km de l'aéroport de Lille-Lesquin, à 8 km du Vieux-Lille et à 2 minutes à pied du LaM, il permet un accès rapide aux hotspots de la ville. Voyagez en toute tranquillité, une offre de restauration est toujours disponible."
+        ],
+        "nl": [
+          "Het hotel Campanile Lille Est - Villeneuve d'Ascq is de ideale accommodatie voor een weekend in het noorden. Het ligt op 15 km van de luchthaven Lille-Lesquin, op 8 km van Vieux-Lille en op 2 minuten lopen van de LaM, en biedt snelle toegang tot de hotspots van de stad. Reis in alle rust, met catering die altijd beschikbaar is."
+        ],
+        "es": [
+          "El hotel Campanile Lille Est - Villeneuve d'Ascq es el alojamiento ideal para un fin de semana en el norte. Situado a 15 km del aeropuerto de Lille-Lesquin, a 8 km de Vieux-Lille y a 2 minutos a pie de LaM, ofrece un acceso rápido a los lugares de interés de la ciudad. Viaje tranquilo, con servicio de restauración disponible en todo momento."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/185b5fb0-3579-3cce-a9d2-e8de60f11a1e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5276698b-97e3-3f4f-82f0-07dbd09e98e5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/52a9efe4-0599-315b-a182-661d5973034e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5822b0af-b5eb-3176-8caf-000e04c6cc0d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5c67d57f-aa01-3379-a61f-b1f18892d230",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5e58641c-9301-3ff8-86a6-761c0bb965ec",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/705a2254-3ab5-3eeb-af14-a6780c36fb12",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8d00462f-c66d-3c9b-ae0a-404ed1058f9b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ccb4343a-bcf9-3f43-86bb-6c6912e67830",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f507582e-2927-389a-a119-4b664dad7085",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Das Hotel Campanile Lille Est - Villeneuve d'Ascq ist die ideale Unterkunft für einen Wochenendtrip in den Nor..."
+        ],
+        "en": [
+          "The hotel Campanile Lille Est - Villeneuve d'Ascq is the ideal accommodation for a weekend in the north of France."
+        ],
+        "it": [
+          "L'hotel Campanile Lille Est - Villeneuve d'Ascq è la sistemazione ideale per un weekend nel nord della Francia."
+        ],
+        "fr": [
+          "L'hôtel Campanile Lille Est - Villeneuve d'Ascq est l'hébergement idéal pour un week-end dans le nor..."
+        ],
+        "nl": [
+          "Hotel Campanile Lille Est - Villeneuve d'Ascq is de ideale accommodatie voor een weekend in Noord-Frankrijk."
+        ],
+        "es": [
+          "El hotel Campanile Lille Est - Villeneuve d'Ascq es el alojamiento ideal para un fin de semana en el norte de Francia."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/a322786f-e52f-362f-82b1-4ebda0b566d5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/2a3567cf-5b4a-35c9-9cd8-f5357ea70960",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3da2b9ad-a6b5-3831-9d2f-e0c90fc2f982",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8543dd4d-e0b3-3c77-857f-1aad4c8cfc7e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8b95556d-b6b4-37a1-8190-da37d8b46d9c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9d7401c9-e95e-3cb9-86d3-441dc4a85e49",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/ffbf7d85-71bd-3849-b679-05abe7d05a64",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/995c7b9f-b4a5-3696-88ed-cff484131a10",
+          "schema:addressLocality": "Villeneuve-d'Ascq",
+          "schema:postalCode": "59650",
+          "schema:streetAddress": [
+            "48 avenue de Canteleu"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Villeneuve-d'Ascq"
+              ],
+              "pt": [
+                "Villeneuve-d'Ascq"
+              ],
+              "en": [
+                "Villeneuve-d'Ascq"
+              ],
+              "it": [
+                "Villeneuve-d'Ascq"
+              ],
+              "fr": [
+                "Villeneuve-d'Ascq"
+              ],
+              "nl": [
+                "Villeneuve-d'Ascq"
+              ],
+              "es": [
+                "Villeneuve-d'Ascq"
+              ]
+            },
+            "insee": "59009",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/48847390-3072-393d-854d-d427a3e19354",
+        "schema:latitude": "50.638597",
+        "schema:longitude": "3.1487645",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-02-02",
+  "lastUpdateDatatourisme": "2023-03-25T03:01:37.221Z"
+}

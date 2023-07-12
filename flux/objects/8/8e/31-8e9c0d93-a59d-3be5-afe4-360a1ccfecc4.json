@@ -1,0 +1,982 @@
+{
+  "@id": "https://data.datatourisme.fr/31/8e9c0d93-a59d-3be5-afe4-360a1ccfecc4",
+  "dc:identifier": "TFO350848025425",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Start: Parkplatz des Campingplatzes \"Les Calquières\" - Schwierigkeit: Leicht - Distanz: 38 km - Höhenunterschied: 504 m"
+    ],
+    "en": [
+      "Departure: parking lot of the campsite \"Les Calquières\" - Difficulty: Easy - Distance: 38 km - Difference in altitude: 504 m"
+    ],
+    "it": [
+      "Punto di partenza : parcheggio del campeggio \"Les Calquières\" - Difficoltà : Facile - Distanza : 38 km - Dislivello : 504 m"
+    ],
+    "fr": [
+      "Départ : parking du camping \"Les Calquières\" - Difficulté : Facile - Distance : 38 km - Dénivelé : 504 m"
+    ],
+    "nl": [
+      "Vertrekpunt : parkeerplaats van de camping \"Les Calquières\" - Moeilijkheidsgraad : Gemakkelijk - Afstand : 38 km - Hoogteverschil : 504 m"
+    ],
+    "es": [
+      "Punto de partida : aparcamiento del camping \"Les Calquières\" - Dificultad : Fácil - Distancia : 38 km - Desnivel : 504 m"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Cyclotourisme: Circuit des paysages Caussenards"
+    ]
+  },
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/f415857d-ecee-333d-88c2-774f55052fb7",
+    "schema:legalName": "OFFICE DE TOURISME DE SEVERAC LE CHATEAU",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7652e5ca-afa1-3007-90df-a6998423edc1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/68ded1e4-0f10-3e15-a31f-3846900f153f",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "17 avenue Jean Moulin",
+            "Camping Les Calquières",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Circuits des paysages caussenards",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/da09b328-8378-3bf8-8548-262c6c5a1ae0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/824fe513-cfdd-32b2-8872-4487561f1f85",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "5 Rue des Douves",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "severacdaveyron@causses-aubrac-tourisme.com"
+      ],
+      "schema:legalName": "Office de tourisme Des Causses à l'Aubrac bureau de Sévérac d'Aveyron",
+      "schema:telephone": [
+        "+33 5 65 47 67 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.causses-aubrac-tourisme.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/a3d771d8-ac18-30cb-b06e-feb4d71d4250",
+      "dc:description": {
+        "de": [
+          "Von der Causse de Sévérac aus begeben Sie sich auf die Causse de Campagnac und genießen Sie bei dieser Gelegenheit Panoramablicke auf Sévérac und sein Schloss."
+        ],
+        "en": [
+          "From the Causse de Sévérac, head towards the Causse de Campagnac and take advantage of the panoramic views of Sévérac and its castle."
+        ],
+        "it": [
+          "Dalla cava di Sévérac, dirigetevi verso la cava di Campagnac e godetevi la vista panoramica di Sévérac e del suo castello."
+        ],
+        "fr": [
+          "Depuis le causse de Sévérac, dirigez-vous vers celui de Campagnac et profitez à cette occasion de panoramas sur Sévérac et son château."
+        ],
+        "nl": [
+          "Ga vanaf de causse van Sévérac naar de causse van Campagnac en geniet van het panoramische uitzicht op Sévérac en zijn kasteel."
+        ],
+        "es": [
+          "Desde la cabaña de Sévérac, diríjase a la cabaña de Campagnac y disfrute de las vistas panorámicas de Sévérac y su castillo."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/06fb7353-76d0-30cf-9961-e86ee6c0dc35",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1fdeca31-a097-328e-b87d-fab49cd70905",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2b730408-fbde-332e-9c30-7e62cc86ca61",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4ae04459-b178-303f-944b-1c1f6e9eb703",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/59ddb924-07f0-3f0b-9602-0bcabf0c072f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/679d8034-bfcc-3a8f-b940-c30e7908dcac",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c40d0027-8381-3561-8ba7-e1d5ee933bfa",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d24fc39e-c622-3b43-b3e2-edc3d49508f4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dc95c8bf-721f-3999-91b7-7c6f363e7788",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f57fb2b7-504d-35b6-9e0e-a0c8c40d0fa0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Start: Parkplatz des Campingplatzes \"Les Calquières\" - Schwierigkeit: Leicht - Distanz: 38 km - Höhenunterschied: 504 m"
+        ],
+        "en": [
+          "Departure: parking lot of the campsite \"Les Calquières\" - Difficulty: Easy - Distance: 38 km - Difference in altitude: 504 m"
+        ],
+        "it": [
+          "Punto di partenza : parcheggio del campeggio \"Les Calquières\" - Difficoltà : Facile - Distanza : 38 km - Dislivello : 504 m"
+        ],
+        "fr": [
+          "Départ : parking du camping \"Les Calquières\" - Difficulté : Facile - Distance : 38 km - Dénivelé : 504 m"
+        ],
+        "nl": [
+          "Vertrekpunt : parkeerplaats van de camping \"Les Calquières\" - Moeilijkheidsgraad : Gemakkelijk - Afstand : 38 km - Hoogteverschil : 504 m"
+        ],
+        "es": [
+          "Punto de partida : aparcamiento del camping \"Les Calquières\" - Dificultad : Fácil - Distancia : 38 km - Desnivel : 504 m"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/cb861a74-f6f2-3a2e-94a9-55c71ceab0cd",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ef914fb9-7a1e-399a-a75c-66253a778262",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4fa272ac-b2ba-313d-8040-3dd44ac42caf",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme: Circuit des paysages Caussenards"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme: Circuit des paysages Caussenards"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/75e0d79c-6193-3bbf-a3b2-56105c945119",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350848025425/TFO350848025425-17a/medias/jpg/paysages-caussenards.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ef914fb9-7a1e-399a-a75c-66253a778262",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4fa272ac-b2ba-313d-8040-3dd44ac42caf",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme: Circuit des paysages Caussenards"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme: Circuit des paysages Caussenards"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/75e0d79c-6193-3bbf-a3b2-56105c945119",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350848025425/TFO350848025425-17a/medias/jpg/paysages-caussenards.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/317f62b1-4c22-3fa1-b1ff-58b882b871f7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/371d5ffd-4142-378f-8033-5caaa8fbc274",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/373830a7-949e-312b-8c83-7d5e33208dab",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ac0c7850-fc32-3427-bd5d-679af6a4c503",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ec571878-e247-302d-b07d-864737e52a41",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/989c330b-0b49-3cc7-a4e2-ac2037282e6a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/18979c39-7cfe-3723-8288-d0a3f5998620",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "Camping Les Calquières",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e756afe0-d37d-3567-8a2e-9e400a9058ee",
+        "schema:elevation": "741",
+        "schema:latitude": "44.3178",
+        "schema:longitude": "3.0642",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-10-27",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.724Z"
+}

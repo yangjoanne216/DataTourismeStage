@@ -1,0 +1,996 @@
+{
+  "@id": "https://data.datatourisme.fr/49/87a77d8f-9a90-3b73-b0e2-860901235ffa",
+  "dc:identifier": "ASCPDL053V508TSA",
+  "@type": [
+    "schema:Product",
+    "FreePractice",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Mit dieser Schnitzeljagd lädt Sie das Fremdenverkehrsamt von Château-Gontier zu einer Entdeckungsreise durch die Gärten der Stadt ein."
+    ],
+    "en": [
+      "With this treasure hunt, the tourist office of Château-Gontier invites you to discover the gardens of the city."
+    ],
+    "it": [
+      "Con questa caccia al tesoro, l'ufficio turistico di Château-Gontier vi invita a scoprire i giardini della città."
+    ],
+    "fr": [
+      "Avec ce jeu de piste, l'office de tourisme de Château-Gontier vous propose de partir à la découverte des jardins de la ville."
+    ],
+    "nl": [
+      "Met deze speurtocht nodigt het toeristenbureau van Château-Gontier u uit om de tuinen van de stad te ontdekken."
+    ],
+    "es": [
+      "Con esta búsqueda del tesoro, la oficina de turismo de Château-Gontier le invita a descubrir los jardines de la ciudad."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "PARCOURS BALUDIK : À LA RECHERCHE D'ELSA BEILLE"
+    ]
+  },
+  "creationDate": "2022-05-06",
+  "hasAudience": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Teenagers",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Jugendliche"
+        ],
+        "pt": [
+          "Adolescentes"
+        ],
+        "en": [
+          "Teenagers"
+        ],
+        "it": [
+          "Adolescenti"
+        ],
+        "fr": [
+          "Adolescents"
+        ],
+        "nl": [
+          "Tieners"
+        ],
+        "es": [
+          "Adolescentes"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Teenagers",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Jugendliche"
+        ],
+        "pt": [
+          "Adolescentes"
+        ],
+        "en": [
+          "Teenagers"
+        ],
+        "it": [
+          "Adolescenti"
+        ],
+        "fr": [
+          "Adolescents"
+        ],
+        "nl": [
+          "Tieners"
+        ],
+        "es": [
+          "Adolescentes"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9ad4089c-f83f-30fe-9e12-01ac50909fb1",
+      "schema:email": [
+        "tourisme@sud-mayenne.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 70 42 74"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sudmayenne.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/26855acc-c495-314f-9aa8-945826fecd28",
+      "dc:description": {
+        "de": [
+          "Während dieses Rundgangs laden wir Sie ein, die Suche von Lisa Beille nach ihrer Schwester Elsa Beille zu verfolgen.\n\nDies wird Ihnen die Gelegenheit bieten, einen Teil der Gärten der Stadt Château-Gontier zu entdecken. Nachdem Château-Gontier 1988 mit vier Blumen und 1992 mit dem Grand Prix National du Fleurissement ausgezeichnet worden war, der bis 2010 verlängert wurde, erhielt es 2010 die Goldene Blume und den Sonderpreis für Pflanzenvielfalt, die vom Nationalrat der Blumenstädte und -dörfer verliehen werden.\n\nWie funktioniert das Ganze?\n1) Laden Sie die Baludik-App für Ihr Smartphone oder Ihren Tablet-PC herunter (kostenlose App)\n2) Wählen Sie den Parcours \"Auf der Suche nach Elsa Beille\"\n3) Lassen Sie sich führen und spielen Sie!\n\nFür Familien mit Kindern geeigneter Parcours.\nDauer: ca. 1,5 Stunden."
+        ],
+        "en": [
+          "During this journey, we invite you to follow Lisa Beille's quest to find her sister Elsa Beille.\n\nIt will be for you the opportunity to discover a part of the gardens of the city of Château-Gontier. After having obtained four flowers in 1988 and the Grand Prix National du Fleurissement in 1992, renewed until 2010, Château-Gontier was awarded in 2010 the Fleur d'Or as well as the Prix Spécial de la Diversité Végétale (Special Prize for Plant Diversity) by the Conseil National des Villes et Villages Fleuris.\n\nHow does it work?\n1) Download the Baludik application for smartphone or tablet (free application)\n2) Choose the route \"In search of Elsa Beille\n3) Let yourself be guided and play !\n\nRoute adapted to families with children.\nDuration: about 1h30."
+        ],
+        "it": [
+          "Durante questo viaggio, vi invitiamo a seguire la ricerca di Lisa Beille per ritrovare sua sorella Elsa Beille.\n\nSarà l'occasione per scoprire parte dei giardini della città di Château-Gontier. Dopo aver ricevuto quattro fiori nel 1988 e il Grand Prix National du Fleurissement nel 1992, rinnovato fino al 2010, Château-Gontier ha ricevuto il Fleur d'Or e il Prix Spécial de la Diversité Végétale dal Conseil National des Villes et Villages Fleuris nel 2010.\n\nCome funziona?\n1) Scaricare l'applicazione Baludik per smartphone o tablet (applicazione gratuita)\n2) Scegliere il percorso \"Alla ricerca di Elsa Beille\n3) Lasciatevi guidare e giocate!\n\nQuesto percorso è adatto alle famiglie con bambini.\nDurata: circa 1h30."
+        ],
+        "fr": [
+          "Durant ce parcours, nous vous invitons à suivre la quête de Lisa Beille à la recherche de sa sœur Elsa Beille.\n\nCe sera pour vous l'occasion de découvrir une partie des jardins de la ville de Château-Gontier. Après avoir obtenu quatre fleurs en 1988 et le Grand Prix National du Fleurissement en 1992 renouvelé jusqu'en 2010, Château-Gontier s'est vu attribuer en 2010 la Fleur d'Or ainsi que le Prix Spécial de la Diversité Végétale décernés par le Conseil National des Villes et Villages Fleuris.\n\nComment ça marche ? \n1) Téléchargez l'application Baludik pour smartphone ou tablette (application gratuite)\n2) Choisissez le parcours \"A la recherche d'Elsa Beille\"\n3) Laissez-vous guider et jouez !\n\nParcours adapté aux familles avec enfants.\nDurée : 1h30 environ."
+        ],
+        "nl": [
+          "Tijdens deze reis nodigen wij u uit om de zoektocht van Lisa Beille naar haar zus Elsa Beille te volgen.\n\nDit zal voor u een gelegenheid zijn om een deel van de tuinen van de stad Château-Gontier te ontdekken. Na vier bloemen in 1988 en de Grand Prix National du Fleurissement in 1992, die tot 2010 werd verlengd, kreeg Château-Gontier in 2010 van de Conseil National des Villes et Villages Fleuris de Fleur d'Or en de Prix Spécial de la Diversité Végétale.\n\nHoe werkt het?\n1) Download de Baludik-applicatie voor smartphone of tablet (gratis applicatie)\n2) Kies de route \"Op zoek naar Elsa Beille\"\n3) Laat je leiden en speel!\n\nDeze route is geschikt voor gezinnen met kinderen.\nDuur: ongeveer 1u30."
+        ],
+        "es": [
+          "Durante este viaje, le invitamos a seguir la búsqueda de Lisa Beille para encontrar a su hermana Elsa Beille.\n\nSerá la ocasión de descubrir una parte de los jardines de la ciudad de Château-Gontier. Después de haber recibido cuatro flores en 1988 y el Grand Prix National du Fleurissement en 1992, renovado hasta 2010, Château-Gontier recibió la Flor de Oro y el Prix Spécial de la Diversité Végétale del Conseil National des Villes et Villages Fleuris en 2010.\n\n¿Cómo funciona?\n1) Descargue la aplicación Baludik para smartphone o tablet (aplicación gratuita)\n2) Elija la ruta \"En busca de Elsa Beille\n3) ¡Déjate guiar y juega!\n\nEsta ruta es adecuada para familias con niños.\nDuración: aproximadamente 1h30."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/5bcaf41e-dd4b-3ed6-b143-d3fd07b56fb9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/63a62513-b519-3392-a55e-b7e2c6b630fa",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6d94c60c-30fa-3a07-95c2-30cb6063a74d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/71355e8e-3181-38e4-870a-a5b9e3c4f8fc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7d464aa8-bb62-3126-8898-22bfc943e906",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7f89cb4b-fc80-36e8-80ae-e37c569d657b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8ed0965d-4a18-30f1-86c1-efd7a89d603c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8f09b544-8d2b-3454-9509-144211e2a6fd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/92cd8e9d-a966-3996-ae1c-ba51464411fe",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bfe38e1f-1d48-3efc-abd3-22ada5babbf9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Mit dieser Schnitzeljagd lädt Sie das Fremdenverkehrsamt von Château-Gontier zu einer Entdeckungsreise durch die Gärten der Stadt ein."
+        ],
+        "en": [
+          "With this treasure hunt, the tourist office of Château-Gontier invites you to discover the gardens of the city."
+        ],
+        "it": [
+          "Con questa caccia al tesoro, l'ufficio turistico di Château-Gontier vi invita a scoprire i giardini della città."
+        ],
+        "fr": [
+          "Avec ce jeu de piste, l'office de tourisme de Château-Gontier vous propose de partir à la découverte des jardins de la ville."
+        ],
+        "nl": [
+          "Met deze speurtocht nodigt het toeristenbureau van Château-Gontier u uit om de tuinen van de stad te ontdekken."
+        ],
+        "es": [
+          "Con esta búsqueda del tesoro, la oficina de turismo de Château-Gontier le invita a descubrir los jardines de la ciudad."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Orienteering",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Ausrichtung"
+        ],
+        "pt": [
+          "Orientação"
+        ],
+        "en": [
+          "Orienteering"
+        ],
+        "it": [
+          "Orientamento"
+        ],
+        "fr": [
+          "Orientation"
+        ],
+        "es": [
+          "Orientación"
+        ],
+        "nl": [
+          "Oriëntatie"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/4a882bf2-c216-3146-8563-6a3eca9756ce",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c54439e3-b42a-391f-92b2-a93e49021892",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c852c944-ae1f-3480-813e-ef1f87474d6c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cdf21899-5466-3540-a110-c0e965a993a2",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d77c5a65-99db-3740-82be-977f64b7e10c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/0688806b-232d-3678-a4c4-a22b86554b09",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/00c195eb-3ba8-305d-91ec-cc57db192fae",
+          "schema:addressLocality": "Château-Gontier-sur-Mayenne",
+          "schema:postalCode": "53200",
+          "schema:streetAddress": [
+            "Jardin de la piscine",
+            "Quai Pierre de Coubertin"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53062",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "pt": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "en": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "it": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "fr": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "nl": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "es": [
+                "Château-Gontier-sur-Mayenne"
+              ]
+            },
+            "insee": "53062",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/acbb46a5-9dc0-3bc2-9887-298032da8ef9",
+        "schema:latitude": "47.83061",
+        "schema:longitude": "-0.70303",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-05",
+  "lastUpdateDatatourisme": "2023-01-06T01:29:04.991Z"
+}

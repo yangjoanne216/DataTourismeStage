@@ -1,0 +1,3473 @@
+{
+  "@id": "https://data.datatourisme.fr/43/e3154fc9-0136-3537-8c34-b26fd18f0f05",
+  "dc:identifier": "49522",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE ENTRAS"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Espagnol"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1dc1b833-d068-3918-b6d4-c56f7680cb2c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2a279353-b0e2-33d5-b1e3-3c45371e202f",
+          "schema:addressLocality": "Ayguetinte",
+          "schema:postalCode": "32410",
+          "schema:streetAddress": [
+            "EARL BORDENEUVE-ENTRAS",
+            "Entras"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32024",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ayguetinte"
+              ],
+              "pt": [
+                "Ayguetinte"
+              ],
+              "en": [
+                "Ayguetinte"
+              ],
+              "it": [
+                "Ayguetinte"
+              ],
+              "fr": [
+                "Ayguetinte"
+              ],
+              "nl": [
+                "Ayguetinte"
+              ],
+              "es": [
+                "Ayguetinte"
+              ]
+            },
+            "insee": "32024",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@domaine-entras.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 68 11 41"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.domaine-entras.fr/"
+      ],
+      "siret": "34417313300010"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/a7a1f57e-475a-31a4-a040-413a278ade81",
+      "dc:description": {
+        "de": [
+          "Das Weingut der Familie Maestrojuan liegt im Herzen der Region Ténarèze, in der Nähe großer Sehenswürdigkeiten des Gers wie dem Château de Lavardens, der Abtei von Flaran sowie dem Kurort Castéra-Verduzan. Die Weinberge der Familie Maestrojuan erstrecken sich über 29 Hektar\nAls unabhängiger Winzer und Mitglied des Netzwerks Bienvenue à la Ferme bewirtschaftet die Domaine Entras seit 2017 ihre Weinberge und ihr Land nach den Richtlinien des biologischen Landbaus\nBei Ihrem Besuch werden Ihnen Michel, Isabelle oder Montaine das Weingut und alle seine Produkte vorstellen, die häufig ausgezeichnet wurden: IGP-Weine Côtes de Gascogne, Floc de Gascogne, Armagnac sowie ihren traditionellen Senf aus Traubenmost.\nSie heißen Sie das ganze Jahr über willkommen, um zu probieren, angenehme Momente der Geselligkeit zu teilen und, warum nicht, die Sammlung alter Werkzeuge für die Arbeit in den Weinbergen zu entdecken."
+        ],
+        "en": [
+          "The Domaine of Entras - Ayguetinte\nWe welcome you to Entras to enable you to discover our Côtes de Gascogne wines: wines for savouring and sharing, our medal winning Floc de Gascogne, our natural armagnacs and our delicious mustard made from grape must. Come and meet us and taste all our products."
+        ],
+        "it": [
+          "Situato nel cuore della regione della Ténarèze, vicino ai grandi siti del Gers, come lo Château de Lavardens, l'Abbaye de Flaran e le terme di Castéra-Verduzan, il vigneto della famiglia Maestrojuan si estende per 29 ettari\nVignaiolo indipendente e membro della rete Bienvenue à la Ferme, il Domaine Entras coltiva i suoi vigneti e i suoi terreni in Agricoltura Biologica dal 2017\nDurante la visita, Michel, Isabelle o Montaine vi presenteranno il Domaine e tutti i prodotti che vengono spesso premiati: Vini IGP Côtes de Gascogne, Floc de Gascogne, Armagnac e la tradizionale mostarda di mosto d'uva.\nVi accolgono tutto l'anno, per degustare, condividere piacevoli momenti di convivialità e, perché no, scoprire la collezione di antichi attrezzi da vigna."
+        ],
+        "fr": [
+          "Situé au coeur de la région Ténarèze, à deux pas de grands sites gersois, tels que le Château de Lavardens, l'Abbaye de Flaran ainsi que la station thermale de Castéra-Verduzan, le vignoble de la famille Maestrojuan s'étend sur 29 hectares. \nVigneron indépendant et membre du réseau Bienvenue à la Ferme, le Domaine Entras cultive depuis 2017 son vignoble et ses terres en Agriculture Biologique. \nLors de votre visite, Michel, Isabelle ou Montaine, vous présenteront le Domaine et l'ensemble des produits qui sont souvent récompensés : Vins IGP Côtes de Gascogne, Floc de Gascogne, Armagnac ainsi que leur Moutarde traditionnelle au moût de raisin.\nIls vous accueillent tout au long de l'année, pour déguster, partager d'agréables moments de convivialité et, pourquoi pas, découvrir la collection de vieux outils de travail de la vigne."
+        ],
+        "es": [
+          "Le acogemos a Entras para hacerle descubrir nuestros vinos Côtes de Gascuña : vinos de gastronomía y de reparto, nuestros Flocs de Gascuña a menudo recompensados, nuestro Armagnacs naturales y nuestro deliciosa mostaza al mosto de uva. Venga a conocer y para saborear todos nuestros productos."
+        ],
+        "nl": [
+          "De wijngaard van de familie Maestrojuan ligt in het hart van de Ténarèze, vlakbij de grote bezienswaardigheden van de Gers, zoals het Château de Lavardens, de Abbaye de Flaran en het kuuroord Castéra-Verduzan, en beslaat 29 hectare\nDomaine Entras, onafhankelijk wijnbouwer en lid van het netwerk Bienvenue à la Ferme, bewerkt zijn wijngaard en grond sinds 2017 in biologische landbouw\nTijdens uw bezoek zullen Michel, Isabelle of Montaine u kennis laten maken met het Domaine en alle producten die vaak bekroond worden: IGP Côtes de Gascogne wijnen, Floc de Gascogne, Armagnac en hun traditionele druivenmost.\nZij verwelkomen u het hele jaar door, om te proeven, aangename momenten van gezelligheid te delen en, waarom niet, de collectie oude wijngaardgereedschappen te ontdekken."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/6deb5459-16b0-31b7-bc9b-9390f9a41be8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bc43ec9a-e3a8-3258-8530-1ac9694216f0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/de0eaa58-6c14-3e43-b310-fb85814dbf96",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0ea938e3-8075-317b-918a-42cb75ff7805",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HomeDeliveries",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Lieferung nach Hause"
+            ],
+            "pt": [
+              "Entregas ao domicílio"
+            ],
+            "en": [
+              "Home deliveries"
+            ],
+            "it": [
+              "Consegne a domicilio"
+            ],
+            "fr": [
+              "Livraisons à domicile"
+            ],
+            "nl": [
+              "Thuisbezorging"
+            ],
+            "es": [
+              "Entregas a domicilio"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/165178c0-ad81-3a84-b4a0-a4d48fb254f7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2ffbc57a-90a1-3792-bb3f-f43ae7cece88",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:DriveIn",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Drive-in"
+            ],
+            "pt": [
+              "Venda ao postigo (drive-in)"
+            ],
+            "en": [
+              "Drive in"
+            ],
+            "it": [
+              "Drive"
+            ],
+            "fr": [
+              "Drive"
+            ],
+            "es": [
+              "Drive-in"
+            ],
+            "nl": [
+              "Drive"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d7a87fe-da63-34ba-8036-524d55439400",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b37a8ae6-ac95-3ca1-aa07-94ed2d5a96da",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ba5b9050-0e3b-3200-8e8c-9ad86643cdab",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c42ce8de-62d5-3c61-aa06-6a4e2cad3ebc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fbc11ac5-a5f2-3483-8e0d-e1e4d45f66c2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/f8e2901d-90ac-368f-a3ac-dec7f2f0b89f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a0290372-c217-3eb3-b97e-b5a3240ff987",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE D&#8217;ENTRAS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine d&#8217;Entras/B.Maestrojuan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b0073af9-7848-3fbe-8a2f-4dd9786f0e65",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0059996.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0e027b83-c7c3-37e0-a9ed-60a19bf544db",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a20b0365-9dc5-3c5c-848d-a18d438d13bb",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE D&#8217;ENTRAS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine d'Entras/B.Maestrojuan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/e813c303-a0a6-3f06-8795-695508bfbecb",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0059997.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/46484f50-f4bf-37fc-ae1b-685fbb5ea8fa",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a0290372-c217-3eb3-b97e-b5a3240ff987",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE D&#8217;ENTRAS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine d&#8217;Entras/B.Maestrojuan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/9d629c7c-394c-39c0-8b59-4fa9a2300e5a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0059993.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ad1917d0-2990-355c-b277-8dd32dd82dc8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a0290372-c217-3eb3-b97e-b5a3240ff987",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE D&#8217;ENTRAS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine d&#8217;Entras/B.Maestrojuan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/15095b97-2762-3cc6-b307-852c9a27a30a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0059994.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b419885e-1b45-3fa0-bd5d-630d01b488ea",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a0290372-c217-3eb3-b97e-b5a3240ff987",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE D&#8217;ENTRAS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine d&#8217;Entras/B.Maestrojuan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/de76ee56-f696-3f65-9393-0027361670a6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0059995.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f8e2901d-90ac-368f-a3ac-dec7f2f0b89f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a0290372-c217-3eb3-b97e-b5a3240ff987",
+          "ebucore:title": {
+            "fr": [
+              "DOMAINE D&#8217;ENTRAS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine d&#8217;Entras/B.Maestrojuan"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b0073af9-7848-3fbe-8a2f-4dd9786f0e65",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0059996.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/334f2e2b-dba7-358f-a1af-6d4bfc913783",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_BienvenueaLaFerme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Willkommen auf dem Bauernhof"
+          ],
+          "pt": [
+            "Boas-vindas à quinta"
+          ],
+          "en": [
+            "Welcome to the farm"
+          ],
+          "it": [
+            "Benvenuti alla fattoria"
+          ],
+          "fr": [
+            "Bienvenue à la ferme"
+          ],
+          "es": [
+            "Le damos la bienvenida a la granja"
+          ],
+          "nl": [
+            "Bienvenue à la ferme (agritoerisme)"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Guesthouse",
+          "Practice",
+          "Restaurant",
+          "SelfCateringAccommodation"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/66ecb2a8-23e2-326c-b78b-b017834c9b51",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_VignoblesDecouvertes",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Vignobles & Découvertes"
+          ],
+          "pt": [
+            "Vignobles & Découvertes"
+          ],
+          "en": [
+            "Vignobles & Découvertes"
+          ],
+          "it": [
+            "Vignobles & Découvertes"
+          ],
+          "fr": [
+            "Vignobles & Découvertes"
+          ],
+          "nl": [
+            "Vignobles & Découvertes"
+          ],
+          "es": [
+            "Vignobles & Découvertes"
+          ]
+        },
+        "isCompliantWith": [
+          "Accommodation",
+          "BistroOrWineBar",
+          "Cellar",
+          "CulturalSite",
+          "EntertainmentAndEvent",
+          "LocalTouristOffice",
+          "NaturalHeritage",
+          "Practice",
+          "Restaurant",
+          "Visit"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c9c8f6ef-3f21-3945-b868-77190b330356",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_OrganicFarming",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Ökologischer/biologischer Landbau"
+          ],
+          "pt": [
+            "Agricultura biológica"
+          ],
+          "en": [
+            "Organic farming"
+          ],
+          "it": [
+            "Agricoltura biologica"
+          ],
+          "fr": [
+            "Agriculture Biologique"
+          ],
+          "nl": [
+            "Biologische landbouw"
+          ],
+          "es": [
+            "Agricultura ecológica"
+          ]
+        },
+        "isCompliantWith": [
+          "FoodEstablishment",
+          "MedicalPlace",
+          "Practice",
+          "Store",
+          "TastingProvider"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5df51f5e-cd84-3a2c-8b45-624b0220ab3d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2a279353-b0e2-33d5-b1e3-3c45371e202f",
+          "schema:addressLocality": "Ayguetinte",
+          "schema:postalCode": "32410",
+          "schema:streetAddress": [
+            "EARL BORDENEUVE-ENTRAS",
+            "Entras"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32024",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ayguetinte"
+              ],
+              "pt": [
+                "Ayguetinte"
+              ],
+              "en": [
+                "Ayguetinte"
+              ],
+              "it": [
+                "Ayguetinte"
+              ],
+              "fr": [
+                "Ayguetinte"
+              ],
+              "nl": [
+                "Ayguetinte"
+              ],
+              "es": [
+                "Ayguetinte"
+              ]
+            },
+            "insee": "32024",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/84e55308-e710-3251-bad6-c34df0e0954b",
+        "schema:latitude": "43.8297089",
+        "schema:longitude": "0.4269191",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2021-09-16",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.466Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/97d2556f-920d-3c0d-b4c1-306722dde72e",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/1dbf7d7b-0b2f-3ea4-8448-873d6361c053",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: 1 Glas traditionellen Gascogne-Senf mit Traubenmost (Wert: 4,50?) gratis ab einem Einkaufswert von 50?"
+            ],
+            "en": [
+              "Special offer: 1 jar of traditional Gascony mustard with grape must (value: 4.50€) offered for every 50€ spent."
+            ],
+            "it": [
+              "Offerta speciale: 1 vasetto di senape tradizionale di Guascogna con mosto d'uva (valore: 4,50?) per ogni 50? acquistati."
+            ],
+            "fr": [
+              "Offre privilège : 1 pot de moutarde traditionnelle de Gascogne au moût de raisin (valeur : 4,50€) offert dès 50€ d'achats."
+            ],
+            "nl": [
+              "Speciale aanbieding: 1 potje traditionele Gascogne-mosterd met druivenmost (waarde: 4,50?) aangeboden voor elke gekochte 50?"
+            ],
+            "es": [
+              "Oferta especial: 1 tarro de mostaza tradicional de Gascuña con mosto de uva (valor: 4,50?) ofrecido por cada 50? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/553c556a-fef2-3f8c-926e-e25212e9d99e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2015-12-31",
+              "startDate": "2015-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/04284996-0413-3bc4-9f0d-0aba1d894833",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/14905172-04ec-3b82-90c7-b1c5386c0abd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/39acbb5a-86eb-3fcd-9d47-43cd95730015",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5a5d5b53-3f55-3e1c-bae6-23e662a2c782",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/94d1babd-0797-3092-913c-4480f7b2e23a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/29ccc2ad-85b3-30c9-a453-bfd06216a86b",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: Eine Flasche Côtes de Gascogne blanc Bordeneuve Agriculture Biologique gratis ab einem Einkaufswert von 60?"
+            ],
+            "en": [
+              "Privilege offer: a bottle of Côtes de Gascogne white Bordeneuve Agriculture Biologique offered from 60€ of purchase."
+            ],
+            "it": [
+              "Offerta privilegiata: una bottiglia di Côtes de Gascogne bianco Bordeneuve Agriculture Biologique offerta a partire da 60? dall'acquisto."
+            ],
+            "fr": [
+              "Offre privilège : une bouteille de Côtes de Gascogne blanc Bordeneuve Agriculture Biologique offerte dès 60€ d'achats."
+            ],
+            "nl": [
+              "Privilege aanbieding: een fles Côtes de Gascogne wit Bordeneuve Agriculture Biologique aangeboden vanaf 60? van aankoop."
+            ],
+            "es": [
+              "Oferta privilegiada: una botella de Côtes de Gascogne blanco Bordeneuve Agriculture Biologique ofrecida a partir de 60? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/341ea19d-1d9f-35e1-a50b-58a31a40a47e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7f301dd0-2726-3f69-910b-44bc7fe0c696",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a46e9152-874f-3483-8cbc-0ecada5443eb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a5db7a50-6a64-349d-983b-879d48cea9c8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bedfdfde-1978-37fb-aa47-212c12faf21d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2f0156f6-ab11-3ef6-b7ec-912df94daf36",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: 1 Glas traditionellen Gascogne-Senf mit Traubenmost (Wert: 4,50?) gratis ab einem Einkaufswert von 50?"
+            ],
+            "en": [
+              "Special offer: 1 jar of traditional Gascony mustard with grape must (value: 4.50€) offered for every 50€ spent."
+            ],
+            "it": [
+              "Offerta speciale: 1 vasetto di senape tradizionale di Guascogna con mosto d'uva (valore: 4,50?) per ogni 50? acquistati."
+            ],
+            "fr": [
+              "Offre privilège : 1 pot de moutarde traditionnelle de Gascogne au moût de raisin (valeur : 4,50€) offert dès 50€ d'achats."
+            ],
+            "nl": [
+              "Speciale aanbieding: 1 potje traditionele Gascogne-mosterd met druivenmost (waarde: 4,50?) aangeboden voor elke gekochte 50?"
+            ],
+            "es": [
+              "Oferta especial: 1 tarro de mostaza tradicional de Gascuña con mosto de uva (valor: 4,50?) ofrecido por cada 50? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/10022519-7e79-3875-80b4-e5804c94e9c2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6694df3a-3264-339a-9817-d440cdc28d57",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8536c0b9-bfa2-3e61-bb74-b04c4c3a0b33",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b4f703f8-b1dc-3da8-a3e2-dac353f1b624",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c5e9e5fa-7dfe-30d8-bd0b-1eb584ca1889",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/37cdf8d6-c07c-307c-9d36-f5c69b18eeb6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Bitte fragen Sie uns."
+            ],
+            "en": [
+              "Please consult us."
+            ],
+            "it": [
+              "Consultateci."
+            ],
+            "fr": [
+              "Nous consulter."
+            ],
+            "nl": [
+              "Raadpleeg ons."
+            ],
+            "es": [
+              "Consúltenos."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2e348ad7-2d1c-3b1e-b48b-8c6bc544297d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3bd01d22-3092-3504-866e-001c97d62c75",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6602c6cc-0329-3423-9351-399794e391e0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aae3f3cf-ec7e-3b05-81d9-b89f02ac0723",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c7f821ee-9170-3721-a321-c0ec14a99483",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "DOMAINE ENTRAS"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3ac1abf9-eaa4-3d6e-a221-dacde15b6c0e",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: 1 Glas traditionellen Gascogne-Senf mit Traubenmost (Wert: 4,50?) gratis ab einem Einkaufswert von 50?"
+            ],
+            "en": [
+              "Special offer: 1 jar of traditional Gascony mustard with grape must (value: 4.50€) offered for every 50€ spent."
+            ],
+            "it": [
+              "Offerta speciale: 1 vasetto di senape tradizionale di Guascogna con mosto d'uva (valore: 4,50?) per ogni 50? acquistati."
+            ],
+            "fr": [
+              "Offre privilège : 1 pot de moutarde traditionnelle de Gascogne au moût de raisin (valeur : 4,50€) offert dès 50€ d'achats."
+            ],
+            "nl": [
+              "Speciale aanbieding: 1 potje traditionele Gascogne-mosterd met druivenmost (waarde: 4,50?) aangeboden voor elke gekochte 50?"
+            ],
+            "es": [
+              "Oferta especial: 1 tarro de mostaza tradicional de Gascuña con mosto de uva (valor: 4,50?) ofrecido por cada 50? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/e5444e0b-2b18-3f6c-8179-07d575b0c651",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2019-12-31",
+              "startDate": "2019-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/30a0294a-cfa5-312e-a4b9-7d10c7bb4851",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4353fffe-c755-3432-99fb-2fab0d31991c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/970446be-a91a-36cc-bb4a-a81d649f81bb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/99c00960-3bc1-3231-9d6e-98e876e64d7b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e0f460c9-97f8-35d9-8587-b4233431d0e3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6466ae77-12eb-386c-befa-0a17acdec788",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: 1 Glas traditionellen Gascogne-Senf mit Traubenmost (Wert: 4,50?) gratis ab einem Einkaufswert von 50?"
+            ],
+            "en": [
+              "Special offer: 1 jar of traditional Gascony mustard with grape must (value: 4.50€) offered for every 50€ spent."
+            ],
+            "it": [
+              "Offerta speciale: 1 vasetto di senape tradizionale di Guascogna con mosto d'uva (valore: 4,50?) per ogni 50? acquistati."
+            ],
+            "fr": [
+              "Offre privilège : 1 pot de moutarde traditionnelle de Gascogne au moût de raisin (valeur : 4,50€) offert dès 50€ d'achats."
+            ],
+            "nl": [
+              "Speciale aanbieding: 1 potje traditionele Gascogne-mosterd met druivenmost (waarde: 4,50?) aangeboden voor elke gekochte 50?"
+            ],
+            "es": [
+              "Oferta especial: 1 tarro de mostaza tradicional de Gascuña con mosto de uva (valor: 4,50?) ofrecido por cada 50? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/8929f6de-20b3-3d7d-b3fd-71683c70a3a3",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2016-12-31",
+              "startDate": "2016-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3b8890d0-aebb-3e95-99de-ba004cf55fa5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/714fd4e7-b382-329a-8235-699f77eb0a8b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b4119bc7-2b69-3f12-a1d3-28eb3aa866a4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c6cd121e-7fe2-31e2-8333-7f85bd382776",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fefc48ea-8d45-3beb-9d90-b7b9c80d0050",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/72973c06-f620-35e7-b53c-e6d265fcc845",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Geführte Besichtigung und Verkostung, mit Reservierung"
+            ],
+            "en": [
+              "Guided tour and tasting, on reservation"
+            ],
+            "it": [
+              "Visita guidata e degustazione, su prenotazione"
+            ],
+            "fr": [
+              "Visite guidée et dégustation, sur réservation"
+            ],
+            "es": [
+              "Visita guiada y degustación, previa reserva"
+            ],
+            "nl": [
+              "Rondleiding en proeverij, op reservering"
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3e80cf6d-9607-3a2b-81fe-493df968d0ae",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4b5888f0-71a6-34db-9b9f-2f92a502a2bb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/77a68d64-7a9d-3c2f-8c02-4e4c233e39ae",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bb0cb703-84d6-3a1f-bf6f-31d825545aca",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c3566a0f-3d1d-3221-bddd-6c6467a2baa1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9d983abe-0184-3878-bd01-943073f52e52",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/aebdab03-807e-3e3f-8bdf-c747f0d85407",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: 1 Glas traditionellen Gascogne-Senf mit Traubenmost (Wert: 4,50?) gratis ab einem Einkaufswert von 50?"
+            ],
+            "en": [
+              "Special offer: 1 jar of traditional Gascony mustard with grape must (value: 4.50€) offered for every 50€ spent."
+            ],
+            "it": [
+              "Offerta speciale: 1 vasetto di senape tradizionale di Guascogna con mosto d'uva (valore: 4,50?) per ogni 50? acquistati."
+            ],
+            "fr": [
+              "Offre privilège : 1 pot de moutarde traditionnelle de Gascogne au moût de raisin (valeur : 4,50€) offert dès 50€ d'achats."
+            ],
+            "nl": [
+              "Speciale aanbieding: 1 potje traditionele Gascogne-mosterd met druivenmost (waarde: 4,50?) aangeboden voor elke gekochte 50?"
+            ],
+            "es": [
+              "Oferta especial: 1 tarro de mostaza tradicional de Gascuña con mosto de uva (valor: 4,50?) ofrecido por cada 50? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/134b755c-4075-31b4-827d-ae1bf4fed0de",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2017-12-31",
+              "startDate": "2017-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/44a384bb-04a4-3f88-8cfd-03ae8fabf270",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9bc7e3dd-52ee-3982-afba-ea116a1af064",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ab0c95ae-ad57-3a99-92e3-98c2ecdff4c5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ea9f429e-fb27-35d1-98b5-90b4d05d8acf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ed762435-410e-30d5-89b8-db3cf6fc50b3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b5242582-a06d-3791-ad2c-0a9d6ee87981",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/241f68f1-25bc-306b-a5c7-88dc921c017a",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2013-12-31",
+              "startDate": "2013-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visite"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f3e647bc-7384-3691-be22-d00ac79cf170",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Privilegiertes Angebot: 1 Glas traditionellen Gascogne-Senf mit Traubenmost (Wert: 4,50?) gratis ab einem Einkaufswert von 50?"
+            ],
+            "en": [
+              "Special offer: 1 jar of traditional Gascony mustard with grape must (value: 4.50€) offered for every 50€ spent."
+            ],
+            "it": [
+              "Offerta speciale: 1 vasetto di senape tradizionale di Guascogna con mosto d'uva (valore: 4,50?) per ogni 50? acquistati."
+            ],
+            "fr": [
+              "Offre privilège : 1 pot de moutarde traditionnelle de Gascogne au moût de raisin (valeur : 4,50€) offert dès 50€ d'achats."
+            ],
+            "nl": [
+              "Speciale aanbieding: 1 potje traditionele Gascogne-mosterd met druivenmost (waarde: 4,50?) aangeboden voor elke gekochte 50?"
+            ],
+            "es": [
+              "Oferta especial: 1 tarro de mostaza tradicional de Gascuña con mosto de uva (valor: 4,50?) ofrecido por cada 50? de compra."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/f6e21f79-2c4f-3c46-b4a9-1ca285391041",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2018-12-31",
+              "startDate": "2018-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/62668c32-83ad-3679-b765-91cbc7076320",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/66114d61-aee1-3b6a-8a6a-a3cac320f952",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/74a370a5-7694-3487-9b62-2a92c2951b0f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9e7803d5-16ae-3687-8017-c83f2d9a3161",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e3d38ffd-0de6-3795-baee-c761232851be",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "OFFRE PASSEPORT"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

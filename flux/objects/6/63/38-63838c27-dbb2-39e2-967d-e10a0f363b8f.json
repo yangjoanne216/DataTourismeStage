@@ -1,0 +1,313 @@
+{
+  "@id": "https://data.datatourisme.fr/38/63838c27-dbb2-39e2-967d-e10a0f363b8f",
+  "dc:identifier": "B0031BRE00000001",
+  "@type": [
+    "schema:Landform",
+    "NaturalHeritage",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Fiche test PNA Brocéliande"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/c35edcbe-0c90-31e4-9f91-0387a16a7c7f",
+    "schema:legalName": "CRT Bretagne_",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cbc8f135-bec8-365b-8b02-ea7abf78dfa7",
+      "schema:legalName": "SIT Breton",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/b8156fae-1959-327c-8913-3171aaa08085",
+      "schema:email": [
+        "test@tourismebretagne.com"
+      ],
+      "schema:telephone": [
+        "+33 000000000"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.test.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/42c5eaeb-d2e5-3650-b659-307eca851338",
+      "dc:description": {
+        "de": [
+          "Kommerzielle Beschreibung Test NAP Brocéliande"
+        ],
+        "en": [
+          "Commercial description of the Broceliande NAP test"
+        ],
+        "it": [
+          "Descrizione commerciale del test NAP Broceliande"
+        ],
+        "fr": [
+          "Descriptif commercial test PNA Brocéliande"
+        ],
+        "es": [
+          "Descripción comercial de la prueba NAP de Broceliande"
+        ],
+        "nl": [
+          "Commerciële beschrijving van de Broceliande NAP-test"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/25939490-82ea-31d1-b764-fc1f3b31e13d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/299d3bac-0c69-30fd-b5da-9d0d5bde7d28",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8bfbf276-779b-390f-9d2a-311de40e43ba",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a33f97cd-77ac-32b8-bfaf-c204106ce8a8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fbebd1d5-30d9-3718-8b6c-bc2818090c09",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/0f7b86e2-7473-3c01-8171-7eeb214f7f5b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/70d31340-5209-3933-af17-af21f35bf0b4",
+          "schema:addressLocality": "Ploërmel",
+          "schema:postalCode": "56800",
+          "schema:streetAddress": [
+            "Adresse 1 suite",
+            "Adresse 1",
+            "Adresse 2",
+            "Adresse 3"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:56165",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ploërmel"
+              ],
+              "pt": [
+                "Ploërmel"
+              ],
+              "en": [
+                "Ploërmel"
+              ],
+              "it": [
+                "Ploërmel"
+              ],
+              "fr": [
+                "Ploërmel"
+              ],
+              "nl": [
+                "Ploërmel"
+              ],
+              "es": [
+                "Ploërmel"
+              ]
+            },
+            "insee": "56165",
+            "isPartOfDepartment": {
+              "@id": "kb:France5356",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Morbihan"
+                ],
+                "pt": [
+                  "Morbihan"
+                ],
+                "en": [
+                  "Morbihan"
+                ],
+                "it": [
+                  "Morbihan"
+                ],
+                "fr": [
+                  "Morbihan"
+                ],
+                "nl": [
+                  "Morbihan"
+                ],
+                "es": [
+                  "Morbihan"
+                ]
+              },
+              "insee": "56",
+              "isPartOfRegion": {
+                "@id": "kb:France53",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bretagne"
+                  ],
+                  "pt": [
+                    "Bretagne"
+                  ],
+                  "en": [
+                    "Bretagne"
+                  ],
+                  "it": [
+                    "Bretagne"
+                  ],
+                  "fr": [
+                    "Bretagne"
+                  ],
+                  "nl": [
+                    "Bretagne"
+                  ],
+                  "es": [
+                    "Bretagne"
+                  ]
+                },
+                "insee": "53",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/bdc389ca-ede4-38f1-b4da-baac7e4a8404",
+        "schema:latitude": "48.112288",
+        "schema:longitude": "-1.662186",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2017-12-31",
+  "lastUpdateDatatourisme": "2023-01-17T02:01:44.099Z"
+}

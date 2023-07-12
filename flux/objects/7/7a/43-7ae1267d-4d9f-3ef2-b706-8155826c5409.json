@@ -1,0 +1,915 @@
+{
+  "@id": "https://data.datatourisme.fr/43/7ae1267d-4d9f-3ef2-b706-8155826c5409",
+  "dc:identifier": "278850",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "BRASSERIE LA ROQUE"
+    ]
+  },
+  "creationDate": "2021-07-10",
+  "hasAudience": [
+    {
+      "@id": "kb:Departmental",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Des Départements"
+        ],
+        "pt": [
+          "Departamental"
+        ],
+        "en": [
+          "Departmental"
+        ],
+        "it": [
+          "Dipartimentale"
+        ],
+        "fr": [
+          "Départementale"
+        ],
+        "nl": [
+          "Departementaal"
+        ],
+        "es": [
+          "Departamental"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Local",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Lokal"
+        ],
+        "pt": [
+          "Local"
+        ],
+        "en": [
+          "Local"
+        ],
+        "it": [
+          "Locale"
+        ],
+        "fr": [
+          "Locale"
+        ],
+        "nl": [
+          "Lokaal"
+        ],
+        "es": [
+          "Local"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/4a17d700-316d-397d-8614-eab5ad37b6ab",
+    "schema:legalName": "OT Auch",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2809c304-0ab7-3ead-ae1b-4f100c11ddc6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/cfa466cf-3a1e-3b8a-b8e6-a2fa55ef597a",
+          "schema:addressLocality": "Ordan-Larroque",
+          "schema:postalCode": "32350",
+          "schema:streetAddress": [
+            "1618 Chemin des Pradets",
+            "Brasserie La Roque"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32301",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ordan-Larroque"
+              ],
+              "pt": [
+                "Ordan-Larroque"
+              ],
+              "en": [
+                "Ordan-Larroque"
+              ],
+              "it": [
+                "Ordan-Larroque"
+              ],
+              "fr": [
+                "Ordan-Larroque"
+              ],
+              "nl": [
+                "Ordan-Larroque"
+              ],
+              "es": [
+                "Ordan-Larroque"
+              ]
+            },
+            "insee": "32301",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/70c6ee19-04c6-34c0-a53a-b268181c2216",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/60c3c6c6-7c07-32d9-9356-5650a93eedc6",
+          "schema:addressLocality": "Ordan-Larroque",
+          "schema:postalCode": "32350",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32301",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ordan-Larroque"
+              ],
+              "pt": [
+                "Ordan-Larroque"
+              ],
+              "en": [
+                "Ordan-Larroque"
+              ],
+              "it": [
+                "Ordan-Larroque"
+              ],
+              "fr": [
+                "Ordan-Larroque"
+              ],
+              "nl": [
+                "Ordan-Larroque"
+              ],
+              "es": [
+                "Ordan-Larroque"
+              ]
+            },
+            "insee": "32301",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@brasserielaroque.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 20 01 93 68"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.brasserielaroque.fr/fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/50ae11d3-92d3-3d5c-9e76-173e8c64c022",
+      "dc:description": {
+        "de": [
+          "Die Brauerei La Roque liegt in der Nähe des hübschen Dorfes Ordan Larroque. Hier können Sie ihre handwerklich gebrauten und biologischen Biere entdecken!"
+        ],
+        "en": [
+          "Located near the pretty village of Ordan Larroque, the La Roque brewery will make you discover their artisanal and organic beers!"
+        ],
+        "it": [
+          "Situato vicino al grazioso villaggio di Ordan Larroque, il birrificio La Roque vi farà scoprire le sue birre artigianali e biologiche!"
+        ],
+        "fr": [
+          "Situé à proximité du joli village d'Ordan Larroque, la brasserie La Roque vous fera découvrir leurs bières artisanales et biologiques !"
+        ],
+        "es": [
+          "Situada cerca del bonito pueblo de Ordan Larroque, la cervecería La Roque le hará descubrir sus cervezas artesanales y ecológicas"
+        ],
+        "nl": [
+          "In de buurt van het mooie dorpje Ordan Larroque laat de brouwerij La Roque u hun ambachtelijke en biologische bieren ontdekken!"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2e69f090-8416-3215-a11a-c1c061dc2839",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5377e520-9143-379f-abc1-0cdc75866aba",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/704047c5-a7ae-3d88-8361-f02183d16801",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7b7e0101-faaa-364a-918a-276e2ec22804",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8ef50e86-9af3-38db-918a-20a0c2d7f1c8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Departmental",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Des Départements"
+        ],
+        "pt": [
+          "Departamental"
+        ],
+        "en": [
+          "Departmental"
+        ],
+        "it": [
+          "Dipartimentale"
+        ],
+        "fr": [
+          "Départementale"
+        ],
+        "nl": [
+          "Departementaal"
+        ],
+        "es": [
+          "Departamental"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Local",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Lokal"
+        ],
+        "pt": [
+          "Local"
+        ],
+        "en": [
+          "Local"
+        ],
+        "it": [
+          "Locale"
+        ],
+        "fr": [
+          "Locale"
+        ],
+        "nl": [
+          "Lokaal"
+        ],
+        "es": [
+          "Local"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/bae183c3-f5a1-34c9-a2d3-c55092686f08",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/d2a544e0-3919-37a4-b24b-52de30bb7ae6",
+          "ebucore:title": {
+            "fr": [
+              "Brasserie"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Brasserie La Roque"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5a5c289c-7327-3b38-8c98-492e0849fb4a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0157681.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/bae183c3-f5a1-34c9-a2d3-c55092686f08",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/d2a544e0-3919-37a4-b24b-52de30bb7ae6",
+          "ebucore:title": {
+            "fr": [
+              "Brasserie"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Brasserie La Roque"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5a5c289c-7327-3b38-8c98-492e0849fb4a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0157681.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/f84f68c7-9cb8-350c-98ed-396cb3c1adb2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/cfa466cf-3a1e-3b8a-b8e6-a2fa55ef597a",
+          "schema:addressLocality": "Ordan-Larroque",
+          "schema:postalCode": "32350",
+          "schema:streetAddress": [
+            "1618 Chemin des Pradets",
+            "Brasserie La Roque"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32301",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ordan-Larroque"
+              ],
+              "pt": [
+                "Ordan-Larroque"
+              ],
+              "en": [
+                "Ordan-Larroque"
+              ],
+              "it": [
+                "Ordan-Larroque"
+              ],
+              "fr": [
+                "Ordan-Larroque"
+              ],
+              "nl": [
+                "Ordan-Larroque"
+              ],
+              "es": [
+                "Ordan-Larroque"
+              ]
+            },
+            "insee": "32301",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/35cfb9f8-3afa-311b-97bf-fdbef9c8162c",
+        "schema:latitude": "43.6697427",
+        "schema:longitude": "0.44363216",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-08-06",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.452Z"
+}

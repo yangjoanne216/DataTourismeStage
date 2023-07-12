@@ -1,0 +1,280 @@
+{
+  "@id": "https://data.datatourisme.fr/13/fbc357d3-4cd4-3c07-a9f2-5b8028b7521c",
+  "dc:identifier": "5755041",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Pizzeria de la Fontaine"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/9aa42b31-882e-3039-965f-3c4923ce901b",
+    "dc:identifier": "1421",
+    "schema:email": [
+      "fmeunier@ot-brioude.fr",
+      "tourisme@brioudesudauvergne.fr"
+    ],
+    "schema:legalName": "Office de Tourisme Brioude Sud-Auvergne",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.tourisme-brioudesudauvergne.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/36ac2aa2-25d7-341e-b68a-2e78c6066065",
+      "schema:legalName": "Maison du Tourisme de la Haute-Loire - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/cf8bca6e-3515-312a-9cc0-5313c653ebd3",
+      "schema:email": [
+        "lafontaine43100@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 4 71 76 08 66"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/8df8975f-b602-37cb-9e75-9245218c9d85",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/bb1f9e11-f6c3-38fc-b240-b6a334cddbfe",
+          "schema:addressLocality": "Fontannes",
+          "schema:postalCode": "43100",
+          "schema:streetAddress": [
+            "21 rue du 11 novembre"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:43096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Fontannes"
+              ],
+              "pt": [
+                "Fontannes"
+              ],
+              "en": [
+                "Fontannes"
+              ],
+              "it": [
+                "Fontannes"
+              ],
+              "fr": [
+                "Fontannes"
+              ],
+              "nl": [
+                "Fontannes"
+              ],
+              "es": [
+                "Fontannes"
+              ]
+            },
+            "insee": "43096",
+            "isPartOfDepartment": {
+              "@id": "kb:France8443",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Haute-Loire"
+                ],
+                "pt": [
+                  "Haute-Loire"
+                ],
+                "en": [
+                  "Haute-Loire"
+                ],
+                "it": [
+                  "Haute-Loire"
+                ],
+                "fr": [
+                  "Haute-Loire"
+                ],
+                "nl": [
+                  "Haute-Loire"
+                ],
+                "es": [
+                  "Haute-Loire"
+                ]
+              },
+              "insee": "43",
+              "isPartOfRegion": {
+                "@id": "kb:France84",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "pt": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "en": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "it": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "fr": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "nl": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "es": [
+                    "Auvergne-Rhône-Alpes"
+                  ]
+                },
+                "insee": "84",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/70a91bd6-8a3e-3761-b4c4-ff16efeeaede",
+        "schema:latitude": "45.289442",
+        "schema:longitude": "3.423809",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/72cbf7ec-52ce-3410-b6e5-04b26150bdd1",
+          "schema:closes": "21:00:00",
+          "schema:opens": "17:30:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/a52e22c7-64d7-3265-bf22-7650893b4fa3",
+      "schema:email": [
+        "fmeunier@ot-brioude.fr",
+        "tourisme@brioudesudauvergne.fr"
+      ],
+      "schema:legalName": "Office de Tourisme Brioude Sud-Auvergne",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-brioudesudauvergne.fr/"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-08-02",
+  "lastUpdateDatatourisme": "2023-02-01T18:07:36.085Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/af2d7d2f-4167-3141-a64a-444192faae4d",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/14107ca1-0f00-3f9d-97e1-0c6e64960aec",
+          "schema:minPrice": [
+            "9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/0663ca4b-3470-3171-9053-39aa704e8f56",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2022-12-31",
+              "startDate": "2022-01-01"
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

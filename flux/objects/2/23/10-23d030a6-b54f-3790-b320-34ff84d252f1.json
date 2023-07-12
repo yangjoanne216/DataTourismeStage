@@ -1,0 +1,732 @@
+{
+  "@id": "https://data.datatourisme.fr/10/23d030a6-b54f-3790-b320-34ff84d252f1",
+  "dc:identifier": "1368002112",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Frühstücksangebote. Eine große Auswahl an Gerichten zum Mitnehmen und zusätzlich zu Ihrer Rotisserie mehrere Vorschläge, die aus frischen Produkten bestehen und vor Ort verzehrt werden können. Ein Cateringservice wird für Ihre verschiedenen Veranstaltungen angeboten."
+    ],
+    "en": [
+      "Breakfast formulas. A large showcase of take-away meals and, in addition to your rotisserie, several suggestions made up of fresh products to eat on site. A catering service is available for your various events."
+    ],
+    "it": [
+      "Formule per la colazione. Una vasta gamma di piatti da asporto e, oltre alla vostra rosticceria, diverse proposte a base di prodotti freschi da consumare sul posto. È disponibile un servizio di catering per i vostri eventi."
+    ],
+    "fr": [
+      "Des formules petits déjeuner. Une large vitrine de plats à emporter et en plus de votre rôtisserie, plusieurs suggestions composées de produits frais à consommer sur place. Un service traiteur vous est proposé pour vos divers événements."
+    ],
+    "nl": [
+      "Ontbijtformules. Een ruime keuze aan afhaalgerechten en, naast uw rotisserie, verschillende suggesties van verse producten om ter plaatse te nuttigen. Een catering service is beschikbaar voor uw verschillende evenementen."
+    ],
+    "es": [
+      "Fórmulas de desayuno. Una amplia gama de platos para llevar y, además de su asador, varias sugerencias a base de productos frescos para consumir en el momento. Hay un servicio de catering disponible para sus diversos eventos."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "EN FAIM"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "maskentragen ist Pflicht, Distanzierung zwischen den Tischen"
+    ],
+    "en": [
+      "mandatory wearing of masks, distance between tables"
+    ],
+    "it": [
+      "obbligo di indossare maschere, distanza tra i tavoli"
+    ],
+    "fr": [
+      "port du masque obligatoire, distanciation entre les tables"
+    ],
+    "nl": [
+      "verplicht dragen van maskers, afstand tussen de tafels"
+    ],
+    "es": [
+      "uso obligatorio de máscaras, distancia entre mesas"
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/6c1da886-822c-3782-abcf-3679d04369fa",
+    "dc:identifier": "1368",
+    "schema:legalName": "DESTINATION AMNEVILLE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ae97ff34-74fe-3cd6-94a4-4f9a5a6e5d15",
+      "schema:email": [
+        "enfaim.amneville@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 9 84 19 24 59"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "siret": "85241517300016"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/534f7f06-3627-356a-a44c-38a16821cd0d",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0356a122-17a7-3e15-a230-b2053991b4b4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/26f1299d-4a24-3915-942d-bd4fdff7a299",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7a8eff5b-e4bb-39d3-813a-198e9c52d9eb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/accff205-5dda-3aac-aba2-2848f438f69a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c19cc1a0-faca-35f5-ac84-ca3d025c58af",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Frühstücksangebote. Eine große Auswahl an Gerichten zum Mitnehmen und zusätzlich zu Ihrer Rotisserie mehrere Vorschläge, die aus frischen Produkten bestehen und vor Ort verzehrt werden können. Ein Cateringservice wird für Ihre verschiedenen Veranstaltungen angeboten."
+        ],
+        "en": [
+          "Breakfast formulas. A large showcase of take-away meals and, in addition to your rotisserie, several suggestions made up of fresh products to eat on site. A catering service is available for your various events."
+        ],
+        "it": [
+          "Formule per la colazione. Una vasta gamma di piatti da asporto e, oltre alla vostra rosticceria, diverse proposte a base di prodotti freschi da consumare sul posto. È disponibile un servizio di catering per i vostri eventi."
+        ],
+        "fr": [
+          "Des formules petits déjeuner. Une large vitrine de plats à emporter et en plus de votre rôtisserie, plusieurs suggestions composées de produits frais à consommer sur place. Un service traiteur vous est proposé pour vos divers événements."
+        ],
+        "nl": [
+          "Ontbijtformules. Een ruime keuze aan afhaalgerechten en, naast uw rotisserie, verschillende suggesties van verse producten om ter plaatse te nuttigen. Een catering service is beschikbaar voor uw verschillende evenementen."
+        ],
+        "es": [
+          "Fórmulas de desayuno. Una amplia gama de platos para llevar y, además de su asador, varias sugerencias a base de productos frescos para consumir en el momento. Hay un servicio de catering disponible para sus diversos eventos."
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0eeca9fc-49cd-31ae-8fb4-d713f15845d6",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1706bb6c-c130-3204-8732-7a8cef979f58",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1a9998fa-5784-3ec5-a33c-0923baac3a69",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/380dd1d0-f9bc-3ce6-b870-eae217e2ca72",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3925732b-95fd-3618-9bb6-9504e537781f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3951f4a0-fd1b-3283-8ba6-ea0ded12b35a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cda539f5-046c-3b13-9135-51ad113594ff",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cdadcb86-cd9a-32aa-8264-c6195b5ac7cf",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f0a37010-e061-38e2-8aa8-e3744bd46aa5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f927c4fb-75ba-3fe0-9568-4c2bc683ea49",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5b5ef1ff-6b84-3244-8aa0-aabc51e67224",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4ebf0061-314d-37df-a1bd-0cb52be0a7d0",
+          "schema:addressLocality": "Amnéville",
+          "schema:postalCode": "57360",
+          "schema:streetAddress": [
+            "PLACE FRÉDÉRIC RAU"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57019",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Amnéville"
+              ],
+              "pt": [
+                "Amnéville"
+              ],
+              "en": [
+                "Amnéville"
+              ],
+              "it": [
+                "Amnéville"
+              ],
+              "fr": [
+                "Amnéville"
+              ],
+              "nl": [
+                "Amnéville"
+              ],
+              "es": [
+                "Amnéville"
+              ]
+            },
+            "insee": "57019",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/97f714bf-b540-34ae-8ec9-3b4536044283",
+        "schema:latitude": "49.2604084420371",
+        "schema:longitude": "6.14288097175825",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2021-05-26",
+  "lastUpdateDatatourisme": "2023-04-18T13:12:15.881Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/80ccaefe-6a3e-3cd8-bbd8-1866e276a6a3",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

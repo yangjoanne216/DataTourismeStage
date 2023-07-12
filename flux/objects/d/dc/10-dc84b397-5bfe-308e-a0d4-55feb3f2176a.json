@@ -1,0 +1,287 @@
+{
+  "@id": "https://data.datatourisme.fr/10/dc84b397-5bfe-308e-a0d4-55feb3f2176a",
+  "dc:identifier": "939003568",
+  "@type": [
+    "schema:FastFoodRestaurant",
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FastFoodRestaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "PIZZERIA BLUES PIZZA"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/3df1d4b9-6d89-36ff-9986-393e8767f5b2",
+    "dc:identifier": "939",
+    "schema:legalName": "OT GRAND VERDUN",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/cb488e5b-ce38-3eb3-af51-80ffa74db4df",
+      "schema:telephone": [
+        "+33 3 29 83 98 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/b2d9cdc4-8f32-3a4b-b19e-2c7fcd8b55a6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:HomeDeliveries",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Lieferung nach Hause"
+            ],
+            "pt": [
+              "Entregas ao domicílio"
+            ],
+            "en": [
+              "Home deliveries"
+            ],
+            "it": [
+              "Consegne a domicilio"
+            ],
+            "fr": [
+              "Livraisons à domicile"
+            ],
+            "nl": [
+              "Thuisbezorging"
+            ],
+            "es": [
+              "Entregas a domicilio"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/fd9b476c-8fbf-3df4-b52a-fd84840009f4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0d3b8f57-f773-3a57-983c-d97af354a68b",
+          "schema:addressLocality": "Verdun",
+          "schema:postalCode": "55100",
+          "schema:streetAddress": [
+            "40 Rue des Rouyers"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:55545",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Verdun"
+              ],
+              "pt": [
+                "Verdun"
+              ],
+              "en": [
+                "Verdun"
+              ],
+              "it": [
+                "Verdun"
+              ],
+              "fr": [
+                "Verdun"
+              ],
+              "nl": [
+                "Verdun"
+              ],
+              "es": [
+                "Verdun"
+              ]
+            },
+            "insee": "55545",
+            "isPartOfDepartment": {
+              "@id": "kb:France4455",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Meuse"
+                ],
+                "pt": [
+                  "Meuse"
+                ],
+                "en": [
+                  "Meuse"
+                ],
+                "it": [
+                  "Meuse"
+                ],
+                "fr": [
+                  "Meuse"
+                ],
+                "nl": [
+                  "Meuse"
+                ],
+                "es": [
+                  "Meuse"
+                ]
+              },
+              "insee": "55",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e3231163-c6a4-372f-97a0-aa6b7369b060",
+        "schema:latitude": "49.1615693",
+        "schema:longitude": "5.3860763",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-04-18",
+  "lastUpdateDatatourisme": "2023-04-19T04:00:53.362Z",
+  "reducedMobilityAccess": false
+}

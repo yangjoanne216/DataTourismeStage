@@ -1,0 +1,931 @@
+{
+  "@id": "https://data.datatourisme.fr/58/6a4fbd8d-3993-396f-83d0-1e5f3e985907",
+  "dc:identifier": "6034388",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Zweimal denselben Pass fahren, aber der Vorteil beim Radfahren ist, dass es nicht langweilig ist, die Straße in beide Richtungen zu fahren, man sieht nie das Gleiche und Ihre Beine fühlen sich anders an."
+    ],
+    "en": [
+      "Doing the same pass twice, but the advantage with the bike is that there is nothing boring to ride the road in both directions, you never see the same thing and your legs don't feel the same."
+    ],
+    "it": [
+      "Fare due volte lo stesso passo, ma il vantaggio della bicicletta è che non c'è niente di noioso nel percorrere la strada in entrambe le direzioni, non si vede mai la stessa cosa e le gambe non si sentono allo stesso modo."
+    ],
+    "fr": [
+      "Faire deux fois le même col, mais l'avantage avec le vélo c'est qu'il n'y a rien d'ennuyeux à parcourir la route dans les deux sens, on ne voit jamais la même chose et vos jambes n'ont pas les mêmes sensations."
+    ],
+    "nl": [
+      "Twee keer dezelfde pas doen, maar het voordeel van fietsen is dat de weg in beide richtingen niet saai is, je ziet nooit hetzelfde en je benen voelen niet hetzelfde."
+    ],
+    "es": [
+      "Hacer la misma pasada dos veces, pero la ventaja del ciclismo es que no hay nada de aburrido en recorrer la carretera en ambas direcciones, nunca ves lo mismo y las piernas no se sienten igual."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Col de l'Espigoulier deux fois"
+    ]
+  },
+  "availableLanguage": [
+    "fr"
+  ],
+  "duration": "270",
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/3e9e39fe-d3b8-369e-9940-f52cf300cf88",
+    "dc:identifier": "2083",
+    "schema:email": [
+      "anne-laure.r@tourisme-paysdaubagne.fr",
+      "cedric.f@tourisme-paysdaubagne.fr",
+      "christine.g@tourisme-paysdaubagne.fr",
+      "damien.d@tourisme-paysdaubagne.fr",
+      "marianne.g@tourisme-paysdaubagne.fr"
+    ],
+    "schema:legalName": "Office de Tourisme du Pays d’Aubagne et de l’Étoile",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.tourisme-paysdaubagne.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/b311a09b-e68e-3ac1-a712-87aeb9dd8882",
+      "schema:legalName": "Provence Tourisme / Office de Tourisme du Pays d’Aubagne et de l’Étoile",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/dc3b89fb-bdd1-39fc-b243-6892572c6848",
+      "schema:email": [
+        "accueil@tourisme-paysdaubagne.fr"
+      ],
+      "schema:telephone": [
+        "+33 4 42 03 49 98"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-paysdaubagne.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/df5f407a-fb4d-3b58-9090-1446ed252fec",
+      "dc:description": {
+        "de": [
+          "Der Vorteil beim Radfahren ist, dass es nicht langweilig ist, die Straße in beide Richtungen zu befahren, man sieht nie das Gleiche und die Beine fühlen sich anders an. Also war es Pflicht, den Espigoulier in beide Richtungen auf derselben Strecke zu absolvieren. Außerdem werden Sie einen anderen Teil der Region in Richtung St Maximin la Sainte-Baume und einen kleinen, aber angenehmen Anstieg von Nans-les-Pins bis Plan d'Aups kennenlernen. Eine Strecke, die schon einiges an Umfang hat und ein gutes Training erfordert."
+        ],
+        "en": [
+          "The advantage with the bike is that there is nothing boring to ride the road in both directions, you never see the same thing and your legs don't have the same sensations. So doing the Espigoulier in both directions on the same route was mandatory. On top of that, you will discover another area of the region towards St Maximin la Sainte-Baume and a very pleasant climb from Nans-les-Pins to Plan d'Aups. A course that is already quite big and requires a good training."
+        ],
+        "it": [
+          "Il vantaggio della bicicletta è che non c'è niente di noioso nell'andare in entrambi i sensi, non si vede mai la stessa cosa e le gambe non si sentono allo stesso modo. Per questo motivo era d'obbligo fare l'Espigoulier in entrambe le direzioni sullo stesso percorso. Inoltre, scoprirete un altro settore della regione verso St Maximin la Sainte-Baume e una piccola salita molto piacevole da Nans-les-Pins a Plan d'Aups. Un corso che è già abbastanza grande e richiede una buona formazione."
+        ],
+        "fr": [
+          "L'avantage avec le vélo c'est qu'il n'y a rien d'ennuyeux à parcourir la route dans les deux sens, on ne voit jamais la même chose et vos jambes n'ont pas les mêmes sensations. Alors faire l'Espigoulier dans les deux sens sur le même parcours était obligatoire. En plus de cela, vous allez découvrir un autre secteur de la région vers St Maximin la Sainte-Baume et une petite ascension bien agréable depuis Nans-les-Pins jusqu'au Plan d'Aups. Un parcours qui a déjà de l'envergure et demande un bon entraînement."
+        ],
+        "es": [
+          "La ventaja del ciclismo es que no hay nada de aburrido en los dos sentidos, nunca se ve lo mismo y las piernas no se sienten igual. Así que hacer el Espigoulier en ambas direcciones en la misma ruta era una obligación. Además, descubrirá otro sector de la región hacia St Maximin la Sainte-Baume y una pequeña subida muy agradable desde Nans-les-Pins hasta Plan d'Aups. Un curso que ya es bastante amplio y que requiere una buena formación."
+        ],
+        "nl": [
+          "Het voordeel van fietsen is dat er niets vervelends aan is, je ziet nooit hetzelfde en je benen voelen niet hetzelfde. De Espigoulier in beide richtingen op dezelfde route was dus een must. Bovendien ontdekt u een andere sector van de streek in de richting van St Maximin la Sainte-Baume en een zeer aangenaam klimmetje van Nans-les-Pins naar Plan d'Aups. Een cursus die al behoorlijk groot is en een goede opleiding vereist."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/087b92cd-6487-3260-a616-b8663ffade2a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0f45618e-30a4-33e3-ab3b-74e0f136890e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/42efb8c6-4329-3029-9f91-58522ff5b406",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5f1baadc-95a9-3c4f-9f47-0a809ac17162",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/79a46787-cbe0-3661-b682-8eb6ade461cd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b0cdd910-8878-34bc-a850-0c8b0521b53e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d3368832-ed5e-30f4-aceb-491be66d95e6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e798b0f2-b77a-309f-98f8-c3765ca52c1c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f1b84528-b460-3050-aa7b-e83460252b95",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f30ff2ed-f90e-3287-8ea0-a2bfb993e317",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "isDedicatedTo": [
+        {
+          "@id": "kb:CycleTourist",
+          "@type": [
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Radtouristen"
+            ],
+            "pt": [
+              "Cicloturistas"
+            ],
+            "en": [
+              "Cycle tourist"
+            ],
+            "it": [
+              "Cicloturisti"
+            ],
+            "fr": [
+              "Cyclotouristes"
+            ],
+            "nl": [
+              "Fietstoeristen"
+            ],
+            "es": [
+              "Cicloturistas"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cyclists",
+          "@type": [
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Radfahrer"
+            ],
+            "pt": [
+              "Ciclistas"
+            ],
+            "en": [
+              "Cyclists"
+            ],
+            "it": [
+              "Ciclisti"
+            ],
+            "fr": [
+              "Cyclistes"
+            ],
+            "nl": [
+              "Wielrenners"
+            ],
+            "es": [
+              "Ciclistas"
+            ]
+          }
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Zweimal denselben Pass fahren, aber der Vorteil beim Radfahren ist, dass es nicht langweilig ist, die Straße in beide Richtungen zu fahren, man sieht nie das Gleiche und Ihre Beine fühlen sich anders an."
+        ],
+        "en": [
+          "Doing the same pass twice, but the advantage with the bike is that there is nothing boring to ride the road in both directions, you never see the same thing and your legs don't feel the same."
+        ],
+        "it": [
+          "Fare due volte lo stesso passo, ma il vantaggio della bicicletta è che non c'è niente di noioso nel percorrere la strada in entrambe le direzioni, non si vede mai la stessa cosa e le gambe non si sentono allo stesso modo."
+        ],
+        "fr": [
+          "Faire deux fois le même col, mais l'avantage avec le vélo c'est qu'il n'y a rien d'ennuyeux à parcourir la route dans les deux sens, on ne voit jamais la même chose et vos jambes n'ont pas les mêmes sensations."
+        ],
+        "nl": [
+          "Twee keer dezelfde pas doen, maar het voordeel van fietsen is dat de weg in beide richtingen niet saai is, je ziet nooit hetzelfde en je benen voelen niet hetzelfde."
+        ],
+        "es": [
+          "Hacer la misma pasada dos veces, pero la ventaja del ciclismo es que no hay nada de aburrido en recorrer la carretera en ambas direcciones, nunca ves lo mismo y las piernas no se sienten igual."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/fd6ace4a-5f06-33bd-a379-f39641ec0410",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ParkingNearby",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz in der Nähe"
+            ],
+            "pt": [
+              "Estacionamento próximo"
+            ],
+            "en": [
+              "Parking nearby"
+            ],
+            "it": [
+              "Parcheggio nelle vicinanze"
+            ],
+            "fr": [
+              "Parking à proximité"
+            ],
+            "nl": [
+              "Parkeergelegenheid in de buurt"
+            ],
+            "es": [
+              "Aparcamiento cercano"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/2b22e7ec-8a2c-3322-848f-fa915fe6cd8f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/774e2941-67ee-3101-b957-d6f8ad05af14",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Olivier Chesneau"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b09bb5e4-20b5-31bc-9358-1664c3ec0f6c",
+          "ebucore:fileSize": [
+            "2957794"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "2554",
+          "ebucore:locator": [
+            "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/12/186/12630540.jpg"
+          ],
+          "ebucore:width": "3763",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c03f3be7-e5e3-368b-b90f-845ff2e51f55",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/774e2941-67ee-3101-b957-d6f8ad05af14",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Olivier Chesneau"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/38cd6ab6-b188-3a85-8b28-c7afe8113186",
+          "ebucore:fileSize": [
+            "4281214"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "3000",
+          "ebucore:locator": [
+            "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/11/186/12630539.jpg"
+          ],
+          "ebucore:width": "4000",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/5f66b2f2-99d9-3aa0-9b03-0d0f68aa5505",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9be8a9b2-6a99-3290-84e5-8d433fa30e95",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ab25d65f-135a-372d-a07c-cb95108e2128",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ab351b83-5738-308c-9232-ef8994a5c07c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f1b9f894-5f26-3a42-b9f7-6a19720b33b0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/a948bbf3-dee4-3c1a-98cf-b99deeed5976",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c78fbe34-8a25-30f7-a373-b7b1ec640686",
+          "schema:addressLocality": "Aubagne",
+          "schema:postalCode": "13400",
+          "schema:streetAddress": [
+            "8 cours Barthélémy"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13005",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Aubagne"
+              ],
+              "pt": [
+                "Aubagne"
+              ],
+              "en": [
+                "Aubagne"
+              ],
+              "it": [
+                "Aubagne"
+              ],
+              "fr": [
+                "Aubagne"
+              ],
+              "nl": [
+                "Aubagne"
+              ],
+              "es": [
+                "Aubagne"
+              ]
+            },
+            "insee": "13005",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/2420eef1-a4d0-3b19-bb9b-336ae044774e",
+        "schema:elevation": "103",
+        "schema:latitude": "43.292781",
+        "schema:longitude": "5.566868",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/266e5dee-4d5d-3a47-ac41-d24b2d112b12",
+          "schema:validFrom": "2022-01-01T00:00:00",
+          "schema:validThrough": "2022-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/d012300f-6d96-3415-92d6-de3c2a7b5887",
+      "schema:email": [
+        "anne-laure.r@tourisme-paysdaubagne.fr",
+        "cedric.f@tourisme-paysdaubagne.fr",
+        "christine.g@tourisme-paysdaubagne.fr",
+        "damien.d@tourisme-paysdaubagne.fr",
+        "marianne.g@tourisme-paysdaubagne.fr"
+      ],
+      "schema:legalName": "Office de Tourisme du Pays d’Aubagne et de l’Étoile",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-paysdaubagne.fr/"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-02-15",
+  "lastUpdateDatatourisme": "2023-02-25T05:16:19.465Z",
+  "reducedMobilityAccess": false,
+  "tourDistance": "102700.0"
+}

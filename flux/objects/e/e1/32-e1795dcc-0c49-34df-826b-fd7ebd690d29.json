@@ -1,0 +1,605 @@
+{
+  "@id": "https://data.datatourisme.fr/32/e1795dcc-0c49-34df-826b-fd7ebd690d29",
+  "dc:identifier": "RESLAR034V50A43S",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "BarOrPub",
+    "BrasserieOrTavern",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "de": [
+      "A TABLE"
+    ],
+    "en": [
+      "A TABLE"
+    ],
+    "fr": [
+      "A TABLE"
+    ]
+  },
+  "creationDate": "2013-05-29",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/ee971f5f-1772-3b3f-932a-ace1eea53b3a",
+    "schema:legalName": "OT CAP D'AGDE MEDITERRANEE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/febedded-d61e-398a-afe4-6ddebe34211c",
+      "schema:email": [
+        "contact@herault-tourisme.com"
+      ],
+      "schema:legalName": "Hérault Tourisme",
+      "schema:telephone": [
+        "+33 4 67 67 71 71"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.herault-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/468c1793-dce7-3618-87a5-2452a02a001e",
+      "schema:legalName": "A TABLE",
+      "schema:telephone": [
+        "+33 4 99 43 88 70",
+        "+33 6 75 53 29 03"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/922ba54c-213a-3b22-ad3f-4606c09ef51f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/274c4290-b5fe-30aa-873d-cbc27e799401",
+          "schema:addressLocality": "Pézenas",
+          "schema:postalCode": "34120",
+          "schema:streetAddress": [
+            "ZAC les Rodettes - 10 rue Paul Guéry"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:34199",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Pézenas"
+              ],
+              "pt": [
+                "Pézenas"
+              ],
+              "en": [
+                "Pézenas"
+              ],
+              "it": [
+                "Pézenas"
+              ],
+              "fr": [
+                "Pézenas"
+              ],
+              "nl": [
+                "Pézenas"
+              ],
+              "es": [
+                "Pézenas"
+              ]
+            },
+            "insee": "34199",
+            "isPartOfDepartment": {
+              "@id": "kb:France7634",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hérault"
+                ],
+                "pt": [
+                  "Hérault"
+                ],
+                "en": [
+                  "Hérault"
+                ],
+                "it": [
+                  "Hérault"
+                ],
+                "fr": [
+                  "Hérault"
+                ],
+                "nl": [
+                  "Hérault"
+                ],
+                "es": [
+                  "Hérault"
+                ]
+              },
+              "insee": "34",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/17368fac-7e09-3ce3-b8b3-a693dc0b5ff3",
+        "schema:latitude": "43.446211",
+        "schema:longitude": "3.414927",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0061e3bc-58e2-324a-b18f-97edd8ffa097",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:45:00",
+          "schema:validFrom": "2022-12-01T11:45:00",
+          "schema:validThrough": "2023-12-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Saturday-Sunday."
+            ],
+            "it": [
+              "Chiuso: sabato-domenica."
+            ],
+            "fr": [
+              "Fermeture: Samedi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Zaterdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Sábado-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/41bc5d0c-0585-330e-9fe4-ca7d73f92081",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0ecad8ba-c771-388f-af60-273abe705615",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:45:00",
+          "schema:validFrom": "2022-12-01T11:45:00",
+          "schema:validThrough": "2023-12-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Saturday-Sunday."
+            ],
+            "it": [
+              "Chiuso: sabato-domenica."
+            ],
+            "fr": [
+              "Fermeture: Samedi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Zaterdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Sábado-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1511b812-b5ad-3a59-b03a-5b223d0758ed",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/741af60a-9b8a-3c75-8c47-50ae689d4a92",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:45:00",
+          "schema:validFrom": "2022-12-01T11:45:00",
+          "schema:validThrough": "2023-12-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Saturday-Sunday."
+            ],
+            "it": [
+              "Chiuso: sabato-domenica."
+            ],
+            "fr": [
+              "Fermeture: Samedi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Zaterdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Sábado-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/ff693300-603a-3bb9-bb00-47da8b199925",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/92434cac-b7e3-395a-b2f7-e37610e4bd06",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:45:00",
+          "schema:validFrom": "2022-12-01T11:45:00",
+          "schema:validThrough": "2023-12-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Saturday-Sunday."
+            ],
+            "it": [
+              "Chiuso: sabato-domenica."
+            ],
+            "fr": [
+              "Fermeture: Samedi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Zaterdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Sábado-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/12331946-c5a5-3abc-9df7-73df7d138c69",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dce71cfc-928a-3a46-9493-f96fcc88ce9f",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "11:45:00",
+          "schema:validFrom": "2022-12-01T11:45:00",
+          "schema:validThrough": "2023-12-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Saturday-Sunday."
+            ],
+            "it": [
+              "Chiuso: sabato-domenica."
+            ],
+            "fr": [
+              "Fermeture: Samedi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Zaterdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Sábado-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4bd382ec-8b26-38b5-b7ca-c8c14ebb670d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-21",
+  "lastUpdateDatatourisme": "2023-06-21T23:21:42.986Z",
+  "reducedMobilityAccess": true
+}

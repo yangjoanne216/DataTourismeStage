@@ -1,0 +1,1925 @@
+{
+  "@id": "https://data.datatourisme.fr/31/6e0b71d4-8268-3d30-a9cf-ccc9d8958a8c",
+  "dc:identifier": "TFO181750209810",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Apartment",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Apartment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Vor den Toren der Gorges du Tarn entdecken Sie unsere Residenz mit 7 komfortablen Appartements, die sowohl Familien als auch Gruppen beherbergen können."
+    ],
+    "en": [
+      "At the gates of the Gorges du Tarn, come and discover our residence made up of 7 apartments with modern comfort. They can accommodate families and other groups."
+    ],
+    "it": [
+      "Alle porte delle Gole del Tarn, venite a scoprire il nostro residence, composto da 7 appartamenti confortevoli che possono ospitare famiglie e gruppi."
+    ],
+    "fr": [
+      "Aux portes des Gorges du tarn, venez découvrir notre résidence composée de 7 appartements tout confort, pouvant accueillir des familles comme des groupes."
+    ],
+    "nl": [
+      "Kom aan de poort van de Gorges du Tarn onze residentie ontdekken, die bestaat uit 7 comfortabele appartementen die geschikt zijn voor gezinnen en groepen."
+    ],
+    "es": [
+      "A las puertas de las Gargantas del Tarn, venga a descubrir nuestra residencia, compuesta por 7 cómodos apartamentos que pueden acoger a familias y grupos."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Résidence le 101 (6p)"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a721b5b6-1684-37b6-9f97-386a14f95bae",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ab6e492a-4b9b-364e-854f-dcf449f25c18",
+          "schema:addressLocality": "Millau",
+          "schema:postalCode": "12100",
+          "schema:streetAddress": [
+            "101, avenue Charles de Gaulle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12145",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Millau"
+              ],
+              "pt": [
+                "Millau"
+              ],
+              "en": [
+                "Millau"
+              ],
+              "it": [
+                "Millau"
+              ],
+              "fr": [
+                "Millau"
+              ],
+              "nl": [
+                "Millau"
+              ],
+              "es": [
+                "Millau"
+              ]
+            },
+            "insee": "12145",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "appart101@orange.fr"
+      ],
+      "schema:familyName": [
+        "ARCURI"
+      ],
+      "schema:givenName": [
+        "Jean Baptiste et Isabelle"
+      ],
+      "schema:legalName": "SAS JIMARO",
+      "schema:telephone": [
+        "+33 5 65 46 20 05",
+        "+33 6 47 35 10 65"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ae73adee-4e13-31d6-9994-b47b3507989d",
+      "schema:legalName": "Booking",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.booking.com/hotel/fr/residence-le-101.fr.html?aid=376366label=fr-zf5MEIVCgypxXeBddmOchgS58268838748%3Apl%3Ata%3Ap1%3Ap2812.000%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-5887629260%3Alp1006219%3Ali%3Adec%3Admsid=8e7dd88a836a73e69c19d57e8e2d9695dcid=1dist=0group_adults=2room1=A%2CAsb_price_type=totalsrfid=f009ad8e97365de44f70ba90c63837393b9eebcfX1type=totalucfs=1&"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb023c14-865a-3c5b-8a6f-813d0c1df2e9",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ab6e492a-4b9b-364e-854f-dcf449f25c18",
+          "schema:addressLocality": "Millau",
+          "schema:postalCode": "12100",
+          "schema:streetAddress": [
+            "101, avenue Charles de Gaulle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12145",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Millau"
+              ],
+              "pt": [
+                "Millau"
+              ],
+              "en": [
+                "Millau"
+              ],
+              "it": [
+                "Millau"
+              ],
+              "fr": [
+                "Millau"
+              ],
+              "nl": [
+                "Millau"
+              ],
+              "es": [
+                "Millau"
+              ]
+            },
+            "insee": "12145",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "appart101@orange.fr"
+      ],
+      "schema:familyName": [
+        "ARCURI"
+      ],
+      "schema:givenName": [
+        "Jean-Baptiste et Isabelle"
+      ],
+      "schema:legalName": "Résidence le 101 (6p)",
+      "schema:telephone": [
+        "+33 5 65 46 20 05",
+        "+33 6 47 35 10 65"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/0044d9bb-dac8-3cef-b5fc-210656231b6c",
+      "dc:description": {
+        "de": [
+          "Wohnung 4/6 Personen: 2 Schlafzimmer (1 Bett 140, 2 Betten 90 als Etagenbett), Küche/Wohnzimmer mit Schlafcouch, Flachbildfernseher, Mikrowelle, Geschirrspüler. Wifi, überdachte Terrasse, Gartenmöbel. Gemeinsame Nebenräume: Fahrradabstellraum und Waschküche (Waschmaschine und Trockner). Geschlossener Parkplatz."
+        ],
+        "en": [
+          "Apartment 4/6 persons: 2 bedrooms (1 bed 140, 2 bunk beds 90), kitchen/living room with sofa bed, flat screen TV, microwave, dishwasher. Wifi, covered terrace, garden furniture. Common outbuildings: bicycle garage and laundry room (washing machine and dryer). Closed car park."
+        ],
+        "it": [
+          "Appartamento per 4/6 persone: 2 camere da letto (1 letto matrimoniale, 2 letti a castello), cucina/soggiorno con divano letto, TV a schermo piatto, microonde, lavastoviglie. Wifi, terrazza coperta, mobili da giardino. Annessi in comune: garage per biciclette e lavanderia (lavatrice e asciugatrice). Parcheggio chiuso."
+        ],
+        "fr": [
+          "Appartement 4/6 personnes : 2 chambres (1 lit 140, 2 lits en 90 superposés), cuisine/séjour avec canapé-lit, télévision écran plat, micro-ondes, lave-vaisselle. Wifi, terrasse couverte, salon de jardin. Dépendances communes : garage vélo et buanderie (lave-linge et sèche-linge). Parking fermé."
+        ],
+        "es": [
+          "Piso para 4/6 personas: 2 dormitorios (1 cama doble, 2 literas), cocina/salón con sofá cama, TV de pantalla plana, microondas, lavavajillas. Wifi, terraza cubierta, muebles de jardín. Dependencias compartidas: garaje para bicicletas y lavadero (lavadora y secadora). Aparcamiento cerrado."
+        ],
+        "nl": [
+          "Appartement voor 4/6 personen: 2 slaapkamers (1 tweepersoonsbed, 2 stapelbedden), keuken/woonkamer met slaapbank, flatscreen-tv, magnetron, vaatwasser. Wifi, overdekt terras, tuinmeubelen. Gemeenschappelijke bijgebouwen: fietsgarage en wasruimte (wasmachine en droger). Gesloten parkeerplaats."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/01ba4744-fbfe-3ac6-a0f5-1c8f1f0e200c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/14dbc2c8-1257-3e12-a3a1-94420585c2e5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/15a5f744-f04e-323f-b993-50e6cbb1af0d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3fcc7869-7630-3d58-bdb5-2fd8b5dc2a5d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/67a0945c-4d91-31ad-ad0d-942962b2d7a9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/71221b23-14ec-32a0-a41f-6c67ec83a0a9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/902cf284-76f0-3396-8068-55e5076dd437",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/daf710fc-21ad-3e1e-8560-39fe5d4b0fcf",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fa618e5d-8234-3cc4-bc7a-98a008ef9271",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Vor den Toren der Gorges du Tarn entdecken Sie unsere Residenz mit 7 komfortablen Appartements, die sowohl Familien als auch Gruppen beherbergen können."
+        ],
+        "en": [
+          "At the gates of the Gorges du Tarn, come and discover our residence made up of 7 apartments with modern comfort. They can accommodate families and other groups."
+        ],
+        "it": [
+          "Alle porte delle Gole del Tarn, venite a scoprire il nostro residence, composto da 7 appartamenti confortevoli che possono ospitare famiglie e gruppi."
+        ],
+        "fr": [
+          "Aux portes des Gorges du tarn, venez découvrir notre résidence composée de 7 appartements tout confort, pouvant accueillir des familles comme des groupes."
+        ],
+        "nl": [
+          "Kom aan de poort van de Gorges du Tarn onze residentie ontdekken, die bestaat uit 7 comfortabele appartementen die geschikt zijn voor gezinnen en groepen."
+        ],
+        "es": [
+          "A las puertas de las Gargantas del Tarn, venga a descubrir nuestra residencia, compuesta por 7 cómodos apartamentos que pueden acoger a familias y grupos."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/1c3f77ed-ea24-3077-9ca1-d1b98ed27fff",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:FacilitiesForDisabled",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einrichtungen für Behinderte"
+            ],
+            "pt": [
+              "Instalações para pessoas com deficiência"
+            ],
+            "en": [
+              "Facilities for disabled"
+            ],
+            "it": [
+              "Strutture per i disabili"
+            ],
+            "fr": [
+              "Installations pour handicapés"
+            ],
+            "nl": [
+              "Voorzieningen voor gehandicapten"
+            ],
+            "es": [
+              "Instalaciones para personas con diversidad funcional"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5806b3df-de51-3b50-a850-3a94fe421c27",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GardenLounge",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten-Lounge"
+            ],
+            "pt": [
+              "Mobília de jardim"
+            ],
+            "en": [
+              "Garden lounge"
+            ],
+            "it": [
+              "Mobili da giardino"
+            ],
+            "fr": [
+              "Salon de jardin"
+            ],
+            "nl": [
+              "Tuinset"
+            ],
+            "es": [
+              "Muebles de jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/586b2477-7f93-3ffb-a4ed-85eec6d234ec",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:LockedStorageRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschlossener Lagerraum"
+            ],
+            "pt": [
+              "Local fechado para equipamentos"
+            ],
+            "en": [
+              "Locked storage room"
+            ],
+            "it": [
+              "Locale attrezzature chiuso"
+            ],
+            "fr": [
+              "Local matériel fermé"
+            ],
+            "es": [
+              "Sala de equipos cerrada"
+            ],
+            "nl": [
+              "Afgesloten materiaalberging"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5b5e02b5-eafe-324b-8755-e47b70ed8f16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6e48f1e5-7dd4-359a-a4fe-c4b69501c699",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/772737ee-b898-3d0f-962d-81946bd94336",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/84b3faa0-8f51-3615-9bf1-a96add447dc9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a54e2ad3-756a-3661-a3a3-aa020bde912f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Heating",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Heizen"
+            ],
+            "pt": [
+              "Aquecimento"
+            ],
+            "en": [
+              "Heating"
+            ],
+            "it": [
+              "Riscaldamento"
+            ],
+            "fr": [
+              "Chauffage"
+            ],
+            "nl": [
+              "Verwarming"
+            ],
+            "es": [
+              "Climatización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a7b4927d-3e82-3596-b87b-017e70d14a3d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Dishwasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschirrspülmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar louça"
+            ],
+            "en": [
+              "Dishwasher"
+            ],
+            "it": [
+              "Lavastoviglie"
+            ],
+            "fr": [
+              "Lave vaisselle"
+            ],
+            "nl": [
+              "Vaatwasmachine"
+            ],
+            "es": [
+              "Lavaplatos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ebc11be3-3445-36e8-8cd9-d3ce53a30fd6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BikeRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fahrradraum"
+            ],
+            "pt": [
+              "Local para bicicletas"
+            ],
+            "en": [
+              "Bike room"
+            ],
+            "it": [
+              "Locale biciclette"
+            ],
+            "fr": [
+              "Local vélo"
+            ],
+            "es": [
+              "Local de bicicletas"
+            ],
+            "nl": [
+              "Fietsenruimte"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fc0bc025-becb-3e99-bc11-03d3f175876b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Máquina de lavar roupa privativa"
+            ],
+            "en": [
+              "Private washer"
+            ],
+            "it": [
+              "Lavatrice privata"
+            ],
+            "fr": [
+              "Lave linge privatif"
+            ],
+            "nl": [
+              "Wasmachine voor privégebruik"
+            ],
+            "es": [
+              "Lavadora privada"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftlich genutzte Waschmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar roupa coletiva"
+            ],
+            "en": [
+              "Shared washer"
+            ],
+            "it": [
+              "Lavatrice comune"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ],
+            "es": [
+              "Lavadoras colectivas"
+            ],
+            "nl": [
+              "Gemeenschappelijke wasmachine"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d94c39df-5aff-31bf-a414-83ee20cea43c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/523362fd-cafd-3736-8aad-8dc51bc10884",
+          "ebucore:abstract": {
+            "fr": [
+              "RESIDENCE LE 101"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "RESIDENCE LE 101"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "ARCURI Jean Baptiste et Isabelle - RESIDENCE LE 101"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b5c14dce-b487-37b1-8c89-5d7b4cda4ef6",
+          "ebucore:fileSize": [
+            "156926"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "450",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO181750209810/TFO181750209810-17a/medias/jpg/dscn0533x.jpg"
+          ],
+          "ebucore:width": "600",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d94c39df-5aff-31bf-a414-83ee20cea43c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/523362fd-cafd-3736-8aad-8dc51bc10884",
+          "ebucore:abstract": {
+            "fr": [
+              "RESIDENCE LE 101"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "RESIDENCE LE 101"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "ARCURI Jean Baptiste et Isabelle - RESIDENCE LE 101"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b5c14dce-b487-37b1-8c89-5d7b4cda4ef6",
+          "ebucore:fileSize": [
+            "156926"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "450",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO181750209810/TFO181750209810-17a/medias/jpg/dscn0533x.jpg"
+          ],
+          "ebucore:width": "600",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/ab8d184f-ae32-3399-a79b-abb35889f8cc",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2013-08-01"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0477bceb-59a4-336c-9d0a-a24b8cbb1d17",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/378f07b5-2605-3f84-b393-583bea9a20af",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3dc95952-27cd-3a78-9672-5d8a301caf17",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/da83fa06-db5e-3954-b6d5-963fc9bf8bba",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/39bc2826-8b94-3df6-90aa-5c32ceb92b74",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ab6e492a-4b9b-364e-854f-dcf449f25c18",
+          "schema:addressLocality": "Millau",
+          "schema:postalCode": "12100",
+          "schema:streetAddress": [
+            "101, avenue Charles de Gaulle"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12145",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Millau"
+              ],
+              "pt": [
+                "Millau"
+              ],
+              "en": [
+                "Millau"
+              ],
+              "it": [
+                "Millau"
+              ],
+              "fr": [
+                "Millau"
+              ],
+              "nl": [
+                "Millau"
+              ],
+              "es": [
+                "Millau"
+              ]
+            },
+            "insee": "12145",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/bcc93b0f-b3a2-3511-b15b-49c9c1ad155e",
+        "schema:elevation": "364",
+        "schema:latitude": "44.11154870093916",
+        "schema:longitude": "3.071488298225389",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-11-29",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.684Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/6967b770-1ace-365a-82df-b4c58dc79358",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/06f8c401-9d29-3293-9370-87c9e31c6417",
+          "schema:price": "425",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/83018f72-cb9c-3de9-8b0b-ff831825acd7",
+          "schema:price": "700",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Von Samstag bis Samstag"
+            ],
+            "en": [
+              "From Saturday to Saturday"
+            ],
+            "it": [
+              "Da sabato a sabato"
+            ],
+            "fr": [
+              "Du samedi au samedi"
+            ],
+            "nl": [
+              "Van zaterdag tot zaterdag"
+            ],
+            "es": [
+              "De sábado a sábado"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4b4de3c4-5cf2-3938-8568-244dbb51c6a2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4b940c77-396f-3b2c-9b62-4ca6d4b280bb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5dd93404-a46d-3a20-8865-936f202e0bc0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7c9420da-8a82-3069-b90f-65918896f6c9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e94cb813-994f-3a13-9ae0-60a402949ade",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a2e0bcfe-04b1-3b64-ad61-3e1ee08f30b2",
+          "schema:price": "570",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e44791fa-c115-39de-b4ea-e22861da215a",
+          "schema:minPrice": [
+            "0"
+          ],
+          "schema:price": "540",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eaec9b92-34da-36d1-9f84-6abc58914ced",
+          "schema:maxPrice": [
+            "425"
+          ],
+          "schema:minPrice": [
+            "300"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

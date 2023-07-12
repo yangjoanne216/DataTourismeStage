@@ -1,0 +1,279 @@
+{
+  "@id": "https://data.datatourisme.fr/58/fac5cca0-2862-390f-b2cf-1383f447c4bd",
+  "dc:identifier": "5475584",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Maison Bellevue"
+    ]
+  },
+  "allowedPersons": 6,
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/0070d23b-06b1-386a-938c-0eaa45dd167a",
+    "dc:identifier": "2081",
+    "schema:email": [
+      "fontvieille@alpillesenprovence.com",
+      "mouries@alpillesenprovence.com",
+      "web@alpillesenprovence.com"
+    ],
+    "schema:legalName": "Régie Tourisme de la CC Vallée Des Baux-Alpilles",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/28d2baec-2b7b-3e0d-863a-6a1b2b7bd577",
+      "schema:legalName": "Provence Tourisme / Régie Tourisme de la CC Vallée Des Baux-Alpilles",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2b937ce1-7ebf-3b45-b0e4-de1bd40f2604",
+      "schema:telephone": [
+        "+33 4 32 61 16 10",
+        "+33 6 58 99 74 71"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/8e561a6f-f691-3d28-9e36-c150c31b5fbb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4e2c16a9-2d1b-3a9e-a928-a31c1e61755c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ecdfcfd5-7359-37cd-8bf2-a59749e4cba4",
+          "schema:addressLocality": "Eygalières",
+          "schema:postalCode": "13810",
+          "schema:streetAddress": [
+            "70, traverse Montfort"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13034",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Eygalières"
+              ],
+              "pt": [
+                "Eygalières"
+              ],
+              "en": [
+                "Eygalières"
+              ],
+              "it": [
+                "Eygalières"
+              ],
+              "fr": [
+                "Eygalières"
+              ],
+              "nl": [
+                "Eygalières"
+              ],
+              "es": [
+                "Eygalières"
+              ]
+            },
+            "insee": "13034",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9c29bb44-e3b4-372e-8a5c-ef6ae79fb95b",
+        "schema:latitude": "43.761166",
+        "schema:longitude": "4.950989",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/82a0dc0b-803f-3868-b1df-8655be06fbd4",
+      "schema:email": [
+        "fontvieille@alpillesenprovence.com",
+        "mouries@alpillesenprovence.com",
+        "web@alpillesenprovence.com"
+      ],
+      "schema:legalName": "Régie Tourisme de la CC Vallée Des Baux-Alpilles",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-02-23",
+  "lastUpdateDatatourisme": "2023-01-25T05:16:31.592Z",
+  "reducedMobilityAccess": false
+}

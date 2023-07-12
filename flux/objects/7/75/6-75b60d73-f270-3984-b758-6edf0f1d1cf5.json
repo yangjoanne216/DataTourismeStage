@@ -1,0 +1,356 @@
+{
+  "@id": "https://data.datatourisme.fr/6/75b60d73-f270-3984-b758-6edf0f1d1cf5",
+  "dc:identifier": "HLOBFC000V50HCSD",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "de": [
+      "Appartement - Gîte les Oiseaux"
+    ],
+    "en": [
+      "Appartement - Gîte les Oiseaux"
+    ],
+    "fr": [
+      "Appartement - Gîte les Oiseaux"
+    ]
+  },
+  "allowedPersons": 2,
+  "creationDate": "2021-04-07",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/e9e840e9-0b58-3523-85e8-85764424a93c",
+    "dc:identifier": "91d38ca6-5cef-49ec-aa45-eb0f9f6e4bc9",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/4f853c8a-5066-393d-8a1f-9aa47be389da",
+        "schema:postalCode": "25370",
+        "schema:streetAddress": [
+          "6 place Xavier Authier"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "contact@destination-hautdoubs.com"
+    ],
+    "schema:legalName": "OFFICE DE TOURISME DU PAYS DU HAUT-DOUBS",
+    "schema:telephone": [
+      "+33 3 81 49 13 81"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.destination-haut-doubs.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ed8f54f8-9a7d-3090-b1d2-e7ab87891e64",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e457e756-2592-329e-911b-cdc82fb028fd",
+      "schema:email": [
+        "ghisali.d@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 81 49 09 05"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/68a14e24-77ce-388e-a9a6-88a6cb4f5a1e",
+      "schema:value": "1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f9f60053-a73d-3d60-a7d2-2ad0543837ad",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Accommodation",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unterbringung"
+            ],
+            "pt": [
+              "Alojamento"
+            ],
+            "en": [
+              "Accommodation"
+            ],
+            "it": [
+              "Alloggio"
+            ],
+            "fr": [
+              "Logement"
+            ],
+            "nl": [
+              "Logies"
+            ],
+            "es": [
+              "Alojamiento"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/40637dff-6abd-3d56-abab-316df7371d88",
+        "schema:unitText": [
+          "m²"
+        ],
+        "schema:value": "26",
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/37aebbea-a8bf-32f6-9149-6e3aa293a3b5",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0fba4124-01ef-3276-961b-f610b0cd39e5",
+          "schema:addressLocality": "Levier",
+          "schema:postalCode": "25270",
+          "schema:streetAddress": [
+            "3 rue du Plane"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:25334",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Levier"
+              ],
+              "pt": [
+                "Levier"
+              ],
+              "en": [
+                "Levier"
+              ],
+              "it": [
+                "Levier"
+              ],
+              "fr": [
+                "Levier"
+              ],
+              "nl": [
+                "Levier"
+              ],
+              "es": [
+                "Levier"
+              ]
+            },
+            "insee": "25334",
+            "isPartOfDepartment": {
+              "@id": "kb:France2725",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Doubs"
+                ],
+                "pt": [
+                  "Doubs"
+                ],
+                "en": [
+                  "Doubs"
+                ],
+                "it": [
+                  "Doubs"
+                ],
+                "fr": [
+                  "Doubs"
+                ],
+                "nl": [
+                  "Doubs"
+                ],
+                "es": [
+                  "Doubs"
+                ]
+              },
+              "insee": "25",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/fc2797c1-e4eb-3849-ab1e-7a3ed28d23ce",
+        "schema:latitude": "46.9539314",
+        "schema:longitude": "6.120291",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ff06c202-5387-34f3-8d21-aa2d143149ab",
+      "schema:legalName": "SIT Bourgogne-Franche-Comté",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-01",
+  "lastUpdateDatatourisme": "2023-04-19T07:35:06.964Z"
+}

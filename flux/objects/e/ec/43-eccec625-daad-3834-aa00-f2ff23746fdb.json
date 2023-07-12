@@ -1,0 +1,4395 @@
+{
+  "@id": "https://data.datatourisme.fr/43/eccec625-daad-3834-aa00-f2ff23746fdb",
+  "dc:identifier": "54047",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "FoodEstablishment",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "LE RELAIS DU BASTIDOU"
+    ]
+  },
+  "allowedPersons": 20,
+  "availableLanguage": [
+    "Anglais"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d3107050-ce07-3c20-921f-f64eb8e8cf67",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/af0f552f-5c2a-3a36-8726-2330e108ffba",
+          "schema:addressLocality": "Beaumarchés",
+          "schema:postalCode": "32160",
+          "schema:streetAddress": [
+            "Cayron - A barbat",
+            "LE RELAIS DU BASTIDOU"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32036",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Beaumarchés"
+              ],
+              "pt": [
+                "Beaumarchés"
+              ],
+              "en": [
+                "Beaumarchés"
+              ],
+              "it": [
+                "Beaumarchés"
+              ],
+              "fr": [
+                "Beaumarchés"
+              ],
+              "nl": [
+                "Beaumarchés"
+              ],
+              "es": [
+                "Beaumarchés"
+              ]
+            },
+            "insee": "32036",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "relaisdubastidou@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 5 62 69 19 94"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.le-relais-du-bastidou.com/",
+        "https://www.facebook.com/rene.thierry2?ref=hl"
+      ],
+      "siret": "4388727720019"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/3de8adfb-3227-3cb6-8e9e-e12339065849",
+      "dc:description": {
+        "de": [
+          "Dieser ehemalige Bauernhof aus dem 18. Jahrhundert liegt 6 km von Marciac entfernt, das für sein Festival Jazz in Marciac bekannt ist, in der Nähe des Jakobswegs und bietet Ruhe und Frieden.\nPerfekt renoviert als Hotel, mit Respekt für die traditionellen Materialien, fügt es sich perfekt in die Landschaft ein.\nEs ist als \"Logis de Caractère et silence\" klassifiziert und verfügt über 8 komfortable Zimmer, die alle unterschiedlich sind und von Fabienne geschmackvoll eingerichtet wurden\nDer Tisch hier ist warmherzig, die Küche, die hauptsächlich aus lokalen Produkten zubereitet wird, rezitiert das gesamte Repertoire der Gascogne. Chefkoch René arbeitet auch gerne mit Meeresfrüchten wie Jakobsmuscheln und Langustinen in Verbindung mit Gewürzen und Kräutern\nDer von April bis Oktober beheizte Swimmingpool, der Whirlpool und die Sauna ergänzen die angebotenen Einrichtungen, die diesen Ort zu einer ruhigen und raffinierten Oase des Friedens machen, auf angenehme Weise.\nEine charmante Adresse, die Sie sich für einen Aufenthalt in der Natur des Gers merken sollten!"
+        ],
+        "en": [
+          "Situated 6km from Marciac, famous for its Jazz in Marciac Festival, and close to the Route of Saint Jacques de Compostelle, this old 18th century farmhouse offers peace and quiet.\nPerfectly renovated as a hotel, respecting traditional materials, it blends perfectly with the landscape.\nClassified \"Logis de Caractère et silence\" it has 8 comfortable rooms, all different, decorated with taste by Fabienne\nThe table here is warm, the cuisine is mainly based on local products and recites the whole Gascon repertoire. Chef René also likes to work with sea products such as scallops and langoustines combined with spices and aromatic herbs\nOutside, the swimming pool, heated from April to October, the whirlpool and the sauna are a pleasant complement to the facilities on offer, making this place a haven of peace, calm and refinement.\nA charming address to remember for stays in the heart of the Gers!"
+        ],
+        "it": [
+          "Situata a 6 km da Marciac, famosa per il suo Festival Jazz in Marciac, e vicino al Cammino di Santiago de Compostela, questa antica casa colonica del XVIII secolo offre pace e tranquillità.\nPerfettamente ristrutturato come hotel, nel rispetto dei materiali tradizionali, si integra perfettamente nel paesaggio.\nClassificato come \"Logis de Caractère et silence\", dispone di 8 camere confortevoli, tutte diverse, arredate con gusto da Fabienne\nLa tavola qui è calda, la cucina si basa principalmente sui prodotti locali e recita l'intero repertorio guascone. Lo chef René ama anche lavorare con i prodotti del mare, come capesante e scampi, combinati con spezie ed erbe aromatiche\nAll'esterno, la piscina, riscaldata da aprile a ottobre, l'idromassaggio e la sauna sono un piacevole complemento alle strutture offerte, rendendo questo luogo un'oasi di pace, calma e raffinatezza.\nUn indirizzo di charme da ricordare per i soggiorni nel cuore del Gers!"
+        ],
+        "fr": [
+          "Située à 6km de Marciac, célèbre par son Festival Jazz in Marciac, à proximité du Chemin de Saint Jacques de Compostelle, cette ancienne ferme du XVIIIe siècle, offre calme et tranquillité.\nParfaitement rénovée en hôtel, dans le respect des matériaux traditionnels il s'intègre parfaitement au paysage.\nClassé «Logis de Caractère et silence» il dispose de 8 chambres confortables, toutes différentes, décorées avec goût par Fabienne. \nLa table ici est chaleureuse, la cuisine élaborée principalement à base de produits locaux récite tout le répertoire gascon. Le Chef René aime  aussi travailler les produits de la mer tels que Saint-Jacques et langoustines associés à des épices et herbes aromatiques. \nA l'extérieur la piscine chauffée d'avril à octobre, le bain à remous et le sauna complètent agréablement les équipements proposés qui font de ce lieu un havre de paix, calme et raffiné.\nUne adresse de charme à retenir pour des séjours en pleine nature gersoise!"
+        ],
+        "es": [
+          "Situada a 6 km de Marciac, famosa por su Festival de Jazz en Marciac, y cerca de la Ruta de Santiago de Compostela, esta antigua granja del siglo XVIII ofrece paz y tranquilidad.\nPerfectamente renovado como hotel, respetando los materiales tradicionales, se integra perfectamente en el paisaje.\nClasificado como \"Logis de Caractère et silence\", dispone de 8 cómodas habitaciones, todas diferentes, decoradas con gusto por Fabienne\nLa mesa aquí es cálida, la cocina se basa principalmente en productos locales y recita todo el repertorio gascón. Al chef René también le gusta trabajar con productos del mar, como vieiras y cigalas, combinados con especias y hierbas aromáticas\nEn el exterior, la piscina, climatizada de abril a octubre, la bañera de hidromasaje y la sauna complementan agradablemente la oferta de instalaciones, haciendo de este lugar un remanso de paz, calma y refinamiento.\nUna dirección con encanto para estancias en el corazón de Gers"
+        ],
+        "nl": [
+          "Gelegen op 6 km van Marciac, beroemd om het Jazz in Marciac Festival, en dicht bij de Route van Saint Jacques de Compostelle, biedt deze oude 18e eeuwse boerderij rust en kalmte.\nPerfect gerenoveerd als hotel, met respect voor traditionele materialen, past het perfect in het landschap.\nGeclassificeerd als \"Logis de Caractère et silence\", heeft het 8 comfortabele kamers, allemaal verschillend, met smaak ingericht door Fabienne\nDe tafel is hier warm, de keuken is voornamelijk gebaseerd op lokale producten en draagt het hele Gasconse repertoire voor. Chef René werkt ook graag met zeeproducten zoals sint-jakobsschelpen en langoustines in combinatie met specerijen en aromatische kruiden\nBuiten vormen het zwembad, verwarmd van april tot oktober, de whirlpool en de sauna een aangename aanvulling op het aanbod, waardoor deze plek een oase van rust, kalmte en verfijning is.\nEen charmant adres om te onthouden voor een verblijf in het hart van de Gers!"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1ba28284-9da5-346f-a2d5-16fa9204a21f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2e0dfcc7-0b3b-33c1-a1ef-1240fc547cbe",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5e87c546-145f-3aa8-a957-d04c8cd6ef29",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6826f55c-dcf1-30f4-8747-a319ffcd62fe",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bea1b30b-33dd-33f8-a2d6-d307da4bc621",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/00999e9b-ba43-3027-bffb-ec1d38cd19fe",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0a9d6109-e5fa-32de-90ff-f081554d8c15",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0adbd0d7-d75b-3a3a-a7b4-0d4b850e75a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HairDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Haartrockner"
+            ],
+            "pt": [
+              "Secador de cabelo"
+            ],
+            "en": [
+              "Hair dryer"
+            ],
+            "it": [
+              "Asciugacapelli"
+            ],
+            "fr": [
+              "Sèche cheveux"
+            ],
+            "es": [
+              "Secador de pelo"
+            ],
+            "nl": [
+              "Haardroger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2efca5a9-ce7a-3931-9357-1a92f15a9c0d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/358e108a-a377-3222-9a5d-2a47e3b23cb0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3678768d-1654-39d0-a67a-595691b47d12",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3b44f1ca-9aee-3d94-b431-59cc87ce6aaa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toboggan",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Rutschbahn"
+            ],
+            "pt": [
+              "Tobogã"
+            ],
+            "en": [
+              "Toboggan"
+            ],
+            "it": [
+              "Scivolo"
+            ],
+            "fr": [
+              "Toboggan"
+            ],
+            "es": [
+              "Tobogán"
+            ],
+            "nl": [
+              "Glijbaan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4c5ea95e-3b34-3ff7-9d54-b3375d30d6f3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Jacuzzi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spa, Whirlpool, Jacuzzi"
+            ],
+            "pt": [
+              "Estância termal, banheira de hidromassagem, jacuzzi"
+            ],
+            "en": [
+              "Spa, jacuzzi or outdoor jacuzzi"
+            ],
+            "it": [
+              "Spa, idromassaggio, jacuzzi"
+            ],
+            "fr": [
+              "Spa, bain à remous, jacuzzi"
+            ],
+            "nl": [
+              "Spa, bubbelbad, jacuzzi"
+            ],
+            "es": [
+              "Spa, bañera de hidromasaje, jacuzzi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4cba7bb6-a09a-3fb8-9fc1-38935866d515",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielplatz, Außenspielplatz"
+            ],
+            "pt": [
+              "Parque infantil, parque de jogos exterior"
+            ],
+            "en": [
+              "Playground"
+            ],
+            "it": [
+              "Parco giochi, parco giochi all'aperto"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ],
+            "nl": [
+              "Speelplaats, buitenspeelplaats"
+            ],
+            "es": [
+              "Parque infantil, zona de juegos al aire libre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56549fce-ea21-3f66-8b97-a309ad02f68f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GeneralInformation",
+          "@type": [
+            "InformativeAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Allgemeine Informationen"
+            ],
+            "pt": [
+              "Informações gerais"
+            ],
+            "en": [
+              "General information"
+            ],
+            "it": [
+              "Informazioni generali"
+            ],
+            "fr": [
+              "Informations générales"
+            ],
+            "es": [
+              "Información general"
+            ],
+            "nl": [
+              "Algemene informatie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/58e9d8ff-5dcf-37a6-a2ee-e3716b5f3038",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/58f2e97d-e43c-3293-80aa-ff2e6f3b8118",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Booking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung"
+            ],
+            "pt": [
+              "Reserva"
+            ],
+            "en": [
+              "Booking"
+            ],
+            "it": [
+              "Prenotazione"
+            ],
+            "fr": [
+              "Réservation"
+            ],
+            "nl": [
+              "Reservering"
+            ],
+            "es": [
+              "Reserva"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ShowBooking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung von Aufführungen"
+            ],
+            "pt": [
+              "Reserva de espetáculos"
+            ],
+            "en": [
+              "Show booking"
+            ],
+            "it": [
+              "Prenotazione spettacoli"
+            ],
+            "fr": [
+              "Réservation spectacles"
+            ],
+            "nl": [
+              "Voorstellingen reserveren"
+            ],
+            "es": [
+              "Reserva de espectáculos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/80552ed3-9536-317f-874a-47ed6187ccc2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/86cc8eee-9b4f-3249-8952-55bdd2011981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Booking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung"
+            ],
+            "pt": [
+              "Reserva"
+            ],
+            "en": [
+              "Booking"
+            ],
+            "it": [
+              "Prenotazione"
+            ],
+            "fr": [
+              "Réservation"
+            ],
+            "nl": [
+              "Reservering"
+            ],
+            "es": [
+              "Reserva"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ExcursionBooking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung von Ausflügen"
+            ],
+            "pt": [
+              "Reserva de excursões"
+            ],
+            "en": [
+              "Excursion booking"
+            ],
+            "it": [
+              "Prenotazione di escursioni"
+            ],
+            "fr": [
+              "Réservation excursions"
+            ],
+            "nl": [
+              "Reservering van excursies"
+            ],
+            "es": [
+              "Reserva de excursiones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8869b87d-b2b1-38ea-bf44-54fb12889ef5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/89cc5b13-e953-32d3-b07b-ad062c26c48c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8b1b2b85-75ac-37e0-9ac3-82f646592d5a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8cc39041-f7d6-3165-907e-a836b7cebf87",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/90a3b185-d760-3cd2-8dc5-a82b3ed8d657",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:AirlineBooking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Flugbuchungen"
+            ],
+            "pt": [
+              "Reserva de bilhetes de avião"
+            ],
+            "en": [
+              "Airline booking"
+            ],
+            "it": [
+              "Prenotazioni di compagnie aeree"
+            ],
+            "fr": [
+              "Réservation aériennes"
+            ],
+            "nl": [
+              "Vluchtreserveringen"
+            ],
+            "es": [
+              "Reserva de billetes de avión"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Booking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Buchung"
+            ],
+            "pt": [
+              "Reserva"
+            ],
+            "en": [
+              "Booking"
+            ],
+            "it": [
+              "Prenotazione"
+            ],
+            "fr": [
+              "Réservation"
+            ],
+            "nl": [
+              "Reservering"
+            ],
+            "es": [
+              "Reserva"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/91ad5053-5360-3325-bdd1-affa43c1ec77",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateGarage",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Private Garage"
+            ],
+            "pt": [
+              "Garagem privativa"
+            ],
+            "en": [
+              "Private garage"
+            ],
+            "it": [
+              "Garage privato"
+            ],
+            "fr": [
+              "Garage privé"
+            ],
+            "nl": [
+              "Privégarage"
+            ],
+            "es": [
+              "Garaje privado"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a9fba236-aeda-3ad0-8166-3f67ee08a537",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b9cebe46-0310-3725-ae8f-cf773b1cbab5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:RoomService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmerservice"
+            ],
+            "pt": [
+              "Serviço de quartos"
+            ],
+            "en": [
+              "Room service"
+            ],
+            "it": [
+              "Servizio in camera"
+            ],
+            "fr": [
+              "Room service"
+            ],
+            "es": [
+              "Servicio de habitaciones"
+            ],
+            "nl": [
+              "Roomservice"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc71299b-6c5d-3a5b-8f30-68098bd13168",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c0336aa1-edbf-3cec-98d3-0397ffe71e0b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Laundry",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Waschsalon, Wäscherei"
+            ],
+            "pt": [
+              "Lavandaria"
+            ],
+            "en": [
+              "Laundry"
+            ],
+            "it": [
+              "Lavanderia, anche a gettoni"
+            ],
+            "fr": [
+              "laverie, blanchisserie"
+            ],
+            "es": [
+              "lavandería"
+            ],
+            "nl": [
+              "Wasserij"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c4081ed6-3aff-3e37-a372-a06742315176",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8a00ad4-1f5b-3178-aa00-e60ff98b99c1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TerraceBalcony",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse, Balkon"
+            ],
+            "pt": [
+              "Terraço varanda"
+            ],
+            "en": [
+              "Terrace balcony"
+            ],
+            "it": [
+              "Terrazza balcone"
+            ],
+            "fr": [
+              "Terrasse balcon"
+            ],
+            "nl": [
+              "Balkonterras"
+            ],
+            "es": [
+              "Balcón terraza"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c976de9d-b818-38aa-ac1e-8c6f180eebd6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cb235b4c-4a3a-3e09-83e3-d33efaaacf16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Jacuzzi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spa, Whirlpool, Jacuzzi"
+            ],
+            "pt": [
+              "Estância termal, banheira de hidromassagem, jacuzzi"
+            ],
+            "en": [
+              "Spa, jacuzzi or outdoor jacuzzi"
+            ],
+            "it": [
+              "Spa, idromassaggio, jacuzzi"
+            ],
+            "fr": [
+              "Spa, bain à remous, jacuzzi"
+            ],
+            "nl": [
+              "Spa, bubbelbad, jacuzzi"
+            ],
+            "es": [
+              "Spa, bañera de hidromasaje, jacuzzi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2bf6210-725d-30dd-860b-90ec1d72dead",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Sauna",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sauna"
+            ],
+            "pt": [
+              "Sauna"
+            ],
+            "en": [
+              "Sauna"
+            ],
+            "it": [
+              "Sauna"
+            ],
+            "fr": [
+              "Sauna"
+            ],
+            "nl": [
+              "Sauna"
+            ],
+            "es": [
+              "Sauna"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d1ee55-7168-34ec-8376-2a924957d460",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Park"
+            ],
+            "pt": [
+              "Parque"
+            ],
+            "en": [
+              "Park"
+            ],
+            "it": [
+              "Parco"
+            ],
+            "fr": [
+              "Parc"
+            ],
+            "es": [
+              "Parque"
+            ],
+            "nl": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dcdc3748-4bdb-342a-9961-26d534d9cebf",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Library",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bibliothek"
+            ],
+            "pt": [
+              "Biblioteca"
+            ],
+            "en": [
+              "Library"
+            ],
+            "it": [
+              "Biblioteca"
+            ],
+            "fr": [
+              "Bibliothèque"
+            ],
+            "nl": [
+              "Bibliotheek"
+            ],
+            "es": [
+              "Biblioteca"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e0715bc5-6180-3684-ba9f-ee1458146dce",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e53f4b2b-1053-37b3-b136-bac4ce13ba02",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TakeAwayLunchBox",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Picknickkorb"
+            ],
+            "pt": [
+              "Cesto de piquenique"
+            ],
+            "en": [
+              "Take away lunch box"
+            ],
+            "it": [
+              "Cestino da pic-nic"
+            ],
+            "fr": [
+              "Panier pique nique"
+            ],
+            "nl": [
+              "Picknickmand"
+            ],
+            "es": [
+              "Cesta de pícnic"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/efa9e0fb-34a6-306f-aa6d-7f1cf485e1aa",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 8
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f6b4d6ee-bb37-397a-a8b9-dc830609b7ee",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BilliardOrPoolTable",
+          "@type": [
+            "CommonAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Billard"
+            ],
+            "pt": [
+              "Bilhar"
+            ],
+            "en": [
+              "Billiard or pool table"
+            ],
+            "it": [
+              "Biliardo"
+            ],
+            "fr": [
+              "Billard"
+            ],
+            "es": [
+              "Billar"
+            ],
+            "nl": [
+              "Biljart"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/fcd14538-7a5a-3cd1-b23f-f09bf97f870b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d0bc6dbf-a2b3-33da-890f-ec949725add2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078428.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0844fd02-780f-3788-8b51-7bdcdbc4eece",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5906789b-ebbf-3957-81db-bfc23541880a",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Relais de l'Armagnac/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/2a254298-6d78-3dc9-853d-eada09429bf8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076165.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/104f1c14-044e-31a7-beb8-87ea1cfb6644",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/8de3e2bb-4644-3f20-bc11-88c6bc13bdd3",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/81c5e525-459a-3e27-9c0f-fad1064e0267",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078426.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/153aafd5-f674-33d4-9845-e7330d7f85ee",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/aca4944d-0355-35e6-bf52-4ca30c492463",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Relais du Bastidou/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1e01c06a-f3e5-3982-861a-b9f6dedbcee4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076170.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1bbb0ad5-ef12-37af-899a-892edfeb40be",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cd2c4f4a-b08f-37b2-9078-62e629472fe9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078435.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2d1dac5e-1917-396b-a945-4c652b30c4d1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ca3032cc-1e52-3a68-9093-2631b5fc0c07",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078423.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/324dcd36-1070-387c-98b6-62eb367bca71",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/dd46689c-ccbb-363a-9c12-8aaa1ec4b9db",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078424.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/37faf5e6-3b89-3fbd-a62b-89cfaafaf52c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/aca4944d-0355-35e6-bf52-4ca30c492463",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Relais du Bastidou/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c144a3be-5566-32c7-92ee-c39de11cbf09",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076164.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5f2c1e67-5a85-3eee-82ee-a6b1bcca5982",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f8509700-e999-3c21-a5ea-09c472fc0580",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078427.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7a9aa1ec-f7e1-34a2-a4c9-a962da5635c9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c46c5f5d-7690-37a0-8cca-d06aaccb2ee2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078425.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/89bc770b-e29a-3b51-b0bf-308de386f12f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/db7251e0-3511-3552-85a0-6585e23f1d65",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/e68fc0fb-8b72-391d-ad36-ed8ff224bd71",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:OctetStream",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "Archiviertes Dokument (mehrere eingebettete Dateien)"
+                ],
+                "pt": [
+                  "Documento arquivado (vários ficheiros integrados)"
+                ],
+                "en": [
+                  "Archived document (several integrated files)"
+                ],
+                "it": [
+                  "Documento archiviato (diversi file integrati)"
+                ],
+                "fr": [
+                  "Document archivé (plusieurs fichiers intégrés)"
+                ],
+                "nl": [
+                  "Gearchiveerd document (meerdere geïntegreerde bestanden)"
+                ],
+                "es": [
+                  "Documento archivado (varios archivos integrados)"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/octet-stream"
+                ],
+                "pt": [
+                  "application/octet-stream"
+                ],
+                "en": [
+                  "application/octet-stream"
+                ],
+                "it": [
+                  "application/octet-stream"
+                ],
+                "fr": [
+                  "application/octet-stream"
+                ],
+                "nl": [
+                  "application/octet-stream"
+                ],
+                "es": [
+                  "application/octet-stream"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://youtu.be/DUsP3LSwRhY"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/99635591-2552-36a4-afa5-6e36749a9877",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/aca4944d-0355-35e6-bf52-4ca30c492463",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Hôtel Relais du Bastidou/Valérie Servant"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ad187f17-734a-3091-86c5-c413c06090df",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0076167.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d5487efc-1aa2-3f23-8b18-c28184896378",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/8de3e2bb-4644-3f20-bc11-88c6bc13bdd3",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1085942b-7362-3bfe-a4a2-f014925809b4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0043557.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f19c48a5-ac68-3632-8fd2-8d2b3f108eef",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/db7251e0-3511-3552-85a0-6585e23f1d65",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f3cc89c8-615f-3f8c-b1cb-4a15ffb07b05",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:OctetStream",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "Archiviertes Dokument (mehrere eingebettete Dateien)"
+                ],
+                "pt": [
+                  "Documento arquivado (vários ficheiros integrados)"
+                ],
+                "en": [
+                  "Archived document (several integrated files)"
+                ],
+                "it": [
+                  "Documento archiviato (diversi file integrati)"
+                ],
+                "fr": [
+                  "Document archivé (plusieurs fichiers intégrés)"
+                ],
+                "nl": [
+                  "Gearchiveerd document (meerdere geïntegreerde bestanden)"
+                ],
+                "es": [
+                  "Documento archivado (varios archivos integrados)"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/octet-stream"
+                ],
+                "pt": [
+                  "application/octet-stream"
+                ],
+                "en": [
+                  "application/octet-stream"
+                ],
+                "it": [
+                  "application/octet-stream"
+                ],
+                "fr": [
+                  "application/octet-stream"
+                ],
+                "nl": [
+                  "application/octet-stream"
+                ],
+                "es": [
+                  "application/octet-stream"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://youtu.be/cHe79S_pcqk"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fcd14538-7a5a-3cd1-b23f-f09bf97f870b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c31cf60a-d50c-3711-9661-417a0f37b140",
+          "ebucore:title": {
+            "fr": [
+              "LE RELAIS DU BASTIDOU"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Le Relais du Bastidou/R. Thierry"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d0bc6dbf-a2b3-33da-890f-ec949725add2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078428.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/44ee859a-45b3-3e0b-8152-5fc8ad3d1d0f",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2015-07-22"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7a9a2a34-bd63-33f8-9e82-84e35ce65ab0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_HotelCosy",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Hôtel Cosy"
+          ],
+          "pt": [
+            "Hôtel Cosy"
+          ],
+          "en": [
+            "Hotel Cosy"
+          ],
+          "it": [
+            "Hôtel Cosy"
+          ],
+          "fr": [
+            "Hôtel Cosy"
+          ],
+          "nl": [
+            "Hôtel Cosy"
+          ],
+          "es": [
+            "Hôtel Cosy"
+          ]
+        },
+        "isCompliantWith": [
+          "Hotel"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/359b5674-72fd-37d6-907a-d21304588e5b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/af0f552f-5c2a-3a36-8726-2330e108ffba",
+          "schema:addressLocality": "Beaumarchés",
+          "schema:postalCode": "32160",
+          "schema:streetAddress": [
+            "Cayron - A barbat",
+            "LE RELAIS DU BASTIDOU"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32036",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Beaumarchés"
+              ],
+              "pt": [
+                "Beaumarchés"
+              ],
+              "en": [
+                "Beaumarchés"
+              ],
+              "it": [
+                "Beaumarchés"
+              ],
+              "fr": [
+                "Beaumarchés"
+              ],
+              "nl": [
+                "Beaumarchés"
+              ],
+              "es": [
+                "Beaumarchés"
+              ]
+            },
+            "insee": "32036",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7dc1fef9-6e5f-397b-ae96-6ecbdd433874",
+        "schema:latitude": "43.5709008",
+        "schema:longitude": "0.1377395",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2021-04-21",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.475Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/48ed61f9-2f8b-35ee-bf16-6f3cd802ccf0",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0fb443a8-2148-3829-b21f-3db852d5810e",
+          "schema:price": "85",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre double duplex"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/12c4f7ab-24fb-34f5-b418-df25f6aba36c",
+          "schema:price": "75",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/140de6da-3295-3f05-aa5b-50771ac06369",
+          "schema:price": "90",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre supérieure"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/56c0ead1-30ad-3e31-ad63-6cbf590fcc72",
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Petit-déjeuner"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/861eda38-1b59-3811-a472-c2f627c79db0",
+          "schema:maxPrice": [
+            "45"
+          ],
+          "schema:minPrice": [
+            "22"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Eine Küche aus der Region\nDas Restaurant \"Le Relais du bastidou\" mit dem Gütesiegel \"Tables du Gers\" bietet Ihnen die Möglichkeit, das gesamte Repertoire der Gascogne zu erkunden, aber auch zahlreiche Gemüsesorten aus dem biologischen Anbau des Gers, Fisch aus den Pyrenäen und dem Gers, begleitet von Weinen aus dem Gers und anderen Regionen, wobei die Saisonalität der Produkte und ein weltberühmtes Know-how beachtet werden."
+            ],
+            "en": [
+              "A local cuisine\nThe restaurant \"Le Relais du Bastidou\", labeled \"Tables du Gers\" offers you to explore the whole Gascon repertoire but also many vegetables from the organic agriculture of the Gers, fish from the Pyrenees and the Gers accompanied by wines from the Gers and other regions, respecting the seasonality of the products and a world-renowned know-how."
+            ],
+            "it": [
+              "Cucina locale\nIl ristorante \"Le Relais du Bastidou\", che ha ottenuto il marchio \"Tables du Gers\", vi offre la possibilità di esplorare l'intero repertorio della Guascogna, oltre a numerosi ortaggi coltivati biologicamente nel Gers, al pesce dei Pirenei e del Gers, accompagnati da vini del Gers e di altre regioni, nel rispetto della stagionalità dei prodotti e di un know-how di fama mondiale."
+            ],
+            "fr": [
+              "Une cuisine du terroir\nLe restaurant \"Le Relais du bastidou\", labellisé \"Tables du Gers\" vous propose d'explorer tout le répertoire gascon mais aussi de nombreux légumes issus de l'agriculture biologique du Gers, de poissons pyrénéens et gersois accompagnés de vins du Gers et d'autres régions, en respectant la saisonnalité des produits et un savoir-faire mondialement connu."
+            ],
+            "nl": [
+              "Lokale keuken\nHet restaurant \"Le Relais du Bastidou\", dat het label \"Tables du Gers\" heeft gekregen, biedt u de kans om het hele Gascogne-repertoire te ontdekken, evenals talrijke biologisch geteelde groenten uit de Gers, vis uit de Pyreneeën en de Gers, vergezeld van wijnen uit de Gers en andere regio's, met respect voor het seizoensgebonden karakter van de producten en een wereldberoemde knowhow."
+            ],
+            "es": [
+              "Cocina local\nEl restaurante \"Le Relais du Bastidou\", etiquetado \"Tables du Gers\", le propone explorar todo el repertorio gascón pero también numerosas verduras de la agricultura biológica del Gers, pescados de los Pirineos y del Gers acompañados de vinos del Gers y de otras regiones, respetando la estacionalidad de los productos y un saber hacer mundialmente conocido."
+            ]
+          },
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AdultMenu",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Menü für Erwachsene"
+                ],
+                "pt": [
+                  "Menu para adultos"
+                ],
+                "en": [
+                  "Adult menu"
+                ],
+                "it": [
+                  "Menù per adulti"
+                ],
+                "fr": [
+                  "Menu adulte"
+                ],
+                "nl": [
+                  "Volwassenenmenu"
+                ],
+                "es": [
+                  "Menú para adultos"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/18116718-dcd6-3239-9e2f-dfba3424ab6e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/612d1f80-895a-3955-8116-89c7a5f4f2b0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7086e4c2-9c51-3cce-b18c-97d9b3be054a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b99c2d3a-c6d9-3bdd-aa5e-b2c202cf6c77",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d2991e64-d89f-33ff-b978-c17c66e5748f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Menu"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ae2a39fb-8663-3159-9874-23c608e57dfc",
+          "schema:price": "105",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerRoom",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Zimmer"
+                ],
+                "pt": [
+                  "Por quarto"
+                ],
+                "en": [
+                  "Per room"
+                ],
+                "it": [
+                  "Per camera"
+                ],
+                "fr": [
+                  "Par chambre"
+                ],
+                "es": [
+                  "Por habitación"
+                ],
+                "nl": [
+                  "Per kamer"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Bedroom",
+              "@type": [
+                "AccommodationAmenity",
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Zimmer"
+                ],
+                "pt": [
+                  "Quarto"
+                ],
+                "en": [
+                  "Bedroom"
+                ],
+                "it": [
+                  "Camera"
+                ],
+                "fr": [
+                  "Chambre"
+                ],
+                "nl": [
+                  "Kamer"
+                ],
+                "es": [
+                  "Habitación"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre double duplex - 3 pers"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/fa77690d-1e0a-37f7-a9c9-c2a0f2426e59",
+  "dc:identifier": "37cab2f1-ea7d-2df8-c875-501b9fbae580",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Première Classe Herblay"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/cad1902d-5a0b-368d-a712-c26617679478",
+      "schema:email": [
+        "herblay@premiereclasse.fr"
+      ],
+      "schema:telephone": [
+        "+33 892 70 72 97"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://premiere-classe-herblay.fr/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/594fb33f-5b53-3e97-9f17-ef5f023a9de0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "1 Stern"
+          ],
+          "pt": [
+            "1 estrela"
+          ],
+          "en": [
+            "1 Star"
+          ],
+          "it": [
+            "1 stella"
+          ],
+          "fr": [
+            "1 étoile"
+          ],
+          "nl": [
+            "1 ster"
+          ],
+          "es": [
+            "1 estrella"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/d23ccaed-8567-3212-b46f-f188fd093cdf",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a71c4811-ff4b-3e37-873a-4c0e865ac328",
+          "schema:addressLocality": "Herblay-sur-Seine",
+          "schema:postalCode": "95220",
+          "schema:streetAddress": [
+            "Rue René Coty"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:95306",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Herblay-sur-Seine"
+              ],
+              "pt": [
+                "Herblay-sur-Seine"
+              ],
+              "en": [
+                "Herblay-sur-Seine"
+              ],
+              "it": [
+                "Herblay-sur-Seine"
+              ],
+              "fr": [
+                "Herblay-sur-Seine"
+              ],
+              "nl": [
+                "Herblay-sur-Seine"
+              ],
+              "es": [
+                "Herblay-sur-Seine"
+              ]
+            },
+            "insee": "95306",
+            "isPartOfDepartment": {
+              "@id": "kb:France1195",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Val-d'Oise"
+                ],
+                "pt": [
+                  "Val-d'Oise"
+                ],
+                "en": [
+                  "Val-d'Oise"
+                ],
+                "it": [
+                  "Val-d'Oise"
+                ],
+                "fr": [
+                  "Val-d'Oise"
+                ],
+                "nl": [
+                  "Val-d'Oise"
+                ],
+                "es": [
+                  "Val-d'Oise"
+                ]
+              },
+              "insee": "95",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/c5cfe48f-83cf-34b8-8bf5-f233e62793b1",
+        "schema:latitude": "49.00008903593752",
+        "schema:longitude": "2.19082144340814",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-03",
+  "lastUpdateDatatourisme": "2022-09-06T09:59:02.333Z",
+  "reducedMobilityAccess": false
+}

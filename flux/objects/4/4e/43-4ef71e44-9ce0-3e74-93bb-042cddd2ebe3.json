@@ -1,0 +1,5163 @@
+{
+  "@id": "https://data.datatourisme.fr/43/4ef71e44-9ce0-3e74-93bb-042cddd2ebe3",
+  "dc:identifier": "54110",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Camping",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "CASTEL LE CAMP DE FLORENCE"
+    ]
+  },
+  "allowedPersons": 540,
+  "availableLanguage": [
+    "Allemand",
+    "Anglais",
+    "Espagnol",
+    "Néerlandais"
+  ],
+  "creationDate": "1989-07-10",
+  "hasAudience": [
+    {
+      "@id": "kb:Departmental",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Des Départements"
+        ],
+        "pt": [
+          "Departamental"
+        ],
+        "en": [
+          "Departmental"
+        ],
+        "it": [
+          "Dipartimentale"
+        ],
+        "fr": [
+          "Départementale"
+        ],
+        "nl": [
+          "Departementaal"
+        ],
+        "es": [
+          "Departamental"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:National",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "National"
+        ],
+        "pt": [
+          "Nacional"
+        ],
+        "en": [
+          "National"
+        ],
+        "it": [
+          "Nazionale"
+        ],
+        "fr": [
+          "Nationale"
+        ],
+        "nl": [
+          "Nationaal"
+        ],
+        "es": [
+          "Nacional"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Regional"
+        ],
+        "pt": [
+          "Regional"
+        ],
+        "en": [
+          "Regional"
+        ],
+        "it": [
+          "Regionale"
+        ],
+        "fr": [
+          "Régionale"
+        ],
+        "es": [
+          "Regional"
+        ],
+        "nl": [
+          "Regionaal"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9846cd09-e3cf-32a4-922a-16081576e14b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/9089e38e-b39b-3c38-bfaf-4f4877f3cf8f",
+          "schema:addressLocality": "La Romieu",
+          "schema:postalCode": "32480",
+          "schema:streetAddress": [
+            "Le Camp de Florence",
+            "\"CASTEL LE CAMP DE FLORENCE\""
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32345",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Romieu"
+              ],
+              "pt": [
+                "La Romieu"
+              ],
+              "en": [
+                "La Romieu"
+              ],
+              "it": [
+                "La Romieu"
+              ],
+              "fr": [
+                "La Romieu"
+              ],
+              "nl": [
+                "La Romieu"
+              ],
+              "es": [
+                "La Romieu"
+              ]
+            },
+            "insee": "32345",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "info@lecampdeflorence.com"
+      ],
+      "schema:telephone": [
+        "+33 5 62 28 15 58"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.lecampdeflorence.com/",
+        "https://www.facebook.com/pages/Le-Camp-de-Florence/564694140230502"
+      ],
+      "siret": "41838637100011"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/22d5d14a-5317-30bc-b3ec-5f8dd9471532",
+      "dc:description": {
+        "de": [
+          "Im Herzen des Departements Gers, inmitten der sanft gewellten Landschaft mit ihren Weinbergen und Sonnenblumenfeldern, empfängt Sie der Castel Camping le Camp de Florence. Das 10 Hektar große Gelände, das als Naturschutzgebiet eingestuft wurde, genießt eine privilegierte Lage mit einem atemberaubenden Blick auf die Hügel der Gascogne und die Stiftskirche von La Romieu. Es bietet Ihnen den Luxus der Geräumigkeit mit geräumigen Campingplätzen und den Komfort neuer und perfekt ausgestatteter Unterkünfte. Mit der Landschaft des Gers, die sich so weit das Auge reicht, werden Sie jeden Morgen eine große Portion frische Luft genießen\nDas Gers ist ein Land des guten Essens und eine Region, in der es sich gut leben lässt. Das Castel Camping le Camp de Florence ist stolz auf diese Tradition und lädt Sie in sein Restaurant mit rustikalem Charme ein, um einige köstliche Spezialitäten des Südwestens zu probieren. Auf der Terrasse können Sie mit Freunden an einem Glas nippen, während Ihre Kinder nur wenige Meter entfernt von unserem Wasserpark profitieren, der speziell für das Glück der Jüngsten konzipiert wurde\nNur 500 m vom Campingplatz entfernt befindet sich das Dorf La Romieu, eines der schönsten Dörfer Frankreichs, das im 11. Jahrhundert von Pilgern auf dem Jakobsweg gegründet wurde. Die wunderschöne Stiftskirche aus dem 14. Jahrhundert wurde 1999 von der UNESCO zum Weltkulturerbe erklärt und sollte unbedingt besichtigt werden\nVor den Toren des Campingplatzes erwartet Sie das Gers mit seinen runden Hügeln, die mit einer Vielzahl an markierten Wanderwegen und insbesondere einer Route nach Santiago de Compostela Wanderer begeistern werden. Das Dorf La Romieu war tatsächlich eine wichtige Etappe der Pilgerreise, wie die wunderschöne Stiftskirche beweist, die man vom Camp de Florence aus bewundern kann. Kostenloses WLAN."
+        ],
+        "en": [
+          "It is in the heart of the Gers countryside, among the delicately undulating landscapes covered by vineyards and fields of sunflowers that Castel Camping le Camp de Florence welcomes you. This 10-hectare estate, classified as a natural site, offers you the luxury of space with spacious camping pitches and the comfort of recent, fully-equipped accommodation. It has a privileged setting with a breathtaking view of the Gascony hills and the Collegiate Church of La Romieu. With the Gers countryside stretching as far as the eye can see, you can enjoy a breath of fresh air every morning\nA land of good food, the Gers is a region where life is good. Proud of this tradition, Castel Camping le Camp de Florence invites you to its rustic restaurant to taste some delicious specialities from the South-West. On the terrace, you can sip a drink with friends while your children enjoy, a few meters away, our water park specially designed for the happiness of youngsters\nOnly 500m from the campsite is the village of La Romieu, one of the most beautiful villages in France, founded in the 11th century by pilgrims on their way to Santiago de Compostela. Its beautiful 14th century collegiate church, classified as a world heritage site by UNESCO in 1999, is a must-see\nAt the gates of the campsite, the Gers and its rounded hills are waiting for you, which will make the happiness of the hikers with a great number of marked out paths and in particular a route towards Compostelle. The village of La Romieu was a major stopover on the pilgrimage route, as evidenced by the superb Collegiate Church, which can be admired from the Camp de Florence. Free Wifi."
+        ],
+        "it": [
+          "Il Castel Camping le Camp de Florence vi dà il benvenuto nel cuore della campagna del Gers, tra un paesaggio dolcemente ondulato di vigneti e girasoli. Questa tenuta di 10 ettari, classificata come sito naturale, vi offre il lusso dello spazio con ampie piazzole e il comfort di alloggi recenti e completamente attrezzati, in un contesto privilegiato con una vista mozzafiato sulle colline della Guascogna e sulla Collegiata di La Romieu. Con la campagna del Gers che si estende a perdita d'occhio, potrete godervi una boccata d'aria fresca ogni mattina\nTerra di buon cibo, il Gers è una regione dove si vive bene. Orgoglioso di questa tradizione, il Castel Camping le Camp de Florence vi invita al suo ristorante rustico per gustare alcune deliziose specialità del Sud-Ovest. Sulla terrazza, potrete sorseggiare un drink con gli amici mentre i vostri bambini si divertono, a pochi metri di distanza, nel nostro parco acquatico appositamente progettato per la felicità dei più piccoli\nA soli 500 metri dal campeggio si trova il villaggio di La Romieu, uno dei più bei villaggi di Francia, fondato nell'XI secolo dai pellegrini diretti a Santiago de Compostela. La sua splendida chiesa collegiata del XIV secolo, dichiarata Patrimonio dell'Umanità dall'UNESCO nel 1999, è una tappa obbligata\nAlle porte del campeggio, il Gers e le sue colline arrotondate vi aspettano, con un gran numero di sentieri segnalati, tra cui un percorso per Compostela. Il villaggio di La Romieu era una tappa importante del percorso di pellegrinaggio, come dimostra la superba Collegiata, che si può ammirare dal Camp de Florence. Wifi gratuito."
+        ],
+        "fr": [
+          "C'est au cœur de la campagne du Gers, parmi les paysages délicatement ondulés que recouvrent les vignes et les champs de Tournesols que vous accueille le Castel Camping le Camp de Florence. Bénéficiant d'un cadre privilégié avec une vue imprenable sur les coteaux de Gascogne et sur la Collégiale de la Romieu, ce domaine de 10 hectares, classé site naturel, vous offre le luxe de l'espace avec des emplacements de camping spacieux et le confort de locations récentes et parfaitement équipées. Avec la campagne du Gers qui s'étend à perte de vue, vous savourerez chaque matin un grand bol d'air pur. \nTerre de bonne chère, le Gers est une région où il fait bon vivre. Fier de cette tradition, le Castel Camping le Camp de Florence vous invite dans son restaurant au charme rustique à déguster quelques succulentes spécialités du Sud-Ouest. Sur la terrasse, vous pourrez siroter un verre entre amis pendant que vos enfants profiteront, à quelques mètres, de notre parc aquatique tout spécialement pensé pour le bonheur des plus jeunes. \nA 500m seulement du camping se trouve le village de La Romieu,un de plus beau village de France, fondé au XIe siècle par des pèlerins sur le chemin de Saint Jacques. Sa très belle collégiale du XIVe siècle, classée patrimoine de l’humanité par l’UNESCO en 1999, est un monument à visiter absolument. \nAux portes du camping, vous attend le Gers et ses collines arrondies qui feront le bonheur des randonneurs avec un grand nombre de sentiers balisés et notamment un itinéraire vers Compostelle. Le village de la Romieu était en effet une étape majeure du pèlerinage ainsi qu'en témoigne la superbe Collégiale, que l'on admire depuis le Camp de Florence. Wifi Gratuit."
+        ],
+        "es": [
+          "El Castel Camping le Camp de Florence le da la bienvenida al corazón de la campiña de Gers, en medio de un paisaje suavemente ondulado de viñedos y girasoles. Esta finca de 10 hectáreas, clasificada como paraje natural, le ofrece el lujo del espacio con amplias parcelas de acampada y la comodidad de alojamientos recientes y totalmente equipados. Goza de un entorno privilegiado con impresionantes vistas a las colinas de Gascuña y a la Colegiata de La Romieu. La campiña de Gers se extiende hasta donde alcanza la vista, por lo que podrá disfrutar de un soplo de aire fresco cada mañana\nTierra de buena mesa, el Gers es una región donde se vive bien. Orgulloso de esta tradición, el Castel Camping le Camp de Florence le invita a su rústico restaurante para degustar deliciosas especialidades del suroeste. En la terraza, podrá tomar una copa con los amigos mientras sus hijos disfrutan, a pocos metros, de nuestro parque acuático especialmente diseñado para la felicidad de los más pequeños\nA sólo 500 m del camping se encuentra el pueblo de La Romieu, uno de los más bellos de Francia, fundado en el siglo XI por los peregrinos que se dirigían a Santiago de Compostela. Su hermosa colegiata del siglo XIV, declarada Patrimonio de la Humanidad por la UNESCO en 1999, es de visita obligada\nA las puertas del camping, el Gers y sus colinas redondeadas le esperan, con un gran número de senderos señalizados, incluida una ruta a Compostela. El pueblo de La Romieu era una parada importante en la ruta de peregrinación, como demuestra la soberbia Colegiata, que se puede admirar desde el Campo de Florencia. Wifi gratuito."
+        ],
+        "nl": [
+          "Castel Camping le Camp de Florence verwelkomt u in het hart van het platteland van de Gers, te midden van het zacht glooiende landschap van wijngaarden en zonnebloemen. Dit landgoed van 10 hectare, geklasseerd als natuurgebied, biedt u de luxe van ruimte met ruime kampeerplaatsen en het comfort van recente, volledig uitgeruste accommodaties. Het heeft een bevoorrechte ligging met een adembenemend uitzicht op de heuvels van de Gascogne en de collegiale kerk van La Romieu. Het platteland van de Gers strekt zich uit zover het oog reikt, zodat u elke ochtend kunt genieten van een frisse neus\nDe Gers, land van lekker eten, is een streek waar het leven goed is. Trots op deze traditie nodigt Castel Camping le Camp de Florence u uit in zijn rustieke restaurant om heerlijke specialiteiten uit het zuidwesten te proeven. Op het terras kunt u met vrienden van een drankje nippen terwijl uw kinderen op enkele meters afstand genieten van ons waterpark dat speciaal is ontworpen voor het geluk van de allerkleinsten\nOp slechts 500m van de camping ligt het dorp La Romieu, een van de mooiste dorpen van Frankrijk, in de 11e eeuw gesticht door pelgrims op weg naar Santiago de Compostela. De prachtige 14e-eeuwse collegiale kerk, in 1999 door de UNESCO uitgeroepen tot werelderfgoed, is een must\nVoor de poorten van de camping wachten de Gers en zijn ronde heuvels op u, met een groot aantal gemarkeerde paden, waaronder een route naar Compostela. Het dorp La Romieu was een belangrijke halteplaats op de pelgrimsroute, zoals blijkt uit de prachtige collegiale kerk, die kan worden bewonderd vanaf het Camp de Florence. Gratis Wifi."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/045fc597-3397-3ece-aa76-872bcfb7dee5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/14a28b1f-8a22-3b70-b66e-a917ed446600",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2b083a53-7ddd-3d38-bf07-de0331f23ca1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/838bd6ed-c61c-3ee5-8e4d-6a8183a663d1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bd9161f9-f2b4-3149-9e53-f28a50d00123",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/042e3645-e9a0-3199-bccf-ea24842227e1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:BreadDepot",
+          "@type": [
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Brottheke"
+            ],
+            "pt": [
+              "Depósito de pão"
+            ],
+            "en": [
+              "Bread depot"
+            ],
+            "it": [
+              "Deposito di pane"
+            ],
+            "fr": [
+              "Dépôt de pain"
+            ],
+            "es": [
+              "Venta de pan"
+            ],
+            "nl": [
+              "Broodverkooppunt"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/052e5f94-2619-3cbb-a13d-1681fe139512",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Shower",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Dusche"
+            ],
+            "pt": [
+              "Chuveiro"
+            ],
+            "en": [
+              "Shower"
+            ],
+            "it": [
+              "Doccia"
+            ],
+            "fr": [
+              "Douche"
+            ],
+            "es": [
+              "Ducha"
+            ],
+            "nl": [
+              "Douche"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0c031a3b-d12c-3e47-a888-7b6223ddc8c6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/10995f40-8535-3c49-92d4-93ced3b5869f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Nightwatch",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Nachtwache"
+            ],
+            "pt": [
+              "Vigilância noturna"
+            ],
+            "en": [
+              "Nightwatch"
+            ],
+            "it": [
+              "Vigilanza notturna"
+            ],
+            "fr": [
+              "Surveillance de nuit"
+            ],
+            "es": [
+              "Vigilancia nocturna"
+            ],
+            "nl": [
+              "Nachtbewaking"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1c3f77ed-ea24-3077-9ca1-d1b98ed27fff",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:FacilitiesForDisabled",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einrichtungen für Behinderte"
+            ],
+            "pt": [
+              "Instalações para pessoas com deficiência"
+            ],
+            "en": [
+              "Facilities for disabled"
+            ],
+            "it": [
+              "Strutture per i disabili"
+            ],
+            "fr": [
+              "Installations pour handicapés"
+            ],
+            "nl": [
+              "Voorzieningen voor gehandicapten"
+            ],
+            "es": [
+              "Instalaciones para personas con diversidad funcional"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1f52f4bc-7a0a-363a-9970-01ac014a89d8",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e8584f8-c880-375a-9100-a03c096316a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3b6d5a7d-01bb-3e81-8116-80358276cdd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:MobilHomeHire",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Wohnmobilvermietung"
+            ],
+            "pt": [
+              "Aluguer de casa pré-fabricada"
+            ],
+            "en": [
+              "Mobile home hire"
+            ],
+            "it": [
+              "Affitto di case mobili"
+            ],
+            "fr": [
+              "Location mobil home"
+            ],
+            "nl": [
+              "Stacaravanverhuur"
+            ],
+            "es": [
+              "Alquiler casa prefabricada"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4cba7bb6-a09a-3fb8-9fc1-38935866d515",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielplatz, Außenspielplatz"
+            ],
+            "pt": [
+              "Parque infantil, parque de jogos exterior"
+            ],
+            "en": [
+              "Playground"
+            ],
+            "it": [
+              "Parco giochi, parco giochi all'aperto"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ],
+            "nl": [
+              "Speelplaats, buitenspeelplaats"
+            ],
+            "es": [
+              "Parque infantil, zona de juegos al aire libre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4fe63cad-aef5-3d02-afba-e29c3d04ce43",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Ice",
+          "@type": [
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eislager"
+            ],
+            "pt": [
+              "Depósito de gelo"
+            ],
+            "en": [
+              "Ice"
+            ],
+            "it": [
+              "Deposito di ghiaccio"
+            ],
+            "fr": [
+              "Dépôt de glace"
+            ],
+            "es": [
+              "Venta de hielo"
+            ],
+            "nl": [
+              "IJsverkoop"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4fef0c4c-d037-39f4-9a30-a763a322ec74",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/51fb6803-28e4-3416-b55a-bce628963290",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Servicestation für Wohnmobile"
+            ],
+            "pt": [
+              "Terminal de serviços para autocaravanas"
+            ],
+            "en": [
+              "Camper service point"
+            ],
+            "it": [
+              "Stazione di servizio per camper"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ],
+            "nl": [
+              "Servicepunt voor camper"
+            ],
+            "es": [
+              "Estación de servicio para autocaravanas"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CamperVanServiceArea",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Servicestation für Wohnmobile"
+            ],
+            "pt": [
+              "Área de serviço para autocaravanas"
+            ],
+            "en": [
+              "Camper van service area"
+            ],
+            "it": [
+              "Area di servizio per camper"
+            ],
+            "fr": [
+              "Aire de service camping car"
+            ],
+            "es": [
+              "Zona de servicio para autocaravanas"
+            ],
+            "nl": [
+              "Camperplaats met voorzieningen"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5969c7e2-0a26-36e8-9d99-c02d7930a438",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5d254871-15f5-37ba-af4f-548d3ce6a61d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/650966e5-0fcd-3b3c-a93e-5745fe717201",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/658870a1-cc17-3aa5-b9e6-5e93b0cee91e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/65e90423-a5ad-3f40-aa2c-0c6f240a701a",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 6
+    },
+    {
+      "@id": "https://data.datatourisme.fr/67e7a50b-7fa0-31ca-b329-c1c568364408",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7cae5529-52e4-3dc6-b11d-57ba56e2d580",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8cc39041-f7d6-3165-907e-a836b7cebf87",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ddd2ff4-2684-32ee-ae43-82c003958326",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Toilet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletten"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Toilets"
+            ],
+            "it": [
+              "Servizi igienici"
+            ],
+            "fr": [
+              "Toilettes"
+            ],
+            "nl": [
+              "Toiletten"
+            ],
+            "es": [
+              "Aseos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8ec07e73-4763-34e3-bdc4-8a278f3b8660",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/904307c7-dac7-3523-911a-e34614dd9db7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/929cd635-bf3f-3b3f-8c32-55f1da69bc24",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/94cb9677-3b58-3170-a0a3-6b94ef3c8701",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "occupancy": 28
+    },
+    {
+      "@id": "https://data.datatourisme.fr/996492fb-7120-3576-99d3-8e1163b88671",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:NightReception",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Rezeption nachts geöffnet"
+            ],
+            "pt": [
+              "Receção noturna"
+            ],
+            "en": [
+              "Night reception"
+            ],
+            "it": [
+              "Ricezione notturna"
+            ],
+            "fr": [
+              "Accueil nuit"
+            ],
+            "es": [
+              "Recepción nocturna"
+            ],
+            "nl": [
+              "Nachtreceptie"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9f33b0fb-5b22-3434-b032-4835d71fd3d5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a1cd6a2f-e7ab-3336-a933-32a83121f238",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/adb70d79-9c00-3482-82b1-223d255933fa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:TelephoneAccess",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Telefonzugang"
+            ],
+            "pt": [
+              "Ponto telefónico"
+            ],
+            "en": [
+              "Telephone access"
+            ],
+            "it": [
+              "Accesso al servizio telefonico"
+            ],
+            "fr": [
+              "Point téléphone"
+            ],
+            "nl": [
+              "Telefoonpunt"
+            ],
+            "es": [
+              "Punto telefónico"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b7b4254b-82b3-3537-949b-396aaa15f49b",
+      "@type": [
+        "schema:LocationFeatureSpecification",
+        "schema:PropertyValue",
+        "FeatureSpecification",
+        "RoomFeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:YearlyPitch",
+          "@type": [
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ganzjährig vermietete Stellplätze"
+            ],
+            "pt": [
+              "Alvéolos alugados ao ano"
+            ],
+            "en": [
+              "Yearly pitch"
+            ],
+            "it": [
+              "Piazzole affittate per tutto l'anno"
+            ],
+            "fr": [
+              "Emplacements loués à l'année"
+            ],
+            "nl": [
+              "Jaarplaatsen"
+            ],
+            "es": [
+              "Espacios alquilados durante el año"
+            ]
+          }
+        }
+      ],
+      "occupancy": 44
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b93868b4-8e3a-30c2-b698-8bc27b60fe69",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Barbecue",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Grill"
+            ],
+            "pt": [
+              "Churrasco"
+            ],
+            "en": [
+              "Barbecue"
+            ],
+            "it": [
+              "Barbecue"
+            ],
+            "fr": [
+              "Barbecue"
+            ],
+            "nl": [
+              "Barbecue"
+            ],
+            "es": [
+              "Barbacoa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c18211fc-0ad0-3b15-9989-381efa6b051b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c45ce7f8-7490-36a5-8659-e617a9fafea0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8532e15-58da-3a58-9b99-481fad24f794",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Entertainment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unterhaltung"
+            ],
+            "pt": [
+              "Animações"
+            ],
+            "en": [
+              "Entertainment"
+            ],
+            "it": [
+              "Animazioni"
+            ],
+            "fr": [
+              "Animations"
+            ],
+            "nl": [
+              "Animatie"
+            ],
+            "es": [
+              "Animaciones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca034818-4da7-31b0-ae8d-d5eb5407a6a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cb235b4c-4a3a-3e09-83e3-d33efaaacf16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Jacuzzi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spa, Whirlpool, Jacuzzi"
+            ],
+            "pt": [
+              "Estância termal, banheira de hidromassagem, jacuzzi"
+            ],
+            "en": [
+              "Spa, jacuzzi or outdoor jacuzzi"
+            ],
+            "it": [
+              "Spa, idromassaggio, jacuzzi"
+            ],
+            "fr": [
+              "Spa, bain à remous, jacuzzi"
+            ],
+            "nl": [
+              "Spa, bubbelbad, jacuzzi"
+            ],
+            "es": [
+              "Spa, bañera de hidromasaje, jacuzzi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cdc71f72-6de8-3cee-83d4-94b59c99d456",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d103d95b-8f68-348f-9930-4154d3baf577",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d273c5c0-b653-3095-8f49-75fd9d3f679d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d5fb9a64-ff00-30a4-8335-d009513bcde7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/da27cddb-fc7d-3016-8ce9-87c74439428f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ddbcb796-b592-34d2-92e0-51d2fbe7b93d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:TennisCourt",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Tennisplatz"
+            ],
+            "pt": [
+              "Campo de ténis"
+            ],
+            "en": [
+              "Tennis court"
+            ],
+            "it": [
+              "Campo da tennis"
+            ],
+            "fr": [
+              "Court de tennis"
+            ],
+            "nl": [
+              "Tennisbaan"
+            ],
+            "es": [
+              "Pista de Tenis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e5f9dca9-1eab-361c-84dd-c96be43e5653",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f38e0467-409b-3532-a43f-bf6548fcba46",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:KidsClub",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kinderclub"
+            ],
+            "pt": [
+              "Clube infantil"
+            ],
+            "en": [
+              "Kids club"
+            ],
+            "it": [
+              "Club per bambini"
+            ],
+            "fr": [
+              "Club enfants"
+            ],
+            "nl": [
+              "Kinderclub"
+            ],
+            "es": [
+              "Club infantil"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f9fe871c-d2d3-3b53-b1f3-89244628660d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:TentHire",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Vermietung von Zelten"
+            ],
+            "pt": [
+              "Aluguer de tendas"
+            ],
+            "en": [
+              "Tent hire"
+            ],
+            "it": [
+              "Noleggio di tende"
+            ],
+            "fr": [
+              "Location de tentes"
+            ],
+            "nl": [
+              "Tentenverhuur"
+            ],
+            "es": [
+              "Alquiler de tiendas de campaña"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fd96ec96-a92e-3e88-a6cb-64f4465950a1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SiteClosedAtNight",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Nachts geschlossene Anlage"
+            ],
+            "pt": [
+              "Local encerrado à noite"
+            ],
+            "en": [
+              "Site closed at night"
+            ],
+            "it": [
+              "Area chiusa di notte"
+            ],
+            "fr": [
+              "Terrain fermé la nuit"
+            ],
+            "nl": [
+              "’s Nachts afgesloten terrein"
+            ],
+            "es": [
+              "Terreno cerrado por la noche"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasGeographicReach": [
+    {
+      "@id": "kb:Departmental",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Des Départements"
+        ],
+        "pt": [
+          "Departamental"
+        ],
+        "en": [
+          "Departmental"
+        ],
+        "it": [
+          "Dipartimentale"
+        ],
+        "fr": [
+          "Départementale"
+        ],
+        "nl": [
+          "Departementaal"
+        ],
+        "es": [
+          "Departamental"
+        ]
+      }
+    },
+    {
+      "@id": "kb:National",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "National"
+        ],
+        "pt": [
+          "Nacional"
+        ],
+        "en": [
+          "National"
+        ],
+        "it": [
+          "Nazionale"
+        ],
+        "fr": [
+          "Nationale"
+        ],
+        "nl": [
+          "Nationaal"
+        ],
+        "es": [
+          "Nacional"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Regional",
+      "@type": [
+        "GeographicReach"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Regional"
+        ],
+        "pt": [
+          "Regional"
+        ],
+        "en": [
+          "Regional"
+        ],
+        "it": [
+          "Regionale"
+        ],
+        "fr": [
+          "Régionale"
+        ],
+        "es": [
+          "Regional"
+        ],
+        "nl": [
+          "Regionaal"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/40ddb7e0-2542-3b6c-bc99-4063ac806313",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/e4fb7275-f006-3791-b856-6ec055ee405f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078239.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Peripherie der Stadt"
+        ],
+        "pt": [
+          "Periferia da cidade"
+        ],
+        "en": [
+          "City outskirts"
+        ],
+        "it": [
+          "Periferia della città"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ],
+        "es": [
+          "Periferia de la ciudad"
+        ],
+        "nl": [
+          "Buitenwijken"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/02ac7590-19a7-38e0-b421-dfbe80f2c6c0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1727a43e-9ae2-335c-8b77-debaa72a80d9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078247.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/04c28a20-5d3f-3202-baef-cdc97f1b8f65",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/115ea1ef-5c0a-36bf-816b-37ef97230995",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078240.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/292d23d0-99eb-3b8b-bcfe-99731d9e14af",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/abe5c8d5-7fe4-3dff-9ed1-b5fcec58cd67",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078257.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/359fa0f4-14c6-3569-985b-4908c6f21f04",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b3e02b48-7b61-3f8f-b9ed-3faff391a5a0",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078259.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/39905c00-71f1-31de-91e7-ecf1e378771f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/deacc27f-b435-30b3-9bb1-e28c2a5d6930",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078256.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/40ddb7e0-2542-3b6c-bc99-4063ac806313",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/e4fb7275-f006-3791-b856-6ec055ee405f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078239.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6242bff1-08a9-330c-b960-b48087101f0f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/548f275d-ca5d-3bbb-9801-3a21c992e689",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Camping Camp de Florence/ESE Communications Raoul Zully"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5885b811-9276-37fb-9be5-d31703239ab8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0004474.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/766dc4fe-900d-3ebe-874f-53e007c56e96",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/4909e0e5-9a6f-3770-9a5d-4a39aff76ba6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078254.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/89362e9c-54bc-3c3c-b39a-b798ba81ba3e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/244a7dfd-0925-37fe-a105-26331e503cc3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078242.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/901c0d67-feb5-35f9-b4dc-5fdcfcc76768",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/67d48229-6993-3fe8-8319-cd31a2769e1a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078241.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c1b1d77-d0e5-34f2-b308-3e496282eaaa",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/548f275d-ca5d-3bbb-9801-3a21c992e689",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Camping Camp de Florence/ESE Communications Raoul Zully"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/297d50bc-9eb5-3a6e-ad0f-0a35b0b83682",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0004495.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9d70d4a9-80bf-3c81-a355-8c906e16f3bf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c47754bf-8d3a-3715-96cb-4bdac0ea99a0",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078252.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a01fd6a8-aad4-3161-bb85-bbd0b630b70e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7ee4bb33-fee3-3403-9778-a44da7e5faf9",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Camp de Florence/ESE Communication Raoul Zully"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/6c4f758f-47d4-3434-a962-c01ae66d2bb3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0004485.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b295c948-9432-3b97-9136-a3159bcffc1f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/50c59182-9853-3904-862f-6df3620f218d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078244.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b36bfdf9-4aab-3411-9cfe-71ed5deacbe1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7ee4bb33-fee3-3403-9778-a44da7e5faf9",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Camp de Florence/ESE Communication Raoul Zully"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/edf686f2-175e-395d-88ca-c9dd4e7fdf29",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0004469.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bcce359c-abec-3f04-a7fc-bdc237a76e80",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f1e4180e-baba-3f86-baea-b5013ab31ae2",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078245.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bf9acef6-863f-34cc-b489-e7d25469ae37",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5c09190d-5ecf-39bd-b6c8-8a8852808655",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078261.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d88f64-4b6b-317b-ba29-7474e89ba791",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b1405b55-e0ad-3fdf-8b18-2d61fdeea63a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078255.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d309bf13-50e3-3f09-a9f0-77f15c73da58",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/8e2f1375-0f2f-3cf4-ae52-eee05bf36269",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078243.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d560e35c-e7a5-3925-8b73-3f08df5c6039",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/bc315b41-9aa0-378d-9646-0457da25ef87",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078246.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/eddb144f-b1dc-3f53-bf9f-5194a0124308",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d6ae5414-4576-37fe-a1b4-ab8aea55c2c3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078248.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f378fd0b-deb8-380d-a122-f84be7cb66ca",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/11e2207c-8238-39ee-abda-830914423637",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078250.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f433445d-abf5-39ad-8679-fcf1c1e2c5f2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/655d0429-3d90-348b-8113-a4c820a277e7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078258.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f5eddf94-e5ec-38de-9693-78727965ca51",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/86d410fe-e250-3517-8836-0f2c79e3de01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078249.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f742a9e9-8ba5-3f15-8f7f-22f305b48ccc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fbeb4c26-7ed1-356b-bcda-94ab1085eaf7",
+          "ebucore:title": {
+            "fr": [
+              "LE CAMP DE FLORENCE"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Castel Le Camp de Florence"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/abaa4491-0c8a-3300-b10f-42d52f676ea1",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0078253.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/2feb6ea4-2b39-3346-981e-a96ea83f84c0",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/86f0be21-96fc-352b-a6fd-eb2d738f465f",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2021-06-18"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/961ca169-8893-3a5a-be0b-6c827b944364",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_QualiteTourisme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Qualité Tourisme"
+          ],
+          "pt": [
+            "Qualité Tourisme"
+          ],
+          "en": [
+            "Qualité Tourisme"
+          ],
+          "it": [
+            "Qualité Tourisme"
+          ],
+          "fr": [
+            "Qualité Tourisme"
+          ],
+          "nl": [
+            "Qualité Tourisme"
+          ],
+          "es": [
+            "Qualité Tourisme"
+          ]
+        },
+        "isCompliantWith": [
+          "Arena",
+          "BarOrPub",
+          "CafeOrTearoom",
+          "CampingAndCaravanning",
+          "CollectiveAccommodation",
+          "CulturalSite",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "LeisurePlace",
+          "LocalTouristOffice",
+          "Marina",
+          "Practice",
+          "RealEstateAgent",
+          "Restaurant",
+          "Store",
+          "Visit"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:CityOutskirts",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Peripherie der Stadt"
+        ],
+        "pt": [
+          "Periferia da cidade"
+        ],
+        "en": [
+          "City outskirts"
+        ],
+        "it": [
+          "Periferia della città"
+        ],
+        "fr": [
+          "Périphérie de la ville"
+        ],
+        "es": [
+          "Periferia de la ciudad"
+        ],
+        "nl": [
+          "Buitenwijken"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/e6b453d3-c05b-3f83-b488-5da007b5f063",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/9089e38e-b39b-3c38-bfaf-4f4877f3cf8f",
+          "schema:addressLocality": "La Romieu",
+          "schema:postalCode": "32480",
+          "schema:streetAddress": [
+            "Le Camp de Florence",
+            "\"CASTEL LE CAMP DE FLORENCE\""
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32345",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Romieu"
+              ],
+              "pt": [
+                "La Romieu"
+              ],
+              "en": [
+                "La Romieu"
+              ],
+              "it": [
+                "La Romieu"
+              ],
+              "fr": [
+                "La Romieu"
+              ],
+              "nl": [
+                "La Romieu"
+              ],
+              "es": [
+                "La Romieu"
+              ]
+            },
+            "insee": "32345",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/df58d266-bbc6-3e1a-bba7-0fd55254e078",
+        "schema:latitude": "43.9815157",
+        "schema:longitude": "0.5020992",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2021-06-21",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.466Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/700c7fee-9573-3663-af96-d4fb5b39399e",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:FrenchBonsCAF",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Familiengutscheine"
+            ],
+            "pt": [
+              "Vales CAF (caixa de abonos de família)"
+            ],
+            "en": [
+              "French bons caf"
+            ],
+            "it": [
+              "Buoni CAF"
+            ],
+            "fr": [
+              "Bons caf"
+            ],
+            "nl": [
+              "Vakantiesubsidie in Frankrijk (CAF)"
+            ],
+            "es": [
+              "Fondos de asignaciones familiares"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/638209b2-abae-325f-ab83-1e08b344fa7c",
+          "schema:price": "20",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "à partir de"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/94212cef-a60f-392a-9f9a-f461d642d1aa",
+          "schema:price": "40",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/7410be00-ef25-3af2-bd96-7819d148586f",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2021-12-31",
+              "startDate": "2021-01-01"
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:Overnight",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Übernachtung"
+                ],
+                "pt": [
+                  "Por noite"
+                ],
+                "en": [
+                  "Overnight"
+                ],
+                "it": [
+                  "Per notte"
+                ],
+                "fr": [
+                  "Par nuitée"
+                ],
+                "es": [
+                  "Por noche"
+                ],
+                "nl": [
+                  "Per nacht"
+                ]
+              }
+            },
+            {
+              "@id": "kb:SubscriptionPackage",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Abonnement – Pauschale"
+                ],
+                "pt": [
+                  "Assinatura — preço fixo"
+                ],
+                "en": [
+                  "Subscription - package"
+                ],
+                "it": [
+                  "Abbonamento - pacchetto"
+                ],
+                "fr": [
+                  "Abonnement - forfait"
+                ],
+                "es": [
+                  "Suscripción - forfait"
+                ],
+                "nl": [
+                  "Abonnement - pas"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Nuitée"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d76afa38-3830-3cee-97ae-121f06e390c0",
+          "schema:price": "8",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/5714d2b4-e37d-3b81-a7fb-3e46a0efbefb",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2020-12-31",
+              "startDate": "2020-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "à partir de"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

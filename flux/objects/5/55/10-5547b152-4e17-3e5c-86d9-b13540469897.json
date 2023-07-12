@@ -1,0 +1,967 @@
+{
+  "@id": "https://data.datatourisme.fr/10/5547b152-4e17-3e5c-86d9-b13540469897",
+  "dc:identifier": "777000888",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Hotel-Restaurant mit 11 Zimmern, 12 km von Gérardmer und 26 km von Saint-Dié-des-Vosges entfernt, im Herzen des Bergdorfes Le Valtin, nicht weit von mehreren Skigebieten und Wanderwegen entfernt. Traditionelle Küche und Grillgerichte vom Holzfeuer in einer gemütlichen Umgebung."
+    ],
+    "en": [
+      "Hotel-restaurant with 11 rooms located 12 km from Gérardmer and 26 km from Saint-Dié-des-Vosges in the heart of the mountain village of Valtin, not far from several ski areas and hiking trails. Traditional cuisine and wood-fired grills in a warm setting."
+    ],
+    "it": [
+      "Hotel-ristorante con 11 camere situato a 12 km da Gérardmer e a 26 km da Saint-Dié-des-Vosges, nel cuore del villaggio di montagna di Valtin, non lontano da diverse aree sciistiche e sentieri escursionistici. Cucina tradizionale e grigliate a legna in un ambiente accogliente."
+    ],
+    "fr": [
+      "Hôtel-restaurant de 11 chambres situé à 12 km de Gérardmer et 26 km de Saint-Dié-des-Vosges au coeur du village de montagne du Valtin, non loin de plusieurs domaines skiables et parcours de randonnées. Cuisine traditionnelle et grillades au feu de bois dans un cadre chaleureux."
+    ],
+    "es": [
+      "Hotel-restaurante de 11 habitaciones situado a 12 km de Gérardmer y a 26 km de Saint-Dié-des-Vosges en el corazón del pueblo de montaña de Valtin, no lejos de varias zonas de esquí y rutas de senderismo. Cocina tradicional y parrilla de leña en un ambiente cálido."
+    ],
+    "nl": [
+      "Hotel-restaurant met 11 kamers gelegen op 12 km van Gérardmer en 26 km van Saint-Dié-des-Vosges in het hart van het bergdorp Valtin, niet ver van verschillende skigebieden en wandelpaden. Traditionele keuken en houtgestookte grills in een warme omgeving."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "AUBERGE LORRAINE"
+    ]
+  },
+  "allowedPersons": 28,
+  "availableLanguage": [
+    "de"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/f1c15925-8841-3002-af34-0cbaedd6fc33",
+    "dc:identifier": "777",
+    "schema:legalName": "OT COMMUNAUTAIRE GERARDMER HAUTES VOSGES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/5f0b0fd6-acc5-3334-9f88-93ce81933081",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0e39781b-0814-3d41-aea1-86d11ac30644",
+      "schema:email": [
+        "aubergelorraine@club-internet.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 29 60 91 20"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.auberge-lorraine-levaltin.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/7e143993-8347-34c4-84d2-b791f609f3f4",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/031d439d-d63f-3370-8b58-a3672bd877ad",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/34721f76-c794-3554-857e-0de40bfa04c1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/48a8f5b1-46fb-3e31-bf8f-e2aa9f0a9f63",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6f134a2c-5f05-37c2-97e5-db9fabcd437c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b053b84f-ff6e-3e2b-890c-6e2341ad54bd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Hotel-Restaurant mit 11 Zimmern, 12 km von Gérardmer und 26 km von Saint-Dié-des-Vosges entfernt, im Herzen des Bergdorfes Le Valtin, nicht weit von mehreren Skigebieten und Wanderwegen entfernt. Traditionelle Küche und Grillgerichte vom Holzfeuer in einer gemütlichen Umgebung."
+        ],
+        "en": [
+          "Hotel-restaurant with 11 rooms located 12 km from Gérardmer and 26 km from Saint-Dié-des-Vosges in the heart of the mountain village of Valtin, not far from several ski areas and hiking trails. Traditional cuisine and wood-fired grills in a warm setting."
+        ],
+        "it": [
+          "Hotel-ristorante con 11 camere situato a 12 km da Gérardmer e a 26 km da Saint-Dié-des-Vosges, nel cuore del villaggio di montagna di Valtin, non lontano da diverse aree sciistiche e sentieri escursionistici. Cucina tradizionale e grigliate a legna in un ambiente accogliente."
+        ],
+        "fr": [
+          "Hôtel-restaurant de 11 chambres situé à 12 km de Gérardmer et 26 km de Saint-Dié-des-Vosges au coeur du village de montagne du Valtin, non loin de plusieurs domaines skiables et parcours de randonnées. Cuisine traditionnelle et grillades au feu de bois dans un cadre chaleureux."
+        ],
+        "es": [
+          "Hotel-restaurante de 11 habitaciones situado a 12 km de Gérardmer y a 26 km de Saint-Dié-des-Vosges en el corazón del pueblo de montaña de Valtin, no lejos de varias zonas de esquí y rutas de senderismo. Cocina tradicional y parrilla de leña en un ambiente cálido."
+        ],
+        "nl": [
+          "Hotel-restaurant met 11 kamers gelegen op 12 km van Gérardmer en 26 km van Saint-Dié-des-Vosges in het hart van het bergdorp Valtin, niet ver van verschillende skigebieden en wandelpaden. Traditionele keuken en houtgestookte grills in een warme omgeving."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/f5079ec6-071b-34c1-b2a8-80a7a45d4712",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DoubleGlazing",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Doppelverglaste Elemente"
+            ],
+            "pt": [
+              "Vidro duplo"
+            ],
+            "en": [
+              "Double glazing"
+            ],
+            "it": [
+              "Doppi vetri"
+            ],
+            "fr": [
+              "Double vitrage"
+            ],
+            "nl": [
+              "Dubbel glas"
+            ],
+            "es": [
+              "Doble acristalamiento"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateTerrace",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Private Terrasse"
+            ],
+            "pt": [
+              "Terraço privativo"
+            ],
+            "en": [
+              "Private terrace"
+            ],
+            "it": [
+              "Terrazza privata"
+            ],
+            "fr": [
+              "Terrasse privative"
+            ],
+            "es": [
+              "Terraza privada"
+            ],
+            "nl": [
+              "Privéterras"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/97fe1045-65f9-35af-a18b-434ca0cbe76e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f4bfcffb-708a-324c-8e6e-9ec7de3cf406",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Auberge Lorraine"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7c640b7a-05c4-38ee-bac5-71ae0834430d",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/777/777000888_4_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/97fe1045-65f9-35af-a18b-434ca0cbe76e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f4bfcffb-708a-324c-8e6e-9ec7de3cf406",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Auberge Lorraine"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7c640b7a-05c4-38ee-bac5-71ae0834430d",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/777/777000888_4_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/55b939bd-a411-3618-8f73-77921a0e60a6",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Sterne"
+          ],
+          "pt": [
+            "2 estrelas"
+          ],
+          "en": [
+            "2 Stars"
+          ],
+          "it": [
+            "2 stelle"
+          ],
+          "fr": [
+            "2 étoiles"
+          ],
+          "nl": [
+            "2 sterren"
+          ],
+          "es": [
+            "2 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/379996ce-ed0c-3f7d-b23d-87403100d03c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3aff6b1e-1cce-3a6c-abda-2d326fff7a36",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8dcd8d11-a963-315d-b58a-74e18c68fbb0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b66adbb6-3a6e-3c17-af1a-644c7fc8f894",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b87a0f4a-8058-300b-a39c-7ddc31be8fab",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/be71d50d-015f-30d8-851a-6c21fa2e8474",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/8825b26f-1bd6-3404-88c9-b31ffb26b9ef",
+          "schema:addressLocality": "Le Valtin",
+          "schema:postalCode": "88230",
+          "schema:streetAddress": [
+            "25 Le Village"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:88492",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Le Valtin"
+              ],
+              "pt": [
+                "Le Valtin"
+              ],
+              "en": [
+                "Le Valtin"
+              ],
+              "it": [
+                "Le Valtin"
+              ],
+              "fr": [
+                "Le Valtin"
+              ],
+              "nl": [
+                "Le Valtin"
+              ],
+              "es": [
+                "Le Valtin"
+              ]
+            },
+            "insee": "88492",
+            "isPartOfDepartment": {
+              "@id": "kb:France4488",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vosges"
+                ],
+                "pt": [
+                  "Vosges"
+                ],
+                "en": [
+                  "Vosges"
+                ],
+                "it": [
+                  "Vosges"
+                ],
+                "fr": [
+                  "Vosges"
+                ],
+                "nl": [
+                  "Vosges"
+                ],
+                "es": [
+                  "Vosges"
+                ]
+              },
+              "insee": "88",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/f3381253-31f5-37b9-ba2f-d5489dd1ccba",
+        "schema:latitude": "48.0981672626384",
+        "schema:longitude": "7.02355742454529",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-12-30",
+  "lastUpdateDatatourisme": "2023-04-21T09:13:45.688Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/520598c2-bdb9-3b7a-99cc-83bb8b277406",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/5b481064-998e-3928-91d4-98d45c3ed2eb",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

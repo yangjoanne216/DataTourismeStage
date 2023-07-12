@@ -1,0 +1,2562 @@
+{
+  "@id": "https://data.datatourisme.fr/31/eba743c5-027e-3fef-b508-cd55cbe6cd4e",
+  "dc:identifier": "TFO16975612789",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Unweit von Millau liegt das Hotel und Restaurant Le Durzon in einem großen Park mit Bäumen entlang des gleichnamigen Flusses im Dorf Nant."
+    ],
+    "en": [
+      "Not far from Millau, in the village of Nant, on the banks of the river Durzon, within its green park, our hotel-restaurant will welcome you for the time of your stay."
+    ],
+    "it": [
+      "Non lontano da Millau, l'hotel ristorante Le Durzon si trova in un grande parco alberato lungo il fiume omonimo, nel villaggio di Nant."
+    ],
+    "fr": [
+      "Non loin de Millau, l'hôtel restaurant Le Durzon est situé dans un grand parc arboré le long de la rivière du même nom,  dans le village de Nant."
+    ],
+    "es": [
+      "No muy lejos de Millau, el hotel y restaurante Le Durzon está situado en un gran parque arbolado, a orillas del río del mismo nombre,  en el pueblo de Nant. Cerca de las gargantas de los ríos  Dourbie, Tarn y Jonte"
+    ],
+    "nl": [
+      "Niet ver van Millau ligt het hotel-restaurant Le Durzon in een groot bosrijk park langs de gelijknamige rivier, in het dorp Nant."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "HOTEL LE DURZON"
+    ]
+  },
+  "allowedPersons": 28,
+  "availableLanguage": [
+    "EN",
+    "ES",
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/6e76280c-d193-3a9c-a486-703ef46cb23e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5af263aa-cb25-3f8d-974c-663a785895de",
+          "schema:addressLocality": "Nant",
+          "schema:postalCode": "12230",
+          "schema:streetAddress": [
+            "Saint Martin"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12168",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Nant"
+              ],
+              "pt": [
+                "Nant"
+              ],
+              "en": [
+                "Nant"
+              ],
+              "it": [
+                "Nant"
+              ],
+              "fr": [
+                "Nant"
+              ],
+              "nl": [
+                "Nant"
+              ],
+              "es": [
+                "Nant"
+              ]
+            },
+            "insee": "12168",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "ledurzon@orange.fr"
+      ],
+      "schema:familyName": [
+        "BONACCORSI"
+      ],
+      "schema:givenName": [
+        "Marie-Odile"
+      ],
+      "schema:legalName": "Hôtel Le Durzon",
+      "schema:telephone": [
+        "+33 5 65 62 25 53"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.durzon.fr/"
+      ],
+      "foaf:title": [
+        "Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/2f98042d-e9c1-3010-8a55-0c8ae0a716da",
+      "dc:description": {
+        "de": [
+          "Wir heißen Sie das ganze Jahr über willkommen, um Ihren Aufenthalt auf dem Land zu einem glücklichen Moment zu machen. Alle Zimmer wurden vollständig renoviert und sind mit Dusche und WC, Flachbildfernseher und WLAN ausgestattet. Da das Hotel in einem Park liegt, ist es sehr ruhig. Kostenloser Privatparkplatz und Garage für Fahrräder und Motorräder. Empfang von Reitern\nTraditionelles Restaurant mit hausgemachten regionalen Produkten (Kutteln, Trènels, Entenkonfit, Kalbskopf, Coufidou millavois, hausgemachte Gänseleber, Lammbries ...) und vegetarischen Menüs.\n\n\nNeu: Das Hotel du Durzon verfügt nun über ein Schwimmbad und einen Jacuzzi im Freien gegenüber dem Fluss\n\nIn der Nähe der Schluchten der Dourbie, des Tarn und der Jonte ist unser Hotel ideal gelegen, um bei Ausflügen oder Wanderungen zu Fuß, zu Pferd oder mit dem Fahrrad grandiose Landschaften (Canyons, Causses, Cevennen) und ein außergewöhnliches Kulturerbe (Stätten der Templer und Hospitaliers, romanische Kirchen) zu entdecken."
+        ],
+        "en": [
+          "We welcome you all year round to make your stay in the country a moment of happiness. Entirely renovated, all the rooms are equipped with shower and WC, flat screen TV and Wifi. Located in a park, the hotel is very quiet. Private parking and garage for bikes and motorcycles free of charge. Welcome of horsemen\nTraditional restaurant with home-made regional products (tripe, duck confit, calf's head, coufidou millavois, home-made foie gras, lamb sweetbreads...) and vegetarian menus.\n\n\nNew: the Durzon hotel now has an outdoor swimming pool and jacuzzi facing the river\n\nNear the Dourbie, Tarn and Jonte Gorges, our hotel is ideally located to discover, during excursions or hiking, horseback riding or cycling, grandiose landscapes (canyons, causses, Cevennes) and an exceptional heritage (Templar and hospital sites, Roman churches)."
+        ],
+        "it": [
+          "Vi accogliamo tutto l'anno per rendere il vostro soggiorno in campagna un momento di felicità. Completamente rinnovate, tutte le camere sono dotate di doccia e servizi igienici, TV a schermo piatto e Wifi. Situato in un parco, l'hotel è molto tranquillo. Parcheggio privato gratuito e garage per biciclette e moto. I cavalieri sono i benvenuti\nRistorante tradizionale con prodotti regionali fatti in casa (trippa, trènels, anatra confit, testa di vitello, coufidou millavois, foie gras fatto in casa, animelle d'agnello...) e menù vegetariani.\n\n\nNovità: l'hotel Durzon dispone ora di una piscina all'aperto e di una jacuzzi affacciata sul fiume\n\nVicino alle gole della Dourbie, del Tarn e della Jonte, il nostro hotel è situato in posizione ideale per scoprire, attraverso escursioni o passeggiate a piedi, a cavallo o in bicicletta, i grandiosi paesaggi (canyon, causses, Cévennes) e un patrimonio eccezionale (siti templari e ospedalieri, chiese romane)."
+        ],
+        "fr": [
+          "Nous vous accueillons toute l'année pour faire de votre séjour à la campagne un moment de bonheur. Entièrement rénovées, toutes les chambres sont équipées de douche et WC, TV écran plat et Wifi. Situé dans un parc, l'hôtel est très calme. Parking privé et garage pour vélos et motos gratuit. Accueil de cavaliers. \nRestaurant traditionnel avec des produits régionaux fait maison (tripes, trènels, confit de canard, tête de veau, coufidou millavois, foie gras maison, ris d'agneau ...)  et menus végétariens.\n\n\nNouveauté : l'hôtel du Durzon a désormais une piscine et un jacuzzi en extérieur face à la rivière \n\nA proximité des Gorges de la Dourbie, du Tarn et de la Jonte, notre hôtel est idéalement situé pour découvrir, au fil des excursions ou des randonnées pédestres, équestres ou cyclistes, des paysages grandioses (canyons, causses, Cévennes) et un patrimoine exceptionnel (sites templiers et hospitaliers, églises romanes)."
+        ],
+        "nl": [
+          "Wij verwelkomen u het hele jaar door om van uw verblijf op het platteland een moment van geluk te maken. Volledig gerenoveerd, alle kamers zijn uitgerust met douche en toilet, flatscreen TV en Wifi. Gelegen in een park, is het hotel zeer rustig. Gratis privé parkeerplaats en garage voor fietsen en motoren. Ruiters welkom\nTraditioneel restaurant met huisgemaakte streekproducten (pens, trènels, gekonfijte eend, kalfskop, coufidou millavois, huisgemaakte foie gras, lamszwezerik...) en vegetarische menu's.\n\n\nNieuw: het Durzon hotel heeft nu een buitenzwembad en jacuzzi aan de rivier\n\nIn de buurt van de Dourbie-, Tarn- en Jonte-kloven is ons hotel ideaal gelegen om via excursies of wandelen, paardrijden of fietsen de grandioze landschappen (canyons, causses, Cevennen) en een uitzonderlijk erfgoed (Tempeliers- en hospitaalsites, Romaanse kerken) te ontdekken."
+        ],
+        "es": [
+          "Totalmente renovado, este establecimiento cuenta con habitaciones equipadas con duchas y aseos separados, TV con pantalla plana, teléfono y WIFI. Situado en medio de un parque, el hotel es muy tranquilo. Parking privado y garaje para bicicletas y motocicletas. Se atiende a grupos de jinetes. Restaurante tradicional con platos regionales caseros (callos, « trénels » -otro plato a base de callos- confit de pato, cabeza de ternera, « couffidou » de Millau –estofado de buey- foie gras casero, mollejas de cordero...)"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/006c2a2f-7e6a-3f2e-bd70-df43deb046b3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/17eddd56-5b38-3a95-9a95-9c254400e9a2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/83f58637-ab35-3cbf-b4eb-89c1575da17e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9e1bdf79-9c19-3dc7-9f21-4dff3b5f2075",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a61ee006-ecc6-34ff-ac02-bac5ce577e81",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a63332ba-c329-3ded-b504-353e794bad8b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bfe87119-f435-3665-b598-dcc13d59fd69",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Unweit von Millau liegt das Hotel und Restaurant Le Durzon in einem großen Park mit Bäumen entlang des gleichnamigen Flusses im Dorf Nant."
+        ],
+        "en": [
+          "Not far from Millau, in the village of Nant, on the banks of the river Durzon, within its green park, our hotel-restaurant will welcome you for the time of your stay."
+        ],
+        "it": [
+          "Non lontano da Millau, l'hotel ristorante Le Durzon si trova in un grande parco alberato lungo il fiume omonimo, nel villaggio di Nant."
+        ],
+        "fr": [
+          "Non loin de Millau, l'hôtel restaurant Le Durzon est situé dans un grand parc arboré le long de la rivière du même nom,  dans le village de Nant."
+        ],
+        "es": [
+          "No muy lejos de Millau, el hotel y restaurante Le Durzon está situado en un gran parque arbolado, a orillas del río del mismo nombre,  en el pueblo de Nant. Cerca de las gargantas de los ríos  Dourbie, Tarn y Jonte"
+        ],
+        "nl": [
+          "Niet ver van Millau ligt het hotel-restaurant Le Durzon in een groot bosrijk park langs de gelijknamige rivier, in het dorp Nant."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0b9a3430-7ee8-3954-9c43-79e86b129777",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0e9faf0e-cbca-3a1a-a9a7-c0ee80651f45",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "petsAllowed": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3061eef3-97eb-3d2f-925a-fc8a44000179",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Sauna",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sauna"
+            ],
+            "pt": [
+              "Sauna"
+            ],
+            "en": [
+              "Sauna"
+            ],
+            "it": [
+              "Sauna"
+            ],
+            "fr": [
+              "Sauna"
+            ],
+            "nl": [
+              "Sauna"
+            ],
+            "es": [
+              "Sauna"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/358e108a-a377-3222-9a5d-2a47e3b23cb0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47b6c5ae-cf8c-34ec-b5b5-1bfcf66dd71a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5b5e02b5-eafe-324b-8755-e47b70ed8f16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5e875b87-a4bb-3b89-b4cc-1ccfd4671d83",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Massages",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Massagen"
+            ],
+            "pt": [
+              "Massagens"
+            ],
+            "en": [
+              "Massages"
+            ],
+            "it": [
+              "Massaggi"
+            ],
+            "fr": [
+              "Massages"
+            ],
+            "nl": [
+              "Massages"
+            ],
+            "es": [
+              "Masajes"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fa56eb3-b2c0-325e-bd2d-a218d82aface",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garage",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garage"
+            ],
+            "pt": [
+              "Garagem"
+            ],
+            "en": [
+              "Garage"
+            ],
+            "it": [
+              "Garage"
+            ],
+            "fr": [
+              "Garage"
+            ],
+            "es": [
+              "Garaje"
+            ],
+            "nl": [
+              "Garage"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/772737ee-b898-3d0f-962d-81946bd94336",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2d1ee55-7168-34ec-8376-2a924957d460",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Park",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Park"
+            ],
+            "pt": [
+              "Parque"
+            ],
+            "en": [
+              "Park"
+            ],
+            "it": [
+              "Parco"
+            ],
+            "fr": [
+              "Parc"
+            ],
+            "es": [
+              "Parque"
+            ],
+            "nl": [
+              "Park"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e3936d90-c25e-3f19-b66f-572ed365d9a2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:RoomService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmerservice"
+            ],
+            "pt": [
+              "Serviço de quartos"
+            ],
+            "en": [
+              "Room service"
+            ],
+            "it": [
+              "Servizio in camera"
+            ],
+            "fr": [
+              "Room service"
+            ],
+            "es": [
+              "Servicio de habitaciones"
+            ],
+            "nl": [
+              "Roomservice"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ae370578-2362-3fe9-9f95-dd7636b598da",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2d1594aa-14b8-3601-a54f-574661c3d5ab",
+          "ebucore:abstract": {
+            "fr": [
+              "HOTEL LE DURZON"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "HOTEL LE DURZON"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME LARZAC VALLEES"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ad575eca-49b0-3e2a-9919-d9355cd82850",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO16975612789/TFO16975612789-17a/medias/jpg/hotel_durzon.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ae370578-2362-3fe9-9f95-dd7636b598da",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2d1594aa-14b8-3601-a54f-574661c3d5ab",
+          "ebucore:abstract": {
+            "fr": [
+              "HOTEL LE DURZON"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "HOTEL LE DURZON"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME LARZAC VALLEES"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ad575eca-49b0-3e2a-9919-d9355cd82850",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO16975612789/TFO16975612789-17a/medias/jpg/hotel_durzon.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Traditionelle französische Küche"
+        ],
+        "pt": [
+          "Cozinha tradicional francesa"
+        ],
+        "en": [
+          "French traditional cuisine"
+        ],
+        "it": [
+          "Cucina tradizionale francese"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ],
+        "nl": [
+          "Traditionele Franse keuken"
+        ],
+        "es": [
+          "Cocina francesa tradicional"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/8b9c3ba4-3c1e-313a-b687-ac4562e2d729",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/edfd6e73-0158-31a8-a23a-7d26c87e3911",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fcc859ed-c719-3300-b699-473993b4549a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/6f4ac462-4388-376c-9d4e-075905313acb",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5af263aa-cb25-3f8d-974c-663a785895de",
+          "schema:addressLocality": "Nant",
+          "schema:postalCode": "12230",
+          "schema:streetAddress": [
+            "Saint Martin"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12168",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Nant"
+              ],
+              "pt": [
+                "Nant"
+              ],
+              "en": [
+                "Nant"
+              ],
+              "it": [
+                "Nant"
+              ],
+              "fr": [
+                "Nant"
+              ],
+              "nl": [
+                "Nant"
+              ],
+              "es": [
+                "Nant"
+              ]
+            },
+            "insee": "12168",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9ca63c21-c63c-351a-9026-71104d4be824",
+        "schema:elevation": "492",
+        "schema:latitude": "44.01959573580409",
+        "schema:longitude": "3.2921965260505885",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-06-21",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.719Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/0de9ae26-c5ca-3ec6-a524-32acb43fc276",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "American Express"
+            ],
+            "pt": [
+              "American Express"
+            ],
+            "en": [
+              "American express"
+            ],
+            "it": [
+              "American Express"
+            ],
+            "fr": [
+              "American express"
+            ],
+            "nl": [
+              "American Express"
+            ],
+            "es": [
+              "American Express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/2fccacef-ad92-31a3-8975-f01b18efd91c",
+          "schema:price": "96",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "einzelzimmer"
+            ],
+            "en": [
+              "single bedroom"
+            ],
+            "it": [
+              "camera singola"
+            ],
+            "fr": [
+              "chambre single"
+            ],
+            "es": [
+              "habitación individual"
+            ],
+            "nl": [
+              "eenpersoonskamer"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/54de2f48-0a29-362e-b6b2-975fda536aec",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7acec7dc-351e-3ee2-9560-16b1e5b964f8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/87f342aa-784b-30a5-952c-32e7c8e0af57",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9c1555f4-217e-3188-9a0d-661b5007bdcc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/eb973e56-f2f1-358c-b180-3530a4487b33",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Pension complète"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/43f2eb59-e82f-3ee3-b361-1514cb9ac244",
+          "schema:price": "188",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "dreibettzimmer"
+            ],
+            "en": [
+              "triple bedroom"
+            ],
+            "it": [
+              "camera tripla"
+            ],
+            "fr": [
+              "chambre triple"
+            ],
+            "es": [
+              "habitación triple"
+            ],
+            "nl": [
+              "driepersoonskamer"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/225296cc-e13b-3751-9def-8c531016fa5b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/2add8ff5-afb8-38d5-892d-b200d2e23cc3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ae3e2076-6bca-3b96-8c67-ccfec5d5fc4b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bf6f2097-3abb-3901-a467-fd3e811aad40",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fc3bb38f-2c36-3103-a063-6238daaa2990",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Pension complète"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4e823e8f-f9cf-346a-b379-3caf653a3fff",
+          "schema:price": "82",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "basis Einzelzimmer"
+            ],
+            "en": [
+              "single room basis"
+            ],
+            "it": [
+              "camera singola"
+            ],
+            "fr": [
+              "base chambre single"
+            ],
+            "es": [
+              "habitación individual"
+            ],
+            "nl": [
+              "basis voor één kamer"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/868732d6-dd28-3a11-88a5-5f68f5c1a5f3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9604099f-9404-3470-9c31-e535c43674d4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9e6d6070-0ddc-3467-9cfb-9f30b5ea06f6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a39c4f93-e899-3cea-a1ab-cd9a6333c17e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c8cc878c-8795-3202-98cb-be1ec871d1eb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Demi-pension"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6fd259ef-62da-319d-b2d5-2307e8dfa629",
+          "schema:price": "140",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "doppelzimmer"
+            ],
+            "en": [
+              "double bedroom"
+            ],
+            "it": [
+              "camera doppia"
+            ],
+            "fr": [
+              "chambre double"
+            ],
+            "nl": [
+              "tweepersoonskamer"
+            ],
+            "es": [
+              "habitación doble"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:FullBoard",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vollpension"
+                ],
+                "pt": [
+                  "Pensão completa"
+                ],
+                "en": [
+                  "Full board"
+                ],
+                "it": [
+                  "Pensione completa"
+                ],
+                "fr": [
+                  "Pension complète"
+                ],
+                "nl": [
+                  "Volpension"
+                ],
+                "es": [
+                  "Pensión completa"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/231a52c4-fe3e-355b-8c49-5d8e85bf4042",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/362c291f-32b3-3126-9696-d2bf9eb8b3be",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/40462716-03be-3685-989f-3e77deb6ea01",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/be3fa0e3-eca8-3250-ab5e-c9ba2e3c3dcf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f143d8e6-c9bc-3a28-babc-f3ca6314d175",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Pension complète"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8682141f-7a47-3073-9716-7f85cb626e7c",
+          "schema:price": "9",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Breakfast",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Frühstück"
+                ],
+                "pt": [
+                  "Pequeno-almoço"
+                ],
+                "en": [
+                  "Breakfast"
+                ],
+                "it": [
+                  "Colazione"
+                ],
+                "fr": [
+                  "Petit-déjeuner"
+                ],
+                "nl": [
+                  "Ontbijt"
+                ],
+                "es": [
+                  "Desayuno"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Petit-déjeuner"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8704ba1f-0971-3beb-84ce-e8e35c136f66",
+          "schema:price": "112",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "doppelzimmer"
+            ],
+            "en": [
+              "double bedroom"
+            ],
+            "it": [
+              "camera doppia"
+            ],
+            "fr": [
+              "chambre double"
+            ],
+            "nl": [
+              "tweepersoonskamer"
+            ],
+            "es": [
+              "habitación doble"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/42e416da-4efe-37eb-882b-8a76f06f8432",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bdc38c10-2736-350a-aa47-67390cf65063",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/be201ed2-1c46-32b3-b1c6-13fa71b72553",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/db851928-f8f9-3894-9218-878ab188ebcf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f43dd8b3-df54-3d53-b690-8352384418cb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Demi-pension"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8727b82b-037e-33a7-8a67-2058adbe087d",
+          "schema:price": "59",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Chambre Single"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/91bf91a5-1746-3b80-8d3a-a7e24cc8392f",
+          "schema:price": "143",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "basis Dreibettzimmer"
+            ],
+            "en": [
+              "triple room basis"
+            ],
+            "it": [
+              "in base alla camera tripla"
+            ],
+            "fr": [
+              "base chambre triple"
+            ],
+            "nl": [
+              "gebaseerd op driepersoonskamer"
+            ],
+            "es": [
+              "en base a habitación triple"
+            ]
+          },
+          "hasPricingOffer": [
+            {
+              "@id": "kb:HalfPension",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Halbpension"
+                ],
+                "pt": [
+                  "Meia-pensão"
+                ],
+                "en": [
+                  "Half pension"
+                ],
+                "it": [
+                  "Mezza pensione"
+                ],
+                "fr": [
+                  "Demi-pension"
+                ],
+                "es": [
+                  "Media pensión"
+                ],
+                "nl": [
+                  "Halfpension"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4b3bf4c8-3c87-39a9-830d-a5ffcd5b2c83",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4c4107e0-f685-3b15-ba3d-57c8d72b5306",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7c992fbe-7dbd-3823-ba41-9e0dbf379df6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/892bef3a-91f1-3e63-9bb0-910649fa453d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bea5d66e-d202-3f79-857c-97216f3dc28d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Demi-pension"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9335c4b5-d991-3e75-a5d5-77a86aff7bb6",
+          "schema:minPrice": [
+            "0"
+          ],
+          "schema:price": "64",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Chambre double"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f6c46cd4-e5c9-3438-9389-5738a65b8f63",
+          "schema:price": "71",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Chambre triple"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

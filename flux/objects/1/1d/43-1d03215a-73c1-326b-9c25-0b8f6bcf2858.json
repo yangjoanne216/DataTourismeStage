@@ -1,0 +1,938 @@
+{
+  "@id": "https://data.datatourisme.fr/43/1d03215a-73c1-326b-9c25-0b8f6bcf2858",
+  "dc:identifier": "185933",
+  "@type": [
+    "CulturalSite",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "VILLAGE DE RAMOUZENS"
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1c28d50f-c3f9-36aa-af98-cfb5065a6f2a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a50dce80-a04e-3a23-928a-3af04037b01e",
+          "schema:addressLocality": "Ramouzens",
+          "schema:postalCode": "32800",
+          "schema:streetAddress": [
+            "VILLE DE RAMOUZENS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32338",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ramouzens"
+              ],
+              "pt": [
+                "Ramouzens"
+              ],
+              "en": [
+                "Ramouzens"
+              ],
+              "it": [
+                "Ramouzens"
+              ],
+              "fr": [
+                "Ramouzens"
+              ],
+              "nl": [
+                "Ramouzens"
+              ],
+              "es": [
+                "Ramouzens"
+              ]
+            },
+            "insee": "32338",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "mairie.ramouzens@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 06 57 27"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/0962a8b6-f193-3d0b-8a1f-0a4d899fae99",
+      "dc:description": {
+        "de": [
+          "Das Dorf RAMOUZENS ist ein Castelnau im Zentrum des Kantons Eauze und liegt auf einem Sporn am rechten Ufer des Flusses Izaute. Im letzten Jahrhundert war hier noch eine bedeutende Glockengießerei in Betrieb, die für den gesamten Südwesten Frankreichs und den Nordosten Spaniens arbeitete. Nördlich des Dorfes, auf einem Felsvorsprung, dessen steile Hänge zwischen Izaute und Rieuze abfallen, befinden sich die Überreste eines Castrums, das von Gräben umgeben war. Die Kirche, die sehr alt ist, aber in verschiedenen Epochen umgebaut wurde, steht im Zentrum dieses antiken befestigten Lagers. Ramouzens war früher für seine Mineralquelle Moura bekannt, deren klares Wasser schwefel- und eisenhaltig ist. Hier findet man den malerischen Ort Bois du Bosc-Gros."
+        ],
+        "en": [
+          "Castelnau located in the center of the canton of Eauze, the village of RAMOUZENS occupies a spur on the right bank of the Izaute. In the last century there was still an important bell foundry working for the whole of South West France and North East Spain. To the north of the village, on a rocky spur whose steep slopes fall between Izaute and Rieuze, are the remains of a Castrum, surrounded by ditches. The church, very old but reworked at various times, stands in the center of this ancient fortified camp. Ramouzens was known in the past by its mineral spring of Moura, whose clear and limpid water is sulphurous and ferruginous. There is the picturesque site of the Bois du Bosc-Gros."
+        ],
+        "it": [
+          "Castelnau è situato al centro del cantone di Eauze, il villaggio di RAMOUZENS occupa uno sperone sulla riva destra del fiume Izaute. Nel secolo scorso esisteva ancora un'importante fonderia di campane che lavorava per tutta la Francia sud-occidentale e la Spagna nord-orientale. A nord del villaggio, su uno sperone roccioso le cui ripide pendici cadono tra Izaute e Rieuze, si trovano i resti di un castrum, circondato da fossati. La chiesa, molto antica ma rimaneggiata in vari momenti, sorge al centro di questo antico accampamento fortificato. Ramouzens era un tempo nota per la sorgente minerale di Moura, la cui acqua limpida è sulfurea e ferruginosa. C'è il pittoresco sito del Bois du Bosc-Gros."
+        ],
+        "fr": [
+          "Castelnau situé au centre du canton d'Eauze, le village de RAMOUZENS occupe un éperon sur la rive droite de l'Izaute. Au siècle dernier fonctionnait encore une importante fonderie de cloches qui travaillait pour tout le Sud Ouest de la France et le Nord Est de l'Espagne. Au nord du village, sur un éperon rocheux dont les pentes abruptes tombent entre Izaute et Rieuze, se trouvent les vestiges d'un Castrum, entouré de fossés. L'église, fort ancienne mais remaniée à diverses époques, s'élève au centre de ce camp fortifié antique. Ramouzens était connue autrefois par sa source minérale du Moura, dont l'eau claire et limpide est sulfureuse et ferrugineuse. On y trouve le site pittoresque du Bois du Bosc-Gros."
+        ],
+        "nl": [
+          "Castelnau ligt in het centrum van het kanton Eauze, het dorp RAMOUZENS ligt op een uitloper op de rechteroever van de Izaute. In de vorige eeuw was er nog een belangrijke klokkengieterij werkzaam voor heel Zuidwest-Frankrijk en Noordoost-Spanje. Ten noorden van het dorp, op een rotsachtige uitloper waarvan de steile hellingen tussen Izaute en Rieuze vallen, bevinden zich de overblijfselen van een Castrum, omgeven door grachten. De kerk, zeer oud maar in verschillende tijden verbouwd, staat in het centrum van dit oude versterkte kamp. Ramouzens was vroeger bekend om zijn minerale bron van Moura, waarvan het heldere water zwavelachtig en ijzerhoudend is. Er is de schilderachtige site van het Bois du Bosc-Gros."
+        ],
+        "es": [
+          "Castelnau está situado en el centro del cantón de Eauze, el pueblo de RAMOUZENS ocupa un espolón en la orilla derecha del río Izaute. En el siglo pasado aún existía una importante fundición de campanas que trabajaba para todo el suroeste de Francia y el noreste de España. Al norte del pueblo, en un espolón rocoso cuyas empinadas laderas caen entre Izaute y Rieuze, se encuentran los restos de un Castrum, rodeado de fosos. La iglesia, muy antigua pero remodelada en varias ocasiones, se alza en el centro de este antiguo campamento fortificado. Ramouzens era antiguamente conocida por su manantial mineral de Moura, cuyas aguas claras son sulfurosas y ferruginosas. Allí se encuentra el pintoresco paraje del Bois du Bosc-Gros."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0a9fe6aa-b56c-3435-948f-adc87fb4a951",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/11b1f0da-0033-30b0-92c8-9d0a191c2aba",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/65cebda6-104e-3b2a-9a25-911df92f8632",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b1a8911c-9d8c-3483-a5e2-8561b7bccca6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f64cab8d-33d7-3ee5-9e1c-3e11eba5a0ec",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/50069d9e-344e-36a6-bbf7-f0ea7a0b3c18",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7ef5f7e1-1566-38e5-99ed-820b2cdd49e7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a5d6474e-450f-36d5-b033-eba34c1ff888",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GameArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielbereich"
+            ],
+            "pt": [
+              "Espaço de jogos"
+            ],
+            "en": [
+              "Game area"
+            ],
+            "it": [
+              "Area giochi"
+            ],
+            "fr": [
+              "Espace jeux"
+            ],
+            "nl": [
+              "Gameruimte"
+            ],
+            "es": [
+              "Espacio de juegos"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0f0345bc-7308-3d40-8527-e4142f71fc8e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/cbf10a24-af74-3bc7-9f87-8c5ed291a600",
+          "ebucore:title": {
+            "fr": [
+              "VILLE DE RAMOUZENS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Eauze"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/195c4c94-78f9-3712-9aea-dc44bd02abc3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/cdt32_0103985.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0f0345bc-7308-3d40-8527-e4142f71fc8e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/cbf10a24-af74-3bc7-9f87-8c5ed291a600",
+          "ebucore:title": {
+            "fr": [
+              "VILLE DE RAMOUZENS"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/OT Eauze"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/195c4c94-78f9-3712-9aea-dc44bd02abc3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/cdt32_0103985.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/a75a40b5-c824-3e73-b918-22620267f0f7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a50dce80-a04e-3a23-928a-3af04037b01e",
+          "schema:addressLocality": "Ramouzens",
+          "schema:postalCode": "32800",
+          "schema:streetAddress": [
+            "VILLE DE RAMOUZENS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32338",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ramouzens"
+              ],
+              "pt": [
+                "Ramouzens"
+              ],
+              "en": [
+                "Ramouzens"
+              ],
+              "it": [
+                "Ramouzens"
+              ],
+              "fr": [
+                "Ramouzens"
+              ],
+              "nl": [
+                "Ramouzens"
+              ],
+              "es": [
+                "Ramouzens"
+              ]
+            },
+            "insee": "32338",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7c8ec0cf-8dda-31ce-b7f0-2a0147964fcf",
+        "schema:latitude": "43.813139",
+        "schema:longitude": "0.185245",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-09-04",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.464Z"
+}

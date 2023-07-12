@@ -1,0 +1,859 @@
+{
+  "@id": "https://data.datatourisme.fr/10/01f4ea91-9995-3f02-b41f-e2739277a7a8",
+  "dc:identifier": "940003206",
+  "@type": [
+    "schema:FastFoodRestaurant",
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FastFoodRestaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Pizzeria zum Mitnehmen oder vor Ort und traditionelle Restaurants.\nZugang für Menschen mit Behinderungen."
+    ],
+    "en": [
+      "Pizzeria to take away or on the spot, and traditional catering.\nDisabled access."
+    ],
+    "it": [
+      "Pizzeria da asporto o sul posto e catering tradizionale.\nAccesso per i disabili."
+    ],
+    "fr": [
+      "Pizzeria à emporter ou sur place, et restauration traditionnelle.\nAccès aux personnes handicapées."
+    ],
+    "nl": [
+      "Pizzeria om mee te nemen of ter plaatse, en traditionele catering.\nToegang voor gehandicapten."
+    ],
+    "es": [
+      "Pizzería para llevar o en el momento, y catering tradicional.\nAcceso para discapacitados."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LE RAZOQUET"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "Verkauf zum Mitnehmen mittags und abends von Mittwoch bis Sonntag, übliche Öffnungszeiten."
+    ],
+    "en": [
+      "Takeaway from Wednesday to Sunday, regular hours."
+    ],
+    "it": [
+      "Pranzo e cena da asporto dal mercoledì alla domenica, con orari regolari."
+    ],
+    "fr": [
+      "Vente à emporter midi et soir du mercredi au dimanche, horaires habituels."
+    ],
+    "es": [
+      "Comida y cena para llevar de miércoles a domingo, en horario habitual."
+    ],
+    "nl": [
+      "Afhaalmaaltijden voor lunch en diner van woensdag tot zondag, normale uren."
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/8d6dc35e-506f-3233-89dd-10ee68dabb64",
+    "dc:identifier": "940",
+    "schema:legalName": "OT SAINT DIE DES VOSGES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f1814a21-f02d-3d1b-a54f-41cdb851d3dc",
+      "schema:telephone": [
+        "+33 3 29 50 89 78"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.lerazoquet.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/e0463a76-1e22-3a0c-8540-c61fead1c4fc",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/17732bd0-d77c-3489-92d5-694d531909f9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/91eae87d-b1d6-3957-bf8b-1b86a7e51edb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/96387ee2-b2b5-3348-9524-924d1d3a38ce",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b14fea9b-bb39-3b6b-b728-f4629723dcb0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c1211ab3-331b-3548-a674-115060084e7b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Pizzeria zum Mitnehmen oder vor Ort und traditionelle Restaurants.\nZugang für Menschen mit Behinderungen."
+        ],
+        "en": [
+          "Pizzeria to take away or on the spot, and traditional catering.\nDisabled access."
+        ],
+        "it": [
+          "Pizzeria da asporto o sul posto e catering tradizionale.\nAccesso per i disabili."
+        ],
+        "fr": [
+          "Pizzeria à emporter ou sur place, et restauration traditionnelle.\nAccès aux personnes handicapées."
+        ],
+        "nl": [
+          "Pizzeria om mee te nemen of ter plaatse, en traditionele catering.\nToegang voor gehandicapten."
+        ],
+        "es": [
+          "Pizzería para llevar o en el momento, y catering tradicional.\nAcceso para discapacitados."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/8536702d-241c-35e9-82bf-e3b4cb7ee227",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/27c88d1f-7237-34c5-9eb3-8a34ff99b836",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c2a32285-3418-38de-8b9a-4c1059f340e1",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "RAZOQUET"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/23d64ec3-d808-301f-b249-7c643efc3faa",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/940/940003206_4_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/27c88d1f-7237-34c5-9eb3-8a34ff99b836",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c2a32285-3418-38de-8b9a-4c1059f340e1",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "RAZOQUET"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/23d64ec3-d808-301f-b249-7c643efc3faa",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/940/940003206_4_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1ef8814d-874a-398a-9131-01a6d83926e4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/442d89c0-28bb-3627-bcd8-6f59e07cdd2f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5339c116-3d41-3114-b4d2-88d5e9ea8a16",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6c09c458-4a63-3521-90d7-94ee5ce58986",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/71cedbf2-5f55-381e-b454-9425958abffa",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/72717547-921b-3902-b514-186855f220ff",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9691b9a1-0585-3bf5-a1b6-49ad215c3fa9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b75ace67-5a75-30b0-bc34-85bffd600f96",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ca946687-5851-3d9e-8e14-8edb62feea93",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f91cca74-17bb-3aa2-b6cf-e2afa26f29a0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/058efac4-9987-3251-b405-9cf5d9a5b573",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/93452ffc-7a04-37ee-b59a-87ffdef389cc",
+          "schema:addressLocality": "Anould",
+          "schema:postalCode": "88650",
+          "schema:streetAddress": [
+            "588 Route de Gérardmer"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:88009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Anould"
+              ],
+              "pt": [
+                "Anould"
+              ],
+              "en": [
+                "Anould"
+              ],
+              "it": [
+                "Anould"
+              ],
+              "fr": [
+                "Anould"
+              ],
+              "nl": [
+                "Anould"
+              ],
+              "es": [
+                "Anould"
+              ]
+            },
+            "insee": "88009",
+            "isPartOfDepartment": {
+              "@id": "kb:France4488",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vosges"
+                ],
+                "pt": [
+                  "Vosges"
+                ],
+                "en": [
+                  "Vosges"
+                ],
+                "it": [
+                  "Vosges"
+                ],
+                "fr": [
+                  "Vosges"
+                ],
+                "nl": [
+                  "Vosges"
+                ],
+                "es": [
+                  "Vosges"
+                ]
+              },
+              "insee": "88",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/4cca794c-5eea-3024-a43a-5901cde11405",
+        "schema:latitude": "48.1857624",
+        "schema:longitude": "6.94602269999996",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-08",
+  "lastUpdateDatatourisme": "2023-04-18T13:12:15.898Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/038127bb-028b-33ff-84f4-d117971b6391",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

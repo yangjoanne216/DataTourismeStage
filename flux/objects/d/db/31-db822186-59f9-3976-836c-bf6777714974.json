@@ -1,0 +1,888 @@
+{
+  "@id": "https://data.datatourisme.fr/31/db822186-59f9-3976-836c-bf6777714974",
+  "dc:identifier": "TFO312721293763",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Apartment",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Apartment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Unabhängiges Studio im Gartengeschoss eines Hauses in der Nähe von Notre Dame d'Aures am Ufer des Sees von Pareloup im Ort La Luminière. Idealer Ort für Wassersport, Angeln und Ausflüge zu vielen bemerkenswerten Orten."
+    ],
+    "en": [
+      "Independent studio on the ground floor in a house close to Notre Dame d'Aures on the edge of Lake Pareloup at La Luminière. Ideal place for the practice of water sports, fishing and visits to many remarkable sites."
+    ],
+    "it": [
+      "Studio indipendente al piano terra di una casa vicino a Notre Dame d'Aures, sulle rive del lago Pareloup, in una località chiamata La Luminière. Luogo ideale per gli sport acquatici, la pesca e la visita di numerosi siti degni di nota."
+    ],
+    "fr": [
+      "Studio indépendant en rez de jardin dans une maison proche de Notre Dame d'Aures au bord du Lac de Pareloup au lieu-dit La Luminière. Lieu idéal pour la pratique des sports nautiques, de la pêche et des visites de nombreux sites remarquables."
+    ],
+    "nl": [
+      "Onafhankelijke studio op de begane grond van een huis in de buurt van Notre Dame d'Aures aan de oevers van het meer van Pareloup in een plaats genaamd La Luminière. Ideale plek voor watersporten, vissen en bezoeken aan vele opmerkelijke sites."
+    ],
+    "es": [
+      "Estudio independiente en la planta baja de una casa cerca de Notre Dame d'Aures a orillas del lago Pareloup en un lugar llamado La Luminière. Lugar ideal para la práctica de deportes acuáticos, la pesca y la visita a numerosos lugares de interés."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Annick et André Guittard"
+    ]
+  },
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/836af957-c97e-3236-bbc4-666f5348abb3",
+    "schema:legalName": "OFFICE DE TOURISME DE PARELOUP LEVEZOU",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/cb2f6270-3a34-379c-a0a9-4e3265401efc",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/10bdbb41-737d-3004-8a87-ac6e4cc4a189",
+          "schema:addressLocality": "Arvieu",
+          "schema:postalCode": "12120",
+          "schema:streetAddress": [
+            "La Luminière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12011",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Arvieu"
+              ],
+              "pt": [
+                "Arvieu"
+              ],
+              "en": [
+                "Arvieu"
+              ],
+              "it": [
+                "Arvieu"
+              ],
+              "fr": [
+                "Arvieu"
+              ],
+              "nl": [
+                "Arvieu"
+              ],
+              "es": [
+                "Arvieu"
+              ]
+            },
+            "insee": "12011",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Annick et André Guittard",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.airbnb.fr/rooms/19516006"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/917eb6f8-c981-312b-9664-311bdb36e258",
+      "dc:description": {
+        "de": [
+          "Entdecken Sie die Gorges du Tarn, das Viadukt von Millau, das Soulages-Museum in Rodez und verschiedene berühmte religiöse Orte...\nNeues Studio von 35 m², bestehend aus einer voll ausgestatteten Küche, einem Wohn-/Schlafzimmer mit Schlafsofa mit Bultex-Matratze (140x190) und auf Anfrage Möglichkeit eines Zusatzbetts für 1 Person und auch eines Regenschirmbetts für Babys, großem Badezimmer: begehbare Dusche, Waschmaschine und Schränke mit Spiegeln\nAußenbereich: Privater Bereich mit Terrasse, direkter Zugang zum See (80 m zu Fuß von der Unterkunft entfernt), Bootsanlegestelle vor Ort je nach Wasserstand des Sees und Saison (siehe Foto)\nAuch Bereitstellung von Fahrrädern und eines Tretboots. 30 km von Rodez und 40 km von Millau entfernt. Zahlreiche wunderschöne Orte in der Region zu entdecken."
+        ],
+        "en": [
+          "Discover the Gorges du Tarn, the Viaduct of Millau, the Soulages Museum of Rodez and various famous religious places...\nNew studio of 35 m² composed of a fully equipped kitchen, a living room/bedroom with a sofa bed (140x190) and on request possibility of an extra bed for 1 person and also an umbrella bed for a baby, large bathroom : Italian shower, washing machine and cupboards with mirrors\nOutside: private space with terrace, direct access to the lake (80 m on foot from the accommodation), possibility of mooring boat on the spot according to the water level of the lake and the season (see photo)\nAlso, provision of bicycles and a pedal boat. Located 30 km from Rodez and 40 km from Millau. Many beautiful sites to discover in the region."
+        ],
+        "it": [
+          "Scoprite le Gole del Tarn, il Viadotto di Millau, il Museo Soulages di Rodez e vari siti religiosi famosi...\nNuovo monolocale di 35 m² composto da una cucina completamente attrezzata, un soggiorno/camera da letto con divano letto con materasso Bultex (140x190) e su richiesta possibilità di un letto aggiuntivo per 1 persona e anche un lettino a ombrello per un bambino, ampio bagno con doccia: doccia italiana, lavatrice e armadietti con specchi\nEsterno: spazio privato con terrazza, accesso diretto al lago (80 m a piedi dall'alloggio), possibilità di ormeggiare la barca sul posto a seconda del livello dell'acqua del lago e della stagione (vedi foto)\nSono inoltre disponibili biciclette e un pedalò. Situato a 30 km da Rodez e a 40 km da Millau. Molti bei siti da scoprire nella regione."
+        ],
+        "fr": [
+          "Découvrez les Gorges du Tarn, le Viaduc de Millau, le Musée Soulages de Rodez et divers lieux religieux renommés...\nStudio neuf de 35 m² constitué d'une cuisine toute équipée, d'un salon/chambre avec canapé-lit matelas Bultex (140x190) et sur demande possibilité lit d'appoint 1 personne et aussi d'un lit-parapluie pour bébé, grande salle d'eau : douche à l'italienne, lave-linge et placards avec miroirs. \nEn extérieur : espace privatif avec terrasse, accès direct au lac (80 m à pied du logement), possibilité amarrage bateau sur place en fonction du niveau d'eau du lac et de la saison (voir photo). \nAussi, mise à disposition de vélos et d'un pédalo. Situé à 30 km de Rodez et 40 km de Millau. Nombreux sites magnifiques à découvrir dans la région."
+        ],
+        "nl": [
+          "Ontdek de Gorges du Tarn, het Viaduct van Millau, het Soulages Museum in Rodez en verschillende beroemde religieuze plaatsen...\nNieuwe studio van 35 m² bestaande uit een volledig uitgeruste keuken, een woon/slaapkamer met een slaapbank met Bultex matras (140x190) en op verzoek mogelijkheid van een extra bed voor 1 persoon en ook een paraplubed voor een baby, grote doucheruimte: Italiaanse douche, wasmachine en kasten met spiegels\nBuiten: eigen ruimte met terras, directe toegang tot het meer (80 m te voet van de accommodatie), mogelijkheid om boot ter plaatse aan te leggen afhankelijk van de waterstand van het meer en het seizoen (zie foto)\nOok zijn er fietsen en een waterfiets beschikbaar. Gelegen op 30 km van Rodez en 40 km van Millau. Veel mooie plekken om te ontdekken in de regio."
+        ],
+        "es": [
+          "Descubra las Gargantas del Tarn, el viaducto de Millau, el Museo Soulages de Rodez y varios lugares religiosos famosos...\nEstudio nuevo de 35 m² que consta de una cocina totalmente equipada, una sala de estar/dormitorio con un sofá cama con colchón Bultex (140x190) y bajo petición posibilidad de una cama extra para 1 persona y también una cama paraguas para un bebé, gran cuarto de ducha: ducha italiana, lavadora y armarios con espejos\nExterior: espacio privado con terraza, acceso directo al lago (80 m a pie desde el alojamiento), posibilidad de amarrar el barco en el lugar según el nivel de agua del lago y la temporada (ver foto)\nTambién hay bicicletas y un bote a pedales disponibles. Situado a 30 km de Rodez y a 40 km de Millau. Muchos sitios hermosos para descubrir en la región."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2612dbc1-3dfb-30ef-b737-82b857612a38",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/35737d86-82c5-334b-a8a1-9a9c15723ecb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3f82c98b-e6b4-3ad5-97d8-61659e7004be",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/68de6463-2873-3591-8764-40e15881d0c4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7ef1a1e0-dbe4-3dcd-adf2-76030626459a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/99f5d10a-60ec-397d-a135-b724da8e5691",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9b41456d-02d4-3a17-a943-c84bff750207",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ae2816bc-571f-3e8e-a4df-36058b1cfa8c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e0d65bf6-9b13-3ce1-b907-c12bce66bac2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f76d69e5-750c-3e1f-bfc1-7ff60e91ab21",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Unabhängiges Studio im Gartengeschoss eines Hauses in der Nähe von Notre Dame d'Aures am Ufer des Sees von Pareloup im Ort La Luminière. Idealer Ort für Wassersport, Angeln und Ausflüge zu vielen bemerkenswerten Orten."
+        ],
+        "en": [
+          "Independent studio on the ground floor in a house close to Notre Dame d'Aures on the edge of Lake Pareloup at La Luminière. Ideal place for the practice of water sports, fishing and visits to many remarkable sites."
+        ],
+        "it": [
+          "Studio indipendente al piano terra di una casa vicino a Notre Dame d'Aures, sulle rive del lago Pareloup, in una località chiamata La Luminière. Luogo ideale per gli sport acquatici, la pesca e la visita di numerosi siti degni di nota."
+        ],
+        "fr": [
+          "Studio indépendant en rez de jardin dans une maison proche de Notre Dame d'Aures au bord du Lac de Pareloup au lieu-dit La Luminière. Lieu idéal pour la pratique des sports nautiques, de la pêche et des visites de nombreux sites remarquables."
+        ],
+        "nl": [
+          "Onafhankelijke studio op de begane grond van een huis in de buurt van Notre Dame d'Aures aan de oevers van het meer van Pareloup in een plaats genaamd La Luminière. Ideale plek voor watersporten, vissen en bezoeken aan vele opmerkelijke sites."
+        ],
+        "es": [
+          "Estudio independiente en la planta baja de una casa cerca de Notre Dame d'Aures a orillas del lago Pareloup en un lugar llamado La Luminière. Lugar ideal para la práctica de deportes acuáticos, la pesca y la visita a numerosos lugares de interés."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/b6df80db-68a5-3706-8dbf-595639d819ef",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/94f5e7b4-b54c-3e89-a554-f7b9c451e07d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7a32d912-5b78-3bad-96d7-06dcf53e49e7",
+          "ebucore:abstract": {
+            "fr": [
+              "Annick et André Guittard"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Annick et André Guittard"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DE PARELOUP LEVEZOU"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ae704faa-6a98-3b3a-9989-8029ff2e1d43",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO312721293763/TFO312721293763-17a/medias/jpg/guittard.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/94f5e7b4-b54c-3e89-a554-f7b9c451e07d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7a32d912-5b78-3bad-96d7-06dcf53e49e7",
+          "ebucore:abstract": {
+            "fr": [
+              "Annick et André Guittard"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Annick et André Guittard"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DE PARELOUP LEVEZOU"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ae704faa-6a98-3b3a-9989-8029ff2e1d43",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO312721293763/TFO312721293763-17a/medias/jpg/guittard.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/37817e0a-8d99-3ce1-b070-dd32d06d126c",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2017-01-13"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/38defd36-0b42-3966-a5ef-5bbc774de88d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5c1b2071-ec73-3489-9d88-30a31839f529",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6e633b39-40ca-3d25-a588-e610176b2955",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c1aacf16-8248-3bd3-b58d-074c968854af",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f6a0f6ba-ae5e-370f-8b87-1dca086e3b7a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/db36af7e-1bba-300f-944f-b0f95cc2d0b6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/10bdbb41-737d-3004-8a87-ac6e4cc4a189",
+          "schema:addressLocality": "Arvieu",
+          "schema:postalCode": "12120",
+          "schema:streetAddress": [
+            "La Luminière"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12011",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Arvieu"
+              ],
+              "pt": [
+                "Arvieu"
+              ],
+              "en": [
+                "Arvieu"
+              ],
+              "it": [
+                "Arvieu"
+              ],
+              "fr": [
+                "Arvieu"
+              ],
+              "nl": [
+                "Arvieu"
+              ],
+              "es": [
+                "Arvieu"
+              ]
+            },
+            "insee": "12011",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/1d3d7977-5ed9-3962-b58d-b3a5ed50a9c0",
+        "schema:elevation": "718",
+        "schema:latitude": "44.195852",
+        "schema:longitude": "2.71072",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-10-14",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.743Z"
+}

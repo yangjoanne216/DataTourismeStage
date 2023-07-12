@@ -1,0 +1,277 @@
+{
+  "@id": "https://data.datatourisme.fr/5/a64bf457-2326-3ce8-b6b4-e93e73e813f5",
+  "dc:identifier": "219004164",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Meublé de M. Isel"
+    ]
+  },
+  "allowedPersons": 4,
+  "creationDate": "2015-10-30",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/9f634c34-4ca2-35b7-b818-4f10bd5149e7",
+    "schema:legalName": "Office de tourisme de l'Alsace Verte",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/f9be77db-d6c0-3a31-9fa8-638da3098074",
+      "schema:legalName": "Système d'informations touristique Alsace",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e20848ce-0e88-3446-8825-9d904405b560",
+      "schema:telephone": [
+        "+33 3 88 09 22 70"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e20848ce-0e88-3446-8825-9d904405b560",
+      "schema:telephone": [
+        "+33 3 88 09 22 70"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/3a1f73f1-3dc6-3de5-940b-55756b4e6c30",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/27b1c9fc-0941-369a-858a-222f6cdcef70",
+          "schema:addressLocality": "Dambach",
+          "schema:postalCode": "67110",
+          "schema:streetAddress": [
+            "4a Neudoerfel"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:67083",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Dambach"
+              ],
+              "pt": [
+                "Dambach"
+              ],
+              "en": [
+                "Dambach"
+              ],
+              "it": [
+                "Dambach"
+              ],
+              "fr": [
+                "Dambach"
+              ],
+              "nl": [
+                "Dambach"
+              ],
+              "es": [
+                "Dambach"
+              ]
+            },
+            "insee": "67083",
+            "isPartOfDepartment": {
+              "@id": "kb:France4467",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bas-Rhin"
+                ],
+                "pt": [
+                  "Bas-Rhin"
+                ],
+                "en": [
+                  "Bas-Rhin"
+                ],
+                "it": [
+                  "Bas-Rhin"
+                ],
+                "fr": [
+                  "Bas-Rhin"
+                ],
+                "nl": [
+                  "Bas-Rhin"
+                ],
+                "es": [
+                  "Bas-Rhin"
+                ]
+              },
+              "insee": "67",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/0e7f93d8-39df-3c89-980e-fa8de7431571",
+        "schema:latitude": "49.026124",
+        "schema:longitude": "7.61729820000005",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/9f634c34-4ca2-35b7-b818-4f10bd5149e7",
+      "schema:legalName": "Office de tourisme de l'Alsace Verte",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-12-15",
+  "lastUpdateDatatourisme": "2022-12-16T08:03:57.904Z"
+}

@@ -1,0 +1,305 @@
+{
+  "@id": "https://data.datatourisme.fr/10/b9326161-ad01-35f8-822f-5672e62613f5",
+  "dc:identifier": "939003099",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT ONE TACOS"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "Take-away-Verkäufe - Lieferung nur abends mit Eatlist"
+    ],
+    "en": [
+      "Takeaway - Evening delivery only with Eatlist"
+    ],
+    "it": [
+      "Takeaway - Consegna serale solo con Eatlist"
+    ],
+    "fr": [
+      "Ventes à emporter - Livraison uniquement le soir avec Eatlist"
+    ],
+    "es": [
+      "Comida para llevar - Entrega nocturna sólo con Eatlist"
+    ],
+    "nl": [
+      "Afhaalmaaltijden - Avondlevering alleen met Eatlist"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/3df1d4b9-6d89-36ff-9986-393e8767f5b2",
+    "dc:identifier": "939",
+    "schema:legalName": "OT GRAND VERDUN",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1e086df8-792b-3597-aa1a-64e35ed6d894",
+      "schema:telephone": [
+        "+33 6 24 59 54 09"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/b2d9cdc4-8f32-3a4b-b19e-2c7fcd8b55a6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:HomeDeliveries",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Lieferung nach Hause"
+            ],
+            "pt": [
+              "Entregas ao domicílio"
+            ],
+            "en": [
+              "Home deliveries"
+            ],
+            "it": [
+              "Consegne a domicilio"
+            ],
+            "fr": [
+              "Livraisons à domicile"
+            ],
+            "nl": [
+              "Thuisbezorging"
+            ],
+            "es": [
+              "Entregas a domicilio"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/98b72646-3fa1-384f-bd22-9c0e9f6fa407",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c3e4b347-34ae-36d3-b3cb-f5022eaa1e84",
+          "schema:addressLocality": "Verdun",
+          "schema:postalCode": "55100",
+          "schema:streetAddress": [
+            "35 Quai de Londres"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:55545",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Verdun"
+              ],
+              "pt": [
+                "Verdun"
+              ],
+              "en": [
+                "Verdun"
+              ],
+              "it": [
+                "Verdun"
+              ],
+              "fr": [
+                "Verdun"
+              ],
+              "nl": [
+                "Verdun"
+              ],
+              "es": [
+                "Verdun"
+              ]
+            },
+            "insee": "55545",
+            "isPartOfDepartment": {
+              "@id": "kb:France4455",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Meuse"
+                ],
+                "pt": [
+                  "Meuse"
+                ],
+                "en": [
+                  "Meuse"
+                ],
+                "it": [
+                  "Meuse"
+                ],
+                "fr": [
+                  "Meuse"
+                ],
+                "nl": [
+                  "Meuse"
+                ],
+                "es": [
+                  "Meuse"
+                ]
+              },
+              "insee": "55",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/3a3380b7-ffa4-3363-8b5e-16998fecb8ff",
+        "schema:latitude": "49.160506",
+        "schema:longitude": "5.3854084",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-01-27",
+  "lastUpdateDatatourisme": "2023-04-18T13:12:15.886Z",
+  "reducedMobilityAccess": false
+}

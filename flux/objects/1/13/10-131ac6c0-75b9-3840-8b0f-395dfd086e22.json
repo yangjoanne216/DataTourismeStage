@@ -1,0 +1,926 @@
+{
+  "@id": "https://data.datatourisme.fr/10/131ac6c0-75b9-3840-8b0f-395dfd086e22",
+  "dc:identifier": "995002215",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "FluvialTour",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Die Moselschleife bietet Ihnen eine außergewöhnliche Route von etwa 100 Kilometern, auf der Sie den Fluss aus einem neuen Blickwinkel entdecken können. Radfahren, Inlineskaten, Wandern, Kanu fahren, Klettern, Segeln, Hochseilgarten, Bootfahren - all das sind Outdoor-Aktivitäten, die Sie allein oder mit der Familie ausüben können."
+    ],
+    "en": [
+      "The Moselle loop offers you an exceptional itinerary of about 100 kilometers which will allow you to discover the river from a new angle. Cycling, rollerblading, hiking, canoeing, climbing, sailing, acrobatic park, boating will be as many outdoor activities to practice alone or with your family."
+    ],
+    "it": [
+      "L'anello della Mosella vi offre un percorso eccezionale di circa 100 chilometri che vi permetterà di scoprire il fiume da una nuova prospettiva. Ciclismo, pattinaggio in linea, escursionismo, canoa, arrampicata, vela, parco acrobatico e nautica sono solo alcune delle attività all'aperto che si possono praticare da soli o in famiglia."
+    ],
+    "fr": [
+      "La boucle de la Moselle vous offre un itinéraire exceptionnel d’environ 100 kilomètres qui vous permettra de découvrir la rivière sous un angle nouveau. Vélo, roller, randonnée, canoë, escalade, voile, parc acrobatique, plaisance seront autant d’activités de plein air à pratiquer seul ou en famille."
+    ],
+    "es": [
+      "El bucle del Mosela le ofrece un recorrido excepcional de unos 100 kilómetros que le permitirá descubrir el río desde un nuevo ángulo. Ciclismo, patinaje en línea, senderismo, piragüismo, escalada, vela, parque acrobático y paseos en barco son sólo algunas de las actividades al aire libre que puede disfrutar solo o en familia."
+    ],
+    "nl": [
+      "De Moezellus biedt u een uitzonderlijke route van ongeveer 100 kilometer die u de rivier vanuit een nieuwe hoek laat ontdekken. Fietsen, inline skaten, wandelen, kanoën, klimmen, zeilen, acrobatisch park en varen zijn slechts enkele van de buitenactiviteiten waar u alleen of met uw gezin van kunt genieten."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "BOUCLE DE LA MOSELLE DÉTENTE ET LOISIRS"
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/2bcab9d9-35d2-3964-9434-683dd9d18a03",
+    "dc:identifier": "995",
+    "schema:legalName": "MT TERRES TOULOISES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/fba9b5f2-2b7d-3d4f-88d3-2f9669e84956",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.boucledelamoselle.fr/fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/42befa8b-0037-37f8-b710-40d547938768",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0d0e266d-5786-3b0f-ab03-3a250f9f4b45",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/27e11cbf-4af5-3a16-aaf3-8246869a0fe3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5b5f3d9e-2149-38b6-a373-46a4782dd973",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7a33f8cf-1820-3b65-9749-ff71a2c40642",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fb6aaeb4-e04b-3d41-b68f-8287091c74cb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Die Moselschleife bietet Ihnen eine außergewöhnliche Route von etwa 100 Kilometern, auf der Sie den Fluss aus einem neuen Blickwinkel entdecken können. Radfahren, Inlineskaten, Wandern, Kanu fahren, Klettern, Segeln, Hochseilgarten, Bootfahren - all das sind Outdoor-Aktivitäten, die Sie allein oder mit der Familie ausüben können."
+        ],
+        "en": [
+          "The Moselle loop offers you an exceptional itinerary of about 100 kilometers which will allow you to discover the river from a new angle. Cycling, rollerblading, hiking, canoeing, climbing, sailing, acrobatic park, boating will be as many outdoor activities to practice alone or with your family."
+        ],
+        "it": [
+          "L'anello della Mosella vi offre un percorso eccezionale di circa 100 chilometri che vi permetterà di scoprire il fiume da una nuova prospettiva. Ciclismo, pattinaggio in linea, escursionismo, canoa, arrampicata, vela, parco acrobatico e nautica sono solo alcune delle attività all'aperto che si possono praticare da soli o in famiglia."
+        ],
+        "fr": [
+          "La boucle de la Moselle vous offre un itinéraire exceptionnel d’environ 100 kilomètres qui vous permettra de découvrir la rivière sous un angle nouveau. Vélo, roller, randonnée, canoë, escalade, voile, parc acrobatique, plaisance seront autant d’activités de plein air à pratiquer seul ou en famille."
+        ],
+        "es": [
+          "El bucle del Mosela le ofrece un recorrido excepcional de unos 100 kilómetros que le permitirá descubrir el río desde un nuevo ángulo. Ciclismo, patinaje en línea, senderismo, piragüismo, escalada, vela, parque acrobático y paseos en barco son sólo algunas de las actividades al aire libre que puede disfrutar solo o en familia."
+        ],
+        "nl": [
+          "De Moezellus biedt u een uitzonderlijke route van ongeveer 100 kilometer die u de rivier vanuit een nieuwe hoek laat ontdekken. Fietsen, inline skaten, wandelen, kanoën, klimmen, zeilen, acrobatisch park en varen zijn slechts enkele van de buitenactiviteiten waar u alleen of met uw gezin van kunt genieten."
+        ]
+      }
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/60708350-d5fe-363b-9292-e9ca0cbe5161",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:CanoeMode",
+          "@type": [
+            "AquaticLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kanu"
+            ],
+            "pt": [
+              "Canoagem"
+            ],
+            "en": [
+              "Canoe"
+            ],
+            "it": [
+              "Canoa"
+            ],
+            "fr": [
+              "Canoë"
+            ],
+            "nl": [
+              "Kano"
+            ],
+            "es": [
+              "Canoa"
+            ]
+          }
+        },
+        {
+          "@id": "kb:FluvialMode",
+          "@type": [
+            "AquaticLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fluvial"
+            ],
+            "pt": [
+              "Fluvial"
+            ],
+            "en": [
+              "Fluvial"
+            ],
+            "it": [
+              "Fluviale"
+            ],
+            "fr": [
+              "Fluvial"
+            ],
+            "es": [
+              "Fluvial"
+            ],
+            "nl": [
+              "Fluviaal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:MBMode",
+          "@type": [
+            "BicycleLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mit Mountainbikes"
+            ],
+            "pt": [
+              "Com bicicletas de montanha"
+            ],
+            "en": [
+              "With mountain bikes"
+            ],
+            "it": [
+              "Con le mountain bike"
+            ],
+            "fr": [
+              "En VTT"
+            ],
+            "nl": [
+              "Met mountainbikes"
+            ],
+            "es": [
+              "Con bicicletas de montaña"
+            ]
+          }
+        },
+        {
+          "@id": "kb:RoadbikeMode",
+          "@type": [
+            "BicycleLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Rennrad"
+            ],
+            "pt": [
+              "Ciclismo rodoviário"
+            ],
+            "en": [
+              "With road bike"
+            ],
+            "it": [
+              "Ciclismo su strada"
+            ],
+            "fr": [
+              "Vélo de route"
+            ],
+            "nl": [
+              "Fietsen op de weg"
+            ],
+            "es": [
+              "Ciclismo de carretera"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/33f682b6-e1cd-32ba-a7df-23bda1068713",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/847721e9-37de-375f-838d-d4c68f348683",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "MT TERRES TOULOISES"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/50f09252-f0e7-37f8-8733-3a22f6579aab",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:KML",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "KML-Datei"
+                ],
+                "pt": [
+                  "Ficheiro XML"
+                ],
+                "en": [
+                  "KML file"
+                ],
+                "it": [
+                  "File KML"
+                ],
+                "fr": [
+                  "Fichier KML"
+                ],
+                "nl": [
+                  "KML-bestand"
+                ],
+                "es": [
+                  "Archivo KML"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "pt": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "en": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "it": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "fr": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "nl": [
+                  "application/vnd.google-earth.kml+xml"
+                ],
+                "es": [
+                  "application/vnd.google-earth.kml+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://www.sitlor.fr/traces/995002215.kml"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/b30a5ef3-a422-3c70-afa7-49d1d6e04664",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ba54c68e-f39a-3963-bd0a-c02c8a16c196",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/baee6119-09f3-3486-a452-689d2e70bd3b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d9ad7ae1-c6e1-3902-b81b-7890ee1c0598",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ff077a74-68f1-3519-9d95-c1109d9cb958",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/532614dd-7b16-3648-9235-9befd849c3c2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e703967f-a874-32ac-92fb-d695d0d44a10",
+          "schema:addressLocality": "Toul",
+          "schema:postalCode": "54200",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:54528",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Toul"
+              ],
+              "pt": [
+                "Toul"
+              ],
+              "en": [
+                "Toul"
+              ],
+              "it": [
+                "Toul"
+              ],
+              "fr": [
+                "Toul"
+              ],
+              "nl": [
+                "Toul"
+              ],
+              "es": [
+                "Toul"
+              ]
+            },
+            "insee": "54528",
+            "isPartOfDepartment": {
+              "@id": "kb:France4454",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Meurthe-et-Moselle"
+                ],
+                "pt": [
+                  "Meurthe-et-Moselle"
+                ],
+                "en": [
+                  "Meurthe-et-Moselle"
+                ],
+                "it": [
+                  "Meurthe-et-Moselle"
+                ],
+                "fr": [
+                  "Meurthe-et-Moselle"
+                ],
+                "nl": [
+                  "Meurthe-et-Moselle"
+                ],
+                "es": [
+                  "Meurthe-et-Moselle"
+                ]
+              },
+              "insee": "54",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8505933f-dedd-3c51-850f-353cb61e6008",
+        "schema:latitude": "48.6721271515899",
+        "schema:longitude": "5.89656388494703",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-04-24",
+  "lastUpdateDatatourisme": "2023-06-22T03:03:45.99Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/228804b3-02aa-3c40-9410-82328eedd462",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/32e2262b-564d-3c01-b386-7705cf18dc5d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

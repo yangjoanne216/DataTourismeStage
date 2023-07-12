@@ -1,0 +1,399 @@
+{
+  "@id": "https://data.datatourisme.fr/6/63ab5b2b-d079-3255-aeb8-16b7d5823100",
+  "dc:identifier": "ITIBOU0OTV51CLSN",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "De l'eau et des arbres"
+    ]
+  },
+  "creationDate": "2022-07-28",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/f223719a-87c6-3e64-adbd-d2f04751662d",
+    "dc:identifier": "7055ae03-d2c0-4564-a7e0-0e2946fa55ad",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/ea6fd3dd-3036-316e-99d7-346268e13292",
+        "schema:postalCode": "58400",
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "contact@lacharitesurloire-tourisme.com"
+    ],
+    "schema:legalName": "OT LOIRE NIEVRE ET BERTRANGE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.lacharitesurloire-tourisme.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/c83366f9-216a-3de8-9731-56306f9ad424",
+      "schema:telephone": [
+        "+33 3 86 70 15 06"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/cae285bb-c6d3-30ea-ace8-312740c659e0",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/44af86bf-63b5-378b-b08c-7a7b4872cc90",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/61a481d2-a5fe-35f4-822e-fa6dab0ced38",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.tourinsoft.com/upload/trace/ITIBOU0OTV51CLSN.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5f0e487a-ac06-3061-bbe9-05754f0a01f7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/89e9659d-e983-38b1-b45e-e1724df4b454",
+          "schema:addressLocality": "La Charité-sur-Loire",
+          "schema:postalCode": "58400",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:58059",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Charité-sur-Loire"
+              ],
+              "pt": [
+                "La Charité-sur-Loire"
+              ],
+              "en": [
+                "La Charité-sur-Loire"
+              ],
+              "it": [
+                "La Charité-sur-Loire"
+              ],
+              "fr": [
+                "La Charité-sur-Loire"
+              ],
+              "nl": [
+                "La Charité-sur-Loire"
+              ],
+              "es": [
+                "La Charité-sur-Loire"
+              ]
+            },
+            "insee": "58059",
+            "isPartOfDepartment": {
+              "@id": "kb:France2758",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nièvre"
+                ],
+                "pt": [
+                  "Nièvre"
+                ],
+                "en": [
+                  "Nièvre"
+                ],
+                "it": [
+                  "Nièvre"
+                ],
+                "fr": [
+                  "Nièvre"
+                ],
+                "nl": [
+                  "Nièvre"
+                ],
+                "es": [
+                  "Nièvre"
+                ]
+              },
+              "insee": "58",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9c48cdcb-037f-3991-b781-7503b937a50f",
+        "schema:latitude": "47.19303",
+        "schema:longitude": "3.01451",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-06",
+  "lastUpdateDatatourisme": "2023-06-07T02:16:53.81Z",
+  "tourDistance": "6000.0"
+}

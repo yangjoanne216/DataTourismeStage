@@ -1,0 +1,830 @@
+{
+  "@id": "https://data.datatourisme.fr/6/cd65ff20-e1ce-37e1-b6ac-3a519ab98979",
+  "dc:identifier": "ITIBFC000V511I41",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Chemin-frise géologique"
+    ]
+  },
+  "creationDate": "2022-01-10",
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/a44c0ea6-9655-3f47-b275-5658b944521c",
+    "dc:identifier": "4f6152ee-9c63-43a8-9428-3c7fd9e695d3",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/8aa72549-b0dc-3924-a130-b874bb14cc6a",
+        "schema:postalCode": "71160",
+        "schema:streetAddress": [
+          "7, rue Nationale"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "tourisme@legrandcharolais.fr"
+    ],
+    "schema:legalName": "DIGOIN │ Office de Tourisme Le Grand Charolais │ Cat.III",
+    "schema:telephone": [
+      "+33 3 85 53 00 81"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.legrandcharolais.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f36381db-57f1-3b86-9618-de37fb89807a",
+      "schema:email": [
+        "teryjeanmarc@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 83 98 92 74"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://foursachaux71120.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f36381db-57f1-3b86-9618-de37fb89807a",
+      "schema:email": [
+        "teryjeanmarc@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 83 98 92 74"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://foursachaux71120.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/58a7a7a9-4573-34f6-a88e-c7171ba92abf",
+      "dc:description": {
+        "de": [
+          "Machen Sie die Erfahrung, lange geologische Zeiträume beim Gehen zu erleben.  Folgen Sie dem markierten Weg durch die geologischen Epochen. 1 Milliarde Jahre Erdgeschichte auf 1 km! Für alle zugänglich.  Entlang des Flusses Semence, mitten in der Bocage Charolais, beginnt der Weg in Richtung des Weilers Les Pacauds bis zum Standort des historischen Denkmals Fours à chaux (Kalköfen). Um die Wanderung vollständig zu machen, steht Ihnen ein QRCode zur Verfügung, mit dem Sie die Wanderung kommentieren können."
+        ],
+        "en": [
+          "Experience the long geological times by walking.  For that, no more hesitation, follow the marked path of the geological eras. 1 billion years of the Earth's history in 1 km! Accessible to all.  Along the river Semence, in the middle of the Charolais bocage, the departure is located towards the hamlet of Pacauds, up to the site of the Historical Monument of the Lime Kilns. To make the walk complete, a QRCode is available for you to comment on it."
+        ],
+        "it": [
+          "Vivere i lunghi tempi geologici camminando.  Per questo, senza più esitazioni, seguite il percorso segnato delle ere geologiche. 1 miliardo di anni di storia della Terra in 1 km! Accessibile a tutti.  Lungo il fiume Semence, nel mezzo del bocage dello Charolais, si parte dalla frazione di Les Pacauds, fino al sito del Monumento storico dei forni da calce. Affinché la passeggiata sia completa, è disponibile un QRCode per commentarla."
+        ],
+        "fr": [
+          "Faire l'expérience d'éprouver en marchant les longs temps géologiques.  Pour cela, plus d'hésitation, suivez le chemin balisé des époques géologiques. 1 milliard d'années de l'Histoire de la Terre sur 1 km ! Accessible à tous.  Le long de la rivière Semence, en plein bocage Charolais, le départ se situe vers le hameau des Pacauds, jusqu'au site du Monument Historique des Fours à chaux. Pour que la balade soit complète, un QRCode est à votre disposition pour la commenter."
+        ],
+        "es": [
+          "Experimente los largos tiempos geológicos caminando.  Para ello, no lo dude más, siga el camino marcado de las eras geológicas. mil millones de años de historia de la Tierra en 1 km Accesible para todos.  A lo largo del río Semence, en pleno bocage charoles, la salida se sitúa cerca de la aldea de Les Pacauds, hasta el emplazamiento del Monumento Histórico de los Hornos de Cal. Para que el paseo sea completo, tiene a su disposición un QRCode para comentarlo."
+        ],
+        "nl": [
+          "Beleef de lange geologische tijden al wandelend.  Hiervoor hoeft u niet meer te aarzelen, volg het gemarkeerde pad van de geologische tijdperken. 1 miljard jaar geschiedenis van de aarde in 1 km! Toegankelijk voor iedereen.  Langs de rivier Semence, in het midden van de Charolais bocage, is de start nabij het gehucht Les Pacauds, tot aan de plaats van het Historisch Monument van de Kalkovens. Om de wandeling volledig te maken, is een QRCode beschikbaar om commentaar te geven."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/7e66a33a-6d91-34be-b421-53b4ebd67272",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/899dc488-13c8-3e2c-b2d4-4f143a08ed4b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9331bb6a-620d-3d85-8e6d-d79d14813ab5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/da3b1146-204d-37ed-ab8c-7cd6a611cc1f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e8f5dc73-9695-31aa-8ae2-48f896e6a821",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/cae285bb-c6d3-30ea-ace8-312740c659e0",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/893a9dfc-020d-3a2f-8c86-28a10e0cd75f",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/42a7995d-1c65-3abc-b868-c1b18e9559da",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.tourinsoft.com/upload/trace/ITIBFC000V511I41.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Culture",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kultur"
+        ],
+        "pt": [
+          "Cultura"
+        ],
+        "en": [
+          "Culture"
+        ],
+        "it": [
+          "Cultura"
+        ],
+        "fr": [
+          "Culture"
+        ],
+        "nl": [
+          "Cultuur"
+        ],
+        "es": [
+          "Cultura"
+        ]
+      }
+    },
+    {
+      "@id": "kb:History",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Geschichte"
+        ],
+        "pt": [
+          "História"
+        ],
+        "en": [
+          "History"
+        ],
+        "it": [
+          "Storia"
+        ],
+        "fr": [
+          "Histoire"
+        ],
+        "es": [
+          "Historia"
+        ],
+        "nl": [
+          "Geschiedenis"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Unusual",
+      "@type": [
+        "Theme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Ungewöhnlich"
+        ],
+        "pt": [
+          "Insólito"
+        ],
+        "en": [
+          "Unusual"
+        ],
+        "it": [
+          "Insolito"
+        ],
+        "fr": [
+          "Insolite"
+        ],
+        "nl": [
+          "Ongewoon"
+        ],
+        "es": [
+          "Insólito"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/8d3faa70-0f5d-3678-b0e6-3e039a7a203d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/918de239-ed3e-3a02-8ebd-a0027b46be7f",
+          "schema:addressLocality": "Vendenesse-lès-Charolles",
+          "schema:postalCode": "71120",
+          "schema:streetAddress": [
+            "Collanges",
+            "Hameau des Pacauds"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:71564",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Vendenesse-lès-Charolles"
+              ],
+              "pt": [
+                "Vendenesse-lès-Charolles"
+              ],
+              "en": [
+                "Vendenesse-lès-Charolles"
+              ],
+              "it": [
+                "Vendenesse-lès-Charolles"
+              ],
+              "fr": [
+                "Vendenesse-lès-Charolles"
+              ],
+              "nl": [
+                "Vendenesse-lès-Charolles"
+              ],
+              "es": [
+                "Vendenesse-lès-Charolles"
+              ]
+            },
+            "insee": "71564",
+            "isPartOfDepartment": {
+              "@id": "kb:France2771",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Saône-et-Loire"
+                ],
+                "pt": [
+                  "Saône-et-Loire"
+                ],
+                "en": [
+                  "Saône-et-Loire"
+                ],
+                "it": [
+                  "Saône-et-Loire"
+                ],
+                "fr": [
+                  "Saône-et-Loire"
+                ],
+                "nl": [
+                  "Saône-et-Loire"
+                ],
+                "es": [
+                  "Saône-et-Loire"
+                ]
+              },
+              "insee": "71",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/3224622b-4479-3008-8522-0cad85bf36e8",
+        "schema:latitude": "46.4310138",
+        "schema:longitude": "4.30421141",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-14",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.234Z",
+  "positiveCumulDifference": "0.0",
+  "reducedMobilityAccess": true,
+  "tourDistance": "1000.0"
+}

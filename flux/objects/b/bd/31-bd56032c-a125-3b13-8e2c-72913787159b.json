@@ -1,0 +1,1895 @@
+{
+  "@id": "https://data.datatourisme.fr/31/bd56032c-a125-3b13-8e2c-72913787159b",
+  "dc:identifier": "TFO16016651034",
+  "@type": [
+    "schema:Accommodation",
+    "schema:House",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "House",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "La Grange, eine gehobene Adresse, die einen Urlaub auf dem Land mit höchstem Komfort garantiert. In einem Zen-Geist der Räume vermischen sich Tradition und Moderne."
+    ],
+    "en": [
+      "\"La Grange\" is a traditional barn on the outside but step inside where, a high class interior guarantees a very comfortable stay in the countryside. Calming, lots of space,breathtaking views.  A real fusion of character and modernity."
+    ],
+    "it": [
+      "La Grange, un indirizzo di alta gamma che garantisce una vacanza in campagna molto confortevole. In uno spirito zen, si mescolano spazi, tradizione e modernità."
+    ],
+    "fr": [
+      "La Grange, une adresse haut de gamme qui garantit des vacances à la campagne de très grand confort. Dans un esprit zen, des espaces, tradition et modernité se mélangent."
+    ],
+    "es": [
+      "La Grange, una dirección de alta gama que garantiza unas vacaciones en el campo muy confortables. En un espíritu zen, se mezclan los espacios, la tradición y la modernidad."
+    ],
+    "nl": [
+      "La Grange, een topadres dat garant staat voor een zeer comfortabele vakantie op het platteland. In een zen-geest worden ruimtes, traditie en moderniteit gemengd."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "La Grange"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "EN",
+    "FR",
+    "NL"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/221872f3-39d0-3e53-98c9-4677f980e37b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d40c6204-aa21-31d3-bdbd-64d40fcde05a",
+          "schema:addressLocality": "Mur-de-Barrez",
+          "schema:postalCode": "12600",
+          "schema:streetAddress": [
+            "Marcillac"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12164",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mur-de-Barrez"
+              ],
+              "pt": [
+                "Mur-de-Barrez"
+              ],
+              "en": [
+                "Mur-de-Barrez"
+              ],
+              "it": [
+                "Mur-de-Barrez"
+              ],
+              "fr": [
+                "Mur-de-Barrez"
+              ],
+              "nl": [
+                "Mur-de-Barrez"
+              ],
+              "es": [
+                "Mur-de-Barrez"
+              ]
+            },
+            "insee": "12164",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@gitemurdebarrez.fr"
+      ],
+      "schema:familyName": [
+        "HERBERT"
+      ],
+      "schema:givenName": [
+        "Tony and Han"
+      ],
+      "schema:legalName": "La Grange",
+      "schema:telephone": [
+        "+33 6 41 79 28 10",
+        "+33 6 49 61 97 26"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gitemurdebarrez.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8c18cd40-10f5-388f-883e-ac23a651b0a1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d40c6204-aa21-31d3-bdbd-64d40fcde05a",
+          "schema:addressLocality": "Mur-de-Barrez",
+          "schema:postalCode": "12600",
+          "schema:streetAddress": [
+            "Marcillac"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12164",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mur-de-Barrez"
+              ],
+              "pt": [
+                "Mur-de-Barrez"
+              ],
+              "en": [
+                "Mur-de-Barrez"
+              ],
+              "it": [
+                "Mur-de-Barrez"
+              ],
+              "fr": [
+                "Mur-de-Barrez"
+              ],
+              "nl": [
+                "Mur-de-Barrez"
+              ],
+              "es": [
+                "Mur-de-Barrez"
+              ]
+            },
+            "insee": "12164",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@gitemurdebarrez.fr"
+      ],
+      "schema:legalName": "Hanneke et Tony HERBERT",
+      "schema:telephone": [
+        "+33 6 41 79 28 10",
+        "+33 6 49 61 97 26"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gitemurdebarrez.fr/fr/french-home-page/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/15a3c90b-b3b3-3fa0-af88-7699e50b4c73",
+      "dc:description": {
+        "de": [
+          "Restaurierte Scheune mit sehr hohem Komfort auf 3 Ebenen, in einem Weiler 3 km von Mur-de-Barrez entfernt. Küche/Wohnzimmer mit Terrasse (Schlafsofa BZ 140, Holzofen). 3 Schlafzimmer: Schlafzimmer 1: 1 Bett 200 x 180, privates Badezimmer mit Badewanne, Dusche und WC. Schlafzimmer 2: 1 Bett 140 x 190, privates Badezimmer mit Dusche und WC. Schlafzimmer 3 : 2 Betten 200 x 90, privates Badezimmer mit Dusche und WC. Separates Badezimmer mit Badewanne. 1 separates WC. Waschmaschine, Wäschetrockner, Mikrowelle, Geschirrspüler, Fernseher (Kabelfernsehen mit englischen Kanälen), CD-Player, DVD-Player, WIFI. Zentralheizung auf Ölbasis. Privater Garten, 3 Terrassen, Gartenmöbel, Grill. Privater Stellplatz für ein Auto. Empfang von Mountainbikern und Radtouristen. Privater Whirlpool für Erwachsene (>16 Jahre) im Freien, der Ihnen zur Verfügung steht."
+        ],
+        "en": [
+          "Very comfortable restored barn on 3 floors in a hamlet 3 km from Mur-de-Barrez. Kitchen/living room with terrace (double sofa-bed, wood burning stove). 3 bedrooms (Bedroom 1: 2 single beds, shower room, WC and terrace. Bedroom 2: 2 single beds, shower room, WC. Bedroom 3: 2 single beds, shower room with bath, shower and WC). Independent bathroom with bath. Separate WC. Washing machine, tumble dryer, microwave, dishwasher, TV (English channels), CD player, DVD player, Wi-Fi. Oil fired central heating, private garden, 3 terraces, garden furniture, barbecue, private car parking close by."
+        ],
+        "it": [
+          "Fienile ristrutturato di grande comfort su 3 livelli, in un borgo a 3 km da Mur-de-Barrez. Cucina/soggiorno con terrazza (divano letto BZ 140, stufa a legna). 3 camere da letto: camera 1: 1 letto 200 x 180, bagno privato con vasca, doccia e WC. Camera da letto 2: 1 letto 140 x 190, bagno privato con doccia e WC. Camera da letto 3: 2 letti 200 x 90, bagno privato con doccia e WC. Bagno indipendente con vasca. 1 WC indipendente. Lavatrice, asciugatrice, microonde, lavastoviglie, televisione (canali inglesi via cavo), lettore CD, lettore DVD, WIFI. Riscaldamento centrale a gasolio. Giardino privato, 3 terrazze, mobili da giardino, barbecue. Posto auto privato. Mountain bike e ciclisti benvenuti. Jacuzzi privata per adulti (>16 anni) situata all'esterno e a vostra disposizione."
+        ],
+        "fr": [
+          "Grange restaurée de très grand confort sur 3 niveaux, dans un hameau à 3 km de Mur-de-Barrez. Cuisine/séjour avec terrasse (clic-clac BZ 140, poêle à bois). 3 chambres : chambre 1 : 1 lit en 200 x 180, salle d'eau privative avec baignoire, douche et WC. Chambre 2 : 1 lit en 140 x 190, salle d'eau privative avec douche et WC. Chambre 3 : 2 lits en 200 x 90, salle d'eau privative avec douche et WC. Salle de bains indépendante avec baignoire. 1 WC indépendant. Lave-linge, sèche-linge, micro-ondes, lave-vaisselle, télévision (câble chaînes anglaises), lecteur CD, lecteur DVD, WIFI. Chauffage central au fuel. Jardin privatif, 3 terrasses, salons de jardin, barbecue. Emplacement de voiture privatif. Accueil des VTTistes et cyclotouristes. Jaccuzi privatif pour adultes (>16ans) situé à l'extérieur et à votre disposition."
+        ],
+        "es": [
+          "Granero restaurado de gran confort en 3 niveles, en una aldea a 3 km de Mur-de-Barrez. Cocina/salón con terraza (sofá cama BZ 140, estufa de leña). 3 habitaciones: habitación 1: 1 cama 200 x 180, cuarto de baño privado con bañera, ducha y WC. Dormitorio 2: 1 cama 140 x 190, cuarto de baño privado con ducha y WC. Habitación 3: 2 camas 200 x 90, cuarto de baño privado con ducha y WC. Cuarto de baño independiente con bañera. 1 WC independiente. Lavadora, secadora, microondas, lavavajillas, televisión (canales ingleses por cable), lector CD, lector DVD, WIFI. Calefacción central de gasoil. Jardín privado, 3 terrazas, muebles de jardín, barbacoa. Aparcamiento privado. Bicicletas de montaña y ciclistas bienvenidos. Jacuzzi privado para adultos (>16 años) situado en el exterior y a su disposición."
+        ],
+        "nl": [
+          "Gerestaureerde schuur met veel comfort op 3 niveaus, in een gehucht op 3 km van Mur-de-Barrez. Keuken/woonkamer met terras (slaapbank BZ 140, houtkachel). 3 slaapkamers: slaapkamer 1: 1 bed 200 x 180, eigen doucheruimte met bad, douche en WC. Slaapkamer 2: 1 bed 140 x 190, eigen badkamer met douche en WC. Slaapkamer 3: 2 bedden 200 x 90, eigen badkamer met douche en WC. Onafhankelijke badkamer met bad. 1 onafhankelijke WC. Wasmachine, wasdroger, magnetron, vaatwasser, televisie (Engelse kabel), CD-speler, DVD-speler, WIFI. Centrale verwarming op stookolie. Eigen tuin, 3 terrassen, tuinmeubels, barbecue. Eigen parkeerplaats. Mountainbikers en fietsers welkom. Privéjacuzzi voor volwassenen (>16 jaar) buiten gelegen en ter beschikking."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/05ae5e64-5e13-3e94-b2e0-d2f184f877bc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/12535b36-6b72-313f-beff-a0c818bd5651",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3670ac94-8b07-34c3-a5a3-c35e2ec753f3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/615872ba-b7a4-3b32-964e-eff77b62a9c4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/77c86228-c475-34f4-ba1e-15e9c9c59b04",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7ff2bdfd-a1a8-34f4-a8a3-2563b29b74ef",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/86773c27-2d31-3215-bd95-e410fdf358aa",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9ed52296-d392-3858-a5a2-816393527a26",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "La Grange, eine gehobene Adresse, die einen Urlaub auf dem Land mit höchstem Komfort garantiert. In einem Zen-Geist der Räume vermischen sich Tradition und Moderne."
+        ],
+        "en": [
+          "\"La Grange\" is a traditional barn on the outside but step inside where, a high class interior guarantees a very comfortable stay in the countryside. Calming, lots of space,breathtaking views.  A real fusion of character and modernity."
+        ],
+        "it": [
+          "La Grange, un indirizzo di alta gamma che garantisce una vacanza in campagna molto confortevole. In uno spirito zen, si mescolano spazi, tradizione e modernità."
+        ],
+        "fr": [
+          "La Grange, une adresse haut de gamme qui garantit des vacances à la campagne de très grand confort. Dans un esprit zen, des espaces, tradition et modernité se mélangent."
+        ],
+        "es": [
+          "La Grange, una dirección de alta gama que garantiza unas vacaciones en el campo muy confortables. En un espíritu zen, se mezclan los espacios, la tradición y la modernidad."
+        ],
+        "nl": [
+          "La Grange, een topadres dat garant staat voor een zeer comfortabele vakantie op het platteland. In een zen-geest worden ruimtes, traditie en moderniteit gemengd."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/034e6cd0-13ba-3807-b45f-6a22654ffc74",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bettwäsche und Handtücher"
+            ],
+            "pt": [
+              "Lençóis e toalhas"
+            ],
+            "en": [
+              "Sheets and towels"
+            ],
+            "it": [
+              "Lenzuola e biancheria"
+            ],
+            "fr": [
+              "Draps et linges"
+            ],
+            "es": [
+              "Sábanas y ropa de cama"
+            ],
+            "nl": [
+              "Beddengoed en handdoeken"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/11c945c5-1725-35b0-a8b1-0ef0e56c4009",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Hammam",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hamam"
+            ],
+            "pt": [
+              "Sauna húmida (hammam)"
+            ],
+            "en": [
+              "Hammam"
+            ],
+            "it": [
+              "Hammam"
+            ],
+            "fr": [
+              "Hammam"
+            ],
+            "nl": [
+              "Hammam"
+            ],
+            "es": [
+              "Hammam"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/20a9e41b-ed49-3d5d-93f9-ac858c0ac441",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/337daa48-7f66-3ae3-9c19-fce9fccc3340",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Beach",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Strand"
+            ],
+            "pt": [
+              "Praia"
+            ],
+            "en": [
+              "Beach"
+            ],
+            "it": [
+              "Spiaggia"
+            ],
+            "fr": [
+              "Plage"
+            ],
+            "nl": [
+              "Strand"
+            ],
+            "es": [
+              "Playa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4c5ea95e-3b34-3ff7-9d54-b3375d30d6f3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Jacuzzi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spa, Whirlpool, Jacuzzi"
+            ],
+            "pt": [
+              "Estância termal, banheira de hidromassagem, jacuzzi"
+            ],
+            "en": [
+              "Spa, jacuzzi or outdoor jacuzzi"
+            ],
+            "it": [
+              "Spa, idromassaggio, jacuzzi"
+            ],
+            "fr": [
+              "Spa, bain à remous, jacuzzi"
+            ],
+            "nl": [
+              "Spa, bubbelbad, jacuzzi"
+            ],
+            "es": [
+              "Spa, bañera de hidromasaje, jacuzzi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/583e670a-3a67-3d20-8f74-c62773d1d15c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Fireplace",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Kamin, Öfen"
+            ],
+            "pt": [
+              "Chaminé, salamandra"
+            ],
+            "en": [
+              "Fireplace, stove"
+            ],
+            "it": [
+              "Camino, stufa"
+            ],
+            "fr": [
+              "Cheminée, poële"
+            ],
+            "nl": [
+              "Schoorsteen, kachel"
+            ],
+            "es": [
+              "Chimenea, estufa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5b5e02b5-eafe-324b-8755-e47b70ed8f16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c419e26-aeb9-3669-824b-6b4f11bdd62d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Barbecue",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Grill"
+            ],
+            "pt": [
+              "Churrasco"
+            ],
+            "en": [
+              "Barbecue"
+            ],
+            "it": [
+              "Barbecue"
+            ],
+            "fr": [
+              "Barbecue"
+            ],
+            "nl": [
+              "Barbecue"
+            ],
+            "es": [
+              "Barbacoa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9cc1e7e7-9cfe-372f-8d91-41e821010259",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a54e2ad3-756a-3661-a3a3-aa020bde912f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Heating",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Heizen"
+            ],
+            "pt": [
+              "Aquecimento"
+            ],
+            "en": [
+              "Heating"
+            ],
+            "it": [
+              "Riscaldamento"
+            ],
+            "fr": [
+              "Chauffage"
+            ],
+            "nl": [
+              "Verwarming"
+            ],
+            "es": [
+              "Climatización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a7b4927d-3e82-3596-b87b-017e70d14a3d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Dishwasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschirrspülmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar louça"
+            ],
+            "en": [
+              "Dishwasher"
+            ],
+            "it": [
+              "Lavastoviglie"
+            ],
+            "fr": [
+              "Lave vaisselle"
+            ],
+            "nl": [
+              "Vaatwasmachine"
+            ],
+            "es": [
+              "Lavaplatos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d2bf6210-725d-30dd-860b-90ec1d72dead",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Sauna",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sauna"
+            ],
+            "pt": [
+              "Sauna"
+            ],
+            "en": [
+              "Sauna"
+            ],
+            "it": [
+              "Sauna"
+            ],
+            "fr": [
+              "Sauna"
+            ],
+            "nl": [
+              "Sauna"
+            ],
+            "es": [
+              "Sauna"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2eadb38-bd27-357e-8f87-821c2ea263f1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Freibad"
+            ],
+            "pt": [
+              "Piscina ao ar livre"
+            ],
+            "en": [
+              "Outdoor pool"
+            ],
+            "it": [
+              "Piscina all'aperto"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ],
+            "es": [
+              "Piscina de exterior"
+            ],
+            "nl": [
+              "Openluchtzwembad"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/efaec19c-6247-3b98-8ee7-f0d99b81a2cd",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fc0bc025-becb-3e99-bc11-03d3f175876b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Máquina de lavar roupa privativa"
+            ],
+            "en": [
+              "Private washer"
+            ],
+            "it": [
+              "Lavatrice privata"
+            ],
+            "fr": [
+              "Lave linge privatif"
+            ],
+            "nl": [
+              "Wasmachine voor privégebruik"
+            ],
+            "es": [
+              "Lavadora privada"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftlich genutzte Waschmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar roupa coletiva"
+            ],
+            "en": [
+              "Shared washer"
+            ],
+            "it": [
+              "Lavatrice comune"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ],
+            "es": [
+              "Lavadoras colectivas"
+            ],
+            "nl": [
+              "Gemeenschappelijke wasmachine"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/27f07390-9eb5-3e47-a9bf-d48d6f58521c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/889c493d-c9af-3baa-b3e9-a4380aed4ec1",
+          "ebucore:abstract": {
+            "fr": [
+              "M. et Mme Anthony et Hanneke HERBERT"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "M. et Mme Anthony et Hanneke HERBERT"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DU CANTON DE MUR DE BARREZ"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cf79fbc8-531c-30d2-9806-d43ab192b4e4",
+          "ebucore:fileSize": [
+            "27276"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "299",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO16016651034/TFO16016651034-17a/medias/jpg/lessecretsdubonheur.jpg"
+          ],
+          "ebucore:width": "448",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/27f07390-9eb5-3e47-a9bf-d48d6f58521c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/889c493d-c9af-3baa-b3e9-a4380aed4ec1",
+          "ebucore:abstract": {
+            "fr": [
+              "M. et Mme Anthony et Hanneke HERBERT"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "M. et Mme Anthony et Hanneke HERBERT"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DU CANTON DE MUR DE BARREZ"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cf79fbc8-531c-30d2-9806-d43ab192b4e4",
+          "ebucore:fileSize": [
+            "27276"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "299",
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "http://www.caravelis.com/xml/oi/TFO16016651034/TFO16016651034-17a/medias/jpg/lessecretsdubonheur.jpg"
+          ],
+          "ebucore:width": "448",
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/b6d4cee9-b2f9-3dcc-80cc-d61103e27170",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2010-05-19"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1f412485-900b-3e3d-82e4-019af6856d7b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/254e7c68-12f9-390e-bc44-5f94c657da1f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6a0c2b9b-0b17-3381-8582-5b2e34896e2c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/753e9895-54ac-3724-b388-cce972451af4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/67b1e756-91d9-3bcb-a267-38bcdd1742c3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d40c6204-aa21-31d3-bdbd-64d40fcde05a",
+          "schema:addressLocality": "Mur-de-Barrez",
+          "schema:postalCode": "12600",
+          "schema:streetAddress": [
+            "Marcillac"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12164",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mur-de-Barrez"
+              ],
+              "pt": [
+                "Mur-de-Barrez"
+              ],
+              "en": [
+                "Mur-de-Barrez"
+              ],
+              "it": [
+                "Mur-de-Barrez"
+              ],
+              "fr": [
+                "Mur-de-Barrez"
+              ],
+              "nl": [
+                "Mur-de-Barrez"
+              ],
+              "es": [
+                "Mur-de-Barrez"
+              ]
+            },
+            "insee": "12164",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/37c151ec-742b-3093-8cbb-7d84137e4699",
+        "schema:elevation": "784",
+        "schema:latitude": "44.8643",
+        "schema:longitude": "2.6708",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-05-25",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.751Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/e7c3dd9e-d29d-3d54-8035-4adac113a292",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Paypal",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Paypal"
+            ],
+            "pt": [
+              "PayPal"
+            ],
+            "en": [
+              "Paypal"
+            ],
+            "it": [
+              "Paypal"
+            ],
+            "fr": [
+              "Paypal"
+            ],
+            "nl": [
+              "Paypal"
+            ],
+            "es": [
+              "PayPal"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/1ff1988e-fc08-3307-9525-a8c099420d8b",
+          "schema:price": "125",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

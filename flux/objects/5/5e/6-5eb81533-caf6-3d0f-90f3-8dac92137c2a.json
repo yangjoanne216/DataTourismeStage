@@ -1,0 +1,412 @@
+{
+  "@id": "https://data.datatourisme.fr/6/5eb81533-caf6-3d0f-90f3-8dac92137c2a",
+  "dc:identifier": "ITIBFC000V51OVKZ",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "Tour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Circuit de VTT : Boucle n°18 de Lormes"
+    ]
+  },
+  "creationDate": "2022-11-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/1e88751f-a768-393f-ad69-d44d1b3df348",
+    "dc:identifier": "d3f13d12-5ab2-4941-90b0-d3376a6864b8",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/d59c6b0f-9999-3f84-8e68-1e47e830712a",
+        "schema:postalCode": "58230",
+        "schema:streetAddress": [
+          "Maison des Grands Lacs"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "tourisme@ccmorvan.fr"
+    ],
+    "schema:legalName": "OT MORVAN SOMMETS ET GRANDS LACS",
+    "schema:telephone": [
+      "+33 3 86 22 82 74"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.morvansommetsetgrandslacs.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/69ef5831-52e9-3202-bc5e-2c5c9c5ea7c5",
+      "schema:telephone": [
+        "+33 3 45 23 00 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.morvansommetsetgrandslacs.com/"
+      ]
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/5ffa3f04-fc99-3b3b-a31d-7e6066fa8b8c",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:DifficultTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Schwierig"
+            ],
+            "pt": [
+              "Difícil"
+            ],
+            "en": [
+              "Difficult"
+            ],
+            "it": [
+              "Difficile"
+            ],
+            "fr": [
+              "Difficile"
+            ],
+            "nl": [
+              "Moeilijk"
+            ],
+            "es": [
+              "Difícil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:MBMode",
+          "@type": [
+            "BicycleLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mit Mountainbikes"
+            ],
+            "pt": [
+              "Com bicicletas de montanha"
+            ],
+            "en": [
+              "With mountain bikes"
+            ],
+            "it": [
+              "Con le mountain bike"
+            ],
+            "fr": [
+              "En VTT"
+            ],
+            "nl": [
+              "Met mountainbikes"
+            ],
+            "es": [
+              "Con bicicletas de montaña"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/4cc0cc5f-552b-37b5-af4b-1ad7919b3e99",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c4e7801c-1bd0-3657-92f0-e4ff55b5a8e6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.tourinsoft.com/upload/trace/ITIBFC000V51OVKZ.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:ATV",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "MTB"
+        ],
+        "pt": [
+          "Bicicleta-todo-o-terreno (BTT)"
+        ],
+        "en": [
+          "Atv"
+        ],
+        "it": [
+          "Mountain bike"
+        ],
+        "fr": [
+          "Vtt"
+        ],
+        "nl": [
+          "Mountainbike"
+        ],
+        "es": [
+          "BTT"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/608522c2-f7f7-37ab-b418-05340ff7eef7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/42ff77eb-65ec-37a3-9b47-48575f91d6c1",
+          "schema:addressLocality": "Lormes",
+          "schema:postalCode": "58140",
+          "schema:streetAddress": [
+            "Etang du goulot"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:58145",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Lormes"
+              ],
+              "pt": [
+                "Lormes"
+              ],
+              "en": [
+                "Lormes"
+              ],
+              "it": [
+                "Lormes"
+              ],
+              "fr": [
+                "Lormes"
+              ],
+              "nl": [
+                "Lormes"
+              ],
+              "es": [
+                "Lormes"
+              ]
+            },
+            "insee": "58145",
+            "isPartOfDepartment": {
+              "@id": "kb:France2758",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nièvre"
+                ],
+                "pt": [
+                  "Nièvre"
+                ],
+                "en": [
+                  "Nièvre"
+                ],
+                "it": [
+                  "Nièvre"
+                ],
+                "fr": [
+                  "Nièvre"
+                ],
+                "nl": [
+                  "Nièvre"
+                ],
+                "es": [
+                  "Nièvre"
+                ]
+              },
+              "insee": "58",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/74afca2c-6eb7-35f6-9400-bb0bb9dd49f4",
+        "schema:latitude": "47.28269",
+        "schema:longitude": "3.82271",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-11-03",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.235Z",
+  "positiveCumulDifference": "879.0",
+  "tourDistance": "26000.0"
+}

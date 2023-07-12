@@ -1,0 +1,996 @@
+{
+  "@id": "https://data.datatourisme.fr/43/4c898465-f7e0-3ecf-93dd-933ab2a1b6f9",
+  "dc:identifier": "49660",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE DE MAUPAS"
+    ]
+  },
+  "availableLanguage": [
+    "Espagnol"
+  ],
+  "creationDate": "2011-11-09",
+  "hasAudience": [
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/1a59e733-c4eb-3dc3-bfb2-0763a7beb9d9",
+    "schema:legalName": "CDT",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/07e7c984-4543-3309-a204-3f1bf2d88266",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ab8ba18c-1986-37ad-b75c-d9367d475793",
+          "schema:addressLocality": "Mauléon-d'Armagnac",
+          "schema:postalCode": "32240",
+          "schema:streetAddress": [
+            "DOMAINE DE MAUPAS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32243",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mauléon-d'Armagnac"
+              ],
+              "pt": [
+                "Mauléon-d'Armagnac"
+              ],
+              "en": [
+                "Mauléon-d'Armagnac"
+              ],
+              "it": [
+                "Mauléon-d'Armagnac"
+              ],
+              "fr": [
+                "Mauléon-d'Armagnac"
+              ],
+              "nl": [
+                "Mauléon-d'Armagnac"
+              ],
+              "es": [
+                "Mauléon-d'Armagnac"
+              ]
+            },
+            "insee": "32243",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "domainedemaupas@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 09 65 02",
+        "+33 6 74 45 45 63"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.facebook.com/domaine.demaupas"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/0c163cf0-8659-3c3a-ad0e-d77a0a06551f",
+      "dc:description": {
+        "de": [
+          "Die Domaine de Maupas liegt im Herzen der Region Bas Armagnac in der Gemeinde Mauléon d'Armagnac, einer Region, die für ihre hochwertigen Armagnacs, ihren Floc de Gascogne und ihre für ihre Frische geschätzten Landweine der Côtes de Gascogne berühmt ist.\n\nDas Familiengut, auf dem fünf Generationen von Winzern aufeinander folgten, besteht aus 70 ha Weinbergen, die hauptsächlich mit weißen Rebsorten bepflanzt sind.\nDer Boden besteht aus faulem Sand, Boulbène und schluffigem Sand, die fruchtige, feine und komplexe Brände hervorbringen.\n\nDie Weinberge werden traditionell bewirtschaftet, wobei für ein besseres ökologisches Gleichgewicht ein kontrollierter Pflanzenschutz eingesetzt wird. Bei der Herstellung der verschiedenen Produkte werden die Sitten und Gebräuche der Region, das überlieferte Wissen und die Leistungen der modernen Technologie und der Onologie berücksichtigt.\n\nBesucher werden gerne auf dem Weingut empfangen, um den Weinberg und den Weinkeller zu besichtigen und eine Weinprobe mit den Erzeugern in einem ruhigen und gemütlichen Rahmen zu genießen."
+        ],
+        "en": [
+          "The Domaine de Maupas is located in the heart of the Bas Armagnac region in the commune of Mauléon d'Armagnac, a region renowned for its quality Armagnacs, its Floc de Gascogne and its Côtes de Gascogne vins de Pays, which are much appreciated for their freshness.\n\nThe family estate, where 5 generations of winegrowers have succeeded one another, is composed of 70 hectares of vines, mainly planted with white grape varieties.\nThe soil is composed of tawny sands, boulbènes and silty sands which give fruity, fine and complex eaux-de-vie.\n\nThe vineyard is run in the traditional way and is subject to sustainable management for a better environmental balance. The elaboration of these different products respects the habits and customs of the region, the ancestral know-how and the performance of modern technology and oenology.\n\nVisitors will be welcomed with pleasure to the estate for a visit of the vineyard, the cellar and for a convivial tasting with the producers in a calm and warm setting."
+        ],
+        "it": [
+          "Il Domaine de Maupas si trova nel cuore della regione del Bas Armagnac, nel comune di Mauléon d'Armagnac, una regione rinomata per i suoi Armagnac di qualità, il suo Floc de Gascogne e i suoi Côtes de Gascogne vins de Pays, molto apprezzati per la loro freschezza.\n\nLa tenuta di famiglia, dove si sono succedute 5 generazioni di viticoltori, è composta da 70 ettari di vigneto, coltivati principalmente con varietà di uve bianche.\nIl terreno è composto da sabbie fulve, boulbènes e sabbie siltose che danno origine ad acquaviti fruttate, fini e complesse.\n\nIl vigneto è gestito in modo tradizionale e le uve sono attentamente controllate per un migliore equilibrio ambientale. L'elaborazione di questi diversi prodotti rispetta gli usi e i costumi della regione, il know-how ancestrale e le prestazioni della tecnologia moderna e dell'ecologia.\n\nI visitatori sono invitati a visitare il vigneto, la cantina e a godersi una degustazione conviviale con i produttori in un ambiente tranquillo e caloroso."
+        ],
+        "fr": [
+          "Le Domaine de Maupas est situé au coeur de la région Bas Armagnac sur la commune de Mauléon d’Armagnac, région réputée pour ses Armagnacs de qualité, son Floc de Gascogne et ses vins de Pays des Côtes de Gascogne très appréciés pour leurs fraîcheurs.\n\nLe domaine familial où 5 générations de viticulteurs se sont succédé est composé de 70 ha de vignes essentiellement plantées en cépages blanc.\nLe sol est composé de sables fauves, de boulbènes et de sable limoneux qui donnent des eaux-de-vie fruitées, fines et complexes.\n\nLa conduite du vignoble est traditionnelle et lutte raisonnée pour un meilleur équilibre environnemental. L’élaboration de ces différents produits respecte, les us et coutumes de la région le savoir-faire ancestral et les performances de la technologie moderne et de l’œnologie.\n\nLes visiteurs seront reçus avec plaisir au domaine pour une visite du vignoble, du chai et pour une dégustation conviviale avec les producteurs dans un cadre calme et chaleureux."
+        ],
+        "nl": [
+          "Het Domaine de Maupas ligt in het hart van de Bas Armagnac in de gemeente Mauléon d'Armagnac, een streek die bekend staat om zijn Armagnacs van hoge kwaliteit, zijn Floc de Gascogne en zijn Côtes de Gascogne vins de Pays, die zeer gewaardeerd worden om hun frisheid.\n\nHet familiedomein, waar 5 generaties wijnbouwers elkaar hebben opgevolgd, bestaat uit 70 hectare wijngaarden, voornamelijk beplant met witte druivenrassen.\nDe bodem bestaat uit tawny zanden, boulbènes en slibrijke zanden die fruitige, fijne en complexe eaux-de-vie geven.\n\nDe wijngaard wordt op traditionele wijze beheerd en de druiven worden zorgvuldig gecontroleerd voor een betere milieubalans. Bij de bereiding van deze verschillende producten worden de gewoonten en gebruiken van de streek, de voorouderlijke knowhow en de prestaties van de moderne technologie en ecologie in acht genomen.\n\nBezoekers zijn welkom om de wijngaard en de kelder te bezoeken en te genieten van een gezellige proeverij met de producenten in een rustige en warme omgeving."
+        ],
+        "es": [
+          "El Domaine de Maupas está situado en el corazón de la región de Bas Armagnac, en la comuna de Mauléon d'Armagnac, una región famosa por sus Armagnacs de calidad, su Floc de Gascogne y sus Côtes de Gascogne vins de Pays, muy apreciados por su frescura.\n\nLa finca familiar, en la que se han sucedido 5 generaciones de viticultores, se compone de 70 hectáreas de viñedos, plantados principalmente con variedades de uva blanca.\nEl suelo se compone de arenas leonadas, boulbènes y arenas limosas que dan aguardientes afrutados, finos y complejos.\n\nEl viñedo se explota de forma tradicional y las uvas se controlan cuidadosamente para lograr un mayor equilibrio medioambiental. La elaboración de estos diferentes productos respeta los usos y costumbres de la región, el saber hacer ancestral y las prestaciones de la tecnología moderna y la ecología.\n\nLos visitantes son bienvenidos para visitar el viñedo, la bodega y disfrutar de una cata en compañía de los productores en un ambiente tranquilo y cálido."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/932d532a-90fb-3f02-a926-0d14f64bce73",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b733aadf-802a-3021-89fa-8692063d6221",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c8c88438-c1e2-38e1-940d-c65c8767fcbe",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d9cbb80b-224c-3e1b-a568-797edd0f9dd4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e41a32e1-12bd-349a-baed-e0dac98af7c4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/03f7cdf0-cc20-3099-8eee-86a63d1dd7bc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d7a87fe-da63-34ba-8036-524d55439400",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b913d4e7-60d5-379a-87e4-8ee5f9c8d672",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/56235cbd-bf9b-342e-aa50-19fd36b0cb4f",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2019-11-25"
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/3b04146e-cc33-36b0-8ded-3372c946770d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ab8ba18c-1986-37ad-b75c-d9367d475793",
+          "schema:addressLocality": "Mauléon-d'Armagnac",
+          "schema:postalCode": "32240",
+          "schema:streetAddress": [
+            "DOMAINE DE MAUPAS"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32243",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Mauléon-d'Armagnac"
+              ],
+              "pt": [
+                "Mauléon-d'Armagnac"
+              ],
+              "en": [
+                "Mauléon-d'Armagnac"
+              ],
+              "it": [
+                "Mauléon-d'Armagnac"
+              ],
+              "fr": [
+                "Mauléon-d'Armagnac"
+              ],
+              "nl": [
+                "Mauléon-d'Armagnac"
+              ],
+              "es": [
+                "Mauléon-d'Armagnac"
+              ]
+            },
+            "insee": "32243",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/fd264034-a5d8-36f0-bac2-c8a75deb688b",
+        "schema:latitude": "43.9039299",
+        "schema:longitude": "-0.1206618",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-03-25",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.453Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/c9538835-ac0a-315a-92db-471623fed4c4",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/40f6730f-bd11-37e4-bbf2-82582a939beb",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Free",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Kostenlos"
+                ],
+                "pt": [
+                  "Gratuito"
+                ],
+                "en": [
+                  "Free"
+                ],
+                "it": [
+                  "Gratuito"
+                ],
+                "fr": [
+                  "Gratuit"
+                ],
+                "es": [
+                  "Gratuito"
+                ],
+                "nl": [
+                  "Gratis"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Visite, dégustation et vente"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

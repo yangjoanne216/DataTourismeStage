@@ -1,0 +1,675 @@
+{
+  "@id": "https://data.datatourisme.fr/15/5ee83e95-b4c8-340b-9846-b7d06e16c9ad",
+  "dc:identifier": "HLOCEN045V509IJQ",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Les Maisons de Jeanne - Studio Gambetta"
+    ]
+  },
+  "allowedPersons": 2,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2022-10-16",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/15/e0288d5a-744b-3147-9f2a-2a0d9d0dca37",
+    "dc:identifier": "2a2df09f-985d-47ad-9e27-0d133bcca72f",
+    "schema:legalName": "ADRT45",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/241c89a6-1b5c-3eb1-ba0c-fac8a8240300",
+      "schema:email": [
+        "juanpenthouse@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 6 63 84 64 30"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/f890c092-a36c-3dff-bdd5-84d8ab3c0043",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:DailyHousekeeping",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Täglicher Haushalt"
+            ],
+            "pt": [
+              "Limpeza quotidiana"
+            ],
+            "en": [
+              "Daily housekeeping"
+            ],
+            "it": [
+              "Pulizia quotidiana"
+            ],
+            "fr": [
+              "Ménage quotidien"
+            ],
+            "es": [
+              "Tareas del hogar diarias"
+            ],
+            "nl": [
+              "Dagelijkse schoonmaak"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b6779f30-0bae-3c42-a6d5-00416c1a028b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/bbaef9cc-8dfa-31c8-aa54-bd12ae9bd552",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "image lmdj"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Mabilat"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/211aa591-883c-33c6-b901-f805630a52a3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:PNG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "PDF-Bild"
+                ],
+                "pt": [
+                  "Imagem PDF"
+                ],
+                "en": [
+                  "PDF image file"
+                ],
+                "it": [
+                  "Immagine PDF"
+                ],
+                "fr": [
+                  "Image PDF"
+                ],
+                "nl": [
+                  "Pdf-afbeelding"
+                ],
+                "es": [
+                  "Imagen PDF"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/png"
+                ],
+                "pt": [
+                  "image/png"
+                ],
+                "en": [
+                  "image/png"
+                ],
+                "it": [
+                  "image/png"
+                ],
+                "fr": [
+                  "image/png"
+                ],
+                "nl": [
+                  "image/png"
+                ],
+                "es": [
+                  "image/png"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/image-lmdj.png"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b6779f30-0bae-3c42-a6d5-00416c1a028b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/bbaef9cc-8dfa-31c8-aa54-bd12ae9bd552",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "image lmdj"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Mabilat"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/211aa591-883c-33c6-b901-f805630a52a3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:PNG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "PDF-Bild"
+                ],
+                "pt": [
+                  "Imagem PDF"
+                ],
+                "en": [
+                  "PDF image file"
+                ],
+                "it": [
+                  "Immagine PDF"
+                ],
+                "fr": [
+                  "Image PDF"
+                ],
+                "nl": [
+                  "Pdf-afbeelding"
+                ],
+                "es": [
+                  "Imagen PDF"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/png"
+                ],
+                "pt": [
+                  "image/png"
+                ],
+                "en": [
+                  "image/png"
+                ],
+                "it": [
+                  "image/png"
+                ],
+                "fr": [
+                  "image/png"
+                ],
+                "nl": [
+                  "image/png"
+                ],
+                "es": [
+                  "image/png"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/image-lmdj.png"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/55b939bd-a411-3618-8f73-77921a0e60a6",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Sterne"
+          ],
+          "pt": [
+            "2 estrelas"
+          ],
+          "en": [
+            "2 Stars"
+          ],
+          "it": [
+            "2 stelle"
+          ],
+          "fr": [
+            "2 étoiles"
+          ],
+          "nl": [
+            "2 sterren"
+          ],
+          "es": [
+            "2 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/c68f0adb-c1b5-34ad-85b4-b821e816ffe3",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/778e65c6-d679-34b4-88ee-8cd7de0719aa",
+          "schema:addressLocality": "Orléans",
+          "schema:postalCode": "45000",
+          "schema:streetAddress": [
+            "3 Place Gambetta"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:45234",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Orléans"
+              ],
+              "pt": [
+                "Orléans"
+              ],
+              "en": [
+                "Orléans"
+              ],
+              "it": [
+                "Orléans"
+              ],
+              "fr": [
+                "Orléans"
+              ],
+              "nl": [
+                "Orléans"
+              ],
+              "es": [
+                "Orléans"
+              ]
+            },
+            "insee": "45234",
+            "isPartOfDepartment": {
+              "@id": "kb:France2445",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Loiret"
+                ],
+                "pt": [
+                  "Loiret"
+                ],
+                "en": [
+                  "Loiret"
+                ],
+                "it": [
+                  "Loiret"
+                ],
+                "fr": [
+                  "Loiret"
+                ],
+                "nl": [
+                  "Loiret"
+                ],
+                "es": [
+                  "Loiret"
+                ]
+              },
+              "insee": "45",
+              "isPartOfRegion": {
+                "@id": "kb:France24",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Centre-Val de Loire"
+                  ],
+                  "pt": [
+                    "Centre-Val de Loire"
+                  ],
+                  "en": [
+                    "Centre-Val de Loire"
+                  ],
+                  "it": [
+                    "Centre-Val de Loire"
+                  ],
+                  "fr": [
+                    "Centre-Val de Loire"
+                  ],
+                  "nl": [
+                    "Centre-Val de Loire"
+                  ],
+                  "es": [
+                    "Centre-Val de Loire"
+                  ]
+                },
+                "insee": "24",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/be9b90fc-9619-3e91-82bf-121ef0169149",
+        "schema:latitude": "47.90774",
+        "schema:longitude": "1.90093",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": true,
+      "petsAllowed": false
+    }
+  ],
+  "lastUpdate": "2023-06-01",
+  "lastUpdateDatatourisme": "2023-06-02T04:13:01.13Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/b7e28525-0a0d-3215-b31d-486157853ae5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "@id": "https://data.datatourisme.fr/31/72a30e14-aea5-30e5-9222-d2d6e3942d98",
+  "dc:identifier": "TFO478952012215",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Apartment",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Apartment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Wohnung im ersten Stock eines Hauses (eigener Eingang, 5 Stufen), in der Nähe der Kirche; die Eigentümer befinden sich darunter."
+    ],
+    "en": [
+      "Apartment on the 1st floor of a house (individual entrance, 5 steps), near the church; the owners are below."
+    ],
+    "it": [
+      "Appartamento al 1° piano di una casa (ingresso singolo, 5 gradini), vicino alla chiesa; i proprietari sono sotto."
+    ],
+    "fr": [
+      "Appartement au 1er étage d'une maison (entrée individuelle, 5 marches), près de l'église ; les propriétaires étant au-dessous."
+    ],
+    "es": [
+      "Piso en la 1ª planta de una casa (entrada única, 5 escalones), cerca de la iglesia; los propietarios están abajo."
+    ],
+    "nl": [
+      "Appartement op de 1e verdieping van een huis (enkele ingang, 5 treden), vlakbij de kerk; de eigenaars zijn beneden."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Lo Bel Peïs"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/fe386951-6c21-3030-8167-d85442f0b42a",
+    "schema:legalName": "Office de Tourisme en Aubrac",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ea289ee6-4ae4-3b15-9c83-f2da894c23f8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/7f92942c-423d-34fb-a66f-a3b467aff425",
+          "schema:addressLocality": "Saint-Symphorien-de-Thénières",
+          "schema:postalCode": "12460",
+          "schema:streetAddress": [
+            "2 place du Marronnier"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12250",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "pt": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "en": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "it": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "fr": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "nl": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "es": [
+                "Saint-Symphorien-de-Thénières"
+              ]
+            },
+            "insee": "12250",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "bonlaurence050@gmail.com"
+      ],
+      "schema:legalName": "Lo Bel Peïs",
+      "schema:telephone": [
+        "+33 6 88 29 71 80"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/bc1409d9-d1bb-3642-b28a-8f80741a513e",
+      "dc:description": {
+        "de": [
+          "3 Schlafzimmer mit Doppelbett.\n1 Badezimmer mit Dusche und WC + 1 separates WC.\n1 ausgestattete Küche, 1 Wohnzimmer, 1 Terrasse.TV, Wifi. Haustiere nicht erlaubt."
+        ],
+        "en": [
+          "3 bedrooms with double bed.\n1 bathroom with shower and WC + 1 separate WC.\n1 equipped kitchen, 1 living room, 1 terrace, TV, Wifi. Animals not accepted."
+        ],
+        "it": [
+          "3 camere da letto con letto matrimoniale.\n1 bagno con doccia e WC + 1 WC separato.\n1 cucina attrezzata, 1 soggiorno, 1 terrazza, TV, Wifi. Non si accettano animali domestici."
+        ],
+        "fr": [
+          "3 chambres avec lit double.\n1 salle de bain avec douche et WC + 1 WC séparé.\n1  cuisine équipée, 1 salon, 1 terrasse.TV, Wifi. Animaux non acceptés."
+        ],
+        "nl": [
+          "3 slaapkamers met tweepersoonsbed.\n1 badkamer met douche en WC + 1 aparte WC.\n1 ingerichte keuken, 1 woonkamer, 1 terras, TV, Wifi. Huisdieren niet toegelaten."
+        ],
+        "es": [
+          "3 habitaciones con cama de matrimonio.\n1 cuarto de baño con ducha y WC + 1 WC separado.\n1 cocina equipada, 1 salón, 1 terraza, TV, Wifi. No se aceptan animales."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/104e43ee-b737-31ca-bf73-4dbf8ee5fc8f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/15bdb020-68f4-383e-98cf-168a8c49b35e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2140e25b-2b1a-390d-ac67-0d42922b0b06",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/51bba2cd-d7ff-3f10-83bb-16d920940b32",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/577def08-d4fd-3069-88b3-ec377a83da15",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/879b7caa-cc30-3ae7-be53-ad72cf88d8a6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a46eb086-b2b8-32c2-ae39-91af91d03242",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b6bae724-da82-3bce-82c9-e83289d3f4c3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e79a1069-c8d8-3c0f-9ee7-8a224713fb78",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f72c1d89-cf2c-320b-a5ea-1458ae299115",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Wohnung im ersten Stock eines Hauses (eigener Eingang, 5 Stufen), in der Nähe der Kirche; die Eigentümer befinden sich darunter."
+        ],
+        "en": [
+          "Apartment on the 1st floor of a house (individual entrance, 5 steps), near the church; the owners are below."
+        ],
+        "it": [
+          "Appartamento al 1° piano di una casa (ingresso singolo, 5 gradini), vicino alla chiesa; i proprietari sono sotto."
+        ],
+        "fr": [
+          "Appartement au 1er étage d'une maison (entrée individuelle, 5 marches), près de l'église ; les propriétaires étant au-dessous."
+        ],
+        "es": [
+          "Piso en la 1ª planta de una casa (entrada única, 5 escalones), cerca de la iglesia; los propietarios están abajo."
+        ],
+        "nl": [
+          "Appartement op de 1e verdieping van een huis (enkele ingang, 5 treden), vlakbij de kerk; de eigenaars zijn beneden."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b64babef-5820-3148-87f2-831a92416216",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5dbd9616-145c-37f2-a56c-f641a8dad14b",
+          "ebucore:abstract": {
+            "fr": [
+              "Lo Bel Peïs"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Lo Bel Peïs"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Office de Tourisme en Aubrac"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/53309bd1-09b5-303d-920d-0c73081767c7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO478952012215/TFO478952012215-17a/medias/jpg/ext__rieur.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b64babef-5820-3148-87f2-831a92416216",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5dbd9616-145c-37f2-a56c-f641a8dad14b",
+          "ebucore:abstract": {
+            "fr": [
+              "Lo Bel Peïs"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Lo Bel Peïs"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Office de Tourisme en Aubrac"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/53309bd1-09b5-303d-920d-0c73081767c7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO478952012215/TFO478952012215-17a/medias/jpg/ext__rieur.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/b2771218-6b72-3c80-b54c-113105833468",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2023-02-28"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1d775872-d63a-3521-8ff5-35a882334d0b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/93ca9dde-22e5-3a64-9750-33e5634c273b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a250d1f5-0c09-3bd3-9d66-7ee8410dfd34",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c5fdee2d-3b4b-3e0b-ae1e-1b70d608a874",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e3424e02-352e-3a71-be24-ea369a28fa0f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/689431c5-5d5e-385e-9ec4-797c5e0e9255",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4006e4aa-57ec-3299-ad75-5c6542250137",
+          "schema:addressLocality": "Saint-Symphorien-de-Thénières",
+          "schema:postalCode": "12460",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12250",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "pt": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "en": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "it": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "fr": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "nl": [
+                "Saint-Symphorien-de-Thénières"
+              ],
+              "es": [
+                "Saint-Symphorien-de-Thénières"
+              ]
+            },
+            "insee": "12250",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8e58ab14-5c21-3ccb-83b2-546281420d1e",
+        "schema:elevation": "748",
+        "schema:latitude": "44.7368",
+        "schema:longitude": "2.7285",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-03-08",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.722Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/d1f277e2-b4b7-358e-9680-1043663155a7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/2bd07b82-595b-350a-b314-a9ae715102d9",
+          "schema:price": "90",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5c53c4e6-62b4-3ff5-8017-6d4df1d9981a",
+          "schema:price": "80",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/97dd4d2a-1d4d-3cc4-8700-42642c634bc4",
+          "schema:price": "75",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

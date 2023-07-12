@@ -1,0 +1,932 @@
+{
+  "@id": "https://data.datatourisme.fr/15/bd47c96d-3554-3484-aaed-4dd6f7105cbc",
+  "dc:identifier": "ACCCEN041V500EGK",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Aire Camping-Car Park - Les Montils"
+    ]
+  },
+  "allowedPersons": 45,
+  "creationDate": "2016-03-03",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/15/b6b9951c-4bc3-3087-b238-59072ca039eb",
+    "dc:identifier": "144fd193-6dc0-4487-b994-1f2ae891d58a",
+    "schema:legalName": "ADT41",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/6370cbfe-33b8-3d12-8b52-f5d929393a5f",
+      "schema:email": [
+        "contact@campingcarpark.com"
+      ],
+      "schema:telephone": [
+        "+33 1 83 64 69 21"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.camping-car-park.com/"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/3e9a9c59-e71f-3063-96dd-5a913bf3d1a5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CamperServicePoint",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Servicestation für Wohnmobile"
+            ],
+            "pt": [
+              "Terminal de serviços para autocaravanas"
+            ],
+            "en": [
+              "Camper service point"
+            ],
+            "it": [
+              "Stazione di servizio per camper"
+            ],
+            "fr": [
+              "Borne de service camping car"
+            ],
+            "nl": [
+              "Servicepunt voor camper"
+            ],
+            "es": [
+              "Estación de servicio para autocaravanas"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ladestation für Elektrofahrzeuge"
+            ],
+            "pt": [
+              "Terminal de carregamento de veículos elétricos"
+            ],
+            "en": [
+              "Charging station"
+            ],
+            "it": [
+              "Terminale di ricarica per veicoli elettrici"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ],
+            "nl": [
+              "Laadpaal elektrische auto"
+            ],
+            "es": [
+              "Estación de carga de vehículos eléctricos"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChemicalToiletEmptying",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Entleerung chemischer Toiletten"
+            ],
+            "pt": [
+              "Despejo das sanitas químicas"
+            ],
+            "en": [
+              "Chemical toilets emptying"
+            ],
+            "it": [
+              "Svuotamento di bagni chimici"
+            ],
+            "fr": [
+              "Vidange toilettes chimiques"
+            ],
+            "es": [
+              "Vaciado de inodoros químicos"
+            ],
+            "nl": [
+              "Loospunt chemische toiletten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Container",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Container"
+            ],
+            "pt": [
+              "Contentor"
+            ],
+            "en": [
+              "Container"
+            ],
+            "it": [
+              "Container"
+            ],
+            "fr": [
+              "Container"
+            ],
+            "es": [
+              "Contenedor"
+            ],
+            "nl": [
+              "Container"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Elektrische Schaltung"
+            ],
+            "pt": [
+              "Ligações elétricas"
+            ],
+            "en": [
+              "Electrical connections"
+            ],
+            "it": [
+              "Collegamenti elettrici"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ],
+            "nl": [
+              "Elektrische aansluitingen"
+            ],
+            "es": [
+              "Conexiones eléctricas"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Entleerung von Abwasser"
+            ],
+            "pt": [
+              "Despejo de águas sujas"
+            ],
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "it": [
+              "Svuotamento delle acque reflue"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ],
+            "es": [
+              "Vaciado de aguas residuales"
+            ],
+            "nl": [
+              "Afvalwaterpunt"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Wasseranschlüsse"
+            ],
+            "pt": [
+              "Ligações de água"
+            ],
+            "en": [
+              "Water connections"
+            ],
+            "it": [
+              "Collegamenti idrici"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ],
+            "nl": [
+              "Wateraansluitingen"
+            ],
+            "es": [
+              "Conexiones de agua"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/139f4700-0268-38bc-b7b0-7beeb59881d4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2126281a-e5f7-3f6c-937d-4128b04cc188",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "dfg"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "montils"
+          ],
+          "rightsEndDate": "2024-12-31",
+          "rightsStartDate": "2020-01-23"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7301678f-62ad-33f7-adf5-6d4df66e70f4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/dfg.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/139f4700-0268-38bc-b7b0-7beeb59881d4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2126281a-e5f7-3f6c-937d-4128b04cc188",
+          "ebucore:isCoveredBy": "oui",
+          "ebucore:title": {
+            "fr": [
+              "dfg"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "montils"
+          ],
+          "rightsEndDate": "2024-12-31",
+          "rightsStartDate": "2020-01-23"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7301678f-62ad-33f7-adf5-6d4df66e70f4",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://centre.media.tourinsoft.eu/upload/dfg.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/1f601abd-6652-3ea5-a3a2-1404cfcc6330",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/33493ef5-b5fe-39f5-916e-b6695a67fadd",
+          "schema:addressLocality": "Les Montils",
+          "schema:postalCode": "41120",
+          "schema:streetAddress": [
+            "Route de Seur"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:41147",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Les Montils"
+              ],
+              "pt": [
+                "Les Montils"
+              ],
+              "en": [
+                "Les Montils"
+              ],
+              "it": [
+                "Les Montils"
+              ],
+              "fr": [
+                "Les Montils"
+              ],
+              "nl": [
+                "Les Montils"
+              ],
+              "es": [
+                "Les Montils"
+              ]
+            },
+            "insee": "41147",
+            "isPartOfDepartment": {
+              "@id": "kb:France2441",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Loir-et-Cher"
+                ],
+                "pt": [
+                  "Loir-et-Cher"
+                ],
+                "en": [
+                  "Loir-et-Cher"
+                ],
+                "it": [
+                  "Loir-et-Cher"
+                ],
+                "fr": [
+                  "Loir-et-Cher"
+                ],
+                "nl": [
+                  "Loir-et-Cher"
+                ],
+                "es": [
+                  "Loir-et-Cher"
+                ]
+              },
+              "insee": "41",
+              "isPartOfRegion": {
+                "@id": "kb:France24",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Centre-Val de Loire"
+                  ],
+                  "pt": [
+                    "Centre-Val de Loire"
+                  ],
+                  "en": [
+                    "Centre-Val de Loire"
+                  ],
+                  "it": [
+                    "Centre-Val de Loire"
+                  ],
+                  "fr": [
+                    "Centre-Val de Loire"
+                  ],
+                  "nl": [
+                    "Centre-Val de Loire"
+                  ],
+                  "es": [
+                    "Centre-Val de Loire"
+                  ]
+                },
+                "insee": "24",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/1e2b8fc2-43fd-3be6-84b8-18a4d966ac19",
+        "schema:latitude": "47.340487",
+        "schema:longitude": "1.17038",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-17",
+  "lastUpdateDatatourisme": "2023-02-18T01:31:44.308Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/d0db1b64-fcdf-3225-8e1d-efa858cc60ca",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/545b5768-e2b8-3568-8742-83f503e7d384",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "/24h. Dienstleistungen inbegriffen (Wenn Sie die 24 Stunden auf dem Platz überschreiten, wird Ihnen eine weitere 24-Stunden-Schicht berechnet."
+            ],
+            "en": [
+              "/24h. Services included (if you exceed 24 hours on the area, a new 24 hour period will be billed to you."
+            ],
+            "it": [
+              "/24h. Servizi inclusi (se superate le 24 ore di permanenza sul sito, vi verranno addebitate altre 24 ore."
+            ],
+            "fr": [
+              "/24h. Services inclus (si vous dépassez les 24h sur l'aire, une nouvelle tranche de 24h vous sera facturée."
+            ],
+            "es": [
+              "/24h. Servicios incluidos (si supera las 24 horas en el sitio, se le cobrará por otras 24 horas."
+            ],
+            "nl": [
+              "/24h. Diensten inbegrepen (als u langer dan 24 uur op het terrein bent, wordt u nog eens 24 uur in rekening gebracht."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3a8e9d6a-b447-3406-a299-0140ed87b57b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a6696671-76ed-3538-a08d-9993ea7dbda3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/adf10820-87b6-35df-9803-39b88725b0db",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cec987a3-353c-3121-879f-9c32ac3628e5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d50615e9-710f-30da-85a9-4668c0258462",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ae4229ca-fccd-31fe-b324-4eb28c32387b",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Kurtaxe pro Nacht"
+            ],
+            "en": [
+              "Tourist tax per night"
+            ],
+            "it": [
+              "Tassa di soggiorno per notte"
+            ],
+            "fr": [
+              "Taxe de séjour par nuit"
+            ],
+            "nl": [
+              "Toeristenbelasting per nacht"
+            ],
+            "es": [
+              "Tasa turística por noche"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/43f17329-0dae-37c4-a6dc-5f74eb258ec4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4bb76dc5-057f-3d4d-a3a6-e53c20666a8c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5208187d-9b82-3d80-afcc-e0cb8015fd22",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/97756a70-be2c-3ffd-9269-4446b609e426",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/edff2e59-cbda-3d22-a96a-97eadd9710dd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

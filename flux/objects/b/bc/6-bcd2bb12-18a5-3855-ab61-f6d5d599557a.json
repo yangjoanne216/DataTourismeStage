@@ -1,0 +1,610 @@
+{
+  "@id": "https://data.datatourisme.fr/6/bcd2bb12-18a5-3855-ab61-f6d5d599557a",
+  "dc:identifier": "ITIBOU000V50QF76",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "RoadTour",
+    "Tour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Route des abolitions de l'esclavage"
+    ]
+  },
+  "creationDate": "2021-09-22",
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/79e5e790-b24c-3143-b667-994c1c37e2a4",
+    "dc:identifier": "df9d75ec-0717-4b47-8870-05acb4f84081",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/5632e1ff-f063-35d8-8dc9-4d61951f11f3",
+        "schema:postalCode": "25000",
+        "schema:streetAddress": [
+          "83 Rue de Dole"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "cdt@doubs.com"
+    ],
+    "schema:legalName": "COORDINATION DOUBS",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/7cb30904-a5d5-30b0-a613-b614e0c13956",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:BusMode",
+          "@type": [
+            "RoadsideLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bus"
+            ],
+            "pt": [
+              "Autocarro"
+            ],
+            "en": [
+              "Bus"
+            ],
+            "it": [
+              "Bus"
+            ],
+            "fr": [
+              "Bus"
+            ],
+            "nl": [
+              "Bus"
+            ],
+            "es": [
+              "Bus"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CarMode",
+          "@type": [
+            "RoadsideLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Auto"
+            ],
+            "pt": [
+              "Automóvel"
+            ],
+            "en": [
+              "Car"
+            ],
+            "it": [
+              "Auto"
+            ],
+            "fr": [
+              "Voiture"
+            ],
+            "es": [
+              "Coche"
+            ],
+            "nl": [
+              "Auto"
+            ]
+          }
+        },
+        {
+          "@id": "kb:MotorbikeMode",
+          "@type": [
+            "RoadsideLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Motorrad"
+            ],
+            "pt": [
+              "Motocicleta"
+            ],
+            "en": [
+              "Motorbike"
+            ],
+            "it": [
+              "Motocicletta"
+            ],
+            "fr": [
+              "Moto"
+            ],
+            "nl": [
+              "Motor"
+            ],
+            "es": [
+              "Moto"
+            ]
+          }
+        },
+        {
+          "@id": "kb:MotorhomeMode",
+          "@type": [
+            "RoadsideLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Wohnmobil"
+            ],
+            "pt": [
+              "Autocaravana"
+            ],
+            "en": [
+              "Motor home"
+            ],
+            "it": [
+              "Camper"
+            ],
+            "fr": [
+              "Camping car"
+            ],
+            "nl": [
+              "Camper"
+            ],
+            "es": [
+              "Autocaravana"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PublicMode",
+          "@type": [
+            "RoadsideLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Öffentliche Verkehrsmittel"
+            ],
+            "pt": [
+              "Transportes públicos"
+            ],
+            "en": [
+              "Public transport"
+            ],
+            "it": [
+              "Trasporto pubblico"
+            ],
+            "fr": [
+              "Transport en commun"
+            ],
+            "es": [
+              "Transporte público"
+            ],
+            "nl": [
+              "Openbaar vervoer"
+            ]
+          }
+        },
+        {
+          "@id": "kb:RoadbikeMode",
+          "@type": [
+            "BicycleLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Rennrad"
+            ],
+            "pt": [
+              "Ciclismo rodoviário"
+            ],
+            "en": [
+              "With road bike"
+            ],
+            "it": [
+              "Ciclismo su strada"
+            ],
+            "fr": [
+              "Vélo de route"
+            ],
+            "nl": [
+              "Fietsen op de weg"
+            ],
+            "es": [
+              "Ciclismo de carretera"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:BicycleTouring",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtourismus"
+        ],
+        "pt": [
+          "Cicloturismo"
+        ],
+        "en": [
+          "Bicycle touring"
+        ],
+        "it": [
+          "Cicloturismo"
+        ],
+        "fr": [
+          "Cyclotourisme"
+        ],
+        "nl": [
+          "Fietstoerisme"
+        ],
+        "es": [
+          "Cicloturismo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:History",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Geschichte"
+        ],
+        "pt": [
+          "História"
+        ],
+        "en": [
+          "History"
+        ],
+        "it": [
+          "Storia"
+        ],
+        "fr": [
+          "Histoire"
+        ],
+        "es": [
+          "Historia"
+        ],
+        "nl": [
+          "Geschiedenis"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Motorbike",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Motorrad"
+        ],
+        "pt": [
+          "Mota"
+        ],
+        "en": [
+          "Motorbike"
+        ],
+        "it": [
+          "Moto"
+        ],
+        "fr": [
+          "Moto"
+        ],
+        "nl": [
+          "Motor"
+        ],
+        "es": [
+          "Moto"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/daf9aa84-862f-3b02-be5a-db120bab1a27",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/3c67c056-0bd8-337d-9e54-da86bac19da0",
+          "schema:addressLocality": "La Cluse-et-Mijoux",
+          "schema:postalCode": "25300",
+          "schema:streetAddress": [
+            "Route du Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:25157",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Cluse-et-Mijoux"
+              ],
+              "pt": [
+                "La Cluse-et-Mijoux"
+              ],
+              "en": [
+                "La Cluse-et-Mijoux"
+              ],
+              "it": [
+                "La Cluse-et-Mijoux"
+              ],
+              "fr": [
+                "La Cluse-et-Mijoux"
+              ],
+              "nl": [
+                "La Cluse-et-Mijoux"
+              ],
+              "es": [
+                "La Cluse-et-Mijoux"
+              ]
+            },
+            "insee": "25157",
+            "isPartOfDepartment": {
+              "@id": "kb:France2725",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Doubs"
+                ],
+                "pt": [
+                  "Doubs"
+                ],
+                "en": [
+                  "Doubs"
+                ],
+                "it": [
+                  "Doubs"
+                ],
+                "fr": [
+                  "Doubs"
+                ],
+                "nl": [
+                  "Doubs"
+                ],
+                "es": [
+                  "Doubs"
+                ]
+              },
+              "insee": "25",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/c46b1406-118b-3c1f-8446-2ed454e526a7",
+        "schema:latitude": "46.87235",
+        "schema:longitude": "6.37256",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-04-07",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.243Z"
+}

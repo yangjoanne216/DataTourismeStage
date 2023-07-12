@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/9496fa39-261a-3dd5-b777-647a90cfca2d",
+  "dc:identifier": "2eab3b4b-1de4-7d57-f58b-501b9fc55f1c",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Campanile Argenteuil"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f68aa47c-6b2e-36ee-bd7c-2670437cbbc6",
+      "schema:email": [
+        "argenteuil@campanile.fr"
+      ],
+      "schema:telephone": [
+        "+33 1 39 61 34 34"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://campanile-argenteuil.fr/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/55b939bd-a411-3618-8f73-77921a0e60a6",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_2etoiles",
+        "schema:ratingValue": "2.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "2 Sterne"
+          ],
+          "pt": [
+            "2 estrelas"
+          ],
+          "en": [
+            "2 Stars"
+          ],
+          "it": [
+            "2 stelle"
+          ],
+          "fr": [
+            "2 étoiles"
+          ],
+          "nl": [
+            "2 sterren"
+          ],
+          "es": [
+            "2 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9cacb8fd-bf9a-361a-bd50-51496830e30f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/b43e815f-b01a-3e1d-b9ac-d3769aa78739",
+          "schema:addressLocality": "Argenteuil",
+          "schema:postalCode": "95100",
+          "schema:streetAddress": [
+            "1 rue Ary Scheffer"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:95018",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Argenteuil"
+              ],
+              "pt": [
+                "Argenteuil"
+              ],
+              "en": [
+                "Argenteuil"
+              ],
+              "it": [
+                "Argenteuil"
+              ],
+              "fr": [
+                "Argenteuil"
+              ],
+              "nl": [
+                "Argenteuil"
+              ],
+              "es": [
+                "Argenteuil"
+              ]
+            },
+            "insee": "95018",
+            "isPartOfDepartment": {
+              "@id": "kb:France1195",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Val-d'Oise"
+                ],
+                "pt": [
+                  "Val-d'Oise"
+                ],
+                "en": [
+                  "Val-d'Oise"
+                ],
+                "it": [
+                  "Val-d'Oise"
+                ],
+                "fr": [
+                  "Val-d'Oise"
+                ],
+                "nl": [
+                  "Val-d'Oise"
+                ],
+                "es": [
+                  "Val-d'Oise"
+                ]
+              },
+              "insee": "95",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/51319520-9d32-383b-ac12-6b1ab6010f1b",
+        "schema:latitude": "48.935511",
+        "schema:longitude": "2.2424550000000636",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-01",
+  "lastUpdateDatatourisme": "2022-09-06T09:59:02.33Z",
+  "reducedMobilityAccess": false
+}

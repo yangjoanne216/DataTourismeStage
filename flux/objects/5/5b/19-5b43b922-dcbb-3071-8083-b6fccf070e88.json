@@ -1,0 +1,354 @@
+{
+  "@id": "https://data.datatourisme.fr/19/5b43b922-dcbb-3071-8083-b6fccf070e88",
+  "dc:identifier": "370c6ddd-4938-a771-fb05-501ba0caf32b",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Solar Hôtel"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/68b57ee3-d9c9-3f82-b10a-6505a7e2ced0",
+      "schema:email": [
+        "contact@solarhotel.fr"
+      ],
+      "schema:telephone": [
+        "+33 1 43 21 08 20"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.solarhotel.fr/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/549c25b0-a57d-3604-8fa6-c2d35aa5cde7",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_EcolabelEuropeen",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Ecolabel européen"
+          ],
+          "pt": [
+            "Ecolabel européen"
+          ],
+          "en": [
+            "Ecolabel européen"
+          ],
+          "it": [
+            "Ecolabel européen"
+          ],
+          "fr": [
+            "Ecolabel européen"
+          ],
+          "nl": [
+            "Ecolabel européen"
+          ],
+          "es": [
+            "Ecolabel européen"
+          ]
+        },
+        "isCompliantWith": [
+          "Accommodation",
+          "CampingAndCaravanning"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/594fb33f-5b53-3e97-9f17-ef5f023a9de0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "1 Stern"
+          ],
+          "pt": [
+            "1 estrela"
+          ],
+          "en": [
+            "1 Star"
+          ],
+          "it": [
+            "1 stella"
+          ],
+          "fr": [
+            "1 étoile"
+          ],
+          "nl": [
+            "1 ster"
+          ],
+          "es": [
+            "1 estrella"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ea4bab05-a2c1-3ed9-89b6-27058477dd8f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_ClefVerte",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Clef Verte"
+          ],
+          "pt": [
+            "Clef Verte"
+          ],
+          "en": [
+            "Clef Verte"
+          ],
+          "it": [
+            "Clef Verte"
+          ],
+          "fr": [
+            "Clef Verte"
+          ],
+          "nl": [
+            "Clef Verte"
+          ],
+          "es": [
+            "Clef Verte"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation",
+          "YouthHostelAndInternationalCenter"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9fcdd90a-893c-3fa4-af83-6f50056760ec",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e7751b6f-5b2e-3bd9-8e7a-870c025a1930",
+          "schema:addressLocality": "Paris",
+          "schema:postalCode": "75014",
+          "schema:streetAddress": [
+            "22 rue Boulard"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:75056",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Paris"
+              ],
+              "pt": [
+                "Paris"
+              ],
+              "en": [
+                "Paris"
+              ],
+              "it": [
+                "Paris"
+              ],
+              "fr": [
+                "Paris"
+              ],
+              "nl": [
+                "Paris"
+              ],
+              "es": [
+                "Paris"
+              ]
+            },
+            "insee": "75056",
+            "isPartOfDepartment": {
+              "@id": "kb:France1175",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Paris"
+                ],
+                "pt": [
+                  "Paris"
+                ],
+                "en": [
+                  "Paris"
+                ],
+                "it": [
+                  "Paris"
+                ],
+                "fr": [
+                  "Paris"
+                ],
+                "nl": [
+                  "Paris"
+                ],
+                "es": [
+                  "Paris"
+                ]
+              },
+              "insee": "75",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/ca973ec3-8923-3acc-baae-0658705b994b",
+        "schema:latitude": "48.8338177",
+        "schema:longitude": "2.328803099999959",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2017-07-07",
+  "lastUpdateDatatourisme": "2023-01-30T14:43:28.523Z",
+  "reducedMobilityAccess": false
+}

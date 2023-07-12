@@ -1,0 +1,2372 @@
+{
+  "@id": "https://data.datatourisme.fr/31/99c3050c-f105-366b-9634-fc56bca7e215",
+  "dc:identifier": "TFO212312844083",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Aurélia empfängt Sie in ihrem kleinen Stück Paradies: einem alten, befestigten Bauernhof aus dem 15."
+    ],
+    "en": [
+      "Aurélia welcomes you to her little corner of paradise: a fully restored 15th century fortified farmhouse, surrounded by unspoilt nature and peaceful animals."
+    ],
+    "it": [
+      "Aurélia vi dà il benvenuto nel suo piccolo angolo di paradiso: una fattoria fortificata del XV secolo completamente restaurata, circondata da una campagna incontaminata e da animali tranquilli."
+    ],
+    "fr": [
+      "Aurélia vous accueille dans son petit coin de Paradis: une ancienne ferme fortifiée du 15e siècle, toute en pierres, entièrement restaurée, entourée d'une nature préservée et d'animaux paisibles."
+    ],
+    "es": [
+      "Aurélia le da la bienvenida a su pequeño rincón del paraíso: una granja fortificada del siglo XV totalmente restaurada, rodeada de naturaleza virgen y animales tranquilos."
+    ],
+    "nl": [
+      "Aurélia heet je welkom in haar kleine hoekje van het paradijs: een volledig gerestaureerde 15e-eeuwse versterkte boerderij, omringd door ongerepte natuur en vredige dieren."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "La Ferme des Andes - Chambres d'hôtes"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "EN",
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Horserider",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Reiter"
+        ],
+        "pt": [
+          "Cavaleiros"
+        ],
+        "en": [
+          "Horserider"
+        ],
+        "it": [
+          "Cavallerizzi"
+        ],
+        "fr": [
+          "Cavaliers"
+        ],
+        "nl": [
+          "Ruiters"
+        ],
+        "es": [
+          "Jinetes"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/37dd826d-bc1d-3adb-a2ad-5cf76c8eb80a",
+    "schema:legalName": "SEGALA VIVANT",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Horserider",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Reiter"
+        ],
+        "pt": [
+          "Cavaleiros"
+        ],
+        "en": [
+          "Horserider"
+        ],
+        "it": [
+          "Cavallerizzi"
+        ],
+        "fr": [
+          "Cavaliers"
+        ],
+        "nl": [
+          "Ruiters"
+        ],
+        "es": [
+          "Jinetes"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/034c550e-c86f-3084-a549-21c8d9b91ace",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5ffba71c-30d2-38f8-a964-419a3027d0ef",
+          "schema:addressLocality": "Quins",
+          "schema:postalCode": "12800",
+          "schema:streetAddress": [
+            "Lieu-dit La Prade Basse"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12194",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Quins"
+              ],
+              "pt": [
+                "Quins"
+              ],
+              "en": [
+                "Quins"
+              ],
+              "it": [
+                "Quins"
+              ],
+              "fr": [
+                "Quins"
+              ],
+              "nl": [
+                "Quins"
+              ],
+              "es": [
+                "Quins"
+              ]
+            },
+            "insee": "12194",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lafermedesandes@gmail.com"
+      ],
+      "schema:familyName": [
+        "Saroka"
+      ],
+      "schema:givenName": [
+        "Aurélia"
+      ],
+      "schema:legalName": "La Ferme des Andes",
+      "schema:telephone": [
+        "+33 7 85 02 00 16"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/3cba8ab3-8ea7-346f-9d23-b521461b8d64",
+      "dc:description": {
+        "de": [
+          "La Ferme des Andes bietet Ihnen zwei schöne Gästezimmer: \"La vie en Rose\" (Familiensuite) und \"Le Rêve Bleu\" (Doppelzimmer), beide mit großer, hochwertiger Bettwäsche (160 cm), Badezimmer und separatem WC. Die Familiensuite verfügt zusätzlich über einen \"Kinderbereich\" mit 2 Etagenbetten, Tipi und kleinem Sofa.\nDas dritte Schlafzimmer ist in Wirklichkeit ein kleines, voll ausgestattetes Apartment: \"L'Atelier\". Sie verfügt über einen privaten Wohnraum mit voll ausgestatteter Küche, Sitzecke (Schlafsofa mit hochwertigen Matratzen), TV, Balkon, ein separates Schlafzimmer und ein Badezimmer.\nDie drei Zimmer sind geschmackvoll eingerichtet und bieten einen Blick auf den Garten, den Pool und die Tiere.\nIhr Aufenthalt wird von kleinen Aufmerksamkeiten begleitet: Gourmet-Frühstück (im Gästezimmer inbegriffen, in der Unterkunft L'Atelier optional), hausgemachte Produkte...\n/Aufenthalt von mindestens 2 Nächten\nEntdecken Sie die Lamas, Alpakas und anderen Tiere des Bauernhofs bei einer kommentierten Besichtigung (KOSTENLOS für jeden Aufenthalt).\n\nLust auf eine ungewöhnliche Erfahrung? Buchen Sie einen Spaziergang mit einem Lama.\n\nInformationen auf Anfrage.\n\nZahlreiche Wanderungen ab dem Anwesen.\n\nEmpfang für Reiter und Empfang für Motorradfahrer."
+        ],
+        "en": [
+          "La Ferme des Andes offers two beautiful guest rooms: \"La vie en Rose\" (family suite) and \"Le Rêve Bleu\" (double room), both with high-quality bedding (160cm), private bathroom and toilet. The family suite also has a \"children's area\" with 2 bunk beds, a teepee and a small sofa.\nThe third bedroom is actually a small, fully-equipped apartment: \"l'Atelier\". It features a private living area with fully-equipped kitchen, sitting area (sofa bed with high-quality mattress), TV, balcony, separate bedroom and bathroom.\nThe three bedrooms are tastefully decorated and overlook the garden, pool and animals.\nYour stay will be punctuated by little touches, such as gourmet breakfasts (included for B&B stays, optional in the Atelier gîte), home-made products...\n/2-night minimum stay /!\\\nCome and discover the llamas, alpacas and other farm animals during a guided tour (FREE with every stay).\n\nLooking for an unusual experience? Book a trip with a llama.\n\nInformation on request.\n\nNumerous walks depart from the property.\n\nRiders and motorcyclists welcome."
+        ],
+        "it": [
+          "La Ferme des Andes offre due splendide camere per gli ospiti: \"La vie en Rose\" (suite familiare) e \"Le Rêve Bleu\" (camera doppia), entrambe con biancheria da letto di alta qualità (160 cm), bagno con doccia e toilette separati. La suite familiare dispone anche di una \"zona bambini\" con 2 letti a castello, un teepee e un piccolo divano.\nLa terza camera è in realtà un piccolo appartamento completamente attrezzato: \"l'Atelier\". Dispone di una zona giorno privata con cucina completamente attrezzata, area salotto (divano letto con materasso di alta qualità), TV, balcone, camera da letto e bagno separati.\nLe tre camere da letto sono arredate con gusto e si affacciano sul giardino, sulla piscina e sugli animali.\nIl vostro soggiorno sarà scandito da piccoli accorgimenti, come le colazioni gourmet (incluse per i soggiorni B&B, facoltative per il gîte l'Atelier) e i prodotti fatti in casa...\n/Soggiorno minimo 2 notti\nVenite a scoprire i lama, gli alpaca e gli altri animali della fattoria durante una visita guidata (GRATUITA con ogni soggiorno).\n\nCercate un'esperienza insolita? Prenotate una gita con un lama.\n\nInformazioni su richiesta.\n\nNumerose passeggiate partono dalla struttura.\n\nCavalieri e motociclisti sono i benvenuti."
+        ],
+        "fr": [
+          "La Ferme des Andes vous propose deux belles chambres d'hôtes : \"La vie en Rose\" (suite familiale) et \"Le Rêve Bleu\" (chambre double), toutes deux équipées d'une grande literie de qualité (en 160cm), salle d'eau et wc indépendants. La suite familiale dispose en plus d'une \"partie enfants\" avec 2 lits superposés, tipi et petit canapé.\nLa troisième chambre est en réalité un petit appartement entièrement équipé: \"l'Atelier\" . Il dispose d'une pièce à vivre privée avec cuisine équipée, coin salon (canapé convertible avec matelas de grande qualité), TV, balcon, chambre et salle d'eau indépendantes. \nLes trois chambres sont décorées avec goût et donnent sur le jardin, la piscine et les animaux.\nVotre séjour sera ponctué de petites attentions, petits déjeuner gourmands (compris pour les séjour en chambre d'hôtes, en option dans le gîte l'Atelier), produits maison...\n/!\\ Séjour de minimum 2 nuits. /!\\\nVenez découvrir les lamas, alpagas, et autres animaux de la ferme, lors d'une visite commentée (OFFERTE pour tout séjour).\n\nEnvie de vivre une expérience insolite ? Réservez votre balade avec un lama.\n\nInformations sur demande.\n\nNombreuses balades au départ de la propriété.\n\nAccueil cavaliers et accueil motards."
+        ],
+        "es": [
+          "La Ferme des Andes ofrece dos preciosas habitaciones para huéspedes: \"La vie en Rose\" (suite familiar) y \"Le Rêve Bleu\" (habitación doble), ambas con ropa de cama de alta calidad (160 cm), cuarto de ducha y aseo independientes. La suite familiar también dispone de una \"zona infantil\" con 2 literas, un tipi y un pequeño sofá.\nLa tercera habitación es en realidad un pequeño apartamento totalmente equipado: 'l'Atelier'. Dispone de una zona de estar privada con cocina totalmente equipada, zona de estar (sofá cama con colchón de alta calidad), TV, balcón, dormitorio independiente y cuarto de baño.\nLas tres habitaciones están decoradas con gusto y tienen vistas al jardín, a la piscina y a los animales.\nSu estancia estará salpicada de pequeños detalles, como desayunos gourmet (incluidos para las estancias en B&B, opcionales para la casa rural l'Atelier) y productos caseros...\n/Estancia mínima de 2 noches\nVenga a descubrir las llamas, alpacas y otros animales de la granja durante una visita guiada (GRATUITA con cada estancia).\n\n¿Busca una experiencia insólita? Reserve una excursión con una llama.\n\nInformación previa solicitud.\n\nNumerosos paseos parten de la propiedad.\n\nSe admiten jinetes y motociclistas."
+        ],
+        "nl": [
+          "La Ferme des Andes biedt twee mooie gastenkamers: \"La vie en Rose\" (gezinssuite) en \"Le Rêve Bleu\" (tweepersoonskamer), beide met beddengoed van hoge kwaliteit (160cm), aparte doucheruimte en toilet. De familiesuite heeft ook een 'kinderhoek' met 2 stapelbedden, een tipi en een kleine sofa.\nDe derde slaapkamer is eigenlijk een klein, volledig uitgerust appartement: 'l'Atelier'. Het heeft een eigen woongedeelte met volledig uitgeruste keuken, zithoek (slaapbank met matras van hoge kwaliteit), tv, balkon, aparte slaapkamer en badkamer.\nDe drie slaapkamers zijn smaakvol ingericht en kijken uit op de tuin, het zwembad en de dieren.\nUw verblijf zal worden onderbroken door kleine attenties, zoals gastronomisch ontbijt (inbegrepen voor B&B verblijven, optioneel voor de l'Atelier gîte) en zelfgemaakte producten...\n/Minimum verblijf 2 nachten\nKom de lama's, alpaca's en andere boerderijdieren ontdekken tijdens een rondleiding (GRATIS bij elk verblijf).\n\nOp zoek naar een bijzondere ervaring? Boek een tocht met een lama.\n\nInformatie op aanvraag.\n\nTalrijke wandelingen vertrekken vanaf het domein.\n\nRuiters en motorrijders welkom."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/13b171c8-d4ce-3f20-b5c7-e970c84b143b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/23c08205-17ca-313d-81e3-2811feb748a8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/35b3e701-a6f0-3a53-a44a-972398a30048",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5b7e8383-35ed-3c23-9292-4f4dd4506851",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6a7a3da2-16ef-3584-9189-770494305eeb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/85ceafdd-5c34-3f74-950b-57a44f6e9587",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/98e02391-18f5-3134-bc39-c6fb557058eb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cbaf015b-eb1f-38e0-b805-adcf6f567e5f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eb0d3dc4-da05-3f85-a551-cccf70f2d154",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/efb86281-1a4c-3595-8bff-6c5e2de47082",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Aurélia empfängt Sie in ihrem kleinen Stück Paradies: einem alten, befestigten Bauernhof aus dem 15."
+        ],
+        "en": [
+          "Aurélia welcomes you to her little corner of paradise: a fully restored 15th century fortified farmhouse, surrounded by unspoilt nature and peaceful animals."
+        ],
+        "it": [
+          "Aurélia vi dà il benvenuto nel suo piccolo angolo di paradiso: una fattoria fortificata del XV secolo completamente restaurata, circondata da una campagna incontaminata e da animali tranquilli."
+        ],
+        "fr": [
+          "Aurélia vous accueille dans son petit coin de Paradis: une ancienne ferme fortifiée du 15e siècle, toute en pierres, entièrement restaurée, entourée d'une nature préservée et d'animaux paisibles."
+        ],
+        "es": [
+          "Aurélia le da la bienvenida a su pequeño rincón del paraíso: una granja fortificada del siglo XV totalmente restaurada, rodeada de naturaleza virgen y animales tranquilos."
+        ],
+        "nl": [
+          "Aurélia heet je welkom in haar kleine hoekje van het paradijs: een volledig gerestaureerde 15e-eeuwse versterkte boerderij, omringd door ongerepte natuur en vredige dieren."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/034e6cd0-13ba-3807-b45f-6a22654ffc74",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bettwäsche und Handtücher"
+            ],
+            "pt": [
+              "Lençóis e toalhas"
+            ],
+            "en": [
+              "Sheets and towels"
+            ],
+            "it": [
+              "Lenzuola e biancheria"
+            ],
+            "fr": [
+              "Draps et linges"
+            ],
+            "es": [
+              "Sábanas y ropa de cama"
+            ],
+            "nl": [
+              "Beddengoed en handdoeken"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/052e5f94-2619-3cbb-a13d-1681fe139512",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Shower",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Dusche"
+            ],
+            "pt": [
+              "Chuveiro"
+            ],
+            "en": [
+              "Shower"
+            ],
+            "it": [
+              "Doccia"
+            ],
+            "fr": [
+              "Douche"
+            ],
+            "es": [
+              "Ducha"
+            ],
+            "nl": [
+              "Douche"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0adbd0d7-d75b-3a3a-a7b4-0d4b850e75a3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:HairDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Haartrockner"
+            ],
+            "pt": [
+              "Secador de cabelo"
+            ],
+            "en": [
+              "Hair dryer"
+            ],
+            "it": [
+              "Asciugacapelli"
+            ],
+            "fr": [
+              "Sèche cheveux"
+            ],
+            "es": [
+              "Secador de pelo"
+            ],
+            "nl": [
+              "Haardroger"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4cba7bb6-a09a-3fb8-9fc1-38935866d515",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielplatz, Außenspielplatz"
+            ],
+            "pt": [
+              "Parque infantil, parque de jogos exterior"
+            ],
+            "en": [
+              "Playground"
+            ],
+            "it": [
+              "Parco giochi, parco giochi all'aperto"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ],
+            "nl": [
+              "Speelplaats, buitenspeelplaats"
+            ],
+            "es": [
+              "Parque infantil, zona de juegos al aire libre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5806b3df-de51-3b50-a850-3a94fe421c27",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GardenLounge",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten-Lounge"
+            ],
+            "pt": [
+              "Mobília de jardim"
+            ],
+            "en": [
+              "Garden lounge"
+            ],
+            "it": [
+              "Mobili da giardino"
+            ],
+            "fr": [
+              "Salon de jardin"
+            ],
+            "nl": [
+              "Tuinset"
+            ],
+            "es": [
+              "Muebles de jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5e8b0b35-a5f6-3726-a647-f483738b80fa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:EnclosedLand",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eingezäuntes Grundstück"
+            ],
+            "pt": [
+              "Terreno confinado"
+            ],
+            "en": [
+              "Enclosed land"
+            ],
+            "it": [
+              "Terreno recintato"
+            ],
+            "fr": [
+              "Terrain clos"
+            ],
+            "es": [
+              "Terreno cerrado"
+            ],
+            "nl": [
+              "Afgesloten terrein"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/664f089a-7835-3ad0-8cb8-d752c74e44cb",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7a865356-92e4-3be5-93f8-3c9915a42e2a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7ec75ff2-a3fc-3357-9f58-4f651439a534",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8c6cae5f-b8bb-3b9b-9183-ac3e4fae0a16",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/918b68b6-ca27-3a59-878b-8fa3b8015b4f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Court",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hof"
+            ],
+            "pt": [
+              "Pátio"
+            ],
+            "en": [
+              "Court"
+            ],
+            "it": [
+              "Cortile"
+            ],
+            "fr": [
+              "Cour"
+            ],
+            "es": [
+              "Patio"
+            ],
+            "nl": [
+              "Binnenplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9cc1e7e7-9cfe-372f-8d91-41e821010259",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyChair",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hochstuhl"
+            ],
+            "pt": [
+              "Cadeira de bebé"
+            ],
+            "en": [
+              "Baby chair"
+            ],
+            "it": [
+              "Sedia per bambini"
+            ],
+            "fr": [
+              "Chaise bébé"
+            ],
+            "es": [
+              "Silla de bebé"
+            ],
+            "nl": [
+              "Kinderstoel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a116d58d-4f23-30d5-b428-928ef5337a42",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a54e2ad3-756a-3661-a3a3-aa020bde912f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Heating",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Heizen"
+            ],
+            "pt": [
+              "Aquecimento"
+            ],
+            "en": [
+              "Heating"
+            ],
+            "it": [
+              "Riscaldamento"
+            ],
+            "fr": [
+              "Chauffage"
+            ],
+            "nl": [
+              "Verwarming"
+            ],
+            "es": [
+              "Climatización"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b98c4825-6e4f-32ad-8807-79781a85f500",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c8532e15-58da-3a58-9b99-481fad24f794",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Entertainment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unterhaltung"
+            ],
+            "pt": [
+              "Animações"
+            ],
+            "en": [
+              "Entertainment"
+            ],
+            "it": [
+              "Animazioni"
+            ],
+            "fr": [
+              "Animations"
+            ],
+            "nl": [
+              "Animatie"
+            ],
+            "es": [
+              "Animaciones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cf0a5a5c-1bb4-3219-9a74-db1e68be6349",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:OutdoorPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Freibad"
+            ],
+            "pt": [
+              "Piscina ao ar livre"
+            ],
+            "en": [
+              "Outdoor pool"
+            ],
+            "it": [
+              "Piscina all'aperto"
+            ],
+            "fr": [
+              "Piscine plein air"
+            ],
+            "es": [
+              "Piscina de exterior"
+            ],
+            "nl": [
+              "Openluchtzwembad"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SwimmingPool",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Pool"
+            ],
+            "pt": [
+              "Piscina"
+            ],
+            "en": [
+              "Swimming pool"
+            ],
+            "it": [
+              "Piscina"
+            ],
+            "fr": [
+              "Piscine"
+            ],
+            "nl": [
+              "Zwembad"
+            ],
+            "es": [
+              "Piscina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d5e91c99-44b9-3430-b0e4-43c0dca43a48",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CellarDoorSale",
+          "@type": [
+            "CateringAmenity",
+            "CulturalHeritageAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hofverkauf"
+            ],
+            "pt": [
+              "Venda no local"
+            ],
+            "en": [
+              "Cellar door sale"
+            ],
+            "it": [
+              "Vendita diretta in cantina"
+            ],
+            "fr": [
+              "Vente à la propriété"
+            ],
+            "nl": [
+              "Verkoop ter plaatse"
+            ],
+            "es": [
+              "Servicio de venta"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dc47845c-9a17-3d29-9ad7-ef0d299d6927",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cot",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Babybett"
+            ],
+            "pt": [
+              "Berço"
+            ],
+            "en": [
+              "Cot"
+            ],
+            "it": [
+              "Lettino per bambini"
+            ],
+            "fr": [
+              "Lit bébé"
+            ],
+            "es": [
+              "Cuna"
+            ],
+            "nl": [
+              "Babybed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ecb6b364-7f01-3500-8488-e99c7a766c21",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:DrinkingWaterFaucet",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Trinkwasserquelle"
+            ],
+            "pt": [
+              "Ponto de água potável"
+            ],
+            "en": [
+              "Drinking water faucet"
+            ],
+            "it": [
+              "Punto d'acqua potabile"
+            ],
+            "fr": [
+              "Point d'eau potable"
+            ],
+            "es": [
+              "Punto de agua potable"
+            ],
+            "nl": [
+              "Drinkwaterpunt"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b48af1b9-02e9-3d11-a09c-a00e6d29fdb4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3de4ed4d-4a92-3a9a-b06f-546e1bc40989",
+          "ebucore:abstract": {
+            "fr": [
+              "La Ferme des Andes - les extérieurs"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "La Ferme des Andes - les extérieurs"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME PAYS SEGALI"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/6bebfa3c-42ea-341e-8e1e-90da94a47d5b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO212312844083/TFO212312844083-17a/medias/jpg/la-ferme-des-andes--_shoot-in-facto.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b48af1b9-02e9-3d11-a09c-a00e6d29fdb4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3de4ed4d-4a92-3a9a-b06f-546e1bc40989",
+          "ebucore:abstract": {
+            "fr": [
+              "La Ferme des Andes - les extérieurs"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "La Ferme des Andes - les extérieurs"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME PAYS SEGALI"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/6bebfa3c-42ea-341e-8e1e-90da94a47d5b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO212312844083/TFO212312844083-17a/medias/jpg/la-ferme-des-andes--_shoot-in-facto.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/46c60ea4-5a35-3579-9a55-869a2cf91214",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_ChambreDhotesReference",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Chambre d'hôtes référence"
+          ],
+          "pt": [
+            "Chambre d'hôtes référence"
+          ],
+          "en": [
+            "Chambre d'hôtes référence"
+          ],
+          "it": [
+            "Chambre d'hôtes référence"
+          ],
+          "fr": [
+            "Chambre d'hôtes référence"
+          ],
+          "nl": [
+            "Chambre d'hôtes référence"
+          ],
+          "es": [
+            "Chambre d'hôtes référence"
+          ]
+        },
+        "isCompliantWith": [
+          "Guesthouse"
+        ]
+      },
+      "reviewDeliveryDate": "2020-10-14"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4822f169-f309-3783-af11-772b0308f331",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2020-09-11"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/01528ef1-219d-32b1-9bdc-444db3dcc2c2",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/84690816-9bb1-3260-be05-7768af197fe0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9977b0f3-1a27-3961-bee0-e23f20973ec0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a66fd9a2-6275-38fa-b5d6-462f9aed984a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2c3b8e1-0679-3a66-a1ae-11505a665d5e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5fa01dc0-f8ee-378a-9848-913a145405e8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5ffba71c-30d2-38f8-a964-419a3027d0ef",
+          "schema:addressLocality": "Quins",
+          "schema:postalCode": "12800",
+          "schema:streetAddress": [
+            "Lieu-dit La Prade Basse"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12194",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Quins"
+              ],
+              "pt": [
+                "Quins"
+              ],
+              "en": [
+                "Quins"
+              ],
+              "it": [
+                "Quins"
+              ],
+              "fr": [
+                "Quins"
+              ],
+              "nl": [
+                "Quins"
+              ],
+              "es": [
+                "Quins"
+              ]
+            },
+            "insee": "12194",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9fd4d21d-a976-390f-94d5-56a9e0203fce",
+        "schema:elevation": "600",
+        "schema:latitude": "44.2111",
+        "schema:longitude": "2.3256",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/04bb2848-19ec-3da7-a790-582dfc8ecdf3",
+          "schema:validFrom": "2023-09-22T00:00:00",
+          "schema:validThrough": "2023-09-30T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1a9dad4a-4012-3aa4-bbd7-ea802f0e41ed",
+          "schema:validFrom": "2024-08-31T00:00:00",
+          "schema:validThrough": "2024-09-29T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c5e7b68f-fec7-34b8-8bdf-7a7850eac39a",
+          "schema:validFrom": "2023-06-01T00:00:00",
+          "schema:validThrough": "2023-07-07T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c749b324-3999-3459-a0db-ea72aeb9d265",
+          "schema:validFrom": "2024-04-29T00:00:00",
+          "schema:validThrough": "2024-07-06T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-06",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.726Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/79d8f23b-656b-39dd-9218-8e14a138ac78",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/61f0a297-185f-3a85-b749-75c7223a0ed3",
+          "schema:price": "90",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "(pro Nacht, für 2 Personen, inklusive Frühstück)"
+            ],
+            "en": [
+              "(per night, for 2 people, breakfast included)"
+            ],
+            "it": [
+              "(a notte, per 2 persone, colazione inclusa)"
+            ],
+            "fr": [
+              "(par nuit, pour 2 personnes, petits déjeuners inclus)"
+            ],
+            "es": [
+              "(por noche, para 2 personas, desayuno incluido)"
+            ],
+            "nl": [
+              "(per nacht, voor 2 personen, inclusief ontbijt)"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0f71fe3b-fce5-3707-9d2d-b989f836766d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6882f263-5e13-392b-96c6-50bb3a0b3b06",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6ba3a711-1d7e-33fc-bf5a-e03683517018",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9b55032c-db34-3358-a79b-2c7a118bb0ea",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f7e33ce3-5756-3a1c-a8e4-ef47268909e5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Chambre  double \"Le Rêve Bleu\""
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6bb5e7d7-195c-3a88-a001-68c653c49fe1",
+          "schema:price": "10",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "pro Nacht und Person."
+            ],
+            "en": [
+              "per night and per person."
+            ],
+            "it": [
+              "per notte e per persona."
+            ],
+            "fr": [
+              "par nuit et par personne."
+            ],
+            "es": [
+              "por noche y por persona."
+            ],
+            "nl": [
+              "per nacht en per persoon."
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ExtraCharge",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aufschlag"
+                ],
+                "pt": [
+                  "Suplemento"
+                ],
+                "en": [
+                  "Extra charge"
+                ],
+                "it": [
+                  "Supplemento"
+                ],
+                "fr": [
+                  "Supplément"
+                ],
+                "nl": [
+                  "Supplement"
+                ],
+                "es": [
+                  "Suplemento"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1c343ecb-a0db-3dcf-be48-598e00e8b38d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/383ee859-db58-300e-9914-a4098575410f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/74a18fb3-00ac-38c3-acef-f4722097bf99",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/91bc2a30-f44e-3036-8836-2de51c5f5ea1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/db4f397c-7166-3e65-b64c-c96cb9fad9f0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/777e140a-727d-3466-83fd-888949839b62",
+          "schema:price": "100",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "pro Nacht, für 2 Personen, inklusive Frühstück"
+            ],
+            "en": [
+              "per night, for 2 persons, breakfast included"
+            ],
+            "it": [
+              "a notte, per 2 persone, colazione inclusa"
+            ],
+            "fr": [
+              "par nuit, pour 2 personnes, petits déjeuners inclus"
+            ],
+            "es": [
+              "por noche, para 2 personas, desayuno incluido"
+            ],
+            "nl": [
+              "per nacht, voor 2 personen, ontbijt inbegrepen"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/253e17b4-7ab7-3fe9-9f18-8e01f12fc5bb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/35994177-a515-3e35-b32c-86e65fbfb23e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3a621a90-1529-3596-887c-54703b111998",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6177996c-9e77-352c-9ae7-e2fb1dedb471",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8f300b61-6d46-30c8-8917-637df7592d72",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Suite familiale \"La Vie en Rose\""
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

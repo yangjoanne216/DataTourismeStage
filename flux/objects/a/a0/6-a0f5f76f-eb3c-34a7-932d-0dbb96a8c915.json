@@ -1,0 +1,956 @@
+{
+  "@id": "https://data.datatourisme.fr/6/a0f5f76f-eb3c-34a7-932d-0dbb96a8c915",
+  "dc:identifier": "ITIBFC000V50T3C0",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Wanderung, bei der Sie die Ufer der Loire und die majestätische Metallbrücke, genannt \"du PO\", entdecken und die Ferme du Port Aubry mit ihrem Laden für regionale Produkte besuchen können."
+    ],
+    "en": [
+      "A walk that will allow you to discover the banks of the Loire, the majestic metal bridge known as \"du PO\" and to visit the Port Aubry Farm and its store selling regional products."
+    ],
+    "it": [
+      "Una passeggiata che vi permetterà di scoprire le rive della Loira, il maestoso ponte metallico detto \"du PO\" e di visitare la Ferme du Port Aubry e il suo negozio di prodotti regionali."
+    ],
+    "fr": [
+      "Balade qui vous permettra de découvrir les bords de Loire, le majestueux pont métallique dit \"du PO\" et d'aller visiter la Ferme du Port Aubry et sa boutique de produits régionaux."
+    ],
+    "es": [
+      "Un paseo que le permitirá descubrir las orillas del Loira, el majestuoso puente metálico conocido como \"du PO\" y visitar la Ferme du Port Aubry y su tienda de productos regionales."
+    ],
+    "nl": [
+      "Een wandeling waarbij u de oevers van de Loire kunt ontdekken, de majestueuze metalen brug \"du PO\" en de Ferme du Port Aubry en zijn winkel met streekproducten."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Balade en bord de Loire, de Cosne à Port Aubry"
+    ]
+  },
+  "creationDate": "2021-09-04",
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/fb170ea0-cdd8-3fcd-9a9e-500262185d3e",
+    "dc:identifier": "043cb3a2-5294-4890-8586-541f495ce9d0",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/c06e9e70-32c6-30da-bb7e-52f4b531da41",
+        "schema:postalCode": "58200",
+        "schema:streetAddress": [
+          "Place du Dr Jacques Huyghues des Etages"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "contact@ot-cosnesurloire.fr"
+    ],
+    "schema:legalName": "58_OT COEUR DE LOIRE",
+    "schema:telephone": [
+      "+33 3 86 28 11 85"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.cc-loire-nohain.fr/",
+      "https://www.bourgogne-coeurdeloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f6f67ebe-36f1-35e6-8f99-83d915500315",
+      "schema:email": [
+        "accueil@bourgogne-coeurdeloire.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 86 28 11 85"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgogne-coeurdeloire.fr/",
+        "https://www.facebook.com/Bourgogne.Coeurdeloire.Tourisme"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/4af678a9-4791-35c8-b121-f28e1ac669ae",
+      "dc:description": {
+        "de": [
+          "Wanderung, bei der Sie die Ufer der Loire und die majestätische Metallbrücke, genannt \"du PO\", entdecken und die Ferme du Port Aubry mit ihrem Laden für regionale Produkte besuchen können."
+        ],
+        "en": [
+          "A walk that will allow you to discover the banks of the Loire, the majestic metal bridge known as \"du PO\" and to visit the Port Aubry Farm and its store selling regional products."
+        ],
+        "it": [
+          "Una passeggiata che vi permetterà di scoprire le rive della Loira, il maestoso ponte metallico detto \"du PO\" e di visitare la Ferme du Port Aubry e il suo negozio di prodotti regionali."
+        ],
+        "fr": [
+          "Balade qui vous permettra de découvrir les bords de Loire, le majestueux pont métallique dit \"du PO\" et d'aller visiter la Ferme du Port Aubry et sa boutique de produits régionaux."
+        ],
+        "es": [
+          "Un paseo que le permitirá descubrir las orillas del Loira, el majestuoso puente metálico conocido como \"du PO\" y visitar la Ferme du Port Aubry y su tienda de productos regionales."
+        ],
+        "nl": [
+          "Een wandeling waarbij u de oevers van de Loire kunt ontdekken, de majestueuze metalen brug \"du PO\" en de Ferme du Port Aubry en zijn winkel met streekproducten."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/20b817b6-3972-3d78-8ba5-580a6a9361d5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2c6c93b5-81a1-3a09-b6ad-1ea6f8d430a9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2d9369d3-2442-3cd2-9fd5-368b3e604530",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3bb25cfc-75db-3161-8945-012f0ec06ba2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/57f65352-ceee-3fdc-b812-b358716b4dc4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6ddf4f25-eceb-3085-8b36-62489ae96f3a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/be6bf7db-207b-3c0a-9aeb-0a0759399ac2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d00f503e-5103-3086-a3f2-16a39d1fc97d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e7456a59-7cf1-3f91-8e3a-eb9072115675",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f2d93950-dfe7-377d-ba19-44127f11b23f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Wanderung, bei der Sie die Ufer der Loire und die majestätische Metallbrücke, genannt \"du PO\", entdecken und die Ferme du Port Aubry mit ihrem Laden für regionale Produkte besuchen können."
+        ],
+        "en": [
+          "A walk that will allow you to discover the banks of the Loire, the majestic metal bridge known as \"du PO\" and to visit the Port Aubry Farm and its store selling regional products."
+        ],
+        "it": [
+          "Una passeggiata che vi permetterà di scoprire le rive della Loira, il maestoso ponte metallico detto \"du PO\" e di visitare la Ferme du Port Aubry e il suo negozio di prodotti regionali."
+        ],
+        "fr": [
+          "Balade qui vous permettra de découvrir les bords de Loire, le majestueux pont métallique dit \"du PO\" et d'aller visiter la Ferme du Port Aubry et sa boutique de produits régionaux."
+        ],
+        "es": [
+          "Un paseo que le permitirá descubrir las orillas del Loira, el majestuoso puente metálico conocido como \"du PO\" y visitar la Ferme du Port Aubry y su tienda de productos regionales."
+        ],
+        "nl": [
+          "Een wandeling waarbij u de oevers van de Loire kunt ontdekken, de majestueuze metalen brug \"du PO\" en de Ferme du Port Aubry en zijn winkel met streekproducten."
+        ]
+      }
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/cae285bb-c6d3-30ea-ace8-312740c659e0",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/88d3994c-c884-3575-ac34-17d61bb16de2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c16d5639-c6f9-3d4c-aec7-e2c769509b11",
+          "ebucore:title": {
+            "fr": [
+              "Bords de loire entre cosne et port aubry"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation",
+            "Annotation"
+          ],
+          "credits": [
+            "Visorando"
+          ],
+          "rightsEndDate": "2023-12-31"
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b62a3c80-4921-3784-95fd-a0623e7ffa2b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:PDF",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "PDF-Datei"
+                ],
+                "pt": [
+                  "Ficheiro PDF"
+                ],
+                "en": [
+                  "PDF file"
+                ],
+                "it": [
+                  "File PDF"
+                ],
+                "fr": [
+                  "Adobe Portable Document Format"
+                ],
+                "nl": [
+                  "Pdf-bestand"
+                ],
+                "es": [
+                  "Archivo PDF"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/pdf"
+                ],
+                "pt": [
+                  "application/pdf"
+                ],
+                "en": [
+                  "application/pdf"
+                ],
+                "it": [
+                  "application/pdf"
+                ],
+                "fr": [
+                  "application/pdf"
+                ],
+                "nl": [
+                  "application/pdf"
+                ],
+                "es": [
+                  "application/pdf"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.media.tourinsoft.eu/upload/Bords-de-loire-entre-cosne-et-port-aubry.pdf"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/eb063511-2459-3436-b969-2269f295f8a0",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c037f979-7da9-3007-916a-848c34eca384",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.tourinsoft.com/upload/trace/ITIBFC000V50T3C0.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schleifenroute"
+        ],
+        "pt": [
+          "Circular"
+        ],
+        "en": [
+          "Loop itinerary"
+        ],
+        "it": [
+          "Ad anello"
+        ],
+        "fr": [
+          "En boucle"
+        ],
+        "nl": [
+          "In een lus"
+        ],
+        "es": [
+          "Circuito"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1cc3bc29-5d15-3280-bf35-826961a371ff",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5846ba0c-2a16-3642-81f8-1cd5956868a4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/65d2458e-3d35-3409-b1fe-5f4b15aa38ec",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8fb9f6c5-28f7-3bed-b1f8-66bd15fbe3d0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d55dd499-a3f4-36f6-a063-ed9505272efd",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/eaf34d02-ea0f-32a5-a19f-34c9c19d2ad1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a63c5c87-2cde-3e56-8ae8-ba4b5a1c9e6a",
+          "schema:addressLocality": "Cosne-Cours-sur-Loire",
+          "schema:postalCode": "58200",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:58086",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Cosne-Cours-sur-Loire"
+              ],
+              "pt": [
+                "Cosne-Cours-sur-Loire"
+              ],
+              "en": [
+                "Cosne-Cours-sur-Loire"
+              ],
+              "it": [
+                "Cosne-Cours-sur-Loire"
+              ],
+              "fr": [
+                "Cosne-Cours-sur-Loire"
+              ],
+              "nl": [
+                "Cosne-Cours-sur-Loire"
+              ],
+              "es": [
+                "Cosne-Cours-sur-Loire"
+              ]
+            },
+            "insee": "58086",
+            "isPartOfDepartment": {
+              "@id": "kb:France2758",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nièvre"
+                ],
+                "pt": [
+                  "Nièvre"
+                ],
+                "en": [
+                  "Nièvre"
+                ],
+                "it": [
+                  "Nièvre"
+                ],
+                "fr": [
+                  "Nièvre"
+                ],
+                "nl": [
+                  "Nièvre"
+                ],
+                "es": [
+                  "Nièvre"
+                ]
+              },
+              "insee": "58",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/5400d11c-677e-3e3e-909a-72d332d126ab",
+        "schema:latitude": "47.4085363",
+        "schema:longitude": "2.92173632",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-04-07",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.24Z",
+  "positiveCumulDifference": "0.0",
+  "tourDistance": "5000.0"
+}

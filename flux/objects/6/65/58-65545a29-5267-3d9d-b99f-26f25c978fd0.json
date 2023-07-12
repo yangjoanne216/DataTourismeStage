@@ -1,0 +1,248 @@
+{
+  "@id": "https://data.datatourisme.fr/58/65545a29-5267-3d9d-b99f-26f25c978fd0",
+  "dc:identifier": "5227048",
+  "@type": [
+    "schema:FastFoodRestaurant",
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FastFoodRestaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Mc Donald"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/d1a21da7-bca4-3bff-8b0b-61b87597de73",
+    "dc:identifier": "2174",
+    "schema:email": [
+      "bureauinfotourisme@senas.fr"
+    ],
+    "schema:legalName": "Bureau d'Information Touristique de Sénas",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://senas.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8759d6f8-1862-3727-9e82-f14fd966133a",
+      "schema:legalName": "Provence Tourisme / Bureau d'Information Touristique de Sénas",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a5dbea90-812c-3f59-9014-a115b73217ff",
+      "schema:telephone": [
+        "+33 4 50 59 76 99"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5bc30d3b-8f2c-373d-b673-d693896220fc",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f878fe2c-c224-38e9-890e-3dc88a1a5447",
+          "schema:addressLocality": "Sénas",
+          "schema:postalCode": "13560",
+          "schema:streetAddress": [
+            "Les Saurins",
+            "RN 7"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13105",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sénas"
+              ],
+              "pt": [
+                "Sénas"
+              ],
+              "en": [
+                "Sénas"
+              ],
+              "it": [
+                "Sénas"
+              ],
+              "fr": [
+                "Sénas"
+              ],
+              "nl": [
+                "Sénas"
+              ],
+              "es": [
+                "Sénas"
+              ]
+            },
+            "insee": "13105",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/ae605385-a300-3497-bcec-f60977c45a37",
+        "schema:latitude": "43.763389",
+        "schema:longitude": "5.062584",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/6566e282-ec05-3dd3-93d0-996e488ac48b",
+          "schema:closes": "23:00:00",
+          "schema:opens": "10:30:00",
+          "schema:validFrom": "2018-06-01T00:00:00",
+          "schema:validThrough": "2018-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/0f1541a5-8784-3369-857f-f9c2da559ce9",
+      "schema:email": [
+        "bureauinfotourisme@senas.fr"
+      ],
+      "schema:legalName": "Bureau d'Information Touristique de Sénas",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://senas.fr/"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-02-08",
+  "lastUpdateDatatourisme": "2022-08-24T13:22:02.262Z",
+  "reducedMobilityAccess": false
+}

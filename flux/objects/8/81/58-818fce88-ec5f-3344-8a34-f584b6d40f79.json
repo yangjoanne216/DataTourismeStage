@@ -1,0 +1,428 @@
+{
+  "@id": "https://data.datatourisme.fr/58/818fce88-ec5f-3344-8a34-f584b6d40f79",
+  "dc:identifier": "5519292",
+  "@type": [
+    "schema:Product",
+    "BusinessPlace",
+    "ConventionCentre",
+    "NonHousingRealEstateRental",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "Rental",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "SCI Le Chêne Vert"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/7dc1c765-3ac4-3a05-a42a-667959c12239",
+    "dc:identifier": "2144",
+    "schema:email": [
+      "melissa.eliet@gmail.com",
+      "mvisseaux@tourisme-gardanne.fr"
+    ],
+    "schema:legalName": "Office de Tourisme de Gardanne",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.tourisme-gardanne.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/0ebffbba-591a-3d8f-adaa-547a5a9d4d86",
+      "schema:legalName": "Provence Tourisme / Office de Tourisme de Gardanne",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/5352e6c7-52ee-321d-94f9-f8d3cd42e6f5",
+      "schema:telephone": [
+        "+33 6 16 30 69 49"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/55ac3c32-a4b3-35cb-81c3-61feb46844f5",
+      "dc:description": {
+        "de": [
+          "Vermietung von Räumen - Restaurant"
+        ],
+        "en": [
+          "Room rental - Restaurant"
+        ],
+        "it": [
+          "Noleggio camere - Ristorante"
+        ],
+        "fr": [
+          "Location de salles - Restaurant"
+        ],
+        "nl": [
+          "Zaalhuur - Restaurant"
+        ],
+        "es": [
+          "Alquiler de salas - Restaurante"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1148c3b9-243a-3d56-b8df-02bb6ef8f402",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/412477cb-8f0b-3f5e-80ee-11a7c05ef9a1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8bf53b39-6fd3-3c0a-b0ab-306fa9aa4905",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9025dca8-6873-3815-9cc4-d604a866931c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bdcdf37a-4edb-3c53-b47f-6d5e1716b54e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/be130c02-7eee-384e-91b8-9f3e87fd4da1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/df174465-2dab-31bc-a116-a36a0cd26122",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/6ec744f6-5724-3cdb-a865-ce19252f2013",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/079b8ab8-89a4-3dff-b3fa-840b2416b609",
+          "schema:addressLocality": "Gardanne",
+          "schema:postalCode": "13120",
+          "schema:streetAddress": [
+            "Avenue D'Arménie",
+            "ZA de Bompertuis"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13041",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Gardanne"
+              ],
+              "pt": [
+                "Gardanne"
+              ],
+              "en": [
+                "Gardanne"
+              ],
+              "it": [
+                "Gardanne"
+              ],
+              "fr": [
+                "Gardanne"
+              ],
+              "nl": [
+                "Gardanne"
+              ],
+              "es": [
+                "Gardanne"
+              ]
+            },
+            "insee": "13041",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/ef8774f9-7028-38fb-81f1-48488910c9c0",
+        "schema:latitude": "43.454235",
+        "schema:longitude": "5.455106",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f6c956b7-965c-3ae9-ab17-c481c2f87997",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cd50fd83-176a-3d45-9d7a-8aa5231dac78",
+      "schema:email": [
+        "melissa.eliet@gmail.com",
+        "mvisseaux@tourisme-gardanne.fr"
+      ],
+      "schema:legalName": "Office de Tourisme de Gardanne",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-gardanne.fr/"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-12-15",
+  "lastUpdateDatatourisme": "2023-04-03T07:01:39.838Z",
+  "reducedMobilityAccess": false
+}

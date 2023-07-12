@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/ef326069-338b-3a92-9a81-bec0775f1a6b",
+  "dc:identifier": "996ef6f4-9619-11ec-8ec2-0050569afc27",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Hôtel Berny"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/641edf5b-2ac0-386c-97c6-c394a35249be",
+      "schema:email": [
+        "accueil@hotelberny.com"
+      ],
+      "schema:telephone": [
+        "+33 1 46 11 43 90"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.hotel-de-berny.com/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/8e561a6f-f691-3d28-9e36-c150c31b5fbb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/1d4f600d-8c8d-3873-818f-2785a0c269c1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/390cb37a-5aa8-34f6-9c5a-2d79b88947e7",
+          "schema:addressLocality": "Antony",
+          "schema:postalCode": "92160",
+          "schema:streetAddress": [
+            "129 avenue Aristide Briand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:92002",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Antony"
+              ],
+              "pt": [
+                "Antony"
+              ],
+              "en": [
+                "Antony"
+              ],
+              "it": [
+                "Antony"
+              ],
+              "fr": [
+                "Antony"
+              ],
+              "nl": [
+                "Antony"
+              ],
+              "es": [
+                "Antony"
+              ]
+            },
+            "insee": "92002",
+            "isPartOfDepartment": {
+              "@id": "kb:France1192",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hauts-de-Seine"
+                ],
+                "pt": [
+                  "Hauts-de-Seine"
+                ],
+                "en": [
+                  "Hauts-de-Seine"
+                ],
+                "it": [
+                  "Hauts-de-Seine"
+                ],
+                "fr": [
+                  "Hauts-de-Seine"
+                ],
+                "nl": [
+                  "Hauts-de-Seine"
+                ],
+                "es": [
+                  "Hauts-de-Seine"
+                ]
+              },
+              "insee": "92",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b3109cf1-ecb1-31e4-a036-559f8bd2bfdf",
+        "schema:latitude": "48.758853912353516",
+        "schema:longitude": "2.3071463108062744",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-02-25",
+  "lastUpdateDatatourisme": "2023-03-29T13:28:30.293Z",
+  "reducedMobilityAccess": false
+}

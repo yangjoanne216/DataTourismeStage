@@ -1,0 +1,243 @@
+{
+  "@id": "https://data.datatourisme.fr/13/1481ecd8-3174-3b4c-bafe-aa031a49463a",
+  "dc:identifier": "5436429",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Bistro'116"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/e034fb6b-66aa-3c1d-88f4-45ddfb08da98",
+    "dc:identifier": "1233",
+    "schema:email": [
+      "d.trioux@destination-paris-saclay.com"
+    ],
+    "schema:legalName": "Destination Paris-Saclay",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.destination-paris-saclay.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8a9feb4b-2cbd-3d2c-b507-bd6c6776b23b",
+      "schema:legalName": "Apidae Tourisme Scic SA - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/8e5230f7-10ab-3cc8-ada5-13df8dcc1c22",
+      "schema:telephone": [
+        "+33 1 60 10 90 67"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/cb095297-de22-3b34-942d-223b8ddd300e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d580eb77-6f36-3b8e-809e-d75a756d3b62",
+          "schema:addressLocality": "Longjumeau",
+          "schema:postalCode": "91160",
+          "schema:streetAddress": [
+            "116 Rue du Président François Mitterrand"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:91345",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Longjumeau"
+              ],
+              "pt": [
+                "Longjumeau"
+              ],
+              "en": [
+                "Longjumeau"
+              ],
+              "it": [
+                "Longjumeau"
+              ],
+              "fr": [
+                "Longjumeau"
+              ],
+              "nl": [
+                "Longjumeau"
+              ],
+              "es": [
+                "Longjumeau"
+              ]
+            },
+            "insee": "91345",
+            "isPartOfDepartment": {
+              "@id": "kb:France1191",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Essonne"
+                ],
+                "pt": [
+                  "Essonne"
+                ],
+                "en": [
+                  "Essonne"
+                ],
+                "it": [
+                  "Essonne"
+                ],
+                "fr": [
+                  "Essonne"
+                ],
+                "nl": [
+                  "Essonne"
+                ],
+                "es": [
+                  "Essonne"
+                ]
+              },
+              "insee": "91",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/17f83a39-ada2-3bb8-97df-927c9a3eeaf4",
+        "schema:latitude": "48.694182",
+        "schema:longitude": "2.293561",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f19a3acc-284e-3c64-b266-b3eb5da3f305",
+          "schema:closes": "21:30:00",
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/d87037ec-223f-3b91-8276-b2fe7d28f333",
+      "schema:email": [
+        "d.trioux@destination-paris-saclay.com"
+      ],
+      "schema:legalName": "Destination Paris-Saclay",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.destination-paris-saclay.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-01-31",
+  "lastUpdateDatatourisme": "2023-02-01T18:07:36.12Z"
+}

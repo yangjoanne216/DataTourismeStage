@@ -1,0 +1,982 @@
+{
+  "@id": "https://data.datatourisme.fr/31/7d47f0e8-1405-33ba-9d61-db09686c5853",
+  "dc:identifier": "TFO350934462963",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Start: Parkplatz des Campingplatzes \"Les Calquières\" - Schwierigkeitsgrad: Schwer - Distanz: 85 km - Höhenunterschied: 1 215 km"
+    ],
+    "en": [
+      "Departure: parking lot of the campsite \"Les Calquières\" - Difficulty: Difficult - Distance: 85 km - Difference in altitude: 1 215 km"
+    ],
+    "it": [
+      "Partenza : parcheggio del campeggio \"Les Calquières\" - Difficoltà : Difficile - Distanza : 85 km - Dislivello : 1 215 km"
+    ],
+    "fr": [
+      "Départ : parking du camping \"Les Calquières\" - Difficulté : Difficile - Distance : 85 km - Dénivelé : 1 215 km"
+    ],
+    "nl": [
+      "Vertrek : parkeerplaats van de camping \"Les Calquières\" - Moeilijkheidsgraad : Moeilijk - Afstand : 85 km - Hoogteverschil : 1 215 km"
+    ],
+    "es": [
+      "Salida : parking del camping \"Les Calquières\" - Dificultad : Difícil - Distancia : 85 km - Desnivel : 1 215 km"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Cyclotourisme: Circuit entre Serre et Lot"
+    ]
+  },
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/f415857d-ecee-333d-88c2-774f55052fb7",
+    "schema:legalName": "OFFICE DE TOURISME DE SEVERAC LE CHATEAU",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/5cc2608a-9ce3-373a-bee0-2f0b9e57a495",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/68ded1e4-0f10-3e15-a31f-3846900f153f",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "17 avenue Jean Moulin",
+            "Camping Les Calquières",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Circuit entre Serre et Lot",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/da09b328-8378-3bf8-8548-262c6c5a1ae0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/824fe513-cfdd-32b2-8872-4487561f1f85",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "5 Rue des Douves",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "severacdaveyron@causses-aubrac-tourisme.com"
+      ],
+      "schema:legalName": "Office de tourisme Des Causses à l'Aubrac bureau de Sévérac d'Aveyron",
+      "schema:telephone": [
+        "+33 5 65 47 67 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.causses-aubrac-tourisme.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/50000bba-2ca5-360a-9d61-3f837b33bb83",
+      "dc:description": {
+        "de": [
+          "Entdecken Sie von Sévérac-le-Château aus die Windungen des Serre-Tals und wandern Sie bis zur mittelalterlichen Stadt La Canourgue und ins Tal des Lot! Wunderschöne Panoramen erwarten Sie."
+        ],
+        "en": [
+          "From Sévérac-le-Château, discover the meanders of the Serre valley and walk to the medieval city of La Canourgue and the Lot valley! Magnificent panoramas await you."
+        ],
+        "it": [
+          "Da Sévérac-le-Château, scoprite i meandri della valle della Serre e raggiungete la città medievale di La Canourgue e la valle del Lot! Vi aspettano magnifici panorami."
+        ],
+        "fr": [
+          "Au départ de Sévérac-le-Château, découvrez les méandres de la vallée de la Serre et cheminez jusqu'à la cité médiévale de La Canourgue et la vallée du Lot! De magnifiques panoramas vous attendent."
+        ],
+        "nl": [
+          "Ontdek vanuit Sévérac-le-Château de meanderende vallei van de Serre en wandel naar de middeleeuwse stad La Canourgue en de vallei van de Lot! Prachtige panorama's wachten op u."
+        ],
+        "es": [
+          "Desde Sévérac-le-Château, descubra el serpenteante valle del Serre y camine hasta la ciudad medieval de La Canourgue y el valle del Lot Le esperan magníficos panoramas."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1aba9522-bc89-3fcf-9424-1bde1c47548d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1fd8a108-1cde-3330-99d2-4181c0c5c2db",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2fb585d5-a3e0-3ea2-b9ff-f17b572edc2e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/355f426b-a10b-3d3b-a8e8-f23086ab98a7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/358c1538-1b49-304d-b7a4-9653d0bac5a3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4008fc46-01a6-32db-854c-3030b3d6576b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5fe6c302-4037-3045-acba-39ec3a648191",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6696431c-778e-3614-9cd5-e8a8071b0638",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a52113b9-6a1b-3b44-93de-0a40eb86e674",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f07b43e9-b3f5-3750-a3de-9ee0937679fd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Start: Parkplatz des Campingplatzes \"Les Calquières\" - Schwierigkeitsgrad: Schwer - Distanz: 85 km - Höhenunterschied: 1 215 km"
+        ],
+        "en": [
+          "Departure: parking lot of the campsite \"Les Calquières\" - Difficulty: Difficult - Distance: 85 km - Difference in altitude: 1 215 km"
+        ],
+        "it": [
+          "Partenza : parcheggio del campeggio \"Les Calquières\" - Difficoltà : Difficile - Distanza : 85 km - Dislivello : 1 215 km"
+        ],
+        "fr": [
+          "Départ : parking du camping \"Les Calquières\" - Difficulté : Difficile - Distance : 85 km - Dénivelé : 1 215 km"
+        ],
+        "nl": [
+          "Vertrek : parkeerplaats van de camping \"Les Calquières\" - Moeilijkheidsgraad : Moeilijk - Afstand : 85 km - Hoogteverschil : 1 215 km"
+        ],
+        "es": [
+          "Salida : parking del camping \"Les Calquières\" - Dificultad : Difícil - Distancia : 85 km - Desnivel : 1 215 km"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/e6eb1858-dcda-3113-a5c3-63e764a1b934",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/f0cca01f-f281-3e4a-a27d-4188adccf8a2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/cc26687b-9f97-39e1-8437-f755eb3362c8",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme: Circuit entre Serre et Lot"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme: Circuit entre Serre et Lot"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5e8f3c24-0a58-3ff6-847e-62a36f179147",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350934462963/TFO350934462963-17a/medias/jpg/entre-serre-et-lot.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/f0cca01f-f281-3e4a-a27d-4188adccf8a2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/cc26687b-9f97-39e1-8437-f755eb3362c8",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme: Circuit entre Serre et Lot"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme: Circuit entre Serre et Lot"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5e8f3c24-0a58-3ff6-847e-62a36f179147",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350934462963/TFO350934462963-17a/medias/jpg/entre-serre-et-lot.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0ab0de3a-6960-35c4-9931-480f2909f125",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/12939e85-e308-3916-b520-c4e1addf9840",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3c4c51a6-aa58-3e78-aba2-a8472a005404",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a426eff9-e80d-3c39-add7-64efe10d5386",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/da28422b-caf2-3228-a94c-fe1fe1672831",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/989c330b-0b49-3cc7-a4e2-ac2037282e6a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/18979c39-7cfe-3723-8288-d0a3f5998620",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "Camping Les Calquières",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e756afe0-d37d-3567-8a2e-9e400a9058ee",
+        "schema:elevation": "741",
+        "schema:latitude": "44.3178",
+        "schema:longitude": "3.0642",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-10-27",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.75Z"
+}

@@ -1,0 +1,1920 @@
+{
+  "@id": "https://data.datatourisme.fr/31/e0a173e7-9c36-3a07-92cf-50aa3cab2166",
+  "dc:identifier": "TFO109176900539",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ehemaliges Bauernhaus mit Charakter, das geschmackvoll zum Thema Oldtimer-Motorräder restauriert wurde. Mitten auf dem Land, in der Nähe von Najac und La Fouillade, zwischen dem Viaur- und dem Aveyron-Tal."
+    ],
+    "en": [
+      "Accueil motards et clubs divers"
+    ],
+    "it": [
+      "Antica casa colonica di carattere, ristrutturata con gusto sul tema delle moto d'epoca. In campagna, vicino a Najac e La Fouillade, tra le valli del Viaur e dell'Aveyron."
+    ],
+    "fr": [
+      "Ancien corps de ferme de caractère, restauré avec goût sur le thème de la moto de collection. En pleine campagne, à deux pas de Najac et La Fouillade, entre la vallée du Viaur et de l'Aveyron."
+    ],
+    "nl": [
+      "Oude boerderij met karakter, smaakvol gerestaureerd met als thema vintage motoren. Op het platteland, in de buurt van Najac en La Fouillade, tussen de valleien van de Viaur en de Aveyron."
+    ],
+    "es": [
+      "Antigua granja con carácter, restaurada con gusto sobre el tema de las motos de época. En el campo, cerca de Najac y La Fouillade, entre los valles del Viaur y del Aveyron."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Gîte Les Vaquans - Norton"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "EN",
+    "FR",
+    "IT"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/60c45801-ac5b-38e3-8aa7-1fb800deb859",
+    "schema:legalName": "ADT de l'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/83eb1ffd-282d-380b-bd5a-907ee530d4cb",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/979b3dcb-8bb2-354e-9216-a6792f8efa06",
+          "schema:addressLocality": "La Fouillade",
+          "schema:postalCode": "12270",
+          "schema:streetAddress": [
+            "Les Vaquans"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12105",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Fouillade"
+              ],
+              "pt": [
+                "La Fouillade"
+              ],
+              "en": [
+                "La Fouillade"
+              ],
+              "it": [
+                "La Fouillade"
+              ],
+              "fr": [
+                "La Fouillade"
+              ],
+              "nl": [
+                "La Fouillade"
+              ],
+              "es": [
+                "La Fouillade"
+              ]
+            },
+            "insee": "12105",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "les-vaquans@hotmail.fr"
+      ],
+      "schema:familyName": [
+        "QUAGLIA"
+      ],
+      "schema:givenName": [
+        "Cécile et Yves"
+      ],
+      "schema:legalName": "Gites les Vaquans",
+      "schema:telephone": [
+        "+33 5 65 65 73 67",
+        "+33 6 24 82 20 07",
+        "+33 6 24 82 27 20"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.gites-les-vaquans.com/"
+      ],
+      "foaf:title": [
+        "Monsieur et Madame"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/938466be-5ea5-366d-832c-f67596cd60c6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/66299fd0-63e4-3502-bbc3-610e148bb4e7",
+          "schema:addressLocality": "La Fouillade",
+          "schema:postalCode": "12270",
+          "schema:streetAddress": [
+            "Gîtes Les Vaquans",
+            "Les Vaquans"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12105",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Fouillade"
+              ],
+              "pt": [
+                "La Fouillade"
+              ],
+              "en": [
+                "La Fouillade"
+              ],
+              "it": [
+                "La Fouillade"
+              ],
+              "fr": [
+                "La Fouillade"
+              ],
+              "nl": [
+                "La Fouillade"
+              ],
+              "es": [
+                "La Fouillade"
+              ]
+            },
+            "insee": "12105",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "les-vaquans@hotmail.fr"
+      ],
+      "schema:legalName": "Gîte \"Norton\"",
+      "schema:telephone": [
+        "+33 5 65 65 73 67",
+        "+33 6 24 82 20 07",
+        "+33 6 24 82 27 20"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.gites-les-vaquans.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/9a0cd4ed-259b-37f5-9ec9-4250dee7791c",
+      "dc:description": {
+        "de": [
+          "Gîtes les Vaquans: Kapazität 18 Pers. / 1 Etappenunterkunft und 2 möblierte Unterkünfte, verteilt auf 3 Ebenen. Das ganze Jahr über geöffnet, für einen originellen, geselligen und atypischen Aufenthalt; ob Sie allein, mit der Familie oder in einer Gruppe sind, zögern Sie nicht, uns zu kontaktieren... Wir erwarten Sie! Empfang von Motorradfahrern und verschiedenen Clubs.\nGartengeschoss: Ferienhaus \"Norton\": 2 x 2 Personen (33 m²): Wohnzimmer mit Ess- und Fernsehecke (Schlafsofa 140 x 200), ein Schlafzimmer mit einem Bett 140 x 200, Kleiderschrank und Stauraum, eine ausgestattete Küchenzeile, ein Badezimmer mit WC, privater, nicht eingezäunter Garten, Zentralheizung, Geschirr, Bettwäsche, Decken, Handtücher vorhanden, Motorrad- und Autoparkplätze, WLAN-Internetzugang, Videokassetten, Bücher und Spiele zur Verfügung. Wäscherei- und Reinigungsservice. Versammlungs- und Seminarraum (12 Personen). Grillservice"
+        ],
+        "en": [
+          "Gîtes les Vaquans: capacity 18 pers / 1 gîte d'étape and 2 meublés, on 3 levels. Open all year round, for an original, friendly and atypical stay; whether you are alone, with your family or in a group, don't hesitate to contact us... We are waiting for you! We welcome bikers and various clubs.\nGarden level : gîte \"Norton\" : 2 x 2 persons (33 m²) : living room with dining area and television area (a sofa bed 140 x 200), a bedroom with a bed 140 x 200, wardrobe and storage space, an equipped kitchenette, a shower room with WC, private garden, central heating, crockery, sheets, blankets, towels provided, motorbike and car parking, wifi internet access, video cassettes, books and games available. Laundry and cleaning services. Meeting room - seminars (12 people). Barbecue service"
+        ],
+        "it": [
+          "Gîtes les Vaquans: capacità 18 pers / 1 gîte d'étape e 2 meublés, distribuiti su 3 livelli. Aperti tutto l'anno, per un soggiorno originale, conviviale e atipico; che siate soli, in famiglia o in gruppo, non esitate a contattarci... Vi aspettiamo! Accogliamo i motociclisti e i vari club.\nLivello giardino : gîte \"Norton\" : 2 x 2 persone (33 m²) : soggiorno con zona pranzo e zona televisione (divano letto 140 x 200), camera da letto con letto 140 x 200, armadio e ripostiglio, angolo cottura attrezzato, bagno con doccia e WC, giardino privato, riscaldamento centralizzato, stoviglie, lenzuola, coperte, asciugamani forniti, parcheggio per moto e auto, accesso internet wifi, videocassette, libri e giochi disponibili. Servizi di lavanderia e pulizia. Sala riunioni - seminari (12 persone). Servizio barbecue"
+        ],
+        "fr": [
+          "Gîtes les Vaquans: capacité 18 pers /1 gîte d'étape et 2 meublés, répartis sur 3 niveaux. Ouverts toute l'année, pour un séjour original, convivial et atypique; que vous soyez seul, en famille, en groupe, n'hésitez pas à nous contacter...On vous attend ! Accueil motards et clubs divers.\nRez-de-jardin : gîte \"Norton\" : 2 x 2 personnes (33 m²) : séjour avec coin repas et coin télévision (un canapé clic-clac de 140 x 200), une chambre avec un lit de 140 x 200, penderie et rangements, une cuisinette équipée, une salle d'eau avec WC, jardin privatif non clos, chauffage central, vaisselle, draps, couvertures, linge de toilette fournis, parkings motos et voitures, accès Internet wifi, cassettes vidéo, livres et jeux à disposition. Services buanderie et ménage. Salle de réunion - séminaires (12 personnes). Service barbecue. "
+        ],
+        "nl": [
+          "Gîtes les Vaquans: capaciteit 18 pers / 1 gîte d'étape en 2 meublés, verdeeld over 3 niveaus. Het hele jaar geopend, voor een origineel, gezellig en atypisch verblijf; of u nu alleen, met uw gezin of in groep bent, aarzel niet om contact met ons op te nemen... Wij wachten op u! Wij verwelkomen motorrijders en verschillende clubs.\nTuinniveau : gîte \"Norton\" : 2 x 2 personen (33 m²) : woonkamer met eethoek en televisiehoek (een slaapbank 140 x 200), een slaapkamer met een bed van 140 x 200, kleerkast en bergruimte, een ingerichte kitchenette, een doucheruimte met WC, eigen tuin, centrale verwarming, vaatwerk, lakens, dekens, handdoeken aanwezig, parkeerplaats voor motor en auto, wifi internet, videocassettes, boeken en spelletjes beschikbaar. Was- en schoonmaakdiensten. Vergaderzaal - seminars (12 personen). Barbecue service"
+        ],
+        "es": [
+          "Gîtes les Vaquans: capacidad para 18 pers / 1 gîte d'étape y 2 meublés, repartidos en 3 niveles. Abierto todo el año, para una estancia original, acogedora y atípica; ya sea solo, en familia o en grupo, no dude en ponerse en contacto con nosotros... ¡Le esperamos! Acogemos a los moteros y a los distintos clubes.\nNivel del jardín: casa rural \"Norton\": 2 x 2 personas (33 m²): sala de estar con zona de comedor y zona de televisión (un sofá cama de 140 x 200), un dormitorio con una cama de 140 x 200, armario y espacio de almacenamiento, una cocina americana equipada, un cuarto de ducha con WC, jardín privado, calefacción central, vajilla, sábanas, mantas, toallas proporcionadas, aparcamiento para motos y coches, acceso a Internet wifi, videocassettes, libros y juegos disponibles. Servicios de lavandería y limpieza. Sala de reuniones - seminarios (12 personas). Servicio de barbacoa"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/06904cc1-c4ef-37ec-9fc7-88e63fcc3eb8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0767f15b-22ee-396d-ba8c-816ed2658359",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0e473f0d-d71e-3ef1-b288-60e7edfcd2c8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0f774c88-4cc4-3015-9a72-852770580280",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/417420a4-5cfb-34f0-a706-d041c803eb97",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/98707b65-6136-3450-8a89-db37eaf1b668",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9c93c919-1793-3909-9abb-340334bdd151",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9d6ca5de-1a85-305e-95e0-4dedc1f6365b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/be44dfdd-60aa-38e9-a845-d1b6978aa308",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ehemaliges Bauernhaus mit Charakter, das geschmackvoll zum Thema Oldtimer-Motorräder restauriert wurde. Mitten auf dem Land, in der Nähe von Najac und La Fouillade, zwischen dem Viaur- und dem Aveyron-Tal."
+        ],
+        "en": [
+          "Accueil motards et clubs divers"
+        ],
+        "it": [
+          "Antica casa colonica di carattere, ristrutturata con gusto sul tema delle moto d'epoca. In campagna, vicino a Najac e La Fouillade, tra le valli del Viaur e dell'Aveyron."
+        ],
+        "fr": [
+          "Ancien corps de ferme de caractère, restauré avec goût sur le thème de la moto de collection. En pleine campagne, à deux pas de Najac et La Fouillade, entre la vallée du Viaur et de l'Aveyron."
+        ],
+        "nl": [
+          "Oude boerderij met karakter, smaakvol gerestaureerd met als thema vintage motoren. Op het platteland, in de buurt van Najac en La Fouillade, tussen de valleien van de Viaur en de Aveyron."
+        ],
+        "es": [
+          "Antigua granja con carácter, restaurada con gusto sobre el tema de las motos de época. En el campo, cerca de Najac y La Fouillade, entre los valles del Viaur y del Aveyron."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0a8480ea-c035-3f28-a062-a6e4ee1c7fb3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:PrivateWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Máquina de lavar roupa privativa"
+            ],
+            "en": [
+              "Private washer"
+            ],
+            "it": [
+              "Lavatrice privata"
+            ],
+            "fr": [
+              "Lave linge privatif"
+            ],
+            "nl": [
+              "Wasmachine voor privégebruik"
+            ],
+            "es": [
+              "Lavadora privada"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftlich genutzte Waschmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar roupa coletiva"
+            ],
+            "en": [
+              "Shared washer"
+            ],
+            "it": [
+              "Lavatrice comune"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ],
+            "es": [
+              "Lavadoras colectivas"
+            ],
+            "nl": [
+              "Gemeenschappelijke wasmachine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0e9faf0e-cbca-3a1a-a9a7-c0ee80651f45",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "petsAllowed": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47b6c5ae-cf8c-34ec-b5b5-1bfcf66dd71a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/54f133e2-85d0-3080-951a-9dbedb3afec3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:MeetingRoom",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de reuniões"
+            ],
+            "en": [
+              "Meeting room"
+            ],
+            "it": [
+              "Sala riunioni"
+            ],
+            "fr": [
+              "Salle de réunion"
+            ],
+            "nl": [
+              "Vergaderzaal"
+            ],
+            "es": [
+              "Sala de reuniones"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/57241241-6763-3acf-a996-8275c7c5a8f4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:SeminarRoom",
+          "@type": [
+            "RoomAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Sitzungsraum"
+            ],
+            "pt": [
+              "Sala de seminários"
+            ],
+            "en": [
+              "Seminar room"
+            ],
+            "it": [
+              "Sala seminari"
+            ],
+            "fr": [
+              "Salle de séminaire"
+            ],
+            "es": [
+              "Sala de seminarios"
+            ],
+            "nl": [
+              "Congreszaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/61749a82-9e66-3a81-9a5a-5057d9c53134",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:FinalHousekeeping",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Endreinigung"
+            ],
+            "pt": [
+              "Limpeza no fim da estadia"
+            ],
+            "en": [
+              "Final housekeeping"
+            ],
+            "it": [
+              "Pulizia alla fine del soggiorno"
+            ],
+            "fr": [
+              "Ménage en fin de séjour"
+            ],
+            "es": [
+              "Tareas de limpieza al final del día"
+            ],
+            "nl": [
+              "Eindschoonmaak"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/85800ab0-9899-3030-a9d9-26ddabf04975",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8e01781c-510b-3c29-a03d-de9874101063",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:PrivateDryer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Secador de roupa privativo"
+            ],
+            "en": [
+              "Private dryer"
+            ],
+            "it": [
+              "Asciugatrice privata"
+            ],
+            "fr": [
+              "Sèche linge privatif"
+            ],
+            "es": [
+              "Secadora privada"
+            ],
+            "nl": [
+              "Droger voor privégebruik"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/972080b8-3a91-31cc-aa2a-b818e4fffcd4",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b93868b4-8e3a-30c2-b698-8bc27b60fe69",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Barbecue",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Grill"
+            ],
+            "pt": [
+              "Churrasco"
+            ],
+            "en": [
+              "Barbecue"
+            ],
+            "it": [
+              "Barbecue"
+            ],
+            "fr": [
+              "Barbecue"
+            ],
+            "nl": [
+              "Barbecue"
+            ],
+            "es": [
+              "Barbacoa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b9cebe46-0310-3725-ae8f-cf773b1cbab5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:RoomService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmerservice"
+            ],
+            "pt": [
+              "Serviço de quartos"
+            ],
+            "en": [
+              "Room service"
+            ],
+            "it": [
+              "Servizio in camera"
+            ],
+            "fr": [
+              "Room service"
+            ],
+            "es": [
+              "Servicio de habitaciones"
+            ],
+            "nl": [
+              "Roomservice"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/c95aa75e-5d1c-38b9-a582-23247cdf6034",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/122d61fc-5a10-38be-9cad-1013d8944acd",
+          "ebucore:abstract": {
+            "fr": [
+              "Gîte Les Vaquans - Norton"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Gîte Les Vaquans - Norton"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes Les Vaquans"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1d603425-9381-3e33-860f-1c98324b45f8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO109176900539/TFO109176900539-17a/medias/jpg/0_vue-d-ensemble-gites-les-vaquans-.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/c95aa75e-5d1c-38b9-a582-23247cdf6034",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/122d61fc-5a10-38be-9cad-1013d8944acd",
+          "ebucore:abstract": {
+            "fr": [
+              "Gîte Les Vaquans - Norton"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Gîte Les Vaquans - Norton"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes Les Vaquans"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1d603425-9381-3e33-860f-1c98324b45f8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO109176900539/TFO109176900539-17a/medias/jpg/0_vue-d-ensemble-gites-les-vaquans-.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/0aa3efa7-8e4a-3812-8523-b13bdde939ca",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2010-05-26"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/4fc16ba7-d3d7-3364-bced-67f83a9e5397",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/51a12819-fcb4-34f3-b5ee-2bf032566b9e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6f0f6535-0cae-3da7-89d5-a8825b2368a5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f6433ec7-14f2-3e07-957f-039fe1ef4c74",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/d7146782-9fe5-3079-b3a7-77e9a2f71d7a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/66299fd0-63e4-3502-bbc3-610e148bb4e7",
+          "schema:addressLocality": "La Fouillade",
+          "schema:postalCode": "12270",
+          "schema:streetAddress": [
+            "Gîtes Les Vaquans",
+            "Les Vaquans"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12105",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Fouillade"
+              ],
+              "pt": [
+                "La Fouillade"
+              ],
+              "en": [
+                "La Fouillade"
+              ],
+              "it": [
+                "La Fouillade"
+              ],
+              "fr": [
+                "La Fouillade"
+              ],
+              "nl": [
+                "La Fouillade"
+              ],
+              "es": [
+                "La Fouillade"
+              ]
+            },
+            "insee": "12105",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7528f769-a60d-3573-b250-c0bb17f7283a",
+        "schema:elevation": "400",
+        "schema:latitude": "44.2195",
+        "schema:longitude": "2.0212",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-07",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.739Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/e29206a9-1b8a-3c2b-b19c-9b8e2ce75d73",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/099c41a5-ef08-3bf9-9181-2662cd518ed5",
+          "schema:price": "320",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/25006e38-3dbb-39bf-b98b-98e09e516b14",
+          "schema:price": "340",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/48d0b0ff-95be-33ed-8615-a64487094818",
+          "schema:price": "490",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7808dc2a-739c-3def-ab2e-7d448b418a09",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "au % des Übernachtungspreises pro Erwachsener und Nacht"
+            ],
+            "en": [
+              "at % of the nightly rate per adult per night"
+            ],
+            "it": [
+              "in % della tariffa notturna per adulto a notte"
+            ],
+            "fr": [
+              "au % du prix de la nuitée par adulte et par nuit"
+            ],
+            "nl": [
+              "in % van het nachttarief per volwassene per nacht"
+            ],
+            "es": [
+              "en % de la tarifa nocturna por adulto y noche"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/08c5cf45-8559-3c10-b7a7-0caf4593060c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/09686391-495c-31fd-8f91-1eb1c097bc13",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a6ba7515-98a9-39c7-bba3-f2d0a2ed759b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d38d218f-bd67-3a37-8647-a1d620be7a28",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/eb31ea21-678e-38d5-845c-72dd777a734c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8a79116b-c5e6-38c5-bd53-9beb7fcb4b7a",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Übernachtungen mit Frühstück für 1 Pers. oder Paar und \"Wochenend\"-Formel möglich"
+            ],
+            "en": [
+              "Nights with breakfast for 1 person or couple and \"weekend\" formula possible"
+            ],
+            "it": [
+              "Pernottamenti con prima colazione per 1 persona o coppia e possibilità di pacchetto weekend"
+            ],
+            "fr": [
+              "Nuitées avec petit déjeuner pour 1 pers. ou couple et formule \" week-end\" possible"
+            ],
+            "es": [
+              "Posibilidad de pernoctación con desayuno para 1 persona o pareja y paquete de fin de semana"
+            ],
+            "nl": [
+              "Overnachting met ontbijt voor 1 persoon of stel en weekendarrangement mogelijk"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1001ceec-c565-386c-8e18-4bfb3bad10d4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/46baf9ab-0dc6-364f-be03-39dc14e6bc46",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4f7f367b-f45c-3e06-b5cb-f215611db2fb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/df3bc572-32bf-3062-80ac-0e37cf21cc29",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e84e099a-eb25-3902-a102-7f8999de3074",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f98c5db4-bbd4-3e26-a82c-52861044ced5",
+          "schema:price": "455",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,989 @@
+{
+  "@id": "https://data.datatourisme.fr/49/8eebb561-9747-3a52-be44-0337a02f1840",
+  "dc:identifier": "ASCPDL044V50CVX0",
+  "@type": [
+    "schema:Product",
+    "FreePractice",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Angeln am Plan d'eau du Pilori"
+    ],
+    "en": [
+      "Fishing at the Pillory lake"
+    ],
+    "it": [
+      "Pesca al lago Pilori"
+    ],
+    "fr": [
+      "Pêche au plan d'eau du Pilori"
+    ],
+    "nl": [
+      "Vissen bij het Pilori meer"
+    ],
+    "es": [
+      "Pesca en el lago Pilori"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "PÊCHE_ETANG DE L'ARCEAU"
+    ]
+  },
+  "creationDate": "2016-05-31",
+  "hasAudience": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/8da5fce8-7740-312f-984f-d6b8d36214d8",
+      "schema:telephone": [
+        "+33 2 28 01 60 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/31784f0e-d47c-3886-a12b-3916f7cc308e",
+      "dc:description": {
+        "de": [
+          "Liebhaber von Zander, Barsch, Karpfen und anderen Weißfischen sollten nicht zögern, die Ruhe dieses schönen Gewässers zu genießen.\nReglementiertes Angeln AAPPMA\nVerkauf von Angelkarten im Office de Tourisme Estuaire et Sillon oder unter www.federationpeche44.fr"
+        ],
+        "en": [
+          "Lovers of pikeperch, perch, carp and other white fish, do not hesitate to enjoy the calm of this beautiful body of water.\nAAPPMA regulated fishing\nFishing cards for sale at the Estuary and Sillon Tourist Office or on www.federationpeche44.fr"
+        ],
+        "it": [
+          "Gli amanti del luccioperca, del persico, della carpa e di altri pesci bianchi non esitino ad approfittare della calma di questo splendido specchio d'acqua.\nPesca regolamentata AAPPMA\nCarte di pesca in vendita presso l'Ufficio del Turismo dell'Estuaire et Sillon o su www.federationpeche44.fr"
+        ],
+        "fr": [
+          "Amateurs de sandres, perches, carpes et autres poissons blancs, n'hésitez pas à profiter du calme de ce beau plan d'eau.\nPêche réglementée AAPPMA\nVente de cartes de pêche à l'Office de Tourisme Estuaire et Sillon ou sur www.federationpeche44.fr"
+        ],
+        "es": [
+          "Los amantes del lucio, la perca, la carpa y otros peces blancos, no duden en aprovechar la calma de este hermoso tramo de agua.\nPesca regulada AAPPMA\nTarjetas de pesca a la venta en la Oficina de Turismo de Estuaire et Sillon o en www.federationpeche44.fr"
+        ],
+        "nl": [
+          "Liefhebbers van snoekbaars, baars, karper en andere witvis, aarzel niet om te profiteren van de rust van dit prachtige stuk water.\nGereglementeerde visserij AAPPMA\nViskaarten zijn te koop bij het toeristenbureau van Estuaire et Sillon of op www.federationpeche44.fr"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2fd3fefb-eabe-3a5c-ab12-7417c3f9fb50",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4ec4aaa1-20ce-305f-9270-3dec7075d1ea",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/81ec345d-3401-304a-963b-e70855fe3e4e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9fd3bbb5-8c05-3c7f-8230-fb705d8f6918",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ac8ea173-40bf-3e81-bb9c-251a6ef85836",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b1e5c3d6-8d9a-34f4-92c9-a5c87fea57db",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/be2f2f89-7416-3279-8d41-7dc357267f66",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ecc19089-603b-396e-9059-b1aa0300ef14",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f05b84a4-fd9f-3a73-9b00-2646b437194f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f9bb4dd8-8c80-3dba-a582-49cf539973da",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Angeln am Plan d'eau du Pilori"
+        ],
+        "en": [
+          "Fishing at the Pillory lake"
+        ],
+        "it": [
+          "Pesca al lago Pilori"
+        ],
+        "fr": [
+          "Pêche au plan d'eau du Pilori"
+        ],
+        "nl": [
+          "Vissen bij het Pilori meer"
+        ],
+        "es": [
+          "Pesca en el lago Pilori"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Fishing",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fischerei"
+        ],
+        "pt": [
+          "Pesca"
+        ],
+        "en": [
+          "Fishing"
+        ],
+        "it": [
+          "Pesca"
+        ],
+        "fr": [
+          "Pêche"
+        ],
+        "nl": [
+          "Visserij"
+        ],
+        "es": [
+          "Pesca"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1b34e32d-639b-3099-9404-931f3f5a950e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cde7c686-0c63-3de4-bfff-4f0e5914cb61",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/deac8a81-f970-3f9b-80d6-cfe64ef7b1c6",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dff36872-a43f-30f1-aadf-d36e79cf4cd7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e30d5f0f-c46a-3b53-895c-bd458178e8e3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/ebb8ffd2-23b2-322d-95a4-cef2e9f0531b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/9b3c6eac-efa3-3ad8-ad0f-f8a678c6298b",
+          "schema:addressLocality": "Campbon",
+          "schema:postalCode": "44750",
+          "schema:streetAddress": [
+            "Etang del'Arceau"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:44025",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Campbon"
+              ],
+              "pt": [
+                "Campbon"
+              ],
+              "en": [
+                "Campbon"
+              ],
+              "it": [
+                "Campbon"
+              ],
+              "fr": [
+                "Campbon"
+              ],
+              "nl": [
+                "Campbon"
+              ],
+              "es": [
+                "Campbon"
+              ]
+            },
+            "insee": "44025",
+            "isPartOfDepartment": {
+              "@id": "kb:France5244",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Loire-Atlantique"
+                ],
+                "pt": [
+                  "Loire-Atlantique"
+                ],
+                "en": [
+                  "Loire-Atlantique"
+                ],
+                "it": [
+                  "Loire-Atlantique"
+                ],
+                "fr": [
+                  "Loire-Atlantique"
+                ],
+                "nl": [
+                  "Loire-Atlantique"
+                ],
+                "es": [
+                  "Loire-Atlantique"
+                ]
+              },
+              "insee": "44",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b6fa3ddc-bdc4-38b5-acb4-e3a13e0b3413",
+        "schema:latitude": "47.4080439",
+        "schema:longitude": "-1.966162",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-12-19",
+  "lastUpdateDatatourisme": "2023-02-25T01:31:54.639Z"
+}

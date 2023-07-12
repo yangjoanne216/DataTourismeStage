@@ -1,0 +1,858 @@
+{
+  "@id": "https://data.datatourisme.fr/49/f0d6cbaf-eae4-31cf-8755-6cdeb5ecbbb9",
+  "dc:identifier": "ASCPDL053V508V5Y",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Neuheit 2023: Retro Guinguette-Kreuzfahrt"
+    ],
+    "en": [
+      "New in 2023: Retro Guinguette Cruise"
+    ],
+    "it": [
+      "Novità 2023: Crociera Retro Guinguette"
+    ],
+    "fr": [
+      "Nouveauté 2023 : Croisière Rétro Guinguette"
+    ],
+    "es": [
+      "Nuevo en 2023: Crucero Retro Guinguette"
+    ],
+    "nl": [
+      "Nieuw in 2023: Retro Guinguette Cruise"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "CROISIÈRE RETRO GUINGUETTE"
+    ]
+  },
+  "creationDate": "2022-05-23",
+  "hasAudience": [
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/aa0984a6-0324-3ea1-9825-0ea100d9b455",
+      "schema:email": [
+        "billetterie@laval-tourisme.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 49 45 26"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.laval-tourisme.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/4b2e74f2-7d87-3754-be59-439ee409421f",
+      "dc:description": {
+        "de": [
+          "Das Vallis Guidonis verwandelt sich in ein Guinguette! Holen Sie die gepunkteten Kleider, die Hosenträger und die Gomina hervor und kommen Sie zum Guinchen! Ein festlicher Retro-Abend mit Antoine Richard und seiner Gitarre, die für Stimmung sorgen, begleitet von Bier und Cidre aus der Region Mayenne, um den Durst zu löschen.\n\nDresscode: Vintage-Outfit!\n\nDaten:  Samstag, 14. Juli\nUhrzeit: von 19 Uhr bis 21 Uhr\nEinzeltarif: 28 ?/Pers."
+        ],
+        "en": [
+          "The Vallis Guidonis is transformed into a guinguette! Get out the polka dot dresses, the suspenders, the gomina and come and dance! A retro and festive evening with Antoine Richard and his guitar, accompanied by beers and ciders from Mayenne to quench your thirst.\n\nDress code mandatory: vintage outfit!\n\nDates :  Saturday July 14th\nTimes : from 7pm to 9pm\nUnique price : 28 ?/pers."
+        ],
+        "it": [
+          "La Vallis Guidonis si trasforma in una guinguette! Tirate fuori i vestiti a pois, le bretelle, la gomina e venite a ballare! Una serata retrò e festosa con Antoine Richard e la sua chitarra a creare l'atmosfera, accompagnata da birre e sidri di Mayenne per dissetarvi.\n\nDress code obbligatorio: abbigliamento vintage!\n\nDate :  Sabato 14 luglio\nOrario: dalle 19.00 alle 21.00\nPrezzo singolo : 28 €/pers."
+        ],
+        "fr": [
+          "Le Vallis Guidonis se transforme en guinguette ! Ressortez les robes à pois, les bretelles, la gomina et venez guincher ! Une soirée rétro et festive avec Antoine Richard et sa guitare pour s'ambiancer, accompagnés de bières et de cidres mayennais pour se désaltérer.\n\nDress code obligatoire : tenue vintage !\n\nDates :  Samedi 14 juillet \nHoraires : de 19h à 21h \nTarif unique : 28 €/pers."
+        ],
+        "es": [
+          "¡El Vallis Guidonis se transforma en guinguette! ¡Saca los vestidos de lunares, los tirantes, la gomina y ven a bailar! Una velada retro y festiva con Antoine Richard y su guitarra para crear ambiente, acompañada de cervezas y sidras de Mayenne para saciar la sed.\n\nCódigo de vestimenta obligatorio: ¡vestimenta vintage!\n\nFechas :  Sábado 14 de julio\nHorario: de 19h a 21h\nPrecio único : 28€/pers."
+        ],
+        "nl": [
+          "De Vallis Guidonis wordt omgetoverd tot een guinguette! Haal de jurken met stippen, de bretels, de gomina en kom dansen! Een retro en feestelijke avond met Antoine Richard en zijn gitaar als sfeermaker, vergezeld van bieren en ciders uit Mayenne om de dorst te lessen.\n\nDresscode verplicht: vintage outfit!\n\nData :  Zaterdag 14 juli\nTijden: van 19u tot 21u\nPrijs per persoon: 28 € /pers."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/05e56059-0bac-3c69-b629-29f16798483c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/13dd42ac-86bd-3d8c-862e-627630da7f55",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/227db396-b83c-3f2d-9a4a-6a1092cb49e4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3195cb8b-c033-318a-b63c-32e79450898d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/66e4baca-8d89-375c-93e8-3bc1411ee4d2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/83a3741f-91fa-3124-8661-62ca03f24b16",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/882da954-e0de-305c-b4b6-559e7d087b52",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bc370e58-0d33-3c95-a4a8-c1664d8dda08",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bce9ea6a-727c-3b88-bd88-1540db322f9f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f81dddaf-8466-3510-b52f-a183493967af",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Neuheit 2023: Retro Guinguette-Kreuzfahrt"
+        ],
+        "en": [
+          "New in 2023: Retro Guinguette Cruise"
+        ],
+        "it": [
+          "Novità 2023: Crociera Retro Guinguette"
+        ],
+        "fr": [
+          "Nouveauté 2023 : Croisière Rétro Guinguette"
+        ],
+        "es": [
+          "Nuevo en 2023: Crucero Retro Guinguette"
+        ],
+        "nl": [
+          "Nieuw in 2023: Retro Guinguette Cruise"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/5c35c99b-1e81-3c2f-8ad8-909f65359f33",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/62388523-120d-37fd-9ba1-a8fec9f8012e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6b510880-a2ba-344e-9c2c-5c69e6782ebf",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/74898116-011d-3fef-a84e-b0533368af02",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b7051df1-8892-3967-9220-64ef9f984b8b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/69815650-45a6-35fe-a3dd-e62779ace125",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2363f0ce-9387-3d2a-83d7-3becce88b790",
+          "schema:addressLocality": "Laval",
+          "schema:postalCode": "53000",
+          "schema:streetAddress": [
+            "100 Rue du Vieux Saint-Louis"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53130",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laval"
+              ],
+              "pt": [
+                "Laval"
+              ],
+              "en": [
+                "Laval"
+              ],
+              "it": [
+                "Laval"
+              ],
+              "fr": [
+                "Laval"
+              ],
+              "nl": [
+                "Laval"
+              ],
+              "es": [
+                "Laval"
+              ]
+            },
+            "insee": "53130",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/3089f018-f7d5-35d3-856d-7d76c89593b1",
+        "schema:latitude": "48.0756",
+        "schema:longitude": "-0.77167",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-05-09",
+  "lastUpdateDatatourisme": "2023-05-10T00:48:44.825Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/5f538d9e-9fbf-3fc4-9aad-dd66c38794c7",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

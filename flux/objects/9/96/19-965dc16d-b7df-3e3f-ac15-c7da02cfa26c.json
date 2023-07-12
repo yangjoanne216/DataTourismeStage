@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/965dc16d-b7df-3e3f-ac15-c7da02cfa26c",
+  "dc:identifier": "58d26e68-4712-11e9-81a5-0050569a22ea",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Mob Hotel Paris Les Puces"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1a671396-0e27-3490-b309-cc1b782b5c99",
+      "schema:email": [
+        "helloparis@mobhotel.com"
+      ],
+      "schema:telephone": [
+        "+33 1 47 00 70 70"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.mobhotel.com/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/db57a9fe-809b-32b8-8d5b-9140414ed040",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/dfdd0d28-7ab6-3a70-9b10-1e907c557709",
+          "schema:addressLocality": "Saint-Ouen-sur-Seine",
+          "schema:postalCode": "93400",
+          "schema:streetAddress": [
+            "4-6 rue Gambetta"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:93070",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Ouen-sur-Seine"
+              ],
+              "pt": [
+                "Saint-Ouen-sur-Seine"
+              ],
+              "en": [
+                "Saint-Ouen-sur-Seine"
+              ],
+              "it": [
+                "Saint-Ouen-sur-Seine"
+              ],
+              "fr": [
+                "Saint-Ouen-sur-Seine"
+              ],
+              "nl": [
+                "Saint-Ouen-sur-Seine"
+              ],
+              "es": [
+                "Saint-Ouen-sur-Seine"
+              ]
+            },
+            "insee": "93070",
+            "isPartOfDepartment": {
+              "@id": "kb:France1193",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Seine-Saint-Denis"
+                ],
+                "pt": [
+                  "Seine-Saint-Denis"
+                ],
+                "en": [
+                  "Seine-Saint-Denis"
+                ],
+                "it": [
+                  "Seine-Saint-Denis"
+                ],
+                "fr": [
+                  "Seine-Saint-Denis"
+                ],
+                "nl": [
+                  "Seine-Saint-Denis"
+                ],
+                "es": [
+                  "Seine-Saint-Denis"
+                ]
+              },
+              "insee": "93",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/33c2787a-4d65-3893-9f96-f66c99a6a3e8",
+        "schema:latitude": "48.9057",
+        "schema:longitude": "2.336059999999975",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-13",
+  "lastUpdateDatatourisme": "2023-03-14T09:40:03.69Z",
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,335 @@
+{
+  "@id": "https://data.datatourisme.fr/13/4ee991fd-498e-30c4-bf88-81cb394c8efa",
+  "dc:identifier": "5121530",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Aux Prés"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/03e0704b-5690-32de-a186-1dc3ad3316c9",
+    "dc:identifier": "1019",
+    "schema:email": [
+      "bgeigle@visitparisregion.com",
+      "hcaldo@visitparisregion.com",
+      "mtanaskovic@visitparisregion.com"
+    ],
+    "schema:legalName": "Comité Régional du Tourisme Paris Ile de France",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.visitparisregion.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8a9feb4b-2cbd-3d2c-b507-bd6c6776b23b",
+      "schema:legalName": "Apidae Tourisme Scic SA - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a98e3f3a-1bd2-33b2-9883-a3305bb6efdb",
+      "schema:email": [
+        "contact@cyrillignac.com"
+      ],
+      "schema:telephone": [
+        "+33 1 45 48 29 68"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.restaurantauxpres.com/"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5f70f1eb-1b4c-30bf-a20e-d0e8325880d8",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d886ac00-dcf7-378a-b902-c34c53c06b65",
+          "schema:addressLocality": "Paris 6e Arrondissement",
+          "schema:postalCode": "75006",
+          "schema:streetAddress": [
+            "27 rue du Dragon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:75106",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Paris 6e Arrondissement"
+              ],
+              "pt": [
+                "Paris 6e Arrondissement"
+              ],
+              "en": [
+                "Paris 6e Arrondissement"
+              ],
+              "it": [
+                "Paris 6e Arrondissement"
+              ],
+              "fr": [
+                "Paris 6e Arrondissement"
+              ],
+              "nl": [
+                "Paris 6e Arrondissement"
+              ],
+              "es": [
+                "Paris 6e Arrondissement"
+              ]
+            },
+            "insee": "75106",
+            "isPartOfDepartment": {
+              "@id": "kb:France1175",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Paris"
+                ],
+                "pt": [
+                  "Paris"
+                ],
+                "en": [
+                  "Paris"
+                ],
+                "it": [
+                  "Paris"
+                ],
+                "fr": [
+                  "Paris"
+                ],
+                "nl": [
+                  "Paris"
+                ],
+                "es": [
+                  "Paris"
+                ]
+              },
+              "insee": "75",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/2855a8eb-8ab4-37f4-8830-ba68d966930c",
+        "schema:latitude": "48.852724",
+        "schema:longitude": "2.330512",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/63526a1c-5154-331c-be19-deb4decdece4",
+          "schema:closes": "14:30:00",
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Abendessen von 19:00 bis 23:00 Uhr"
+            ],
+            "en": [
+              "Dinner from 7pm to 11pm"
+            ],
+            "it": [
+              "Cena dalle 19.00 alle 23.00"
+            ],
+            "fr": [
+              "Diner de 19h à 23h"
+            ],
+            "nl": [
+              "Diner van 19.00 tot 23.00 uur"
+            ],
+            "es": [
+              "Cena de 19 a 23 horas"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/01ad3204-0f3b-3643-ab75-15aa81a7079e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/337fd6a4-802c-33ee-9c92-2b25bcb63432",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9b3b57e7-3e47-322a-9c6b-8372df992e39",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b726d45f-afed-3155-ab06-879c215679db",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bb097c47-3fa3-3efa-a0bf-ef5d6e704211",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/26ecd6f0-563c-356a-b0f9-ad3ec17effc4",
+      "schema:email": [
+        "bgeigle@visitparisregion.com",
+        "hcaldo@visitparisregion.com",
+        "mtanaskovic@visitparisregion.com"
+      ],
+      "schema:legalName": "Comité Régional du Tourisme Paris Ile de France",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.visitparisregion.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-06-25",
+  "lastUpdateDatatourisme": "2023-06-22T05:53:28.773Z"
+}

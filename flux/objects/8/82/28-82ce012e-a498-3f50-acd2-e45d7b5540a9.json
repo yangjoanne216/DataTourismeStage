@@ -1,0 +1,974 @@
+{
+  "@id": "https://data.datatourisme.fr/28/82ce012e-a498-3f50-acd2-e45d7b5540a9",
+  "dc:identifier": "HOTNPDC0001008UF",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Das Hotel du Pasino in Saint-Amand-les-Eaux lädt Sie dazu ein, den Charme der Kurstadt zu genießen und gleichzeitig..."
+    ],
+    "en": [
+      "The Pasino hotel in Saint-Amand-les-Eaux invites you to enjoy the charm of the spa town, as well as the..."
+    ],
+    "it": [
+      "L'hotel Pasino di Saint-Amand-les-Eaux vi invita a godere del fascino della città termale e della bellezza della..."
+    ],
+    "fr": [
+      "L'hôtel du Pasino de Saint-Amand-les-Eaux vous invite à profiter du charme de la ville thermale, ain..."
+    ],
+    "nl": [
+      "Hotel Pasino in Saint-Amand-les-Eaux nodigt u uit om te genieten van de charme van het kuuroord en de schoonheid van de..."
+    ],
+    "es": [
+      "El hotel Pasino de Saint-Amand-les-Eaux le invita a disfrutar del encanto de la ciudad balneario, así como de la belleza..."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Hôtel du Pasino"
+    ]
+  },
+  "allowedPersons": 142,
+  "availableLanguage": [
+    "Néerlandais",
+    "de",
+    "en"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/28/9fddd220-aebe-35e7-941e-f5fd994c9f44",
+    "dc:identifier": "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme",
+    "schema:familyName": [
+      "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme"
+    ],
+    "schema:legalName": "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/92f31106-f566-3eba-9601-ef062e161fbc",
+      "schema:legalName": "SIM Picardie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/d5d2fcaa-1765-3e96-9406-5435e91caa2a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2c04c245-dcfe-3824-9abf-b4617a083dec",
+          "schema:addressLocality": "Saint-Amand-les-Eaux",
+          "schema:postalCode": "59732",
+          "schema:streetAddress": [
+            "B.P. 60079",
+            "rue du Chemin de l'Empire - Rocade Nord"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59526",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "pt": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "en": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "it": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "fr": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "nl": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "es": [
+                "Saint-Amand-les-Eaux"
+              ]
+            },
+            "insee": "59526",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Hôtellerie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/753b8e94-3284-3685-a754-aebb90cc370f",
+      "schema:email": [
+        "hotel-saintamand@partouche.com"
+      ],
+      "schema:telephone": [
+        "+33 3 27 48 19 00"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.casinosaintamand.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d5d2fcaa-1765-3e96-9406-5435e91caa2a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2c04c245-dcfe-3824-9abf-b4617a083dec",
+          "schema:addressLocality": "Saint-Amand-les-Eaux",
+          "schema:postalCode": "59732",
+          "schema:streetAddress": [
+            "B.P. 60079",
+            "rue du Chemin de l'Empire - Rocade Nord"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59526",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "pt": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "en": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "it": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "fr": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "nl": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "es": [
+                "Saint-Amand-les-Eaux"
+              ]
+            },
+            "insee": "59526",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Hôtellerie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/d17ca4db-baf2-3838-8cd5-de716c147281",
+      "dc:description": {
+        "de": [
+          "Das Hotel du Pasino in Saint-Amand-les-Eaux lädt Sie ein, den Charme der Kurstadt sowie den Freizeitkomplex zu genießen, der sich ganz der Unterhaltung und den Spielen widmet. Sie werden die raffinierte Einrichtung und den Komfort der Zimmer (Komfort, Privileg) und Suiten dieses charmanten Hotels zu schätzen wissen.\nDer Espace Forme garantiert Ihnen einen Moment der Ruhe in einer Zen-Atmosphäre."
+        ],
+        "en": [
+          "The Pasino hotel in Saint-Amand-les-Eaux invites you to enjoy the charm of the spa town, as well as its leisure complex entirely dedicated to entertainment and games. You will appreciate the refined decor and the comfort of the rooms (comfort, privilege) and suites of this charming hotel.\nThe fitness area guarantees you a moment of tranquility in a Zen atmosphere."
+        ],
+        "it": [
+          "L'hotel Pasino di Saint-Amand-les-Eaux vi invita a godere del fascino della città termale e del suo complesso ricreativo interamente dedicato all'intrattenimento e al gioco. Apprezzerete l'arredamento raffinato e il comfort delle camere (comfort, privilege) e delle suite di questo hotel di charme.\nL'area fitness vi garantisce un momento di tranquillità in un'atmosfera zen."
+        ],
+        "fr": [
+          "L'hôtel du Pasino de Saint-Amand-les-Eaux vous invite à profiter du charme de la ville thermale, ainsi que de son complexe de loisirs entièrement dédié au divertissement et aux jeux. Vous apprécierez le décor raffiné et le confort des chambres (confort, privilège) et suites de cet hôtel de charme. \nL'espace Forme vous garantit un moment de tranquillité dans une ambiance zen."
+        ],
+        "nl": [
+          "Het hotel Pasino in Saint-Amand-les-Eaux nodigt u uit om te genieten van de charme van het kuuroord, evenals van het recreatiecomplex dat volledig gewijd is aan amusement en spelletjes. U zult de verfijnde inrichting en het comfort van de kamers (comfort, privilege) en suites van dit charmante hotel op prijs stellen.\nDe fitnessruimte garandeert u een moment van rust in een zen-sfeer."
+        ],
+        "es": [
+          "El hotel Pasino de Saint-Amand-les-Eaux le invita a disfrutar del encanto de la ciudad balneario, así como de su complejo de ocio enteramente dedicado al entretenimiento y los juegos. Apreciará la refinada decoración y el confort de las habitaciones (confort, privilege) y suites de este hotel con encanto.\nEl espacio fitness le garantiza un momento de tranquilidad en un ambiente zen."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0acb5c9f-c320-3d96-857d-86ccf15b97ef",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3bb923bf-59c6-304d-9039-74ebaad2c4f6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5672e38f-b584-3380-8624-8b5f0c556edd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6a1689c1-fa1d-3265-81fc-b498c9c3117a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/83a5eb85-908a-31b6-a148-0a584ac15d79",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8c4b9e03-837b-36fd-9e8f-03a02d60516a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d4263454-483f-3a79-8cdb-d1c105069347",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d8da7150-e565-303f-95dd-e4b32bad2e7d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f80267f3-6169-3e02-92a7-08180ec24682",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f91d5b9c-fd5a-3939-93ef-c3ac485e4e06",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Das Hotel du Pasino in Saint-Amand-les-Eaux lädt Sie dazu ein, den Charme der Kurstadt zu genießen und gleichzeitig..."
+        ],
+        "en": [
+          "The Pasino hotel in Saint-Amand-les-Eaux invites you to enjoy the charm of the spa town, as well as the..."
+        ],
+        "it": [
+          "L'hotel Pasino di Saint-Amand-les-Eaux vi invita a godere del fascino della città termale e della bellezza della..."
+        ],
+        "fr": [
+          "L'hôtel du Pasino de Saint-Amand-les-Eaux vous invite à profiter du charme de la ville thermale, ain..."
+        ],
+        "nl": [
+          "Hotel Pasino in Saint-Amand-les-Eaux nodigt u uit om te genieten van de charme van het kuuroord en de schoonheid van de..."
+        ],
+        "es": [
+          "El hotel Pasino de Saint-Amand-les-Eaux le invita a disfrutar del encanto de la ciudad balneario, así como de la belleza..."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/15a5fa0e-f1ac-30e6-b691-e83723387fcd",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Elevator",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Personenaufzug"
+            ],
+            "pt": [
+              "Elevador"
+            ],
+            "en": [
+              "Elevator"
+            ],
+            "it": [
+              "Ascensore"
+            ],
+            "fr": [
+              "Ascenseur"
+            ],
+            "nl": [
+              "Lift"
+            ],
+            "es": [
+              "Ascensor"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Hammam",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Hamam"
+            ],
+            "pt": [
+              "Sauna húmida (hammam)"
+            ],
+            "en": [
+              "Hammam"
+            ],
+            "it": [
+              "Hammam"
+            ],
+            "fr": [
+              "Hammam"
+            ],
+            "nl": [
+              "Hammam"
+            ],
+            "es": [
+              "Hammam"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/8e561a6f-f691-3d28-9e36-c150c31b5fbb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0cfb6ba5-3c12-30b0-98f0-0f4071e43ee5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5e14c4ef-2c08-353c-8592-15698e09eb9d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/69d5060c-9186-3f5b-a4ee-5f5a99123bea",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8c9a6e68-ba01-3dd5-9ccb-ccf2f9fe2763",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc6e5cc0-562e-3d60-bf74-23269e5afc4c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/eb89c0c7-0d83-3d3c-b575-9da60464761d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2c04c245-dcfe-3824-9abf-b4617a083dec",
+          "schema:addressLocality": "Saint-Amand-les-Eaux",
+          "schema:postalCode": "59732",
+          "schema:streetAddress": [
+            "B.P. 60079",
+            "rue du Chemin de l'Empire - Rocade Nord"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59526",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "pt": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "en": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "it": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "fr": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "nl": [
+                "Saint-Amand-les-Eaux"
+              ],
+              "es": [
+                "Saint-Amand-les-Eaux"
+              ]
+            },
+            "insee": "59526",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/c561c149-58ba-302b-8b97-5442987ab916",
+        "schema:latitude": "50.4424736",
+        "schema:longitude": "3.43899731",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-12-20",
+  "lastUpdateDatatourisme": "2023-03-25T03:01:37.222Z"
+}

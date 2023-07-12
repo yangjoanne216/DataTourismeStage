@@ -1,0 +1,983 @@
+{
+  "@id": "https://data.datatourisme.fr/31/0c60f877-245d-3142-858e-d782406e1736",
+  "dc:identifier": "TFO350845472634",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Start: Sévérac-l'Eglise (Espace Sport Nature) - Schwierigkeitsgrad: Leicht - Distanz: 58 km - Höhenunterschied: 790 m"
+    ],
+    "en": [
+      "Departure: Sévérac-l'Eglise (Espace Sport Nature) - Difficulty: Easy - Distance: 58 km - Difference in altitude: 790 m"
+    ],
+    "it": [
+      "Partenza : Sévérac-l'Eglise (Espace Sport Nature) - Difficoltà : Facile - Distanza : 58 km - Dislivello : 790 m"
+    ],
+    "fr": [
+      "Départ : Sévérac-l'Eglise (Espace Sport Nature) - Difficulté : Facile - Distance : 58 km - Dénivelé : 790 m"
+    ],
+    "nl": [
+      "Start : Sévérac-l'Eglise (Espace Sport Nature) - Moeilijkheidsgraad : Gemakkelijk - Afstand : 58 km - Hoogteverschil : 790 m"
+    ],
+    "es": [
+      "Inicio : Sévérac-l'Eglise (Espace Sport Nature) - Dificultad : Fácil - Distancia : 58 km - Desnivel : 790 m"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Cyclotourisme : Circuit de Frayssinhes"
+    ]
+  },
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/f9d35316-0ab3-3fab-94bd-971087e49fba",
+    "schema:legalName": "OFFICE DE TOURISME DU LAISSAGAIS",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/8e237201-dd40-3543-b659-2d66cc7d2ca2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/7a05077d-681c-3094-b57f-df0535a08b78",
+          "schema:addressLocality": "Laissac-Sévérac l'Église",
+          "schema:postalCode": "12310",
+          "schema:streetAddress": [
+            "1 Avenue de Rodez",
+            "LAISSAC"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12120",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "pt": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "en": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "it": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "fr": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "nl": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "es": [
+                "Laissac-Sévérac l'Église"
+              ]
+            },
+            "insee": "12120",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "laissac@causses-aubrac-tourisme.com"
+      ],
+      "schema:legalName": "Office de Tourisme Des Causses à l'Aubrac - Bureau d'Information Touristique de LAISSAC",
+      "schema:telephone": [
+        "+33 5 65 70 71 30"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.causses-aubrac-tourisme.com/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ffcfa56e-a71b-34ae-9c4d-bcbe1cef131f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d1f19960-c07d-386f-bd2a-d42698de456c",
+          "schema:addressLocality": "Laissac-Sévérac l'Église",
+          "schema:postalCode": "12310",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12120",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "pt": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "en": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "it": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "fr": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "nl": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "es": [
+                "Laissac-Sévérac l'Église"
+              ]
+            },
+            "insee": "12120",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Espace Sport Nature - Sévérac l'Eglise",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/acc836e0-e7ef-320c-b4b9-2e471075d009",
+      "dc:description": {
+        "de": [
+          "Entdecken Sie zunächst das malerische Dorf Montrozier mit seinem Schloss aus dem 15. Jahrhundert, bevor Sie das Dorf Gages mit seinen beiden Tierparks erreichen. Am Ortsausgang von Agen d'Aveyron können Sie an seinem bezaubernden Wasserfall anhalten. Dann beginnen Sie mit dem Aufstieg zum Col de Frayssinhes, 400 m Höhenunterschied auf 6 km durch den Wald von Louyne. Auf dem Gipfel warten Windräder auf Sie und die Chancen stehen gut, dass Sie einem Zigeunerwagen begegnen. Anschließend können Sie am See von Pont-de-Salars eine Rast einlegen, bevor Sie über den Vibal und den Wald von Palanges nach Laissac zurückkehren."
+        ],
+        "en": [
+          "First of all, discover the picturesque village of Montrozier and its 15th century castle, before arriving at the village of Gages and its two animal parks. At the exit of the village of Agen d'Aveyron, you can stop at its charming waterfall. You then begin the ascent of the Col de Frayssinhes, 400 m of difference in altitude over 6 km in the woods of Louyne. Wind turbines are waiting for you at the top, and there is a good chance you will come across a caravan. It is then possible for you to make a stop at the lake of Pont-de-Salars, before returning to Laissac by the Vibal and the forest of Les Palanges."
+        ],
+        "it": [
+          "Scoprite prima il pittoresco villaggio di Montrozier e il suo castello del XV secolo, prima di arrivare al villaggio di Gages e ai suoi due parchi animali. Uscendo dal villaggio di Agen d'Aveyron, si può fare una sosta alla sua incantevole cascata. Si inizia quindi la salita del Col de Frayssinhes, 400 m di dislivello su 6 km nel bosco di Louyne. In cima vi aspettano i mulini a vento ed è molto probabile che vi imbattiate in una roulotte. Si può poi fare una sosta al lago di Pont-de-Salars, prima di tornare a Laissac attraverso la foresta di Vibal e Palanges."
+        ],
+        "fr": [
+          "Découvrez tout d'abord le village pittoresque de Montrozier et son château du XVème siècle, avant d'arriver au village de Gages et ses deux parcs animaliers. A la sortie du village d'Agen d'Aveyron, vous pouvez vous arrêter à sa charmante cascade. Vous commencez alors l'ascension du col de Frayssinhes, 400 m de dénivelés sur 6 km dans le bois de Louyne. Des éoliennes vous attendent au sommet, et il y a de grandes chances pour que vous croisiez une roulotte. Il vous est ensuite possible de faire une halte au bord du lac de Pont-de-Salars, avant de revenir à Laissac par le Vibal et la forêt des Palanges."
+        ],
+        "nl": [
+          "Ontdek eerst het pittoreske dorpje Montrozier en zijn 15e eeuwse kasteel, voordat u aankomt in het dorpje Gages en zijn twee dierenparken. Bij het verlaten van het dorp Agen d'Aveyron kunt u stoppen bij zijn charmante waterval. Daarna begint de beklimming van de Col de Frayssinhes, 400 m hoogteverschil over 6 km in het bos van Louyne. Op de top wachten windmolens en de kans is groot dat u een caravan tegenkomt. U kunt vervolgens stoppen bij het meer van Pont-de-Salars, voordat u terugkeert naar Laissac via de Vibal en het bos van Palanges."
+        ],
+        "es": [
+          "Descubra primero el pintoresco pueblo de Montrozier y su castillo del siglo XV, antes de llegar al pueblo de Gages y sus dos parques de animales. A la salida del pueblo de Agen d'Aveyron, podrá detenerse en su encantadora cascada. A continuación, se inicia el ascenso al Col de Frayssinhes, 400 m de desnivel en 6 km en el bosque de Louyne. Los molinos de viento le esperan en la cima, y es muy probable que se encuentre con una caravana. A continuación, podrá detenerse en el lago de Pont-de-Salars, antes de regresar a Laissac por el Vibal y el bosque de Palanges."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/38c5e911-f1ff-34e1-8024-16ab153ec0a0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/52e90d6b-398b-355a-8738-d1199aa95430",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5ad698f2-649e-3c91-880b-0420294dcbca",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5cc04abd-5652-35dd-b805-faddcda914e2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5f69e583-b825-3922-aa9d-7f14575f75d6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/650b10ae-2496-3108-80a7-66d753d8588f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/82dd13cd-8d75-3025-bb62-75c04574e7e5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bc793ed6-9b4e-3123-82ae-ef1f1b1f2936",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c521c415-0704-32e0-b1a3-67d599f235ee",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d23e7853-4b20-355b-a220-a5325f93c924",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Start: Sévérac-l'Eglise (Espace Sport Nature) - Schwierigkeitsgrad: Leicht - Distanz: 58 km - Höhenunterschied: 790 m"
+        ],
+        "en": [
+          "Departure: Sévérac-l'Eglise (Espace Sport Nature) - Difficulty: Easy - Distance: 58 km - Difference in altitude: 790 m"
+        ],
+        "it": [
+          "Partenza : Sévérac-l'Eglise (Espace Sport Nature) - Difficoltà : Facile - Distanza : 58 km - Dislivello : 790 m"
+        ],
+        "fr": [
+          "Départ : Sévérac-l'Eglise (Espace Sport Nature) - Difficulté : Facile - Distance : 58 km - Dénivelé : 790 m"
+        ],
+        "nl": [
+          "Start : Sévérac-l'Eglise (Espace Sport Nature) - Moeilijkheidsgraad : Gemakkelijk - Afstand : 58 km - Hoogteverschil : 790 m"
+        ],
+        "es": [
+          "Inicio : Sévérac-l'Eglise (Espace Sport Nature) - Dificultad : Fácil - Distancia : 58 km - Desnivel : 790 m"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/597b306e-9c3d-31cd-8a17-72d5d32f3a2d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/e2b444b1-1d2d-3e16-a2a9-a1bf5e2bf48d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/bd4d2065-1e5c-33b7-b112-9f6efef99e81",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme : Circuit de Frayssinhes"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme : Circuit de Frayssinhes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5cee4bc2-e4d4-381b-92f7-10a0e77f786b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350845472634/TFO350845472634-17a/medias/jpg/frayssinhes.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/e2b444b1-1d2d-3e16-a2a9-a1bf5e2bf48d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/bd4d2065-1e5c-33b7-b112-9f6efef99e81",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme : Circuit de Frayssinhes"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme : Circuit de Frayssinhes"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5cee4bc2-e4d4-381b-92f7-10a0e77f786b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350845472634/TFO350845472634-17a/medias/jpg/frayssinhes.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/3789f69c-21ae-33fc-849a-d33577961a00",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/841f4923-0958-3e1a-9890-257440849dd4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a81b98f9-d185-3312-a21c-5da4002b9b5f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b13c4cde-89c9-3698-be1d-6085a422d6e0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dd66ae0c-d383-3235-9dcc-a6f809f66788",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/95624fd1-0429-34b7-b613-e1062258d918",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/d1f19960-c07d-386f-bd2a-d42698de456c",
+          "schema:addressLocality": "Laissac-Sévérac l'Église",
+          "schema:postalCode": "12310",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12120",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "pt": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "en": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "it": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "fr": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "nl": [
+                "Laissac-Sévérac l'Église"
+              ],
+              "es": [
+                "Laissac-Sévérac l'Église"
+              ]
+            },
+            "insee": "12120",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/21392751-c9c2-33db-8ced-121e42e11794",
+        "schema:elevation": "592",
+        "schema:latitude": "44.3659",
+        "schema:longitude": "2.8502",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-09",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.685Z"
+}

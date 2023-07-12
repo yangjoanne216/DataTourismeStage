@@ -1,0 +1,1629 @@
+{
+  "@id": "https://data.datatourisme.fr/43/c59f4b33-3f4c-3b69-aefd-e0d9c5ac8afc",
+  "dc:identifier": "49592",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE DE OUARDERE"
+    ]
+  },
+  "availableLanguage": [
+    "Anglais",
+    "Néerlandais"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:Associations",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verbände"
+        ],
+        "pt": [
+          "Associações"
+        ],
+        "en": [
+          "Associations"
+        ],
+        "it": [
+          "Associazioni"
+        ],
+        "fr": [
+          "Associations"
+        ],
+        "nl": [
+          "Verenigingen"
+        ],
+        "es": [
+          "Asociaciones"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Journalists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Journalisten"
+        ],
+        "pt": [
+          "Jornalistas"
+        ],
+        "en": [
+          "Journalists"
+        ],
+        "it": [
+          "Giornalisti"
+        ],
+        "fr": [
+          "Journalistes"
+        ],
+        "es": [
+          "Periodistas"
+        ],
+        "nl": [
+          "Journalisten"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PrimarySchool",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Grundschule"
+        ],
+        "pt": [
+          "Ensino primário (3 a 11 anos)"
+        ],
+        "en": [
+          "Primary school (y2 to y6 for gb - 1st gr to 5th gr for us)"
+        ],
+        "it": [
+          "Elementare (dalla scuola materna alla scuola primaria)"
+        ],
+        "fr": [
+          "Élémentaire (cp à cm2)"
+        ],
+        "es": [
+          "Primaria (desde educación infantil hasta los 10/11 años)"
+        ],
+        "nl": [
+          "Basisschool (6 tot 11 jaar)"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Professionals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fachkräfte"
+        ],
+        "pt": [
+          "Profissionais"
+        ],
+        "en": [
+          "Professionals"
+        ],
+        "it": [
+          "Professionisti"
+        ],
+        "fr": [
+          "Professionnels"
+        ],
+        "nl": [
+          "Professionals"
+        ],
+        "es": [
+          "Profesionales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:School",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schule"
+        ],
+        "pt": [
+          "Estudantes"
+        ],
+        "en": [
+          "School"
+        ],
+        "it": [
+          "Scuola"
+        ],
+        "fr": [
+          "Scolaires"
+        ],
+        "nl": [
+          "School"
+        ],
+        "es": [
+          "Escolares"
+        ]
+      }
+    },
+    {
+      "@id": "kb:WorksCouncils",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Betriebsräte"
+        ],
+        "pt": [
+          "Comités de empresa"
+        ],
+        "en": [
+          "Works councils"
+        ],
+        "it": [
+          "Consigli d'impresa"
+        ],
+        "fr": [
+          "Comités d'entreprise"
+        ],
+        "nl": [
+          "Ondernemingsraden"
+        ],
+        "es": [
+          "Comités de empresa"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Associations",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verbände"
+        ],
+        "pt": [
+          "Associações"
+        ],
+        "en": [
+          "Associations"
+        ],
+        "it": [
+          "Associazioni"
+        ],
+        "fr": [
+          "Associations"
+        ],
+        "nl": [
+          "Verenigingen"
+        ],
+        "es": [
+          "Asociaciones"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Journalists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Journalisten"
+        ],
+        "pt": [
+          "Jornalistas"
+        ],
+        "en": [
+          "Journalists"
+        ],
+        "it": [
+          "Giornalisti"
+        ],
+        "fr": [
+          "Journalistes"
+        ],
+        "es": [
+          "Periodistas"
+        ],
+        "nl": [
+          "Journalisten"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PrimarySchool",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Grundschule"
+        ],
+        "pt": [
+          "Ensino primário (3 a 11 anos)"
+        ],
+        "en": [
+          "Primary school (y2 to y6 for gb - 1st gr to 5th gr for us)"
+        ],
+        "it": [
+          "Elementare (dalla scuola materna alla scuola primaria)"
+        ],
+        "fr": [
+          "Élémentaire (cp à cm2)"
+        ],
+        "es": [
+          "Primaria (desde educación infantil hasta los 10/11 años)"
+        ],
+        "nl": [
+          "Basisschool (6 tot 11 jaar)"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Professionals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fachkräfte"
+        ],
+        "pt": [
+          "Profissionais"
+        ],
+        "en": [
+          "Professionals"
+        ],
+        "it": [
+          "Professionisti"
+        ],
+        "fr": [
+          "Professionnels"
+        ],
+        "nl": [
+          "Professionals"
+        ],
+        "es": [
+          "Profesionales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:School",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schule"
+        ],
+        "pt": [
+          "Estudantes"
+        ],
+        "en": [
+          "School"
+        ],
+        "it": [
+          "Scuola"
+        ],
+        "fr": [
+          "Scolaires"
+        ],
+        "nl": [
+          "School"
+        ],
+        "es": [
+          "Escolares"
+        ]
+      }
+    },
+    {
+      "@id": "kb:WorksCouncils",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Betriebsräte"
+        ],
+        "pt": [
+          "Comités de empresa"
+        ],
+        "en": [
+          "Works councils"
+        ],
+        "it": [
+          "Consigli d'impresa"
+        ],
+        "fr": [
+          "Comités d'entreprise"
+        ],
+        "nl": [
+          "Ondernemingsraden"
+        ],
+        "es": [
+          "Comités de empresa"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/cc6876c5-f5fd-3b0a-8eb6-569f711a3134",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/64dba66e-563b-3050-b539-080ed2bd9d58",
+          "schema:addressLocality": "Lannepax",
+          "schema:postalCode": "32190",
+          "schema:streetAddress": [
+            "DOMAINE DE OUARDERE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32190",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Lannepax"
+              ],
+              "pt": [
+                "Lannepax"
+              ],
+              "en": [
+                "Lannepax"
+              ],
+              "it": [
+                "Lannepax"
+              ],
+              "fr": [
+                "Lannepax"
+              ],
+              "nl": [
+                "Lannepax"
+              ],
+              "es": [
+                "Lannepax"
+              ]
+            },
+            "insee": "32190",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lossmuriel@hotmail.com"
+      ],
+      "schema:telephone": [
+        "+33 5 62 06 41 42",
+        "+33 6 75 87 36 74"
+      ],
+      "@type": [
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.domainedeouardere.fr/"
+      ],
+      "foaf:title": [
+        "04.01.02"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/9d31b364-827e-38c3-b5f8-bdfd7d59a66a",
+      "dc:description": {
+        "de": [
+          "Im Herzen des Gers, in den Hügeln des Armagnac, in Lannepax (zwischen Éauze und Vic-Fezensac), baut die Familie Loss seit fünf Generationen Wein an.\nDie Weinberge erstrecken sich über 60 Hektar. Vor 20 Jahren begannen Josiane und Didier Loss und nun ihre Tochter Muriel mit der schrittweisen Erneuerung des Weinbergs durch den Anbau von Weißwein (Colombard, Ugni Blanc und Chardonnay) und Rotwein (Merlot und Cabernet).\n\nDie so entstandenen Landweine der Côtes de Gascogne zeichnen sich durch die Typizität ihrer Aromen aus. Im Weinkeller setzen die alten Armagnacs, die in Eichenfässern lagern, ihre Bonifizierung fort.\n\nEntdecken Sie auch den Floc de Gascogne, einen Aperitif, der aus der Vermählung von frischem Traubensaft und rassigen Armagnacs entsteht."
+        ],
+        "en": [
+          "In the heart of the Gers, in the hills of Armagnac, in Lannepax (between Éauze and Vic-Fezensac), the Loss family has been cultivating vines for five generations.\nThe vineyard covers 60 hectares. For the past 20 years, Josiane and Didier Loss, and now their daughter Muriel, have been progressively renewing the vineyard by planting white wine (Colombard, Ugni Blanc and Chardonnay) and red wine (Merlot and Cabernet).\n\nThe resulting Côtes de Gascogne vins de Pays are distinguished by the typicality of their aromas. In the cellar, the old Armagnacs are stored in oak barrels and continue to improve.\n\nAlso worth discovering is Floc de Gascogne, an aperitif made from the marriage of fresh grape juice and purebred Armagnacs."
+        ],
+        "it": [
+          "Nel cuore del Gers, sulle colline dell'Armagnac, a Lannepax (tra Éauze e Vic-Fezensac), la famiglia Loss coltiva la vite da cinque generazioni.\nIl vigneto si estende su 60 ettari. Negli ultimi 20 anni, Josiane e Didier Loss, e ora la figlia Muriel, hanno progressivamente rinnovato il vigneto piantando vino bianco (Colombard, Ugni Blanc e Chardonnay) e vino rosso (Merlot e Cabernet).\n\nI Côtes de Gascogne vins de Pays che ne derivano si distinguono per la tipicità dei loro aromi. In cantina, i vecchi Armagnac sono conservati in botti di rovere e continuano a migliorare.\n\nDa scoprire anche il Floc de Gascogne, un aperitivo ottenuto dall'unione di succo d'uva fresco e Armagnac di razza."
+        ],
+        "fr": [
+          "Au coeur du Gers, dans les collines de l'Armagnac, à Lannepax (entre Éauze et Vic-Fezensac), la famille Loss cultive la vigne depuis cinq générations.\nLe Vignoble s'étend sur 60 hectares. Voici maintenant 20 ans que Josiane et Didier Loss, et maintenant Muriel leur fille, ont entrepris le renouvellement progressif de ce vignoble par un encépagement en vin blanc (Colombard, Ugni Blanc et Chardonnay) et en vin rouge (Merlot et Cabernet).\n\nLes vins de Pays des Côtes de Gascogne ainsi obtenus se distinguent par la typicité de leurs arômes. Au Chai, les vieux Armagnacs logés en fûts de chêne poursuivent leur bonification.\n\nA découvrir aussi, le Floc de Gascogne, apéritif issu du mariage des jus de raisins frais et des Armagnacs de race."
+        ],
+        "nl": [
+          "In het hart van de Gers, in de heuvels van Armagnac, in Lannepax (tussen Éauze en Vic-Fezensac) verbouwt de familie Loss al vijf generaties lang wijnstokken.\nDe wijngaard beslaat 60 hectare. De afgelopen 20 jaar hebben Josiane en Didier Loss, en nu hun dochter Muriel, de wijngaard geleidelijk aan vernieuwd door witte wijn (Colombard, Ugni Blanc en Chardonnay) en rode wijn (Merlot en Cabernet) aan te planten.\n\nDe Côtes de Gascogne-vins de Pays onderscheiden zich door de typischheid van hun aroma's. In de kelder worden de oude Armagnacs opgeslagen in eiken vaten en blijven ze verbeteren.\n\nOok het ontdekken waard is Floc de Gascogne, een aperitief gemaakt van het huwelijk van vers druivensap en Armagnacs van topkwaliteit."
+        ],
+        "es": [
+          "En el corazón del Gers, en las colinas de Armagnac, en Lannepax (entre Éauze y Vic-Fezensac), la familia Loss cultiva la vid desde hace cinco generaciones.\nEl viñedo abarca 60 hectáreas. Desde hace 20 años, Josiane y Didier Loss, y ahora su hija Muriel, renuevan progresivamente el viñedo plantando vino blanco (Colombard, Ugni Blanc y Chardonnay) y tinto (Merlot y Cabernet).\n\nLos Côtes de Gascogne vins de Pays resultantes se distinguen por la tipicidad de sus aromas. En la bodega, los viejos Armagnacs se guardan en barricas de roble y siguen mejorando.\n\nTambién merece la pena descubrir el Floc de Gascogne, un aperitivo elaborado a partir de la unión de zumo de uva fresca y Armagnacs de pedigrí."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/5e59bf82-9bc2-3256-9a47-640dc8c2ec88",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/760228ab-a872-3090-b466-ef8307984c95",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9572e0ec-71e8-3aca-b923-77277c427b60",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bd87f0f7-34f1-35b7-b4ea-bc910f0df46e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/be4c34ee-dcef-3e9c-8449-aab378134199",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/00f6369d-f7e7-38b3-ab50-5dfc99eef704",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/50d31251-e675-3224-bb37-a23cc2538731",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d7a87fe-da63-34ba-8036-524d55439400",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b79eae21-0eee-36f6-aef8-de7aa3c50d41",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CoachParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Busparkplatz"
+            ],
+            "pt": [
+              "Estacionamento para autocarros"
+            ],
+            "en": [
+              "Coach parking"
+            ],
+            "it": [
+              "Parcheggio per pullman"
+            ],
+            "fr": [
+              "Parking autocar"
+            ],
+            "nl": [
+              "Busparking"
+            ],
+            "es": [
+              "Aparcamiento para autocares"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e2434788-7a83-3a93-b6d8-d580dab0187d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/07d51596-5aaa-34d1-84cb-4b83e36afebf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c5044f5c-ceb0-3d5e-a23a-127ff0ebcded",
+          "ebucore:title": {
+            "fr": [
+              "domaine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/9f816536-eedb-3cbb-a931-58766ae22cd8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0146348.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/07d51596-5aaa-34d1-84cb-4b83e36afebf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/c5044f5c-ceb0-3d5e-a23a-127ff0ebcded",
+          "ebucore:title": {
+            "fr": [
+              "domaine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/9f816536-eedb-3cbb-a931-58766ae22cd8",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0146348.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/2feb6ea4-2b39-3346-981e-a96ea83f84c0",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/cd2f11d6-21c2-3018-bcb2-7a6358eda761",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/64dba66e-563b-3050-b539-080ed2bd9d58",
+          "schema:addressLocality": "Lannepax",
+          "schema:postalCode": "32190",
+          "schema:streetAddress": [
+            "DOMAINE DE OUARDERE"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32190",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Lannepax"
+              ],
+              "pt": [
+                "Lannepax"
+              ],
+              "en": [
+                "Lannepax"
+              ],
+              "it": [
+                "Lannepax"
+              ],
+              "fr": [
+                "Lannepax"
+              ],
+              "nl": [
+                "Lannepax"
+              ],
+              "es": [
+                "Lannepax"
+              ]
+            },
+            "insee": "32190",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/005964e0-d13d-3a1f-92d0-b503b4608a46",
+        "schema:latitude": "43.8366472",
+        "schema:longitude": "0.1983976",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-07-27",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.45Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/167844a4-ca5a-3699-b2de-b292e22b7c20",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

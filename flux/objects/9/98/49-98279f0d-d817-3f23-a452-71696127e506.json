@@ -1,0 +1,962 @@
+{
+  "@id": "https://data.datatourisme.fr/49/98279f0d-d817-3f23-a452-71696127e506",
+  "dc:identifier": "HLOPDL053V508R3Z",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "In Laval, der schönen mittelalterlichen Stadt, öffnen Jean-Michel und seine Frau die Türen zu einem magischen Ort!"
+    ],
+    "en": [
+      "In Laval, the beautiful medieval city, Jean-Michel and his wife open the doors of a magical place!"
+    ],
+    "it": [
+      "Nella splendida Laval medievale, Jean-Michel e sua moglie aprono le porte di un luogo magico!"
+    ],
+    "fr": [
+      "A Laval la belle médiévale, Jean-Michel et son épouse vous ouvrent les portes d'un lieu magique !"
+    ],
+    "nl": [
+      "In het prachtige middeleeuwse Laval openen Jean-Michel en zijn vrouw de deuren van een magische plek!"
+    ],
+    "es": [
+      "En la bella Laval medieval, Jean-Michel y su esposa abren las puertas de un lugar mágico"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "LE LOGIS DU VASSAL"
+    ]
+  },
+  "allowedPersons": 2,
+  "creationDate": "2022-03-23",
+  "hasAudience": [
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ba2e0968-a886-3b56-bb94-270055c816a0",
+      "schema:telephone": [
+        "+33 6 62 50 69 91"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/cb5b2ea6-d0ad-3c74-a244-f888be5d1d6e",
+      "dc:description": {
+        "de": [
+          "Das Le logis du Vassal befindet sich in Laval und verfügt über einen Garten und eine Terrasse. Das Haus befindet sich in einem geschützten, historischen Viertel mit einem außergewöhnlichen Blick auf das Schloss. Die Grundmauern und der Keller stammen aus dem 13. Jahrhundert, ein Teil aus dem 15. und 16. und der westliche Teil aus dem 18.\n\nIn diesem Bed & Breakfast wird jeden Morgen ein Frühstück à la carte serviert."
+        ],
+        "en": [
+          "Located in Laval, Le logis du Vassal features a garden and a terrace. This house is located in a preserved, historical area, with an extraordinary view of the castle. The foundations and the cellar date back to the XIIIth, a part XVth, XVIth and the western part, XVIIIth.\n\nThis Bed & Breakfast serves an à la carte breakfast every morning."
+        ],
+        "it": [
+          "Situato a Laval, Le logis du Vassal offre un giardino e una terrazza. La casa si trova in un'area storica preservata con una straordinaria vista sul castello. Le fondamenta e la cantina risalgono al XIII secolo, parte di essa al XV e XVI secolo e la parte occidentale al XVIII secolo.\n\nIl bed and breakfast serve ogni mattina una colazione à la carte."
+        ],
+        "fr": [
+          "Situé à Laval, l'établissement Le logis du Vassal dispose d'un jardin et d'une terrasse. Cette demeure se trouve dans un quartier préservé, historique, avec une vue extraordinaire sur le château. Les fondations et la cave remontent au XIIIe, une partie XVe, XVIe et la partie ouest, XVIIIe.\n\nCe Bed & Breakfast sert un petit-déjeuner à la carte tous les matins."
+        ],
+        "es": [
+          "Le logis du Vassal, situado en Laval, cuenta con un jardín y una terraza. La casa está situada en una zona histórica preservada con una extraordinaria vista del castillo. Los cimientos y la bodega se remontan al siglo XIII, una parte a los siglos XV y XVI y la parte occidental al siglo XVIII.\n\nEl bed and breakfast sirve un desayuno a la carta cada mañana."
+        ],
+        "nl": [
+          "Le logis du Vassal ligt in Laval en beschikt over een tuin en een terras. Het huis ligt in een bewaard gebleven, historische wijk met een buitengewoon uitzicht op het kasteel. De funderingen en de kelder dateren uit de 13e eeuw, een deel uit de 15e en 16e eeuw en het westelijke deel uit de 18e eeuw.\n\nDe bed & breakfast serveert elke ochtend een à la carte ontbijt."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/06dc833a-f84f-3ab7-afd9-1d3e6045c663",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2cca21e8-c91a-3ca3-9b47-e1dc7517d842",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/847b5c14-f2a7-3ba8-92f0-4a2c842bc91b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8ffee52e-56eb-3243-ac78-5de8ffffd5b2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a101a8c9-4654-32e9-a016-6869368ba105",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a3b6761f-bf8d-3d5a-8fbe-a7129d3e2579",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a6b703e4-3f19-3a7a-87d9-261c4b00c6a2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d58aafe4-dcc0-3d81-8de6-dcc0bb744e4b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f30a2fb7-702c-30a1-818b-da565fda67a3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fdcd4f6b-b494-3359-ae30-60dfe7862ea5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "In Laval, der schönen mittelalterlichen Stadt, öffnen Jean-Michel und seine Frau die Türen zu einem magischen Ort!"
+        ],
+        "en": [
+          "In Laval, the beautiful medieval city, Jean-Michel and his wife open the doors of a magical place!"
+        ],
+        "it": [
+          "Nella splendida Laval medievale, Jean-Michel e sua moglie aprono le porte di un luogo magico!"
+        ],
+        "fr": [
+          "A Laval la belle médiévale, Jean-Michel et son épouse vous ouvrent les portes d'un lieu magique !"
+        ],
+        "nl": [
+          "In het prachtige middeleeuwse Laval openen Jean-Michel en zijn vrouw de deuren van een magische plek!"
+        ],
+        "es": [
+          "En la bella Laval medieval, Jean-Michel y su esposa abren las puertas de un lugar mágico"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/39ae3fa2-f278-38c3-8066-48647496cf2b",
+      "schema:value": "1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Accommodation",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unterbringung"
+            ],
+            "pt": [
+              "Alojamento"
+            ],
+            "en": [
+              "Accommodation"
+            ],
+            "it": [
+              "Alloggio"
+            ],
+            "fr": [
+              "Logement"
+            ],
+            "nl": [
+              "Logies"
+            ],
+            "es": [
+              "Alojamiento"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/66cc15b7-4c5f-3a38-a449-a5905c9bd14f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/72c2f096-32b5-3aa0-bbf7-3f5433d37f6f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b3d6c5b7-2abc-3e76-83e7-5585ae538e94",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Terrace",
+          "@type": [
+            "CommonAmenity",
+            "ParkAndGardenTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Terrasse"
+            ],
+            "pt": [
+              "Terraço"
+            ],
+            "en": [
+              "Terrace"
+            ],
+            "it": [
+              "Terrazzo"
+            ],
+            "fr": [
+              "Terrasse"
+            ],
+            "es": [
+              "Terraza"
+            ],
+            "nl": [
+              "Terras"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cd037dd2-d534-3099-a0ac-48570e922019",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:FinalHousekeeping",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Endreinigung"
+            ],
+            "pt": [
+              "Limpeza no fim da estadia"
+            ],
+            "en": [
+              "Final housekeeping"
+            ],
+            "it": [
+              "Pulizia alla fine del soggiorno"
+            ],
+            "fr": [
+              "Ménage en fin de séjour"
+            ],
+            "es": [
+              "Tareas de limpieza al final del día"
+            ],
+            "nl": [
+              "Eindschoonmaak"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ef2d7794-2aa6-3c88-a672-d20e3cc76cc7",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SheetsAndTowels",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bettwäsche und Handtücher"
+            ],
+            "pt": [
+              "Lençóis e toalhas"
+            ],
+            "en": [
+              "Sheets and towels"
+            ],
+            "it": [
+              "Lenzuola e biancheria"
+            ],
+            "fr": [
+              "Draps et linges"
+            ],
+            "es": [
+              "Sábanas y ropa de cama"
+            ],
+            "nl": [
+              "Beddengoed en handdoeken"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1b044e16-0907-3746-b8d1-65da698e6903",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d55c0a6-39b7-3b92-902c-664f3ebf4b0e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/caee683c-e3d1-370a-9dcb-e99610d25266",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d142254e-9b09-3af2-a6d4-09b9c23e7533",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/db0bcf3e-2ebd-33a1-8a10-e76059ea5806",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/760b63d3-a243-34c5-bd55-3cc4d9d64055",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/bfff19e6-bef9-31d1-a525-8678f84402e8",
+          "schema:addressLocality": "Laval",
+          "schema:postalCode": "53000",
+          "schema:streetAddress": [
+            "13 Rue des Chevaux"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53130",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Laval"
+              ],
+              "pt": [
+                "Laval"
+              ],
+              "en": [
+                "Laval"
+              ],
+              "it": [
+                "Laval"
+              ],
+              "fr": [
+                "Laval"
+              ],
+              "nl": [
+                "Laval"
+              ],
+              "es": [
+                "Laval"
+              ]
+            },
+            "insee": "53130",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/4c49e263-b6d7-34e4-8a9e-e0a9992f99ae",
+        "schema:latitude": "48.06731",
+        "schema:longitude": "-0.77078",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-02-09",
+  "lastUpdateDatatourisme": "2023-02-28T03:24:26.764Z"
+}

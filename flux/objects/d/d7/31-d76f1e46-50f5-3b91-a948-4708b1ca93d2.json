@@ -1,0 +1,1660 @@
+{
+  "@id": "https://data.datatourisme.fr/31/d76f1e46-50f5-3b91-a948-4708b1ca93d2",
+  "dc:identifier": "TFO446636812997",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein Gästehaus im Geiste des Slow-Tourismus: Nehmen Sie sich Zeit und hören Sie auf das, wonach Ihnen gerade ist! Genießen Sie die einfachen Dinge und machen Sie eine andere Erfahrung in der Nähe der Natur"
+    ],
+    "en": [
+      "A guest house in the spirit of Slow Tourism: take your time and listen to the desires of the moment! Come and enjoy the simple things and live a different experience close to nature"
+    ],
+    "it": [
+      "Una guest house nello spirito del turismo lento: prendersi il tempo necessario e ascoltare i propri desideri! Venite a godervi le cose semplici e a vivere un'esperienza diversa a contatto con la natura"
+    ],
+    "fr": [
+      "Une maison d'hôtes dans l'esprit du Slow Tourisme : prenez le temps et écoutez les envies du moment ! Venez apprécier les choses simples et vivre une expérience différente proche de la nature"
+    ],
+    "es": [
+      "Una casa de huéspedes en el espíritu del turismo lento: ¡tómese su tiempo y escuche sus deseos! Ven a disfrutar de las cosas sencillas y a vivir una experiencia diferente cerca de la naturaleza"
+    ],
+    "nl": [
+      "Een pension in de geest van Slow Tourism: neem de tijd en luister naar de verlangens van het moment! Kom en geniet van de eenvoudige dingen en beleef een andere ervaring dicht bij de natuur"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Chambres et table d'hôtes Basalture"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "DE",
+    "EN",
+    "FR",
+    "NL"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/e8f00c42-8dbf-30ed-a77e-9889ababe3a1",
+    "schema:legalName": "OFFICE DE TOURISME DU CANTON DE MUR DE BARREZ",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1f560fa5-94ba-30e5-9171-3cff1d25583e",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e01fc5c8-b9fe-3178-8428-d9910094aa91",
+          "schema:addressLocality": "Thérondels",
+          "schema:postalCode": "12600",
+          "schema:streetAddress": [
+            "2",
+            "Le FIEU"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12280",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Thérondels"
+              ],
+              "pt": [
+                "Thérondels"
+              ],
+              "en": [
+                "Thérondels"
+              ],
+              "it": [
+                "Thérondels"
+              ],
+              "fr": [
+                "Thérondels"
+              ],
+              "nl": [
+                "Thérondels"
+              ],
+              "es": [
+                "Thérondels"
+              ]
+            },
+            "insee": "12280",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "basalture@gmail.com"
+      ],
+      "schema:familyName": [
+        "Nootens-Peeters"
+      ],
+      "schema:givenName": [
+        "Ingrid"
+      ],
+      "schema:legalName": "Basalture",
+      "schema:telephone": [
+        "+33 5 65 48 60 87"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.basalture.fr/"
+      ],
+      "foaf:title": [
+        "Madame"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cc81f7df-8edd-3fe5-8032-825d483ad8b0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/08cce33c-2c1e-3765-9ceb-0f34c5b21459",
+          "schema:addressLocality": "Thérondels",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12280",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Thérondels"
+              ],
+              "pt": [
+                "Thérondels"
+              ],
+              "en": [
+                "Thérondels"
+              ],
+              "it": [
+                "Thérondels"
+              ],
+              "fr": [
+                "Thérondels"
+              ],
+              "nl": [
+                "Thérondels"
+              ],
+              "es": [
+                "Thérondels"
+              ]
+            },
+            "insee": "12280",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "basalture@gmail.com"
+      ],
+      "schema:familyName": [
+        "Nootens-Peeters"
+      ],
+      "schema:givenName": [
+        "Ingrid"
+      ],
+      "schema:legalName": "Basalture",
+      "schema:telephone": [
+        "+33 5 65 48 60 87"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.basalture.fr/"
+      ],
+      "foaf:title": [
+        "Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/d09a44bb-2036-3177-a290-ae18fb182a01",
+      "dc:description": {
+        "de": [
+          "Willkommen in unserem Chambres et Table d'hôtes im Nord Aveyron.\nUnser renoviertes Haus liegt zwischen dem PNR des Volcans d'Auvergne und dem PNR de l'Aubrac. Ein idealer Ort, um ein paar Tage Urlaub zu machen und die Schönheit dieser Region zu entdecken. Sie bietet zu jeder Jahreszeit eine Vielzahl an Aktivitäten: Wandern, Klettersteige, Trails, Schwimmen im See, Schneeschuhwanderungen oder Skifahren im Winter, Besuche von Schlössern und Dörfern, Märkte, ...\nWir empfangen Sie in 2 komfortablen Zimmern mit schöner Aussicht und eigenem Bad.\nAm Abend können Sie auf Reservierung unseren Gästetisch genießen. Unsere Küche wird hauptsächlich mit lokalen Produkten und Gemüse aus dem Garten zubereitet.\nDa wir leidenschaftliche Radfahrer sind, können Sie bei uns Elektrofahrräder mieten, um die Landschaft auf andere Weise zu erkunden\nUnser alter Brotbackofen wird regelmäßig angeheizt und wir werden Brotback-Workshops veranstalten. Und wenn Sie Lust auf Entschleunigung und Staunen im Wald haben - wir haben einen Waldbadeführer vor Ort.\nIn einer freundlichen und herzlichen Atmosphäre bereiten wir Ihnen einen persönlichen Empfang!"
+        ],
+        "en": [
+          "Welcome to our Bed and Breakfast in the North Aveyron.\nOur renovated house is located between the PNR of the Volcanoes of Auvergne and the PNR of Aubrac. An ideal place to spend a few days of vacations and discover the beauty of this region. It offers a multitude of activities in all seasons: hiking, via ferrata, trails, swimming in the lake, snowshoeing or skiing in winter, visits of castles and villages, markets, ...\nWe welcome you in 2 comfortable rooms with nice view and private bathroom.\nIn the evening, you can enjoy our table d'hôtes on reservation. Our cooking is mainly made with local products and vegetables from the garden.\nAs we are passionate about cycling, we offer electric bikes for rent to discover the countryside in a different way\nOur old bread oven is lit regularly and we will organize bread making workshops. And if you feel like slowing down and marveling at the forest - we have a Bain de Forêt guide on site.\nWe will welcome you in a warm and friendly atmosphere!"
+        ],
+        "it": [
+          "Benvenuti nel nostro Bed and Breakfast nell'Aveyron settentrionale.\nLa nostra casa ristrutturata è situata tra il PNR des Volcans d'Auvergne e il PNR de l'Aubrac. Un luogo ideale per trascorrere qualche giorno di vacanza e scoprire le bellezze di questa regione. Offre una moltitudine di attività in tutte le stagioni: escursioni, vie ferrate, sentieri, bagni nel lago, ciaspolate o sci in inverno, visite a castelli e villaggi, mercati, ...\nVi accogliamo in 2 confortevoli camere con bella vista e bagno privato.\nLa sera, su prenotazione, potrete gustare la nostra table d'hôtes. La nostra cucina è realizzata principalmente con prodotti locali e verdure dell'orto.\nPoiché siamo appassionati di ciclismo, offriamo biciclette elettriche a noleggio per scoprire la campagna in modo diverso\nIl nostro antico forno per il pane viene acceso regolarmente e organizzeremo laboratori di panificazione. E se avete voglia di rallentare e ammirare la foresta, abbiamo una guida Bain de Forêt a disposizione.\nVi offriamo un caloroso e amichevole benvenuto!"
+        ],
+        "fr": [
+          "Bienvenue dans notre Chambres et Table d'hôtes dans le Nord Aveyron.\nNotre maison rénovée est située entre le PNR des Volcans d'Auvergne et le PNR de l'Aubrac. Un endroit idéal pour passer quelques jours de vacances et découvrir la beauté de cette région. Elle offre une multitudes d'activités en toutes saisons : la randonnée, la via ferrata, des trails, la baignade dans le lac, des sorties raquettes ou ski en hiver, des visites de châteaux et villages, des marchés, ...\nNous vous recevons dans 2 chambres confortables avec jolie vue et salle de bain privatif.\nLe soir, vous pouvez profiter de notre table d'hôtes sur réservation. Notre cuisine est principalement faite avec des produits locaux et des légumes du jardin.\nComme nous sommes des passionnés de vélo, nous mettons à disposition, en location, des vélos électriques pour découvrir les paysages autrement. \nNotre ancien four à pain est allumé régulièrement et nous organiserons des ateliers de pain. Et si vous avez envie de ralentir et de vous émerveiller dans la forêt - nous avons un guide de Bain de Forêt sur place.\nC'est dans une ambiance conviviale et chaleureuse que nous vous réservons un accueil personnalisé !"
+        ],
+        "nl": [
+          "Welkom in onze Bed and Breakfast in de Noord-Aveyron.\nOns gerenoveerde huis ligt tussen het PNR des Volcans d'Auvergne en het PNR de l'Aubrac. Een ideale plek om een paar dagen vakantie door te brengen en de schoonheid van deze streek te ontdekken. Het biedt een veelheid aan activiteiten in alle seizoenen: wandelen, via ferrata, wandelpaden, zwemmen in het meer, sneeuwschoenwandelen of skiën in de winter, bezoeken aan kastelen en dorpen, markten, ...\nWij verwelkomen u in 2 comfortabele kamers met mooi uitzicht en eigen badkamer.\nS Avonds kunt u op reservering genieten van onze table d'hôtes. Onze keuken is voornamelijk gemaakt met lokale producten en groenten uit de tuin.\nOmdat we gepassioneerd zijn door fietsen, hebben we elektrische fietsen te huur om het platteland op een andere manier te ontdekken\nOnze oude broodoven wordt regelmatig aangestoken en we organiseren broodbakworkshops. En als u het wat rustiger aan wilt doen en het bos wilt bewonderen, hebben we een gids van Bain de Forêt bij de hand.\nWij heten u van harte welkom!"
+        ],
+        "es": [
+          "Bienvenido a nuestro Bed and Breakfast en el norte de Aveyron.\nNuestra casa renovada está situada entre el PNR des Volcans d'Auvergne y el PNR de l'Aubrac. Un lugar ideal para pasar unos días de vacaciones y descubrir la belleza de esta región. Ofrece multitud de actividades en todas las épocas del año: senderismo, vías ferratas, senderos, baño en el lago, raquetas de nieve o esquí en invierno, visitas a castillos y pueblos, mercados, ...\nLe damos la bienvenida en 2 cómodas habitaciones con bonitas vistas y baño privado.\nPor la noche, podrá disfrutar de nuestra table d'hôtes previa reserva. Nuestra cocina se elabora principalmente con productos locales y verduras de la huerta.\nComo nos apasiona el ciclismo, ofrecemos bicicletas eléctricas de alquiler para descubrir el campo de una manera diferente\nNuestro antiguo horno de pan se enciende regularmente y organizamos talleres de elaboración de pan. Y si le apetece frenar y maravillarse en el bosque, tenemos un guía de Bain de Forêt a mano.\nLe ofrecemos una cálida y amistosa bienvenida"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/12e5eac4-f857-3a67-a46a-f97c518e294d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1973e3d5-d83d-3c20-ace4-376648a53b2a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/387cf3c8-56c2-377b-926a-a38f693314d7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4e608195-c250-3256-848f-63e8241654b3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/51e4d6d8-883d-3bb1-889b-5ff1a7a19d41",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8acb0d8d-1fef-3021-b88c-fbf72b5471a5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b64daf19-f23a-37c1-830c-22bd7f5b7055",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c7b7a696-55f0-397e-93fc-ca67703a7780",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e7de31e9-b181-3ce6-b90b-cefa0b0308e0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f42175e8-806d-3f9e-884d-9cf076ba771e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein Gästehaus im Geiste des Slow-Tourismus: Nehmen Sie sich Zeit und hören Sie auf das, wonach Ihnen gerade ist! Genießen Sie die einfachen Dinge und machen Sie eine andere Erfahrung in der Nähe der Natur"
+        ],
+        "en": [
+          "A guest house in the spirit of Slow Tourism: take your time and listen to the desires of the moment! Come and enjoy the simple things and live a different experience close to nature"
+        ],
+        "it": [
+          "Una guest house nello spirito del turismo lento: prendersi il tempo necessario e ascoltare i propri desideri! Venite a godervi le cose semplici e a vivere un'esperienza diversa a contatto con la natura"
+        ],
+        "fr": [
+          "Une maison d'hôtes dans l'esprit du Slow Tourisme : prenez le temps et écoutez les envies du moment ! Venez apprécier les choses simples et vivre une expérience différente proche de la nature"
+        ],
+        "es": [
+          "Una casa de huéspedes en el espíritu del turismo lento: ¡tómese su tiempo y escuche sus deseos! Ven a disfrutar de las cosas sencillas y a vivir una experiencia diferente cerca de la naturaleza"
+        ],
+        "nl": [
+          "Een pension in de geest van Slow Tourism: neem de tijd en luister naar de verlangens van het moment! Kom en geniet van de eenvoudige dingen en beleef een andere ervaring dicht bij de natuur"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/20ca63c4-fa18-31f9-b5b6-5f49ccf44cc0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56cc6a59-439e-3593-8221-ea9a7564b9d9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7ec75ff2-a3fc-3357-9f58-4f651439a534",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7eecda8c-554a-3736-b834-8c3c9df446be",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/3d08df66-6785-3e82-a53c-4e5c7ed487a1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/01291d05-8f32-35ef-8f52-80f2feebe245",
+          "ebucore:abstract": {
+            "fr": [
+              "Chambre d'hôtes Basalt"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Chambre d'hôtes Basalt"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Bruno \"Bardolino\" Peeters"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/084c56cc-5a9e-35f2-8991-6269a42720cd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO446636812997/TFO446636812997-17a/medias/jpeg/chambre-basalte.jpeg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/3d08df66-6785-3e82-a53c-4e5c7ed487a1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/01291d05-8f32-35ef-8f52-80f2feebe245",
+          "ebucore:abstract": {
+            "fr": [
+              "Chambre d'hôtes Basalt"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Chambre d'hôtes Basalt"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Bruno \"Bardolino\" Peeters"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/084c56cc-5a9e-35f2-8991-6269a42720cd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO446636812997/TFO446636812997-17a/medias/jpeg/chambre-basalte.jpeg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/20700256-571f-3aaa-acf6-699f3ad373e5",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2021-05-25"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheMountains",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Gebirge"
+        ],
+        "pt": [
+          "Na montanha"
+        ],
+        "en": [
+          "In the mountains"
+        ],
+        "it": [
+          "In montagna"
+        ],
+        "fr": [
+          "A la montagne"
+        ],
+        "nl": [
+          "Op de berg"
+        ],
+        "es": [
+          "En la montaña"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/39cd8a9d-85c3-328b-b117-ee087a4cace1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4a5c0c47-04e3-3f7b-8865-ce40f2b6d761",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7603a225-789f-3805-a62d-f4c7e5033b3f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/906dd25b-7960-3086-89a0-b5337274b0e8",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/92414d7b-d8b3-39bf-aa26-298b4101b60b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/c0773aa5-1ede-3086-94ce-815c0603d04a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e01fc5c8-b9fe-3178-8428-d9910094aa91",
+          "schema:addressLocality": "Thérondels",
+          "schema:postalCode": "12600",
+          "schema:streetAddress": [
+            "2",
+            "Le FIEU"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12280",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Thérondels"
+              ],
+              "pt": [
+                "Thérondels"
+              ],
+              "en": [
+                "Thérondels"
+              ],
+              "it": [
+                "Thérondels"
+              ],
+              "fr": [
+                "Thérondels"
+              ],
+              "nl": [
+                "Thérondels"
+              ],
+              "es": [
+                "Thérondels"
+              ]
+            },
+            "insee": "12280",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e7a0160c-1ef0-3257-9277-12c4a271ee03",
+        "schema:elevation": "950",
+        "schema:latitude": "44.9122",
+        "schema:longitude": "2.7623",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-06",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.724Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/225e8320-e96a-3d18-a154-ea6117a37afc",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/1833d493-11ea-3902-8114-36ed9fc613c8",
+          "schema:price": "30",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:ExtraCharge",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aufschlag"
+                ],
+                "pt": [
+                  "Suplemento"
+                ],
+                "en": [
+                  "Extra charge"
+                ],
+                "it": [
+                  "Supplemento"
+                ],
+                "fr": [
+                  "Supplément"
+                ],
+                "nl": [
+                  "Supplement"
+                ],
+                "es": [
+                  "Suplemento"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/da5e09a2-046a-383c-ab4e-27b3835c206c",
+          "schema:price": "90",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Aufpreis von 25€ für einen Aufenthalt von einer Nacht."
+            ],
+            "en": [
+              "Supplement of 25€ for a one night stay."
+            ],
+            "it": [
+              "25? supplemento per un soggiorno di una notte."
+            ],
+            "fr": [
+              "Supplément de 25€ pour un séjour d'une nuit."
+            ],
+            "nl": [
+              "Supplement van 25€ voor een verblijf van één nacht."
+            ],
+            "es": [
+              "Recargo de 25 euros por una noche de estancia."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0cf6f88c-7a9b-3bac-996a-c696ffa27834",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/755efa11-5221-3f99-8192-29a3405f778c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/79a88ef9-db8d-3d98-9926-afe3eb9f1576",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aa5c0ecf-7586-386d-84ba-4e905c610316",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/da986931-2a17-3723-9f42-942a386d8346",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fbde9a1f-3d38-33d1-a48a-e5936cdffa9a",
+          "schema:maxPrice": [
+            "35"
+          ],
+          "schema:minPrice": [
+            "25"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,935 @@
+{
+  "@id": "https://data.datatourisme.fr/31/b894d5e3-6022-313e-b56c-7ef6ec9d72ae",
+  "dc:identifier": "TFO485011449456",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "Tipi"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Im Herzen des Aveyron in unserem Tierpark im Foret Des Palanges. Genießen Sie unser TIPI auf einer Plattform mit Blick auf die Tiere des Parks und des Waldes."
+    ],
+    "en": [
+      "In the heart of Aveyron in our animal park in the Forest of Palanges. Enjoy our TIPI perched on a platform with a view on the animals of the park and the forest."
+    ],
+    "it": [
+      "Nel cuore dell'Aveyron, nel nostro parco animali della Foret Des Palanges. Godetevi il nostro TIPI appollaiato su una piattaforma con vista sugli animali del parco e della foresta."
+    ],
+    "fr": [
+      "Au coeur de L'Aveyron dans notre parc animalier dans la Foret Des Palanges. Profitez de notre TIPI perché sur une plateforme avec vue sur les animaux du parc et de la foret."
+    ],
+    "nl": [
+      "In het hart van de Aveyron in ons dierenpark in het Foret Des Palanges. Geniet van onze TIPI op een platform met uitzicht op de dieren van het park en het bos."
+    ],
+    "es": [
+      "En el corazón del Aveyron en nuestro parque de animales en el Foret Des Palanges. Disfrute de nuestro TIPI encaramado en una plataforma con vistas a los animales del parque y del bosque."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Le Tipi du Parc animalier Le Saint Hubert"
+    ]
+  },
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/5324d132-ea81-3770-bc15-ef7e3140cac5",
+    "schema:legalName": "OT Terres d'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f78be408-0430-3efa-af68-7bd70463abb6",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/32cbe78f-c847-330c-9a9f-3df228ee08da",
+          "schema:addressLocality": "Montrozier",
+          "schema:postalCode": "12630",
+          "schema:streetAddress": [
+            "Le Saint Hubert / Lussagues"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12157",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Montrozier"
+              ],
+              "pt": [
+                "Montrozier"
+              ],
+              "en": [
+                "Montrozier"
+              ],
+              "it": [
+                "Montrozier"
+              ],
+              "fr": [
+                "Montrozier"
+              ],
+              "nl": [
+                "Montrozier"
+              ],
+              "es": [
+                "Montrozier"
+              ]
+            },
+            "insee": "12157",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:familyName": [
+        "OLIVIER"
+      ],
+      "schema:givenName": [
+        "Florent"
+      ],
+      "schema:legalName": "Le Tipi du Parc animalier Le Saint Hubert",
+      "schema:telephone": [
+        "+33 6 33 30 79 76"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "https://parc-animalier-auberge.fr/"
+      ],
+      "foaf:title": [
+        "Monsieur"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/8bcbaa82-cf60-332d-a0a2-aacac1982534",
+      "dc:description": {
+        "de": [
+          "Brauchen Sie eine Flucht?\n\n\nLust, neue Energie zu tanken?\n\nAuf einen Moment zu zweit?\n\nEntdecken Sie dieses Tipi aus Holz :\n\nRuhig und friedlich mitten im Wald\n\nIm Zentrum des Aveyron, am Rande unseres Tierparks\n\nGemeinsame Sanitäranlage 30 Meter entfernt\n\nUngewöhnlicher und ökologischer Aufenthalt\n\nWanderungen und Spaziergänge in der Nähe\n\n** Bettwäsche und Handtücher vorsehen**\n\nNur von Juni bis Oktober verfügbar"
+        ],
+        "en": [
+          "Need to get away?\n\n\nWant to recharge your batteries?\n\nA romantic getaway?\n\nCome and discover this wooden tepee:\n\nQuiet and peaceful in the forest\n\nIn the heart of Aveyron, on the edge of our Wildlife Park\n\nShared washroom 30 meters away\n\nUnusual and ecological stay\n\nHiking and walking nearby\n\n** Please bring your own sheets and towels**\n\nAvailable only from June to October"
+        ],
+        "it": [
+          "Avete bisogno di staccare la spina?\n\n\nVolete ricaricare le batterie?\n\nUna fuga romantica?\n\nVenite a scoprire questo tepee in legno:\n\nCalma e tranquillità nel bel mezzo della foresta\n\nNel centro dell'Aveyron, ai margini del nostro Parco degli animali\n\nServizi igienici in comune a 30 metri\n\nSoggiorno insolito ed ecologico\n\nEscursioni e passeggiate nelle vicinanze\n\n** Si prega di portare le proprie lenzuola e asciugamani**\n\nDisponibile solo da giugno a ottobre"
+        ],
+        "fr": [
+          "Besoin d'évasion ?\n\n\nEnvie de vous ressourcer ?\n\nD'un moment en amoureux ?\n\nVenez découvrir ce Tipi en bois :\n\nCalme et paisible en pleine forêt\n\nAu centre de l'Aveyron, en lisière de notre Parc Animalier\n\nLocale sanitaire commun à 30 mètres\n\nSéjour insolite et écologique\n\nRandonnée et ballades à proximité\n\n** Prévoir draps et serviettes**\n\nDisponible Uniquement de Juin à Octobre"
+        ],
+        "es": [
+          "¿Necesita alejarse de todo?\n\n\n¿Quiere recargar las pilas?\n\n¿Una escapada romántica?\n\nVen a descubrir este tipi de madera:\n\nTranquilidad y paz en medio del bosque\n\nEn el centro del Aveyron, al borde de nuestro Parque Natural\n\nSanitarios compartidos a 30 metros\n\nEstancia insólita y ecológica\n\nSenderismo y paseos en las cercanías\n\n** Traiga sus propias sábanas y toallas**\n\nDisponible sólo de junio a octubre"
+        ],
+        "nl": [
+          "Wil je er even tussenuit?\n\n\nWil je je batterijen opladen?\n\nEen romantisch uitje?\n\nKom en ontdek deze houten tipi:\n\nRustig en vredig midden in het bos\n\nIn het centrum van Aveyron, aan de rand van ons Wildpark\n\nGemeenschappelijk sanitair op 30 meter\n\nOngewoon en ecologisch verblijf\n\nWandelen en hiken in de buurt\n\n** Breng je eigen lakens en handdoeken mee**\n\nAlleen beschikbaar van juni tot oktober"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/121628fb-a955-3514-80b2-a8543f811df5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/407c3f43-c439-3cd5-a9ea-0b47c7b730c5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5da6039e-03cf-39f5-97f0-78abc9f4fd6b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/705cbd1f-6ef4-3765-bfad-66e0533d2654",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/72539aa8-e321-361e-ae7f-95e48b2aeb13",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/84b4452f-22a8-3acd-bfa5-7433ff395caf",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/85e37c15-fe20-3936-b1ee-2527c9b5fe20",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/87d041e5-eed9-3afc-bab6-a53b864bc464",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ba72aae0-e9b3-30b4-8f67-b69e2f13f88d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e3d69da7-809d-3a72-bc00-d9529b90f027",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Im Herzen des Aveyron in unserem Tierpark im Foret Des Palanges. Genießen Sie unser TIPI auf einer Plattform mit Blick auf die Tiere des Parks und des Waldes."
+        ],
+        "en": [
+          "In the heart of Aveyron in our animal park in the Forest of Palanges. Enjoy our TIPI perched on a platform with a view on the animals of the park and the forest."
+        ],
+        "it": [
+          "Nel cuore dell'Aveyron, nel nostro parco animali della Foret Des Palanges. Godetevi il nostro TIPI appollaiato su una piattaforma con vista sugli animali del parco e della foresta."
+        ],
+        "fr": [
+          "Au coeur de L'Aveyron dans notre parc animalier dans la Foret Des Palanges. Profitez de notre TIPI perché sur une plateforme avec vue sur les animaux du parc et de la foret."
+        ],
+        "nl": [
+          "In het hart van de Aveyron in ons dierenpark in het Foret Des Palanges. Geniet van onze TIPI op een platform met uitzicht op de dieren van het park en het bos."
+        ],
+        "es": [
+          "En el corazón del Aveyron en nuestro parque de animales en el Foret Des Palanges. Disfrute de nuestro TIPI encaramado en una plataforma con vistas a los animales del parque y del bosque."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d3ce8822-9128-3bb9-9eef-06891413504e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ffd96b87-1a22-37c8-856e-7a829340de12",
+          "ebucore:abstract": {
+            "fr": [
+              "Le Tipi du Parc animalier Le Saint Hubert"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Le Tipi du Parc animalier Le Saint Hubert"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Aveyron Attractivité Tourisme"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/26c0145f-951e-3f5c-bfd1-1ea9161048d3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO485011449456/TFO485011449456-17a/medias/jpg/tfo485011449456_1.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d3ce8822-9128-3bb9-9eef-06891413504e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ffd96b87-1a22-37c8-856e-7a829340de12",
+          "ebucore:abstract": {
+            "fr": [
+              "Le Tipi du Parc animalier Le Saint Hubert"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Le Tipi du Parc animalier Le Saint Hubert"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Aveyron Attractivité Tourisme"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/26c0145f-951e-3f5c-bfd1-1ea9161048d3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO485011449456/TFO485011449456-17a/medias/jpg/tfo485011449456_1.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/24ca3dc1-ce5a-3b16-8f6b-66cd02da9c85",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/25fe3011-a840-3b75-88f9-6f3e7164f4af",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4dad5c49-4890-3492-8ff9-cec96dcc8268",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a7514499-b695-3ae5-ae90-e166c8b5c4b1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c5ab0b05-add8-3a9a-a065-a7849ed8de6a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/aca37150-2b29-3784-83be-9edd4c26de86",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0cce8dc4-2231-3507-8085-dd410fa65ec4",
+          "schema:addressLocality": "Montrozier",
+          "schema:postalCode": "12630",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12157",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Montrozier"
+              ],
+              "pt": [
+                "Montrozier"
+              ],
+              "en": [
+                "Montrozier"
+              ],
+              "it": [
+                "Montrozier"
+              ],
+              "fr": [
+                "Montrozier"
+              ],
+              "nl": [
+                "Montrozier"
+              ],
+              "es": [
+                "Montrozier"
+              ]
+            },
+            "insee": "12157",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/c0f0a988-67db-31c0-b95e-dc7a494fee68",
+        "schema:elevation": "554",
+        "schema:latitude": "44.3794",
+        "schema:longitude": "2.7059",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/96a669e7-e0fd-37ab-bfe7-b38b3894c65f",
+          "schema:validFrom": "2023-06-01T00:00:00",
+          "schema:validThrough": "2023-10-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-07",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.702Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/10286d57-c902-3608-b84b-7da66633583c",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/25d30d04-1fda-3338-bafc-f485bf5b27b4",
+          "schema:price": "60",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Deux personnes"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "@id": "https://data.datatourisme.fr/15/f1a5eaaa-90bb-3d9b-a5f9-3efb214e70ae",
+  "dc:identifier": "ACCCEN0370007N",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Aire de stationnement au camping municipal"
+    ],
+    "fr": [
+      "Aire de stationnement au camping municipal"
+    ]
+  },
+  "allowedPersons": 7,
+  "creationDate": "2012-04-16",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/15/4be0535a-ea33-3349-bb53-52d82cfbfab7",
+    "dc:identifier": "54ac26c9-1a98-475d-9c2c-9f98073412a6",
+    "schema:legalName": "ADT TOURAINE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/96d88122-3ffd-3c00-be1b-b7913e526688",
+      "schema:email": [
+        "camping@ville-descartes.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 59 85 90"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.ville-descartes.fr/"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/b2c3e47f-29a3-38c1-8bdf-61d6e76925d3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChemicalToiletEmptying",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Entleerung chemischer Toiletten"
+            ],
+            "pt": [
+              "Despejo das sanitas químicas"
+            ],
+            "en": [
+              "Chemical toilets emptying"
+            ],
+            "it": [
+              "Svuotamento di bagni chimici"
+            ],
+            "fr": [
+              "Vidange toilettes chimiques"
+            ],
+            "es": [
+              "Vaciado de inodoros químicos"
+            ],
+            "nl": [
+              "Loospunt chemische toiletten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Elektrische Schaltung"
+            ],
+            "pt": [
+              "Ligações elétricas"
+            ],
+            "en": [
+              "Electrical connections"
+            ],
+            "it": [
+              "Collegamenti elettrici"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ],
+            "nl": [
+              "Elektrische aansluitingen"
+            ],
+            "es": [
+              "Conexiones eléctricas"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Washrooms",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletteneinrichtungen"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Washrooms"
+            ],
+            "it": [
+              "Sanitari"
+            ],
+            "fr": [
+              "Sanitaires"
+            ],
+            "es": [
+              "Sanitarios"
+            ],
+            "nl": [
+              "Sanitair"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WastwaterEvacuation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Entleerung von Abwasser"
+            ],
+            "pt": [
+              "Despejo de águas sujas"
+            ],
+            "en": [
+              "Wastwater evacuation"
+            ],
+            "it": [
+              "Svuotamento delle acque reflue"
+            ],
+            "fr": [
+              "Vidange des eaux usées"
+            ],
+            "es": [
+              "Vaciado de aguas residuales"
+            ],
+            "nl": [
+              "Afvalwaterpunt"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Wasseranschlüsse"
+            ],
+            "pt": [
+              "Ligações de água"
+            ],
+            "en": [
+              "Water connections"
+            ],
+            "it": [
+              "Collegamenti idrici"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ],
+            "nl": [
+              "Wateraansluitingen"
+            ],
+            "es": [
+              "Conexiones de agua"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4e884b42-c4eb-381a-858f-c0d89621fb1c",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a98e70d8-a740-333e-92dd-2a79009a9603",
+          "schema:addressLocality": "Descartes",
+          "schema:postalCode": "37160",
+          "schema:streetAddress": [
+            "Allée Léo Lagrange"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:37115",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Descartes"
+              ],
+              "pt": [
+                "Descartes"
+              ],
+              "en": [
+                "Descartes"
+              ],
+              "it": [
+                "Descartes"
+              ],
+              "fr": [
+                "Descartes"
+              ],
+              "nl": [
+                "Descartes"
+              ],
+              "es": [
+                "Descartes"
+              ]
+            },
+            "insee": "37115",
+            "isPartOfDepartment": {
+              "@id": "kb:France2437",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Indre-et-Loire"
+                ],
+                "pt": [
+                  "Indre-et-Loire"
+                ],
+                "en": [
+                  "Indre-et-Loire"
+                ],
+                "it": [
+                  "Indre-et-Loire"
+                ],
+                "fr": [
+                  "Indre-et-Loire"
+                ],
+                "nl": [
+                  "Indre-et-Loire"
+                ],
+                "es": [
+                  "Indre-et-Loire"
+                ]
+              },
+              "insee": "37",
+              "isPartOfRegion": {
+                "@id": "kb:France24",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Centre-Val de Loire"
+                  ],
+                  "pt": [
+                    "Centre-Val de Loire"
+                  ],
+                  "en": [
+                    "Centre-Val de Loire"
+                  ],
+                  "it": [
+                    "Centre-Val de Loire"
+                  ],
+                  "fr": [
+                    "Centre-Val de Loire"
+                  ],
+                  "nl": [
+                    "Centre-Val de Loire"
+                  ],
+                  "es": [
+                    "Centre-Val de Loire"
+                  ]
+                },
+                "insee": "24",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/5346b5e7-0832-3d9c-bc25-39a51b43e086",
+        "schema:latitude": "46.9700403",
+        "schema:longitude": "0.69908022",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-01-02",
+  "lastUpdateDatatourisme": "2023-02-28T01:29:22.242Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/bddda5c8-ac8a-359f-9dd2-506855f45f68",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/6d834d4c-90ee-30cd-ac7f-99e86f81341d",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Pro Person"
+            ],
+            "en": [
+              "Per person"
+            ],
+            "it": [
+              "Per persona"
+            ],
+            "fr": [
+              "Par personne"
+            ],
+            "es": [
+              "Por persona"
+            ],
+            "nl": [
+              "Per persoon"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/096b724e-e6fb-3172-834d-ffc64eb75a3d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/11020934-d742-3ff8-ba1a-730393adda25",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/20b9d5b7-3706-3b6c-afd3-1a1e16c4c709",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/25a3ff42-a4f0-3620-b223-b6fd98f6e58c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bef6df1a-2baf-3ce8-9d71-b19c8afb16fc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6e7fd60f-0afd-3164-95f6-a386a3ecd480",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Kurtaxe"
+            ],
+            "en": [
+              "Visitor's tax"
+            ],
+            "it": [
+              "Tassa di soggiorno"
+            ],
+            "fr": [
+              "Taxe de séjour"
+            ],
+            "nl": [
+              "Toeristenbelasting"
+            ],
+            "es": [
+              "Tasa turística"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/03a8de99-058b-3456-84bd-c76952d3e3d9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a435aa7d-7e75-3acc-a490-99fd866a72e3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c099272f-c9b2-3097-8616-bbd343e86517",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f45b153f-a5c2-37c3-91eb-3e416be269b3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f75dc011-7d9c-3be8-b16e-ef1a068acb6b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e864c6e1-c341-3731-a0cf-14f8a28a1bfd",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Preis für 1 Person"
+            ],
+            "en": [
+              "Rate for 1 person"
+            ],
+            "it": [
+              "Tariffa per 1 persona"
+            ],
+            "fr": [
+              "Tarif pour 1 personne"
+            ],
+            "es": [
+              "Tarifa para 1 persona"
+            ],
+            "nl": [
+              "Tarief voor 1 persoon"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3abbff86-8cf8-3d53-aba5-738cdae60b4d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/52876364-1841-3842-b9d2-2a4e0d64803a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/98ca18e4-5151-34c9-8601-6f0a84e5c8a6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a065a127-3e24-33a9-886f-a8e9898d246d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b6ab3c6a-463b-3f4d-8e47-9f62270758c8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "@id": "https://data.datatourisme.fr/13/a425f753-c268-3a4d-9534-e40278705762",
+  "dc:identifier": "5067543",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Store"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Yep Immo"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/d09bf415-44a3-365a-86c9-077ebb5e35c3",
+    "dc:identifier": "75",
+    "schema:email": [
+      "contact@diois-tourisme.com",
+      "sylvie.chagnard@diois-tourisme.com"
+    ],
+    "schema:legalName": "Office de Tourisme du Pays Diois",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.diois-tourisme.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/d48f2ccd-2357-3a8e-b949-cb8bf19a361f",
+      "schema:legalName": "Agence d'Attractivité de la Drôme - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9564a48b-7ff1-399e-86e0-f8cd7673f461",
+      "schema:telephone": [
+        "+33 6 23 82 06 59"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/222f913c-951f-3cc2-8aa7-f443996589da",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e5eaaddd-115a-30a0-b658-c4dc568f4981",
+          "schema:addressLocality": "Die",
+          "schema:postalCode": "26150",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:26113",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Die"
+              ],
+              "pt": [
+                "Die"
+              ],
+              "en": [
+                "Die"
+              ],
+              "it": [
+                "Die"
+              ],
+              "fr": [
+                "Die"
+              ],
+              "nl": [
+                "Die"
+              ],
+              "es": [
+                "Die"
+              ]
+            },
+            "insee": "26113",
+            "isPartOfDepartment": {
+              "@id": "kb:France8426",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Drôme"
+                ],
+                "pt": [
+                  "Drôme"
+                ],
+                "en": [
+                  "Drôme"
+                ],
+                "it": [
+                  "Drôme"
+                ],
+                "fr": [
+                  "Drôme"
+                ],
+                "nl": [
+                  "Drôme"
+                ],
+                "es": [
+                  "Drôme"
+                ]
+              },
+              "insee": "26",
+              "isPartOfRegion": {
+                "@id": "kb:France84",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "pt": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "en": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "it": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "fr": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "nl": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "es": [
+                    "Auvergne-Rhône-Alpes"
+                  ]
+                },
+                "insee": "84",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/3ee0f477-f10a-3439-8383-092cc9452dc1",
+        "schema:latitude": "44.753047",
+        "schema:longitude": "5.373626",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/2d6eecc3-b879-3eba-a5e1-c7cf7177eb3d",
+          "schema:closes": "12:00:00",
+          "schema:opens": "09:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/686bb9a2-bf0c-3dce-bd58-58d53ba6f9cb",
+      "schema:email": [
+        "contact@diois-tourisme.com",
+        "sylvie.chagnard@diois-tourisme.com"
+      ],
+      "schema:legalName": "Office de Tourisme du Pays Diois",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.diois-tourisme.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2019-10-28",
+  "lastUpdateDatatourisme": "2023-02-01T18:07:35.948Z"
+}

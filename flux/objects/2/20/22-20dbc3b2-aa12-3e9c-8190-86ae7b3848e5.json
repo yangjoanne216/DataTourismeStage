@@ -1,0 +1,917 @@
+{
+  "@id": "https://data.datatourisme.fr/22/20dbc3b2-aa12-3e9c-8190-86ae7b3848e5",
+  "dc:identifier": "HLOMIP046V512GN1",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "StopOverOrGroupLodge"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "La Petit' Pause ist ein Café-Restaurant im Herzen des Dorfes Faycelles, das auf dem Jakobsweg liegt und nur wenige Kilometer von Figeac entfernt ist. Genießen Sie eine Pause auf unserer Terrasse hoch über dem Tal des Lot."
+    ],
+    "en": [
+      "La Petit' Pause is a café-brocante located in the heart of the village, on the GR 65. Dinners and breakfasts are served in the café-brocante, the services can be modified according to the sanitary protocol in force."
+    ],
+    "it": [
+      "La Petit' Pause è un caffè-ristorante situato nel cuore del villaggio di Faycelles, sul cammino di Santiago de Compostela e a pochi chilometri da Figeac. Godetevi la nostra terrazza, arroccata sulla valle del Lot, per una pausa gourmet."
+    ],
+    "fr": [
+      "La Petit' Pause est un café restaurant situé en plein cœur du village de Faycelles, sur le chemin de de Saint Jacques de Compostelle et à quelques kilomètres de Figeac. Profitez de notre terrasse, perchée au dessus de la vallée du Lot,  pour une pause gourmande."
+    ],
+    "nl": [
+      "La Petit' Pause is een café-restaurant in het hart van het dorp Faycelles, op de route naar Santiago de Compostela en op enkele kilometers van Figeac. Geniet van ons terras, gelegen boven de vallei van de Lot, voor een gastronomische pauze."
+    ],
+    "es": [
+      "La Petit' Pause es un café-restaurante situado en el corazón del pueblo de Faycelles, en el camino de Santiago de Compostela y a pocos kilómetros de Figeac. Disfrute de nuestra terraza, encaramada sobre el valle del Lot, para una pausa gastronómica."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "La Petit' Pause"
+    ],
+    "fr": [
+      "La Petit' Pause"
+    ],
+    "es": [
+      "La Petit' Pause"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/19c899c1-d889-360d-889c-17be6754f7cd",
+    "schema:legalName": "OT Figeac",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3b64f734-2a28-31c8-b14d-ca5178bfbaeb",
+      "schema:legalName": "Lot Tourisme - Agence de développement touristique du Lot",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-lot.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4387ba44-25ca-3f25-b48b-e9681c80f06b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a829aca7-423b-37fb-81d5-90d25456a9ac",
+          "schema:addressLocality": "Faycelles",
+          "schema:postalCode": "46100",
+          "schema:streetAddress": [
+            "Rue de la Forge"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46100",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Faycelles"
+              ],
+              "pt": [
+                "Faycelles"
+              ],
+              "en": [
+                "Faycelles"
+              ],
+              "it": [
+                "Faycelles"
+              ],
+              "fr": [
+                "Faycelles"
+              ],
+              "nl": [
+                "Faycelles"
+              ],
+              "es": [
+                "Faycelles"
+              ]
+            },
+            "insee": "46100",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lapetitpause@gmail.com"
+      ],
+      "schema:legalName": "La Petit' Pause",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/2607587d-7779-3465-a209-447b392045a6",
+      "dc:description": {
+        "de": [
+          "La Petit' Pause ist ein Café-Restaurant im Herzen des Dorfes Faycelles, das auf dem Jakobsweg liegt und nur wenige Kilometer von Figeac entfernt ist. Genießen Sie eine Pause auf unserer Terrasse hoch über dem Tal des Lot."
+        ],
+        "en": [
+          "La Petit' Pause is a café-brocante located in the heart of the village, on the GR 65. Dinners and breakfasts are served in the café-brocante, the services can be modified according to the sanitary protocol in force."
+        ],
+        "it": [
+          "La Petit' Pause è un caffè-ristorante situato nel cuore del villaggio di Faycelles, sul cammino di Santiago de Compostela e a pochi chilometri da Figeac. Godetevi la nostra terrazza, arroccata sulla valle del Lot, per una pausa gourmet."
+        ],
+        "fr": [
+          "La Petit' Pause est un café restaurant situé en plein cœur du village de Faycelles, sur le chemin de de Saint Jacques de Compostelle et à quelques kilomètres de Figeac. Profitez de notre terrasse, perchée au dessus de la vallée du Lot,  pour une pause gourmande."
+        ],
+        "nl": [
+          "La Petit' Pause is een café-restaurant in het hart van het dorp Faycelles, op de route naar Santiago de Compostela en op enkele kilometers van Figeac. Geniet van ons terras, gelegen boven de vallei van de Lot, voor een gastronomische pauze."
+        ],
+        "es": [
+          "La Petit' Pause es un café-restaurante situado en el corazón del pueblo de Faycelles, en el camino de Santiago de Compostela y a pocos kilómetros de Figeac. Disfrute de nuestra terraza, encaramada sobre el valle del Lot, para una pausa gastronómica."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/3805bfbc-2811-387e-8a03-2c6a837cac0f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5aaf65b7-1b49-3d5e-9411-616759ea2f15",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8965eca1-5e80-3501-8d59-8894c5b6233f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/92e5d055-8650-3c1c-988f-318753bd77e4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ad90aaaf-10bc-3bf7-aa6e-bdcb40676752",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c972f0e0-4ee3-36f0-a5b0-cd1df9ebb87f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "La Petit' Pause ist ein Café-Restaurant im Herzen des Dorfes Faycelles, das auf dem Jakobsweg liegt und nur wenige Kilometer von Figeac entfernt ist. Genießen Sie eine Pause auf unserer Terrasse hoch über dem Tal des Lot."
+        ],
+        "en": [
+          "La Petit' Pause is a café-brocante located in the heart of the village, on the GR 65. Dinners and breakfasts are served in the café-brocante, the services can be modified according to the sanitary protocol in force."
+        ],
+        "it": [
+          "La Petit' Pause è un caffè-ristorante situato nel cuore del villaggio di Faycelles, sul cammino di Santiago de Compostela e a pochi chilometri da Figeac. Godetevi la nostra terrazza, arroccata sulla valle del Lot, per una pausa gourmet."
+        ],
+        "fr": [
+          "La Petit' Pause est un café restaurant situé en plein cœur du village de Faycelles, sur le chemin de de Saint Jacques de Compostelle et à quelques kilomètres de Figeac. Profitez de notre terrasse, perchée au dessus de la vallée du Lot,  pour une pause gourmande."
+        ],
+        "nl": [
+          "La Petit' Pause is een café-restaurant in het hart van het dorp Faycelles, op de route naar Santiago de Compostela en op enkele kilometers van Figeac. Geniet van ons terras, gelegen boven de vallei van de Lot, voor een gastronomische pauze."
+        ],
+        "es": [
+          "La Petit' Pause es un café-restaurante situado en el corazón del pueblo de Faycelles, en el camino de Santiago de Compostela y a pocos kilómetros de Figeac. Disfrute de nuestra terraza, encaramada sobre el valle del Lot, para una pausa gastronómica."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d31eb05a-fb21-38af-b5a0-ef1bd29919f9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2da01c00-6170-3017-8073-e8de6b78a06e",
+          "ebucore:title": {
+            "en": [
+              "1675162787814"
+            ],
+            "fr": [
+              "1675162787814"
+            ],
+            "es": [
+              "1675162787814"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "La Petit Pause"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c02e2e20-0dd6-3e68-88c2-2666b360e730",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/1675162787814.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d31eb05a-fb21-38af-b5a0-ef1bd29919f9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2da01c00-6170-3017-8073-e8de6b78a06e",
+          "ebucore:title": {
+            "en": [
+              "1675162787814"
+            ],
+            "fr": [
+              "1675162787814"
+            ],
+            "es": [
+              "1675162787814"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "La Petit Pause"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c02e2e20-0dd6-3e68-88c2-2666b360e730",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/1675162787814.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/11ca7ec6-8499-3311-a317-07b1ed4bdb4d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/57124397-9cd9-3674-80b7-4b93b0e4ec18",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5baad307-82e8-33fc-be66-e46648487b3d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ad8d4de4-d343-3a64-b282-494df6905b68",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/9adffbe0-2086-343c-bedf-56d684f53e1b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a829aca7-423b-37fb-81d5-90d25456a9ac",
+          "schema:addressLocality": "Faycelles",
+          "schema:postalCode": "46100",
+          "schema:streetAddress": [
+            "Rue de la Forge"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46100",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Faycelles"
+              ],
+              "pt": [
+                "Faycelles"
+              ],
+              "en": [
+                "Faycelles"
+              ],
+              "it": [
+                "Faycelles"
+              ],
+              "fr": [
+                "Faycelles"
+              ],
+              "nl": [
+                "Faycelles"
+              ],
+              "es": [
+                "Faycelles"
+              ]
+            },
+            "insee": "46100",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/12274f4f-835c-36ee-bf68-1e0fb46461ae",
+        "schema:latitude": "44.5652346",
+        "schema:longitude": "1.98742273",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f6a133a5-4d21-361e-9707-43c5a70ca41e",
+          "schema:validFrom": "2023-04-15T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/19c899c1-d889-360d-889c-17be6754f7cd",
+      "schema:legalName": "OT Figeac",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-04-28",
+  "lastUpdateDatatourisme": "2023-06-22T13:01:39.991Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/e53a1384-f464-34ca-8d83-e8a62082ce4e",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/032a0bcd-adeb-33a6-9b78-4c89e5243379",
+          "schema:maxPrice": [
+            "40"
+          ],
+          "schema:minPrice": [
+            "35"
+          ],
+          "schema:price": "35",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Frühstück inbegriffen"
+            ],
+            "en": [
+              "Breakfast included"
+            ],
+            "it": [
+              "Colazione inclusa"
+            ],
+            "fr": [
+              "Petit-déjeuner inclus"
+            ],
+            "nl": [
+              "Ontbijt inbegrepen"
+            ],
+            "es": [
+              "Desayuno incluido"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2be200ce-380b-3c9c-8e30-0fd3cda76546",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/765b8d9b-9895-3f42-b284-be091dd53983",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9a52b1da-7162-3103-975f-17ffcec05b1d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9c9bb2b4-3872-3175-a3e9-514d9215fea6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fde6e364-97a0-38ff-b793-416293c214d2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "en": [
+              "Night"
+            ],
+            "fr": [
+              "Nuitée (Gîte d'étape)"
+            ],
+            "es": [
+              "Noche (Albergue etapa)"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/481281b3-4209-3d97-bc7d-c876264db3b9",
+          "schema:maxPrice": [
+            "20"
+          ],
+          "schema:minPrice": [
+            "15"
+          ],
+          "schema:price": "15",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "en": [
+              "lunch"
+            ],
+            "fr": [
+              "Repas (Gîte d'étape)"
+            ],
+            "es": [
+              "Comida (Albergue etapa)"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

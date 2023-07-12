@@ -1,0 +1,822 @@
+{
+  "@id": "https://data.datatourisme.fr/49/dfda23f7-0c2a-3e7e-86fc-0cffa47b61f3",
+  "dc:identifier": "ITIPDL049V5001FQ",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein Interpretationspfad in Saint-Jean-des-Mauvrets, auf dem Sie die Geheimnisse des Weinbaus entdecken können."
+    ],
+    "en": [
+      "An interpretation trail in Saint-Jean-des-Mauvrets to discover the secrets of the vine."
+    ],
+    "it": [
+      "Un percorso di interpretazione a Saint-Jean-des-Mauvrets per scoprire i segreti della vite."
+    ],
+    "fr": [
+      "Un sentier d'interprétation à Saint-Jean-des-Mauvrets pour découvrir les secrets de la vigne."
+    ],
+    "es": [
+      "Un recorrido de interpretación en Saint-Jean-des-Mauvrets para descubrir los secretos de la vid."
+    ],
+    "nl": [
+      "Een interpretatieparcours in Saint-Jean-des-Mauvrets om de geheimen van de wijnstok te ontdekken."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "SENTIER D'INTERPRÉTATION DU VIGNOBLE DE L'AUBANCE : LA VIGNE AU FIL DU TEMPS"
+    ]
+  },
+  "creationDate": "2012-08-11",
+  "hasAudience": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a2601da1-46ee-363f-a025-6684bcf91a0c",
+      "schema:email": [
+        "accueil@anjou-vignoble-villages.com"
+      ],
+      "schema:telephone": [
+        "+33 2 41 78 26 21"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://anjou-vignoble-villages.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/5f529a77-e202-3b33-aeb4-c6ab9b7105c0",
+      "dc:description": {
+        "de": [
+          "Mit der Familie oder mit Freunden können Sie auf diesem ausgeschilderten Pfad die Weinberglandschaft von Saint-Jean-des-Mauvrets entdecken. Auf den sechs erklärenden Tafeln, die diesen Interpretationspfad durchziehen, erfahren Sie mehr über die Weinrebe und die Arbeit des Winzers im Laufe der Zeit: die Rebe, der Zyklus der Weinrebe, die Rebsorten, die Arbeit im Weinberg, die Weinlese...\n\nFordern Sie die Broschüre im Tourismusbüro an."
+        ],
+        "en": [
+          "With family or friends, take this marked trail to discover the vineyard landscapes of Saint-Jean-des-Mauvrets. The six explanatory panels that punctuate this interpretive trail will allow you to learn more about the vine and the work of the winegrower over time: the vine stock, the vine cycle, the grape varieties, the work of the vine, the grape harvest...\n\nAsk for the brochure at the Tourist Office."
+        ],
+        "it": [
+          "In famiglia o con gli amici, percorrete questo sentiero segnalato per scoprire i paesaggi viticoli di Saint-Jean-des-Mauvrets. I sei pannelli esplicativi lungo il percorso vi racconteranno la vite e il lavoro del viticoltore nel corso degli anni: la vite, il ciclo della vite, i vitigni, il lavoro della vite, la vendemmia...\n\nRichiedete la brochure all'Ufficio del Turismo."
+        ],
+        "fr": [
+          "En famille ou entre amis, empruntez ce sentier balisé à la découverte des paysages de vignoble de Saint-Jean-des-Mauvrets. Les six panneaux explicatifs qui ponctuent ce sentier d'interprétation vous permettront d'en savoir plus sur la vigne et le travail du vigneron au fil du temps : le cep de vigne, le cycle de la vigne, les cépages, le travail de la vigne, les vendanges...\n\nDemandez la brochure à l'Office de Tourisme."
+        ],
+        "nl": [
+          "Ontdek met uw gezin of met vrienden de wijngaarden van Saint-Jean-des-Mauvrets via deze bewegwijzerde route. De zes verklarende panelen langs het pad vertellen u meer over de wijnstok en het werk van de wijnboer door de jaren heen: de wijnstok, de cyclus van de wijnstok, de druivenrassen, het werk van de wijnstok, de oogst...\n\nVraag de brochure bij het VVV-kantoor."
+        ],
+        "es": [
+          "En familia o con amigos, recorra este sendero señalizado para descubrir los paisajes de viñedos de Saint-Jean-des-Mauvrets. Los seis paneles explicativos a lo largo del camino le contarán más sobre la vid y el trabajo del viticultor a lo largo de los años: la vid, el ciclo de la vid, las variedades de uva, el trabajo de la vid, la vendimia...\n\nPida el folleto en la Oficina de Turismo."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/028de2b4-996a-36e8-8a74-176f90940bcc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/06dcf70b-0bb1-3057-8ce3-b731f8fd6507",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0d78a6a4-0414-3d4b-bcf0-f372006ce58f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3c7b0d80-9bbf-391e-9aa6-5c62d52d489a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/40eda28c-6699-3aeb-9fff-81d088d329b7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/48ca537c-f476-3b17-bb35-4216757c1fb2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/67e2e3e2-8742-3e4b-ac32-83dddb9b6961",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/798c7f3e-0ee8-3916-90ba-3ac5dbfcf298",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/af1af20e-31b7-3494-afec-a95772b400a7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cb0002d2-b143-3124-9532-dfe6f40a0d8c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein Interpretationspfad in Saint-Jean-des-Mauvrets, auf dem Sie die Geheimnisse des Weinbaus entdecken können."
+        ],
+        "en": [
+          "An interpretation trail in Saint-Jean-des-Mauvrets to discover the secrets of the vine."
+        ],
+        "it": [
+          "Un percorso di interpretazione a Saint-Jean-des-Mauvrets per scoprire i segreti della vite."
+        ],
+        "fr": [
+          "Un sentier d'interprétation à Saint-Jean-des-Mauvrets pour découvrir les secrets de la vigne."
+        ],
+        "es": [
+          "Un recorrido de interpretación en Saint-Jean-des-Mauvrets para descubrir los secretos de la vid."
+        ],
+        "nl": [
+          "Een interpretatieparcours in Saint-Jean-des-Mauvrets om de geheimen van de wijnstok te ontdekken."
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/bc9427e5-601f-326e-b957-1200c58a34a1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/321dbc55-f8af-3113-a6d5-61666ce0ac2f",
+          "ebucore:title": {
+            "fr": [
+              "Sentier-d-interpretation-du-vignoble-St-Jean-des-M"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OTDAVV"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/e67d3126-2e31-37cb-9d33-395a45aaa9cd",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://cdt44.media.tourinsoft.eu/upload/Sentier-d-interpretation-du-vignoble-St-Jean-des-M.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schleifenroute"
+        ],
+        "pt": [
+          "Circular"
+        ],
+        "en": [
+          "Loop itinerary"
+        ],
+        "it": [
+          "Ad anello"
+        ],
+        "fr": [
+          "En boucle"
+        ],
+        "nl": [
+          "In een lus"
+        ],
+        "es": [
+          "Circuito"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/165d43c1-2f44-3535-92d5-158e9f7d3d6b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2fc1d2f6-1560-3bd8-8899-f66557cc8f44",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/374a119c-6c31-3e28-8e64-3a8c4fd5eca2",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5e911bdc-6733-3fae-a024-e7defc63584e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7a13bae4-b406-3974-8390-ac4fd88c5628",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/5fa1dccb-ac4f-3d6a-9758-ab5874600e4d",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ec7e8807-7c34-3980-ab54-9e5b8b4e971d",
+          "schema:addressLocality": "Les Garennes sur Loire",
+          "schema:postalCode": "49320",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:49167",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Les Garennes sur Loire"
+              ],
+              "pt": [
+                "Les Garennes sur Loire"
+              ],
+              "en": [
+                "Les Garennes sur Loire"
+              ],
+              "it": [
+                "Les Garennes sur Loire"
+              ],
+              "fr": [
+                "Les Garennes sur Loire"
+              ],
+              "nl": [
+                "Les Garennes sur Loire"
+              ],
+              "es": [
+                "Les Garennes sur Loire"
+              ]
+            },
+            "insee": "49167",
+            "isPartOfDepartment": {
+              "@id": "kb:France5249",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Maine-et-Loire"
+                ],
+                "pt": [
+                  "Maine-et-Loire"
+                ],
+                "en": [
+                  "Maine-et-Loire"
+                ],
+                "it": [
+                  "Maine-et-Loire"
+                ],
+                "fr": [
+                  "Maine-et-Loire"
+                ],
+                "nl": [
+                  "Maine-et-Loire"
+                ],
+                "es": [
+                  "Maine-et-Loire"
+                ]
+              },
+              "insee": "49",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6f411a20-947e-3ba5-bf64-191f2d1f0ac0",
+        "schema:latitude": "47.4041854",
+        "schema:longitude": "-0.493524",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-06-15",
+  "lastUpdateDatatourisme": "2023-02-18T05:25:41.605Z",
+  "tourDistance": "4500.0"
+}

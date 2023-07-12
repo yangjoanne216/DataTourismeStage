@@ -1,0 +1,1823 @@
+{
+  "@id": "https://data.datatourisme.fr/31/b06f6aa2-b019-3a42-8cdc-ce6b3dd95950",
+  "dc:identifier": "TFO438771851543",
+  "@type": [
+    "schema:Accommodation",
+    "schema:House",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "House",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Großes Familienhaus am Rande der Stadt, das geschmackvoll renoviert wurde. Sie werden von diesem einzigartigen Ort begeistert sein, an den Sie mit der Familie oder mit Freunden kommen können! Für Angler warten verschiedene Spots in der Nähe auf Sie."
+    ],
+    "en": [
+      "Large family home on the edge of town renovated with taste. You will be seduced by this unique place where you can come with your family or friends! For fishermen, different spots are waiting for you nearby."
+    ],
+    "it": [
+      "Grande casa familiare ai margini della città, ristrutturata con gusto. Sarete sedotti da questo luogo unico dove potrete venire con la vostra famiglia o i vostri amici! Per i pescatori, nelle vicinanze vi aspettano diversi spot."
+    ],
+    "fr": [
+      "Grande maison familiale en bordure de ville rénovée avec goût. Vous serez séduit par ce lieu unique où vous pouvez venir en famille ou entre amis ! Pour les pêcheurs, différents spots vous attendent à proximité."
+    ],
+    "nl": [
+      "Groot familiehuis aan de rand van de stad, smaakvol gerenoveerd. U zult verleid worden door deze unieke plek waar u met uw familie of vrienden kunt komen! Voor de vissers wachten in de omgeving verschillende stekken."
+    ],
+    "es": [
+      "Gran casa familiar a las afueras de la ciudad, reformada con gusto. Le seducirá este lugar único al que podrá venir con su familia o amigos. A los pescadores les esperan varios lugares en los alrededores."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Gîte à la ferme Sainte-Anne"
+    ]
+  },
+  "allowedPersons": 8,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/623b4d66-4bd3-3e72-b25a-477f45d11a19",
+    "schema:legalName": "OFFICE DE TOURISME DU PAYS DE ROQUEFORT ET DU ST-AFFRICAIN",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/44a1437d-28a2-3dbc-b812-c762df29bbde",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4563fcce-1286-3026-8983-3662e6aabd84",
+          "schema:addressLocality": "Saint-Affrique",
+          "schema:postalCode": "12400",
+          "schema:streetAddress": [
+            "436 Route de Couât, Croix Ste-Anne"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12208",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Affrique"
+              ],
+              "pt": [
+                "Saint-Affrique"
+              ],
+              "en": [
+                "Saint-Affrique"
+              ],
+              "it": [
+                "Saint-Affrique"
+              ],
+              "fr": [
+                "Saint-Affrique"
+              ],
+              "nl": [
+                "Saint-Affrique"
+              ],
+              "es": [
+                "Saint-Affrique"
+              ]
+            },
+            "insee": "12208",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "rs.couat@orange.fr"
+      ],
+      "schema:legalName": "Gite M. et Mme Fournier",
+      "schema:telephone": [
+        "+33 5 65 49 23 35",
+        "+33 6 89 34 81 35"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.leboncoin.fr/locations_gites/2081735208.htm"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/83442013-1124-3150-b180-d4d8eddfb082",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4563fcce-1286-3026-8983-3662e6aabd84",
+          "schema:addressLocality": "Saint-Affrique",
+          "schema:postalCode": "12400",
+          "schema:streetAddress": [
+            "436 Route de Couât, Croix Ste-Anne"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12208",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Affrique"
+              ],
+              "pt": [
+                "Saint-Affrique"
+              ],
+              "en": [
+                "Saint-Affrique"
+              ],
+              "it": [
+                "Saint-Affrique"
+              ],
+              "fr": [
+                "Saint-Affrique"
+              ],
+              "nl": [
+                "Saint-Affrique"
+              ],
+              "es": [
+                "Saint-Affrique"
+              ]
+            },
+            "insee": "12208",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "rs.couat@orange.fr"
+      ],
+      "schema:legalName": "Gite M. et Mme Fournier",
+      "schema:telephone": [
+        "+33 5 65 49 23 35",
+        "+33 6 89 34 81 35"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/8410706a-d58a-38d0-bbc2-58691093a170",
+      "dc:description": {
+        "de": [
+          "Gebäude mit Charakter, großer Wohnraum, Einbauküche, 4 Schlafzimmer, also 1 Familienzimmer, 1 Badezimmer, 1 Duschbad. Gartenmöbel (Tisch und Stühle)\n\nScheune auf Anfrage für den Empfang von Fahrrädern und Anglern zur Verfügung."
+        ],
+        "en": [
+          "Building of character, large living space, fitted kitchen, 4 bedrooms so 1 family, 1 bathroom, 1 shower room. Garden furniture (table and chairs)\n\n\nBarn at disposal on request for the reception of Bicycle and Fisherman."
+        ],
+        "it": [
+          "Edificio di carattere, ampio spazio abitativo, cucina attrezzata, 4 camere da letto di cui 1 familiare, 1 bagno, 1 bagno con doccia. Mobili da giardino (tavolo e sedie)\n\nFienile disponibile su richiesta per l'accoglienza di ciclisti e pescatori."
+        ],
+        "fr": [
+          "Bâtisse de caractère, grand espace de vie, cuisine aménagée, 4 chambres donc 1 familiale, 1 salle de bain, 1 salle d'eau. Mobilier de jardin (table et chaises) \n\nGrange à disposition sur demande pour l'accueil Vélo et accueil de Pêcheur."
+        ],
+        "nl": [
+          "Gebouw met karakter, grote leefruimte, ingerichte keuken, 4 slaapkamers waarvan 1 familiekamer, 1 badkamer, 1 douchekamer. Tuinmeubilair (tafel en stoelen)\n\nSchuur beschikbaar op aanvraag voor de ontvangst van fietsers en vissers."
+        ],
+        "es": [
+          "Edificio con carácter, gran espacio de vida, cocina equipada, 4 dormitorios, incluyendo 1 habitación familiar, 1 baño, 1 aseo con ducha. Muebles de jardín (mesa y sillas).\nGranero disponible bajo petición para recepción de bicicletas y pescadores."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2a53f52f-952e-364f-b391-c998dda3ac06",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/59d57cdf-d82d-350c-9166-d476f877f0ce",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9b9ec37b-5dce-3aa1-a978-dc14c59b0f49",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e3e502d1-afcf-3327-9ade-2caf99288126",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e5524bbb-8870-37ae-b281-a165d7078300",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eb6980d1-36be-31ee-bd7d-26feb697d9b7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Großes Familienhaus am Rande der Stadt, das geschmackvoll renoviert wurde. Sie werden von diesem einzigartigen Ort begeistert sein, an den Sie mit der Familie oder mit Freunden kommen können! Für Angler warten verschiedene Spots in der Nähe auf Sie."
+        ],
+        "en": [
+          "Large family home on the edge of town renovated with taste. You will be seduced by this unique place where you can come with your family or friends! For fishermen, different spots are waiting for you nearby."
+        ],
+        "it": [
+          "Grande casa familiare ai margini della città, ristrutturata con gusto. Sarete sedotti da questo luogo unico dove potrete venire con la vostra famiglia o i vostri amici! Per i pescatori, nelle vicinanze vi aspettano diversi spot."
+        ],
+        "fr": [
+          "Grande maison familiale en bordure de ville rénovée avec goût. Vous serez séduit par ce lieu unique où vous pouvez venir en famille ou entre amis ! Pour les pêcheurs, différents spots vous attendent à proximité."
+        ],
+        "nl": [
+          "Groot familiehuis aan de rand van de stad, smaakvol gerenoveerd. U zult verleid worden door deze unieke plek waar u met uw familie of vrienden kunt komen! Voor de vissers wachten in de omgeving verschillende stekken."
+        ],
+        "es": [
+          "Gran casa familiar a las afueras de la ciudad, reformada con gusto. Le seducirá este lugar único al que podrá venir con su familia o amigos. A los pescadores les esperan varios lugares en los alrededores."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/1699e192-bdef-37d5-b56d-aa9a11e6a192",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SupervisedBeach",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überwachter Strand"
+            ],
+            "pt": [
+              "Praia vigiada"
+            ],
+            "en": [
+              "Supervised beach"
+            ],
+            "it": [
+              "Spiaggia sorvegliata"
+            ],
+            "fr": [
+              "Plage surveillée"
+            ],
+            "es": [
+              "Playa supervisada"
+            ],
+            "nl": [
+              "Bewaakt strand"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/40f38173-904d-3b29-9be6-c3580dd7a38b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47b6c5ae-cf8c-34ec-b5b5-1bfcf66dd71a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4cba7bb6-a09a-3fb8-9fc1-38935866d515",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielplatz, Außenspielplatz"
+            ],
+            "pt": [
+              "Parque infantil, parque de jogos exterior"
+            ],
+            "en": [
+              "Playground"
+            ],
+            "it": [
+              "Parco giochi, parco giochi all'aperto"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ],
+            "nl": [
+              "Speelplaats, buitenspeelplaats"
+            ],
+            "es": [
+              "Parque infantil, zona de juegos al aire libre"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5806b3df-de51-3b50-a850-3a94fe421c27",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:GardenLounge",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten-Lounge"
+            ],
+            "pt": [
+              "Mobília de jardim"
+            ],
+            "en": [
+              "Garden lounge"
+            ],
+            "it": [
+              "Mobili da giardino"
+            ],
+            "fr": [
+              "Salon de jardin"
+            ],
+            "nl": [
+              "Tuinset"
+            ],
+            "es": [
+              "Muebles de jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/61749a82-9e66-3a81-9a5a-5057d9c53134",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:FinalHousekeeping",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Endreinigung"
+            ],
+            "pt": [
+              "Limpeza no fim da estadia"
+            ],
+            "en": [
+              "Final housekeeping"
+            ],
+            "it": [
+              "Pulizia alla fine del soggiorno"
+            ],
+            "fr": [
+              "Ménage en fin de séjour"
+            ],
+            "es": [
+              "Tareas de limpieza al final del día"
+            ],
+            "nl": [
+              "Eindschoonmaak"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/753d577c-9d87-3b89-9efc-053c2e128300",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:KitchenKitchenette",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Küche – Kochecke"
+            ],
+            "pt": [
+              "Cozinha — canto de cozinha"
+            ],
+            "en": [
+              "Kitchen - kitchenette"
+            ],
+            "it": [
+              "Cucina - angolo cottura"
+            ],
+            "fr": [
+              "Cuisine - coin cuisine"
+            ],
+            "nl": [
+              "Keuken - keukengedeelte"
+            ],
+            "es": [
+              "Cocina"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/855a4b73-c720-3aaa-aace-5ef4a42ac07b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        },
+        {
+          "@id": "kb:DoubleBed",
+          "@type": [
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Doppelbett"
+            ],
+            "pt": [
+              "Cama dupla"
+            ],
+            "en": [
+              "Double bed"
+            ],
+            "it": [
+              "Letto matrimoniale"
+            ],
+            "fr": [
+              "Lit double"
+            ],
+            "nl": [
+              "Tweepersoonsbed"
+            ],
+            "es": [
+              "Cama doble"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc0d150d-dc8f-36c4-8d0d-be7b05251e54",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PicnicArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Picknickplatz"
+            ],
+            "pt": [
+              "Área de piquenique"
+            ],
+            "en": [
+              "Picnic area"
+            ],
+            "it": [
+              "Area pic-nic"
+            ],
+            "fr": [
+              "Aire de pique-nique"
+            ],
+            "es": [
+              "Zona de pícnic"
+            ],
+            "nl": [
+              "Picknickplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cd293d81-08b8-390d-8bac-cdf53e8eca74",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:SeparateEntrance",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Separater Eingang"
+            ],
+            "pt": [
+              "Entrada independente"
+            ],
+            "en": [
+              "Separate entrance"
+            ],
+            "it": [
+              "Ingresso indipendente"
+            ],
+            "fr": [
+              "Entrée indépendante"
+            ],
+            "nl": [
+              "Onafhankelijke ingang"
+            ],
+            "es": [
+              "Entrada independiente"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e98187ca-a244-3a2d-b782-d85d08bc2c84",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:AirConditioner",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Klimaanlage"
+            ],
+            "pt": [
+              "Sistema de ar condicionado"
+            ],
+            "en": [
+              "Air conditioner"
+            ],
+            "it": [
+              "Aria condizionata"
+            ],
+            "fr": [
+              "Climatisation"
+            ],
+            "es": [
+              "Sistema de aire acondicionado"
+            ],
+            "nl": [
+              "Klimaatbeheersing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ebc11be3-3445-36e8-8cd9-d3ce53a30fd6",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BikeRoom",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fahrradraum"
+            ],
+            "pt": [
+              "Local para bicicletas"
+            ],
+            "en": [
+              "Bike room"
+            ],
+            "it": [
+              "Locale biciclette"
+            ],
+            "fr": [
+              "Local vélo"
+            ],
+            "es": [
+              "Local de bicicletas"
+            ],
+            "nl": [
+              "Fietsenruimte"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb052a14-95d3-36d8-af15-b4ea1fffac3a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Bathing",
+          "@type": [
+            "AccommodationAmenity",
+            "SportsTheme"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baden"
+            ],
+            "pt": [
+              "Banho"
+            ],
+            "en": [
+              "Bathing"
+            ],
+            "it": [
+              "Bagno"
+            ],
+            "fr": [
+              "Baignade"
+            ],
+            "nl": [
+              "Zwemmen"
+            ],
+            "es": [
+              "Baño"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ed6f2ecf-6a3e-3d50-8369-913f881c01eb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f98d67b4-d268-3f53-9ce5-a3bc758407bf",
+          "ebucore:abstract": {
+            "fr": [
+              "Gite M. et Mme Fournier"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Gite M. et Mme Fournier"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DU PAYS DE ROQUEFORT ET DU ST-AFFRICAIN"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/2137c241-d6e5-3381-883e-7513fbc3073f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO438771851543/TFO438771851543-17a/medias/jpg/capture5.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/ed6f2ecf-6a3e-3d50-8369-913f881c01eb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f98d67b4-d268-3f53-9ce5-a3bc758407bf",
+          "ebucore:abstract": {
+            "fr": [
+              "Gite M. et Mme Fournier"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Gite M. et Mme Fournier"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME DU PAYS DE ROQUEFORT ET DU ST-AFFRICAIN"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/2137c241-d6e5-3381-883e-7513fbc3073f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO438771851543/TFO438771851543-17a/medias/jpg/capture5.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/4f379c2f-9e55-3f1a-9940-da302a144da5",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2021-11-16"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/63123836-e7de-3f34-9045-a3764432afe8",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/853514bc-defd-3295-ae10-4029d70131c5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d85e4acb-3147-3b55-b084-ab752d5cf141",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/6dc93c72-839b-366c-a985-d535ce5b9076",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/4563fcce-1286-3026-8983-3662e6aabd84",
+          "schema:addressLocality": "Saint-Affrique",
+          "schema:postalCode": "12400",
+          "schema:streetAddress": [
+            "436 Route de Couât, Croix Ste-Anne"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12208",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint-Affrique"
+              ],
+              "pt": [
+                "Saint-Affrique"
+              ],
+              "en": [
+                "Saint-Affrique"
+              ],
+              "it": [
+                "Saint-Affrique"
+              ],
+              "fr": [
+                "Saint-Affrique"
+              ],
+              "nl": [
+                "Saint-Affrique"
+              ],
+              "es": [
+                "Saint-Affrique"
+              ]
+            },
+            "insee": "12208",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/90c047e8-9f8a-3aa3-aa95-dddfe9f3a32c",
+        "schema:elevation": "328",
+        "schema:latitude": "43.9451",
+        "schema:longitude": "2.8912",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-03-03",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.739Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/adc6a890-18ad-3265-8761-25bb72ac8e99",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0600778e-3946-3a21-99db-d43dea11d718",
+          "schema:maxPrice": [
+            "35"
+          ],
+          "schema:minPrice": [
+            "30"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Nuitée/pers/jour"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3dc33f72-182c-3b64-b403-247845b4060b",
+          "schema:price": "130",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Anreise am Freitag, Abreise am Sonntag"
+            ],
+            "en": [
+              "Arrival on Friday, departure on Sunday"
+            ],
+            "it": [
+              "Arrivo il venerdì, partenza la domenica"
+            ],
+            "fr": [
+              "Arrivé le vendredi, départ le dimanche"
+            ],
+            "es": [
+              "Llegada el viernes, salida el domingo"
+            ],
+            "nl": [
+              "Aankomst op vrijdag, vertrek op zondag"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2d274e9f-5903-33f3-85eb-6858394cafd8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/83bf15de-ce07-31af-8e73-a8e8ef4707a4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8f5c9878-47a4-3799-adbf-f1d526cb15e0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/90136cc9-7ece-310a-b103-322c8ccca1d0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/93cf2290-1a02-3818-858b-c14eb5df18fe",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Weekend pour 2 pers"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

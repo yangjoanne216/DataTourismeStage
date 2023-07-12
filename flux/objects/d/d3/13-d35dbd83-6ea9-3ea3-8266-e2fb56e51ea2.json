@@ -1,0 +1,243 @@
+{
+  "@id": "https://data.datatourisme.fr/13/d35dbd83-6ea9-3ea3-8266-e2fb56e51ea2",
+  "dc:identifier": "5436308",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "La Boucherie"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/e034fb6b-66aa-3c1d-88f4-45ddfb08da98",
+    "dc:identifier": "1233",
+    "schema:email": [
+      "d.trioux@destination-paris-saclay.com"
+    ],
+    "schema:legalName": "Destination Paris-Saclay",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.destination-paris-saclay.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8a9feb4b-2cbd-3d2c-b507-bd6c6776b23b",
+      "schema:legalName": "Apidae Tourisme Scic SA - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/87bec225-3467-33ef-836c-061efdf28eb2",
+      "schema:telephone": [
+        "+33 1 69 28 88 88"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/a95f3c48-ca3c-3509-aed4-666f542add49",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/e58e2fcf-2b2e-3e83-824c-a66600ff2f73",
+          "schema:addressLocality": "Les Ulis",
+          "schema:postalCode": "91940",
+          "schema:streetAddress": [
+            "Zone Artisanale de Courtaboeuf"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:91692",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Les Ulis"
+              ],
+              "pt": [
+                "Les Ulis"
+              ],
+              "en": [
+                "Les Ulis"
+              ],
+              "it": [
+                "Les Ulis"
+              ],
+              "fr": [
+                "Les Ulis"
+              ],
+              "nl": [
+                "Les Ulis"
+              ],
+              "es": [
+                "Les Ulis"
+              ]
+            },
+            "insee": "91692",
+            "isPartOfDepartment": {
+              "@id": "kb:France1191",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Essonne"
+                ],
+                "pt": [
+                  "Essonne"
+                ],
+                "en": [
+                  "Essonne"
+                ],
+                "it": [
+                  "Essonne"
+                ],
+                "fr": [
+                  "Essonne"
+                ],
+                "nl": [
+                  "Essonne"
+                ],
+                "es": [
+                  "Essonne"
+                ]
+              },
+              "insee": "91",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6af4cad6-788b-3a96-b8fc-d9859906c1a2",
+        "schema:latitude": "48.682606",
+        "schema:longitude": "2.203858",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/ccdfdbc1-df99-33c5-a4df-8f2e62cc884d",
+          "schema:closes": "22:30:00",
+          "schema:opens": "11:45:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/d87037ec-223f-3b91-8276-b2fe7d28f333",
+      "schema:email": [
+        "d.trioux@destination-paris-saclay.com"
+      ],
+      "schema:legalName": "Destination Paris-Saclay",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.destination-paris-saclay.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-12-13",
+  "lastUpdateDatatourisme": "2023-02-01T18:07:35.752Z"
+}

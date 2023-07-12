@@ -1,0 +1,959 @@
+{
+  "@id": "https://data.datatourisme.fr/10/f99c44d5-55fc-3c54-80af-c8f036c77eb4",
+  "dc:identifier": "1306000121",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "BrasserieOrTavern",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Restaurant mit traditioneller Küche. Seine Gerichte, die aus lokalen Produkten zubereitet werden, werden möglichst vielen Menschen schmecken."
+    ],
+    "en": [
+      "Restaurant with traditional cuisine, its dishes made from local products will please the greatest number of people."
+    ],
+    "it": [
+      "Un ristorante con cucina tradizionale, i cui piatti sono a base di prodotti locali e si rivolgono a un'ampia gamma di persone."
+    ],
+    "fr": [
+      "Restaurant à la cuisine traditionnelle, ses plats élaborés à partir de produits locaux plairont au plus grand nombre."
+    ],
+    "es": [
+      "Restaurante de cocina tradicional, sus platos están elaborados con productos de la zona y gustarán a un amplio abanico de personas."
+    ],
+    "nl": [
+      "Een restaurant met een traditionele keuken, de gerechten zijn gemaakt van lokale producten en zullen een breed scala aan mensen aanspreken."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT WOLL"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "Sanitäre Distanzierung, Maskentragen ist Pflicht, wenn man sich im Restaurant bewegt, hydro-alkoholisches Gel steht zur Verfügung"
+    ],
+    "en": [
+      "Sanitary distance, mandatory wearing of a mask when moving around the restaurant, hydro-alcoholic gel available"
+    ],
+    "it": [
+      "Separazione sanitaria, obbligo di indossare le mascherine quando ci si muove all'interno del ristorante, gel idroalcolico a disposizione"
+    ],
+    "fr": [
+      "Distanciation sanitaire, port du masque obligatoire lors des déplacements dans le restaurant, gel hydro-alcoolique à disposition"
+    ],
+    "es": [
+      "Separación sanitaria, uso obligatorio de mascarillas al desplazarse por el restaurante, gel hidroalcohólico disponible"
+    ],
+    "nl": [
+      "Sanitaire scheiding, verplicht dragen van maskers bij verplaatsing in het restaurant, hydro-alcoholische gel beschikbaar"
+    ]
+  },
+  "availableLanguage": [
+    "de",
+    "en"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/7940ab47-4683-3656-9a90-6f75ff3f20ef",
+    "dc:identifier": "1306",
+    "schema:legalName": "FORBACH TOURISME",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/36f8bb47-cc26-3832-94ef-9907775f333d",
+      "schema:email": [
+        "woll@restaurant-woll.com"
+      ],
+      "schema:telephone": [
+        "+33 3 87 85 31 02"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "http://www.restaurant-woll.com/"
+      ],
+      "siret": "47811452300010"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/ca481bd3-ebcc-3641-8b9a-0cf2cb25a456",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/15fe52c4-1190-394e-bfe1-76e7263053e2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6ccde4ff-dd21-3f71-86b8-08746450bd94",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/beef978e-eb29-32c7-8d7a-fbcb7714d24e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d45faee1-8c75-391a-804c-7f8b40c98330",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/db670be1-d444-378e-b84e-fdc6442bb60b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Restaurant mit traditioneller Küche. Seine Gerichte, die aus lokalen Produkten zubereitet werden, werden möglichst vielen Menschen schmecken."
+        ],
+        "en": [
+          "Restaurant with traditional cuisine, its dishes made from local products will please the greatest number of people."
+        ],
+        "it": [
+          "Un ristorante con cucina tradizionale, i cui piatti sono a base di prodotti locali e si rivolgono a un'ampia gamma di persone."
+        ],
+        "fr": [
+          "Restaurant à la cuisine traditionnelle, ses plats élaborés à partir de produits locaux plairont au plus grand nombre."
+        ],
+        "es": [
+          "Restaurante de cocina tradicional, sus platos están elaborados con productos de la zona y gustarán a un amplio abanico de personas."
+        ],
+        "nl": [
+          "Een restaurant met een traditionele keuken, de gerechten zijn gemaakt van lokale producten en zullen een breed scala aan mensen aanspreken."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0655939f-75a1-3451-a5ad-7bae6f5e5b88",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/953c9aac-1fcf-3b6a-a3db-41727bc217be",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Woll"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/98cb6eb8-3580-3143-a5fc-e6b10da9656e",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/1306/1306000121_4_800x600.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0655939f-75a1-3451-a5ad-7bae6f5e5b88",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/953c9aac-1fcf-3b6a-a3db-41727bc217be",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Woll"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/98cb6eb8-3580-3143-a5fc-e6b10da9656e",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/1306/1306000121_4_800x600.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/01420dcf-5371-3e5b-8db1-59e70b168c08",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1bed22ba-927e-31c9-961f-05ab9f8f0a42",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1df5df2a-c1a0-3d04-961a-c94a89f28c00",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/23db3093-9168-382a-87c5-73a428b96e3e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/39b64219-21c2-3ddf-83c0-45709e107a5d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/44c93fb6-6609-3aa7-baca-4ac5b62a79bb",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/585ea682-6d3d-3cdb-aa10-af717d4299d0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5b4aff66-5660-3827-8ada-ee3f9a7c1d2d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6e21d95a-3d2c-3333-aaca-49cd2b59e250",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c69e68be-58b3-303d-b696-ee70a9ffed33",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/bbd9413f-9441-3848-8eeb-b0f7e6423493",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/7fc63b13-6544-3aa8-be3b-9f8d08e0c0de",
+          "schema:addressLocality": "Spicheren",
+          "schema:postalCode": "57350",
+          "schema:streetAddress": [
+            "80 rue des Hauteurs"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57659",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Spicheren"
+              ],
+              "pt": [
+                "Spicheren"
+              ],
+              "en": [
+                "Spicheren"
+              ],
+              "it": [
+                "Spicheren"
+              ],
+              "fr": [
+                "Spicheren"
+              ],
+              "nl": [
+                "Spicheren"
+              ],
+              "es": [
+                "Spicheren"
+              ]
+            },
+            "insee": "57659",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9a3d07a9-8146-3e6a-88ec-5f57ef12dc64",
+        "schema:latitude": "49.2046026125441",
+        "schema:longitude": "6.96904310052492",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/8bcc603d-0989-3e9e-a40b-d0cf942121dd",
+          "schema:closes": "22:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            },
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-11-03",
+  "lastUpdateDatatourisme": "2023-04-21T08:37:16.864Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/80ccaefe-6a3e-3cd8-bbd8-1866e276a6a3",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

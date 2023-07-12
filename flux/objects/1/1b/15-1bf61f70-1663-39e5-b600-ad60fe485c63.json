@@ -1,0 +1,548 @@
+{
+  "@id": "https://data.datatourisme.fr/15/1bf61f70-1663-39e5-b600-ad60fe485c63",
+  "dc:identifier": "ACCCEN0370007L",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CamperVanArea",
+    "CampingAndCaravanning",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "en": [
+      "Aire de stationnement au camping municipal d'Abilly"
+    ],
+    "fr": [
+      "Aire de stationnement au camping municipal d'Abilly"
+    ]
+  },
+  "allowedPersons": 10,
+  "creationDate": "2012-04-16",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/15/04712847-d218-3e08-bc79-40817a7f9125",
+    "dc:identifier": "f648fcba-9f81-4365-b479-9622fca32913",
+    "schema:legalName": "Loches Touraine Châteaux de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/bba35b4d-022c-3fa7-90a3-07eba818e3a5",
+      "schema:legalName": "SIT Centre-Val de Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/20c4616e-241b-3112-a34a-dee232296ee7",
+      "schema:email": [
+        "mairie.abilly@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 47 59 78 01",
+        "+33 6 42 70 70 37"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://camping-abilly.fr/"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/70900aeb-443f-3b4b-b7d0-277d9bffb7c1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChargingStation",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ladestation für Elektrofahrzeuge"
+            ],
+            "pt": [
+              "Terminal de carregamento de veículos elétricos"
+            ],
+            "en": [
+              "Charging station"
+            ],
+            "it": [
+              "Terminale di ricarica per veicoli elettrici"
+            ],
+            "fr": [
+              "Borne de charge véhicule électrique"
+            ],
+            "nl": [
+              "Laadpaal elektrische auto"
+            ],
+            "es": [
+              "Estación de carga de vehículos eléctricos"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ElectricalConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Elektrische Schaltung"
+            ],
+            "pt": [
+              "Ligações elétricas"
+            ],
+            "en": [
+              "Electrical connections"
+            ],
+            "it": [
+              "Collegamenti elettrici"
+            ],
+            "fr": [
+              "Branchements électriques"
+            ],
+            "nl": [
+              "Elektrische aansluitingen"
+            ],
+            "es": [
+              "Conexiones eléctricas"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Washrooms",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Toiletteneinrichtungen"
+            ],
+            "pt": [
+              "Sanitários"
+            ],
+            "en": [
+              "Washrooms"
+            ],
+            "it": [
+              "Sanitari"
+            ],
+            "fr": [
+              "Sanitaires"
+            ],
+            "es": [
+              "Sanitarios"
+            ],
+            "nl": [
+              "Sanitair"
+            ]
+          }
+        },
+        {
+          "@id": "kb:WaterConnections",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Wasseranschlüsse"
+            ],
+            "pt": [
+              "Ligações de água"
+            ],
+            "en": [
+              "Water connections"
+            ],
+            "it": [
+              "Collegamenti idrici"
+            ],
+            "fr": [
+              "Branchements d'eau"
+            ],
+            "nl": [
+              "Wateraansluitingen"
+            ],
+            "es": [
+              "Conexiones de agua"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/d1e3b1bc-bf9e-37ef-98d1-2243db3f52dd",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f4ab75f1-c0e5-3d63-9a5a-f9bb88c72add",
+          "schema:addressLocality": "Abilly",
+          "schema:postalCode": "37160",
+          "schema:streetAddress": [
+            "Ile de la Claise"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:37001",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Abilly"
+              ],
+              "pt": [
+                "Abilly"
+              ],
+              "en": [
+                "Abilly"
+              ],
+              "it": [
+                "Abilly"
+              ],
+              "fr": [
+                "Abilly"
+              ],
+              "nl": [
+                "Abilly"
+              ],
+              "es": [
+                "Abilly"
+              ]
+            },
+            "insee": "37001",
+            "isPartOfDepartment": {
+              "@id": "kb:France2437",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Indre-et-Loire"
+                ],
+                "pt": [
+                  "Indre-et-Loire"
+                ],
+                "en": [
+                  "Indre-et-Loire"
+                ],
+                "it": [
+                  "Indre-et-Loire"
+                ],
+                "fr": [
+                  "Indre-et-Loire"
+                ],
+                "nl": [
+                  "Indre-et-Loire"
+                ],
+                "es": [
+                  "Indre-et-Loire"
+                ]
+              },
+              "insee": "37",
+              "isPartOfRegion": {
+                "@id": "kb:France24",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Centre-Val de Loire"
+                  ],
+                  "pt": [
+                    "Centre-Val de Loire"
+                  ],
+                  "en": [
+                    "Centre-Val de Loire"
+                  ],
+                  "it": [
+                    "Centre-Val de Loire"
+                  ],
+                  "fr": [
+                    "Centre-Val de Loire"
+                  ],
+                  "nl": [
+                    "Centre-Val de Loire"
+                  ],
+                  "es": [
+                    "Centre-Val de Loire"
+                  ]
+                },
+                "insee": "24",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7b513f85-e475-31c6-9523-dd7c9b91260b",
+        "schema:latitude": "46.9404144",
+        "schema:longitude": "0.72230279",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-01-02",
+  "lastUpdateDatatourisme": "2023-02-11T01:20:13.876Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/539db5d2-b6a2-31c5-b110-b65df011336b",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/ddc3ce88-2f72-3be8-afe2-1513cc20da13",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

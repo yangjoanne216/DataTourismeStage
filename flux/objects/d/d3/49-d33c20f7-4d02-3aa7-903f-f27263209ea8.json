@@ -1,0 +1,944 @@
+{
+  "@id": "https://data.datatourisme.fr/49/d33c20f7-4d02-3aa7-903f-f27263209ea8",
+  "dc:identifier": "FMAPDL049V50EJNV",
+  "schema:endDate": [
+    "2023-07-11",
+    "2023-08-24"
+  ],
+  "schema:startDate": [
+    "2023-07-11",
+    "2023-08-24"
+  ],
+  "@type": [
+    "schema:Event",
+    "schema:SportsEvent",
+    "EntertainmentAndEvent",
+    "Game",
+    "PointOfInterest",
+    "SportsEvent"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Kreativ-Workshop für Kinder: Komm und mach dein Drachenei!"
+    ],
+    "en": [
+      "Creative workshop for children: come and make your dragon egg!"
+    ],
+    "it": [
+      "Laboratorio creativo per bambini: vieni a creare il tuo uovo di drago!"
+    ],
+    "fr": [
+      "Atelier créatif pour les enfants : viens fabriquer ton oeuf de dragon !"
+    ],
+    "es": [
+      "Taller creativo para niños: ¡ven a hacer tu propio huevo de dragón!"
+    ],
+    "nl": [
+      "Creatieve workshop voor kinderen: kom je eigen drakenei maken!"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "ATELIER CRÉATIF : OEUFS DE DRAGON"
+    ]
+  },
+  "creationDate": "2021-06-09",
+  "hasAudience": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/87a902ae-ca58-3e0c-8687-d82deab8375b",
+      "schema:email": [
+        "museedubellay@oreedanjou.fr"
+      ],
+      "schema:telephone": [
+        "+33 2 40 09 04 13"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://museejoachimdubellay.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/444e1653-3958-3e8e-a01a-65fefe9438f4",
+      "dc:description": {
+        "de": [
+          "Komm und lerne das Leben des Drachenbauers kennen und mach dich auf die Suche nach seinen verlorenen Gegenständen im Museum. Hier findest du alles, was du brauchst, um dein eigenes Drachenei herzustellen.\n\nMaterial wird zur Verfügung gestellt.\nWorkshop für Kinder ab 6 Jahren."
+        ],
+        "en": [
+          "Come and discover the life of the dragon maker and go in search of his lost objects in the museum. You'll find everything you need to make your own dragon egg.\n\nMaterials supplied.\nWorkshop for children aged 6 and over."
+        ],
+        "it": [
+          "Venite a scoprire la vita del costruttore di draghi e andate alla ricerca dei suoi oggetti perduti nel museo. Troverete tutto il necessario per creare il vostro uovo di drago.\n\nMateriale fornito.\nLaboratorio per bambini dai 6 anni in su."
+        ],
+        "fr": [
+          "Viens découvrir la vie du dragonnier et part à la recherche de ses objets perdus dans le musée. Tu y trouveras tous les éléments nécessaires pour fabriquer ton œuf de dragon.\n\nMatériel fourni.\nAtelier enfants à partir de 6 ans."
+        ],
+        "es": [
+          "Venga a descubrir la vida del fabricante de dragones y vaya en busca de sus objetos perdidos en el museo. Encontrarás todo lo que necesitas para fabricar tu propio huevo de dragón.\n\nMateriales proporcionados.\nTaller para niños a partir de 6 años."
+        ],
+        "nl": [
+          "Kom en ontdek het leven van de drakenmaker en ga in het museum op zoek naar zijn verloren voorwerpen. Je vindt er alles wat je nodig hebt om je eigen drakenei te maken.\n\nMaterialen aanwezig.\nWorkshop voor kinderen vanaf 6 jaar."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/14126b45-137e-37d7-a5d2-5e4df0aefe18",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4ad0538b-367c-3c89-970e-860cf7ddfbf4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9c6ef692-4473-30fb-b125-44b3059841e3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a0239e5c-ff2a-3738-a61c-db73a2c763ad",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a9f2f821-ecec-34f8-b54a-6f4e72468e7b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ae8a2a03-97ae-3fef-bcd6-00c54b740802",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c2662cc6-69d2-3392-9736-9989937650a3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c7378ecd-1d3f-34cd-993a-0aa216ef8a86",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d1c32614-b38d-304f-8d72-0581e164731c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fbffadb9-f57f-3fa7-ad00-92f0718b7da5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Kreativ-Workshop für Kinder: Komm und mach dein Drachenei!"
+        ],
+        "en": [
+          "Creative workshop for children: come and make your dragon egg!"
+        ],
+        "it": [
+          "Laboratorio creativo per bambini: vieni a creare il tuo uovo di drago!"
+        ],
+        "fr": [
+          "Atelier créatif pour les enfants : viens fabriquer ton oeuf de dragon !"
+        ],
+        "es": [
+          "Taller creativo para niños: ¡ven a hacer tu propio huevo de dragón!"
+        ],
+        "nl": [
+          "Creatieve workshop voor kinderen: kom je eigen drakenei maken!"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/2c817cdf-3cc7-31cc-a9ee-0cdd408547e1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/39fc07b9-5cc1-3afe-96f1-38f3890a7c7f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9e440737-9ab0-3a8c-bd11-a1902f1f1ff3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a2102cf6-eebf-3324-a73f-65a7a8c59e2b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ba1cd1ea-6704-3851-99c1-ec3f8d90b80b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/1a730074-b273-39b8-9033-45be599c9557",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1fa00fb8-6e28-31de-aa35-e17efee40d2f",
+          "schema:addressLocality": "Orée d'Anjou",
+          "schema:postalCode": "49270",
+          "schema:streetAddress": [
+            "1 Rue Pierre de Ronsard",
+            "Liré",
+            "Musée Joachim du Bellay"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:49069",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Orée d'Anjou"
+              ],
+              "pt": [
+                "Orée d'Anjou"
+              ],
+              "en": [
+                "Orée d'Anjou"
+              ],
+              "it": [
+                "Orée d'Anjou"
+              ],
+              "fr": [
+                "Orée d'Anjou"
+              ],
+              "nl": [
+                "Orée d'Anjou"
+              ],
+              "es": [
+                "Orée d'Anjou"
+              ]
+            },
+            "insee": "49069",
+            "isPartOfDepartment": {
+              "@id": "kb:France5249",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Maine-et-Loire"
+                ],
+                "pt": [
+                  "Maine-et-Loire"
+                ],
+                "en": [
+                  "Maine-et-Loire"
+                ],
+                "it": [
+                  "Maine-et-Loire"
+                ],
+                "fr": [
+                  "Maine-et-Loire"
+                ],
+                "nl": [
+                  "Maine-et-Loire"
+                ],
+                "es": [
+                  "Maine-et-Loire"
+                ]
+              },
+              "insee": "49",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/cb6c2170-d9ae-3024-80c1-9d941c6918fe",
+        "schema:latitude": "47.342161",
+        "schema:longitude": "-1.164452",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-06-09",
+  "lastUpdateDatatourisme": "2023-06-10T03:17:08.07Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/bc8003f7-4128-3150-8270-966bb5853167",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/456d49c5-ba4b-36e1-95b3-e118307a54cf",
+          "schema:maxPrice": [
+            "5"
+          ],
+          "schema:minPrice": [
+            "5"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c075993f-4f54-36be-8874-4c24208ffbcc",
+          "schema:maxPrice": [
+            "5"
+          ],
+          "schema:minPrice": [
+            "5"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Ab 6 Jahren"
+            ],
+            "en": [
+              "From 6 years old"
+            ],
+            "it": [
+              "Da 6 anni"
+            ],
+            "fr": [
+              "A partir de 6 ans"
+            ],
+            "nl": [
+              "Vanaf 6 jaar"
+            ],
+            "es": [
+              "A partir de 6 años"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/280a63a2-0aae-355a-aa8a-b63baf796e18",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/37d9d8e8-9961-31c4-9890-c67f6a88a497",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6a0c9bc1-7a55-3557-9b74-23a32aa52182",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/75e1a9f5-149c-3197-8888-ff4d14a6b114",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9a29b4f4-9334-3f9e-9551-683d8da09026",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "takesPlaceAt": [
+    {
+      "@id": "https://data.datatourisme.fr/39084932-a2c9-3426-98d8-d65a14f72d69",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2023-08-24",
+      "endTime": "17:00:00",
+      "startDate": "2023-08-24",
+      "startTime": "15:00:00"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f030a198-fb2f-3a9a-9daf-34b893c0ab33",
+      "@type": [
+        "Period"
+      ],
+      "endDate": "2023-07-11",
+      "endTime": "17:00:00",
+      "startDate": "2023-07-11",
+      "startTime": "15:00:00"
+    }
+  ]
+}

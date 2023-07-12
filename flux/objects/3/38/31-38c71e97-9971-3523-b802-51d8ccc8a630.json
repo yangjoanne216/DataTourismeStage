@@ -1,0 +1,996 @@
+{
+  "@id": "https://data.datatourisme.fr/31/38c71e97-9971-3523-b802-51d8ccc8a630",
+  "dc:identifier": "TFO380462768767",
+  "@type": [
+    "schema:Accommodation",
+    "schema:House",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "House",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein sehr großes Ferienhaus (420 m²) für 15 Personen (La Grange), geräumiger Wohnbereich mit großer offener Küche, 5 Schlafzimmer mit Badezimmern en suite. Auf einem Landgut mit Pool."
+    ],
+    "en": [
+      "A very large gite (420 m²) for 15 people (La Grange), spacious living area with large open kitchen, 5 bedrooms with en suite bathrooms. In a domain with swimming pool."
+    ],
+    "it": [
+      "Un gîte molto grande (420 m²) per 15 persone (La Grange), ampia zona giorno con grande cucina a vista, 5 camere da letto con bagno privato. In un dominio con piscina."
+    ],
+    "fr": [
+      "Un très grand gîte (420 m²) pour 15 personnes (La Grange), Espace de vie spacieux avec grande cuisine ouverte, 5 chambres avec salle de bain en suite. Dans domaine avec piscine."
+    ],
+    "es": [
+      "Una casa rural muy grande (420 m²) para 15 personas (La Grange), amplia zona de estar con gran cocina abierta, 5 dormitorios con baños en suite. En un dominio con piscina."
+    ],
+    "nl": [
+      "Een zeer grote gîte (420 m²) voor 15 personen (La Grange), ruime leefruimte met grote open keuken, 5 slaapkamers met eigen badkamer. In een domein met zwembad."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "La Grange du Muret"
+    ]
+  },
+  "allowedPersons": 16,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b55eb70e-0500-316a-b812-888cf4b35ee4",
+    "schema:legalName": "OFFICE DE TOURISME AVEYRON SEGALA",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a5dbe987-0571-35fb-aedb-a3d01309f0e4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c937b2d7-746f-32ef-810b-02f07d0e44d2",
+          "schema:addressLocality": "Le Bas Ségala",
+          "schema:postalCode": "12200",
+          "schema:streetAddress": [
+            "Le Muret",
+            "Saint Salvadou"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12021",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Le Bas Ségala"
+              ],
+              "pt": [
+                "Le Bas Ségala"
+              ],
+              "en": [
+                "Le Bas Ségala"
+              ],
+              "it": [
+                "Le Bas Ségala"
+              ],
+              "fr": [
+                "Le Bas Ségala"
+              ],
+              "nl": [
+                "Le Bas Ségala"
+              ],
+              "es": [
+                "Le Bas Ségala"
+              ]
+            },
+            "insee": "12021",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "contact@domainelemuret.com"
+      ],
+      "schema:legalName": "La Grange du Muret",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.domainelemuret.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/e154a822-f1e7-3c89-88df-a6117760b802",
+      "dc:description": {
+        "de": [
+          "Beschreibung\nLa Grange, 2007 vollständig renoviert, ist ein prächtiges Ferienhaus mit 5 Zimmern en suite, um Gruppen zu empfangen, die Komfort und Geräumigkeit schätzen. Großer Wohnbereich von 140 m². Die semiprofessionelle Küche ist königlich. Terrasse \"am Ende der Welt\", um die Mahlzeiten mit der Familie oder mit Freunden zu genießen, mit einem atemberaubenden Blick auf die Landschaft des Ségala.\nIm Obergeschoss fünf Zimmer, alle mit eigenem Bad und WC. Die Zimmer bieten Platz für 2 bis 4 Personen (1 Doppelbett und 2 Einzelbetten für die 4er-Zimmer).\n\n2 Zimmer mit einem Doppelbett und eigenem Bad\n\n3 Zimmer mit einem Doppelbett und 2 Einzelbetten und eigenem Bad\n\n1 Großes Wohn- und Esszimmer (140 m²) mit Holzofen\n\n1 Große, zum Wohnzimmer hin offene Einbauküche"
+        ],
+        "en": [
+          "Description\nLa Grange, entirely renovated in 2007, is a sumptuous gite, with 5 en suite bedrooms to welcome groups who appreciate comfort and space. Large living space of 140 m². The semi-professional kitchen is royal. Terrace \"at the end of the world\" to enjoy meals with family or friends with a breathtaking view of the Segala countryside.\nOn the first floor five bedrooms, all equipped with a bathroom and a private toilet. The rooms can accommodate from 2 to 4 people (1 double bed and 2 single beds for the rooms of 4).\n\n2 Rooms with a double bed and private bathroom\n\n3 Rooms with a double bed and 2 single beds and private bathroom\n\n1 Large living and dining room (140 m²) with wood stove\n\n1 Large equipped kitchen open on the living room"
+        ],
+        "it": [
+          "Descrizione della struttura\nLa Grange, interamente ristrutturata nel 2007, è un sontuoso gîte, con 5 camere con bagno per ospitare gruppi che apprezzano il comfort e lo spazio. Ampio spazio abitativo di 140 m². La cucina semi-professionale è reale. Terrazza \"du bout du monde\" per gustare i pasti in famiglia o con gli amici con una vista mozzafiato sulla campagna di Segala.\nAl primo piano si trovano cinque camere da letto, tutte dotate di bagno privato e servizi igienici. Le camere possono ospitare da 2 a 4 persone (1 letto matrimoniale e 2 letti singoli per le camere da 4).\n\n2 camere con letto matrimoniale e bagno privato\n\n3 camere con un letto matrimoniale e 2 letti singoli e bagno privato\n\n1 ampio soggiorno e sala da pranzo (140 m²) con stufa a legna\n\n1 grande cucina attrezzata aperta sul soggiorno"
+        ],
+        "fr": [
+          "Descriptif \nLa Grange, entièrement rénovée en 2007, c'est un gîte somptueux, avec 5 chambres en suite pour accueillir les groupes qui apprécient le confort et l'espace. Grand espace de vie de 140 m². La cuisine semi-professionnelle est royale. Terrasse \"du bout du monde\" pour profiter des repas en famille ou entre amis avec une vue imprenable sur la campagne du Ségala.\nA l'étage cinq chambres, toutes équipées d'une salle de bain et d'un WC privatif. Les chambres peuvent accueillir de 2 à 4 personnes (1 lit double et 2 lits simples pour les chambres de 4).\n\n2 Chambres avec un lit double et salle de bain privative\n\n3 Chambres avec un lit double et 2 lits simples et salle de bain privative\n\n1 Grand Salon et Salle à manger (140 m²) avec poêle à bois \n\n1 Grande Cuisine équipée ouverte sur le salon    "
+        ],
+        "es": [
+          "Descripción\nLa Grange, totalmente renovada en 2007, es una suntuosa casa rural, con 5 habitaciones con baño para alojar a grupos que aprecian la comodidad y el espacio. Gran espacio habitable de 140 m². La cocina semi-profesional es real. Terraza \"du bout du monde\" para disfrutar de comidas en familia o con amigos con una vista impresionante de la campiña de Segala.\nEn la primera planta hay cinco habitaciones, todas equipadas con baño privado y aseo. Las habitaciones pueden alojar de 2 a 4 personas (1 cama doble y 2 camas individuales para las habitaciones de 4).\n\n2 habitaciones con cama doble y baño privado\n\n3 Habitaciones con una cama doble y 2 camas individuales y cuarto de baño privado\n\n1 Gran salón-comedor (140 m²) con estufa de leña\n\n1 Gran cocina equipada abierta al salón"
+        ],
+        "nl": [
+          "Beschrijving\nLa Grange, volledig gerenoveerd in 2007, is een weelderige gîte, met 5 en-suite slaapkamers voor groepen die van comfort en ruimte houden. Grote leefruimte van 140 m². De semi-professionele keuken is koninklijk. Terras \"du bout du monde\" om te genieten van maaltijden met familie of vrienden met een adembenemend uitzicht op het platteland van Segala.\nOp de eerste verdieping zijn er vijf slaapkamers, allemaal uitgerust met een eigen badkamer en toilet. De kamers zijn geschikt voor 2 tot 4 personen (1 tweepersoonsbed en 2 eenpersoonsbedden voor de kamers van 4).\n\n2 kamers met een tweepersoonsbed en eigen badkamer\n\n3 kamers met een tweepersoonsbed en 2 eenpersoonsbedden en een eigen badkamer\n\n1 Grote woon- en eetkamer (140 m²) met houtkachel\n\n1 Grote uitgeruste keuken open naar de woonkamer"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/39049ecb-aec9-34b5-8ef8-d7961f3e1d03",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/43ec9e8f-0efa-376d-a4dc-f8ebdb4216a7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/54a785d6-230f-3aa7-8f45-6f8c05708aeb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/61a80f55-2281-34ca-adac-6596fed26879",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/90abdc9a-553d-3295-87e5-0a8a3a543560",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c3aec9d7-d27e-30d1-8bb9-d33833aeb076",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d0a913ed-523f-374a-96b0-3ca5e0b4a0fd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/deba221d-6ba7-3168-afba-d3a0e9942876",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e9f67fae-8a4f-36d0-b562-8603fe9af56d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fc8cfdc5-f900-3f5b-b7ab-a8f11083519e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein sehr großes Ferienhaus (420 m²) für 15 Personen (La Grange), geräumiger Wohnbereich mit großer offener Küche, 5 Schlafzimmer mit Badezimmern en suite. Auf einem Landgut mit Pool."
+        ],
+        "en": [
+          "A very large gite (420 m²) for 15 people (La Grange), spacious living area with large open kitchen, 5 bedrooms with en suite bathrooms. In a domain with swimming pool."
+        ],
+        "it": [
+          "Un gîte molto grande (420 m²) per 15 persone (La Grange), ampia zona giorno con grande cucina a vista, 5 camere da letto con bagno privato. In un dominio con piscina."
+        ],
+        "fr": [
+          "Un très grand gîte (420 m²) pour 15 personnes (La Grange), Espace de vie spacieux avec grande cuisine ouverte, 5 chambres avec salle de bain en suite. Dans domaine avec piscine."
+        ],
+        "es": [
+          "Una casa rural muy grande (420 m²) para 15 personas (La Grange), amplia zona de estar con gran cocina abierta, 5 dormitorios con baños en suite. En un dominio con piscina."
+        ],
+        "nl": [
+          "Een zeer grote gîte (420 m²) voor 15 personen (La Grange), ruime leefruimte met grote open keuken, 5 slaapkamers met eigen badkamer. In een domein met zwembad."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/a839c87e-b10e-3cfa-94ea-cb6936842fa9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b5db5f0f-429e-3cca-bc62-aac70a88bc60",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1b7a3c91-6599-32db-bfb5-881e2de3e71b",
+          "ebucore:abstract": {
+            "fr": [
+              "La Grange du Muret"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "La Grange du Muret"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME AVEYRON SEGALA"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cb4bc85e-4227-31b9-bb27-6b437d3f6fcc",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO380462768767/TFO380462768767-17a/medias/jpg/xdomaine-le-muret-chambres_v.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/b5db5f0f-429e-3cca-bc62-aac70a88bc60",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1b7a3c91-6599-32db-bfb5-881e2de3e71b",
+          "ebucore:abstract": {
+            "fr": [
+              "La Grange du Muret"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "La Grange du Muret"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OFFICE DE TOURISME AVEYRON SEGALA"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/cb4bc85e-4227-31b9-bb27-6b437d3f6fcc",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO380462768767/TFO380462768767-17a/medias/jpg/xdomaine-le-muret-chambres_v.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7e151561-c76f-3e96-b29b-e298d4b36f04",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2020-01-29"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/130f42e2-14bd-3f0f-b2a7-1d669c3e6bfc",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56e41867-cb6c-3dd2-aea5-bf3dcb6941a4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8c00be19-416e-3e19-bf8f-9f77d4255c0c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/aea28728-0b83-3fc0-b742-20c01d42a36e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c24805d1-0a16-3b8e-b42a-378c1ece4283",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/606d415b-10bc-3845-9ccd-2302cd3d59ae",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c937b2d7-746f-32ef-810b-02f07d0e44d2",
+          "schema:addressLocality": "Le Bas Ségala",
+          "schema:postalCode": "12200",
+          "schema:streetAddress": [
+            "Le Muret",
+            "Saint Salvadou"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12021",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Le Bas Ségala"
+              ],
+              "pt": [
+                "Le Bas Ségala"
+              ],
+              "en": [
+                "Le Bas Ségala"
+              ],
+              "it": [
+                "Le Bas Ségala"
+              ],
+              "fr": [
+                "Le Bas Ségala"
+              ],
+              "nl": [
+                "Le Bas Ségala"
+              ],
+              "es": [
+                "Le Bas Ségala"
+              ]
+            },
+            "insee": "12021",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8fbe74d6-1624-3b72-aa37-d02ab13bd7ba",
+        "schema:elevation": "463",
+        "schema:latitude": "44.2683",
+        "schema:longitude": "2.1139",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-05-15",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.755Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/d4be43f0-02c4-3aab-962c-68a4af465157",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/b2af4a92-2f80-3435-a7ce-54cfdd375cb1",
+          "schema:maxPrice": [
+            "3150"
+          ],
+          "schema:minPrice": [
+            "2520"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

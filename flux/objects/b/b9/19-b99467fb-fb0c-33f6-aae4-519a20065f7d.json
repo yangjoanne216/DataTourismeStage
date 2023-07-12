@@ -1,0 +1,269 @@
+{
+  "@id": "https://data.datatourisme.fr/19/b99467fb-fb0c-33f6-aae4-519a20065f7d",
+  "dc:identifier": "b89ed0d9-1645-b972-d299-501b9f83a0e9",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Première Classe Plaisir"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/bbece54e-534a-3021-ae43-ecd0f65d455e",
+      "schema:telephone": [
+        "+33 1 30 68 17 04"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://plaisir.premiereclasse.com/fr-fr/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/594fb33f-5b53-3e97-9f17-ef5f023a9de0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "1 Stern"
+          ],
+          "pt": [
+            "1 estrela"
+          ],
+          "en": [
+            "1 Star"
+          ],
+          "it": [
+            "1 stella"
+          ],
+          "fr": [
+            "1 étoile"
+          ],
+          "nl": [
+            "1 ster"
+          ],
+          "es": [
+            "1 estrella"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/455d182b-6915-3bfd-8f54-64171160f65f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/964b5710-e368-3057-af26-daef59389f58",
+          "schema:addressLocality": "Plaisir",
+          "schema:postalCode": "78370",
+          "schema:streetAddress": [
+            "ZAC de Sainte-Apolline - 86 rue des Poiriers"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:78490",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Plaisir"
+              ],
+              "pt": [
+                "Plaisir"
+              ],
+              "en": [
+                "Plaisir"
+              ],
+              "it": [
+                "Plaisir"
+              ],
+              "fr": [
+                "Plaisir"
+              ],
+              "nl": [
+                "Plaisir"
+              ],
+              "es": [
+                "Plaisir"
+              ]
+            },
+            "insee": "78490",
+            "isPartOfDepartment": {
+              "@id": "kb:France1178",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Yvelines"
+                ],
+                "pt": [
+                  "Yvelines"
+                ],
+                "en": [
+                  "Yvelines"
+                ],
+                "it": [
+                  "Yvelines"
+                ],
+                "fr": [
+                  "Yvelines"
+                ],
+                "nl": [
+                  "Yvelines"
+                ],
+                "es": [
+                  "Yvelines"
+                ]
+              },
+              "insee": "78",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/cae7950d-c008-3eb5-a298-1b22d0a6aa28",
+        "schema:latitude": "48.798297229102126",
+        "schema:longitude": "1.9545958539672483",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-04-26",
+  "lastUpdateDatatourisme": "2022-09-06T09:59:02.332Z",
+  "reducedMobilityAccess": false
+}

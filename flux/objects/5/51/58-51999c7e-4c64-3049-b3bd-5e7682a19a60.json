@@ -1,0 +1,546 @@
+{
+  "@id": "https://data.datatourisme.fr/58/51999c7e-4c64-3049-b3bd-5e7682a19a60",
+  "dc:identifier": "5230660",
+  "@type": [
+    "schema:LocalBusiness",
+    "schema:StadiumOrArena",
+    "ActivityProvider",
+    "LeisureSportActivityProvider",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace",
+    "Stadium"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Service des sports (stade Omnisport des Gorguettes)"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/931af583-5732-37f0-a20b-c568c65ce104",
+    "dc:identifier": "2108",
+    "schema:email": [
+      "a.rick@ot-cassis.com",
+      "cgallo@ot-cassis.com",
+      "direction@ot-cassis.com",
+      "evillers@ot-cassis.com",
+      "lbaille@ot-cassis.com",
+      "lmichelini@ot-cassis.com",
+      "m.vallet@ot-cassis.com",
+      "patricia@ot-cassis.com",
+      "presse@ot-cassis.com",
+      "sdelage@ot-cassis.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Cassis",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.ot-cassis.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8c32c8ce-5314-3932-9aee-d989eb9e81f0",
+      "schema:legalName": "Provence Tourisme / Office de Tourisme de Cassis",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/1013d658-ccec-39bc-90da-2cc59cda5b91",
+      "schema:telephone": [
+        "+33 4 42 01 36 05"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.cassis.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/31f906d8-65df-3763-bc16-bc6f2d0a3463",
+      "dc:description": {
+        "de": [
+          "Leichtathletikbahn./Fußballfeld"
+        ],
+        "en": [
+          "Athletics track./Football pitch"
+        ],
+        "it": [
+          "Pista di atletica./Campo da calcio"
+        ],
+        "fr": [
+          "Piste d'athlétisme.\r\nTerrain de foot-ball"
+        ],
+        "es": [
+          "Pista de atletismo./Campo de fútbol"
+        ],
+        "nl": [
+          "Atletiekbaan.\r\nVoetbalveld"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/92584666-2238-3a17-ab2c-67b355a6e72e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/be130c02-7eee-384e-91b8-9f3e87fd4da1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fd6ace4a-5f06-33bd-a379-f39641ec0410",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ParkingNearby",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz in der Nähe"
+            ],
+            "pt": [
+              "Estacionamento próximo"
+            ],
+            "en": [
+              "Parking nearby"
+            ],
+            "it": [
+              "Parcheggio nelle vicinanze"
+            ],
+            "fr": [
+              "Parking à proximité"
+            ],
+            "nl": [
+              "Parkeergelegenheid in de buurt"
+            ],
+            "es": [
+              "Aparcamiento cercano"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheForest",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Wald"
+        ],
+        "pt": [
+          "Na floresta"
+        ],
+        "en": [
+          "In the forest"
+        ],
+        "it": [
+          "Nella foresta"
+        ],
+        "fr": [
+          "En forêt"
+        ],
+        "nl": [
+          "In het bos"
+        ],
+        "es": [
+          "En el bosque"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/11008a86-2e82-3cdc-ac6d-9a04ea1921e8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b4e05841-4631-3051-8d56-b270206aed53",
+          "ebucore:title": {
+            "fr": [
+              "13T3001577_1_HD.jpg"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Service des sports (stade Omnisport des Gorguettes)"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/fe7f3045-e887-3e68-968f-88d680dc57b9",
+          "ebucore:fileSize": [
+            "413066"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "1440",
+          "ebucore:locator": [
+            "http://static.apidae-tourisme.com/filestore/objets-touristiques/images/238/81/8344046.jpg"
+          ],
+          "ebucore:width": "1920",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheForest",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Wald"
+        ],
+        "pt": [
+          "Na floresta"
+        ],
+        "en": [
+          "In the forest"
+        ],
+        "it": [
+          "Nella foresta"
+        ],
+        "fr": [
+          "En forêt"
+        ],
+        "nl": [
+          "In het bos"
+        ],
+        "es": [
+          "En el bosque"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/d983bea8-4cd2-3139-9064-a589c905a933",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/222d8aeb-cbf2-362b-865f-d0182e001351",
+          "schema:addressLocality": "Cassis",
+          "schema:postalCode": "13260",
+          "schema:streetAddress": [
+            "Mairie de Cassis",
+            "Place Baragnon"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13022",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Cassis"
+              ],
+              "pt": [
+                "Cassis"
+              ],
+              "en": [
+                "Cassis"
+              ],
+              "it": [
+                "Cassis"
+              ],
+              "fr": [
+                "Cassis"
+              ],
+              "nl": [
+                "Cassis"
+              ],
+              "es": [
+                "Cassis"
+              ]
+            },
+            "insee": "13022",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b7938b6c-19d2-3ced-9333-66fc50ff7ba5",
+        "schema:latitude": "43.229138",
+        "schema:longitude": "5.535086",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/e00417ca-8d76-3dbb-9e3b-9cd7149372cb",
+          "schema:validFrom": "2019-01-01T00:00:00",
+          "schema:validThrough": "2019-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/28cda93c-5691-391c-9684-16289d9fa535",
+      "schema:email": [
+        "a.rick@ot-cassis.com",
+        "cgallo@ot-cassis.com",
+        "direction@ot-cassis.com",
+        "evillers@ot-cassis.com",
+        "lbaille@ot-cassis.com",
+        "lmichelini@ot-cassis.com",
+        "m.vallet@ot-cassis.com",
+        "patricia@ot-cassis.com",
+        "presse@ot-cassis.com",
+        "sdelage@ot-cassis.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Cassis",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.ot-cassis.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-04-06",
+  "lastUpdateDatatourisme": "2023-01-25T05:16:31.579Z",
+  "reducedMobilityAccess": false
+}

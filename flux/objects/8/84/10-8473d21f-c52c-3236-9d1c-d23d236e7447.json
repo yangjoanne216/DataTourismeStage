@@ -1,0 +1,983 @@
+{
+  "@id": "https://data.datatourisme.fr/10/8473d21f-c52c-3236-9d1c-d23d236e7447",
+  "dc:identifier": "776000014",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant",
+    "SelfServiceCafeteria"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Nur im Winter: Restaurant in La Bresse Lispach. Cafeteria mit 200 Plätzen und Bar mit Terrasse. Warme, gefüllte Gerichte ab 7,90 ?\nVerleih von Skiausrüstung am Fuße der 8 Abfahrtspisten."
+    ],
+    "en": [
+      "In Winter only : Restaurant in La Bresse Lispach. Cafeteria 200 places and bar with terrace. Hot dishes from 7,90 ?\nSki equipment rental at the foot of the 8 downhill ski slopes."
+    ],
+    "it": [
+      "Solo in inverno: ristorante a La Bresse Lispach. Caffetteria con 200 posti a sedere e bar con terrazza. Piatti caldi a partire da 7,90 ?\nNoleggio di attrezzature da sci ai piedi delle 8 piste da discesa."
+    ],
+    "fr": [
+      "En Hiver uniquement : Restaurant à La Bresse Lispach. Cafétéria 200 places et bar avec terrasse. Plats chauds garnis à partir de 7,90 €. \nLocation de matériel de ski au pied des 8 pistes de ski alpin."
+    ],
+    "es": [
+      "Sólo en invierno: Restaurante en La Bresse Lispach. Cafetería con 200 plazas y bar con terraza. Platos calientes desde 7,90\nAlquiler de material de esquí a pie de las 8 pistas de esquí alpino."
+    ],
+    "nl": [
+      "Alleen in de winter: Restaurant in La Bresse Lispach. Cafetaria met 200 plaatsen en bar met terras. Warme gerechten vanaf 7,90 ?\nVerhuur van skimateriaal aan de voet van de 8 skipistes."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LISPACH EVASION"
+    ]
+  },
+  "availableLanguage": [
+    "de",
+    "en"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/8c6744c9-d42e-32cb-9e88-85b54ff744d0",
+    "dc:identifier": "776",
+    "schema:legalName": "OT COMMUNAUTAIRE DE LA BRESSE HAUTES VOSGES",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/7f5c17ac-bd0a-3850-add5-41887e91c676",
+      "schema:email": [
+        "ski@lispach.com"
+      ],
+      "schema:telephone": [
+        "+33 3 29 25 42 45"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://lispach.com/"
+      ],
+      "siret": "380 599 613 00011"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/f5bda120-539e-3309-ada7-5c5921fc984c",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1e791fcd-240e-3585-a867-59b867668e9f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3fbafce4-fe9d-3968-9b38-9854ae8c4cd0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c532aa70-0501-31ad-ac98-384f13ce6cee",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c8068ebe-31fb-3fe1-ba1c-800493bf4250",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ed52cd80-a5bd-3deb-bdc4-c7f972e95cc1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Nur im Winter: Restaurant in La Bresse Lispach. Cafeteria mit 200 Plätzen und Bar mit Terrasse. Warme, gefüllte Gerichte ab 7,90 ?\nVerleih von Skiausrüstung am Fuße der 8 Abfahrtspisten."
+        ],
+        "en": [
+          "In Winter only : Restaurant in La Bresse Lispach. Cafeteria 200 places and bar with terrace. Hot dishes from 7,90 ?\nSki equipment rental at the foot of the 8 downhill ski slopes."
+        ],
+        "it": [
+          "Solo in inverno: ristorante a La Bresse Lispach. Caffetteria con 200 posti a sedere e bar con terrazza. Piatti caldi a partire da 7,90 ?\nNoleggio di attrezzature da sci ai piedi delle 8 piste da discesa."
+        ],
+        "fr": [
+          "En Hiver uniquement : Restaurant à La Bresse Lispach. Cafétéria 200 places et bar avec terrasse. Plats chauds garnis à partir de 7,90 €. \nLocation de matériel de ski au pied des 8 pistes de ski alpin."
+        ],
+        "es": [
+          "Sólo en invierno: Restaurante en La Bresse Lispach. Cafetería con 200 plazas y bar con terraza. Platos calientes desde 7,90\nAlquiler de material de esquí a pie de las 8 pistas de esquí alpino."
+        ],
+        "nl": [
+          "Alleen in de winter: Restaurant in La Bresse Lispach. Cafetaria met 200 plaatsen en bar met terras. Warme gerechten vanaf 7,90 ?\nVerhuur van skimateriaal aan de voet van de 8 skipistes."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/9b129616-762b-3876-9dda-d873a9ffa552",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SelfService",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Selbstbedienung"
+            ],
+            "pt": [
+              "Autosserviço"
+            ],
+            "en": [
+              "Self service"
+            ],
+            "it": [
+              "Self-service"
+            ],
+            "fr": [
+              "Self service"
+            ],
+            "nl": [
+              "Zelfbedieningsrestaurant"
+            ],
+            "es": [
+              "Autoservicio"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/f0e28367-90ca-32e7-bc37-f44bfc24192e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/05b209e1-2337-33d1-b5d2-382e95f78d12",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "D. CURIEN"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f7c87d03-2c8a-3d28-bbbf-267538ffa2f7",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/776/restaurant-lispach-evasion-la-bresse-1_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/1e57d168-5db6-3427-b80c-30563a12dd63",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b64489d1-8336-3c7b-8bdf-c35216cc0348",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Lispach Evasion"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/90fcda14-5fa1-3603-9589-53c2ebcb13df",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/776/restaurant-lispach-evasion-la-bresse-2_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f0e28367-90ca-32e7-bc37-f44bfc24192e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/05b209e1-2337-33d1-b5d2-382e95f78d12",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "D. CURIEN"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f7c87d03-2c8a-3d28-bbbf-267538ffa2f7",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/776/restaurant-lispach-evasion-la-bresse-1_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/554af919-7e58-39f0-afb8-5ef319178d5b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6ecc7415-95a6-303e-a830-73d73bad9805",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/837e0613-0e26-32ca-ae5d-4efca6d83ed0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/867843c4-4f46-3dcb-a1d8-643ff59446bc",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8fb2389a-6748-3cab-9c02-b2c36dbc688f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/b6a45446-4646-39a4-a852-0b47e57620e1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ac05583e-f228-3aed-ab8a-5b03ed2154df",
+          "schema:addressLocality": "La Bresse",
+          "schema:postOfficeBoxNumber": "Location Ski et Cafétéria",
+          "schema:postalCode": "88250",
+          "schema:streetAddress": [
+            "42 Route de Lispach",
+            "Station de ski de La Bresse-Lispach"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:88075",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Bresse"
+              ],
+              "pt": [
+                "La Bresse"
+              ],
+              "en": [
+                "La Bresse"
+              ],
+              "it": [
+                "La Bresse"
+              ],
+              "fr": [
+                "La Bresse"
+              ],
+              "nl": [
+                "La Bresse"
+              ],
+              "es": [
+                "La Bresse"
+              ]
+            },
+            "insee": "88075",
+            "isPartOfDepartment": {
+              "@id": "kb:France4488",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vosges"
+                ],
+                "pt": [
+                  "Vosges"
+                ],
+                "en": [
+                  "Vosges"
+                ],
+                "it": [
+                  "Vosges"
+                ],
+                "fr": [
+                  "Vosges"
+                ],
+                "nl": [
+                  "Vosges"
+                ],
+                "es": [
+                  "Vosges"
+                ]
+              },
+              "insee": "88",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/3bc89953-ac5e-3c4e-8a43-e5c4b464c69b",
+        "schema:latitude": "48.0515213731243",
+        "schema:longitude": "6.9437563419342",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-04-15",
+  "lastUpdateDatatourisme": "2023-04-21T08:37:16.867Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/b1f3b75f-3b50-30c6-8774-0c92e88d4932",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/c5339cfd-a213-3548-a071-8dc443499dad",
+          "schema:minPrice": [
+            "7.9"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:AlaCarte",
+              "@type": [
+                "CateringPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "A la carte"
+                ],
+                "pt": [
+                  "À escolha"
+                ],
+                "en": [
+                  "A la carte"
+                ],
+                "it": [
+                  "Alla carta"
+                ],
+                "fr": [
+                  "A la carte"
+                ],
+                "nl": [
+                  "À la carte"
+                ],
+                "es": [
+                  "A la carta"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

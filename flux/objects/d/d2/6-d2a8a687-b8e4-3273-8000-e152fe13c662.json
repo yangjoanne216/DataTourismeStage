@@ -1,0 +1,882 @@
+{
+  "@id": "https://data.datatourisme.fr/6/d2a8a687-b8e4-3273-8000-e152fe13c662",
+  "dc:identifier": "ITIBFC000V50W7RZ",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Spaziergang durch die Altstadt von Lons, um das Kulturerbe der Stadt zu entdecken."
+    ],
+    "en": [
+      "Stroll in the old Lons to discover the heritage of the city."
+    ],
+    "it": [
+      "Passeggiate nel centro storico di Lons per scoprire il patrimonio della città."
+    ],
+    "fr": [
+      "Balade dans le vieux Lons pour découvrir le patrimoine de la ville."
+    ],
+    "nl": [
+      "Wandel door het oude centrum van Lons om het erfgoed van de stad te ontdekken."
+    ],
+    "es": [
+      "Pasee por el casco antiguo de Lons para descubrir el patrimonio de la ciudad."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Découverte du Vieux Lons"
+    ]
+  },
+  "creationDate": "2021-11-10",
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/e1c06edd-baea-359f-b612-c0c0424323aa",
+    "dc:identifier": "9f8bcda5-58e4-4075-a385-c577b696b794",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/c5bab293-ac5b-3fe3-863d-045dd9cbbad0",
+        "schema:postalCode": "39000",
+        "schema:streetAddress": [
+          "Place du 11 Novembre"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "accueil@lons-jura.fr"
+    ],
+    "schema:legalName": "OFFICE DE TOURISME DE LONS LE SAUNIER ET SA REGION",
+    "schema:telephone": [
+      "+33 3 84 24 65 01"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.lons-jura.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:PersonWithReducedMobility",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Personen mit eingeschränkter Mobilität"
+        ],
+        "pt": [
+          "Pessoas com mobilidade reduzida"
+        ],
+        "en": [
+          "Person with reduced mobility"
+        ],
+        "it": [
+          "Persone a mobilità ridotta"
+        ],
+        "fr": [
+          "Personnes à mobilité réduite"
+        ],
+        "nl": [
+          "Personen met beperkte mobiliteit"
+        ],
+        "es": [
+          "Personas con movilidad reducida"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/2587a413-ca54-3a49-914f-d7f147d3a1e0",
+      "schema:email": [
+        "accueil@lons-jura.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 84 24 65 01"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.lons-jura.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/8057d1a2-db1a-3c8a-b2f6-a4344058b83a",
+      "dc:description": {
+        "de": [
+          "Spaziergang durch die Altstadt von Lons, um das Kulturerbe der Stadt zu entdecken.\n\n1 Das Theater\nEs nimmt in Lons-le-Saunier eine herausragende Stellung ein und seine Fassaden geben nacheinander den Rhythmus von zwei belebten Plätzen im Stadtzentrum vor: dem Place de la Liberté und dem Place du 11 Novembre. Es handelt sich um ein schönes Gebäude im Rokokostil, das ab 1901 nach einem heftigen Brand wieder aufgebaut wurde. Der Festsaal, der die Hälfte des Gebäudes einnahm, wurde 1983 ebenfalls durch ein Feuer zerstört. Nach dem Wiederaufbau wurde sie in ein Kongress- und Tagungszentrum umgewandelt, das CAR?COM genannt wird und zahlreiche Möglichkeiten für Veranstaltungen bietet. Das Theater ist ein architektonisches Meisterwerk aus dem frühen 20. Jahrhundert, in dem Vergoldungen, roter Samt, Malereien und Stuckarbeiten miteinander kombiniert wurden, um dem Saal seinen Glanz zu verleihen. Das gesamte Gebäude wurde 1997 restauriert und steht unter Denkmalschutz.\n\n2 Der Brunnen in der Rue Perrin\nDieser Brunnen ist zweifellos der charakteristischste der Ledo¬nischen Brunnen und auch der älteste. Er wurde 1727 an dieses Haus angebaut und befand sich zuvor an einem anderen Ort, vielleicht am Ende der Impasse Saint Roch (heute Rue Perrin) oder an der Ecke der Rue des Cordeliers und der Rue du Four. Der vor einigen Jahren restaurierte Brunnen symbolisiert den doppelten Willen, die alten Viertel der Stadt aufzuwerten und das Wasser in den Brunnen von Lédonien wieder einzuführen (vor einigen Jahren kehrte der Schwanenbrunnen an seinen ursprünglichen Platz vor dem Car?Com zurück).\nDas ist\n\n3 Die Kirche der Cordeliers\nSie ist ein diskretes Monument, das sich am Ende eines kleinen Hofes versteckt, der wiederum von einem prächtigen Portal aus dem 15. Jahrhundert errichtet wurde und aufgrund zahlreicher Brände heute im Wesentlichen aus dem 18. Jahrhundert stammt (insbesondere die Fassade im Jesuitenstil, die 1731 fertiggestellt wurde).\nIm Inneren sind drei als historische Denkmäler klassifizierte Möbelstücke zu entdecken: die Predigtkanzel (1728, Werk der Kunsttischler Lamberthoz aus Ledona), die großen Orgeln (um 1845, Callinet-Orgeln) und das Chorgestühl (um 1828, später Louis-XVI-Stil).\nEine Krypta, die heute nicht mehr zugänglich ist, dient als Grabstätte der Familie Chalon, die im Mittelalter mächtige Herren der Stadt waren.\n\n4 Der Place de la Comédie\nDies ist ein hübscher Platz mit südländischen Farben, der im Zuge eines O.P.A.H.-Projekts von 1980 bis 1985 restauriert wurde. Seinen Namen verdankt er einem kleinen Theater, das heute zerstört ist (eine verlassene Kirche, die während der Französischen Revolution in einen Veranstaltungssaal umgewandelt wurde). In Wirklichkeit handelte es sich um ein beliebtes Weinbauernviertel. Auf den Türstürzen einiger Häuser ist noch immer das Emblem des Berufsstandes zu sehen: die Serpette. Die alte Weinpresse verstärkt dieses Bild. Der Wallace-Brunnen, eine Kopie der Pariser Brunnen, ist eine reine Phantasievorstellung aus dem 20. Er stammt aus dem 20.\n\n5? Der Salzbrunnen\nDies ist der ursprüngliche Standort der Stadt, an dem sich wahrscheinlich die ersten Lédoniens niederließen, da sich in der Nähe eine Salzquelle befand, die lange Zeit eine wichtige Einnahmequelle für die Stadt war. Obwohl in Lons-le-Saunier seit 1966 kein Salz mehr gewonnen wird, wird das salzhaltige Wasser immer noch für Thermalbäder genutzt (und eine unterirdische Leitung verbindet den Puits Salé mit den Thermes Lédonia). An einem kleinen Brunnen kann man heute das Lédonia-Wasser probieren (in Maßen...).\n\n6 Das Museum der Schönen Künste\nDas Museum befindet sich im vierten Flügel des alten Rathauses. Im Inneren sind die Skulpturen- (u. a. das imposante Perraud-Leg) und Gemäldesammlungen sehenswert (z. B. die 2 Breughels, die 4 Courbets,...).\n\n6 Das alte Rathaus (Hôtel de Ville)\nEs handelt sich um ein schönes Gebäude, das um 1743 an der Stelle des Schlosses der Chalon-Arlay errichtet wurde. Damals hatte es nur drei Flügel, wobei der Museumsflügel erst Mitte des 19. Jahrhunderts hinzugefügt wurde. Seine Architektur unterscheidet sich übrigens von der des Rests des Gebäudes, das viel nüchterner und charakteristischer für die Bauweise in Lons-le-Saunier im 18.\nEinige Anmerkungen zum alten Schloss: Im Mittelalter war es ein wichtiger Ort des Lebens in der Franche-Comté, der reich verziert und eingerichtet war. Jahrhunderts verlassen und dann durch den gewaltigen Brand von 1637, der mit der französischen Eroberung zusammenhing (Lons war zuvor ein Besitz der spanischen Krone), völlig zerstört. Man sagt, dass die Steine für das Fundament des Rathauses aus den Ruinen der Burg stammen, was wahrscheinlich ist. Das Rathaus ist 2014 umgezogen. Es befindet sich nun in der 44th Avenue du Régiment d'Infanterie.\n\n7 Das Hôtel Dieu\nDieses schöne Gebäude, dessen Architektur und Gitter wir heute bewundern, wurde von 1735 bis 1745 nach den Plänen des Architekten J.-P. Galzot erbaut. Der aus Besançon stammende Galotz ließ sich bei der Planung des Hôtel-Dieu in Lons natürlich vom Saint-Jacques-Hospital inspirieren. Der Ehrenhof wurde 1778 durch ein prächtiges schmiedeeisernes Gitter geschlossen, das von Handwerkern aus dem Jura (darunter einer aus Lons) geschaffen wurde und als historisches Monument eingestuft ist. Sehenswert im Herzen des Gebäudes ist die majestätische Treppe, die 1741 fertiggestellt wurde und von der Galzot sagte, dass sie \"das am schwierigsten zu führende Stück des gesamten Gebäudes\" sei. Die Apotheke birgt zahlreiche Schätze: Holzvertäfelungen, Steinguttöpfe, Kupfer, Zinn und vieles mehr. Wie ein Gelehrter schrieb, ist sie \"ein kleiner Tempel der Kunst und des guten Geschmacks\", in dem man anhand von drei Räumen die Entwicklung der Apotheke vom 17. Jahrhundert bis heute verfolgen kann. Das Fremdenverkehrsamt organisiert Führungen.\n\n8 Die Rue du Commerce (Arkaden)\nZweifellos die bekannteste Straße in Lons und ... die schönste. Ursprünglich aus Holz gebaut, wurde sie nach dem Brand von 1637 vollständig aus Stein wiederaufgebaut und mit Ziegeln gedeckt. Dabei behielt sie ihre anmutige, aus dem Mittelalter übernommene Kurve bei. Die zahlreichen Arkaden fallen durch ihre Vielfalt auf.\nIn der Nr. 24 befindet sich das Geburtshaus von Rouget de Lisle, dem Verfasser der Marseillaise. Er wurde 1992 in Lons anlässlich des 200. Jahrestags der Komposition des Kriegslieds für die Rheinarmee (das im Sommer 1792 zu La Marseillaise wurde, weil es von den in Paris einziehenden Marseiller Föderierten gesungen wurde) würdig gefeiert.\nRouget de Lisle wurde in den Invalidendomen beigesetzt. Am südlichen Ende der Straße erhebt sich der Belfried, der auch \"Tour de l'Horloge\" genannt wird. Er ersetzte einen alten Wachturm, der Anfang des 18. Jahrhunderts zusammen mit den Stadtmauern zerstört wurde.\n\n9 Der Freiheitsplatz (Place de la Liberté)\nSeit der Zerstörung der Stadtmauern ist der Platz zweifellos das Herz der Stadt. Der Platz befindet sich an der Stelle der alten Gräben, die zugeschüttet wurden und einen großen Raum mit einer besonderen Form (ein fast perfektes Rechteck) freigegeben haben. Auf dem Platz konzentrieren sich heute alle Aktivitäten, vor allem der Handel.\nAuf dem Platz steht die Statue von General Lecourbe, der 1759 in Besançon geboren wurde und aus einer alten Frankfurter Familie stammte. Als General des Kaiserreichs zeichnete er sich auf den Schlachtfeldern aus, insbesondere gegen die Russen unter Suworow. Er starb 1815 in Belfort und wurde in Ruffey-sur-Seille beigesetzt. 1830 erbte Lons seine Statue.\nDie Stadt Lons-le-Saunier hat den Place de la Liberté vollständig renoviert (Bodenbelag, Beleuchtung, Brunnen und Wasserspiele, Stadtmobiliar) und ein Parkhaus gebaut, um ihn schöner und attraktiver zu machen. Hier finden Veranstaltungen und Konzerte statt.\n10 Die Kirche Saint Désiré\nDas Prunkstück der Architektur in Lédonien ist eine wunderschöne romanische Kirche, die 1083 erbaut wurde. Das im 19. Jahrhundert restaurierte Äußere ist zwar enttäuschend Aber das Kirchenschiff, das Querschiff und die Krypta sind im reinsten vorromanischen Stil des 11. Jahrhunderts gehalten und typisch romanisch für die Franche-Comté: keine historisierenden Verzierungen. Im südlichen Querschiff ist eine sehr schöne Pieta oder Grablegung aus dem 15. Jahrhundert ausgestellt, die aus dem ehemaligen Priorat von Gigny stammt.\nIm Chor befindet sich eine eucharistische Säule im Stil der Flamboyant-Gotik. Die Marienkapelle im Norden beherbergt eine Statue der Heiligen Anna. Die Krypta, die 1060 mit Materialien aus dem ursprünglichen Bau (5. Jahrhundert?) errichtet wurde, beherbergt den leeren Sarkophag von Saint-Désiré, dem Schutzpatron von Lons (dessen Reliquien in der zweiten Nordkapelle der Eglise des Cordeliers aufbewahrt werden). Die Krypta wurde 1992 restauriert.\n\n\n11 Statue Rouget de Lisle, Place de la Chevalerie, Kriegsdenkmäler\nAuf diesem Platz sprach Ney 1815 seinen berühmten Satz \"Die Sache der Bourbonen ist für immer verloren!\".\nDer Place de la Cheva¬lerie wurde jedoch vor allem ausgewählt, um den Lédoniens zu huldigen. Der erste unter ihnen war Rouget de Lisle, der Verfasser der Marseillaise. Seine 1882 errichtete Statue ist ein Werk des Bildhauers Bartholdi, der auch für die berühmte Freiheitsstatue in New York und den Löwen von Belfort verantwortlich ist. Die Statue wurde 1992 anlässlich der Feierlichkeiten zum 200. Jahrestag der Marseillaise restauriert und unter Denkmalschutz gestellt. Im 20. Jahrhundert wurde beschlossen, die Kriegerdenkmäler auf der Ostseite des Platzes zu errichten. Dasjenige für die Helden des Krieges 1914-1918 wurde 1922 eingeweiht. Die Namen der im Krieg 1939-1945 gefallenen Einwohner von Lédonien wurden hinzugefügt. Dahinter befindet sich das Denkmal zum \"Ruhm des jurassischen Widerstands\", das von Sar¬rabezolles, einem Grand Prix de Rome, entworfen wurde, der seine Figuren, die Symbole des Widerstands, an eine massive Karte des Jura anlehnen wollte. Das Denkmal stammt aus dem Jahr 1950.\n\n12 Der Park und die Thermen Lédonia\nInmitten eines herrlichen, sieben Hektar großen Parks mit seltenen Baumarten aus allen fünf Kontinenten befinden sich die Lédonia-Thermen, in denen seit 1892 die wohltuende Wirkung des Salzwassers genutzt wird.\nIm neuen \"SPA Thermal Lédonia\" kann jeder die Vorteile des Wassers von Lédonia im Rahmen von klassischen Thermalkuren und Fitnesspaketen nutzen. Der Park wurde kürzlich um einen zeitgenössischen koreanischen Garten erweitert."
+        ],
+        "en": [
+          "Stroll in the old Lons to discover the heritage of the city.\n\n1 The Theater\nThe theater is located in a prime position in Lons-le-Saunier, and its facades give rhythm to two animated squares in the city center: the Place de la Liberté and the Place du 11 Novembre. It is a beautiful rococo style building, rebuilt from 1901, following a violent fire. The village hall, which occupied half of the building, was destroyed by fire in 1983. It was rebuilt and turned into a space for congresses and meetings, called CAR?COM, offering numerous possibilities of reception. The theater is a masterpiece of early twentieth century architecture where gilding, red velvet, paintings and stucco combine to give the room all its brilliance. The ensemble, classified as a historical monument, was restored in 1997.\n\n2 The fountain of the rue Perrin\nThis is probably the most characteristic of the Lédo¬nian fountains and also the oldest. It was built against this house in 1727, but was previously located elsewhere, perhaps at the end of the impasse Saint Roch (now rue Perrin), or at the corner of the rue des Cordeliers on the rue du Four side. Restored a few years ago, it symbolizes the dual desire to enhance the city's old neighborhoods and to reintroduce water into Lédon's fountains (a few years ago, the Swan Fountain was returned to its original place in front of the Car?Com).\nIt is\n\n3 The church of the Cordeliers\nIt is a discreet monument, hidden at the end of a small courtyard, itself closed by a splendid 15th century porch. But it is a magnificent church, originally built in the 13th century and which, due to numerous fires, today dates essentially from the 18th century (especially its Jesuit-style façade, completed in 1731).\nInside, three sets of furniture are classified as Historic Monuments: the pulpit (1728, the work of the Lédonian cabinetmakers Lamberthoz), the great organs (around 1845, Callinet organs) and the choir stalls (around 1828, late Louis XVI style).\nA crypt, today inaccessible, is the burial place of the Chalon family, powerful lords of the city in the Middle Ages.\n\n4 The Place de la Comédie\nHere is a pretty square with southern colors restored during an O.P.A.H. from 1980 to 1985. It owes its name to a small theater now destroyed (a disused church transformed during the French Revolution into a theater). In fact, it was a popular district of wine growers. The lintels of some doors still bear the emblem of the profession: the serpette. The old wine press reinforces this image. The Wallace fountain, a copy of the Parisian fountains, is pure fantasy. It dates from the 20th century.\n\n5? The salt well\nThis is the primitive site of the city, where the first Lédonians probably chose to live, because of the proximity of a salt spring which was, for a long time, an important source of income for the city. Although salt has not been produced in Lons-le-Saunier since 1966, the salt water is still used in the thermal baths (and an underground pipe connects the Puits Salé to the Thermes Lédonia). A small fountain allows today to taste (with moderation...) the Lédonia water.\n\n6 The Museum of Fine Arts\nIt occupies the fourth wing of the old city hall. Inside, the collections of sculptures (including the imposing Perraud legacy) and paintings are worthy of interest (let us quote the 2 Breughel, the 4 Courbet,...).\n\n6 The old Town Hall\nIt is a beautiful building built on the site of the Chalon-Arlay castle around 1743. At that time, it had only three wings, the museum wing having been added in the middle of the 19th century. Its architecture is in contrast to that of the rest of the building, which is much more sober and typical of the way of building in Lons-le-Saunier in the 18th century.\nA few notes on the old castle: in the Middle Ages, it was a high place of the Franc-Comtoise life, richly decorated and fitted out. But it was abandoned at the end of the 16th century, then totally destroyed by the violent fire of 1637, linked to the French conquest (Lons was previously a possession of the Spanish crown). It is said that the stones of the foundations of the Town Hall come from the ruins of the castle, which is likely. The town hall moved in 2014. It is now located at 44 Avenue du Régiment d'Infanterie.\n\n7 The Hotel Dieu\nThis beautiful building, whose architecture and gates we admire today, was built from 1735 to 1745, on the plans of the architect J.-P. Galzot. Originally from Besançon, Galzot was naturally inspired by the Saint-Jacques Hospital to draw the outline of the Hôtel-Dieu de Lons. The main courtyard was closed around 1778 by a splendid wrought iron gate, the work of Jura craftsmen (one of whom was from Lédon), and it is classified as a historical monument. To be seen in the heart of the building: the majestic grand staircase finished in 1741 and which Galzot said was \"the most difficult room to lead in the whole building\". As for the apothecary, it conceals multiple treasures: woodwork, earthenware pots, copperware, pewter... It is, as one scholar wrote, \"a small temple of art and good taste\", which allows, through three rooms, to follow the evolution of the apothecary function from the 17th century to the present. Guided tours are organized by the Tourist Office.\n\n8 Rue du Commerce (arcades)\nWithout doubt the most famous street in Lons and the most beautiful. Initially built in wood, it was entirely rebuilt after the fire of 1637 in stone and covered with tiles. It has kept, on this occasion, its graceful curve inherited from the Middle Ages. The numerous arcades are striking in their diversity.\nAt n° 24, is the birth house of Rouget de Lisle, author of La Marseillaise. It was worthily celebrated in Lons in 1992, on the occasion of the bicentenary of the composition of the Chant de Guerre pour l'armée du Rhin (which became La Marseillaise in the summer of 1792, because it was performed by the federates from Marseille who were entering Paris).\nRouget de Lisle is buried at the Invalides. At the southern end of the street, stands the belfry, commonly called \"Tour de l'Horloge\". It replaced an old watchtower, destroyed at the same time as the ramparts, at the beginning of the 18th century, but from which the materials (and perhaps the plan?) were kept to build the belfry.\n\n9 The Liberty Square\nSince the destruction of the ramparts, this is undoubtedly the heart of the city. The square occupies the place of the old ditches, which, once filled in, created a large space with a particular shape (an almost perfect rectangle). Today, it is the center of all activities, especially commercial activity.\nOn the square stands the statue of General Lecourbe, who was born in 1759 in Besançon and came from an old Franc-Comtois family. General of the Empire, he distinguished himself on the battlefields and in particular against the Russians of Suvorov. He died in 1815 in Belfort, was buried in Ruffey-sur-Seille and Lons inherited his statue in 1830.\nThe city of Lons-le-Saunier has completely renovated the Place de la Liberté (ground, lighting, fountain and water fountains, urban furniture), and built a covered parking lot, to make it more beautiful and attractive. It hosts events and concerts.\n10 Saint Désiré Church\nHere is the jewel of Lédonian architecture: a splendid Romanesque church built in 1083. Of course, the exterior, restored in the 19th century, is disappointing? But the nave, the transept and the crypt are in the purest pre-Romanesque style of the 11th century, and in a typically Franc-Comtois Romanesque style: no historical decorations. In the south transept, a beautiful 15th century piéta or tombstone from the former priory of Gigny is on display.\nThe choir houses a Eucharistic column in flamboyant Gothic style. The chapel of the Virgin to the north contains a statue of Saint Anne. The crypt, built in 1060 with materials from the original construction (5th century?) houses the empty sarcophagus of Saint-Désiré, the patron saint of Lons (whose relics are kept in the second northern chapel of the Cordeliers Church). The crypt was restored in 1992.\n\n\n11 Rouget de Lisle statue, place de la Chevalerie, monuments to the dead\nOn this square, Ney pronounced in 1815 his famous sentence \"the cause of the Bourbons is lost forever!\nBut the Place de la Cheva¬lerie was chosen above all to pay tribute to the people of Lédon. First of all, Rouget de Lisle, author of the Marseillaise. His statue, erected in 1882, is the work of the sculptor Bartholdi, to whom we also owe the famous Statue of Liberty in New York and the Lion of Belfort. It was restored and classified in 1992, on the occasion of the bicentenary festivities of the Marseillaise. In the 20th century, it was decided to erect monuments to the dead to the east of the square. The one to the heroes of the 1914-1918 war was inaugurated in 1922. The names of the Lédonians who died during the 1939-1945 war were added to it. Behind it is the monument to the \"Glory of the Jura Resistance\", designed by Sar¬rabezolles, a great prize-winner of Rome, who wished to place his figures, symbols of the Resistance, against a massive map of the Jura. This monument dates from 1950.\n\n12 The park and the Lédonia thermal baths\nIn the heart of a splendid seven-hectare park, where you can find very rare species from all five continents, you will find the Lédonia Spa, where the benefits of salt water have been used since 1892.\nIn addition, classic thermal cures and fitness packages allow everyone to take advantage of the Lédonia waters in the new \"SPA Thermal Lédonia\". A recent extension to the park features a contemporary Korean garden."
+        ],
+        "it": [
+          "Passeggiate nel centro storico di Lons per scoprire il patrimonio della città.\n\n1 Il teatro\nIl teatro si trova in una posizione privilegiata a Lons-le-Saunier e le sue facciate ritmano due vivaci piazze del centro: Place de la Liberté e Place du 11 Novembre. Si tratta di un bell'edificio in stile rococò, ricostruito nel 1901 dopo un violento incendio. Il municipio, che occupava metà dell'edificio, fu a sua volta distrutto da un incendio nel 1983. È stata ricostruita e trasformata in un centro conferenze e riunioni, chiamato CAR?COM, che offre un'ampia gamma di servizi. Il teatro è un capolavoro dell'architettura dei primi del Novecento, dove dorature, velluto rosso, dipinti e stucchi si combinano per dare alla sala tutta la sua brillantezza. L'intero edificio, classificato come monumento storico, è stato restaurato nel 1997.\n\n2 La fontana di rue Perrin\nÈ senza dubbio la più caratteristica delle fontane lédo¬niane e anche la più antica. Fu costruita contro questa casa nel 1727, ma in precedenza si trovava altrove, forse alla fine dell'impasse Saint Roch (oggi rue Perrin), o all'angolo della rue des Cordeliers sul lato della rue du Four. Restaurata qualche anno fa, simboleggia la duplice volontà di valorizzare gli antichi quartieri della città e di reintrodurre l'acqua nelle fontane di Lédon (qualche anno fa, la Fontana del Cigno è stata riportata nella sua posizione originale di fronte al Car?Com).\nÈ\n\n3 La chiesa dei Cordeliers\nÈ un monumento discreto, nascosto in fondo a un piccolo cortile, a sua volta chiuso da uno splendido portico del XV secolo. Ma è una chiesa magnifica, costruita originariamente nel XIII secolo e che, a seguito di numerosi incendi, risale oggi essenzialmente al XVIII secolo (in particolare la facciata in stile gesuita, completata nel 1731).\nAll'interno si trovano tre arredi classificati come Monumenti storici: il pulpito (1728, opera degli ebanisti lidensi Lamberthoz), i grandi organi (1845 circa, organi Callinet) e gli stalli del coro (1828 circa, stile tardo Luigi XVI).\nUna cripta, oggi inaccessibile, è il luogo di sepoltura della famiglia Chalon, potenti signori della città nel Medioevo.\n\n4 Piazza della Commedia\nÈ una graziosa piazza dai colori meridionali, restaurata durante un O.P.A.H. dal 1980 al 1985. Deve il suo nome a un piccolo teatro, oggi distrutto (una chiesa in disuso trasformata in teatro durante la Rivoluzione francese). In realtà, era un quartiere popolare di viticoltori. Gli architravi di alcune porte portano ancora l'emblema della professione: la serpetta. L'antico torchio rafforza questa immagine. La fontana di Wallace, copia delle fontane parigine, è pura fantasia. Risale al XX secolo.\n\n5? Il pozzo del sale\nQuesto è il sito originario della città, dove probabilmente si insediarono i primi lidensi, grazie alla vicinanza di una sorgente di sale che per lungo tempo è stata un'importante fonte di reddito per la città. Sebbene il sale non venga più prodotto a Lons-le-Saunier dal 1966, l'acqua salata viene ancora utilizzata per le terme (e un tubo sotterraneo collega il Puits Salé alle Thermes Lédonia). Oggi, una piccola fontana permette di assaggiare (con moderazione...) l'acqua di Lédonia.\n\n6 Il Museo delle Belle Arti\nOccupa la quarta ala dell'antico municipio. All'interno, le collezioni di sculture (tra cui l'imponente eredità Perraud) e di dipinti sono degne di interesse (citiamo i 2 Breughel, i 4 Courbet,...).\n\n6 Il vecchio Municipio\nSi tratta di un bell'edificio costruito sul sito del castello di Chalon-Arlay intorno al 1743. All'epoca aveva solo tre ali, mentre l'ala del museo è stata aggiunta a metà del XIX secolo. La sua architettura è in contrasto con quella del resto dell'edificio, molto più sobrio e tipico di come si costruiva a Lons-le-Saunier nel XVIII secolo.\nQualche nota sull'antico castello: nel Medioevo era un punto culminante della vita del Franc-Comtois, riccamente decorato e allestito. Ma fu abbandonato alla fine del XVI secolo e poi completamente distrutto dal violento incendio del 1637, legato alla conquista francese (Lons era precedentemente un possedimento della corona spagnola). Si dice che le pietre per le fondamenta del municipio provengano dalle rovine del castello, il che è probabile. Il municipio si è trasferito nel 2014. Ora si trova al 44 di Avenue du Régiment d'Infanterie.\n\n7 L'Hôtel Dieu\nQuesto bellissimo edificio, di cui oggi possiamo ammirare l'architettura e le porte, fu costruito tra il 1735 e il 1745, su progetto dell'architetto J.-P. Galzot. Originario di Besançon, Galzot si ispirò naturalmente all'Ospedale Saint-Jacques per tracciare il profilo dell'Hôtel-Dieu di Lons. Il cortile principale fu chiuso intorno al 1778 da uno splendido cancello in ferro battuto, opera di artigiani del Giura (uno dei quali era di Lédon), ed è classificato come monumento storico. Il cuore dell'edificio è il maestoso scalone d'onore, completato nel 1741, che secondo Galzot era \"la stanza più difficile da percorrere di tutto l'edificio\". Per quanto riguarda la spezieria, essa contiene molti tesori: manufatti in legno, vasi di terracotta, oggetti in rame, peltro... È, come ha scritto uno studioso, \"un piccolo tempio dell'arte e del buon gusto\", che permette, attraverso tre sale, di seguire l'evoluzione della funzione di speziale dal XVII secolo a oggi. Le visite guidate sono organizzate dall'Ufficio del Turismo.\n\n8 Rue du Commerce (portici)\nÈ probabilmente la strada più conosciuta di Lons e la più bella. Inizialmente costruita in legno, fu interamente ricostruita dopo l'incendio del 1637 in pietra e ricoperta di tegole. In questa occasione, ha mantenuto la sua graziosa curva ereditata dal Medioevo. Le numerose arcate colpiscono per la loro diversità.\nAl n. 24 si trova la casa natale di Rouget de Lisle, autore della Marsigliese. È stato celebrato a Lons nel 1992, in occasione del bicentenario della composizione del Chant de Guerre pour l'armée du Rhin (diventato La Marseillaise nell'estate del 1792, perché eseguito dai federati marsigliesi che entravano a Parigi).\nRouget de Lisle è sepolto agli Invalides. All'estremità meridionale della strada si trova il campanile, comunemente noto come \"Tour de l'Horloge\". Ha sostituito un'antica torre di guardia, distrutta contemporaneamente ai bastioni, all'inizio del XVIII secolo, ma di cui sono stati conservati i materiali (e forse la pianta?) per costruire il campanile.\n\n9 La piazza della Libertà\nÈ senza dubbio il cuore della città dopo la distruzione dei bastioni. La piazza occupa il posto degli antichi fossati che, una volta riempiti, creavano un grande spazio dalla forma particolare (un rettangolo quasi perfetto). Oggi è il fulcro di tutte le attività, soprattutto quelle commerciali.\nSulla piazza si trova la statua del generale Lecourbe, nato nel 1759 a Besançon e proveniente da un'antica famiglia franco-comtoise. Fu un generale dell'impero e si distinse sui campi di battaglia, in particolare contro i russi di Suvorov. Morì nel 1815 a Belfort, fu sepolto a Ruffey-sur-Seille e Lons ereditò la sua statua nel 1830.\nLa città di Lons-le-Saunier ha completamente rinnovato Place de la Liberté (pavimento, illuminazione, fontana e fontanelle, arredo urbano), e costruito un parcheggio coperto, per renderla più bella e più attraente. Ospita eventi e concerti.\n10 Chiesa di Saint Désiré\nEcco il gioiello dell'architettura lidense: una splendida chiesa romanica costruita nel 1083. Certo, l'esterno, restaurato nel XIX secolo, è deludente? Ma la navata, il transetto e la cripta sono nel più puro stile preromanico dell'XI secolo e in uno stile romanico tipicamente franco-comtoista: nessuna decorazione storica. Nel transetto meridionale si trova una bellissima piéta o pietra tombale del XV secolo, proveniente dall'antico priorato di Gigny.\nIl coro ospita una colonna eucaristica in stile gotico fiammeggiante. La cappella della Vergine a nord contiene una statua di Sant'Anna. La cripta, costruita nel 1060 con materiali provenienti dalla costruzione originaria (V secolo?), ospita il sarcofago vuoto di Saint-Désiré, patrono di Lons (le cui reliquie sono conservate nella seconda cappella settentrionale della chiesa dei Cordeliers). La cripta è stata restaurata nel 1992.\n\n\n11 Statua di Rouget de Lisle, Place de la Chevalerie, monumento ai caduti\nSu questa piazza Ney pronunciò la sua famosa frase nel 1815: \"La causa borbonica è persa per sempre!\nMa la Place de la Cheva¬lerie fu scelta soprattutto per rendere omaggio al popolo di Lédon. Il primo di loro fu Rouget de Lisle, autore della Marsigliese. La sua statua, eretta nel 1882, è opera dello scultore Bartholdi, a cui si devono anche la famosa Statua della Libertà di New York e il Leone di Belfort. È stata restaurata e classificata nel 1992, in occasione dei festeggiamenti per il bicentenario della Marsigliese. Nel XX secolo si decise di erigere dei monumenti ai caduti a est della piazza. Il monumento agli eroi della guerra 1914-1918 fu inaugurato nel 1922. Ad esso furono aggiunti i nomi dei lidonesi morti durante la guerra del 1939-1945. Alle sue spalle si trova il monumento alla \"Gloria della Resistenza del Giura\", progettato da Sar¬rabezolles, un grande premio di Roma, che ha voluto collocare le sue figure, simboli della Resistenza, su un'imponente mappa del Giura. Questo monumento risale al 1950.\n\n12 Il parco e le terme di Lédonia\nNel cuore di uno splendido parco di sette ettari, dove si trovano specie arboree rarissime provenienti da tutti e cinque i continenti, si trovano le Terme di Lédonia, dove i benefici dell'acqua salata vengono sfruttati dal 1892.\nInoltre, le classiche cure termali e i pacchetti fitness permettono a tutti di trarre vantaggio dalle acque di Lédonia nella nuova Lédonia Thermal Spa. Il parco è stato recentemente ampliato con un giardino coreano contemporaneo."
+        ],
+        "fr": [
+          "Balade dans le vieux Lons pour découvrir le patrimoine de la ville.\n\n1 Le Théâtre\nIl occupe une situation de choix à Lons-le-Saunier, et ses façades rythment successivement deux places animées du centre-ville : la place de la Liberté et la place du 11 Novembre. C’est un beau bâtiment de style rococo, reconstruit à partir de 1901, suite à un violent incendie. La salle des fêtes qui occupait la moitié de l’édifice a à son tour été détruite par le feu en 1983. Reconstruite, elle a été transformée en un espace de congrès et réunions, baptisé CAR’COM, offrant de nombreuses possibilités d’accueil. Le théâtre est lui, un chef d’œuvre d’architecture du début du XXème siècle où dorures, velours rouge, peintures et stucs se combinent pour donner à la salle tout son éclat. L’ensemble, classé Monument Historique, a été restauré en 1997.\n\n2 La fontaine de la rue Perrin\nC’est sans doute la plus caractéristique des fontaines lédo¬niennes et aussi la plus ancienne. Adossée à cette maison en 1727, elle occupait aupa¬ravant un autre em¬placement, peut-être au bout de l’impasse Saint Roch (actuelle rue Perrin), ou à l’angle de la rue des Cordeliers côté rue du Four. Res¬taurée il y a quelques années, elle symbo¬lise la double volonté de mise en valeur des quartiers anciens de la ville et de réintroduc¬tion de l’eau dans les fontaines lédoniennes (il y a quelques années, la fontaine du cygne a repris sa place initiale devant le Car’Com).\nC’est\n\n3 L’église des Cordeliers\nC’est un monument discret, caché au fond d’une petite cour, elle-même fermée par un splendide porche du XVème siècle. Mais c’est une magnifique église, élevée à l’origine au XIIIème siècle et qui, par suite de nombreux incendies, date aujourd’hui essentiellement du XVIIIème siècle (notamment par sa façade de style jésuite, achevée en 1731).\nA découvrir à l’intérieur, trois ensembles mobiliers classés Monuments Historiques : la chaire à prêcher (1728, œuvre des ébénistes lédoniens Lamberthoz), les grandes orgues (vers 1845, orgues Callinet) et les stalles du chœur (vers 1828, style Louis XVI tardif).\nUne crypte, aujourd’hui inaccessible, sert de sépulture à la famille des Chalon, puissants seigneurs de la ville au Moyen-Age.\n\n4 La place de la Comédie\nVoici une jolie place aux couleurs méridionales restaurée au cours d’une O.P.A.H. de 1980 à 1985. Elle doit son nom à un petit théâtre aujourd’hui détruit (une église désaffectée transformée pendant la Révolution fran¬çaise en salle de spectacles). En fait, il s’agissait d’un quartier populaire de vignerons. Sur les linteaux de certaines portes figure encore l’emblème de la profes¬sion : la serpette. Le vieux pressoir renforce cette image. La fontaine Wallace, copie des fontaines parisiennes, elle, n’est que pure fantaisie. Elle date du XXème siècle.\n\n5’ Le puits salé\nC’est le site primitif de la ville, là où vraisemblablement les premiers Lédoniens élirent domicile, en raison de la proximité d’une source salée qui fut, pendant long¬temps, une origine de revenus importante pour la ville. Si l’on ne produit plus de sel à Lons-le-Saunier depuis 1966, les eaux salifères sont toujours exploitées dans le cadre de l’activité thermale (et une canalisation souter¬raine relie le Puits Salé aux Thermes Lédonia). Une petite fontaine permet aujourd’hui de goûter (avec modéra¬tion...) l’eau Lédonia.\n\n6 Le musée des Beaux-Arts\nIl occupe la quatrième aile de l’ancien hôtel de ville. A l’intérieur, les collections de sculptures (dont l’imposant leg Perraud) et de peintures sont dignes d’intérêt (citons les 2 Breughel, les 4 Courbet,...).\t\n\n6 L’ancien Hôtel de Ville\nC’est un bel édifice construit sur l’emplacement du châ¬teau des Chalon-Arlay vers 1743. Il n’avait alors que trois ailes, celle du musée n’ayant été ajoutée qu’au milieu du XIXème siècle. Son architecture dénote d’ailleurs avec celle du reste du bâtiment beaucoup plus sobre et carac¬téristique de la manière de construire, à Lons-le-Saunier, au XVIIIème siècle.\nQuelques notes sur l’ancien château : c’était au Moyen-Age, un haut lieu de la vie franc-comtoise, richement décoré et aménagé. Mais il avait été abandonné dès la fin du XVIème siècle, puis totalement détruit par le violent incendie de 1637, lié à la conquête française (Lons était auparavant une possession de la couronne d’Espagne). On dit que les pierres des fondations de la Mairie pro¬viennent des ruines du château, ce qui est vraisemblable. La mairie a déménagé en 2014. Elle se situe désormais au 44ème Avenue du Régiment d’Infanterie.\n\n7 L’Hôtel Dieu\nCe beau bâtiment, dont nous admirons aujourd’hui l’ar¬chitecture et les grilles, a été construit de 1735 à 1745, sur les plans de l’architecte J.-P. Galzot. Originaire de Besançon, ce dernier s’est naturellement inspiré de l’hô¬pital Saint-Jacques, pour tracer l’épure de l’Hôtel-Dieu de Lons. La cour d’honneur a été fermée vers 1778 par une splendide grille en fer forgé, œuvre d’artisans juras¬siens (dont un Lédonien), et elle est classée Monument Historique. A voir au cœur de l’édifice : le grand escalier majestueux terminé en 1741 et dont Galzot disait que c’était « la pièce la plus difficile à conduire dans tout l’édifice ». Quant à l’apothicairerie, elle recèle de multi¬ples trésors : boiseries, pots en faïence, cuivres, étains... C’est, comme l’a écrit un érudit, « un petit temple de l’art et du bon goût », qui permet, par trois pièces, de suivre l’évolution de la fonction d’apothicaire du XVIIème siècle à nos jours. Des visites guidées sont organisées par l’Office de Tourisme.\n\n8 La rue du Commerce (arcades)\nSans doute la rue la plus connue à Lons et ... la plus jolie. Initialement construite en bois, elle a été entiè¬rement reconstruite après l’incendie de 1637 en pierre et couverte de tuiles. Elle a su garder, à cette occasion, sa courbe gracieuse héritée du Moyen-Age. Quant aux nombreuses arcades, elles frappent par leur diversité. \nAu n° 24, se trouve la maison natale de Rouget de Lisle, auteur de La Marseillaise. Il a été dignement fêté à Lons en 1992, à l’occasion du bicentenaire de la composition du Chant de Guerre pour l’armée du Rhin (devenu La Marseillaise durant l’été 1792, parce qu’interprété par les fédérés marseillais qui entraient à Paris).\nRouget de Lisle est enterré aux Invalides. A l’extrémité sud de la rue, se dresse le beffroi, communément appe¬lé «Tour de l’Horloge». Il a remplacé une ancienne tour de garde, détruite en même temps que les remparts, au début du XVIIIème siècle, mais dont on a conservé les matériaux (et peut-être le plan ?) pour élever le beffroi.\n\n9 La place de la Liberté\nC’est incontestablement, depuis la destruction des rem¬parts, le coeur de la ville. La place occupe en effet l’em¬placement des anciens fossés qui, comblés, ont dégagé un grand espace d’une forme particulière (un rectangle presque parfait). Elle concentre aujourd’hui toutes les activités et principalement l’activité commerciale.\nSur la place se dresse la statue du Général Lecourbe, né en 1759 à Besançon, et issu d’une ancienne famille franc-comtoise. Général d’empire, il s’était distingué sur les champs de bataille et notamment contre les Russes de Souvorov. Il mourut en 1815 à Belfort, fut enterré à Ruffey-sur-Seille et Lons hérita de sa statue en 1830.\nLa Ville de Lons-le-Saunier a entièrement rénové la Place de la Liberté (sol, éclairages, fontaine et jets d’eau, mo¬bilier urbain), et construit un parking couvert, pour la rendre plus belle, plus attractive. Elle accueille des ani¬mations et des concerts.\n10 L’église Saint Désiré\nEt voici le fleuron de l’architecture lédonienne : une splendide église romane élevée en 1083. Certes l’exté¬rieur restauré au XIXème siècle est décevant… Mais la nef, le transept et la crypte sont du plus pur style pré-roman du XIème siècle, et d’un roman typiquement franc-com¬tois : pas de décor historié. Au transept sud est exposée une très belle piéta ou mise au tombeau du XVème siècle, provenant de l’ancien prieuré de Gigny.\nLe chœur abrite une colonne eucharistique en style gothique flamboyant. La chapelle de la Vierge au nord conserve une statue de Sainte-Anne. La crypte, élevée en 1060, avec les matériaux provenant de la construc¬tion primitive (Vème siècle ?) abrite le sarcophage, vide, de Saint-Désiré, le Saint-Patron de Lons (dont les reliques sont conservées dans la deuxième chapelle nord de l’Eglise des Cordeliers). La crypte a été restaurée en 1992.\n\n\n11 Statue Rouget de Lisle, place de la Chevalerie, monuments aux morts\nSur cette place, Ney a prononcé en 1815 sa cé¬lèbre phrase « la cause des Bourbons est à jamais per¬due ! ».\nMais la place de la Cheva¬lerie a surtout été choisie pour rendre hommage aux Lédoniens. Le premier d’entre eux d’abord, Rou¬get de Lisle, auteur de la Marseillaise. Sa statue, éri¬gée en 1882, est l’œuvre du sculpteur Bartholdi, à qui l’on doit aussi la célèbre statue de la Liberté de New-York et le Lion de Belfort. Elle a été restaurée et clas¬sée en 1992, à l’occasion des festivités du bicentenaire de la Marseillaise. Au XXème siècle, on décida l’élévation des monuments aux morts à l’Est de la place. Celui aux héros de la guerre 1914-1918 a été inauguré en 1922. Les noms des lédoniens morts pendant la guerre 1939-1945 y ont été ajoutés. Derrière se trouve le monument à la « Gloire de la Résistance Jurassienne », dû à Sar¬rabezolles, grand prix de Rome, qui souhaita adosser ses personnages, symboles de la Résistance, à une massive carte du Jura. Ce monument date de 1950.\n\n12 Le parc et les thermes Lédonia\nAu cœur d’un splendide parc de sept hectares, où l’on trouve des essences très rares, et originaires des cinq continents, se trouvent les Thermes Lédonia où, depuis 1892, on utilise les bienfaits des eaux salées.\nDes cures thermales classiques et des forfaits de remise en forme permettent, en outre, à chacun de tirer profit des eaux lédoniennes dans le cadre du nouveau “SPA Thermal Lédonia”. Une extension récente du parc accueille un jardin coréen contemporain."
+        ],
+        "nl": [
+          "Wandel door het oude centrum van Lons om het erfgoed van de stad te ontdekken.\n\n1 Het theater\nHet theater ligt op een toplocatie in Lons-le-Saunier en zijn gevels geven ritme aan twee levendige pleinen in het centrum: de Place de la Liberté en de Place du 11 Novembre. Het is een prachtig gebouw in rococostijl, herbouwd in 1901 na een hevige brand. Het dorpshuis, dat de helft van het gebouw in beslag nam, werd op zijn beurt in 1983 door brand verwoest. Het werd herbouwd en omgebouwd tot een conferentie- en vergadercentrum, CAR?COM genaamd, met een breed scala aan faciliteiten. Het theater is een meesterwerk van architectuur uit het begin van de 20e eeuw waar verguldsel, rood fluweel, schilderijen en stucwerk samen de zaal zijn volle glans geven. Het ensemble, geklasseerd als historisch monument, werd in 1997 gerestaureerd.\n\n2 De fontein in de rue Perrin\nDit is zonder twijfel de meest karakteristieke en tevens de oudste fontein van Lédo. Hij werd in 1727 tegen dit huis gebouwd, maar stond vroeger elders, misschien aan het einde van de impasse Saint Roch (nu rue Perrin), of op de hoek van de rue des Cordeliers aan de kant van de rue du Four. Enkele jaren geleden gerestaureerd, symboliseert het de dubbele wens om de oude wijken van de stad op te waarderen en de fonteinen van Lédon weer van water te voorzien (de Zwanenfontein is enkele jaren geleden teruggebracht naar zijn oorspronkelijke plaats voor de Car?Com).\nHet is\n\n3 De kerk van Cordeliers\nHet is een discreet monument, verborgen aan het einde van een kleine binnenplaats, zelf omsloten door een prachtig 15e eeuws portaal. Maar het is een prachtige kerk, oorspronkelijk gebouwd in de 13e eeuw en die nu, als gevolg van talrijke branden, voornamelijk uit de 18e eeuw dateert (met name de voorgevel in jezuïetenstijl, voltooid in 1731).\nBinnen staan drie meubelstukken op de monumentenlijst: de preekstoel (1728, werk van de Lédoniaanse meubelmakers Lamberthoz), de grote orgels (rond 1845, Callinet-orgels) en het koorgestoelte (rond 1828, laat Lodewijk XVI-stijl).\nEen crypte, nu ontoegankelijk, is de begraafplaats van de familie Chalon, machtige heren van de stad in de Middeleeuwen.\n\n4 De Place de la Comédie\nDit is een mooi plein met zuidelijke kleuren, gerestaureerd tijdens een O.P.A.H. van 1980 tot 1985. Het dankt zijn naam aan een klein theater, dat nu verwoest is (een in onbruik geraakte kerk die tijdens de Franse Revolutie tot theater is omgevormd). In feite was het een populaire wijnbouwerswijk. De bovendorpels van sommige deuren dragen nog steeds het embleem van het beroep: de serpette. De oude wijnpers versterkt dit beeld. De Wallace fontein, een kopie van de Parijse fonteinen, is pure fantasie. Hij dateert uit de 20e eeuw.\n\n5? De zoutput\nDit is de oorspronkelijke plek van de stad, waar de eerste Lédoniërs zich waarschijnlijk vestigden, vanwege de nabijheid van een zoutbron die lange tijd een belangrijke bron van inkomsten was voor de stad. Hoewel in Lons-le-Saunier sinds 1966 geen zout meer wordt geproduceerd, wordt het zoute water nog steeds gebruikt in de thermen (en een ondergrondse leiding verbindt de Puits Salé met de Thermen Lédonia). Tegenwoordig kunt u via een kleine fontein het water van Lédonia proeven (met mate...).\n\n6 Het Museum voor Schone Kunsten\nHet neemt de vierde vleugel van het oude stadhuis in beslag. Binnen zijn de collecties beeldhouwwerken (waaronder de imposante erfenis van Perraud) en schilderijen interessant (laten we de 2 Breughel, de 4 Courbet,... noemen).\n\n6 Het oude stadhuis\nDit is een prachtig gebouw, gebouwd op de plaats van het kasteel van Chalon-Arlay rond 1743. In die tijd had het slechts drie vleugels; de museumvleugel werd in het midden van de 19e eeuw toegevoegd. De architectuur staat in contrast met die van de rest van het gebouw, die veel soberder is en typerend voor de bouwwijze van Lons-le-Saunier in de 18e eeuw.\nEnkele opmerkingen over het oude kasteel: in de Middeleeuwen was het een hoogtepunt van het Frans-Comtese leven, rijkelijk versierd en ingericht. Maar het werd aan het eind van de 16e eeuw verlaten, en vervolgens volledig verwoest door de hevige brand van 1637, die verband hield met de Franse verovering (Lons was voordien eigendom van de Spaanse kroon). Men zegt dat de stenen voor de fundamenten van het stadhuis afkomstig waren van de ruïnes van het kasteel, wat waarschijnlijk is. Het stadhuis is in 2014 verhuisd. Het is nu gevestigd aan de Avenue du Régiment d'Infanterie 44.\n\n7 Het Hôtel Dieu\nDit prachtige gebouw, waarvan we vandaag de dag de architectuur en de poorten kunnen bewonderen, werd gebouwd tussen 1735 en 1745, naar de plannen van de architect J.-P. Galzot. Galzot, afkomstig uit Besançon, liet zich uiteraard inspireren door het Saint-Jacques ziekenhuis om de contouren van het Hôtel-Dieu de Lons uit te tekenen. De grote binnenplaats werd rond 1778 afgesloten met een prachtige smeedijzeren poort, het werk van ambachtslieden uit de Jura (waarvan één uit Lédon), en staat op de monumentenlijst. Het hart van het gebouw wordt gevormd door de majestueuze grote trap, voltooid in 1741, die volgens Galzot \"de moeilijkst begaanbare ruimte van het hele gebouw\" was. De apotheek bevat vele schatten: houtwerk, aardewerken potten, koperwerk, tin... Het is, zoals een geleerde schreef, \"een kleine tempel van kunst en goede smaak\", die het mogelijk maakt om in drie zalen de evolutie van de apothekersfunctie te volgen van de 17e eeuw tot nu. Het VVV-kantoor organiseert rondleidingen.\n\n8 Rue du Commerce (arcades)\nDit is waarschijnlijk de bekendste en mooiste straat van Lons. Aanvankelijk gebouwd in hout, maar na de brand van 1637 volledig herbouwd in steen en bedekt met dakpannen. Bij deze gelegenheid heeft ze haar sierlijke ronding uit de middeleeuwen behouden. De talrijke arcades vallen op door hun verscheidenheid.\nOp nr. 24 staat het geboortehuis van Rouget de Lisle, schrijver van La Marseillaise. Het was de moeite waard om in 1992 in Lons te vieren, ter gelegenheid van de tweehonderdste verjaardag van de compositie van het Chant de Guerre pour l'armée du Rhin (dat in de zomer van 1792 La Marseillaise werd, omdat het werd uitgevoerd door de federalen uit Marseille die Parijs binnenvielen).\nRouget de Lisle ligt begraven in de Invalides. Aan het zuidelijke einde van de straat staat het belfort, algemeen bekend als de \"Tour de l'Horloge\". Het vervangt een oude wachttoren, die tegelijk met de vestingmuren, aan het begin van de 18e eeuw, werd verwoest, maar waarvan de materialen (en misschien de plattegrond?) werden bewaard om het belfort te bouwen.\n\n9 De Place de la Liberté\nDit is ongetwijfeld het hart van de stad sinds de verwoesting van de vestingmuren. Het plein neemt de plaats in van de oude grachten die, eenmaal gedempt, een grote ruimte creëerden met een bijzondere vorm (een bijna perfecte rechthoek). Tegenwoordig is het het middelpunt van alle activiteiten, vooral van commerciële activiteiten.\nOp het plein staat het standbeeld van generaal Lecourbe, geboren in 1759 in Besançon en afkomstig uit een oude Frans-Comtooise familie. Hij was generaal van het keizerrijk en onderscheidde zich op de slagvelden, met name tegen de Russen van Suvorov. Hij stierf in 1815 in Belfort, werd begraven in Ruffey-sur-Seille en Lons erfde zijn standbeeld in 1830.\nDe stad Lons-le-Saunier heeft de Place de la Liberté volledig gerenoveerd (vloer, verlichting, fontein en waterfonteinen, stadsmeubilair), en een overdekte parkeerplaats aangelegd, om het mooier en aantrekkelijker te maken. Er vinden evenementen en concerten plaats.\n10 Kerk Saint Désiré\nDit is de parel van de Lédoniaanse architectuur: een prachtige Romaanse kerk uit 1083. Toegegeven, de buitenkant, gerestaureerd in de 19e eeuw, is teleurstellend? Maar het schip, het transept en de crypte zijn in de zuiverste pre-Romaanse stijl van de 11e eeuw, en van een typisch Frans-Comtiaanse Romaanse stijl: geen historische decoratie. In het zuidelijke transept bevindt zich een zeer mooie 15e-eeuwse piéta of grafsteen, afkomstig van de voormalige priorij van Gigny.\nIn het koor staat een eucharistische zuil in flamboyante gotische stijl. De Mariakapel in het noorden bevat een beeld van de heilige Anna. De crypte, gebouwd in 1060 met materiaal van de oorspronkelijke constructie (5e eeuw?) herbergt de lege sarcofaag van Saint-Désiré, de patroonheilige van Lons (wiens relieken worden bewaard in de tweede noordelijke kapel van de Cordelierskerk). De crypte werd in 1992 gerestaureerd.\n\n\n11 Standbeeld van Rouget de Lisle, Place de la Chevalerie, monumenten voor de doden\nOp dit plein sprak Ney in 1815 zijn beroemde zin uit: \"De Bourbon-zaak is voorgoed verloren\".\nMaar de Place de la Cheva¬lerie werd vooral gekozen om hulde te brengen aan de mensen van Lédon. De eerste van hen was Rouget de Lisle, auteur van de Marseillaise. Zijn standbeeld, opgericht in 1882, is het werk van de beeldhouwer Bartholdi, aan wie we ook het beroemde Vrijheidsbeeld in New York en de Leeuw van Belfort te danken hebben. Het werd gerestaureerd en geklasseerd in 1992, ter gelegenheid van de tweehonderdste verjaardag van de Marseillaise. In de 20e eeuw werd besloten ten oosten van het plein monumenten voor de doden op te richten. Het monument voor de helden van de oorlog van 1914-1918 werd ingehuldigd in 1922. De namen van de Lédoniërs die tijdens de oorlog van 1939-1945 zijn omgekomen, werden eraan toegevoegd. Daarachter staat het monument voor de \"Glorie van het Verzet in de Jura\", ontworpen door Sar¬rabezolles, een grote prijswinnaar uit Rome, die zijn figuren, symbolen van het Verzet, tegen een massieve kaart van de Jura wilde plaatsen. Dit monument dateert van 1950.\n\n12 Het park en de thermen van Lédonia\nIn het hart van een prachtig park van zeven hectare, waar zeer zeldzame boomsoorten uit alle vijf de continenten te vinden zijn, bevindt zich het kuuroord Lédonia, waar sinds 1892 de weldadige werking van zout water wordt benut.\nBovendien kan iedereen in de nieuwe Lédonia Thermal Spa profiteren van klassieke thermale kuren en fitnessformules. Een recente uitbreiding van het park beschikt over een eigentijdse Koreaanse tuin."
+        ],
+        "es": [
+          "Pasee por el casco antiguo de Lons para descubrir el patrimonio de la ciudad.\n\n1 El Teatro\nEl teatro está situado en un lugar privilegiado de Lons-le-Saunier, y sus fachadas dan ritmo a dos animadas plazas del centro de la ciudad: la Place de la Liberté y la Place du 11 Novembre. Es un bello edificio de estilo rococó, reconstruido en 1901 tras un violento incendio. El ayuntamiento, que ocupaba la mitad del edificio, fue a su vez destruido por un incendio en 1983. Fue reconstruido y transformado en un centro de conferencias y reuniones, llamado CAR?COM, que ofrece una amplia gama de instalaciones. El teatro es una obra maestra de la arquitectura de principios del siglo XX, donde dorados, terciopelo rojo, pinturas y estucos se combinan para dar a la sala todo su esplendor. Todo el edificio, clasificado como monumento histórico, fue restaurado en 1997.\n\n2 La fuente de la rue Perrin\nEs sin duda la más característica de las fuentes leodinas y también la más antigua. Fue construida frente a esta casa en 1727, pero antes estaba situada en otro lugar, quizás al final de la calle Saint Roch (actual calle Perrin), o en la esquina de la calle des Cordeliers, del lado de la calle du Four. Restaurada hace unos años, simboliza la doble voluntad de valorizar los barrios antiguos de la ciudad y de reintroducir el agua en las fuentes de Lédon (hace unos años, la fuente del Cisne fue devuelta a su emplazamiento original frente al Car?Com).\nSe trata de\n\n3 La iglesia de los Cordeliers\nEs un monumento discreto, escondido al final de un pequeño patio, cerrado a su vez por un espléndido pórtico del siglo XV. Pero se trata de una magnífica iglesia, construida originalmente en el siglo XIII y que, como consecuencia de numerosos incendios, data ahora esencialmente del siglo XVIII (en particular su fachada de estilo jesuítico, terminada en 1731).\nEn su interior se conservan tres muebles declarados Monumentos Históricos: el púlpito (1728, obra de los ebanistas ledonianos Lamberthoz), los grandes órganos (hacia 1845, órganos Callinet) y la sillería del coro (hacia 1828, estilo Luis XVI tardío).\nUna cripta, hoy inaccesible, es el lugar de enterramiento de la familia Chalon, poderosos señores de la ciudad en la Edad Media.\n\n4 La plaza de la Comédie\nSe trata de una bonita plaza de colores meridionales, restaurada durante una O.P.A.H. de 1980 a 1985. Debe su nombre a un pequeño teatro, hoy destruido (una iglesia en desuso transformada en teatro durante la Revolución Francesa). De hecho, era un barrio popular de viticultores. Los dinteles de algunas puertas conservan el emblema de la profesión: la serpette. El antiguo lagar refuerza esta imagen. La fuente Wallace, copia de las fuentes parisinas, es pura fantasía. Data del siglo XX.\n\n5? El pozo de sal\nEste es el emplazamiento original de la ciudad, donde probablemente se asentaron los primeros lédoneses, debido a la proximidad de un manantial de sal que fue, durante mucho tiempo, una importante fuente de ingresos para la ciudad. Aunque en Lons-le-Saunier no se produce sal desde 1966, el agua salada se sigue utilizando en las termas (y una tubería subterránea une el Puits Salé con las Thermes Lédonia). Hoy en día, una pequeña fuente permite degustar (con moderación...) el agua de Lédonia.\n\n6 El Museo de Bellas Artes\nOcupa la cuarta ala del antiguo ayuntamiento. En su interior, las colecciones de esculturas (entre las que destaca el imponente legado Perraud) y pinturas son dignas de interés (mencionemos los 2 Breughel, los 4 Courbet,...).\n\n6 El antiguo Ayuntamiento\nSe trata de un bello edificio construido en el emplazamiento del castillo de Chalon-Arlay hacia 1743. En aquella época sólo tenía tres alas, la del museo se añadió a mediados del siglo XIX. Su arquitectura contrasta con la del resto del edificio, mucho más sobria y típica de la forma en que se construía en Lons-le-Saunier en el siglo XVIII.\nAlgunas notas sobre el antiguo castillo: en la Edad Media, fue un punto culminante de la vida franco-comunesa, ricamente decorado y acondicionado. Pero fue abandonado a finales del siglo XVI, y después totalmente destruido por el violento incendio de 1637, vinculado a la conquista francesa (Lons era antes una posesión de la corona española). Se dice que las piedras para los cimientos del Ayuntamiento procedían de las ruinas del castillo, lo que es probable. El ayuntamiento se trasladó en 2014. Ahora se encuentra en el número 44 de la Avenue du Régiment d'Infanterie.\n\n7 El Hôtel Dieu\nEste hermoso edificio, cuya arquitectura y puertas podemos admirar hoy en día, fue construido entre 1735 y 1745, según los planos del arquitecto J.-P. Galzot. Originario de Besançon, Galzot se inspiró naturalmente en el Hospital Saint-Jacques para trazar el esquema del Hôtel-Dieu de Lons. El patio principal, cerrado hacia 1778 por una espléndida verja de hierro forjado, obra de artesanos del Jura (uno de ellos de Lédon), está catalogado como monumento histórico. En el corazón del edificio se encuentra la majestuosa gran escalera, terminada en 1741, de la que Galzot decía que era \"la sala más difícil de recorrer de todo el edificio\". En cuanto a la botica, contiene numerosos tesoros: ebanistería, vasijas de barro, cobre, estaño... Es, como ha escrito un erudito, \"un pequeño templo del arte y del buen gusto\", que permite, a través de tres salas, seguir la evolución de la función boticaria desde el siglo XVII hasta nuestros días. La Oficina de Turismo organiza visitas guiadas.\n\n8 Rue du Commerce (soportales)\nEs probablemente la calle más conocida de Lons y la más bonita. Construida inicialmente en madera, fue totalmente reconstruida tras el incendio de 1637 en piedra y cubierta de tejas. En esta ocasión, ha conservado su graciosa curva heredada de la Edad Media. Las numerosas arcadas llaman la atención por su diversidad.\nEn el número 24 se encuentra la casa natal de Rouget de Lisle, autor de La Marsellesa. Merece la pena celebrarlo en Lons en 1992, con motivo del bicentenario de la composición del Chant de Guerre pour l'armée du Rhin (que se convirtió en La Marsellesa en el verano de 1792, porque la interpretaron los federados marselleses que entraban en París).\nRouget de Lisle está enterrado en los Inválidos. En el extremo sur de la calle se alza el campanario, comúnmente conocido como la \"Tour de l'Horloge\". Sustituyó a una antigua torre de vigilancia, destruida al mismo tiempo que las murallas, a principios del siglo XVIII, pero de la que se conservaron los materiales (¿y tal vez el plano?) para construir el campanario.\n\n9 La plaza de la Libertad\nEs sin duda el corazón de la ciudad desde la destrucción de las murallas. La plaza ocupa el lugar de los antiguos fosos que, una vez rellenados, crearon un gran espacio con una forma particular (un rectángulo casi perfecto). Hoy es el centro de todas las actividades, sobre todo comerciales.\nEn la plaza se alza la estatua del general Lecourbe, nacido en 1759 en Besançon y procedente de una antigua familia francocomtoise. Fue general del Imperio y se distinguió en los campos de batalla, en particular contra los rusos de Suvorov. Murió en 1815 en Belfort, fue enterrado en Ruffey-sur-Seille y Lons heredó su estatua en 1830.\nLa ciudad de Lons-le-Saunier ha renovado completamente la plaza de la Libertad (suelo, alumbrado, fuente y surtidores, mobiliario urbano), y ha construido un aparcamiento cubierto, para embellecerla y hacerla más atractiva. En ella se celebran actos y conciertos.\n10 Iglesia de Saint Désiré\nHe aquí la joya de la arquitectura ledoniana: una espléndida iglesia románica construida en 1083. Es cierto que el exterior, restaurado en el siglo XIX, es decepcionante? Pero la nave, el crucero y la cripta son del más puro estilo prerrománico del siglo XI, y de un románico típicamente franco-comunés: sin decoración historicista. En el crucero sur hay una bellísima piéta o lápida del siglo XV, procedente del antiguo priorato de Gigny.\nEl coro alberga una columna eucarística de estilo gótico flamígero. La capilla de la Virgen, al norte, alberga una estatua de Santa Ana. La cripta, construida en 1060 con materiales de la construcción original (¿siglo V?) alberga el sarcófago vacío de Saint-Désiré, patrón de Lons (cuyas reliquias se conservan en la segunda capilla norte de la iglesia de los Cordeliers). La cripta fue restaurada en 1992.\n\n\n11 Estatua de Rouget de Lisle, plaza de la Chevalerie, monumento de guerra\nEn esta plaza, Ney pronunció en 1815 su famosa frase: \"¡La causa borbónica está perdida para siempre!\nPero la plaza de la Chevalerie fue elegida sobre todo para rendir homenaje al pueblo de Lédon. El primero de ellos fue Rouget de Lisle, autor de la Marsellesa. Su estatua, erigida en 1882, es obra del escultor Bartholdi, a quien debemos también la famosa Estatua de la Libertad de Nueva York y el León de Belfort. Fue restaurada y clasificada en 1992, con motivo de las festividades del bicentenario de la Marsellesa. En el siglo XX, se decidió erigir monumentos a los muertos al este de la plaza. El monumento a los héroes de la guerra de 1914-1918 se inauguró en 1922. A él se añadieron los nombres de los lédoneses muertos durante la guerra de 1939-1945. Detrás se encuentra el monumento a la \"Gloria de la Resistencia del Jura\", diseñado por Sar¬rabezolles, gran laureado de Roma, que quiso colocar sus figuras, símbolos de la Resistencia, sobre un enorme mapa del Jura. Este monumento data de 1950.\n\n12 El parque y las termas de Lédonia\nEn el corazón de un espléndido parque de siete hectáreas, donde se pueden encontrar especies arbóreas muy raras procedentes de los cinco continentes, se encuentra el balneario de Lédonia, donde se aprovechan los beneficios del agua salada desde 1892.\nAdemás, las curas termales clásicas y los paquetes de fitness permiten a todos aprovechar las aguas de Lédonia en el nuevo Balneario Termal de Lédonia. Una reciente ampliación del parque incluye un jardín coreano contemporáneo."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/18df588a-6d40-38da-9a5c-d93dbea1259b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5a911c6c-d80a-387a-ba7d-72d18f6bb450",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/97b10ad2-c8e3-3919-a8b9-7a0c1d886d06",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/99ce2867-fc6c-3ac3-b2e1-2282bda5593d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a139db6b-6c20-347d-b8ad-87ce3952e4a2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a3f3927c-5609-30fa-b3c7-6d34f2a68ca7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a68e56ee-56d0-39b3-bf07-acc4b621ac2c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ac882eb4-613c-353a-8dbf-54e3da948845",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b249b190-e9e1-32fc-b509-fb571b235ae2",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b7266972-844c-3bc9-a7a5-1b37564b75ac",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Spaziergang durch die Altstadt von Lons, um das Kulturerbe der Stadt zu entdecken."
+        ],
+        "en": [
+          "Stroll in the old Lons to discover the heritage of the city."
+        ],
+        "it": [
+          "Passeggiate nel centro storico di Lons per scoprire il patrimonio della città."
+        ],
+        "fr": [
+          "Balade dans le vieux Lons pour découvrir le patrimoine de la ville."
+        ],
+        "nl": [
+          "Wandel door het oude centrum van Lons om het erfgoed van de stad te ontdekken."
+        ],
+        "es": [
+          "Pasee por el casco antiguo de Lons para descubrir el patrimonio de la ciudad."
+        ]
+      }
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/cae285bb-c6d3-30ea-ace8-312740c659e0",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/9f60338c-1174-39dc-8897-1c4d1f3ce5d2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/367afea8-e4b7-3286-96a0-140832d4698b",
+          "ebucore:title": {
+            "fr": [
+              "PlanTouristiqueLonsLeSaunier"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "OT Pays Lédonien"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5b53544f-e867-3691-a5cb-545e0e914a5d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:PDF",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "PDF-Datei"
+                ],
+                "pt": [
+                  "Ficheiro PDF"
+                ],
+                "en": [
+                  "PDF file"
+                ],
+                "it": [
+                  "File PDF"
+                ],
+                "fr": [
+                  "Adobe Portable Document Format"
+                ],
+                "nl": [
+                  "Pdf-bestand"
+                ],
+                "es": [
+                  "Archivo PDF"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/pdf"
+                ],
+                "pt": [
+                  "application/pdf"
+                ],
+                "en": [
+                  "application/pdf"
+                ],
+                "it": [
+                  "application/pdf"
+                ],
+                "fr": [
+                  "application/pdf"
+                ],
+                "nl": [
+                  "application/pdf"
+                ],
+                "es": [
+                  "application/pdf"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.media.tourinsoft.eu/upload/PlanTouristiqueLonsLeSaunier.pdf"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/644d41f1-988f-37d4-80c7-771c62a60f47",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/652512b8-306b-30d2-a2a9-9efa96032ce1",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c3193fea-18d7-3e14-8c96-eb13c9527db9",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cb76082c-e276-3a46-8f5b-eb8c714d7609",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f3e59608-3c6e-3045-9597-f76f34f00975",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/db3d3bf7-0795-30d5-9ead-3c9156aa51a4",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/75cd8c0a-b774-3524-8aa8-af0db4141e93",
+          "schema:addressLocality": "Lons-le-Saunier",
+          "schema:postalCode": "39000",
+          "schema:streetAddress": [
+            "Place du 11 Novembre"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:39300",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Lons-le-Saunier"
+              ],
+              "pt": [
+                "Lons-le-Saunier"
+              ],
+              "en": [
+                "Lons-le-Saunier"
+              ],
+              "it": [
+                "Lons-le-Saunier"
+              ],
+              "fr": [
+                "Lons-le-Saunier"
+              ],
+              "nl": [
+                "Lons-le-Saunier"
+              ],
+              "es": [
+                "Lons-le-Saunier"
+              ]
+            },
+            "insee": "39300",
+            "isPartOfDepartment": {
+              "@id": "kb:France2739",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Jura"
+                ],
+                "pt": [
+                  "Jura"
+                ],
+                "en": [
+                  "Jura"
+                ],
+                "it": [
+                  "Jura"
+                ],
+                "fr": [
+                  "Jura"
+                ],
+                "nl": [
+                  "Jura"
+                ],
+                "es": [
+                  "Jura"
+                ]
+              },
+              "insee": "39",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/bd3ba71a-a7c9-370d-bfa1-935878ef8061",
+        "schema:latitude": "46.6735317",
+        "schema:longitude": "5.5549267",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-01-02",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.247Z",
+  "positiveCumulDifference": "0.0",
+  "reducedMobilityAccess": true
+}

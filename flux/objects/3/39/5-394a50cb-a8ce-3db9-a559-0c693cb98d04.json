@@ -1,0 +1,287 @@
+{
+  "@id": "https://data.datatourisme.fr/5/394a50cb-a8ce-3db9-a559-0c693cb98d04",
+  "dc:identifier": "224004408",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Gîte n°2 Monsieur Robert HOLLECKER"
+    ]
+  },
+  "allowedPersons": 2,
+  "creationDate": "2021-03-05",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/442f413e-029a-3bcd-992c-06d7236f4573",
+    "schema:legalName": "Office de tourisme du val de Villé",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/f9be77db-d6c0-3a31-9fa8-638da3098074",
+      "schema:legalName": "Système d'informations touristique Alsace",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f25e536e-fe8e-3122-8250-7ed574503e16",
+      "schema:email": [
+        "ropaul.h@wanadoo.fr"
+      ],
+      "schema:legalName": "GITE DE M. ET MME HOLLECKER",
+      "schema:telephone": [
+        "+33 3 88 57 23 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f25e536e-fe8e-3122-8250-7ed574503e16",
+      "schema:email": [
+        "ropaul.h@wanadoo.fr"
+      ],
+      "schema:legalName": "GITE DE M. ET MME HOLLECKER",
+      "schema:telephone": [
+        "+33 3 88 57 23 00"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/594fb33f-5b53-3e97-9f17-ef5f023a9de0",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_1etoile",
+        "schema:ratingValue": "1.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "1 Stern"
+          ],
+          "pt": [
+            "1 estrela"
+          ],
+          "en": [
+            "1 Star"
+          ],
+          "it": [
+            "1 stella"
+          ],
+          "fr": [
+            "1 étoile"
+          ],
+          "nl": [
+            "1 ster"
+          ],
+          "es": [
+            "1 estrella"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/aea735f5-4270-3516-877a-13f53777feec",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/23737f80-851b-37f2-ba91-e49ed844bee8",
+          "schema:addressLocality": "Albé",
+          "schema:postalCode": "67220",
+          "schema:streetAddress": [
+            "18 rue de l'Eglise"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:67003",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Albé"
+              ],
+              "pt": [
+                "Albé"
+              ],
+              "en": [
+                "Albé"
+              ],
+              "it": [
+                "Albé"
+              ],
+              "fr": [
+                "Albé"
+              ],
+              "nl": [
+                "Albé"
+              ],
+              "es": [
+                "Albé"
+              ]
+            },
+            "insee": "67003",
+            "isPartOfDepartment": {
+              "@id": "kb:France4467",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bas-Rhin"
+                ],
+                "pt": [
+                  "Bas-Rhin"
+                ],
+                "en": [
+                  "Bas-Rhin"
+                ],
+                "it": [
+                  "Bas-Rhin"
+                ],
+                "fr": [
+                  "Bas-Rhin"
+                ],
+                "nl": [
+                  "Bas-Rhin"
+                ],
+                "es": [
+                  "Bas-Rhin"
+                ]
+              },
+              "insee": "67",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/bd6a0b59-6c16-327f-9958-0c47c29152a9",
+        "schema:latitude": "48.3660579740775",
+        "schema:longitude": "7.2923469543457",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/442f413e-029a-3bcd-992c-06d7236f4573",
+      "schema:legalName": "Office de tourisme du val de Villé",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-25",
+  "lastUpdateDatatourisme": "2023-02-06T08:05:05.802Z"
+}

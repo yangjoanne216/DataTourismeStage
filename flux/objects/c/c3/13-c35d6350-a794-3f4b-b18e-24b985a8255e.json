@@ -1,0 +1,305 @@
+{
+  "@id": "https://data.datatourisme.fr/13/c35d6350-a794-3f4b-b18e-24b985a8255e",
+  "dc:identifier": "4692091",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace",
+    "Tour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Itinéraire VTT - Le Lac Fantome"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/90db9da4-fc54-34ab-95a9-fe495d555c06",
+    "dc:identifier": "1420",
+    "schema:email": [
+      "corinne.vincent@lepuyenvelay.fr",
+      "florence.brustel@lepuyenvelay.fr",
+      "karine.wassner@lepuyenvelay.fr"
+    ],
+    "schema:legalName": "Office de Tourisme de l'agglomération du Puy-en-Velay",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.lepuyenvelay-tourisme.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/36ac2aa2-25d7-341e-b68a-2e78c6066065",
+      "schema:legalName": "Maison du Tourisme de la Haute-Loire - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/dc79693b-6d92-3b40-b4e0-d695e20c0951",
+      "schema:telephone": [
+        "+33 4 71 09 38 41",
+        "+33 6 62 88 14 41"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:ATV",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "MTB"
+        ],
+        "pt": [
+          "Bicicleta-todo-o-terreno (BTT)"
+        ],
+        "en": [
+          "Atv"
+        ],
+        "it": [
+          "Mountain bike"
+        ],
+        "fr": [
+          "Vtt"
+        ],
+        "nl": [
+          "Mountainbike"
+        ],
+        "es": [
+          "BTT"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Bike",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Fahrrad"
+        ],
+        "pt": [
+          "Bicicleta"
+        ],
+        "en": [
+          "Bike"
+        ],
+        "it": [
+          "Bicicletta"
+        ],
+        "fr": [
+          "Vélo"
+        ],
+        "nl": [
+          "Fiets"
+        ],
+        "es": [
+          "Bicicleta"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/0fc33b7e-b966-3311-8a15-b77d4b4ba26f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/bf0ce606-c593-32bb-9ac0-a55117db6a01",
+          "schema:addressLocality": "Aiguilhe",
+          "schema:postalCode": "43000",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:43002",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Aiguilhe"
+              ],
+              "pt": [
+                "Aiguilhe"
+              ],
+              "en": [
+                "Aiguilhe"
+              ],
+              "it": [
+                "Aiguilhe"
+              ],
+              "fr": [
+                "Aiguilhe"
+              ],
+              "nl": [
+                "Aiguilhe"
+              ],
+              "es": [
+                "Aiguilhe"
+              ]
+            },
+            "insee": "43002",
+            "isPartOfDepartment": {
+              "@id": "kb:France8443",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Haute-Loire"
+                ],
+                "pt": [
+                  "Haute-Loire"
+                ],
+                "en": [
+                  "Haute-Loire"
+                ],
+                "it": [
+                  "Haute-Loire"
+                ],
+                "fr": [
+                  "Haute-Loire"
+                ],
+                "nl": [
+                  "Haute-Loire"
+                ],
+                "es": [
+                  "Haute-Loire"
+                ]
+              },
+              "insee": "43",
+              "isPartOfRegion": {
+                "@id": "kb:France84",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "pt": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "en": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "it": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "fr": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "nl": [
+                    "Auvergne-Rhône-Alpes"
+                  ],
+                  "es": [
+                    "Auvergne-Rhône-Alpes"
+                  ]
+                },
+                "insee": "84",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8ad4f3be-5bd2-39b8-befc-ae7f9e1c8aa7",
+        "schema:elevation": "610",
+        "schema:latitude": "45.0507",
+        "schema:longitude": "3.882579",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/d7dfd47e-c605-39b6-9b42-c46773b63868",
+      "schema:email": [
+        "corinne.vincent@lepuyenvelay.fr",
+        "florence.brustel@lepuyenvelay.fr"
+      ],
+      "schema:legalName": "Office de Tourisme de l'agglomération du Puy-en-Velay",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.lepuyenvelay-tourisme.fr/"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-03-19",
+  "lastUpdateDatatourisme": "2023-06-07T05:47:59.002Z"
+}

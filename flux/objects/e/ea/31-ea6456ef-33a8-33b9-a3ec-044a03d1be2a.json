@@ -1,0 +1,982 @@
+{
+  "@id": "https://data.datatourisme.fr/31/ea6456ef-33a8-33b9-a3ec-044a03d1be2a",
+  "dc:identifier": "TFO350846108988",
+  "@type": [
+    "olo:OrderedList",
+    "CyclingTour",
+    "PointOfInterest",
+    "Tour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Start: Parkplatz des Campingplatzes \"Les Calquières\" - Schwierigkeit: Sehr leicht - Distanz: 21 km - Höhenunterschied: 250 m"
+    ],
+    "en": [
+      "Departure: parking lot of the campsite \"Les Calquières\" - Difficulty: Very easy - Distance: 21 km - Difference in height: 250 m"
+    ],
+    "it": [
+      "Punto di partenza: parcheggio del campeggio \"Les Calquières\" - Difficoltà: molto facile - Distanza: 21 km - Dislivello: 250 m"
+    ],
+    "fr": [
+      "Départ : parking du camping \"Les Calquières\" - Difficulté : Très facile - Distance : 21 km - Dénivelé : 250 m"
+    ],
+    "nl": [
+      "Vertrekpunt: parkeerplaats van de camping \"Les Calquières\" - Moeilijkheidsgraad: zeer gemakkelijk - Afstand: 21 km - Hoogteverschil: 250 m"
+    ],
+    "es": [
+      "Punto de partida: aparcamiento del camping \"Les Calquières\" - Dificultad: muy fácil - Distancia: 21 km - Desnivel: 250 m"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Cyclotourisme: Circuit vers la Lozère"
+    ]
+  },
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/f415857d-ecee-333d-88c2-774f55052fb7",
+    "schema:legalName": "OFFICE DE TOURISME DE SEVERAC LE CHATEAU",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/8967576a-35a2-31b8-81e9-da91542b7a7b",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/68ded1e4-0f10-3e15-a31f-3846900f153f",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "17 avenue Jean Moulin",
+            "Camping Les Calquières",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Circuit vers la Lozère",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/da09b328-8378-3bf8-8548-262c6c5a1ae0",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/824fe513-cfdd-32b2-8872-4487561f1f85",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "5 Rue des Douves",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "severacdaveyron@causses-aubrac-tourisme.com"
+      ],
+      "schema:legalName": "Office de tourisme Des Causses à l'Aubrac bureau de Sévérac d'Aveyron",
+      "schema:telephone": [
+        "+33 5 65 47 67 31"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.causses-aubrac-tourisme.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/f3f10c18-8abf-3bff-b201-88da78e9df4b",
+      "dc:description": {
+        "de": [
+          "Ein familienfreundlicher, nicht schwieriger Rundweg, um in die Causse de Sauveterre vorzudringen. Halten Sie in Le Massegros an, um die Caussenard-Häuser und den Dorfbackofen zu entdecken\n\nAuf dem Rückweg nach Sévérac können Sie einen Abstecher zum Weiler Le Villaret machen, wo Sie insbesondere den Ofen und das Waschhaus sehen können.  "
+        ],
+        "en": [
+          "A family circuit, without difficulty, to advance towards the Causse de Sauveterre. At Le Massegros, stop to discover the caussenarde houses and the village oven\n\nOn the way back to Sévérac, you can make a detour to the hamlet of Le Villaret to see its oven and wash house.  "
+        ],
+        "it": [
+          "Un circuito familiare, senza difficoltà, per avanzare verso la Causse de Sauveterre. A Massegros, fermatevi a scoprire le case caussenard e il forno del villaggio\n\nTornando verso Sévérac, si può fare una deviazione verso la frazione di Villaret per vedere in particolare il suo forno e il lavatoio.  "
+        ],
+        "fr": [
+          "Un circuit familial, sans difficulté, pour s'avancer vers le causse de Sauveterre. Au Massegros, arrêtez-vous pour découvrir les maisons caussenardes et le four du village. \n\nEn revenant vers Sévérac, vous pouvez faire un détour au hameau du Villaret pour y voir notamment son four et le lavoir.  "
+        ],
+        "es": [
+          "Un circuito familiar, sin dificultad, para avanzar hacia el Causse de Sauveterre. En Massegros, deténgase para descubrir las casas de caussenard y el horno del pueblo\n\nDe regreso a Sévérac, puede desviarse a la aldea de Villaret para ver en particular su horno y el lavadero.  "
+        ],
+        "nl": [
+          "Een familie circuit, zonder moeite, om verder te gaan naar de Causse de Sauveterre. Stop in Massegros om de caussenard huizen en de dorpsoven te ontdekken\n\nOp de terugweg naar Sévérac kunt u een omweg maken naar het gehucht Villaret om met name de oven en het washuis te bekijken.  "
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2372444f-d1a3-3a5d-81d9-6ec6af76c3f9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6d06a823-4a5a-3cfc-9ad2-15a6a90a8aa6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8bcf0434-e19d-3bc7-bdda-f6bd5df31393",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/905a42d3-7688-3de0-b431-8b2f780b6d63",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/98ffb013-a2ab-372c-aa96-192df00de172",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/af7e2249-fdf0-3379-9214-9632c37eba86",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b4465a25-83d6-368e-8066-feb1b9ce4e37",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ba33575a-70a7-35f7-8d95-a23df0cd613d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d5022510-4581-3c18-be73-5e05a6afd959",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d910daac-1508-3529-a8c9-8489178ea4dd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Start: Parkplatz des Campingplatzes \"Les Calquières\" - Schwierigkeit: Sehr leicht - Distanz: 21 km - Höhenunterschied: 250 m"
+        ],
+        "en": [
+          "Departure: parking lot of the campsite \"Les Calquières\" - Difficulty: Very easy - Distance: 21 km - Difference in height: 250 m"
+        ],
+        "it": [
+          "Punto di partenza: parcheggio del campeggio \"Les Calquières\" - Difficoltà: molto facile - Distanza: 21 km - Dislivello: 250 m"
+        ],
+        "fr": [
+          "Départ : parking du camping \"Les Calquières\" - Difficulté : Très facile - Distance : 21 km - Dénivelé : 250 m"
+        ],
+        "nl": [
+          "Vertrekpunt: parkeerplaats van de camping \"Les Calquières\" - Moeilijkheidsgraad: zeer gemakkelijk - Afstand: 21 km - Hoogteverschil: 250 m"
+        ],
+        "es": [
+          "Punto de partida: aparcamiento del camping \"Les Calquières\" - Dificultad: muy fácil - Distancia: 21 km - Desnivel: 250 m"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/06fd2b9c-92ad-32c3-a833-f0040cfff5ab",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/646484df-3abc-3136-adf1-6aaf9eb50f33",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ac471690-d405-30a1-bf2e-87d59235f2e2",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme: Circuit vers la Lozère"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme: Circuit vers la Lozère"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/9b94668a-10a3-3a2b-b916-32e9c9fad43a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350846108988/TFO350846108988-17a/medias/jpg/vers-la-loz__re.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/646484df-3abc-3136-adf1-6aaf9eb50f33",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ac471690-d405-30a1-bf2e-87d59235f2e2",
+          "ebucore:abstract": {
+            "fr": [
+              "Cyclotourisme: Circuit vers la Lozère"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Cyclotourisme: Circuit vers la Lozère"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/9b94668a-10a3-3a2b-b916-32e9c9fad43a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO350846108988/TFO350846108988-17a/medias/jpg/vers-la-loz__re.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/40730af7-dfd3-3c4a-bb36-a4f3146b7709",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6472ee35-aa26-3db1-ad3d-82849ec351ea",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9f47f6d6-4ea5-3dd7-bfe6-ed5e972a3b12",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/de6c2c86-78d9-3eff-a664-34b7a74ae603",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fb9cbd7c-0688-3ea7-b8d6-39a3bb34abca",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/989c330b-0b49-3cc7-a4e2-ac2037282e6a",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/18979c39-7cfe-3723-8288-d0a3f5998620",
+          "schema:addressLocality": "Sévérac d'Aveyron",
+          "schema:postalCode": "12150",
+          "schema:streetAddress": [
+            "Camping Les Calquières",
+            "Sévérac-le-Château"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12270",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sévérac d'Aveyron"
+              ],
+              "pt": [
+                "Sévérac d'Aveyron"
+              ],
+              "en": [
+                "Sévérac d'Aveyron"
+              ],
+              "it": [
+                "Sévérac d'Aveyron"
+              ],
+              "fr": [
+                "Sévérac d'Aveyron"
+              ],
+              "nl": [
+                "Sévérac d'Aveyron"
+              ],
+              "es": [
+                "Sévérac d'Aveyron"
+              ]
+            },
+            "insee": "12270",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/e756afe0-d37d-3567-8a2e-9e400a9058ee",
+        "schema:elevation": "741",
+        "schema:latitude": "44.3178",
+        "schema:longitude": "3.0642",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2021-10-27",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.735Z"
+}

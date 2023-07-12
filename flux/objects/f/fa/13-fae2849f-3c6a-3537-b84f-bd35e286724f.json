@@ -1,0 +1,246 @@
+{
+  "@id": "https://data.datatourisme.fr/13/fae2849f-3c6a-3537-b84f-bd35e286724f",
+  "dc:identifier": "5215259",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Buffalo Grill Ballainvilliers"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/e034fb6b-66aa-3c1d-88f4-45ddfb08da98",
+    "dc:identifier": "1233",
+    "schema:email": [
+      "d.trioux@destination-paris-saclay.com"
+    ],
+    "schema:legalName": "Destination Paris-Saclay",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.destination-paris-saclay.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8a9feb4b-2cbd-3d2c-b507-bd6c6776b23b",
+      "schema:legalName": "Apidae Tourisme Scic SA - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a71113b9-b3b3-38cf-b3fe-bb601bb2c467",
+      "schema:telephone": [
+        "+33 1 69 10 95 16"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.buffalo-grill.fr/"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/270a2d69-1afa-3a1a-baeb-a783bb91ffb1",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/5a2a3bad-ce81-3674-9ae2-6642bc681dd3",
+          "schema:addressLocality": "Ballainvilliers",
+          "schema:postalCode": "91160",
+          "schema:streetAddress": [
+            "Chemin du Plessis-Saint Père"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:91044",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Ballainvilliers"
+              ],
+              "pt": [
+                "Ballainvilliers"
+              ],
+              "en": [
+                "Ballainvilliers"
+              ],
+              "it": [
+                "Ballainvilliers"
+              ],
+              "fr": [
+                "Ballainvilliers"
+              ],
+              "nl": [
+                "Ballainvilliers"
+              ],
+              "es": [
+                "Ballainvilliers"
+              ]
+            },
+            "insee": "91044",
+            "isPartOfDepartment": {
+              "@id": "kb:France1191",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Essonne"
+                ],
+                "pt": [
+                  "Essonne"
+                ],
+                "en": [
+                  "Essonne"
+                ],
+                "it": [
+                  "Essonne"
+                ],
+                "fr": [
+                  "Essonne"
+                ],
+                "nl": [
+                  "Essonne"
+                ],
+                "es": [
+                  "Essonne"
+                ]
+              },
+              "insee": "91",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/d5c2744d-c359-377a-b0b7-60170143f8f0",
+        "schema:latitude": "48.671013",
+        "schema:longitude": "2.277094",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/ca133675-5ff2-3123-99a5-4fa931ea1d30",
+          "schema:closes": "23:00:00",
+          "schema:opens": "11:30:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/d87037ec-223f-3b91-8276-b2fe7d28f333",
+      "schema:email": [
+        "d.trioux@destination-paris-saclay.com"
+      ],
+      "schema:legalName": "Destination Paris-Saclay",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.destination-paris-saclay.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-05-27",
+  "lastUpdateDatatourisme": "2023-05-28T05:41:22.55Z"
+}

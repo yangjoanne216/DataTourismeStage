@@ -1,0 +1,921 @@
+{
+  "@id": "https://data.datatourisme.fr/6/33ef5aeb-78b5-321e-b43d-ec0bff2cb260",
+  "dc:identifier": "ITIBFC000V50DTCW",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Wanderung durch die Wälder von Château-des-Prés mit herrlichem Blick auf das Jura-Gebirge vom Aussichtspunkt \"Belvédère de la Vierge\" aus."
+    ],
+    "en": [
+      "Hike in the woods of Château-des-Prés with a magnificent view of the Monts Jura from the belvedere de la Vierge."
+    ],
+    "it": [
+      "Escursione nei boschi di Château-des-Prés con una magnifica vista sui Monti del Giura dal belvedere della Vierge."
+    ],
+    "fr": [
+      "Randonnée dans les bois de Château-des-Prés avec point de vue magnifique sur les Monts Jura depuis le belvédère de la Vierge."
+    ],
+    "nl": [
+      "Wandeling in de bossen van Château-des-Prés met een prachtig uitzicht op de Monts Jura vanaf de belvedère de la Vierge."
+    ],
+    "es": [
+      "Caminata por los bosques de Château-des-Prés con una magnífica vista de los Montes Jura desde el mirador de la Vierge."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Le Sentier de la Vierge"
+    ]
+  },
+  "creationDate": "2021-01-08",
+  "hasAudience": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/4ce1984d-e1bd-376b-a061-adc8785f9d00",
+    "dc:identifier": "4144cec4-847a-42e4-9d08-bee70206fa33",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/2415bba8-e840-37c9-82ff-f6ffd1bec527",
+        "schema:postalCode": "39150",
+        "schema:streetAddress": [
+          "7 place Charles Thévenin"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "info@haut-jura-grandvaux.com"
+    ],
+    "schema:legalName": "OFFICE DE TOURISME HAUT-JURA GRANDVAUX",
+    "schema:telephone": [
+      "+33 3 84 60 15 25"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.haut-jura-grandvaux.com/fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/17784e02-6b34-32e9-adc3-a4fa988b0161",
+      "schema:email": [
+        "info@haut-jura-grandvaux.com"
+      ],
+      "schema:telephone": [
+        "+33 3 84 60 15 25"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/1001002d-7691-37b3-9036-1f551a2a80d9",
+      "dc:description": {
+        "de": [
+          "Wanderung durch die Wälder von Château-des-Prés mit herrlichem Blick auf das Jura-Gebirge vom Aussichtspunkt \"Belvédère de la Vierge\" aus.\nEntfernung: 4,4 km\nHöhenunterschied: 121 m\nWanderführer (7?) im Tourismusbüro erhältlich."
+        ],
+        "en": [
+          "Hike in the woods of Château-des-Prés with a magnificent view of the Monts Jura from the belvedere de la Vierge.\nDistance : 4,4 km\nElevation gain : 121m\nHiking guide (7?) available at the tourist office."
+        ],
+        "it": [
+          "Escursione nei boschi di Château-des-Prés con una magnifica vista sui Monts Jura dal belvedere della Vierge.\nDistanza: 4,4 km\nDislivello: 121 m\nGuida escursionistica (7?) disponibile presso l'ufficio turistico."
+        ],
+        "fr": [
+          "Randonnée dans les bois de Château-des-Prés avec point de vue magnifique sur les Monts Jura depuis le belvédère de la Vierge. \nDistance : 4,4 km\nDénivelé : 121m\nCartoguide de randonnée (7€) disponible à l'office de tourisme."
+        ],
+        "nl": [
+          "Wandeling in de bossen van Château-des-Prés met een prachtig uitzicht op de Monts Jura vanaf de belvedère de la Vierge.\nAfstand: 4,4 km\nHoogteverschil: 121m\nWandelgids (7?) verkrijgbaar bij het toeristenbureau."
+        ],
+        "es": [
+          "Excursión por los bosques de Château-des-Prés con una magnífica vista de los Montes Jura desde el mirador de la Vierge.\nDistancia: 4,4 km\nDesnivel: 121 m\nGuía de senderismo (7?) disponible en la oficina de turismo."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/07d37adb-b170-31bf-9d1c-026f8b56681d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/167c0873-9e7c-3e5d-b432-d245246704b6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/48cbb4cc-1c28-3c38-9b5a-0d094f3c5586",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/634dfab1-0a0a-39e5-ac57-3e8406bd987b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7bba3c9f-5683-39b3-a9f9-807501cda198",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/82642240-7415-3f12-87b5-b19159c2767a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a8c46142-a32d-3a33-b59e-aeeee2614e9b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f04a5ed6-d585-375e-a559-cd873a15c951",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f1a99eaa-037d-3d74-b454-341e16a9d237",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fe8f11d6-e0e6-3670-b955-9dc9eaad8084",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Wanderung durch die Wälder von Château-des-Prés mit herrlichem Blick auf das Jura-Gebirge vom Aussichtspunkt \"Belvédère de la Vierge\" aus."
+        ],
+        "en": [
+          "Hike in the woods of Château-des-Prés with a magnificent view of the Monts Jura from the belvedere de la Vierge."
+        ],
+        "it": [
+          "Escursione nei boschi di Château-des-Prés con una magnifica vista sui Monti del Giura dal belvedere della Vierge."
+        ],
+        "fr": [
+          "Randonnée dans les bois de Château-des-Prés avec point de vue magnifique sur les Monts Jura depuis le belvédère de la Vierge."
+        ],
+        "nl": [
+          "Wandeling in de bossen van Château-des-Prés met een prachtig uitzicht op de Monts Jura vanaf de belvedère de la Vierge."
+        ],
+        "es": [
+          "Caminata por los bosques de Château-des-Prés con una magnífica vista de los Montes Jura desde el mirador de la Vierge."
+        ]
+      }
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/cae285bb-c6d3-30ea-ace8-312740c659e0",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:EasyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Einfach"
+            ],
+            "pt": [
+              "Fácil"
+            ],
+            "en": [
+              "Easy"
+            ],
+            "it": [
+              "Facile"
+            ],
+            "fr": [
+              "Facile"
+            ],
+            "nl": [
+              "Gemakkelijk"
+            ],
+            "es": [
+              "Fácil"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/5c936342-2693-3881-b50a-7931704a8593",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fdaeee04-0d8d-3a7f-a61b-344306c931c9",
+          "ebucore:title": {
+            "fr": [
+              "le-sentier-de-la-vierge"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "PNRHJ"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/4ee2656a-9059-3a17-a8a0-695513dd7562",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.media.tourinsoft.eu/upload/le-sentier-de-la-vierge.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b8ca77ff-e57b-349d-8f7a-0713f416325c",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/73e6b654-7adc-3c70-afb3-3ee22b92dbaf",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.tourinsoft.com/upload/trace/ITIBFC000V50DTCW.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/006a2103-5524-3666-a1fc-f869a328fb82",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7e8fb6f4-6c32-369e-b3ce-735ffec655ad",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cabf87c1-88c9-3513-b1d5-3407defc3952",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d27c46d1-004a-32ac-b73c-c827c154eff8",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e1bb7d70-365c-3def-b47f-42960b70c0fd",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4a15fa39-30fa-3ba4-a9a2-3edb166b3b11",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/287816cd-ebd8-3efa-a31a-6ac9d441abf5",
+          "schema:addressLocality": "Grande-Rivière Château",
+          "schema:postalCode": "39150",
+          "schema:streetAddress": [
+            "Place Saint-Georges"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:39258",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Grande-Rivière Château"
+              ],
+              "pt": [
+                "Grande-Rivière Château"
+              ],
+              "en": [
+                "Grande-Rivière Château"
+              ],
+              "it": [
+                "Grande-Rivière Château"
+              ],
+              "fr": [
+                "Grande-Rivière Château"
+              ],
+              "nl": [
+                "Grande-Rivière Château"
+              ],
+              "es": [
+                "Grande-Rivière Château"
+              ]
+            },
+            "insee": "39258",
+            "isPartOfDepartment": {
+              "@id": "kb:France2739",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Jura"
+                ],
+                "pt": [
+                  "Jura"
+                ],
+                "en": [
+                  "Jura"
+                ],
+                "it": [
+                  "Jura"
+                ],
+                "fr": [
+                  "Jura"
+                ],
+                "nl": [
+                  "Jura"
+                ],
+                "es": [
+                  "Jura"
+                ]
+              },
+              "insee": "39",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/4156704a-40f5-3ed7-91fd-94fcbb260a83",
+        "schema:latitude": "46.4993977",
+        "schema:longitude": "5.89815077",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-05-18",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.249Z",
+  "positiveCumulDifference": "121.0",
+  "tourDistance": "4400.0"
+}

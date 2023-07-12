@@ -1,0 +1,501 @@
+{
+  "@id": "https://data.datatourisme.fr/6/cc266dee-1298-3a84-a618-ea9f55886cc7",
+  "dc:identifier": "ITIBFC000V519FIJ",
+  "@type": [
+    "olo:OrderedList",
+    "PointOfInterest",
+    "Tour",
+    "WalkingTour"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Le sentier Doulou"
+    ]
+  },
+  "creationDate": "2022-03-24",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/44f60277-37f4-3165-8b7d-4e417219d419",
+    "dc:identifier": "3316ad07-5ce7-46d4-916e-11b3bd834c45",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/9f8c57e9-57b2-3b34-82b6-0675e44b8efd",
+        "schema:postalCode": "39100",
+        "schema:streetAddress": [
+          "6 place Grévy"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "contact@hellodole.fr"
+    ],
+    "schema:legalName": "OFFICE DE TOURISME DE DOLE - HELLO DOLE",
+    "schema:telephone": [
+      "+33 3 84 72 11 22"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.hellodole.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e0259627-197d-3ec4-b3b8-80f8141a7b79",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme - Decibelles Data",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4595520c-c34a-3ba0-a03f-312eea670a57",
+      "schema:email": [
+        "contact@hellodole.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 84 72 11 22"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.jura-tourism.com/itineraire/le-sentier-doulou/"
+      ]
+    }
+  ],
+  "hasPracticeCondition": [
+    {
+      "@id": "https://data.datatourisme.fr/9f68e9d9-888c-392a-86ae-d90c1f5b6990",
+      "@type": [
+        "PracticeCondition"
+      ],
+      "hasDifficultyLevel": [
+        {
+          "@id": "kb:MediumDifficultyTour",
+          "@type": [
+            "DifficultyLevel"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mittlere Schwierigkeit"
+            ],
+            "pt": [
+              "Dificuldade média"
+            ],
+            "en": [
+              "Medium difficulty"
+            ],
+            "it": [
+              "Difficoltà media"
+            ],
+            "fr": [
+              "Difficulté moyenne"
+            ],
+            "nl": [
+              "Gemiddelde moeilijkheidsgraad"
+            ],
+            "es": [
+              "Dificultad media"
+            ]
+          }
+        }
+      ],
+      "hasLocomotionMode": [
+        {
+          "@id": "kb:WalkingMode",
+          "@type": [
+            "PedestrianLocomotionMode"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zu Fuß"
+            ],
+            "pt": [
+              "Um pé"
+            ],
+            "en": [
+              "Walking"
+            ],
+            "it": [
+              "Un piede"
+            ],
+            "fr": [
+              "A pieds"
+            ],
+            "es": [
+              "Un pie"
+            ],
+            "nl": [
+              "Een voet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/93e14854-ba1d-3fcb-bc5b-feb1836bd8e3",
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/8968e005-d96a-356b-991d-08554df91adf",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:GPX",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "GPX-Datei"
+                ],
+                "pt": [
+                  "Ficheiro GPX"
+                ],
+                "en": [
+                  "GPX file"
+                ],
+                "it": [
+                  "File GPX"
+                ],
+                "fr": [
+                  "Fichier GPX"
+                ],
+                "nl": [
+                  "GPX-bestand"
+                ],
+                "es": [
+                  "Archivo GPX"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "application/gpx+xml"
+                ],
+                "pt": [
+                  "application/gpx+xml"
+                ],
+                "en": [
+                  "application/gpx+xml"
+                ],
+                "it": [
+                  "application/gpx+xml"
+                ],
+                "fr": [
+                  "application/gpx+xml"
+                ],
+                "nl": [
+                  "application/gpx+xml"
+                ],
+                "es": [
+                  "application/gpx+xml"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "https://decibelles-data.tourinsoft.com/upload/trace/ITIBFC000V519FIJ.gpx"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:NatureAndEnvironment",
+      "@type": [
+        "CulturalTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Umwelt und Natur"
+        ],
+        "pt": [
+          "Ambiente e natureza"
+        ],
+        "en": [
+          "Nature and environment"
+        ],
+        "it": [
+          "Ambiente e natura"
+        ],
+        "fr": [
+          "Environnement et nature"
+        ],
+        "nl": [
+          "Milieu en natuur"
+        ],
+        "es": [
+          "Medioambiente y naturaleza"
+        ]
+      }
+    },
+    {
+      "@id": "kb:NearARiverOrStream",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Am Ufer eines Flusses oder eines Stroms"
+        ],
+        "pt": [
+          "Na borda de um rio ou ribeira"
+        ],
+        "en": [
+          "Near a river or stream"
+        ],
+        "it": [
+          "Lungo il fiume"
+        ],
+        "fr": [
+          "En bord de fleuve ou rivière"
+        ],
+        "nl": [
+          "Aan de oever van een stroompje of rivier"
+        ],
+        "es": [
+          "A orillas de un río"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Pedestrian",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Zu Fuß"
+        ],
+        "pt": [
+          "Pedestre"
+        ],
+        "en": [
+          "Pedestrian"
+        ],
+        "it": [
+          "A piedi"
+        ],
+        "fr": [
+          "Pédestre"
+        ],
+        "nl": [
+          "Voetgangers"
+        ],
+        "es": [
+          "Peatón"
+        ]
+      }
+    }
+  ],
+  "hasTourType": [
+    {
+      "@id": "kb:Loop",
+      "@type": [
+        "TourType"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Schleifenroute"
+        ],
+        "pt": [
+          "Circular"
+        ],
+        "en": [
+          "Loop itinerary"
+        ],
+        "it": [
+          "Ad anello"
+        ],
+        "fr": [
+          "En boucle"
+        ],
+        "nl": [
+          "In een lus"
+        ],
+        "es": [
+          "Circuito"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/0b287ab0-9b4e-3070-95b4-91d08eeaba92",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/fb6054d1-f21e-3e46-a015-e2b153a03b69",
+          "schema:addressLocality": "Parcey",
+          "schema:postalCode": "39100",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:39405",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Parcey"
+              ],
+              "pt": [
+                "Parcey"
+              ],
+              "en": [
+                "Parcey"
+              ],
+              "it": [
+                "Parcey"
+              ],
+              "fr": [
+                "Parcey"
+              ],
+              "nl": [
+                "Parcey"
+              ],
+              "es": [
+                "Parcey"
+              ]
+            },
+            "insee": "39405",
+            "isPartOfDepartment": {
+              "@id": "kb:France2739",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Jura"
+                ],
+                "pt": [
+                  "Jura"
+                ],
+                "en": [
+                  "Jura"
+                ],
+                "it": [
+                  "Jura"
+                ],
+                "fr": [
+                  "Jura"
+                ],
+                "nl": [
+                  "Jura"
+                ],
+                "es": [
+                  "Jura"
+                ]
+              },
+              "insee": "39",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/91041fb6-dd2a-3160-bc1d-2169213f939d",
+        "schema:latitude": "47.023137",
+        "schema:longitude": "5.49231504",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-12-09",
+  "lastUpdateDatatourisme": "2023-04-19T07:39:30.25Z",
+  "positiveCumulDifference": "23.0",
+  "tourDistance": "10000.0"
+}

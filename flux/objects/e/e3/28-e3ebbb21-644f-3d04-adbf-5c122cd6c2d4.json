@@ -1,0 +1,944 @@
+{
+  "@id": "https://data.datatourisme.fr/28/e3ebbb21-644f-3d04-adbf-5c122cd6c2d4",
+  "dc:identifier": "HOTNPDC0001000WR",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein Hotel nur wenige Schritte vom Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq entfernt und im Herzen von..."
+    ],
+    "en": [
+      "A hotel close to the Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq and in the heart of..."
+    ],
+    "it": [
+      "Un hotel a due passi dal Grand Stade Lille Métropole Pierre Mauroy di Villeneuve d'Ascq e nel cuore della città..."
+    ],
+    "fr": [
+      "Un hôtel à deux pas du Grand Stade Lille Métropole Pierre Mauroy de Villeneuve d'Ascq et au coeur de..."
+    ],
+    "es": [
+      "Un hotel a dos pasos del Grand Stade Lille Métropole Pierre Mauroy en Villeneuve d'Ascq y en el corazón de la..."
+    ],
+    "nl": [
+      "Een hotel op een steenworp afstand van het Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq en in het hart van de..."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "The Originals City Complexe Ascotel Lille Métropole"
+    ]
+  },
+  "allowedPersons": 177,
+  "availableLanguage": [
+    "en",
+    "es",
+    "it"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/28/9fddd220-aebe-35e7-941e-f5fd994c9f44",
+    "dc:identifier": "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme",
+    "schema:familyName": [
+      "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme"
+    ],
+    "schema:legalName": "SIM Aisne/Oise/Somme HDF - Hauts-de-France Tourisme",
+    "@type": [
+      "schema:Organization",
+      "schema:Person",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/92f31106-f566-3eba-9601-ef062e161fbc",
+      "schema:legalName": "SIM Picardie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9a5ced28-b574-3537-bb1d-a2577d7b14d7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6808127e-a681-3428-afaf-c11342b23468",
+          "schema:addressLocality": "Villeneuve-d'Ascq",
+          "schema:postalCode": "59650",
+          "schema:streetAddress": [
+            "7 avenue Paul Langevin",
+            "Cité Scientifique"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Villeneuve-d'Ascq"
+              ],
+              "pt": [
+                "Villeneuve-d'Ascq"
+              ],
+              "en": [
+                "Villeneuve-d'Ascq"
+              ],
+              "it": [
+                "Villeneuve-d'Ascq"
+              ],
+              "fr": [
+                "Villeneuve-d'Ascq"
+              ],
+              "nl": [
+                "Villeneuve-d'Ascq"
+              ],
+              "es": [
+                "Villeneuve-d'Ascq"
+              ]
+            },
+            "insee": "59009",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Hôtellerie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9a5ced28-b574-3537-bb1d-a2577d7b14d7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6808127e-a681-3428-afaf-c11342b23468",
+          "schema:addressLocality": "Villeneuve-d'Ascq",
+          "schema:postalCode": "59650",
+          "schema:streetAddress": [
+            "7 avenue Paul Langevin",
+            "Cité Scientifique"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Villeneuve-d'Ascq"
+              ],
+              "pt": [
+                "Villeneuve-d'Ascq"
+              ],
+              "en": [
+                "Villeneuve-d'Ascq"
+              ],
+              "it": [
+                "Villeneuve-d'Ascq"
+              ],
+              "fr": [
+                "Villeneuve-d'Ascq"
+              ],
+              "nl": [
+                "Villeneuve-d'Ascq"
+              ],
+              "es": [
+                "Villeneuve-d'Ascq"
+              ]
+            },
+            "insee": "59009",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:legalName": "Hôtellerie",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f78919ad-d31f-3b5e-bd21-6139455e69f5",
+      "schema:email": [
+        "complexe@ascotel.fr"
+      ],
+      "schema:telephone": [
+        "+33 3 20 67 34 34"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://ascotel.fr/fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/e11f5e8a-6796-34f0-945d-3f2c538b40b8",
+      "dc:description": {
+        "de": [
+          "Ein Hotel nur wenige Schritte vom Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq entfernt und im Herzen der Wissenschaftsstadt...\nSie werden unsere geräumigen und funktionellen, voll ausgestatteten Zimmer entdecken, in denen Sie in aller Ruhe arbeiten können. Im Herzen der Wissenschaftsstadt Villeneuve d'Ascq und am Fuße des Grand Stade Pierre Mauroy Lille Métropole gelegen, empfängt Sie The Originals City Ascotel in einer grünen und ruhigen Umgebung. Schon bei Ihrer Ankunft werden Sie sich wie zu Hause fühlen, den herzlichen Empfang unseres Teams und unseren hellen und freundlichen Lobby- und Wohnbereich schätzen."
+        ],
+        "en": [
+          "A hotel close to the Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq and in the heart of the scientific city...\nYou will discover our spacious and functional rooms, all equipped where you can work in peace. Located in the heart of the scientific city of Villeneuve d'Ascq and at the foot of the Grand Stade Pierre Mauroy Lille Métropole, The Originals City Ascotel welcomes you in a green and calm setting. As soon as you arrive, you will feel at home; you will appreciate the warm welcome of our team and our pleasant and bright lobby area."
+        ],
+        "it": [
+          "Un hotel a due passi dal Grand Stade Lille Métropole Pierre Mauroy di Villeneuve d'Ascq e nel cuore della città scientifica...\nScoprirete le nostre camere spaziose e funzionali, tutte attrezzate per lavorare in tranquillità. Situato nel cuore della città scientifica di Villeneuve d'Ascq e ai piedi del Grand Stade Pierre Mauroy Lille Métropole, The Originals City Ascotel vi accoglie in un ambiente verde e tranquillo. Dal momento del vostro arrivo, vi sentirete come a casa vostra; apprezzerete la calorosa accoglienza del nostro team e la nostra piacevole e luminosa hall."
+        ],
+        "fr": [
+          "Un hôtel à deux pas du Grand Stade Lille Métropole Pierre Mauroy de Villeneuve d'Ascq et au coeur de la cité scientifique...\nVous découvrirez nos chambres spacieuses et fonctionnelles, toutes équipées où vous pourrez travailler en toute tranquillité. Situé au cœur de la cité scientifique de Villeneuve d'Ascq et au pied du Grand Stade Pierre Mauroy Lille Métropole, The Originals City Ascotel vous accueille dans un cadre verdoyant et calme. Dès votre arrivée, vous vous sentirez chez vous; vous apprécierez l'accueil chaleureux de notre équipe et notre espace salon, lobby agréable et lumineux."
+        ],
+        "es": [
+          "Un hotel a dos pasos del Grand Stade Lille Métropole Pierre Mauroy en Villeneuve d'Ascq y en el corazón de la ciudad científica...\nDescubrirá nuestras habitaciones espaciosas y funcionales, todas equipadas, donde podrá trabajar tranquilamente. Situado en el corazón de la ciudad científica de Villeneuve d'Ascq y a los pies del Grand Stade Pierre Mauroy Lille Métropole, The Originals City Ascotel le da la bienvenida en un entorno verde y tranquilo. Desde su llegada, se sentirá como en casa; apreciará la cálida acogida de nuestro equipo y nuestro agradable y luminoso vestíbulo."
+        ],
+        "nl": [
+          "Een hotel op een steenworp afstand van het Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq en in het hart van de wetenschappelijke stad...\nU zult onze ruime en functionele kamers ontdekken, allemaal uitgerust waar u in alle rust kunt werken. Gelegen in het hart van de wetenschappelijke stad Villeneuve d'Ascq en aan de voet van het Grand Stade Pierre Mauroy Lille Métropole, verwelkomt The Originals City Ascotel u in een groene en rustige omgeving. Vanaf het moment dat u aankomt, zult u zich thuis voelen; u zult het warme onthaal van ons team en onze aangename en lichte lobby waarderen."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/02ecef24-c1f9-3195-96f3-5a32e697a921",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0d4d5177-3da0-3649-b252-706323cd5612",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3227581b-ee58-3fca-9915-f4832c746340",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3539dce3-17f2-39cd-87fe-c7d3a67ad1a5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3cd0b633-ee63-3ae3-a9ad-0d922c73302e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7322279f-16e1-33eb-8263-0778e07db958",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7f9aaeda-41ef-35b6-ab4b-21db68ca8798",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b115e786-86c6-3d3c-bdfb-4216777320a5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bd512177-db10-3bdc-9d36-2c190bfc3172",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e20052fa-28fc-3b5e-a0cf-b40e3a6f8b81",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein Hotel nur wenige Schritte vom Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq entfernt und im Herzen von..."
+        ],
+        "en": [
+          "A hotel close to the Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq and in the heart of..."
+        ],
+        "it": [
+          "Un hotel a due passi dal Grand Stade Lille Métropole Pierre Mauroy di Villeneuve d'Ascq e nel cuore della città..."
+        ],
+        "fr": [
+          "Un hôtel à deux pas du Grand Stade Lille Métropole Pierre Mauroy de Villeneuve d'Ascq et au coeur de..."
+        ],
+        "es": [
+          "Un hotel a dos pasos del Grand Stade Lille Métropole Pierre Mauroy en Villeneuve d'Ascq y en el corazón de la..."
+        ],
+        "nl": [
+          "Een hotel op een steenworp afstand van het Grand Stade Lille Métropole Pierre Mauroy in Villeneuve d'Ascq en in het hart van de..."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/de515eb5-1d29-3ddc-8694-e3981ba01e20",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Elevator",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Personenaufzug"
+            ],
+            "pt": [
+              "Elevador"
+            ],
+            "en": [
+              "Elevator"
+            ],
+            "it": [
+              "Ascensore"
+            ],
+            "fr": [
+              "Ascenseur"
+            ],
+            "nl": [
+              "Lift"
+            ],
+            "es": [
+              "Ascensor"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateParking",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Parkplatz"
+            ],
+            "pt": [
+              "Parque de estacionamento privativo"
+            ],
+            "en": [
+              "Private parking"
+            ],
+            "it": [
+              "Parcheggio privato"
+            ],
+            "fr": [
+              "Parking privé"
+            ],
+            "nl": [
+              "Privéparking"
+            ],
+            "es": [
+              "Aparcamiento privado"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1b38c05a-89e3-3957-b64e-023006afb14d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/557bc49e-fd1c-3f0d-9f9f-7710ff47354a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/572ba5d6-eaa7-34aa-ad83-b2bd2894f507",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d39010bf-a85d-3a75-be65-1fb1e8f591c4",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/efac7dc1-1620-3b4a-b62d-82d744d219b3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/f42d5e9a-efdc-361f-8ac8-aa7c7a1665ba",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6808127e-a681-3428-afaf-c11342b23468",
+          "schema:addressLocality": "Villeneuve-d'Ascq",
+          "schema:postalCode": "59650",
+          "schema:streetAddress": [
+            "7 avenue Paul Langevin",
+            "Cité Scientifique"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:59009",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Villeneuve-d'Ascq"
+              ],
+              "pt": [
+                "Villeneuve-d'Ascq"
+              ],
+              "en": [
+                "Villeneuve-d'Ascq"
+              ],
+              "it": [
+                "Villeneuve-d'Ascq"
+              ],
+              "fr": [
+                "Villeneuve-d'Ascq"
+              ],
+              "nl": [
+                "Villeneuve-d'Ascq"
+              ],
+              "es": [
+                "Villeneuve-d'Ascq"
+              ]
+            },
+            "insee": "59009",
+            "isPartOfDepartment": {
+              "@id": "kb:France3259",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nord"
+                ],
+                "pt": [
+                  "Nord"
+                ],
+                "en": [
+                  "Nord"
+                ],
+                "it": [
+                  "Nord"
+                ],
+                "fr": [
+                  "Nord"
+                ],
+                "nl": [
+                  "Nord"
+                ],
+                "es": [
+                  "Nord"
+                ]
+              },
+              "insee": "59",
+              "isPartOfRegion": {
+                "@id": "kb:France32",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Hauts-de-France"
+                  ],
+                  "pt": [
+                    "Hauts-de-France"
+                  ],
+                  "en": [
+                    "Hauts-de-France"
+                  ],
+                  "it": [
+                    "Hauts-de-France"
+                  ],
+                  "fr": [
+                    "Hauts-de-France"
+                  ],
+                  "nl": [
+                    "Hauts-de-France"
+                  ],
+                  "es": [
+                    "Hauts-de-France"
+                  ]
+                },
+                "insee": "32",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/f65d5373-aa56-373b-92b0-e12c47cc991f",
+        "schema:latitude": "50.610766",
+        "schema:longitude": "3.13724203",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-02-02",
+  "lastUpdateDatatourisme": "2023-03-25T03:01:37.226Z"
+}

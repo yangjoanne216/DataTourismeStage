@@ -1,0 +1,271 @@
+{
+  "@id": "https://data.datatourisme.fr/19/42a8bd7c-f211-3dcf-9e47-0691031278ff",
+  "dc:identifier": "71e6a2f5-c9cf-1b16-d88a-52f25f813bff",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "CollectiveAccommodation",
+    "HolidayResort",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Residhome Neuilly Bords de Marne"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/c117e17d-dcfa-3dae-ae6b-00c3d5478bc9",
+      "schema:email": [
+        "neuilly.bordsdemarne@residhome.com"
+      ],
+      "schema:telephone": [
+        "+33 1 41 53 05 06"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.residhome.com/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/7724dbf0-7649-358b-be17-1db1b66a240f",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3etoiles",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Sterne"
+          ],
+          "pt": [
+            "3 estrelas"
+          ],
+          "en": [
+            "3 Stars"
+          ],
+          "it": [
+            "3 stelle"
+          ],
+          "fr": [
+            "3 étoiles"
+          ],
+          "nl": [
+            "3 sterren"
+          ],
+          "es": [
+            "3 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/4e2dc455-31e5-34a6-8928-16b530faf889",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a09ae9b1-2f48-33dd-948d-f3e27412f2c1",
+          "schema:addressLocality": "Neuilly-Plaisance",
+          "schema:postalCode": "93360",
+          "schema:streetAddress": [
+            "1 rue du Canal"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:93049",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Neuilly-Plaisance"
+              ],
+              "pt": [
+                "Neuilly-Plaisance"
+              ],
+              "en": [
+                "Neuilly-Plaisance"
+              ],
+              "it": [
+                "Neuilly-Plaisance"
+              ],
+              "fr": [
+                "Neuilly-Plaisance"
+              ],
+              "nl": [
+                "Neuilly-Plaisance"
+              ],
+              "es": [
+                "Neuilly-Plaisance"
+              ]
+            },
+            "insee": "93049",
+            "isPartOfDepartment": {
+              "@id": "kb:France1193",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Seine-Saint-Denis"
+                ],
+                "pt": [
+                  "Seine-Saint-Denis"
+                ],
+                "en": [
+                  "Seine-Saint-Denis"
+                ],
+                "it": [
+                  "Seine-Saint-Denis"
+                ],
+                "fr": [
+                  "Seine-Saint-Denis"
+                ],
+                "nl": [
+                  "Seine-Saint-Denis"
+                ],
+                "es": [
+                  "Seine-Saint-Denis"
+                ]
+              },
+              "insee": "93",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/473f3bfb-3d66-3dee-bbbf-60240d950bf9",
+        "schema:latitude": "48.8513549",
+        "schema:longitude": "2.5136035000000447",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-04-27",
+  "lastUpdateDatatourisme": "2022-09-06T09:59:02.334Z",
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,728 @@
+{
+  "@id": "https://data.datatourisme.fr/58/f5b599c2-b196-3026-ae6c-308bf377210f",
+  "dc:identifier": "5230787",
+  "@type": [
+    "schema:MovieTheater",
+    "Cinema",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Cinéma Lumière"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "fr"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/58/978d7667-6f5e-3918-b81d-28e7d092ca0d",
+    "dc:identifier": "2099",
+    "schema:email": [
+      "a.guillaume@destinationlaciotat.com",
+      "b.chaudet@destinationlaciotat.com",
+      "c.famoso@destinationlaciotat.com",
+      "m.toche@destinationlaciotat.com"
+    ],
+    "schema:legalName": "Office de Tourisme de La Ciotat",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.destinationlaciotat.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8918984b-53e1-3ffa-8bec-4c02ee142d42",
+      "schema:legalName": "Provence Tourisme / Office de Tourisme de La Ciotat",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/c0e9e4f9-e736-3b15-b0ab-1ced876719f3",
+      "schema:email": [
+        "contact@cinema-lelumiere.fr"
+      ],
+      "schema:telephone": [
+        "+33 4 42 71 99 91"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.cinema-lelumiere.fr/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/a763aa36-cc60-36aa-b9b1-30eef7bcd1e6",
+      "dc:description": {
+        "de": [
+          "Das Cinéma Lumière zeigt in drei Vorführsälen die neuesten Filme, die auf der Leinwand zu sehen sind.\r\nFamilienprogramm und Arthouse-Programm."
+        ],
+        "en": [
+          "The Cinema Light proposes the new movies in 3 projection rooms.\nFamily and cultural programming."
+        ],
+        "it": [
+          "Il cinema Lumière propone gli ultimi film usiciti in 3 sale di proiezioni.\nProgrammazione familiale."
+        ],
+        "fr": [
+          "Le Cinéma Lumière propose les derniers films à l'affiche dans 3 salles de projection.\r\nProgrammation familiale et programmation art et essai."
+        ],
+        "es": [
+          "El Cinéma Lumière ofrece las últimas películas en 3 salas de proyección.\r\nProgramación familiar y de arte y ensayo."
+        ],
+        "nl": [
+          "Cinéma Lumière biedt de nieuwste films in 3 zalen.\r\nFamilie en art house programmering."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2d4146ab-f005-38c7-a62e-f3e2d6720fc5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5bb4e939-b7aa-3068-9264-994c2688e7a1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f92bb0f3-d85b-3184-9bfc-7754e031f7c7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/7231603a-7ec5-33a4-8b7d-b37b82e653aa",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:AirConditioner",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Klimaanlage"
+            ],
+            "pt": [
+              "Sistema de ar condicionado"
+            ],
+            "en": [
+              "Air conditioner"
+            ],
+            "it": [
+              "Aria condizionata"
+            ],
+            "fr": [
+              "Climatisation"
+            ],
+            "es": [
+              "Sistema de aire acondicionado"
+            ],
+            "nl": [
+              "Klimaatbeheersing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/be130c02-7eee-384e-91b8-9f3e87fd4da1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fd6ace4a-5f06-33bd-a379-f39641ec0410",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:ParkingNearby",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz in der Nähe"
+            ],
+            "pt": [
+              "Estacionamento próximo"
+            ],
+            "en": [
+              "Parking nearby"
+            ],
+            "it": [
+              "Parcheggio nelle vicinanze"
+            ],
+            "fr": [
+              "Parking à proximité"
+            ],
+            "nl": [
+              "Parkeergelegenheid in de buurt"
+            ],
+            "es": [
+              "Aparcamiento cercano"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "in der Stadt"
+        ],
+        "pt": [
+          "Na cidade"
+        ],
+        "en": [
+          "In town"
+        ],
+        "it": [
+          "In città"
+        ],
+        "fr": [
+          "En ville"
+        ],
+        "nl": [
+          "In de stad"
+        ],
+        "es": [
+          "En la ciudad"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/43863c31-90d6-363e-8462-f2f49c2d43b3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/94ddb7ff-ad1d-3263-85dd-7bbd7884fa25",
+          "ebucore:title": {
+            "fr": [
+              "13T1013069_1_HD.jpg"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f1a38198-1988-3947-a07e-d871ee4d0db0",
+          "ebucore:fileSize": [
+            "191579"
+          ],
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:height": "600",
+          "ebucore:locator": [
+            "http://static.apidae-tourisme.com/filestore/objets-touristiques/images/188/95/8347580.jpg"
+          ],
+          "ebucore:width": "800",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Downtown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Im Stadtzentrum"
+        ],
+        "pt": [
+          "No centro da cidade"
+        ],
+        "en": [
+          "Downtown"
+        ],
+        "it": [
+          "In centro città"
+        ],
+        "fr": [
+          "En centre ville"
+        ],
+        "nl": [
+          "In het centrum van de stad"
+        ],
+        "es": [
+          "En el centro de la ciudad"
+        ]
+      }
+    },
+    {
+      "@id": "kb:InTown",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "in der Stadt"
+        ],
+        "pt": [
+          "Na cidade"
+        ],
+        "en": [
+          "In town"
+        ],
+        "it": [
+          "In città"
+        ],
+        "fr": [
+          "En ville"
+        ],
+        "nl": [
+          "In de stad"
+        ],
+        "es": [
+          "En la ciudad"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/35fbe94f-a98d-3fe1-a03c-f7cc39edee86",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/29369f33-7ff6-31d6-ae0b-23bec2a28f6b",
+          "schema:addressLocality": "La Ciotat",
+          "schema:postalCode": "13600",
+          "schema:streetAddress": [
+            "Place Evariste Gras"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:13028",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "La Ciotat"
+              ],
+              "pt": [
+                "La Ciotat"
+              ],
+              "en": [
+                "La Ciotat"
+              ],
+              "it": [
+                "La Ciotat"
+              ],
+              "fr": [
+                "La Ciotat"
+              ],
+              "nl": [
+                "La Ciotat"
+              ],
+              "es": [
+                "La Ciotat"
+              ]
+            },
+            "insee": "13028",
+            "isPartOfDepartment": {
+              "@id": "kb:France9313",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Bouches-du-Rhône"
+                ],
+                "pt": [
+                  "Bouches-du-Rhône"
+                ],
+                "en": [
+                  "Bouches-du-Rhône"
+                ],
+                "it": [
+                  "Bouches-du-Rhône"
+                ],
+                "fr": [
+                  "Bouches-du-Rhône"
+                ],
+                "nl": [
+                  "Bouches-du-Rhône"
+                ],
+                "es": [
+                  "Bouches-du-Rhône"
+                ]
+              },
+              "insee": "13",
+              "isPartOfRegion": {
+                "@id": "kb:France93",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "pt": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "en": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "it": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "fr": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "nl": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ],
+                  "es": [
+                    "Provence-Alpes-Côte d'Azur"
+                  ]
+                },
+                "insee": "93",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7e583a36-4276-3efa-8dd6-840bc073f39b",
+        "schema:latitude": "43.175401",
+        "schema:longitude": "5.604583",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/34353d43-ea00-3c32-92e9-0c0f5060990c",
+          "schema:closes": "19:00:00",
+          "schema:validFrom": "2020-01-01T00:00:00",
+          "schema:validThrough": "2020-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "internetAccess": false,
+      "petsAllowed": false
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/bf53b192-3929-3f04-b6b6-411fb425b786",
+      "schema:email": [
+        "a.guillaume@destinationlaciotat.com",
+        "b.chaudet@destinationlaciotat.com",
+        "c.famoso@destinationlaciotat.com",
+        "m.toche@destinationlaciotat.com"
+      ],
+      "schema:legalName": "Office de Tourisme de La Ciotat",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.destinationlaciotat.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-06-30",
+  "lastUpdateDatatourisme": "2023-01-31T19:41:29.184Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

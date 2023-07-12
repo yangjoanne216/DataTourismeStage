@@ -1,0 +1,1461 @@
+{
+  "@id": "https://data.datatourisme.fr/31/34569bbf-85de-36f2-9310-cf1019cc1d74",
+  "dc:identifier": "TFO481632553075",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:House",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Guesthouse",
+    "House",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "David, ein leidenschaftlicher Motorradfahrer, freut sich, Sie begrüßen zu dürfen.Das Hotel liegt in einem Dorf neben St-Affrique in der Nähe von großen Sehenswürdigkeiten wie dem Viadukt von Millau, Les Caves de Roquefort, L'Abbaye de Sylvanès, Rougier und das Schloss Montaigut"
+    ],
+    "en": [
+      "David, a motorcycle enthusiast, will be pleased to welcome you. Located in a village near St-Affrique, close to great sites such as the Millau Viaduct, the Roquefort Cellars, the Sylvanès Abbey, the Rougier and the Montaigut Castle"
+    ],
+    "it": [
+      "David, appassionato di moto, sarà lieto di accogliervi. Situato in un villaggio vicino a St-Affrique, vicino a siti importanti come il viadotto di Millau, le cantine di Roquefort, l'abbazia di Sylvanès, il Rougier e il castello di Montaigut"
+    ],
+    "fr": [
+      "David passionné de moto se fera un plaisir de vous accueillir.Situé dans un village jouxtant St-Affrique à proximité de grands sites tels que le Viaduc de Millau, Les Caves de Roquefort, L'Abbaye de Sylvanès, le Rougier et le château de Montaigut"
+    ],
+    "es": [
+      "David, un apasionado de las motos, estará encantado de recibirle. Situado en un pueblo al lado de St-Affrique, cerca de lugares importantes como el viaducto de Millau, las bodegas de Roquefort, la abadía de Sylvanès, el Rougier y el castillo de Montaigut"
+    ],
+    "nl": [
+      "David, een motorliefhebber, zal u met plezier verwelkomen. Gelegen in een dorp naast St-Affrique, dicht bij belangrijke bezienswaardigheden zoals het Viaduct van Millau, de kelders van Roquefort, de Abdij van Sylvanès, de Rougier en het Kasteel van Montaigut"
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "Relais Moto"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/1e833d2a-a6c9-38ab-adab-819209d62c46",
+    "schema:legalName": "OFFICE DE TOURISME PAYS DU ROQUEFORT",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:CycleTourist",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radtouristen"
+        ],
+        "pt": [
+          "Cicloturistas"
+        ],
+        "en": [
+          "Cycle tourist"
+        ],
+        "it": [
+          "Cicloturisti"
+        ],
+        "fr": [
+          "Cyclotouristes"
+        ],
+        "nl": [
+          "Fietstoeristen"
+        ],
+        "es": [
+          "Cicloturistas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Cyclists",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Radfahrer"
+        ],
+        "pt": [
+          "Ciclistas"
+        ],
+        "en": [
+          "Cyclists"
+        ],
+        "it": [
+          "Ciclisti"
+        ],
+        "fr": [
+          "Cyclistes"
+        ],
+        "nl": [
+          "Wielrenners"
+        ],
+        "es": [
+          "Ciclistas"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/8098e2ef-2626-3025-9f4d-73e642d19adb",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/64c07d1f-9d56-3f74-96b4-d429e3dfc10e",
+          "schema:addressLocality": "Vabres-l'Abbaye",
+          "schema:postalCode": "12400",
+          "schema:streetAddress": [
+            "210 Avenue du Tounic"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12286",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Vabres-l'Abbaye"
+              ],
+              "pt": [
+                "Vabres-l'Abbaye"
+              ],
+              "en": [
+                "Vabres-l'Abbaye"
+              ],
+              "it": [
+                "Vabres-l'Abbaye"
+              ],
+              "fr": [
+                "Vabres-l'Abbaye"
+              ],
+              "nl": [
+                "Vabres-l'Abbaye"
+              ],
+              "es": [
+                "Vabres-l'Abbaye"
+              ]
+            },
+            "insee": "12286",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "relaismotovabres@gmail.com"
+      ],
+      "schema:legalName": "Relais Moto",
+      "schema:telephone": [
+        "+33 6 27 44 94 28"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://relais-motards.com/fr/relais-motards-dans-le-departement-12-aveyron"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/fe6c10e3-6193-3d34-bade-e3a770287e0f",
+      "dc:description": {
+        "de": [
+          "Die Gemeinde Vabres L'Abbaye liegt auf der Achse Albi-Millau. Sie ist ein Knotenpunkt zwischen Saint-Affrique, dem Tal und den Schluchten des Tarn, seinen Seen sowie dem südlichen Aveyron.\nVabres l'Abbaye ist über die Landstraße 999 sowie über den grünen Weg erreichbar, der eine sichere Verbindung zwischen dem Stadtzentrum von Saint-Affrique und Vabres l'Abbaye ermöglicht.\nWir bieten Ihnen ein Ferienhaus für 6 Personen und ein Gästezimmer für 2 Personen. Das Haus liegt zwischen den beiden Naturschutzgebieten PNR du Haut Languedoc und Grands Causses, weniger als 1,5 Stunden von den Mittelmeerstränden entfernt, in einer Umgebung von außergewöhnlicher Schönheit.\nIhre Schönheiten werden in einer geräumigen Garage geparkt."
+        ],
+        "en": [
+          "The commune of Vabres l'Abbaye is located on the Albi-Millau axis, it is a crossroads between Saint-Affrique, the valley and the gorges of the Tarn, its lakes as well as the south Aveyron.\nVabres l'Abbaye is accessible by the departmental road 999, as well as by the \"voie verte\" which allows to link in full safety the center of Saint-Affrique and Vabres l'Abbaye.\nWe offer a gite for 6 people and a guest room for 2 is located between the two PNR of the Haut Languedoc and the Grands Causses at less than 1h30 from the Mediterranean beaches, in an environment of exceptional beauty.\nYour beautiful cars will be parked in a spacious garage."
+        ],
+        "it": [
+          "Il comune di Vabres l'Abbaye è situato sull'asse Albi-Millau, è un crocevia tra Saint-Affrique, la valle e le gole del Tarn, i suoi laghi e l'Aveyron meridionale.\nVabres l'Abbaye è accessibile dalla strada dipartimentale 999 e dalla \"voie verte\" che permette di collegare il centro di Saint-Affrique e Vabres l'Abbaye in tutta sicurezza.\nOffriamo un gîte per 6 persone e una camera per gli ospiti per 2 si trova tra i due PNR dell'Haut Languedoc e dei Grands Causses, a meno di 1h30 dalle spiagge del Mediterraneo, in un ambiente di eccezionale bellezza.\nLe vostre bellezze saranno parcheggiate in un ampio garage."
+        ],
+        "fr": [
+          "La commune de Vabres L'Abbaye est située sur l'axe Albi-Millau, elle est un carrefour entre Saint-Affrique, la vallée et les gorges du Tarn, ses lacs ainsi que le sud Aveyron.\nVabres l'Abbaye est accessible par la route départementale 999, ainsi que par la voie verte qui permet de relier en toute sécurité le centre-ville de Saint-Affrique et Vabres l'Abbaye.\nNous vous proposons un gîte pour 6 personnes et une chambre d'hôtes pour 2 est situé entre les deux PNR du Haut Languedoc et des Grands Causses à moins d'1h30 des plages méditerranéennes, dans un environnement d'une exceptionnelle beauté.\nVos belles seront stationnées dans un garage spacieux."
+        ],
+        "es": [
+          "El municipio de Vabres l'Abbaye está situado en el eje Albi-Millau, es una encrucijada entre Saint-Affrique, el valle y las gargantas del Tarn, sus lagos así como el sur del Aveyron.\nVabres l'Abbaye es accesible por la carretera departamental 999, así como por la \"voie verte\" que permite unir el centro urbano de Saint-Affrique y Vabres l'Abbaye con total seguridad.\nOfrecemos una casa rural para 6 personas y una habitación de huéspedes para 2 se encuentra entre los dos PNR del Haut Languedoc y los Grands Causses, a menos de 1h30 de las playas del Mediterráneo, en un entorno de excepcional belleza.\nSus bellezas estarán aparcadas en un amplio garaje."
+        ],
+        "nl": [
+          "De gemeente Vabres l'Abbaye ligt op de as Albi-Millau en vormt een kruispunt tussen Saint-Affrique, de vallei en de kloven van de Tarn, de meren en de zuidelijke Aveyron.\nVabres l'Abbaye is bereikbaar via de departementale weg 999, maar ook via de \"voie verte\" waarmee u het centrum van Saint-Affrique en Vabres l'Abbaye in alle veiligheid kunt verbinden.\nWij bieden een gîte voor 6 personen en een gastenkamer voor 2 is gelegen tussen de twee PNR van de Haut Languedoc en de Grands Causses, op minder dan 1u30 van de stranden van de Middellandse Zee, in een omgeving van uitzonderlijke schoonheid.\nUw schoonheden worden geparkeerd in een ruime garage."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0eeacd89-978c-358a-8c0d-49a3f5ebe4d3",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2234ff99-b6dc-3947-b687-5f391eda1e7f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/24344931-bfaf-36ad-9a9b-6d83d1da0a8f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2eeff2ea-d366-3ed6-9746-bd6e56e0d4e1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6f33e6c4-e37f-3305-9f95-28d7cfc128b0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/80edf201-3e9c-316d-827a-8841f94438d1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/94d8bd4e-47ee-32cb-b021-d7db2d291d2f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cdedae70-a7f9-340f-a11a-5acfc518da0a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ef1a0258-53a8-3fd2-8e59-16774f9ab5dc",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f3fb5f78-ab1b-3631-bde4-da0b09078d54",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "David, ein leidenschaftlicher Motorradfahrer, freut sich, Sie begrüßen zu dürfen.Das Hotel liegt in einem Dorf neben St-Affrique in der Nähe von großen Sehenswürdigkeiten wie dem Viadukt von Millau, Les Caves de Roquefort, L'Abbaye de Sylvanès, Rougier und das Schloss Montaigut"
+        ],
+        "en": [
+          "David, a motorcycle enthusiast, will be pleased to welcome you. Located in a village near St-Affrique, close to great sites such as the Millau Viaduct, the Roquefort Cellars, the Sylvanès Abbey, the Rougier and the Montaigut Castle"
+        ],
+        "it": [
+          "David, appassionato di moto, sarà lieto di accogliervi. Situato in un villaggio vicino a St-Affrique, vicino a siti importanti come il viadotto di Millau, le cantine di Roquefort, l'abbazia di Sylvanès, il Rougier e il castello di Montaigut"
+        ],
+        "fr": [
+          "David passionné de moto se fera un plaisir de vous accueillir.Situé dans un village jouxtant St-Affrique à proximité de grands sites tels que le Viaduc de Millau, Les Caves de Roquefort, L'Abbaye de Sylvanès, le Rougier et le château de Montaigut"
+        ],
+        "es": [
+          "David, un apasionado de las motos, estará encantado de recibirle. Situado en un pueblo al lado de St-Affrique, cerca de lugares importantes como el viaducto de Millau, las bodegas de Roquefort, la abadía de Sylvanès, el Rougier y el castillo de Montaigut"
+        ],
+        "nl": [
+          "David, een motorliefhebber, zal u met plezier verwelkomen. Gelegen in een dorp naast St-Affrique, dicht bij belangrijke bezienswaardigheden zoals het Viaduct van Millau, de kelders van Roquefort, de Abdij van Sylvanès, de Rougier en het Kasteel van Montaigut"
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/2297bf32-ff85-381a-bd67-fe3c3d663abc",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garden",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garten"
+            ],
+            "pt": [
+              "Jardim"
+            ],
+            "en": [
+              "Garden"
+            ],
+            "it": [
+              "Giardino"
+            ],
+            "fr": [
+              "Jardin"
+            ],
+            "nl": [
+              "Tuin"
+            ],
+            "es": [
+              "Jardín"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42aa53a7-b05b-3a8f-9b1c-9631ded80981",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42bf575a-cd71-3ea4-8108-995ad7cdc6e5",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/47b6c5ae-cf8c-34ec-b5b5-1bfcf66dd71a",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:ShopsFirstNeed",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschäfte für den Grundbedarf"
+            ],
+            "pt": [
+              "Comércio de primeira necessidade"
+            ],
+            "en": [
+              "Shops first need"
+            ],
+            "it": [
+              "Negozi prima necessità"
+            ],
+            "fr": [
+              "Commerces 1ère nécessité"
+            ],
+            "nl": [
+              "Winkels voor eerste levensbehoeften"
+            ],
+            "es": [
+              "Comercio de primera necesidad"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/56cc6a59-439e-3593-8221-ea9a7564b9d9",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Restaurant",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Restaurant"
+            ],
+            "pt": [
+              "Restaurante"
+            ],
+            "en": [
+              "Restaurant"
+            ],
+            "it": [
+              "Ristorante"
+            ],
+            "fr": [
+              "Restaurant"
+            ],
+            "es": [
+              "Restaurante"
+            ],
+            "nl": [
+              "Restaurant"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6a66eee7-3535-3f74-baf8-61560ddfef95",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fa56eb3-b2c0-325e-bd2d-a218d82aface",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Garage",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Garage"
+            ],
+            "pt": [
+              "Garagem"
+            ],
+            "en": [
+              "Garage"
+            ],
+            "it": [
+              "Garage"
+            ],
+            "fr": [
+              "Garage"
+            ],
+            "es": [
+              "Garaje"
+            ],
+            "nl": [
+              "Garage"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7285a8d5-24b1-3249-942f-75a0e7b0cb5f",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7ec75ff2-a3fc-3357-9f58-4f651439a534",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c419e26-aeb9-3669-824b-6b4f11bdd62d",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:Barbecue",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Grill"
+            ],
+            "pt": [
+              "Churrasco"
+            ],
+            "en": [
+              "Barbecue"
+            ],
+            "it": [
+              "Barbecue"
+            ],
+            "fr": [
+              "Barbecue"
+            ],
+            "nl": [
+              "Barbecue"
+            ],
+            "es": [
+              "Barbacoa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a1fa7d2e-fd3f-360d-9426-00269e613b55",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d7917c74-4c1d-39cb-a7d3-19e7f444f530",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/dc47845c-9a17-3d29-9ad7-ef0d299d6927",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cot",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Babybett"
+            ],
+            "pt": [
+              "Berço"
+            ],
+            "en": [
+              "Cot"
+            ],
+            "it": [
+              "Lettino per bambini"
+            ],
+            "fr": [
+              "Lit bébé"
+            ],
+            "es": [
+              "Cuna"
+            ],
+            "nl": [
+              "Babybed"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fc0bc025-becb-3e99-bc11-03d3f175876b",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:PrivateWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Máquina de lavar roupa privativa"
+            ],
+            "en": [
+              "Private washer"
+            ],
+            "it": [
+              "Lavatrice privata"
+            ],
+            "fr": [
+              "Lave linge privatif"
+            ],
+            "nl": [
+              "Wasmachine voor privégebruik"
+            ],
+            "es": [
+              "Lavadora privada"
+            ]
+          }
+        },
+        {
+          "@id": "kb:SharedWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gemeinschaftlich genutzte Waschmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar roupa coletiva"
+            ],
+            "en": [
+              "Shared washer"
+            ],
+            "it": [
+              "Lavatrice comune"
+            ],
+            "fr": [
+              "Lave linge collectif"
+            ],
+            "es": [
+              "Lavadoras colectivas"
+            ],
+            "nl": [
+              "Gemeenschappelijke wasmachine"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/1f865f96-c876-3f1b-930a-8d9a490fb422",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/30a378fd-71b5-32dc-9482-530e0209871a",
+          "ebucore:abstract": {
+            "fr": [
+              "Relais Moto"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Relais Moto"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "David Arcier"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c01ff4f4-f767-32ef-99ea-bcfcdce7ae7b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO481632553075/TFO481632553075-17a/medias/jpg/312884911_128172930037622_135929832.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/1f865f96-c876-3f1b-930a-8d9a490fb422",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/30a378fd-71b5-32dc-9482-530e0209871a",
+          "ebucore:abstract": {
+            "fr": [
+              "Relais Moto"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "Relais Moto"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "David Arcier"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c01ff4f4-f767-32ef-99ea-bcfcdce7ae7b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO481632553075/TFO481632553075-17a/medias/jpg/312884911_128172930037622_135929832.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/3414c469-f49c-3bba-8127-426230e20f08",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2022-10-24"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3d5c449a-597a-3c50-94c7-b16e86ee2693",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2023-01-01"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/109c767a-ea6b-34cf-a043-1eb05701d0e6",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6fda214d-897d-3a13-9a31-879a6e39738c",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7b3d5ef4-26ac-3a4a-a30e-b6990b491a6e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f52adaf8-4c4b-3551-90aa-cd398cc8d759",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/ff8f2eb2-15d6-36d3-83d7-ccff9f592c6a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/da0ffac3-d6a3-3186-8842-4da3fc7b32aa",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/64c07d1f-9d56-3f74-96b4-d429e3dfc10e",
+          "schema:addressLocality": "Vabres-l'Abbaye",
+          "schema:postalCode": "12400",
+          "schema:streetAddress": [
+            "210 Avenue du Tounic"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12286",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Vabres-l'Abbaye"
+              ],
+              "pt": [
+                "Vabres-l'Abbaye"
+              ],
+              "en": [
+                "Vabres-l'Abbaye"
+              ],
+              "it": [
+                "Vabres-l'Abbaye"
+              ],
+              "fr": [
+                "Vabres-l'Abbaye"
+              ],
+              "nl": [
+                "Vabres-l'Abbaye"
+              ],
+              "es": [
+                "Vabres-l'Abbaye"
+              ]
+            },
+            "insee": "12286",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/945bc275-afae-30e4-9d44-82b666bb8397",
+        "schema:elevation": "310",
+        "schema:latitude": "43.9471",
+        "schema:longitude": "2.819",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-04-07",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.698Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/58220358-cf16-3382-930a-038409976cc4",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/28d4faa9-008f-3f3c-822f-55124b693296",
+          "schema:price": "80",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "fr": [
+              "Nuitée chambres d'hôtes"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

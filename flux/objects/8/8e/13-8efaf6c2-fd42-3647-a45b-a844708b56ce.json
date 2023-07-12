@@ -1,0 +1,329 @@
+{
+  "@id": "https://data.datatourisme.fr/13/8efaf6c2-fd42-3647-a45b-a844708b56ce",
+  "dc:identifier": "5146178",
+  "@type": [
+    "schema:FoodEstablishment",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Chez Julien"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/13/03e0704b-5690-32de-a186-1dc3ad3316c9",
+    "dc:identifier": "1019",
+    "schema:email": [
+      "bgeigle@visitparisregion.com",
+      "hcaldo@visitparisregion.com",
+      "mtanaskovic@visitparisregion.com"
+    ],
+    "schema:legalName": "Comité Régional du Tourisme Paris Ile de France",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "http://www.visitparisregion.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/8a9feb4b-2cbd-3d2c-b507-bd6c6776b23b",
+      "schema:legalName": "Apidae Tourisme Scic SA - source : Apidae Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.apidae-tourisme.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/a4d80cfb-eb64-3d0f-b0c2-ff77765d9647",
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chezjulien.paris/"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/54ccbf6d-2f4b-35fa-9a0f-1f1aa106da85",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/706ce18c-5144-3a5b-b0a2-7119d7de4920",
+          "schema:addressLocality": "Paris 4e Arrondissement",
+          "schema:postalCode": "75004",
+          "schema:streetAddress": [
+            "1 rue du Pont Louis-Philippe"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:75104",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Paris 4e Arrondissement"
+              ],
+              "pt": [
+                "Paris 4e Arrondissement"
+              ],
+              "en": [
+                "Paris 4e Arrondissement"
+              ],
+              "it": [
+                "Paris 4e Arrondissement"
+              ],
+              "fr": [
+                "Paris 4e Arrondissement"
+              ],
+              "nl": [
+                "Paris 4e Arrondissement"
+              ],
+              "es": [
+                "Paris 4e Arrondissement"
+              ]
+            },
+            "insee": "75104",
+            "isPartOfDepartment": {
+              "@id": "kb:France1175",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Paris"
+                ],
+                "pt": [
+                  "Paris"
+                ],
+                "en": [
+                  "Paris"
+                ],
+                "it": [
+                  "Paris"
+                ],
+                "fr": [
+                  "Paris"
+                ],
+                "nl": [
+                  "Paris"
+                ],
+                "es": [
+                  "Paris"
+                ]
+              },
+              "insee": "75",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/08e82187-27fb-3d99-95bf-f68600e6c322",
+        "schema:latitude": "48.854769",
+        "schema:longitude": "2.355162",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/d4c2cacb-07b6-3358-a6bd-38afd70a868f",
+          "schema:closes": "23:00:00",
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Kontinuierlicher Dienst"
+            ],
+            "en": [
+              "Continuous service"
+            ],
+            "it": [
+              "Servizio continuo"
+            ],
+            "fr": [
+              "Service continu"
+            ],
+            "es": [
+              "Servicio continuo"
+            ],
+            "nl": [
+              "Continue service"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/16ab1b36-c209-375f-994a-86c3eed7d29c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/687f5a69-fd93-3845-8683-6f6212658d7d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/80af0e65-1f75-306a-bc5c-7cb81d6c91d1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e6a36128-1b36-32d4-a6af-b2e0c279f115",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e8a573f6-0f01-342b-ba02-0f0b499198c3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/26ecd6f0-563c-356a-b0f9-ad3ec17effc4",
+      "schema:email": [
+        "bgeigle@visitparisregion.com",
+        "hcaldo@visitparisregion.com",
+        "mtanaskovic@visitparisregion.com"
+      ],
+      "schema:legalName": "Comité Régional du Tourisme Paris Ile de France",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.visitparisregion.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2020-09-29",
+  "lastUpdateDatatourisme": "2023-06-22T05:53:28.74Z"
+}

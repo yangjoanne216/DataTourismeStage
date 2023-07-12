@@ -1,0 +1,936 @@
+{
+  "@id": "https://data.datatourisme.fr/31/76ad232c-628f-3201-ab3a-75ffa0260e46",
+  "dc:identifier": "TFO462388931207",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Apartment",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "Apartment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Diese möblierte Ferienwohnung befindet sich in einer ***Tourismusresidenz in Saint Geniez d'Olt. Es handelt sich um eine 2-Zimmer-Wohnung."
+    ],
+    "en": [
+      "This furnished rental is located in a residence of tourism *** in Saint Geniez d'Olt. It is a 2 room apartment."
+    ],
+    "it": [
+      "Questo appartamento ammobiliato si trova in una residenza turistica *** a Saint Geniez d'Olt. Si tratta di un appartamento di due stanze."
+    ],
+    "fr": [
+      "Cette location meublée est située dans une résidence de tourisme *** à Saint Geniez d'Olt. Il s'agit d'un appartement 2 pièces."
+    ],
+    "es": [
+      "Este alquiler amueblado se encuentra en una residencia turística de *** en Saint Geniez d'Olt. Es un piso de 2 habitaciones."
+    ],
+    "nl": [
+      "Deze gemeubileerde huurwoning bevindt zich in een *** toeristische residentie in Saint Geniez d'Olt. Het is een 2 kamer flat."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "l'Ysalire"
+    ]
+  },
+  "allowedPersons": 4,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/78fa19c2-cbf3-3e81-a5d6-80d81f2d9e41",
+    "schema:legalName": "Office de Tourisme des Causses à l'Aubrac",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/12b37633-08b7-3af7-a937-9c3b3d4b5237",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/1071333e-0574-3eff-aedd-369d2a65fbd3",
+          "schema:addressLocality": "Saint Geniez d'Olt et d'Aubrac",
+          "schema:postalCode": "12130",
+          "schema:streetAddress": [
+            "52 allée des marmottes",
+            "St-Geniez-d'Olt",
+            "Village Goelia"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12224",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "pt": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "en": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "it": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "fr": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "nl": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "es": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ]
+            },
+            "insee": "12224",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "pascal.mine@yahoo.fr"
+      ],
+      "schema:familyName": [
+        "PENIN"
+      ],
+      "schema:givenName": [
+        "Magali"
+      ],
+      "schema:legalName": "Magali PENIN",
+      "schema:telephone": [
+        "+33 6 86 13 24 50"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Madame"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/2382c3a1-e7d0-3ca7-80d3-811f11fbd04b",
+      "dc:description": {
+        "de": [
+          "Wohnung in einer Touristenresidenz.\nEs handelt sich um eine 2-Zimmer-Wohnung. Kapazität für 4 Personen\nBehindertengerechter Zugang: Nein"
+        ],
+        "en": [
+          "Apartment in a residence of tourism.\nIt is a 2 room apartment. Capacity of reception 4 persons\nAccessibility to disabled people : No"
+        ],
+        "it": [
+          "Appartamento in una residenza turistica.\nSi tratta di un appartamento di due stanze. Capacità di 4 persone\nAccessibilità per i disabili : No"
+        ],
+        "fr": [
+          "Appartement dans une résidence de tourisme.\nIl s'agit d'un appartement 2 pièces. Capacité d'accueil 4 personnes\nAccessibilité aux personnes Handicapés : Non"
+        ],
+        "es": [
+          "Piso en una residencia turística.\nEs un piso de 2 habitaciones. Capacidad para 4 personas\nAccesibilidad para discapacitados : No"
+        ],
+        "nl": [
+          "Appartement in een toeristische residentie.\nHet is een 2 kamer flat. Capaciteit van 4 personen\nToegankelijkheid voor gehandicapten : Nee"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1a269b4c-f407-38b9-b40d-f200d4822f25",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4b39c2f9-a00c-345f-a0c0-67f3e496207c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/51ce8f1f-a2ad-3e90-96ab-08272dbf5b7b",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/891437bd-3a93-3262-bc83-9defa8511dd6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/96622f3a-b6ef-32d1-9e28-8de5d0391d3f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a235e860-8e0c-31a3-9c0f-d9237eef9bc9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c0c42933-297d-3109-acaa-65c851d12ea0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c961c5d9-c592-33bd-b4ed-47369a04445e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cc69f046-a3fb-3650-b5fa-a0f309987fb8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f2da2109-d45d-3a05-b36b-c7557fa30ca6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Diese möblierte Ferienwohnung befindet sich in einer ***Tourismusresidenz in Saint Geniez d'Olt. Es handelt sich um eine 2-Zimmer-Wohnung."
+        ],
+        "en": [
+          "This furnished rental is located in a residence of tourism *** in Saint Geniez d'Olt. It is a 2 room apartment."
+        ],
+        "it": [
+          "Questo appartamento ammobiliato si trova in una residenza turistica *** a Saint Geniez d'Olt. Si tratta di un appartamento di due stanze."
+        ],
+        "fr": [
+          "Cette location meublée est située dans une résidence de tourisme *** à Saint Geniez d'Olt. Il s'agit d'un appartement 2 pièces."
+        ],
+        "es": [
+          "Este alquiler amueblado se encuentra en una residencia turística de *** en Saint Geniez d'Olt. Es un piso de 2 habitaciones."
+        ],
+        "nl": [
+          "Deze gemeubileerde huurwoning bevindt zich in een *** toeristische residentie in Saint Geniez d'Olt. Het is een 2 kamer flat."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/345f55d7-91f3-356a-9858-4e9e3035f525",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/9ae473ca-36ac-3b82-819d-f190f6ec5545",
+          "ebucore:abstract": {
+            "fr": [
+              "l'Ysalire"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "l'Ysalire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Office de Tourisme des Causses à l'Aubrac"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d79dfcfb-87f0-3e39-bc3e-74015d69d303",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO462388931207/TFO462388931207-17a/medias/jpg/meuble.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/345f55d7-91f3-356a-9858-4e9e3035f525",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/9ae473ca-36ac-3b82-819d-f190f6ec5545",
+          "ebucore:abstract": {
+            "fr": [
+              "l'Ysalire"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "l'Ysalire"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Office de Tourisme des Causses à l'Aubrac"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d79dfcfb-87f0-3e39-bc3e-74015d69d303",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO462388931207/TFO462388931207-17a/medias/jpg/meuble.jpg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/3cbe4f5c-41d3-3370-b870-f8fad351b1c5",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2022-04-09"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/588d4501-f024-3262-888c-b6107e8e8fc5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/82af24cb-c562-396e-9dab-f3e47b762880",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/98eceeb0-9d40-3720-bfe5-3a94201b3c80",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9c236cdc-4c45-3fb4-a02d-87df0c08d5c0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a259abbd-f13f-3ea0-ba75-7a8c76a52e30",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/46ad2321-e20c-3e87-a89b-ba0f974b94d7",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/a0b5996a-92ae-3acf-bd13-d3d44052acd9",
+          "schema:addressLocality": "Saint Geniez d'Olt et d'Aubrac",
+          "schema:postalCode": "12130",
+          "schema:streetAddress": [
+            "St-Geniez-d'Olt",
+            "Village Goelia"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12224",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "pt": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "en": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "it": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "fr": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "nl": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ],
+              "es": [
+                "Saint Geniez d'Olt et d'Aubrac"
+              ]
+            },
+            "insee": "12224",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/ce766585-36a0-3c01-b09b-cc638e7e8c4e",
+        "schema:elevation": "426",
+        "schema:latitude": "44.4637",
+        "schema:longitude": "2.9541",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-03-13",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.688Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/02d02986-dff9-3c5e-88fb-683a623dbba5",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

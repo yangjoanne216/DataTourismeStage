@@ -1,0 +1,906 @@
+{
+  "@id": "https://data.datatourisme.fr/10/58b43870-8db5-3b12-b071-7e61a6601f85",
+  "dc:identifier": "838162237",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "schema:Winery",
+    "BistroOrWineBar",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Ein würdiger Zwischenstopp mit Charme und Cocooning-Atmosphäre. Das Bistronome bietet Ihnen einen atemberaubenden Blick auf das Opéra-Théâtre und den Temple Neuf\nTrinken Sie ein Glas an der hübschen Theke oder genießen Sie an schönen Tagen die Terrasse und wählen Sie Ihre Gerichte von der Schiefertafel l'ardoise."
+    ],
+    "en": [
+      "A charming stopover with a cocooning atmosphere, the Bistronome offers you a breathtaking view of the Opera-Theatre and the Temple Neuf\nHave a drink at the pretty counter or enjoy the terrace in fine weather and choose your dishes from the slate."
+    ],
+    "it": [
+      "Il Bistronome è un'incantevole tappa dall'atmosfera avvolgente, che offre una vista mozzafiato sull'Opéra-Théâtre e sul Temple Neuf\nBevete un drink al grazioso bancone o godetevi la terrazza nella bella stagione e scegliete i vostri piatti dalla lavagna."
+    ],
+    "fr": [
+      "Escale digne de charme et ambiance cocooning, le Bistronome vous offre vue imprenable sur l'Opéra-Théâtre et le Temple Neuf. \nPrenez un verre au joli comptoir ou profitez de la terrasse aux beaux jours et choisissez vos plats figurants sur l'ardoise l'ardoise."
+    ],
+    "es": [
+      "El Bistronome, una parada encantadora con un ambiente acogedor, le ofrece una vista impresionante de la Opéra-Théâtre y del Temple Neuf\nTómate una copa en el bonito mostrador o disfruta de la terraza cuando haga buen tiempo y elige tus platos de la pizarra."
+    ],
+    "nl": [
+      "De Bistronome, een charmante stopplaats met een cocooning sfeer, biedt u een adembenemend uitzicht op de Opéra-Théâtre en de Temple Neuf\nNeem een drankje aan de mooie toonbank of geniet bij mooi weer van het terras en kies uw gerechten van de leisteen."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "RESTAURANT LE BISTRONOME"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "es"
+  ],
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/10/f9028fae-c74b-36ec-9b85-2b0a542e2f39",
+    "dc:identifier": "838",
+    "schema:legalName": "AGENCE INSPIRE METZ",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/20532ef0-d667-3379-a67a-acc084fad788",
+      "schema:email": [
+        "contact@sitlorpro.com"
+      ],
+      "schema:legalName": "Système d’information touristique Lorrain",
+      "schema:logo": "http://www.sitlorpro.com/wp-content/uploads/sites/12/2016/03/logo-sitlor-blanc-fond-couleur.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sitlorpro.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/c145904a-4046-3da5-a18e-d59d4ae59529",
+      "schema:email": [
+        "bistronomemetz@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 3 87 50 95 52"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "foaf:Organization",
+        "Agent",
+        "Organisation"
+      ],
+      "foaf:homepage": [
+        "https://le-bistronome-metz.fr/"
+      ],
+      "siret": "80253085700027"
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/6815f68a-5675-3bf2-b458-761b4b81286f",
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/90d3e634-e588-39e3-b07f-5614daea5ed0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c1645c44-27a2-3f3e-b5bc-9da357365c04",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e408e5df-04db-3d65-a175-e3df8116cca7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e6568feb-3ee9-3184-98a6-204e4acbdf71",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/edec51bf-3515-36d7-81ac-c51248c53568",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Ein würdiger Zwischenstopp mit Charme und Cocooning-Atmosphäre. Das Bistronome bietet Ihnen einen atemberaubenden Blick auf das Opéra-Théâtre und den Temple Neuf\nTrinken Sie ein Glas an der hübschen Theke oder genießen Sie an schönen Tagen die Terrasse und wählen Sie Ihre Gerichte von der Schiefertafel l'ardoise."
+        ],
+        "en": [
+          "A charming stopover with a cocooning atmosphere, the Bistronome offers you a breathtaking view of the Opera-Theatre and the Temple Neuf\nHave a drink at the pretty counter or enjoy the terrace in fine weather and choose your dishes from the slate."
+        ],
+        "it": [
+          "Il Bistronome è un'incantevole tappa dall'atmosfera avvolgente, che offre una vista mozzafiato sull'Opéra-Théâtre e sul Temple Neuf\nBevete un drink al grazioso bancone o godetevi la terrazza nella bella stagione e scegliete i vostri piatti dalla lavagna."
+        ],
+        "fr": [
+          "Escale digne de charme et ambiance cocooning, le Bistronome vous offre vue imprenable sur l'Opéra-Théâtre et le Temple Neuf. \nPrenez un verre au joli comptoir ou profitez de la terrasse aux beaux jours et choisissez vos plats figurants sur l'ardoise l'ardoise."
+        ],
+        "es": [
+          "El Bistronome, una parada encantadora con un ambiente acogedor, le ofrece una vista impresionante de la Opéra-Théâtre y del Temple Neuf\nTómate una copa en el bonito mostrador o disfruta de la terraza cuando haga buen tiempo y elige tus platos de la pizarra."
+        ],
+        "nl": [
+          "De Bistronome, een charmante stopplaats met een cocooning sfeer, biedt u een adembenemend uitzicht op de Opéra-Théâtre en de Temple Neuf\nNeem een drankje aan de mooie toonbank of geniet bij mooi weer van het terras en kies uw gerechten van de leisteen."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/2396c6d8-de78-315b-947f-f9e2e35434b0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:TakeawayFoodOrMeals",
+          "@type": [
+            "CateringAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essen zum Mitnehmen"
+            ],
+            "pt": [
+              "Venda de refeições para fora"
+            ],
+            "en": [
+              "Takeaway food or meals"
+            ],
+            "it": [
+              "Vendita di piatti da asporto"
+            ],
+            "fr": [
+              "Vente de plats à emporter"
+            ],
+            "nl": [
+              "Verkoop van afhaalmaaltijden"
+            ],
+            "es": [
+              "Venta de platos para llevar"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Wifi",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "WLAN, Internetzugang"
+            ],
+            "pt": [
+              "Wi-Fi, acesso Internet"
+            ],
+            "en": [
+              "Wifi, internet access"
+            ],
+            "it": [
+              "Wifi, accesso a internet"
+            ],
+            "fr": [
+              "Wifi, accès internet"
+            ],
+            "nl": [
+              "Wifi, internettoegang"
+            ],
+            "es": [
+              "Wifi, acceso a internet"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/363a37a9-cc8a-3f1c-a992-4faf24433a4b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5c12b075-8200-3f3d-959c-9ffa3271e24b",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Le Bistronome"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/30cc7e90-4739-3a9f-a8a6-a42ec38c5dd1",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/838/838162237_4_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/363a37a9-cc8a-3f1c-a992-4faf24433a4b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5c12b075-8200-3f3d-959c-9ffa3271e24b",
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Le Bistronome"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/30cc7e90-4739-3a9f-a8a6-a42ec38c5dd1",
+          "ebucore:locator": [
+            "https://opendata.sitlor.fr/photos/838/838162237_4_800x600.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/004add26-3f28-3bf0-b3fa-f62840d132f5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/8c1b31a5-8a3c-386b-b8c2-17d46c26a0a0",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/93579a70-aa1f-35fd-887a-64e13bd5e05f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cdd726a1-704c-30e3-98ce-664a7ffd2e9d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d49dc5a3-2982-3637-8869-6a0508f3fca5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/ca5d2be8-c740-320e-981a-8e2279c91721",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/9eb6f599-66d1-3e48-ab12-c24f66d6dde5",
+          "schema:addressLocality": "Metz",
+          "schema:postalCode": "57000",
+          "schema:streetAddress": [
+            "45 place de Chambre"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:57463",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Metz"
+              ],
+              "pt": [
+                "Metz"
+              ],
+              "en": [
+                "Metz"
+              ],
+              "it": [
+                "Metz"
+              ],
+              "fr": [
+                "Metz"
+              ],
+              "nl": [
+                "Metz"
+              ],
+              "es": [
+                "Metz"
+              ]
+            },
+            "insee": "57463",
+            "isPartOfDepartment": {
+              "@id": "kb:France4457",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Moselle"
+                ],
+                "pt": [
+                  "Moselle"
+                ],
+                "en": [
+                  "Moselle"
+                ],
+                "it": [
+                  "Moselle"
+                ],
+                "fr": [
+                  "Moselle"
+                ],
+                "nl": [
+                  "Moselle"
+                ],
+                "es": [
+                  "Moselle"
+                ]
+              },
+              "insee": "57",
+              "isPartOfRegion": {
+                "@id": "kb:France44",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Grand Est"
+                  ],
+                  "pt": [
+                    "Grand Est"
+                  ],
+                  "en": [
+                    "Grand Est"
+                  ],
+                  "it": [
+                    "Grand Est"
+                  ],
+                  "fr": [
+                    "Grand Est"
+                  ],
+                  "nl": [
+                    "Grand Est"
+                  ],
+                  "es": [
+                    "Grand Est"
+                  ]
+                },
+                "insee": "44",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/cc1da896-666a-30b6-a568-7c54a2749716",
+        "schema:latitude": "49.1201827",
+        "schema:longitude": "6.1728693",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2022-11-04",
+  "lastUpdateDatatourisme": "2023-04-21T08:37:16.864Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/00c41346-ccb8-3ec9-8647-0dd915113464",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:AmericanExpress",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "American Express"
+            ],
+            "pt": [
+              "American Express"
+            ],
+            "en": [
+              "American express"
+            ],
+            "it": [
+              "American Express"
+            ],
+            "fr": [
+              "American express"
+            ],
+            "nl": [
+              "American Express"
+            ],
+            "es": [
+              "American Express"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

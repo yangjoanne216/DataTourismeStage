@@ -1,0 +1,1380 @@
+{
+  "@id": "https://data.datatourisme.fr/43/1ca626c2-c91d-3d03-861c-a216b535145b",
+  "dc:identifier": "49651",
+  "@type": [
+    "schema:Product",
+    "PointOfInterest",
+    "Practice",
+    "Product",
+    "Tasting"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "DOMAINE DE JEAN BON"
+    ]
+  },
+  "hasAudience": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/b9bb295a-17d1-3c9f-a0d5-ed5affb5bb3b",
+    "schema:legalName": "RIT Gers",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/7b6b129a-3d69-3b4e-8f5e-c2599bb0dfc2",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/f28f562e-2534-348a-86f3-ca4dc047a82f",
+          "schema:addressLocality": "Auch",
+          "schema:postalCode": "BP50106",
+          "schema:streetAddress": [
+            "3, boulevard Roquelaure"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ]
+        }
+      ],
+      "schema:email": [
+        "info@tourisme-gers.com"
+      ],
+      "schema:legalName": "Comité Départemental du Tourisme du Gers en Gascogne",
+      "schema:telephone": [
+        "+33 5 62 05 95 95"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.tourisme-gers.com/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:ForAll",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Für alle"
+        ],
+        "pt": [
+          "Para todos"
+        ],
+        "en": [
+          "For all"
+        ],
+        "it": [
+          "Per tutti"
+        ],
+        "fr": [
+          "Tout public"
+        ],
+        "nl": [
+          "Voor iedereen"
+        ],
+        "es": [
+          "Todos los públicos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Groups",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Gruppen"
+        ],
+        "pt": [
+          "Grupos"
+        ],
+        "en": [
+          "Groups"
+        ],
+        "it": [
+          "Gruppi"
+        ],
+        "fr": [
+          "Groupes"
+        ],
+        "es": [
+          "Grupos"
+        ],
+        "nl": [
+          "Groepen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Individuals",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelpersonen"
+        ],
+        "pt": [
+          "Indivíduos"
+        ],
+        "en": [
+          "Individuals"
+        ],
+        "it": [
+          "Singoli"
+        ],
+        "fr": [
+          "Individuels"
+        ],
+        "nl": [
+          "Personen"
+        ],
+        "es": [
+          "Individuales"
+        ]
+      }
+    },
+    {
+      "@id": "kb:IndividualsWithMembership",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Einzelmitglied"
+        ],
+        "pt": [
+          "Indivíduos afiliados"
+        ],
+        "en": [
+          "Individuals with membership"
+        ],
+        "it": [
+          "Singoli con adesione"
+        ],
+        "fr": [
+          "Individuels avec adhésion"
+        ],
+        "nl": [
+          "Personen met lidmaatschap"
+        ],
+        "es": [
+          "Individuales suscritos"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/4cea2567-db24-350e-ae2c-dbf46f860973",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/730618dc-e927-3019-8d0d-a25f1b375449",
+          "schema:addressLocality": "Toujouse",
+          "schema:postalCode": "32240",
+          "schema:streetAddress": [
+            "DOMAINE DE JEAN BON"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32449",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Toujouse"
+              ],
+              "pt": [
+                "Toujouse"
+              ],
+              "en": [
+                "Toujouse"
+              ],
+              "it": [
+                "Toujouse"
+              ],
+              "fr": [
+                "Toujouse"
+              ],
+              "nl": [
+                "Toujouse"
+              ],
+              "es": [
+                "Toujouse"
+              ]
+            },
+            "insee": "32449",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "armagnac.sourdois@wanadoo.fr"
+      ],
+      "schema:telephone": [
+        "+33 5 62 09 63 93",
+        "+33 6 70 36 84 12",
+        "+33 6 99 88 63 93"
+      ],
+      "@type": [
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:homepage": [
+        "http://www.armagnac-sourdois.fr/"
+      ],
+      "foaf:title": [
+        "04.01.02"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/d19bd8dc-70a1-34bd-98e3-f0380b671da8",
+      "dc:description": {
+        "de": [
+          "In der Gemeinde Toujouse werden Sie ein außergewöhnliches Landgut entdecken.\nDie Domaine de Jean-Bon zeugt von der geduldigen Arbeit aller Generationen, die hier aufeinander folgten. Sie sind die Garanten für die Qualität dieses Know-hows.\n\nAuf der Domaine de Jean-Bon können Sie die Geheimnisse der Herstellung von Armagnac entdecken, dem ältesten und edelsten aller Branntweine, der in der reinen Familientradition gezüchtet wird (Jahrgangsarmagnacs, breites Sortiment ab 1958).\n\nIn der Stille und Dunkelheit eines typischen gascognischen Weinkellers mit Lehmboden reift der Armagnac langsam über mehrere Jahre, bis er eine schöne Bernsteinfarbe angenommen hat.\n\nAuf dem Weingut werden auch andere Produkte hergestellt:\n- AOC Armagnac.\n- AOC Floc de Gascogne (weiß und rosé) und Gelee de Floc de Gascogne.\n- Saft aus Weintrauben.\n- Liköre aus eigener Herstellung.\n- Früchte in Armagnac\n\nSie werden von der freundlichen Atmosphäre dieses Bauernhofs bezaubert sein, die Sie sicher in ihren Bann ziehen wird.\nBesichtigungen des Weinguts, des Weinkellers und Spaziergänge durch die Weinberge sind das ganze Jahr über möglich.\nBei dieser Gelegenheit können Sie auch die Produkte kostenlos probieren und aus einer breiten Palette diejenigen auswählen, die Sie verführt haben."
+        ],
+        "en": [
+          "On the commune of Toujouse, you will discover an exceptional domain.\nThe Domaine de Jean-Bon bears witness to the patient work of all the generations that have succeeded one another here. They are the guarantors of the quality of this know-how.\n\nThe Domaine de Jean-Bon invites you to discover the secrets of the production of Armagnac, the oldest and noblest of brandies, raised in the pure family tradition (vintage Armagnacs, a wide range from 1958).\n\nIn the silence and obscurity of a typically Gascon cellar, with its clay floor, the Armagnac ages slowly for several years to take on a beautiful amber colour.\n\nOther products are also produced on the estate:\n- AOC Armagnac.\n- AOC Floc de Gascogne (white and rosé) and Floc de Gascogne jelly.\n- Grape juice.\n- Artisanal liqueurs.\n- Fruits with Armagnac\n\nYou will be charmed by the friendly atmosphere of this farm which will not fail to seduce you.\nVisits to the estate, the cellar and walks in the vineyard are possible all year round.\nOn this occasion, you will also be able to taste the products free of charge and choose from a wide range of products that will seduce you."
+        ],
+        "it": [
+          "Nel comune di Toujouse, scoprirete una tenuta eccezionale.\nIl Domaine de Jean-Bon testimonia il paziente lavoro di tutte le generazioni che si sono succedute qui. Sono i garanti della qualità di questo know-how.\n\nIl Domaine de Jean-Bon vi invita a scoprire i segreti della produzione dell'Armagnac, la più antica e nobile delle acquaviti, allevata nella pura tradizione familiare (Armagnac d'annata, ampia gamma dal 1958).\n\nNel silenzio e nell'oscurità di una cantina tipicamente guascone, con il suo pavimento di terra, l'Armagnac invecchia lentamente per diversi anni fino ad assumere un bel colore ambrato.\n\nNella tenuta si producono anche altri prodotti:\n- AOC Armagnac.\n- AOC Floc de Gascogne (bianco e rosé) e gelatina di Floc de Gascogne.\n- Succo d'uva.\n- Liquori artigianali.\n- Frutta con Armagnac\n\nSarete affascinati dall'atmosfera amichevole di questa fattoria che non mancherà di sedurvi.\nLe visite alla tenuta, alla cantina e le passeggiate nel vigneto sono possibili tutto l'anno.\nIn questa occasione, potrete anche degustare gratuitamente i prodotti e scegliere tra una vasta gamma di prodotti che vi sedurranno."
+        ],
+        "fr": [
+          "Sur la commune de Toujouse, vous découvrirez un domaine exceptionnel.\nLe Domaine de Jean-Bon témoigne du travail patient de toutes les générations qui se sont succédées ici. Elles sont garantes de la qualité de ce savoir-faire.\n\nLe Domaine de Jean-Bon vous propose de découvrir les secrets de la fabrication de l’Armagnac, la plus ancienne et la plus noble des eaux de vie, élevée dans la pure tradition familiale (Armagnacs millésimés, large gamme à partir de 1958).\n\nDans le silence et l’obscurité d’un chai typiquement gascon, au sol en terre battue, l’Armagnac vieilli lentement pendant plusieurs années pour prendre une belle couleur ambrée.\n\nD’autres productions sont également élaborées sur le Domaine :\n- AOC Armagnac.\n- AOC Floc de Gascogne (blanc et rosé) et Gelée de Floc de Gascogne.\n- Jus de raisin.\n- Liqueurs artisanales.\n- Fruits à l'Armagnac\n\nVous serez charmés par l’ambiance conviviale de cette ferme qui ne manquera pas de vous séduire.\nDes visites du Domaine, du chai et des promenades dans le vignoble sont possibles toute l’année.\nA cette occasion, vous pourrez également déguster gratuitement les produits et choisir parmi une large gamme ceux qui vous auront séduit."
+        ],
+        "nl": [
+          "In de gemeente Toujouse ontdekt u een uitzonderlijk landgoed.\nHet Domaine de Jean-Bon getuigt van het geduldige werk van alle generaties die elkaar hier hebben opgevolgd. Zij staan garant voor de kwaliteit van deze knowhow.\n\nHet Domaine de Jean-Bon nodigt u uit om de geheimen te ontdekken van de Armagnac productie, de oudste en edelste van de brandewijnen, opgevoed in de pure familietraditie (vintage Armagnacs, breed assortiment vanaf 1958).\n\nIn de stilte en duisternis van een typisch Gasconse kelder, met zijn kleibodem, rijpt de Armagnac langzaam gedurende enkele jaren om een mooie amberkleur te krijgen.\n\nOp het landgoed worden ook andere producten geproduceerd:\n- AOC Armagnac.\n- AOC Floc de Gascogne (wit en rosé) en Floc de Gascogne gelei.\n- Druivensap.\n- Artisanale likeuren.\n- Fruit met Armagnac\n\nU zult gecharmeerd zijn door de vriendelijke sfeer van deze boerderij die u zeker zal verleiden.\nBezoeken aan het landgoed, de kelder en wandelingen in de wijngaard zijn het hele jaar mogelijk.\nBij deze gelegenheid kunt u de producten ook gratis proeven en kiezen uit een breed assortiment dat u zal verleiden."
+        ],
+        "es": [
+          "En la comuna de Toujouse, descubrirá una finca excepcional.\nEl Domaine de Jean-Bon es testigo del paciente trabajo de todas las generaciones que se han sucedido aquí. Ellos son los garantes de la calidad de este saber hacer.\n\nEl Domaine de Jean-Bon le invita a descubrir los secretos de la elaboración del Armagnac, el más antiguo y noble de los aguardientes, criado en la más pura tradición familiar (Armagnacs de añada, amplia gama a partir de 1958).\n\nEn el silencio y la oscuridad de una bodega típicamente gascona, con su suelo de tierra, el Armagnac envejece lentamente durante varios años hasta adquirir un hermoso color ámbar.\n\nEn la finca también se elaboran otros productos:\n- AOC Armagnac.\n- AOC Floc de Gascogne (blanco y rosado) y gelatina Floc de Gascogne.\n- Zumo de uva.\n- Licores artesanales.\n- Fruta con Armagnac\n\nLe encantará el ambiente acogedor de esta granja que no dejará de seducirle.\nLas visitas a la finca, la bodega y los paseos por el viñedo son posibles durante todo el año.\nEn esta ocasión, también podrá degustar gratuitamente los productos y elegir entre una amplia gama que le seducirá."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/1bf61383-f67e-3ba2-8891-11ec5eebf3c0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/472ae59a-fdd7-3c5c-8f0a-f8d1a230f7ac",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/915236a8-cf38-3342-8dc6-bebf8e501a02",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ab74955e-a1a9-3593-9ff2-1a9f1d1262d5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e24cfd52-ab48-3d4c-88dc-81a349652084",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/0ecc323d-7c23-3c3b-975e-2f65e37cf58c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": true,
+      "features": [
+        {
+          "@id": "kb:Shop",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Laden"
+            ],
+            "pt": [
+              "Loja"
+            ],
+            "en": [
+              "Shop"
+            ],
+            "it": [
+              "Negozio"
+            ],
+            "fr": [
+              "Boutique"
+            ],
+            "nl": [
+              "Winkel"
+            ],
+            "es": [
+              "Tienda"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/19faab61-2f4f-3487-8e19-16dcd0a3cbf3",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/2e92add4-bb45-3e06-934d-82d44b7d732c",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4cc0af16-d108-32b0-94e4-ce210238baf0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false
+    },
+    {
+      "@id": "https://data.datatourisme.fr/50d31251-e675-3224-bb37-a23cc2538731",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:CamperPitch",
+          "@type": [
+            "AccommodationPricingOffer",
+            "CampingAndCaravanningAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Stellplatz Wohnmobil"
+            ],
+            "pt": [
+              "Alvéolo para autocaravana"
+            ],
+            "en": [
+              "Motorhome pitch"
+            ],
+            "it": [
+              "Piazzola per camper"
+            ],
+            "fr": [
+              "Emplacement camping car"
+            ],
+            "es": [
+              "Espacio para autocaravanas"
+            ],
+            "nl": [
+              "Camperstaanplaats"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7d7a87fe-da63-34ba-8036-524d55439400",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/eaa04625-3dfd-3a30-9729-eb35e6d18ba0",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "charged": false,
+      "features": [
+        {
+          "@id": "kb:TradeShows",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Ausstellungen"
+            ],
+            "pt": [
+              "Exposições"
+            ],
+            "en": [
+              "Trade shows"
+            ],
+            "it": [
+              "Esposizioni"
+            ],
+            "fr": [
+              "Expositions"
+            ],
+            "nl": [
+              "Exposities"
+            ],
+            "es": [
+              "Exposiciones"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/536dc98f-9e90-3b44-8e1a-55180c254983",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/88c8f67c-4d83-3b04-8359-be63b5e87227",
+          "ebucore:title": {
+            "fr": [
+              "Armagnas Sourdois"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Jean-Bon"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d7f78a2f-3b16-31b2-bbfa-f7783266fc01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0087766.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/536dc98f-9e90-3b44-8e1a-55180c254983",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/88c8f67c-4d83-3b04-8359-be63b5e87227",
+          "ebucore:title": {
+            "fr": [
+              "Armagnas Sourdois"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Collection Tourisme Gers/Domaine de Jean-Bon"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d7f78a2f-3b16-31b2-bbfa-f7783266fc01",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://medias.cdtl32.com/CDT32_0087766.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/2feb6ea4-2b39-3346-981e-a96ea83f84c0",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "1970-01-01"
+    },
+    {
+      "@id": "https://data.datatourisme.fr/334f2e2b-dba7-358f-a1af-6d4bfc913783",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_BienvenueaLaFerme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Willkommen auf dem Bauernhof"
+          ],
+          "pt": [
+            "Boas-vindas à quinta"
+          ],
+          "en": [
+            "Welcome to the farm"
+          ],
+          "it": [
+            "Benvenuti alla fattoria"
+          ],
+          "fr": [
+            "Bienvenue à la ferme"
+          ],
+          "es": [
+            "Le damos la bienvenida a la granja"
+          ],
+          "nl": [
+            "Bienvenue à la ferme (agritoerisme)"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "Guesthouse",
+          "Practice",
+          "Restaurant",
+          "SelfCateringAccommodation"
+        ]
+      },
+      "reviewDeliveryDate": "1970-01-01"
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/fae2a122-6295-37ae-a732-affd2b3739be",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/730618dc-e927-3019-8d0d-a25f1b375449",
+          "schema:addressLocality": "Toujouse",
+          "schema:postalCode": "32240",
+          "schema:streetAddress": [
+            "DOMAINE DE JEAN BON"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:32449",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Toujouse"
+              ],
+              "pt": [
+                "Toujouse"
+              ],
+              "en": [
+                "Toujouse"
+              ],
+              "it": [
+                "Toujouse"
+              ],
+              "fr": [
+                "Toujouse"
+              ],
+              "nl": [
+                "Toujouse"
+              ],
+              "es": [
+                "Toujouse"
+              ]
+            },
+            "insee": "32449",
+            "isPartOfDepartment": {
+              "@id": "kb:France7632",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gers"
+                ],
+                "pt": [
+                  "Gers"
+                ],
+                "en": [
+                  "Gers"
+                ],
+                "it": [
+                  "Gers"
+                ],
+                "fr": [
+                  "Gers"
+                ],
+                "nl": [
+                  "Gers"
+                ],
+                "es": [
+                  "Gers"
+                ]
+              },
+              "insee": "32",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/0fa63fc4-0d92-34ae-87d5-376f330d5ce7",
+        "schema:latitude": "43.8247514",
+        "schema:longitude": "-0.1794505",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2020-07-27",
+  "lastUpdateDatatourisme": "2022-12-09T09:23:18.462Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/256bb7f2-ecda-3feb-97e8-1f9716ff5648",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/31d319c8-4dff-368e-97fc-7bfdca3b21c7",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "appliesOnPeriod": [
+            {
+              "@id": "https://data.datatourisme.fr/a8b85e51-15a5-3c2e-9c66-be3dc2d92c7e",
+              "@type": [
+                "Period"
+              ],
+              "endDate": "2014-12-31",
+              "startDate": "2014-01-01"
+            }
+          ],
+          "hasAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasEligibleAudience": [
+            {
+              "@id": "kb:Adults",
+              "@type": [
+                "PeopleAudience"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Erwachsene"
+                ],
+                "pt": [
+                  "Adultos"
+                ],
+                "en": [
+                  "Adults"
+                ],
+                "it": [
+                  "Adulti"
+                ],
+                "fr": [
+                  "Adultes"
+                ],
+                "nl": [
+                  "Volwassenen"
+                ],
+                "es": [
+                  "Adultos"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerDay",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Tag"
+                ],
+                "pt": [
+                  "Por dia"
+                ],
+                "en": [
+                  "Per day"
+                ],
+                "it": [
+                  "A giornata"
+                ],
+                "fr": [
+                  "A la journée"
+                ],
+                "es": [
+                  "Por día"
+                ],
+                "nl": [
+                  "Per dag"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "fr": [
+              "Nous consulter"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,973 @@
+{
+  "@id": "https://data.datatourisme.fr/22/7be12e54-d0d1-3912-ac83-485c45aecd01",
+  "dc:identifier": "RESMID046FS00015",
+  "@type": [
+    "schema:Accommodation",
+    "schema:FoodEstablishment",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "schema:Restaurant",
+    "Accommodation",
+    "FoodEstablishment",
+    "Hotel",
+    "HotelRestaurant",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Restaurant mit traditioneller und regionaler Küche.  Themenabende (Konzert - Tanztee - Karaoke ... ) mit der Möglichkeit, den Saal für Veranstaltungen wie Hochzeit, Geburtstag, Taufe, ... zu privatisieren."
+    ],
+    "en": [
+      "Restaurant with traditional and regional cuisine.  Theme evenings (concert - tea-dance - karaoke ... ) with the possibility of privatizing the room for events such as weddings, birthdays, baptisms, ..."
+    ],
+    "it": [
+      "Ristorante con cucina tradizionale e regionale.  Serate a tema (concerto - tea-dance - karaoke... ) con possibilità di privatizzazione della sala per eventi come matrimoni, compleanni, battesimi, ..."
+    ],
+    "fr": [
+      "Restaurant avec cuisine traditionnelle et régionale.  Soirées à thèmes (concert - thé-dansant - karaoké ... ) avec possibilité de privatisation de la salle pour événements comme mariage, anniversaire, baptême, ..."
+    ],
+    "es": [
+      "Restaurante de cocina tradicional y regional. Noches temáticas (concierto – té y baile - karaoke ...) con posibilidad de privatizar la sala para eventos como bodas, cumpleaños, bautizos, ..."
+    ],
+    "nl": [
+      "Restaurant met traditionele en regionale keuken.  Thema-avonden (concert - tea-dance - karaoke ... ) met de mogelijkheid om de zaal te privatiseren voor evenementen zoals bruiloften, verjaardagen, doopfeesten, ..."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "L'Occitan"
+    ],
+    "fr": [
+      "L'Occitan"
+    ],
+    "es": [
+      "L'Occitan"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/2c717241-5e12-34b9-8085-c5d18e5d35f9",
+    "schema:legalName": "Lot Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/3b64f734-2a28-31c8-b14d-ca5178bfbaeb",
+      "schema:legalName": "Lot Tourisme - Agence de développement touristique du Lot",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-lot.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ca0fbd47-84d7-37b9-86f5-6f55ec2b7571",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ef22c701-f491-3693-8ad6-6d8390a7af4f",
+          "schema:addressLocality": "Thégra",
+          "schema:postalCode": "46500",
+          "schema:streetAddress": [
+            "Place de la Bascule"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46317",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Thégra"
+              ],
+              "pt": [
+                "Thégra"
+              ],
+              "en": [
+                "Thégra"
+              ],
+              "it": [
+                "Thégra"
+              ],
+              "fr": [
+                "Thégra"
+              ],
+              "nl": [
+                "Thégra"
+              ],
+              "es": [
+                "Thégra"
+              ]
+            },
+            "insee": "46317",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "loccitan.thegra@gmail.com"
+      ],
+      "schema:legalName": "L'Occitan",
+      "schema:telephone": [
+        "+33 5 65 40 69 70"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/8a2c286d-cccb-3f85-b240-1a6841e1fac9",
+      "dc:description": {
+        "de": [
+          "Restaurant mit traditioneller und regionaler Küche.  Themenabende (Konzert - Tanztee - Karaoke ... ) mit der Möglichkeit, den Saal für Veranstaltungen wie Hochzeit, Geburtstag, Taufe, ... zu privatisieren."
+        ],
+        "en": [
+          "Restaurant with traditional and regional cuisine.  Theme evenings (concert - tea-dance - karaoke ... ) with the possibility of privatizing the room for events such as weddings, birthdays, baptisms, ..."
+        ],
+        "it": [
+          "Ristorante con cucina tradizionale e regionale.  Serate a tema (concerto - tea-dance - karaoke... ) con possibilità di privatizzazione della sala per eventi come matrimoni, compleanni, battesimi, ..."
+        ],
+        "fr": [
+          "Restaurant avec cuisine traditionnelle et régionale.  Soirées à thèmes (concert - thé-dansant - karaoké ... ) avec possibilité de privatisation de la salle pour événements comme mariage, anniversaire, baptême, ..."
+        ],
+        "es": [
+          "Restaurante de cocina tradicional y regional. Noches temáticas (concierto – té y baile - karaoke ...) con posibilidad de privatizar la sala para eventos como bodas, cumpleaños, bautizos, ..."
+        ],
+        "nl": [
+          "Restaurant met traditionele en regionale keuken.  Thema-avonden (concert - tea-dance - karaoke ... ) met de mogelijkheid om de zaal te privatiseren voor evenementen zoals bruiloften, verjaardagen, doopfeesten, ..."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/0bdf6cde-8e09-37ec-908e-6d680025bc5e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/169a2e11-0365-335e-9aac-f265d195841d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4c6a5257-451a-3eb9-8cf9-8706699dfa2f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/80aa0bb3-2cf0-3cdb-aeb1-494e9e74d557",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/84269ce9-0448-3b06-b423-5d992ccd8613",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ef1f3269-e86e-3297-87f4-bbfdebc6db0a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Restaurant mit traditioneller und regionaler Küche.  Themenabende (Konzert - Tanztee - Karaoke ... ) mit der Möglichkeit, den Saal für Veranstaltungen wie Hochzeit, Geburtstag, Taufe, ... zu privatisieren."
+        ],
+        "en": [
+          "Restaurant with traditional and regional cuisine.  Theme evenings (concert - tea-dance - karaoke ... ) with the possibility of privatizing the room for events such as weddings, birthdays, baptisms, ..."
+        ],
+        "it": [
+          "Ristorante con cucina tradizionale e regionale.  Serate a tema (concerto - tea-dance - karaoke... ) con possibilità di privatizzazione della sala per eventi come matrimoni, compleanni, battesimi, ..."
+        ],
+        "fr": [
+          "Restaurant avec cuisine traditionnelle et régionale.  Soirées à thèmes (concert - thé-dansant - karaoké ... ) avec possibilité de privatisation de la salle pour événements comme mariage, anniversaire, baptême, ..."
+        ],
+        "es": [
+          "Restaurante de cocina tradicional y regional. Noches temáticas (concierto – té y baile - karaoke ...) con posibilidad de privatizar la sala para eventos como bodas, cumpleaños, bautizos, ..."
+        ],
+        "nl": [
+          "Restaurant met traditionele en regionale keuken.  Thema-avonden (concert - tea-dance - karaoke ... ) met de mogelijkheid om de zaal te privatiseren voor evenementen zoals bruiloften, verjaardagen, doopfeesten, ..."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/e940679a-0699-3f05-aa5c-a973be95c8e1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/e887ee2e-eb8f-37f7-b957-1d023fd0bd7f",
+          "ebucore:title": {
+            "en": [
+              "L'Occitan-Thegra-façade"
+            ],
+            "fr": [
+              "L'Occitan-Thegra-façade"
+            ],
+            "es": [
+              "L'Occitan-Thegra-façade"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Hôtel Restaurant L'Occitan à Thégra"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/75c09e7c-8859-3ffa-b7a9-0b7fee9257f5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/L-Occitan-Thegra-facade.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/e940679a-0699-3f05-aa5c-a973be95c8e1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/e887ee2e-eb8f-37f7-b957-1d023fd0bd7f",
+          "ebucore:title": {
+            "en": [
+              "L'Occitan-Thegra-façade"
+            ],
+            "fr": [
+              "L'Occitan-Thegra-façade"
+            ],
+            "es": [
+              "L'Occitan-Thegra-façade"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "© Hôtel Restaurant L'Occitan à Thégra"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/75c09e7c-8859-3ffa-b7a9-0b7fee9257f5",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://cdt46.media.tourinsoft.com/upload/L-Occitan-Thegra-facade.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:FrenchCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Französische regionale Spezialitäten"
+        ],
+        "pt": [
+          "Especialidades regionais francesas"
+        ],
+        "en": [
+          "Traditional or regional French cuisine (Lorraine, Alsace, Brittany, Burgundy, ...)"
+        ],
+        "it": [
+          "Specialità regionali francesi"
+        ],
+        "fr": [
+          "Spécialités régionales françaises"
+        ],
+        "nl": [
+          "Regionale Franse specialiteiten"
+        ],
+        "es": [
+          "Especialidades regionales francesas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:TraditionalCuisine",
+      "@type": [
+        "CuisineCategory"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Traditionelle französische Küche"
+        ],
+        "pt": [
+          "Cozinha tradicional francesa"
+        ],
+        "en": [
+          "French traditional cuisine"
+        ],
+        "it": [
+          "Cucina tradizionale francese"
+        ],
+        "fr": [
+          "Cuisine traditionnelle française"
+        ],
+        "nl": [
+          "Traditionele Franse keuken"
+        ],
+        "es": [
+          "Cocina francesa tradicional"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/56bf92e0-5252-3e43-8299-5e9771738850",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7056461f-e0ab-31e9-8c2c-f28f2ff0a97a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e5ce5b89-e832-30e6-963b-b8b1c6ed8f0f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/849fe6b5-5816-3109-8381-d87a7006bbdc",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/ef22c701-f491-3693-8ad6-6d8390a7af4f",
+          "schema:addressLocality": "Thégra",
+          "schema:postalCode": "46500",
+          "schema:streetAddress": [
+            "Place de la Bascule"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:46317",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Thégra"
+              ],
+              "pt": [
+                "Thégra"
+              ],
+              "en": [
+                "Thégra"
+              ],
+              "it": [
+                "Thégra"
+              ],
+              "fr": [
+                "Thégra"
+              ],
+              "nl": [
+                "Thégra"
+              ],
+              "es": [
+                "Thégra"
+              ]
+            },
+            "insee": "46317",
+            "isPartOfDepartment": {
+              "@id": "kb:France7646",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Lot"
+                ],
+                "pt": [
+                  "Lot"
+                ],
+                "en": [
+                  "Lot"
+                ],
+                "it": [
+                  "Lot"
+                ],
+                "fr": [
+                  "Lot"
+                ],
+                "nl": [
+                  "Lot"
+                ],
+                "es": [
+                  "Lot"
+                ]
+              },
+              "insee": "46",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/9b30072e-f209-3fea-a2ed-e0934ccf1e26",
+        "schema:latitude": "44.8205826",
+        "schema:longitude": "1.7561396",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/2c717241-5e12-34b9-8085-c5d18e5d35f9",
+      "schema:legalName": "Lot Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-01-01",
+  "lastUpdateDatatourisme": "2023-06-22T13:01:39.987Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/1edbfcb9-de7e-37e2-b7e5-0c27437d8067",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/16ddfe3c-2823-3c31-bdaa-0fbf1826d8c3",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "name": {
+            "en": [
+              "Adult set menu"
+            ],
+            "fr": [
+              "Menu adulte"
+            ],
+            "es": [
+              "Menú adulto"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4e7fae08-ee18-3586-a35b-c98a250ff982",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "name": {
+            "en": [
+              "A la carte menu"
+            ],
+            "fr": [
+              "A la carte"
+            ],
+            "es": [
+              "A la carta"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/624718b3-f35f-35c9-b34d-c760eab84a76",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Höchstalter 10 Jahre.bis 10 Jahre"
+            ],
+            "en": [
+              "Age maxi 10 ans."
+            ],
+            "it": [
+              "Fino a 10 anni"
+            ],
+            "fr": [
+              "Age maxi 10 ans.Jusqu'à 10 ans"
+            ],
+            "nl": [
+              "Tot 10 jaar oud"
+            ],
+            "es": [
+              "Age maxi 10 ans."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/56289cee-b1c9-3bb0-ba18-fc994c25e540",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b7354f1e-8621-3f9d-955e-00f333a1134a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d8c093c9-1fb8-309e-94d7-8000a49b705d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "en": [
+              "Child menu"
+            ],
+            "fr": [
+              "Menu enfant"
+            ],
+            "es": [
+              "Menú infantil"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

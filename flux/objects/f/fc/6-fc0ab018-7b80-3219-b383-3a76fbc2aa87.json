@@ -1,0 +1,309 @@
+{
+  "@id": "https://data.datatourisme.fr/6/fc0ab018-7b80-3219-b383-3a76fbc2aa87",
+  "dc:identifier": "HLOBFC039320007896",
+  "@type": [
+    "schema:Accommodation",
+    "schema:BedAndBreakfast",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Guesthouse",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation"
+  ],
+  "rdfs:label": {
+    "de": [
+      "Chambres d'hôtes - Coste Sophie"
+    ],
+    "en": [
+      "Chambres d'hôtes - Coste Sophie"
+    ],
+    "fr": [
+      "Chambres d'hôtes - Coste Sophie"
+    ]
+  },
+  "allowedPersons": 2,
+  "creationDate": "2019-05-09",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/6/a48d32d9-d058-3c82-9563-b0ec4435f935",
+    "dc:identifier": "f011817c-1832-4f1b-aaac-c39a1814b44b",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/9c14f873-75c8-3a67-a223-a8d01af04cd8",
+        "schema:postalCode": "39210",
+        "schema:streetAddress": [
+          "3 Place de la Mairie"
+        ],
+        "@type": [
+          "schema:PostalAddress"
+        ]
+      }
+    ],
+    "schema:email": [
+      "contact@jurabsolu.fr"
+    ],
+    "schema:legalName": "OFFICE DE TOURISME JURABSOLU",
+    "schema:telephone": [
+      "+33 3 84 44 62 47"
+    ],
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.jurabsolu.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ed8f54f8-9a7d-3090-b1d2-e7ab87891e64",
+      "schema:email": [
+        "m.boularess@bfctourisme.com"
+      ],
+      "schema:legalName": "Bourgogne-Franche-Comté Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.bourgognefranchecomte.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/3f3b1b8e-29df-3e0b-b1d2-62302070368d",
+      "schema:email": [
+        "sophie.coste0772@orange.fr"
+      ],
+      "schema:telephone": [
+        "+33 6 79 18 33 19"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/68a14e24-77ce-388e-a9a6-88a6cb4f5a1e",
+      "schema:value": "1",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bedroom",
+          "@type": [
+            "AccommodationAmenity",
+            "AccommodationPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Zimmer"
+            ],
+            "pt": [
+              "Quarto"
+            ],
+            "en": [
+              "Bedroom"
+            ],
+            "it": [
+              "Camera"
+            ],
+            "fr": [
+              "Chambre"
+            ],
+            "nl": [
+              "Kamer"
+            ],
+            "es": [
+              "Habitación"
+            ]
+          }
+        }
+      ],
+      "hasFloorSize": {
+        "@id": "https://data.datatourisme.fr/594bee9e-fea2-3a91-a1bf-d15acea9e590",
+        "schema:unitText": [
+          "m²"
+        ],
+        "@type": [
+          "schema:QuantitativeValue"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/a00849ba-3f80-36dd-8327-f8a9617d93ec",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/6ee744f7-f132-30d7-aa8c-7680dab394fc",
+          "schema:addressLocality": "Montain",
+          "schema:postalCode": "39210",
+          "schema:streetAddress": [
+            "410 chemin de l'Aubépin"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:39349",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Montain"
+              ],
+              "pt": [
+                "Montain"
+              ],
+              "en": [
+                "Montain"
+              ],
+              "it": [
+                "Montain"
+              ],
+              "fr": [
+                "Montain"
+              ],
+              "nl": [
+                "Montain"
+              ],
+              "es": [
+                "Montain"
+              ]
+            },
+            "insee": "39349",
+            "isPartOfDepartment": {
+              "@id": "kb:France2739",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Jura"
+                ],
+                "pt": [
+                  "Jura"
+                ],
+                "en": [
+                  "Jura"
+                ],
+                "it": [
+                  "Jura"
+                ],
+                "fr": [
+                  "Jura"
+                ],
+                "nl": [
+                  "Jura"
+                ],
+                "es": [
+                  "Jura"
+                ]
+              },
+              "insee": "39",
+              "isPartOfRegion": {
+                "@id": "kb:France27",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "pt": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "en": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "it": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "fr": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "nl": [
+                    "Bourgogne-Franche-Comté"
+                  ],
+                  "es": [
+                    "Bourgogne-Franche-Comté"
+                  ]
+                },
+                "insee": "27",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/6bc2afe7-ab07-3a4f-83e8-eb32f00a10f7",
+        "schema:latitude": "46.7227448",
+        "schema:longitude": "5.58384799",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/ff06c202-5387-34f3-8d21-aa2d143149ab",
+      "schema:legalName": "SIT Bourgogne-Franche-Comté",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-03-03",
+  "lastUpdateDatatourisme": "2023-04-19T07:35:06.947Z"
+}

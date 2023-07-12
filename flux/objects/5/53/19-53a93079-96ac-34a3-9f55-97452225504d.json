@@ -1,0 +1,272 @@
+{
+  "@id": "https://data.datatourisme.fr/19/53a93079-96ac-34a3-9f55-97452225504d",
+  "dc:identifier": "72279e3e-f62b-11ed-82b5-0050569afc27",
+  "@type": [
+    "schema:Accommodation",
+    "schema:Hotel",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "Hotel",
+    "HotelTrade",
+    "PlaceOfInterest",
+    "PointOfInterest"
+  ],
+  "rdfs:label": {
+    "fr": [
+      "Le Relais de la Malmaison"
+    ]
+  },
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+    "schema:email": [
+      "opendata@parisinfo.com"
+    ],
+    "schema:legalName": "Office de Tourisme de Paris",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.parisinfo.com/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/73f9361b-7fdb-3a8c-8c11-182ef0152392",
+      "schema:email": [
+        "opendata@parisinfo.com"
+      ],
+      "schema:legalName": "Office de Tourisme de Paris",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.parisinfo.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f522481f-481d-387b-ba93-8c68f34ef062",
+      "schema:email": [
+        "contact@relaismalmaison.fr"
+      ],
+      "schema:telephone": [
+        "+33 1 47 32 01 33"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.relaismalmaison.fr/"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/8e561a6f-f691-3d28-9e36-c150c31b5fbb",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_4etoiles",
+        "schema:ratingValue": "4.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "4 Sterne"
+          ],
+          "pt": [
+            "4 estrelas"
+          ],
+          "en": [
+            "4 Stars"
+          ],
+          "it": [
+            "4 stelle"
+          ],
+          "fr": [
+            "4 étoiles"
+          ],
+          "nl": [
+            "4 sterren"
+          ],
+          "es": [
+            "4 estrellas"
+          ]
+        },
+        "isCompliantWith": [
+          "CampingAndCaravanning",
+          "ClubOrHolidayVillage",
+          "HolidayCentre",
+          "Hotel",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/deb8f8fa-87b4-30d1-b41f-6fb12f59e5bf",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/c0562412-b2df-329c-b971-fd9c4c18c7ce",
+          "schema:addressLocality": "Rueil-Malmaison",
+          "schema:postalCode": "92500",
+          "schema:streetAddress": [
+            "93 boulevard Franklin Roosevelt"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:92063",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Rueil-Malmaison"
+              ],
+              "pt": [
+                "Rueil-Malmaison"
+              ],
+              "en": [
+                "Rueil-Malmaison"
+              ],
+              "it": [
+                "Rueil-Malmaison"
+              ],
+              "fr": [
+                "Rueil-Malmaison"
+              ],
+              "nl": [
+                "Rueil-Malmaison"
+              ],
+              "es": [
+                "Rueil-Malmaison"
+              ]
+            },
+            "insee": "92063",
+            "isPartOfDepartment": {
+              "@id": "kb:France1192",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hauts-de-Seine"
+                ],
+                "pt": [
+                  "Hauts-de-Seine"
+                ],
+                "en": [
+                  "Hauts-de-Seine"
+                ],
+                "it": [
+                  "Hauts-de-Seine"
+                ],
+                "fr": [
+                  "Hauts-de-Seine"
+                ],
+                "nl": [
+                  "Hauts-de-Seine"
+                ],
+                "es": [
+                  "Hauts-de-Seine"
+                ]
+              },
+              "insee": "92",
+              "isPartOfRegion": {
+                "@id": "kb:France11",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Île-de-France"
+                  ],
+                  "pt": [
+                    "Île-de-France"
+                  ],
+                  "en": [
+                    "Île-de-France"
+                  ],
+                  "it": [
+                    "Île-de-France"
+                  ],
+                  "fr": [
+                    "Île-de-France"
+                  ],
+                  "nl": [
+                    "Île-de-France"
+                  ],
+                  "es": [
+                    "Île-de-France"
+                  ]
+                },
+                "insee": "11",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/14d6d8ff-dacf-38fb-9231-0458bedd7ac4",
+        "schema:latitude": "48.88095299661205",
+        "schema:longitude": "2.161441036575212",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-05-25",
+  "lastUpdateDatatourisme": "2023-06-11T21:13:26.154Z",
+  "reducedMobilityAccess": false
+}

@@ -1,0 +1,995 @@
+{
+  "@id": "https://data.datatourisme.fr/49/b436cd0c-58ed-36cf-a9bb-309fe8cc77dd",
+  "dc:identifier": "ASCPDL053V508TSQ",
+  "@type": [
+    "schema:Product",
+    "FreePractice",
+    "PointOfInterest",
+    "Practice",
+    "Product"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Mit dieser Schnitzeljagd lädt Sie das Fremdenverkehrsamt von Château-Gontier ein, in die Geschichte der Stadt einzutauchen und ihre symbolträchtigen Bauwerke auf einem Rundgang in 11 Etappen zu entdecken."
+    ],
+    "en": [
+      "With this treasure hunt, the tourist office of Château-Gontier invites you to immerse yourself in the history of the city and to discover its emblematic monuments through a route in 11 stages."
+    ],
+    "it": [
+      "Con questa caccia al tesoro, l'ufficio turistico di Château-Gontier vi invita a immergervi nella storia della città e a scoprire i suoi monumenti emblematici attraverso un percorso di 11 tappe."
+    ],
+    "fr": [
+      "Avec ce jeu de piste, l'office de tourisme de Château-Gontier vous propose de vous plonger dans l'histoire de la ville et de découvrir ses monuments emblématiques à travers un parcours en 11 étapes ."
+    ],
+    "nl": [
+      "Met deze speurtocht nodigt het VVV-kantoor van Château-Gontier u uit om u onder te dompelen in de geschiedenis van de stad en haar emblematische monumenten te ontdekken via een route van 11 etappes."
+    ],
+    "es": [
+      "Con esta búsqueda del tesoro, la oficina de turismo de Château-Gontier le invita a sumergirse en la historia de la ciudad y a descubrir sus monumentos emblemáticos a través de un recorrido de 11 etapas."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "PARCOURS BALUDIK : CHÂTEAU-GONTIER, CITÉ MILLÉNAIRE"
+    ]
+  },
+  "creationDate": "2022-05-06",
+  "hasAudience": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Teenagers",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Jugendliche"
+        ],
+        "pt": [
+          "Adolescentes"
+        ],
+        "en": [
+          "Teenagers"
+        ],
+        "it": [
+          "Adolescenti"
+        ],
+        "fr": [
+          "Adolescents"
+        ],
+        "nl": [
+          "Tieners"
+        ],
+        "es": [
+          "Adolescentes"
+        ]
+      }
+    }
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+    "schema:email": [
+      "b.paulmyer@solutions-eco.fr"
+    ],
+    "schema:legalName": "eSPRIT Pays de la Loire",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ],
+    "foaf:homepage": [
+      "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/cb37ecba-e500-37e7-b601-64f9b1ef5b04",
+      "schema:email": [
+        "b.paulmyer@solutions-eco.fr"
+      ],
+      "schema:legalName": "eSPRIT Pays de la Loire",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.solutions-pro-tourisme-paysdelaloire.fr/"
+      ]
+    }
+  ],
+  "hasClientTarget": [
+    {
+      "@id": "kb:BetweenFriends",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Unter Freunden"
+        ],
+        "pt": [
+          "Entre amigos"
+        ],
+        "en": [
+          "Between friends"
+        ],
+        "it": [
+          "Tra amici"
+        ],
+        "fr": [
+          "Entre amis"
+        ],
+        "nl": [
+          "Met vrienden"
+        ],
+        "es": [
+          "Entre amigos"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Children",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinder"
+        ],
+        "pt": [
+          "Crianças"
+        ],
+        "en": [
+          "Children"
+        ],
+        "it": [
+          "Bambini"
+        ],
+        "fr": [
+          "Enfants"
+        ],
+        "es": [
+          "Menores"
+        ],
+        "nl": [
+          "Kinderen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Couples",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Paare"
+        ],
+        "pt": [
+          "Casais"
+        ],
+        "en": [
+          "Couples"
+        ],
+        "it": [
+          "Coppie"
+        ],
+        "fr": [
+          "Couples"
+        ],
+        "es": [
+          "Parejas"
+        ],
+        "nl": [
+          "Koppels"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Families",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Familien"
+        ],
+        "pt": [
+          "Famílias"
+        ],
+        "en": [
+          "Families"
+        ],
+        "it": [
+          "Famiglie"
+        ],
+        "fr": [
+          "Familles"
+        ],
+        "nl": [
+          "Families"
+        ],
+        "es": [
+          "Familias"
+        ]
+      }
+    },
+    {
+      "@id": "kb:LargeFamilies",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kinderreiche Familien"
+        ],
+        "pt": [
+          "Famílias numerosas"
+        ],
+        "en": [
+          "Large families"
+        ],
+        "it": [
+          "Famiglie numerose"
+        ],
+        "fr": [
+          "Familles nombreuses"
+        ],
+        "nl": [
+          "Grote gezinnen"
+        ],
+        "es": [
+          "Familias numerosas"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Lover",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Verliebte(r)"
+        ],
+        "pt": [
+          "Apaixonados"
+        ],
+        "en": [
+          "Lover"
+        ],
+        "it": [
+          "Innamorati"
+        ],
+        "fr": [
+          "Amoureux"
+        ],
+        "nl": [
+          "Geliefden"
+        ],
+        "es": [
+          "Amoroso"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Solo",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Solo"
+        ],
+        "pt": [
+          "A solo"
+        ],
+        "en": [
+          "Solo"
+        ],
+        "it": [
+          "Solo"
+        ],
+        "fr": [
+          "Solo"
+        ],
+        "nl": [
+          "Solo"
+        ],
+        "es": [
+          "Solo"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Teenagers",
+      "@type": [
+        "PeopleAudience"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Jugendliche"
+        ],
+        "pt": [
+          "Adolescentes"
+        ],
+        "en": [
+          "Teenagers"
+        ],
+        "it": [
+          "Adolescenti"
+        ],
+        "fr": [
+          "Adolescents"
+        ],
+        "nl": [
+          "Tieners"
+        ],
+        "es": [
+          "Adolescentes"
+        ]
+      }
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/9ad4089c-f83f-30fe-9e12-01ac50909fb1",
+      "schema:email": [
+        "tourisme@sud-mayenne.com"
+      ],
+      "schema:telephone": [
+        "+33 2 43 70 42 74"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.sudmayenne.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/01c09c1a-1889-3d06-a3e7-977a5a5cddd7",
+      "dc:description": {
+        "de": [
+          "Château-Gontier, eine tausendjährige Stadt im Haut-Anjou, wurde um den Fluss Mayenne herum errichtet. Im 11. Jahrhundert wurde dieser Ort gewählt, um einen wichtigen Übergang über die Mayenne zwischen dem Anjou, Maine und der Bretagne zu verteidigen und zu kontrollieren. Die Stadt wurde auf den Anhöhen des rechten Ufers um eine vom Grafen von Anjou, Foulques III Nerra, errichtete Burg herum gebaut\nVon den Ursprüngen der Stadt bis heute erwartet uns eine Reise durch mehr als 1000 Jahre!\n\nWie funktioniert das Ganze?\n1) Laden Sie die Baludik-App für Ihr Smartphone oder Ihren Tablet-PC herunter (kostenlose App)\n2) Wählen Sie den Rundgang \"Château-Gontier, tausendjährige Stadt\"\n3) Lassen Sie sich führen und spielen Sie!\n\nFür Familien mit Kindern geeigneter Parcours.\nDauer: ca. 1,5 Stunden."
+        ],
+        "en": [
+          "Château-Gontier, a thousand year old city in the Upper Anjou region, was built around the Mayenne River. In the 11th century, the choice of this site answered an imperative: to defend and control an obligatory crossing point on the Mayenne between Anjou, Maine and Brittany. The city was built on the heights of the right bank around a castle raised by the Count of Anjou Foulques III Nerra\nFrom the origins of the city to the present day, it is a journey of more than 1000 years that awaits us!\n\nHow does it work?\n1) Download the Baludik application for smartphone or tablet (free application)\n2) Choose the route \"Château-Gontier, millennium city\"\n3) Let yourself be guided and play!\n\nRoute adapted to families with children.\nDuration: about 1h30."
+        ],
+        "it": [
+          "Château-Gontier, città millenaria dell'Alto Angiò, è stata costruita intorno al fiume Mayenne. Nell'XI secolo, la scelta di questo sito rispondeva a un imperativo: difendere e controllare un punto di passaggio obbligato sulla Mayenne tra Angiò, Maine e Bretagna. La città fu costruita sulle alture della riva destra attorno a un castello costruito dal conte d'Angiò, Foulques III Nerra\nDalle origini della città ai giorni nostri, ci aspetta un viaggio di oltre 1000 anni!\n\nCome funziona?\n1) Scaricare l'applicazione Baludik per smartphone o tablet (applicazione gratuita)\n2) Scegliete il percorso \"Château-Gontier, città del millennio\"\n3) Lasciatevi guidare e giocate!\n\nQuesto tour è adatto alle famiglie con bambini.\nDurata: circa 1h30."
+        ],
+        "fr": [
+          "Cité millénaire du Haut-Anjou, Château-Gontier s’est édifiée autour de la Mayenne. Au XIe siècle, le choix de ce site répond à un impératif : défendre et contrôler un point de passage obligé sur la Mayenne entre l’Anjou, le Maine et la Bretagne. La ville se construit sur les hauteurs de la rive droite autour d’un château fort élevé par le comte d’Anjou Foulques III Nerra. \nDes origines de la ville à nos jours, c'est un voyage de plus de 1000 ans qui nous attend !\n\nComment ça marche ? \n1) Téléchargez l'application Baludik pour smartphone ou tablette (application gratuite)\n2) Choisissez le parcours \"Château-Gontier, cité millénaire\"\n3) Laissez-vous guider et jouez !\n\nParcours adapté aux familles avec enfants.\nDurée : 1h30 environ."
+        ],
+        "nl": [
+          "Château-Gontier, een duizend jaar oude stad in Haute Anjou, is gebouwd rond de rivier de Mayenne. In de 11e eeuw beantwoordde de keuze van deze plaats aan een noodzaak: het verdedigen en controleren van een verplichte oversteekplaats op de Mayenne tussen Anjou, Maine en Bretagne. De stad is gebouwd op de hoogten van de rechteroever rond een versterkte burcht, gebouwd door de graaf van Anjou, Foulques III Nerra\nVan het ontstaan van de stad tot nu, een reis van meer dan 1000 jaar staat ons te wachten!\n\nHoe werkt het?\n1) Download de Baludik-applicatie voor smartphone of tablet (gratis applicatie)\n2) Kies de route \"Château-Gontier, millenniumstad\"\n3) Laat je leiden en speel!\n\nDeze tocht is geschikt voor gezinnen met kinderen.\nDuur: ongeveer 1u30."
+        ],
+        "es": [
+          "Château-Gontier, ciudad milenaria de la región del Alto Anjou, fue construida alrededor del río Mayenne. En el siglo XI, la elección de este emplazamiento respondía a un imperativo: defender y controlar un punto de paso obligado en la Mayenne entre Anjou, Maine y Bretaña. La ciudad fue construida en las alturas de la orilla derecha alrededor de un castillo construido por el Conde de Anjou, Foulques III Nerra\nDesde los orígenes de la ciudad hasta la actualidad, nos espera un viaje de más de 1000 años\n\n¿Cómo funciona?\n1) Descargue la aplicación Baludik para smartphone o tablet (aplicación gratuita)\n2) Elija la ruta \"Château-Gontier, ciudad milenaria\"\n3) ¡Déjate guiar y juega!\n\nEsta excursión es adecuada para familias con niños.\nDuración: aproximadamente 1h30."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/03ee2e44-4a13-3ebc-8acc-4011cf91a92f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3d5feb38-345e-33d6-b0b5-dc8e1726a26e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5f8a7838-0ca3-3cd5-9997-f1e3e1f0f29d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/71d5bfc6-c4d7-3c99-b4ea-da427c1dd5e9",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a314b7b9-a7e7-31da-b1e4-46f6b93e41c7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a9fd5733-e485-339c-8d01-4785778baf4e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c24a7743-4cd4-3c9c-98ff-467d9e64d9fe",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dab605f9-6865-34cb-a7ab-596b4c5e85a8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eb3e9796-425a-3f6b-9fe4-880a604d8d3f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ee59a278-b736-3412-9809-d22fe6977417",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Mit dieser Schnitzeljagd lädt Sie das Fremdenverkehrsamt von Château-Gontier ein, in die Geschichte der Stadt einzutauchen und ihre symbolträchtigen Bauwerke auf einem Rundgang in 11 Etappen zu entdecken."
+        ],
+        "en": [
+          "With this treasure hunt, the tourist office of Château-Gontier invites you to immerse yourself in the history of the city and to discover its emblematic monuments through a route in 11 stages."
+        ],
+        "it": [
+          "Con questa caccia al tesoro, l'ufficio turistico di Château-Gontier vi invita a immergervi nella storia della città e a scoprire i suoi monumenti emblematici attraverso un percorso di 11 tappe."
+        ],
+        "fr": [
+          "Avec ce jeu de piste, l'office de tourisme de Château-Gontier vous propose de vous plonger dans l'histoire de la ville et de découvrir ses monuments emblématiques à travers un parcours en 11 étapes ."
+        ],
+        "nl": [
+          "Met deze speurtocht nodigt het VVV-kantoor van Château-Gontier u uit om u onder te dompelen in de geschiedenis van de stad en haar emblematische monumenten te ontdekken via een route van 11 etappes."
+        ],
+        "es": [
+          "Con esta búsqueda del tesoro, la oficina de turismo de Château-Gontier le invita a sumergirse en la historia de la ciudad y a descubrir sus monumentos emblemáticos a través de un recorrido de 11 etapas."
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:Orienteering",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Ausrichtung"
+        ],
+        "pt": [
+          "Orientação"
+        ],
+        "en": [
+          "Orienteering"
+        ],
+        "it": [
+          "Orientamento"
+        ],
+        "fr": [
+          "Orientation"
+        ],
+        "es": [
+          "Orientación"
+        ],
+        "nl": [
+          "Oriëntatie"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0a1c0c54-de1c-326c-8749-8334f604beda",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3835132a-956b-339d-86fd-0ed16a726651",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9d38e8af-8fb4-3d72-802d-099d0be2e16a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc19829b-e623-37f4-8bab-cacced68ccf5",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d063ec6f-a95e-300f-b28c-4b322bca748a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/718b3b40-89ae-3e0e-a440-0b9f31da26ba",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/158836cb-23e9-3735-9e29-fcb47ad6ce3e",
+          "schema:addressLocality": "Château-Gontier-sur-Mayenne",
+          "schema:postalCode": "53200",
+          "schema:streetAddress": [
+            "Place Saint-Jean"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:53062",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "pt": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "en": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "it": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "fr": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "nl": [
+                "Château-Gontier-sur-Mayenne"
+              ],
+              "es": [
+                "Château-Gontier-sur-Mayenne"
+              ]
+            },
+            "insee": "53062",
+            "isPartOfDepartment": {
+              "@id": "kb:France5253",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mayenne"
+                ],
+                "pt": [
+                  "Mayenne"
+                ],
+                "en": [
+                  "Mayenne"
+                ],
+                "it": [
+                  "Mayenne"
+                ],
+                "fr": [
+                  "Mayenne"
+                ],
+                "nl": [
+                  "Mayenne"
+                ],
+                "es": [
+                  "Mayenne"
+                ]
+              },
+              "insee": "53",
+              "isPartOfRegion": {
+                "@id": "kb:France52",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Pays de la Loire"
+                  ],
+                  "pt": [
+                    "Pays de la Loire"
+                  ],
+                  "en": [
+                    "Pays de la Loire"
+                  ],
+                  "it": [
+                    "Pays de la Loire"
+                  ],
+                  "fr": [
+                    "Pays de la Loire"
+                  ],
+                  "nl": [
+                    "Pays de la Loire"
+                  ],
+                  "es": [
+                    "Pays de la Loire"
+                  ]
+                },
+                "insee": "52",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/b5de8bba-7732-3d36-a20d-324769d9486a",
+        "schema:latitude": "47.83006",
+        "schema:longitude": "-0.70629",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2022-05-16",
+  "lastUpdateDatatourisme": "2023-02-28T01:32:34.522Z"
+}

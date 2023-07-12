@@ -1,0 +1,998 @@
+{
+  "@id": "https://data.datatourisme.fr/31/a1cc64fd-8416-3f08-ad79-e514c388631d",
+  "dc:identifier": "TFO459853693173",
+  "@type": [
+    "schema:Accommodation",
+    "schema:House",
+    "schema:LodgingBusiness",
+    "schema:Product",
+    "Accommodation",
+    "AccommodationProduct",
+    "House",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Product",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Das mittelalterliche, geschichtsträchtige und charmante Maison du Pont Vieux in Espalion lehnt sich an die alte Brücke (13. Jahrhundert), neben dem Vieux Palais (Renaissance-Schloss), mit Blick auf den Fluss Lot und wird Sie verzaubern."
+    ],
+    "en": [
+      "The House of the Old Bridge in medieval Espalion, full of history, full of charm leaning against the old bridge (13th century), next to the Old Palace (Renaissance castle), overlooking the river Lot will enchant you."
+    ],
+    "it": [
+      "La Maison du Pont Vieux nella medievale Espalion, ricca di storia, piena di fascino, appoggiata al vecchio ponte (XIII secolo), accanto al Vieux Palais (castello rinascimentale), con vista sul fiume Lot, vi incanterà."
+    ],
+    "fr": [
+      "La Maison du Pont Vieux à Espalion médiévale, chargée d'histoire, pleine de charme adossée au pont vieux (13ème siècle), à coté du Vieux Palais (château Renaissance), surplombant la rivière Lot vous enchantera."
+    ],
+    "es": [
+      "La Maison du Pont Vieux en Espalion medieval, cargada de historia, llena de encanto, apoyada en el puente viejo (siglo XIII), junto al Vieux Palais (castillo renacentista), con vistas al río Lot le encantará."
+    ],
+    "nl": [
+      "Het Maison du Pont Vieux in het middeleeuwse Espalion, vol geschiedenis, vol charme, leunend tegen de oude brug (13e eeuw), naast het Vieux Palais (Renaissance kasteel), met uitzicht op de rivier de Lot zal u betoveren."
+    ]
+  },
+  "rdfs:label": {
+    "fr": [
+      "La maison du Pont Vieux"
+    ]
+  },
+  "allowedPersons": 9,
+  "availableLanguage": [
+    "FR"
+  ],
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/5324d132-ea81-3770-bc15-ef7e3140cac5",
+    "schema:legalName": "OT Terres d'Aveyron",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/66be3cfa-8d5c-34e7-87b1-87e1705c3fc4",
+      "schema:email": [
+        "webmaster@tourisme-aveyron.com"
+      ],
+      "schema:legalName": "ADT Aveyron",
+      "schema:telephone": [
+        "+33 5 65 75 40 12"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.tourisme-aveyron.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/f34d5f75-7d48-3411-88b2-b600945e358f",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/43b7bffe-edcc-370d-aef0-dade7192abf4",
+          "schema:addressLocality": "Espalion",
+          "schema:postalCode": "12500",
+          "schema:streetAddress": [
+            "1, rue Droite"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Espalion"
+              ],
+              "pt": [
+                "Espalion"
+              ],
+              "en": [
+                "Espalion"
+              ],
+              "it": [
+                "Espalion"
+              ],
+              "fr": [
+                "Espalion"
+              ],
+              "nl": [
+                "Espalion"
+              ],
+              "es": [
+                "Espalion"
+              ]
+            },
+            "insee": "12096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:email": [
+        "lemouzof@gmail.com"
+      ],
+      "schema:familyName": [
+        "LEMOUZY"
+      ],
+      "schema:givenName": [
+        "Jean-Claude"
+      ],
+      "schema:legalName": "La maison du Pont Vieux",
+      "schema:telephone": [
+        "+33 6 76 61 05 91"
+      ],
+      "@type": [
+        "schema:Organization",
+        "schema:Person",
+        "foaf:Agent",
+        "foaf:Person",
+        "Agent",
+        "Person"
+      ],
+      "foaf:title": [
+        "Monsieur"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/9a61b008-4f8c-39c1-9a4d-1a2d75177d0e",
+      "dc:description": {
+        "de": [
+          "Ganzes Haus, auf 2 Etagen (1 und 2), renoviert 2022, nach 3 Seiten ausgerichtet mit außergewöhnlichen Aussichten (Pont Vieux, Fluss, Stadt), auf dem Jakobsweg, am Fuße aller Geschäfte.\n4 Schlafzimmer (3 mit einem Bett 160/200, 1 mit einem Bett 160/200 und 1 Bett 120) 4 Badezimmer 4 WC, ein Wohnzimmer mit einem Ausziehbett (2 Schlafplätze 90/190), ein Wohnzimmer mit einem großen Tisch und eine voll ausgestattete Küche, die 11 Reisende beherbergen kann (Möglichkeiten für ein zusätzliches Kinderbett)"
+        ],
+        "en": [
+          "Entire house, on 2 floors (1 and 2) renovated in 2022, oriented on 3 sides with exceptional views (Pont Vieux, river, city), on the way to Saint-Jacques, at the foot of all shops.\n4 bedrooms (3 with a 160/200 bed, 1 with a 160/200 bed and 1 120 bed) 4 bathrooms 4 toilets, a living room with a pull-out bed (2 beds in 90/190), a living room with a large table and a fully equipped kitchen that can accommodate 11 travelers (possibility of additional child bed)"
+        ],
+        "it": [
+          "Intera casa, su 2 piani (1 e 2) ristrutturata nel 2022, affacciata su 3 lati con vista eccezionale (Pont Vieux, fiume, città), sulla strada per Saint-Jacques, ai piedi di tutti i negozi.\n4 camere da letto (3 con letto da 160/200, 1 con letto da 160/200 e 1 da 120), 4 bagni, 4 toilette, un soggiorno con letto estraibile (2 letti da 90/190), un soggiorno con un grande tavolo e una cucina completamente attrezzata che può ospitare 11 viaggiatori (possibilità di un letto supplementare per bambini)"
+        ],
+        "fr": [
+          "Maison entière, sur 2 étages (1 et 2) rénovée en 2022, orientée sur 3 faces avec des vues exceptionnelles (Pont Vieux, rivière, ville), sur le chemin de Saint-Jacques, au pied de tous les commerces.\n4 chambres (3 avec un lit 160/200, 1 avec un lit 160/200 et 1 lit en 120) 4 salles d'eau 4 WC, un salon avec un lit gigogne (2 couchages en 90/190), un séjour avec une grande table et une cuisine entièrement équipée pouvant accueillir 11 voyageurs (possibilités de lit enfant en plus)"
+        ],
+        "nl": [
+          "Volledig huis, op 2 verdiepingen (1 en 2) gerenoveerd in 2022, aan 3 zijden met uitzonderlijk uitzicht (Pont Vieux, rivier, stad), op de weg naar Saint-Jacques, aan de voet van alle winkels.\n4 slaapkamers (3 met een bed van 160/200, 1 met een bed van 160/200 en 1 bed van 120), 4 badkamers, 4 toiletten, een woonkamer met een uitschuifbaar bed (2 bedden van 90/190), een woonkamer met een grote tafel en een volledig uitgeruste keuken die plaats biedt aan 11 reizigers (mogelijkheid van een extra kinderbed)"
+        ],
+        "es": [
+          "Casa entera, en 2 plantas (1 y 2) renovada en 2022, orientada 3 lados con vistas excepcionales (Pont Vieux, río, ciudad), camino de Saint-Jacques, al pie de todos los comercios.\n4 habitaciones (3 con cama de 160/200, 1 con cama de 160/200 y 1 cama de 120), 4 baños, 4 aseos, una sala de estar con cama nido (2 camas 90/190), una sala de estar con una gran mesa y una cocina totalmente equipada con capacidad para 11 viajeros (posibilidad de cama supletoria para niños)"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/00b075e9-2781-37b6-b5b2-ee1768c7a183",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0d7c4849-672c-304a-a526-b8c2d65ef044",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/22b4c167-8b15-39e9-ad22-ce06b396dc8d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5aa2ed49-31fa-3f9f-84d6-6d1cd1baa2d7",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/90579516-d1b2-3cf0-80cd-112b5a96b344",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/99e988bf-df6d-33fd-8b14-bd8787b87549",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d49aa849-97cb-39dd-bc1b-830c0c0b49aa",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ebbded78-b202-3fb2-b40b-68ddec596f88",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ec8c959d-6a9e-3e52-aa7a-287959a79c23",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fc087224-76b5-3dc1-bbef-6b7fbfb9fa85",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Das mittelalterliche, geschichtsträchtige und charmante Maison du Pont Vieux in Espalion lehnt sich an die alte Brücke (13. Jahrhundert), neben dem Vieux Palais (Renaissance-Schloss), mit Blick auf den Fluss Lot und wird Sie verzaubern."
+        ],
+        "en": [
+          "The House of the Old Bridge in medieval Espalion, full of history, full of charm leaning against the old bridge (13th century), next to the Old Palace (Renaissance castle), overlooking the river Lot will enchant you."
+        ],
+        "it": [
+          "La Maison du Pont Vieux nella medievale Espalion, ricca di storia, piena di fascino, appoggiata al vecchio ponte (XIII secolo), accanto al Vieux Palais (castello rinascimentale), con vista sul fiume Lot, vi incanterà."
+        ],
+        "fr": [
+          "La Maison du Pont Vieux à Espalion médiévale, chargée d'histoire, pleine de charme adossée au pont vieux (13ème siècle), à coté du Vieux Palais (château Renaissance), surplombant la rivière Lot vous enchantera."
+        ],
+        "es": [
+          "La Maison du Pont Vieux en Espalion medieval, cargada de historia, llena de encanto, apoyada en el puente viejo (siglo XIII), junto al Vieux Palais (castillo renacentista), con vistas al río Lot le encantará."
+        ],
+        "nl": [
+          "Het Maison du Pont Vieux in het middeleeuwse Espalion, vol geschiedenis, vol charme, leunend tegen de oude brug (13e eeuw), naast het Vieux Palais (Renaissance kasteel), met uitzicht op de rivier de Lot zal u betoveren."
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/6fca104e-759e-3097-8ebe-b5f208e199c6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1acd1d58-3c9b-39d4-9205-8a6dc3199532",
+          "ebucore:abstract": {
+            "fr": [
+              "La maison du Pont Vieux"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "La maison du Pont Vieux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "La maison du Pont Vieux"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/a3ac15b4-4294-3b68-8a9b-ccaed8b267ec",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO459853693173/TFO459853693173-17a/medias/jpeg/37726bcd-324d-4b32-9b03-bda0352a961.jpeg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/6fca104e-759e-3097-8ebe-b5f208e199c6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1acd1d58-3c9b-39d4-9205-8a6dc3199532",
+          "ebucore:abstract": {
+            "fr": [
+              "La maison du Pont Vieux"
+            ]
+          },
+          "ebucore:comments": {
+            "fr": [
+              "La maison du Pont Vieux"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "La maison du Pont Vieux"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/a3ac15b4-4294-3b68-8a9b-ccaed8b267ec",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:heightUnit": "px",
+          "ebucore:locator": [
+            "https://www.caravelis.com/xml/oi/TFO459853693173/TFO459853693173-17a/medias/jpeg/37726bcd-324d-4b32-9b03-bda0352a961.jpeg"
+          ],
+          "ebucore:widthUnit": "px",
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/5c120732-93b7-3ee0-b302-04d28081ad91",
+      "@type": [
+        "Review"
+      ],
+      "reviewDeliveryDate": "2022-07-25"
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/2feb1e16-ade3-3b9e-bb00-c8c2671b903f",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/624820eb-a1f2-38f4-bbe6-aed52e1febda",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/69d4208b-0f4c-3f1e-ba71-ebbd877640ed",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7b8d7d3d-e555-320e-a4bc-e97abc50030b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/902039f0-28b2-378a-bc38-f558acb89209",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/dd9782ba-c2a5-3770-846b-c4640b915f26",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/23b1a09f-0d26-3c39-8235-eb8ecc097bad",
+          "schema:addressLocality": "Espalion",
+          "schema:postalCode": "12500",
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:12096",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Espalion"
+              ],
+              "pt": [
+                "Espalion"
+              ],
+              "en": [
+                "Espalion"
+              ],
+              "it": [
+                "Espalion"
+              ],
+              "fr": [
+                "Espalion"
+              ],
+              "nl": [
+                "Espalion"
+              ],
+              "es": [
+                "Espalion"
+              ]
+            },
+            "insee": "12096",
+            "isPartOfDepartment": {
+              "@id": "kb:France7612",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Aveyron"
+                ],
+                "pt": [
+                  "Aveyron"
+                ],
+                "en": [
+                  "Aveyron"
+                ],
+                "it": [
+                  "Aveyron"
+                ],
+                "fr": [
+                  "Aveyron"
+                ],
+                "nl": [
+                  "Aveyron"
+                ],
+                "es": [
+                  "Aveyron"
+                ]
+              },
+              "insee": "12",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8261065c-5b4e-30b0-90e6-b175c947f0c8",
+        "schema:elevation": "342",
+        "schema:latitude": "44.5221",
+        "schema:longitude": "2.7634",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/f87e535a-636d-3343-ad63-8a03392e7511",
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-05-22",
+  "lastUpdateDatatourisme": "2023-06-22T06:04:14.734Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/6aa7f046-94e2-38a9-b8bc-52dd2ebfd77a",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:Transfers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Überweisungen"
+            ],
+            "pt": [
+              "Transferências"
+            ],
+            "en": [
+              "Transfers"
+            ],
+            "it": [
+              "Bonifici"
+            ],
+            "fr": [
+              "Virements"
+            ],
+            "es": [
+              "Transferencias"
+            ],
+            "nl": [
+              "Overschrijvingen"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0549ca78-8c9c-303c-a60b-4af4f489a7fd",
+          "schema:price": "1400",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Hochsaison für 9 Personen, ganzes Haus, Wäsche inklusive, zusätzliche Reinigung 150 Euro/Woche, 4 Schlafzimmer, 4 Bäder, 4 WCs, voll ausgestattete Küche, Wohnzimmer im Stadtzentrum am Fuße der alten Brücke."
+            ],
+            "en": [
+              "High season for 9 people, whole house, linen provided and laundry included, cleaning in addition 150 euros / week, 4 bedrooms 4 bathrooms, 4 toilets, fully equipped kitchen, lounge in the city center at the foot of the old bridge."
+            ],
+            "it": [
+              "Alta stagione per 9 persone, casa intera, biancheria e lavanderia incluse, pulizia in aggiunta 150 euro/settimana, 4 camere da letto, 4 bagni, 4 toilette, cucina completamente attrezzata, soggiorno nel centro della città ai piedi del ponte vecchio."
+            ],
+            "fr": [
+              "Haute saison pour 9 personnes, maison entière, linge fourni et blanchisserie comprise, ménage en plus 150 euros /semaine, 4 chambres 4 salles de bain ,4 WC, cuisine totalement équipée, salon en plein centre ville au pied du pont vieux."
+            ],
+            "es": [
+              "Temporada alta para 9 personas, toda la casa, ropa de cama y lavandería incluida, limpieza además 150 euros / semana, 4 dormitorios, 4 baños, 4 aseos, cocina totalmente equipada, sala de estar en el centro de la ciudad a los pies del puente viejo."
+            ],
+            "nl": [
+              "Hoogseizoen voor 9 personen, hele huis, linnen en was inbegrepen, schoonmaak in aanvulling 150 euro / week, 4 slaapkamers, 4 badkamers, 4 toiletten, volledig uitgeruste keuken, woonkamer in het centrum van de stad aan de voet van de oude brug."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/028c855e-2c67-31f5-8389-3f0f84a9742c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/0d6a1f17-bd9b-3e27-accb-fa4a86600c58",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/2214f8ba-68d4-32b9-89f8-4afea941c2ad",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/31427b7d-f2d6-3eef-a6d6-ec24caef6133",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4c46a7aa-3e8a-32b9-9c6f-915018bf10d4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "La maison du Pont Vieux"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}
