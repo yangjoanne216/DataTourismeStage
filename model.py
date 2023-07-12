@@ -189,7 +189,7 @@ class DataProcessor:
         return len(data)
 
     def write_to_csv(self, code, etiquettes, departements,file_name):
-        root_dir = 'flux/objects'
+        root_dir = 'flux/objects/0/0a'
         total_files = self.count_instance('flux/index.json')
         processed_files = 0
         with open('outputCSV/'+file_name+".csv", 'w', newline='', encoding='utf-8') as f:
