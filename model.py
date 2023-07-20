@@ -2,8 +2,7 @@ import json
 import pandas as pd
 import csv
 import os
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
+import ast
 
 class DataProcessor:
     def __init__(self, root_dir, output_filename):
@@ -12,7 +11,7 @@ class DataProcessor:
         self.data = []
         self.view = None
 
-    def set_view(self,view):
+    def set_view(self, view):
         self.view = view
 
     def read_json_file(self, json_file):
@@ -84,115 +83,84 @@ class DataProcessor:
                 print(f"错误发生在 {data['@id']}")
             return None
 
-    def find_depth(self, key, depth, class_hierarchy, visited=None):
-        if visited is None:
-            visited = set()  # 使用集合存储已访问过的键，避免重复访问
-        if key in visited:  # 如果键已经访问过，直接返回当前深度，停止递归
-            return depth
-        visited.add(key)
-        parent = class_hierarchy.get(key)  # 使用get方法，当键不存在时返回None
-        if parent is None:
-            return depth
+    def dfs(self, class_dict, start_class, depth=0, max_depth=float('inf')):
+        level_dict = {}
+        stack = [(start_class, depth)]
+        while stack:
+            node, level = stack.pop()
+            if int(level) < max_depth:
+                if level not in level_dict:
+                    level_dict[level] = [node]
+                else:
+                    level_dict[level].append(node)
+                # print(f'Class: {node}, Level: {level}')
+                # for key, value in class_dict.items():
+                # value ==stack.pop()
+                for key, value in class_dict.items():
+                    if value == node:
+                        stack.append((key, level + 1))
+
+        for level in sorted(level_dict.keys()):
+            print(f'Level {level}:')
+            for class_name in level_dict[level]:
+                print(f'    {class_name}')
+        return level_dict
+
+    def translate_to_french(slef,english_str,translation_dict,j):
+        print("En cours " +str(j) + "ème traduction de l'anglais vers le français: "+english_str+"\n")
+        j=j+1
+        # 检查字典中是否有对应的法语翻译
+        if english_str in translation_dict:
+            return j,translation_dict[english_str]
         else:
-            return self.find_depth(parent, depth + 1, class_hierarchy, visited)
+            print("can't find"+english_str)
+            return j,english_str
 
-    def formaliserEtiquette(self, csv_file_in, csv_file_out):
-        with open("ressource/classes.html", 'r', encoding='utf-8') as f:
-            html = f.read()
-        soup = BeautifulSoup(html, 'html.parser')
-        class_hierarchy = {}
-
-        for div in soup.find_all('div', {'class': 'entity'}):
-            if 'id' in div.attrs:  # 判断 'id' 是否在 div 的属性中
-                class_name = div['id']
-                if urlparse(class_name).path:
-                    class_name = urlparse(class_name).path.split('/')[-1]
-                superclass = None
-                description = div.find('dl', {'class': 'description'})
-                if description:
-                    dd_tag = description.find('dd')
-                    if dd_tag:
-                        superclass_tag = dd_tag.find('a')
-                        if superclass_tag:
-                            superclass_url = superclass_tag.get('href')
-                            if superclass_url:
-                                if superclass_url.startswith('#'):
-                                    superclass = superclass_url.replace('#', '')  # 去掉超类中的 '#'
-                                else:
-                                    superclass = urlparse(superclass_url).path.split('/')[-1]  # 提取超类 URL 的最后一个部分
-                class_hierarchy[class_name] = superclass
-
-        # 创建一个空的 set 来存储层次为3，4，5和6的类
-        desired_classes3 = set()
-        desired_classes4 = set()
-        desired_classes5 = set()
-        desired_classes6 = set()
-
-        # 遍历类层次字典
-        for key in class_hierarchy.keys():
-            # 对每一个键执行 find_depth 函数
-            depth = self.find_depth(key, 1, class_hierarchy)
-            # 如果返回的层次深度为5或6，则将该键添加到 set 中
-            if depth == 3:
-                desired_classes3.add(key)
-            if depth == 4:
-                desired_classes4.add(key)
-            if depth == 5:
-                desired_classes5.add(key)
-            if depth == 6:
-                desired_classes6.add(key)
-
+    def formaliserEtiquette(self, csv_file_in, csv_file_out, level_dict):
+        level_classes = [level_dict.get(i, []) for i in range(5)]
         with open(csv_file_in, 'r') as f:
             reader = csv.reader(f)
             rows = list(reader)
 
-        # 处理每一行
-        for row in rows:
-            if len(row) < 17:  # 如果行的长度小于17
-                row.extend([''] * (17 - len(row)))
-                # 分割第一列为项目列表
+        # 处理表头
+        headers = rows[0]
+        for i in range(5):
+            headers.append(f"étiquette niveau {i}")
+        rows[0] = headers
+
+        with open("ressource/Anglais_Francais_dict.txt", 'r') as file:
+            dict_str = file.read()
+            translation_dict = ast.literal_eval(dict_str)
+        j = 0
+        for row in rows[1:]:
             items = row[1].split(", ")
-            # 保留在 set 中的项目
-            items5 = [item for item in items if item in desired_classes5]
-            # 重新组合项目为一个字符串
-            #row.append(", ".join(items5))
-            row[15] = (", ".join(items5))
-            items6 = [item for item in items if item in desired_classes6]
-            #row.append(", ".join(items6))
-            row[16] = (", ".join(items6))
-
-            if row[15] is None or row[15] == '':
-                items4 = [item for item in items if item in desired_classes4]
-                row[15] = (", ".join(items4))
-                row[16] = (", ".join(items5))
-
-            if row[15] is None or row[15] == '' and row[16] is None or row[16] == '':
-                items3 = [item for item in items if item in desired_classes3]
-                row[15] = (", ".join(items3))
-                row[16] = (", ".join(items4))
-        with open(csv_file_out, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
-            fieldnames = [
-                "Afficher le nom", "Étiquettes", "Rue 1", "Rue 2", "Ville",
-                "État", "Pays", "Code postal", "Téléphone", "Mobile", "Email", "Site web", "Description", "Createur",
-                "Publieur", "Etiquette générale", "Etiquette spécialiste"
-            ]  # 列名列表
-            dict_writer = csv.DictWriter(f, fieldnames=fieldnames)  # 使用列名列表创建DictWriter对象
-            dict_writer.writeheader()  # 写入列名
+            for i, level_class in enumerate(level_classes):
+                # Filter items based on the class level
+                filtered_items = [item for item in items if item in level_class]
+                filtered_items_translate=[]
+                for filtered_item in filtered_items:
+                    j,filtered_item_translate = self.translate_to_french(filtered_item,translation_dict,j)
+                    filtered_items_translate.append(filtered_item_translate)
+                row.append(", ".join(filtered_items_translate))
+                if row[15 + i] is None or row[15 + i] == '':
+                    row[15 + i] = ", ".join(filtered_items_translate)
+        print("fini tranlated")
+        with open(csv_file_out, 'w', newline='') as f:
+            writer = csv.writer(f, delimiter=',')
             writer.writerows(rows)
 
-    def count_instance(self,file_json):
+    def count_instance(self, file_json):
         with open(file_json, 'r') as f:
             # 读取JSON数据
             data = json.load(f)
         # 打印实例的数量
         return len(data)
 
-    def write_to_csv(self, code, etiquettes, departements,file_name):
+    def write_to_csv(self, code, etiquettes, departements, file_name):
         root_dir = 'flux/objects'
         total_files = self.count_instance('flux/index.json')
         processed_files = 0
-        with open('outputCSV/'+file_name+".csv", 'w', newline='', encoding='utf-8') as f:
+        with open('outputCSV/' + file_name + ".csv", 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=[
                 "Afficher le nom", "Étiquettes", "Rue 1", "Rue 2", "Ville",
                 "État", "Pays", "Code postal", "Téléphone", "Mobile", "Email", "Site web", "Description", "Createur",
@@ -234,17 +202,25 @@ class DataProcessor:
                         # When both code and etiquettes are empty or 'all' is selected, no filtering is performed
                         else:
                             writer.writerow(company_info)
-                        print("Extraction des données en cours : "+str(processed_files)+"/"+str(total_files))
-
-        print("Fin de l'impression de toutes les données")
-        #yield 'message', "Fin de l'impression de toutes les données"  # yield a status messag
+                        print("Extraction des données en cours : " + str(processed_files) + "/" + str(total_files))
+        # yield 'message', "Fin de l'impression de toutes les données"  # yield a status messag
         self.view.update_status_message(
-            f"Fin de l'impression de toutes les données,{str(total_files)} fichiers traités", True)
-        data = pd.read_csv('outputCSV/'+file_name+".csv")
-        data.to_excel('outputExcel/'+file_name+".xlsx")
+            f"Les données ont été lues avec succès.,{str(total_files)} fichiers traités", True)
+        print("*****************************\nFin de l'impression de toutes les données\n*****************************\n")
 
- #       self.formaliserEtiquette('outputCSV/outputCSV.csv', 'outputCSV/outputCSV.csv')
+        with open("ressource/class_hierarchy.txt", 'r') as file:
+            dict_str = file.read()
+            class_hierarchy = ast.literal_eval(dict_str)
+        level_dict = self.dfs(class_hierarchy, 'PointOfInterest', max_depth=6)
+        self.formaliserEtiquette('outputCSV/' + file_name + ".csv", 'outputCSV/' + file_name + ".csv", level_dict)
+        data = pd.read_csv('outputCSV/' + file_name + ".csv")
+        self.view.update_status_message(
+            f"La sortie du fichier CSV se termine.,{str(total_files)} fichiers traités", True)
+        print("*****************************\nLa sortie du fichier csv se termine.\n*****************************\n")
+        data.to_excel('outputExcel/' + file_name + ".xlsx")
+        self.view.update_status_message(
+            f"La sortie du fichier Excel se termine.\nLe processus se termine.\nVous pouvez resélectionner le fichier suivant à sortir.\n", True)
+        print("*****************************\nLa sortie du fichier Excel se termine.\nLe processus se termine.\nVous pouvez resélectionner le fichier suivant à sortir.\n*****************************\n")
 
     def filter_data(self, filters):
         pass
-

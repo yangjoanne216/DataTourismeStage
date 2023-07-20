@@ -194,3 +194,5 @@ if __name__ == "__main__":
     model.set_view(view)
     view.show()
     app.exec_()
+
+
